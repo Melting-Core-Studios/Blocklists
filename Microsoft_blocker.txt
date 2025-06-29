@@ -1,6 +1,6 @@
 ! Title: [ MCS ] Anti-Microsoft
 ! Description: Blocks almost all Microsoft tracking in Windows and Office (and other Microsoft products)
-! Version: V1.6.1102d
+! Version: V1.6.7911ab
 ! Homepage: https://www.meltingcorestudios.com/
 ! License: CC BY-SA 4.0
 ! Author: Melting Core Studios
@@ -253,5 +253,12 @@
 @@||www.skype.com^$important
 @@||www.xbox.com^$important
 @@||account.xbox.com^$important
+@@||download.windowsupdate.com^$important
+@@||fe2.update.microsoft.com^$important
+@@||*.officeapps.live.com^$script,$xhr,important
+@@||statics.teams.cdn.office.net^$important
+@@||aadcdn.msauth.net^$important
+@@||loginstatic.microsoft.com^$important
+
 
 ! =============== EINDE MICROSOFT ULTIMATE TRACKING BLOCKLIST ===============
