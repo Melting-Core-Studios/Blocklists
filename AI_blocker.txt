@@ -1,0 +1,89 @@
+! Title: [ MCS ] Say NO to AI
+! Description: Blocks well known AI training crawlers from obtaining user-data for so called "training purposes". 
+! Version: 0.9.2116-pre-release
+! License: CC BY-SA 4.0
+! Author: Melting Core Studios
+! Warning: This list may break some functionality of AI tools. Use in a sandbox before definite use. 
+
+! ============== OPENAI (GPTBot / ChatGPT) ==============
+||openai.com^$third-party
+||platform.openai.com^$third-party
+||labs.openai.com^$third-party
+||chatgpt.com^$third-party
+||gptbot.io^
+||*.gptbot.*^
+/^.*\/gptbot\/?.*$/ ! UA-pattern
+
+! ============== ANTHROPIC (Claude) ======================
+||anthropic.com^$third-party
+||claude.ai^$third-party
+||claudebot.ai^
+||claudebot.com^
+/^.*ClaudeBot.*$/                                              ! UA
+
+! ============== PERPLEXITY AI ===========================
+||perplexity.ai^$third-party
+||perplexitybot.com^
+||perplexitybrowser.com^
+/^.*PerplexityBot.*$/                                          ! UA
+
+! ============== COHERE (cohere-training-data-crawler) ===
+||cohere.ai^$third-party
+||coherebot.com^
+/^.*cohere-training-data-crawler.*$/                          ! UA
+
+! ============== GOOGLE (Gemini / Bard training) =========
+||bard.google.com^$third-party
+||crawl-content.google.com^$third-party
+||ai.googleusercontent.com^
+/^.*Google-Extended.*$/                                        ! UA (“Google-Extended” opt-out)
+
+! ============== META (Llama & Research) =================
+||research.facebook.com^$third-party
+||llama.meta.com^$third-party
+||crawler.meta.ai^
+/^.*MetaAI-Crawler.*$/                                         ! UA
+
+! ============== AMAZON BEDROCK / ALEXA TEACHER ==========
+||bedrock.aws.amazon.com^$third-party
+||ai-data.aws.com^$third-party
+||aiaws-crawler.amazon.com^
+/^.*BedrockBot.*$/                                             ! UA
+
+! ============== BYTEDANCE (ByteSpider / TikTok AI) ======
+||bytespider.com^
+||crawl.bytedance.com^
+||crawler.bytedance.com^
+/^.*ByteSpider.*$/                                             ! UA
+
+! ============== STABILITY AI / MIDJOURNEY ===============
+||stability.ai^$third-party
+||dreamstudio.ai^$third-party
+||crawler.stability.ai^
+||midjourney.com^$third-party
+||mjbot.ai^
+/^.*StabilityCrawler.*$/                                       ! UA
+
+! ============== ELEUTHER / COMMON CRAWL / CCBot =========
+||commoncrawl.org^$third-party
+||ccbot.semanticscholar.org^
+||data.commoncrawl.org^$third-party
+/^.*CCBot.*$/                                                  ! UA
+
+! ============== HUGGING FACE HUB (datasets scraping) ====
+||huggingfaceusercontent.com^$third-party
+||datasets-server.huggingface.co^$third-party
+||crawl.huggingface.co^
+/^.*HF-Crawler.*$/                                             ! UA
+
+! ============== GENERIC AI-TRAINING WILDCARDS ===========
+||*ai-crawler*^$third-party
+||*model-training*^$third-party
+||*dataset-crawl*^$third-party
+/^.*\/(dataset|training|crawl)\/.*(bot|spider).*$/
+
+! ============== ANTI-BREAKAGE (essentieel) ===============
+@@||chat.openai.com^$important ! For UI functionality
+@@||claude.ai^$important ! For UI functionality
+@@||labs.openai.com^$image,$important
+@@||midjourney.com^$important
