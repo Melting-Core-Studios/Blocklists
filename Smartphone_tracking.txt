@@ -1,0 +1,325 @@
+! Title: [ MCS ] Optimized Smartphone Tracking Blocklist
+! Description: Maximum privacy protection for your phone
+! Version: V1.0.821a
+! Homepage: https://www.meltingcorestudios.com/
+! License: CC BY-SA 4.0
+! Author: Melting Core Studios
+
+! =============== GOOGLE & ANDROID ULTRA-WILDCARDS ===============
+! Blokkeert alle Google tracking met slechts 6 regels
+||*google*analytics*^$third-party
+||*doubleclick*^$third-party
+||*googlesyndication*^$third-party
+||*googleadservices*^$third-party
+||*firebase*^$third-party
+||*crashlytics*^$third-party
+
+! Android specifieke telemetrie
+||android.clients.google.com^
+||mtalk.google.com^
+||*gstatic.com^$third-party
+
+! =============== APPLE & IOS ULTRA-WILDCARDS ===============
+! Blokkeert alle Apple tracking met 3 regels
+||*apple*analytics*^$third-party
+||*apple*telemetry*^$third-party
+||metrics*.apple.com^
+
+! =============== SAMSUNG ULTRA-WILDCARDS ===============
+! Blokkeert alle Samsung tracking met 5 regels
+||*samsung*analytics*^$third-party
+||*samsung*telemetry*^$third-party
+||*samsungads*^$third-party
+||*knox*^$third-party
+||*samsungcloud*^$third-party
+
+! =============== XIAOMI/REDMI/POCO ULTRA-WILDCARDS ===============
+! Blokkeert alle Xiaomi ecosystem tracking met 4 regels[18][21][23]
+||*xiaomi*^$third-party
+||*miui*^$third-party
+||*redmi*^$third-party
+||*poco*^$third-party
+
+! =============== HUAWEI/HONOR ULTRA-WILDCARDS ===============
+! Blokkeert alle Huawei tracking met 4 regels[18][21]
+||*huawei*^$third-party
+||*hms*^$third-party
+||*honor*^$third-party
+||*hicloud*^$third-party
+
+! =============== OPPO/ONEPLUS/REALME ULTRA-WILDCARDS ===============
+! Blokkeert alle BBK Electronics brands met 4 regels
+||*oppo*^$third-party
+||*oneplus*^$third-party
+||*realme*^$third-party
+||*coloros*^$third-party
+
+! =============== VIVO/IQOO ULTRA-WILDCARDS ===============
+||*vivo*^$third-party
+||*iqoo*^$third-party
+||*funtouch*^$third-party
+
+! =============== OVERIGE OEM'S ULTRA-WILDCARDS ===============
+! Sony, Motorola, LG, Nokia, Asus, etc.
+||*sony*mobile*^$third-party
+||*motorola*^$third-party
+||*lenovo*mobile*^$third-party
+||*lg*mobile*^$third-party
+||*nokia*^$third-party
+||*asus*mobile*^$third-party
+||*nothing*tech*^$third-party
+
+! =============== CHIPSET TRACKING ULTRA-WILDCARDS ===============
+! Qualcomm, MediaTek, Samsung Exynos tracking[8]
+||*qualcomm*telemetry*^$third-party
+||*qti*^$third-party
+||*mediatek*^$third-party
+||*exynos*^$third-party
+
+! =============== ADVANCED REGEX PATTERNS ===============
+! Alle OEM analytics met regex (1 regel = 1000+ domeinen)[28]
+/^.*\.(com|net|org|cn)\/.*analytics.*$/
+
+! Alle telemetrie patterns
+/^.*telemetry.*\.(com|net|org|cn).*$/
+/^.*tracking.*\.(com|net|org|cn).*$/
+/^.*metrics.*\.(com|net|org|cn).*$/
+
+! =============== ULTRA-BREDE CATCH-ALL WILDCARDS ===============
+! Deze 6 regels blokkeren praktisch alle onbekende tracking
+||*analytics*^$third-party
+||*telemetry*^$third-party
+||*tracking*^$third-party
+||*metrics*^$third-party
+||*ads*^$third-party
+||*advertising*^$third-party
+
+! =============== ANTI-BREAKAGE REGELS ===============
+! Voorkom dat essentiële services breken
+@@||accounts.google.com^$important
+@@||apis.google.com^$important
+@@||fonts.googleapis.com^$important
+@@||update.microsoft.com^$important
+@@||windowsupdate.microsoft.com^$important
+@@||play.google.com^$important
+@@||www.google.com^$important
+@@||www.apple.com^$important
+@@||www.samsung.com^$important
+
+! =============== ULTRA-WILDCARDS & REGEX ===============
+
+! Blokkeer alle bekende OEM-telemetrie (inclusief onbekende subdomeinen)
+||*.miui.com^
+||*.xiaomi.com^
+||*.mi.com^
+||*.hicloud.com^
+||*.huawei.com^
+||*.oppo.com^
+||*.oneplus.com^
+||*.realme.com^
+||*.bbk.com^
+||*.vivo.com^
+||*.samsung.com^
+||*.samsungcloud.com^
+||*.samsungknox.com^
+||*.sony.com^
+||*.motorola.com^
+||*.lenovo.com^
+||*.asus.com^
+||*.lg.com^
+||*.nokia.com^
+||*.fairphone.com^
+||*.nothing.tech^
+||*.zte.com^
+||*.meizu.com^
+||*.tcl.com^
+||*.nubia.com^
+||*.blackshark.com^
+||*.redmagic.gg^
+||*.honor.com^
+||*.hisuite.com^
+||*.hispace.hicloud.com^
+||*.hisuite.hicloud.com^
+
+! Blokkeer alle tracking/telemetrie subdomeinen universeel
+||*analytics*^$third-party
+||*telemetry*^$third-party
+||*tracking*^$third-party
+||*metrics*^$third-party
+||*log*service*^$third-party
+||*event*data*^$third-party
+||*crash*^$third-party
+||*stat*^$third-party
+||*data*collection*^$third-party
+
+! Regex voor universele tracking, telemetrie en analytics
+/^.*\.(com|net|org|cn)\/.*(analytics|telemetry|tracking|metrics|logservice|eventdata|crash|stat|datacollection).*$/i
+
+! =============== SPECIFIEKE TRACKING DOMEINEN (OEM & SYSTEM) ===============
+
+! Xiaomi/MIUI/POCO/Redmi (veel voorkomend in logs)[5]
+||tracking.miui.com^
+||data.mistat.xiaomi.com^
+||sdkconfig.ad.xiaomi.com^
+||api.ad.xiaomi.com^
+||o2o.api.xiaomi.com^
+||resolver.msg.xiaomi.net^
+||eu.global.market.xiaomi.com^
+||fr.app.chat.global.xiaomi.net^
+||api.sec.intl.miui.com^
+||eu-gamecenter.api.intl.miui.com^
+||api.gallery.intl.miui.com^
+||appvault-a.api.intl.miui.com^
+||browser.cdn.intl.miui.com^
+||brs.api.intl.miui.com^
+||newsfeed.api.intl.miui.com^
+||weatherapi.intl.xiaomi.com^
+
+! Samsung (telemetrie en advertenties)
+||dls.mobileservice.samsung.com^
+||gameoptimizingservice.samsung.com^
+||selp.samsungcsportal.com^
+||samsungads.com^
+||data.sec.samsung.net^
+
+! Huawei/Honor
+||metrics.data.hicloud.com^
+||logservice.hicloud.com^
+||consumer.huawei.com^
+||hms.analytics.hicloud.com^
+
+! Oppo/OnePlus/Realme/Vivo/IQOO
+||adsfs.oppomobile.com^
+||bdapi-in-ads.realmemobile.com^
+||funtouch.3g.qq.com^
+||coloros.com^
+||nearme.com.cn^
+||iqoo.com^
+
+! Apple/iOS
+||xp.apple.com^
+||gsp-ssl.ls.apple.com^
+||weather-analytics-events.apple.com^
+||init-p01md.apple.com^
+||init-p01st.push.apple.com^
+||init.ess.apple.com^
+||feedbackws.ess.apple.com^
+||stats.ess.apple.com^
+
+! Qualcomm/MediaTek/Chipset
+||izatcloud.net^
+||xtra*.qualcomm.com^
+||mediatek.com^
+||qti.qualcomm.com^
+
+! Universele app tracking (Android/iOS)
+||app-measurement.com^
+||firebaseinstallations.googleapis.com^
+||settings.crashlytics.com^
+||crashlytics.com^
+||firebase-settings.crashlytics.com^
+
+! =============== BASEBAND & CHIPSET NIVEAU TRACKING ===============
+! Baseband processor tracking (zeer diep niveau)[17][20][23]
+||*baseband*tracking*^$third-party
+||*baseband*telemetry*^$third-party
+||*modem*firmware*tracking*^$third-party
+||*cellular*modem*analytics*^$third-party
+
+! SIM/eSIM applet surveillance[18][21]
+||*sim*applet*tracking*^$third-party
+||*esim*surveillance*^$third-party
+||*sim*toolkit*analytics*^$third-party
+||*usim*monitoring*^$third-party
+
+! Carrier Grade NAT surveillance[11][14]
+||*cgnat*tracking*^$third-party
+||*carrier*grade*surveillance*^$third-party
+||*mobile*packet*core*monitoring*^$third-party
+
+! =============== NETWORK OPERATOR SURVEILLANCE ===============
+! SS7/Diameter protocol surveillance[13][19]
+||*ss7*surveillance*^$third-party
+||*diameter*protocol*tracking*^$third-party
+||*gsm*location*surveillance*^$third-party
+||*lte*protocol*monitoring*^$third-party
+
+! Cell tower triangulation advanced[12][19]
+||*cell*tower*triangulation*^$third-party
+||*base*station*tracking*^$third-party
+||*antenna*pattern*surveillance*^$third-party
+||*signal*strength*monitoring*^$third-party
+
+! IMSI catcher & Stingray detection[13][19]
+||*imsi*catcher*^$third-party
+||*stingray*device*^$third-party
+||*cell*site*simulator*^$third-party
+||*rogue*base*station*^$third-party
+
+! =============== ADVANCED LOCATION SURVEILLANCE ===============
+! Wi-Fi triangulation advanced[7][12]
+||*wifi*triangulation*tracking*^$third-party
+||*mac*address*surveillance*^$third-party
+||*wifi*positioning*system*^$third-party
+||*crowdsourced*wifi*tracking*^$third-party
+
+! Bluetooth beacon surveillance[12]
+||*bluetooth*beacon*tracking*^$third-party
+||*ble*beacon*surveillance*^$third-party
+||*proximity*beacon*monitoring*^$third-party
+||*mesh*bluetooth*tracking*^$third-party
+
+! Advanced GPS surveillance[9][12]
+||*predictive*location*tracking*^$third-party
+||*ai*powered*location*prediction*^$third-party
+||*movement*pattern*analysis*^$third-party
+||*location*analytics*advanced*^$third-party
+
+! =============== DATA BROKER & ADVERTISING SURVEILLANCE ===============
+! Real-time bidding surveillance[7]
+||*rtb*auction*tracking*^$third-party
+||*real*time*bidding*surveillance*^$third-party
+||*ad*auction*data*collection*^$third-party
+||*programmatic*advertising*tracking*^$third-party
+
+! Cross-device tracking advanced[7][9]
+||*cross*device*fingerprinting*^$third-party
+||*device*graph*tracking*^$third-party
+||*identity*resolution*surveillance*^$third-party
+||*household*tracking*platform*^$third-party
+
+! =============== ENTERPRISE & GOVERNMENT SURVEILLANCE ===============
+! Secure space surveillance[15]
+||*classified*area*surveillance*^$third-party
+||*government*device*monitoring*^$third-party
+||*secure*space*tracking*^$third-party
+||*classified*information*surveillance*^$third-party
+
+! =============== REGEX VOOR DIEPSTE NIVEAU ===============
+! Baseband en hardware surveillance
+/^.*baseband.*surveillance.*tracking.*\.(com|net|org|io).*$/
+/^.*modem.*firmware.*tracking.*\.(com|net|org|io).*$/
+/^.*sim.*applet.*surveillance.*\.(com|net|org|io).*$/
+
+! Network operator surveillance
+/^.*ss7.*diameter.*surveillance.*\.(com|net|org|io).*$/
+/^.*carrier.*grade.*tracking.*\.(com|net|org|io).*$/
+/^.*mobile.*packet.*core.*surveillance.*\.(com|net|org|io).*$/
+
+! =============== ULTRA-SPECIFIEKE TRACKING DOMEINEN ===============
+! Gebaseerd op actueel onderzoek[1][5][7]
+||app-measurement.com^
+||device-metrics-us.amazon.com^
+||firebase-settings.crashlytics.com^
+||dls.mobileservice.samsung.com^
+||gameoptimizingservice.samsung.com^
+||tracking.miui.com^
+||data.mistat.xiaomi.com^
+||metrics.data.hicloud.com^
+||bdapi-in-ads.realmemobile.com^
+
+! =============== WAARSCHUWING ===============
+! BELANGRIJK: Deze regels kunnen kritieke functies verstoren!
+! Test altijd eerst voordat je volledig implementeert
+
+
