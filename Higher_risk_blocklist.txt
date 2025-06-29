@@ -157,6 +157,12 @@
 ! Enkele regels kunnen legitieme functionaliteit blokkeren
 
 ! =============== NIET TE BLOKKEREN ===============
-@@||accounts.google.com^$important @@||login.google.com^$important @@||myaccount.google.com^$important @@||oauth.google.com^$important @@||www.google.com^$important @@||ssl.gstatic.com^$important @@||fonts.googleapis.com^$important
+@@||accounts.google.com^$important
+@@||login.google.com^$important
+@@||myaccount.google.com^$important
+@@||oauth.google.com^$important
+@@||www.google.com^$important
+@@||ssl.gstatic.com^$important
+@@||fonts.googleapis.com^$important
 
 ! =============== EINDE HIGHER RISK TRACKING BLOCKLIST ===============
