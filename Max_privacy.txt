@@ -1,6 +1,6 @@
 ! Title: [ MCS ] Ultimate Privacy Tracking Blocklist
 ! Description: Blokkeert alle tracking, telemetrie en spyware van Google, Meta, Microsoft en andere grote tech bedrijven. Gebruikt wildcards en regex voor maximale effectiviteit.
-! Version: 1.1.56
+! Version: 1.2.1105b
 ! Homepage: https://www.meltingcorestudios.com/
 ! License: CC BY-SA 4.0
 ! Last modified: 2025-06-29 11:57 CEST
@@ -2214,6 +2214,28 @@
 ||*enrichment*^$third-party
 ||*analysis*^$third-party
 ||*processing*^$third-party
+
+! =============== ALLOW BASIC FUNCTIONING ===============
+@@||*.ggpht.com^$image,important
+@@||payments.google.com^$important
+@@||pay.google.com^$important
+@@||fonts.googleapis.com^$important
+@@||fonts.gstatic.com^$important
+@@||ajax.googleapis.com/ajax/libs/*$important
+@@||maps.googleapis.com^$important
+@@||maps.gstatic.com^$important
+@@||mapsresources-pa.googleapis.com^$important
+@@||www.google.com/recaptcha/*$important
+@@||www.gstatic.com/recaptcha/*$important
+@@||download.windowsupdate.com^$important
+@@||fe2.update.microsoft.com^$important
+@@||accounts.google.com^$important
+@@||login.google.com^$important
+@@||myaccount.google.com^$important
+@@||oauth.google.com^$important
+@@||www.google.com^$important
+@@||ssl.gstatic.com^$important
+@@||fonts.googleapis.com^$important
 
 ! ================================
 ! EINDE ABSOLUTE MAXIMUM SURVEILLANCE BLOCKING EXTENSION
