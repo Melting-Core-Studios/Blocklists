@@ -1,6 +1,6 @@
 ! Title: [ MCS ] Optimized Smartphone Tracking Blocklist
 ! Description: Maximum privacy protection for your phone
-! Version: V1.0.821a
+! Version: V1.1.5449ac
 ! Homepage: https://www.meltingcorestudios.com/
 ! License: CC BY-SA 4.0
 ! Author: Melting Core Studios
@@ -11,13 +11,11 @@
 ||*doubleclick*^$third-party
 ||*googlesyndication*^$third-party
 ||*googleadservices*^$third-party
-||*firebase*^$third-party
 ||*crashlytics*^$third-party
 
 ! Android specifieke telemetrie
 ||android.clients.google.com^
 ||mtalk.google.com^
-||*gstatic.com^$third-party
 
 ! =============== APPLE & IOS ULTRA-WILDCARDS ===============
 ! Blokkeert alle Apple tracking met 3 regels
@@ -87,10 +85,7 @@
 
 ! =============== ULTRA-BREDE CATCH-ALL WILDCARDS ===============
 ! Deze 6 regels blokkeren praktisch alle onbekende tracking
-||*analytics*^$third-party
 ||*telemetry*^$third-party
-||*tracking*^$third-party
-||*metrics*^$third-party
 ||*ads*^$third-party
 ||*advertising*^$third-party
 
@@ -105,6 +100,34 @@
 @@||www.google.com^$important
 @@||www.apple.com^$important
 @@||www.samsung.com^$important
+
+! =============== AUTHENTICATION SAFETY NET ===============
+@@||login.google.com^$important  
+@@||oauth.google.com^$important
+@@||github.githubassets.com^$important
+@@||api.github.com^$important
+@@||api.sonos.com^$important
+@@||*.gstatic.com^$important,domain=accounts.google.com|github.com
+@@||firebase.googleapis.com^$important,domain=accounts.google.com
+@@||ssl.gstatic.com^$important
+
+! =============== SAFEGUARDS ===============
+! Google specifieke tracking (niet alle gstatic)
+||google-analytics.com^
+||googletagmanager.com^
+||doubleclick.net^
+||googlesyndication.com^
+
+! Firebase tracking (niet alle Firebase)
+||firebaselogging.googleapis.com^$third-party
+||firebase-settings.crashlytics.com^
+||app-measurement.com^
+
+! OEM specifieke tracking (niet alle OEM domeinen)
+||tracking.miui.com^
+||data.mistat.xiaomi.com^
+||telemetry.microsoft.com^
+||samsung-analytics.com^
 
 ! =============== ULTRA-WILDCARDS & REGEX ===============
 
