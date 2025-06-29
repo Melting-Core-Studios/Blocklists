@@ -1,6 +1,6 @@
 ! Title: [ MCS ] Agressive blocking
 ! Description: Blocklist that tries to fight against the often used bypass trackers. Has a higher risk to break common websites, use at your own risk!
-! Version: V3.21.8849aac
+! Version: V3.22.8811c
 ! Homepage: https://meltingcorestudios.com/
 ! License: CC BY-SA 4.0
 ! Author: Melting Core Studios
@@ -155,5 +155,8 @@
 ! BELANGRIJK: Deze regels zijn zeer agressief en kunnen websites breken!
 ! Test altijd eerst in een sandbox omgeving
 ! Enkele regels kunnen legitieme functionaliteit blokkeren
+
+! =============== NIET TE BLOKKEREN ===============
+@@||accounts.google.com^$important @@||login.google.com^$important @@||myaccount.google.com^$important @@||oauth.google.com^$important @@||www.google.com^$important @@||ssl.gstatic.com^$important @@||fonts.googleapis.com^$important
 
 ! =============== EINDE HIGHER RISK TRACKING BLOCKLIST ===============
