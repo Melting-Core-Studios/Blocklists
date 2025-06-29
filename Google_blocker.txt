@@ -70,13 +70,16 @@
 ||*googleapis*telemetry*^$third-party
 
 ! Google APIs met tracking
-||*.googleapis.com^$third-party,domain=~googleapis.com
+||firebaseio.com^$third-party
+||firebaselogging.googleapis.com^$third-party
+||youtubei.googleapis.com^$third-party
+
 
 ! =============== GOOGLE STATIC RESOURCES TRACKING ===============
 ! Google Static resources (gstatic)[27][30]
 ||*gstatic*analytics*^$third-party
 ||*gstatic*tracking*^$third-party
-||gstatic.com^$third-party
+||gstatic.com^$third-party,domain=~accounts.google.com|~myaccount.google.com
 
 ! =============== YOUTUBE TRACKING ===============
 ! YouTube tracking en analytics[18][24]
