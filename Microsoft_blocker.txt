@@ -51,7 +51,7 @@
 ||office365.com^$third-party
 ||officeapps.live.com^$third-party
 ||outlook.office365.com^$third-party
-||graph.microsoft.com^$third-party
+||graph.microsoft.com^$third-party,domain=~login.microsoftonline.com|~portal.office.com
 ||config.office.com^$third-party
 ||clients.config.office.net^$third-party
 
