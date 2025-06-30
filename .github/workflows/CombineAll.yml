@@ -82,7 +82,7 @@ jobs:
             case "$key" in
               malvertising) output_file="Malvertising_Blocklist/malvertising_blocklist.txt" ;;
               tracking)     output_file="Tracking_blocklist/full_anti_track.txt"     ;;
-              annoyances)   output_file="Annoyances_list/full_anti_track.txt"        ;;
+              annoyances)   output_file="Annoyances_list/annoyances.txt"        ;;
               *)            echo "::error::Unknown key: $key"; exit 1 ;;
             esac
 
