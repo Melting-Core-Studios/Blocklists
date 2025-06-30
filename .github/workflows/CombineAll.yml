@@ -20,18 +20,20 @@ jobs:
       max-parallel: 2
 
     steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - uses: dcarbone/install-jq-action@v3
+      - name: Install jq
+        uses: dcarbone/install-jq-action@v3
         with:
           version: "1.6"
 
-      - run: npm install -g @adguard/hostlist-compiler
+      - name: Install hostlist-compiler
+        run: npm install -g @adguard/hostlist-compiler
 
-      - name: Compile preliminary
-        run: hostlist-compiler -c "${{ matrix.cfg.path }}" -o "${{ matrix.cfg.out }}"
+      - name: Compile preliminary output
+        run: |
+          hostlist-compiler -c "${{ matrix.cfg.path }}" -o "${{ matrix.cfg.out }}"
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
@@ -46,63 +48,73 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout full history
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
           persist-credentials: true
 
-      - uses: dcarbone/install-jq-action@v3
+      - name: Install jq
+        uses: dcarbone/install-jq-action@v3
         with:
-          version: "1.6"
+          version: '1.6'
 
-      - run: npm install -g @adguard/hostlist-compiler
+      - name: Install hostlist-compiler
+        run: npm install -g @adguard/hostlist-compiler
 
-      - uses: actions/download-artifact@v4
+      - name: Download artifacts
+        uses: actions/download-artifact@v4
         with:
           path: artifacts
 
-      - name: Process all lists
-        id: proc
+      - name: Compare, bump version & recompile
+        id: process
         run: |
           changed_any=false
-          for key in malvertising tracking; do
-            cfg="artifacts/$key/compile-config.json"
-            out="artifacts/$key/$(basename "$(jq -r .out < "$cfg")")"
+
+          for dir in artifacts/*; do
+            key=$(basename "$dir")
+            cfg="$dir/compile-config.json"
+            artifact_out="$dir/$(basename "$(jq -r .out < "$cfg")")"
             repo_out="$(jq -r .out < "$cfg")"
 
-            # 1) compile temp to compare
-            tmp="artifacts/$key/tmp.txt"
-            hostlist-compiler -c "$cfg" -o "$tmp"
+            # Vergelijk artifact-output met bestaande file
+            if ! cmp -s "$artifact_out" "$repo_out"; then
+              echo "🔄 $key changed"
 
-            if ! cmp -s "$tmp" "$repo_out"; then
-              echo "⚙️ $key changed"
-              # bump version
-              ver=$(jq -r '.version' "$cfg")
-              [[ "$ver" == "auto" || -z "$ver" ]] && ver="1.0.0000a"
-              IFS='.' read -r _ minor _ <<<"$ver"
-              minor=$((minor+1))
+              # Bump version alleen bij verandering:
+              cur=$(jq -r '.version' "$cfg")
+              [[ "$cur" == "auto" || -z "$cur" ]] && cur="1.0.0000a"
+              IFS='.' read -r _ minor _ <<<"$cur"
+              minor=$((minor + 1))
+
+              # Genereer random pas bij bump:
               rnd=$(shuf -i 1000-9999 -n1)
               letter=$(shuf -n1 -e {a..z})
               new="1.${minor}.${rnd}${letter}"
-              jq ".version=\"${new}\"" "$cfg" >"$cfg.tmp" && mv "$cfg.tmp" "$cfg"
-              # final compile
+
+              jq ".version = \"${new}\"" "$cfg" > "$cfg.tmp" && mv "$cfg.tmp" "$cfg"
+              echo "Bumped $key to $new"
+
+              # Definitief compile met nieuwe versie
               hostlist-compiler -c "$cfg" -o "$repo_out"
               git add "$cfg" "$repo_out"
               changed_any=true
+            else
+              echo "✅ $key unchanged"
             fi
           done
+
           echo "changed_any=$changed_any" >> $GITHUB_OUTPUT
 
-      - name: Cleanup temporary files
+      - name: Cleanup temporary artifacts
         if: always()
-        run: |
-          rm -rf temp_output.txt
-          rm -rf artifacts/
+        run: rm -rf artifacts
 
       - name: Commit & push if needed
-        if: steps.proc.outputs.changed_any == 'true'
+        if: steps.process.outputs.changed_any == 'true'
         run: |
           git config user.email "actions@github.com"
-          git config user.name  "MCS-Bot"
+          git config user.name "MCS-Bot"
           git commit -m "Auto-build updated blocklists – $(date -u +'%Y-%m-%d %H:%M UTC')"
-          git push
+          git push --force-with-lease
