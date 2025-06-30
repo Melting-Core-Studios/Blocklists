@@ -117,9 +117,6 @@ jobs:
           done
 
           echo "changed_any=$changed_any" >> $GITHUB_OUTPUT
-
-        id: process
-        run: |
           changed_any=false
 
           for dir in artifacts/*; do
