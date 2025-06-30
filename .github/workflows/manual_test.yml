@@ -1,0 +1,81 @@
+name: Compile all blocklists (manual trigger test)
+
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  push:
+    paths:
+      - '**/*.txt'
+      - '**/compile-config.json'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        cfg:
+          - path: "Malvertising_Blocklist/compile-config.json"
+            out:  "Malvertising_Blocklist/malvertising_blocklist.txt"
+          - path: "Tracking_blocklist/compile-config.json"
+            out:  "Tracking_blocklist/full_anti_track.txt"
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - run: npm i -g @adguard/hostlist-compiler
+
+      - name: Bump version in ${{ matrix.cfg.path }} (custom format)
+        id: bump
+        shell: bash
+        run: |
+          FILE="${{ matrix.cfg.path }}"
+
+          # huidige versie uit JSON (verwacht "version": "1.b.xxxxc")
+          current=$(jq -r '.version' "$FILE")
+
+          # fallback als versie nog op "auto" staat
+          if [[ "$current" == "auto" || -z "$current" ]]; then
+            current="1.0.0000a"
+          fi
+
+          # split versie op punten
+          IFS='.' read -r major minor patch <<<"$current"
+
+          # verhoog minor (b) met 1
+          minor=$((minor + 1))
+
+          # genereer 4 random cijfers + 1 random letter
+          random_digits=$(shuf -i 1000-9999 -n 1)
+          random_letter=$(shuf -e a b c d e f g h i j k l m n o p q r s t u v w x y z -n 1)
+          patch="${random_digits}${random_letter}"
+
+          # nieuwe versie: altijd 1.b.xxxxc
+          new_version="1.${minor}.${patch}"
+
+          # schrijf nieuwe versie terug
+          jq ".version = \"${new_version}\"" "$FILE" > "$FILE.tmp" && mv "$FILE.tmp" "$FILE"
+
+          echo "new_version=$new_version" >> "$GITHUB_OUTPUT"
+          echo "Generated version for $FILE: $new_version"
+
+      - name: Compile ${{ matrix.cfg.path }}
+        run: |
+          hostlist-compiler \
+             -c ${{ matrix.cfg.path }} \
+             -o ${{ matrix.cfg.out }}
+
+      - name: Commit & push if changed
+        run: |
+          git config --global user.email "actions@github.com"
+          git config --global user.name  "MCS-Bot"
+          
+          # Check voor wijzigingen in zowel config als output bestand
+          if git diff --quiet ${{ matrix.cfg.path }} ${{ matrix.cfg.out }}; then
+            echo "No changes"
+          else
+            git add ${{ matrix.cfg.path }} ${{ matrix.cfg.out }}
+            git commit -m "Auto-build ${{ matrix.cfg.out }} – v${{ steps.bump.outputs.new_version }} $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
