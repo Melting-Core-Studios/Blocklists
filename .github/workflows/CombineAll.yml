@@ -93,34 +93,26 @@ jobs:
             repo_out="$GITHUB_WORKSPACE/$output_file"
 
             echo "🔍 Processing $key:"
-            echo "  artifact_cfg: $artifact_cfg"
-            echo "  artifact_out: $artifact_out"
-            echo "  repo_cfg: $repo_cfg"
-            echo "  repo_out: $repo_out"
             
-            if [[ ! -f "$artifact_cfg" ]]; then
-              echo "::error::artifact_cfg not found: $artifact_cfg"
-              exit 1
-            fi
-            
-            if [[ ! -f "$artifact_out" ]]; then
-              echo "::error::artifact_out not found: $artifact_out"
+            if [[ ! -f "$artifact_cfg" ]] || [[ ! -f "$artifact_out" ]]; then
+              echo "::error::Artifact files not found"
               exit 1
             fi
 
             if [[ ! -f "$repo_out" ]]; then
               echo "🔄 $key changed (repo file missing)"
               changed_any=true
-            elif ! cmp -s "$artifact_out" "$repo_out"; then
-              echo "🔄 $key changed (content differs)"
-              
-              echo "  artifact size: $(wc -c < "$artifact_out") bytes"
-              echo "  repo size: $(wc -c < "$repo_out") bytes"
-              
-              changed_any=true
             else
-              echo "✅ $key unchanged"
-              continue 
+              artifact_clean=$(grep -v "^! Last modified:" "$artifact_out" || true)
+              repo_clean=$(grep -v "^! Last modified:" "$repo_out" || true)
+              
+              if [[ "$artifact_clean" != "$repo_clean" ]]; then
+                echo "🔄 $key changed (content differs, ignoring timestamps)"
+                changed_any=true
+              else
+                echo "✅ $key unchanged (only timestamp differs)"
+                continue
+              fi
             fi
 
             if [[ "$changed_any" == "true" ]]; then
@@ -134,9 +126,7 @@ jobs:
               echo "Bumped $key to $new"
               
               hostlist-compiler -c "$artifact_cfg" -o "$repo_out"
-              
               cp "$artifact_cfg" "$repo_cfg"
-              
               git add "$repo_cfg" "$repo_out"
             fi
           done
