@@ -19,7 +19,7 @@ jobs:
             out:  Tracking_blocklist/full_anti_track.txt
           - key: annoyances
             path: Annoyances_list/compile-config.json
-            out: Annoyances_list/full_anti_track.txt
+            out: Annoyances_list/annoyances.txt
       max-parallel: 3
 
     steps:
