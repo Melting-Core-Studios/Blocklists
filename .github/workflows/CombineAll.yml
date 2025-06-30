@@ -1,87 +1,102 @@
-name: Compile all blocklists
+name: Compile and Publish All Blocklists
 
 on:
   schedule:
     - cron: '0 */2 * * *'
-  push:
-    paths:
-      - '**/*.txt'
-      - '**/compile-config.json'
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     strategy:
-      max-parallel: 1
       matrix:
         cfg:
-          - path: "Malvertising_Blocklist/compile-config.json"
-            out:  "Malvertising_Blocklist/malvertising_blocklist.txt"
-          - path: "Tracking_blocklist/compile-config.json"
-            out:  "Tracking_blocklist/full_anti_track.txt"
+          - key: malvertising
+            path: Malvertising_Blocklist/compile-config.json
+            out:  Malvertising_Blocklist/malvertising_blocklist.txt
+          - key: tracking
+            path: Tracking_blocklist/compile-config.json
+            out:  Tracking_blocklist/full_anti_track.txt
+      max-parallel: 2
 
     steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: dcarbone/install-jq-action@v3
+        with:
+          version: "1.6"
+
+      - run: npm install -g @adguard/hostlist-compiler
+
+      - name: Compile preliminary
+        run: hostlist-compiler -c "${{ matrix.cfg.path }}" -o "${{ matrix.cfg.out }}"
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: ${{ matrix.cfg.key }}
+          path: |
+            ${{ matrix.cfg.path }}
+            ${{ matrix.cfg.out }}
+
+  publish:
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
           persist-credentials: true
 
-      - name: Install jq CLI
-        uses: dcarbone/install-jq-action@v3
+      - uses: dcarbone/install-jq-action@v3
         with:
           version: "1.6"
 
-      - name: Install hostlist-compiler
-        run: npm install -g @adguard/hostlist-compiler
+      - run: npm install -g @adguard/hostlist-compiler
 
-      - name: Compile to temp
-        run: |
-          hostlist-compiler \
-            -c "${{ matrix.cfg.path }}" \
-            -o temp_output.txt
+      - uses: actions/download-artifact@v3
+        with:
+          path: artifacts
 
-      - name: Check for content changes
-        id: content_check
+      - name: Process all lists
+        id: proc
         run: |
-          if cmp -s temp_output.txt "${{ matrix.cfg.out }}"; then
-            echo "changed=false" >> $GITHUB_OUTPUT
-          else
-            echo "changed=true"  >> $GITHUB_OUTPUT
-          fi
+          changed_any=false
+          for key in malvertising tracking; do
+            cfg="artifacts/$key/compile-config.json"
+            out="artifacts/$key/$(basename "$(jq -r .out < "$cfg")")"
+            repo_out="$(jq -r .out < "$cfg")"
 
-      - name: Exit if no changes
-        if: steps.content_check.outputs.changed == 'false'
-        run: |
-          echo "No content changes detected; skipping version bump and build."
-          exit 0
+            # 1) compile temp to compare
+            tmp="artifacts/$key/tmp.txt"
+            hostlist-compiler -c "$cfg" -o "$tmp"
 
-      - name: Bump version (1.b.xxxxc)
-        id: bump
-        shell: bash
-        run: |
-          FILE="${{ matrix.cfg.path }}"
-          current=$(jq -r '.version' "$FILE")
-          [[ "$current" == "auto" || -z "$current" ]] && current="1.0.0000a"
-          IFS='.' read -r _ minor _ <<<"$current"
-          minor=$((minor + 1))
-          rnd=$(shuf -i 1000-9999 -n 1)
-          letter=$(shuf -n1 -e {a..z})
-          new_version="1.${minor}.${rnd}${letter}"
-          jq ".version = \"${new_version}\"" "$FILE" > "$FILE.tmp" && mv "$FILE.tmp" "$FILE"
-          echo "new_version=$new_version" >> $GITHUB_OUTPUT
+            if ! cmp -s "$tmp" "$repo_out"; then
+              echo "⚙️ $key changed"
+              # bump version
+              ver=$(jq -r '.version' "$cfg")
+              [[ "$ver" == "auto" || -z "$ver" ]] && ver="1.0.0000a"
+              IFS='.' read -r _ minor _ <<<"$ver"
+              minor=$((minor+1))
+              rnd=$(shuf -i 1000-9999 -n1)
+              letter=$(shuf -n1 -e {a..z})
+              new="1.${minor}.${rnd}${letter}"
+              jq ".version=\"${new}\"" "$cfg" >"$cfg.tmp" && mv "$cfg.tmp" "$cfg"
+              # final compile
+              hostlist-compiler -c "$cfg" -o "$repo_out"
+              git add "$cfg" "$repo_out"
+              changed_any=true
+            fi
+          done
+          echo "changed_any=$changed_any" >> $GITHUB_OUTPUT
 
-      - name: Final compile with bumped version
+      - name: Commit & push if needed
+        if: steps.proc.outputs.changed_any == 'true'
         run: |
-          hostlist-compiler \
-            -c "${{ matrix.cfg.path }}" \
-            -o "${{ matrix.cfg.out }}"
-
-      - name: Commit & push changes
-        run: |
-          git config --global user.email "actions@github.com"
-          git config --global user.name  "MCS-Bot"
-          git add "${{ matrix.cfg.path }}" "${{ matrix.cfg.out }}"
-          git commit -m "Auto-build ${{ matrix.cfg.out }} – v${{ steps.bump.outputs.new_version }} $(date -u +'%Y-%m-%d %H:%M UTC')"
-          git push --force-with-lease
+          git config user.email "actions@github.com"
+          git config user.name  "MCS-Bot"
+          git commit -m "Auto-build updated blocklists – $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
