@@ -6,8 +6,11 @@ Since this list uses freely available lists, and we want to provide full transpa
 
 - Phishing Army: [phishing_army_blocklist.txt](https://phishing.army/download/phishing_army_blocklist.txt)
 - OpenPhish: [feed.txt](https://openphish.com/feed.txt)
+- OpenPhish: [phishing-filter-ag.txt](https://malware-filter.gitlab.io/malware-filter/phishing-filter-ag.txt)
 - FadeMind: [add.spam/hosts](https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts)
 - Hoshadiq: [adblock-nocoin-list](https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt)
-
+- DurableNapkin: [scamblocklist](https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/adguard.txt)
+- UBlockOrigin: [badware.txt](https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/badware.txt)
+- URL Haus: [urlhaus-filter-ag-online.txt](https://urlhaus-filter.pages.dev/urlhaus-filter-ag-online.txt)
 ### ⚠️ WARNING ⚠️
 As always with our lists, it's important to note that these lists MAY break your browsing experience. This list is merely here to provide a full, dedicated list of several blocking lists that, combined into one, will provide a much more user-friendly experience when importing this into your content blocker. 
