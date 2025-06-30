@@ -1,6 +1,6 @@
 ! Title: [ MCS ] DeGoogler
 ! Description: Blocks all Google tracking methods
-! Version: 1.2.4110c
+! Version: 1.2.5710c
 ! Homepage: https://www.meltingcorestudios.com/
 ! License: CC BY-SA 4.0
 ! Author: Melting Core Studios
@@ -368,6 +368,12 @@
 @@||payments.google.com^$important
 @@||pay.google.com^$important
 @@||*.ggpht.com^$image,important
+
+! =============== YOUTUBE FUNCTIONALITY EXCEPTIONS ===============
+@@||youtubei.googleapis.com^$important
+@@||youtube.googleapis.com^$important
+@@||s.youtube.com^$important
+@@||*.googlevideo.com^$important
 
 
 ! =============== EINDE GOOGLE ULTIMATE TRACKING BLOCKLIST ===============
