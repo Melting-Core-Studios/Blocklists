@@ -70,10 +70,17 @@ jobs:
         run: |
           git config --global user.email "actions@github.com"
           git config --global user.name  "MCS-Bot"
-          if git diff --quiet; then
+
+          if git diff --quiet ${{ matrix.cfg.path }} ${{ matrix.cfg.out }}; then
             echo "No changes"
-          else
-            git add ${{ matrix.cfg.path }} ${{ matrix.cfg.out }}
-            git commit -m "Auto-build ${{ matrix.cfg.out }} – v${{ steps.bump.outputs.new_version }} $(date -u +'%Y-%m-%d %H:%M UTC')"
-            git push
+            exit 0
           fi
+
+          git add ${{ matrix.cfg.path }} ${{ matrix.cfg.out }}
+          git commit -m "Auto-build ${{ matrix.cfg.out }} – v${{ steps.bump.outputs.new_version }} $(date -u +'%Y-%m-%d %H:%M UTC')"
+
+          # haal ondertussen gepushte commits binnen
+          git pull --rebase --autostash origin main
+
+          # push met beschermende lease (veiligere force)
+          git push --force-with-lease
