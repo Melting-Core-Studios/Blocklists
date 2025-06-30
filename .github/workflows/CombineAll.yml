@@ -13,13 +13,13 @@ jobs:
   build:
     runs-on: ubuntu-latest
     strategy:
+      max-parallel: 1
       matrix:
         cfg:
           - path: "Malvertising_Blocklist/compile-config.json"
             out:  "Malvertising_Blocklist/malvertising_blocklist.txt"
           - path: "Tracking_blocklist/compile-config.json"
             out:  "Tracking_blocklist/full_anti_track.txt"
-      max-parallel: 1
 
     steps:
       - name: Check out repository
@@ -36,12 +36,14 @@ jobs:
       - name: Install hostlist-compiler
         run: npm install -g @adguard/hostlist-compiler
 
-      - name: First compile (before version bump)
+      - name: Compile to temp
         run: |
-          hostlist-compiler -c "${{ matrix.cfg.path }}" -o temp_output.txt
+          hostlist-compiler \
+            -c "${{ matrix.cfg.path }}" \
+            -o temp_output.txt
 
-      - name: Determine if content changed
-        id: need_update
+      - name: Check for content changes
+        id: content_check
         run: |
           if cmp -s temp_output.txt "${{ matrix.cfg.out }}"; then
             echo "changed=false" >> $GITHUB_OUTPUT
@@ -49,12 +51,13 @@ jobs:
             echo "changed=true"  >> $GITHUB_OUTPUT
           fi
 
-      - name: Stop if no changes
-        if: steps.need_update.outputs.changed == 'false'
-        run: echo "Blocklist unchanged – skipping version bump and commit."
+      - name: Exit if no changes
+        if: steps.content_check.outputs.changed == 'false'
+        run: |
+          echo "No content changes detected; skipping version bump and build."
+          exit 0
 
       - name: Bump version (1.b.xxxxc)
-        if: steps.need_update.outputs.changed == 'true'
         id: bump
         shell: bash
         run: |
@@ -70,12 +73,12 @@ jobs:
           echo "new_version=$new_version" >> $GITHUB_OUTPUT
 
       - name: Final compile with bumped version
-        if: steps.need_update.outputs.changed == 'true'
         run: |
-          hostlist-compiler -c "${{ matrix.cfg.path }}" -o "${{ matrix.cfg.out }}"
+          hostlist-compiler \
+            -c "${{ matrix.cfg.path }}" \
+            -o "${{ matrix.cfg.out }}"
 
       - name: Commit & push changes
-        if: steps.need_update.outputs.changed == 'true'
         run: |
           git config --global user.email "actions@github.com"
           git config --global user.name  "MCS-Bot"
