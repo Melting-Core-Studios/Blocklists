@@ -78,10 +78,21 @@ jobs:
           for dir in artifacts/*; do
             key=$(basename "$dir")
             cfg="$dir/compile-config.json"
-            repo_out="${{ matrix.cfg.out }}"
-            artifact_out="$dir/$(basename "$repo_out")"
+            
+            rel_out=$(jq -r '.out' "$cfg")
+            
+            repo_out="$GITHUB_WORKSPACE/$rel_out"
+            artifact_out="$dir/$rel_out"
 
-            # 1) Vergelijk artifact-output met de bestaande file
+            if [[ ! -f "$repo_out" ]]; then
+              echo "::error::repo_out niet gevonden: $repo_out"
+              exit 1
+            fi
+            if [[ ! -f "$artifact_out" ]]; then
+              echo "::error::artifact_out niet gevonden: $artifact_out"
+              exit 1
+            fi
+
             if ! cmp -s "$artifact_out" "$repo_out"; then
               echo "🔄 $key changed"
               cur=$(jq -r '.version' "$cfg")
