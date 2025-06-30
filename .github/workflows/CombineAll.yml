@@ -78,8 +78,10 @@ jobs:
           for dir in artifacts/*; do
             key=$(basename "$dir")
             cfg="$dir/compile-config.json"
-            artifact_out="$dir/$(basename "$(jq -r .out < "$cfg")")"
-            repo_out="$(jq -r .out < "$cfg")"
+            repo_out="${{ matrix.cfg.out }}"
+            artifact_out="$dir/$(basename "$repo_out")"
+
+            # 1) Vergelijk artifact-output met de bestaande file
             if ! cmp -s "$artifact_out" "$repo_out"; then
               echo "🔄 $key changed"
               cur=$(jq -r '.version' "$cfg")
@@ -87,11 +89,9 @@ jobs:
               IFS='.' read -r _ minor _ <<<"$cur"
               minor=$((minor + 1))
               new="1.${minor}"
-
               jq ".version = \"${new}\"" "$cfg" > "$cfg.tmp" && mv "$cfg.tmp" "$cfg"
               echo "Bumped $key to $new"
 
-              # Definitief compile met nieuwe versie
               hostlist-compiler -c "$cfg" -o "$repo_out"
               git add "$cfg" "$repo_out"
               changed_any=true
