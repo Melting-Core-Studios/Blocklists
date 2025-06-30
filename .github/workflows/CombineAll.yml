@@ -78,35 +78,66 @@ jobs:
 
           for dir in artifacts/*; do
             key=$(basename "$dir")
-            artifact_cfg=$(find "$dir" -name "compile-config.json" | head -n1)
-            artifact_out=$(find "$dir" -type f ! -name "compile-config.json" | head -n1)
+            
+            case "$key" in
+              malvertising) output_file="Malvertising_Blocklist/malvertising_blocklist.txt" ;;
+              tracking)     output_file="Tracking_blocklist/full_anti_track.txt"     ;;
+              annoyances)   output_file="Annoyances_list/full_anti_track.txt"        ;;
+              *)            echo "::error::Unknown key: $key"; exit 1 ;;
+            esac
 
-            rel_cfg="${artifact_cfg#$dir/}"
-            rel_out="${artifact_out#$dir/}"
+            artifact_cfg=$(find "$dir" -name "compile-config.json" -type f | head -n1)
+            artifact_out=$(find "$dir" -name "*.txt" -type f | head -n1)
+            
+            repo_cfg="$GITHUB_WORKSPACE/$(dirname "$output_file")/compile-config.json"
+            repo_out="$GITHUB_WORKSPACE/$output_file"
 
-            repo_cfg="$GITHUB_WORKSPACE/$rel_cfg"
-            repo_out="$GITHUB_WORKSPACE/$rel_out"
+            echo "🔍 Processing $key:"
+            echo "  artifact_cfg: $artifact_cfg"
+            echo "  artifact_out: $artifact_out"
+            echo "  repo_cfg: $repo_cfg"
+            echo "  repo_out: $repo_out"
+            
+            if [[ ! -f "$artifact_cfg" ]]; then
+              echo "::error::artifact_cfg not found: $artifact_cfg"
+              exit 1
+            fi
+            
+            if [[ ! -f "$artifact_out" ]]; then
+              echo "::error::artifact_out not found: $artifact_out"
+              exit 1
+            fi
 
-            mkdir -p "$(dirname "$repo_cfg")"
-            mkdir -p "$(dirname "$repo_out")"
-            cp "$artifact_cfg" "$repo_cfg"
-            cp "$artifact_out" "$repo_out"
-
-            if ! cmp -s "$artifact_out" "$repo_out"; then
-              echo "🔄 $key changed"
-              cur=$(jq -r '.version' "$repo_cfg")
-              [[ "$cur" == "auto" || -z "$cur" ]] && cur="1.0"
-              IFS='.' read -r _ minor _ <<<"$cur"
-              minor=$((minor + 1))
-              rnd=$(shuf -i 1000-9999 -n1)
-              letter=$(shuf -n1 -e {a..z})
-              new="1.${minor}.${rnd}${letter}"
-              jq ".version = \"${new}\"" "$repo_cfg" > "$repo_cfg.tmp" && mv "$repo_cfg.tmp" "$repo_cfg"
-              hostlist-compiler -c "$repo_cfg" -o "$repo_out"
-              git add "$repo_cfg" "$repo_out"
+            if [[ ! -f "$repo_out" ]]; then
+              echo "🔄 $key changed (repo file missing)"
+              changed_any=true
+            elif ! cmp -s "$artifact_out" "$repo_out"; then
+              echo "🔄 $key changed (content differs)"
+              
+              echo "  artifact size: $(wc -c < "$artifact_out") bytes"
+              echo "  repo size: $(wc -c < "$repo_out") bytes"
+              
               changed_any=true
             else
               echo "✅ $key unchanged"
+              continue 
+            fi
+
+            if [[ "$changed_any" == "true" ]]; then
+              cur=$(jq -r '.version // "1.0"' "$artifact_cfg")
+              [[ "$cur" == "auto" || -z "$cur" ]] && cur="1.0"
+              IFS='.' read -r _ minor _ <<<"$cur"
+              minor=$((minor + 1))
+              new="1.${minor}"
+              
+              jq ".version = \"${new}\"" "$artifact_cfg" > "$artifact_cfg.tmp" && mv "$artifact_cfg.tmp" "$artifact_cfg"
+              echo "Bumped $key to $new"
+              
+              hostlist-compiler -c "$artifact_cfg" -o "$repo_out"
+              
+              cp "$artifact_cfg" "$repo_cfg"
+              
+              git add "$repo_cfg" "$repo_out"
             fi
           done
 
