@@ -60,7 +60,7 @@ jobs:
           IFS='.' read -r _ minor _ <<<"$current"
           minor=$((minor + 1))
           rnd=$(shuf -i 1000-9999 -n 1)
-          letter=$(shuf -dc 'a-z' </dev/urandom | head -c1)
+          letter=$(shuf -n1 -e {a..z})
           new_version="1.${minor}.${rnd}${letter}"
           jq ".version = \"${new_version}\"" "$FILE" > "$FILE.tmp" && mv "$FILE.tmp" "$FILE"
           echo "new_version=$new_version" >> $GITHUB_OUTPUT
