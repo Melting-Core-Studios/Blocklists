@@ -72,48 +72,47 @@ jobs:
 
       - name: Compare, bump version & recompile
         id: process
-        shell: bash
         run: |
           changed_any=false
 
           for dir in artifacts/*; do
             key=$(basename "$dir")
-            cfg="$dir/compile-config.json"
-
             case "$key" in
               malvertising)
-                rel_out="Malvertising_Blocklist/malvertising_blocklist.txt"
+                cp "$dir/Malvertising_Blocklist/compile-config.json" "Malvertising_Blocklist/"
+                cp "$dir/Malvertising_Blocklist/malvertising_blocklist.txt" "Malvertising_Blocklist/"
+                artifact_cfg="Malvertising_Blocklist/compile-config.json"
+                artifact_out="Malvertising_Blocklist/malvertising_blocklist.txt"
                 ;;
               tracking)
-                rel_out="Tracking_blocklist/full_anti_track.txt"
+                cp "$dir/Tracking_blocklist/compile-config.json" "Tracking_blocklist/"
+                cp "$dir/Tracking_blocklist/full_anti_track.txt" "Tracking_blocklist/"
+                artifact_cfg="Tracking_blocklist/compile-config.json"
+                artifact_out="Tracking_blocklist/full_anti_track.txt"
                 ;;
               annoyances)
-                rel_out="Annoyances_list/full_anti_track.txt"
+                cp "$dir/Annoyances_list/compile-config.json" "Annoyances_list/"
+                cp "$dir/Annoyances_list/full_anti_track.txt" "Annoyances_list/"
+                artifact_cfg="Annoyances_list/compile-config.json"
+                artifact_out="Annoyances_list/full_anti_track.txt"
                 ;;
               *)
-                echo "::error::Onbekende key: $key"
                 exit 1
                 ;;
             esac
 
-            repo_out="$GITHUB_WORKSPACE/$rel_out"
-            artifact_out="$dir/$rel_out"
-
-            [[ ! -f "$repo_out" ]]     && { echo "::error::repo_out niet gevonden: $repo_out";     exit 1; }
-            [[ ! -f "$artifact_out" ]] && { echo "::error::artifact_out niet gevonden: $artifact_out"; exit 1; }
-
-            if ! cmp -s "$artifact_out" "$repo_out"; then
+            if ! git diff --quiet "$artifact_out" || ! git diff --quiet "$artifact_cfg"; then
               echo "🔄 $key changed"
-              cur=$(jq -r '.version' "$cfg")
+              
+              cur=$(jq -r '.version' "$artifact_cfg")
               [[ "$cur" == "auto" || -z "$cur" ]] && cur="1.0"
               IFS='.' read -r _ minor _ <<<"$cur"
-              minor=$((minor+1))
+              minor=$((minor + 1))
               new="1.${minor}"
-              jq ".version = \"${new}\"" "$cfg" > "$cfg.tmp" && mv "$cfg.tmp" "$cfg"
-              echo "Bumped $key to $new"
-
-              hostlist-compiler -c "$cfg" -o "$repo_out"
-              git add "$cfg" "$repo_out"
+              jq ".version = \"${new}\"" "$artifact_cfg" > "$artifact_cfg.tmp" && mv "$artifact_cfg.tmp" "$artifact_cfg"
+              
+              hostlist-compiler -c "$artifact_cfg" -o "$artifact_out"
+              git add "$artifact_cfg" "$artifact_out"
               changed_any=true
             else
               echo "✅ $key unchanged"
@@ -121,7 +120,6 @@ jobs:
           done
 
           echo "changed_any=$changed_any" >> $GITHUB_OUTPUT
-
 
       - name: Cleanup temporary artifacts
         if: always()
