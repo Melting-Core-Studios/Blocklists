@@ -93,6 +93,12 @@ jobs:
           done
           echo "changed_any=$changed_any" >> $GITHUB_OUTPUT
 
+      - name: Cleanup temporary files
+        if: always()
+        run: |
+          rm -rf temp_output.txt
+          rm -rf artifacts/
+
       - name: Commit & push if needed
         if: steps.proc.outputs.changed_any == 'true'
         run: |
