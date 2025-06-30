@@ -1,84 +1,84 @@
 {
-    "name": "[ MCS ] Anti-Tracking",
-    "description": "Blocklist that combines the workings of ",
-    "homepage": "https://github.com/Melting-Core-Studios/Blocklists",
-    "license": "CC BY-SA 4.0",
-    "version": "1.b.xxxxc",
-    "sources": [
-        { 
-            "source": "https://raw.githubusercontent.com/Melting-Core-Studios/Blocklists/refs/heads/main/AI_blocker.txt", 
-            "type": "adblock" 
-        },
-        { 
-            "source": "https://raw.githubusercontent.com/Melting-Core-Studios/Blocklists/refs/heads/main/Google_blocker.txt", 
-            "type": "adblock" 
-        },
-        { 
-            "source": "https://raw.githubusercontent.com/Melting-Core-Studios/Blocklists/refs/heads/main/Meta_blocker.txt", 
-            "type": "adblock" 
-        },
-        { 
-            "source": "https://raw.githubusercontent.com/Melting-Core-Studios/Blocklists/refs/heads/main/Microsoft_blocker.txt", 
-            "type": "adblock" 
-        },
-        { 
-            "source": "https://raw.githubusercontent.com/Melting-Core-Studios/Blocklists/refs/heads/main/Smartphone_tracking.txt", 
-            "type": "adblock" 
-        },
-        {
-            "source": "https://easylist.to/easylist/easyprivacy.txt",
-            "type":   "adblock"
-          },
-          {
-            "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_11.txt",
-            "type":   "adblock"
-          },
-          {
-            "source": "https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/domains.txt",
-            "type":   "hosts"
-          },
-          {
-            "source": "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
-            "type":   "hosts"
-          },
-          {
-            "source": "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&shadow=1",
-            "type":   "hosts"
-          },
-          {
-            "source": "https://raw.githubusercontent.com/nextdns/click-tracking-domains/refs/heads/main/domains",
-            "type":   "adblock"
-          },
-          {
-            "source": "https://raw.githubusercontent.com/nextdns/piracy-blocklists/refs/heads/master/streaming-audio",
-            "type": "adblock"
-          },
-          {
-            "source": "https://raw.githubusercontent.com/nextdns/piracy-blocklists/refs/heads/master/streaming-video",
-            "type": "adblock"
-          },
-          {
-            "source": "https://raw.githubusercontent.com/nextdns/piracy-blocklists/refs/heads/master/torrent-clients",
-            "type": "adblock"
-          },
-          {
-            "source": "https://raw.githubusercontent.com/nextdns/piracy-blocklists/refs/heads/master/torrent-trackers",
-            "type": "adblock"
-          },
-          {
-            "source": "https://raw.githubusercontent.com/nextdns/piracy-blocklists/refs/heads/master/torrent-websites",
-            "type": "adblock"
-          }
-    ],
-    "transformations": [
-        "RemoveComments",
-        "Deduplicate",
-        "RemoveEmptyLines",
-        "TrimLines",
-        "InsertFinalNewLine"
-    ],
-    "exclusions": [
-        "@@||accounts.google.com^$important",
-        "@@||login.microsoftonline.com^$important"
-    ]
+  "name": "[ MCS ] Anti-Tracking",
+  "description": "Blocklist that combines the workings of ",
+  "homepage": "https://github.com/Melting-Core-Studios/Blocklists",
+  "license": "CC BY-SA 4.0",
+  "version": "1.1.4998b",
+  "sources": [
+    {
+      "source": "https://raw.githubusercontent.com/Melting-Core-Studios/Blocklists/refs/heads/main/AI_blocker.txt",
+      "type": "adblock"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Melting-Core-Studios/Blocklists/refs/heads/main/Google_blocker.txt",
+      "type": "adblock"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Melting-Core-Studios/Blocklists/refs/heads/main/Meta_blocker.txt",
+      "type": "adblock"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Melting-Core-Studios/Blocklists/refs/heads/main/Microsoft_blocker.txt",
+      "type": "adblock"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Melting-Core-Studios/Blocklists/refs/heads/main/Smartphone_tracking.txt",
+      "type": "adblock"
+    },
+    {
+      "source": "https://easylist.to/easylist/easyprivacy.txt",
+      "type": "adblock"
+    },
+    {
+      "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_11.txt",
+      "type": "adblock"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/domains.txt",
+      "type": "hosts"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
+      "type": "hosts"
+    },
+    {
+      "source": "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&shadow=1",
+      "type": "hosts"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/nextdns/click-tracking-domains/refs/heads/main/domains",
+      "type": "adblock"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/nextdns/piracy-blocklists/refs/heads/master/streaming-audio",
+      "type": "adblock"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/nextdns/piracy-blocklists/refs/heads/master/streaming-video",
+      "type": "adblock"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/nextdns/piracy-blocklists/refs/heads/master/torrent-clients",
+      "type": "adblock"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/nextdns/piracy-blocklists/refs/heads/master/torrent-trackers",
+      "type": "adblock"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/nextdns/piracy-blocklists/refs/heads/master/torrent-websites",
+      "type": "adblock"
+    }
+  ],
+  "transformations": [
+    "RemoveComments",
+    "Deduplicate",
+    "RemoveEmptyLines",
+    "TrimLines",
+    "InsertFinalNewLine"
+  ],
+  "exclusions": [
+    "@@||accounts.google.com^$important",
+    "@@||login.microsoftonline.com^$important"
+  ]
 }
