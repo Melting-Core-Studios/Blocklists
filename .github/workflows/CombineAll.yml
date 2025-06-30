@@ -1,5 +1,4 @@
 name: Compile all blocklists
-
 on:
   schedule:
     - cron: '0 */2 * * *'
@@ -12,7 +11,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     strategy:
       matrix:
         cfg:
@@ -24,54 +22,61 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - run: npm i -g @adguard/hostlist-compiler
+      - run: npm i -g @adguard/hostlist-compiler jq
 
-      - name: Bump version in ${{ matrix.cfg.path }}
+    # ---------- Compile to compare differences -----------
+      - name: First compile (before version bump)
+        run: |
+          hostlist-compiler \
+            -c ${{ matrix.cfg.path }} \
+            -o temp_output.txt
+
+      - name: Skip job als er geen inhoudwijziging is
+        id: need_update
+        run: |
+          if cmp -s temp_output.txt ${{ matrix.cfg.out }} ; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true"  >> $GITHUB_OUTPUT
+          fi
+
+      - name: Stop verdere stappen (matrix-job) als niets veranderde
+        if: steps.need_update.outputs.changed == 'false'
+        run: echo "Blocklist ongewijzigd – job beëindigd."
+
+    # ---------- Definitive compile ----------
+      - name: Bump version (custom 1.b.xxxxc)
+        if: steps.need_update.outputs.changed == 'true'
         id: bump
         shell: bash
         run: |
           FILE="${{ matrix.cfg.path }}"
-          
-          current=$(jq -r '.version' "$FILE")
-          
-          if [[ "$current" == "auto" || -z "$current" ]]; then
-            current="1.0.0000a"
-          fi
-          
-          IFS='.' read -r major minor patch <<<"$current"
-          
-          minor=$((minor + 1))
-          
-          random_digits=$(shuf -i 1000-9999 -n 1)
-          random_letter=$(shuf -e a b c d e f g h i j k l m n o p q r s t u v w x y z -n 1)
-          patch="${random_digits}${random_letter}"
-          
-          new_version="1.${minor}.${patch}"
-          
-          jq ".version = \"${new_version}\"" "$FILE" > "$FILE.tmp" && mv "$FILE.tmp" "$FILE"
-          
-          echo "new_version=$new_version" >> "$GITHUB_OUTPUT"
-          echo "Generated version for $FILE: $new_version"
 
-      - name: Compile ${{ matrix.cfg.path }}
+          current=$(jq -r '.version' "$FILE")
+          [[ "$current" == "auto" || -z "$current" ]] && current="1.0.0000a"
+
+          IFS='.' read -r major minor patch <<<"$current"
+          minor=$((minor + 1))
+
+          rnd=$(shuf -i 1000-9999 -n 1)
+          letter=$(tr -dc 'a-z' </dev/urandom | head -c1)
+          new_version="1.${minor}.${rnd}${letter}"
+
+          jq ".version = \"${new_version}\"" "$FILE" > "$FILE.tmp" && mv "$FILE.tmp" "$FILE"
+          echo "new_version=$new_version" >> $GITHUB_OUTPUT
+
+      - name: Final compile with bumped version
+        if: steps.need_update.outputs.changed == 'true'
         run: |
           hostlist-compiler \
-             -c ${{ matrix.cfg.path }} \
-             -o ${{ matrix.cfg.out }}
+            -c ${{ matrix.cfg.path }} \
+            -o ${{ matrix.cfg.out }}
 
-      - name: Commit & push if changed
+      - name: Commit & push
+        if: steps.need_update.outputs.changed == 'true'
         run: |
           git config --global user.email "actions@github.com"
           git config --global user.name  "MCS-Bot"
-
-          git pull --rebase --autostash origin main
-
-          if git diff --quiet ${{ matrix.cfg.path }} ${{ matrix.cfg.out }}; then
-            echo "No changes"
-            exit 0
-          fi
-
           git add ${{ matrix.cfg.path }} ${{ matrix.cfg.out }}
           git commit -m "Auto-build ${{ matrix.cfg.out }} – v${{ steps.bump.outputs.new_version }} $(date -u +'%Y-%m-%d %H:%M UTC')"
-
           git push --force-with-lease
