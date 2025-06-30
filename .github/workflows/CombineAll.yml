@@ -72,6 +72,53 @@ jobs:
 
             - name: Compare, bump version & recompile
         id: process
+        shell: bash
+        run: |
+          changed_any=false
+          for dir in artifacts/*; do
+            key=$(basename "$dir")
+            cfg="$dir/compile-config.json"
+
+            rel_out=$(jq -r '.out // empty' "$cfg")
+            if [[ -z "$rel_out" ]]; then
+              case "$key" in
+                malvertising) rel_out="Malvertising_Blocklist/malvertising_blocklist.txt" ;;
+                tracking)     rel_out="Tracking_blocklist/full_anti_track.txt" ;;
+                annoyances)   rel_out="Annoyances_list/full_anti_track.txt" ;;
+                *)            echo "::error::Geen out-pad voor key $key"; exit 1 ;;
+              esac
+            fi
+
+            repo_out="$GITHUB_WORKSPACE/$rel_out"
+            artifact_out="$dir/$(basename "$rel_out")"
+
+            [[ ! -f "$repo_out" ]] && { echo "::error::repo_out niet gevonden: $repo_out"; exit 1; }
+            [[ ! -f "$artifact_out" ]] && { echo "::error::artifact_out niet gevonden: $artifact_out"; exit 1; }
+
+            if ! cmp -s "$artifact_out" "$repo_out"; then
+              echo "🔄 $key changed"
+
+              cur=$(jq -r '.version' "$cfg")
+              [[ "$cur" == "auto" || -z "$cur" ]] && cur="1.0"
+              IFS='.' read -r _ minor _ <<<"$cur"
+              minor=$((minor + 1))
+              rnd=$(shuf -i 1000-9999 -n1)
+              letter=$(shuf -n1 -e {a..z})
+              new="1.${minor}.${rnd}${letter}"
+              jq ".version = \"${new}\"" "$cfg" > "$cfg.tmp" && mv "$cfg.tmp" "$cfg"
+              echo "Bumped $key to $new"
+
+              hostlist-compiler -c "$cfg" -o "$repo_out"
+              git add "$cfg" "$repo_out"
+              changed_any=true
+            else
+              echo "✅ $key unchanged"
+            fi
+          done
+
+          echo "changed_any=$changed_any" >> $GITHUB_OUTPUT
+
+        id: process
         run: |
           changed_any=false
 
@@ -80,6 +127,7 @@ jobs:
             cfg="$dir/compile-config.json"
             
             rel_out=$(jq -r '.out' "$cfg")
+            if [[ -z "$rel_out" || "$rel_out" == "null" ]]; then
               # gebruik de matrix-mapping als reserve
               case "$key" in
                 malvertising) rel_out="Malvertising_Blocklist/malvertising_blocklist.txt" ;;
@@ -89,7 +137,6 @@ jobs:
               esac
             fi
 
-            
             repo_out="$GITHUB_WORKSPACE/$rel_out"
             artifact_out="$dir/$rel_out"
 
