@@ -2,7 +2,7 @@ name: Compile and Publish All Blocklists
 
 on:
   schedule:
-    - cron: '0 */2 * * *'
+    - cron: '0 */1 * * *'
   workflow_dispatch:
 
 jobs:
@@ -17,7 +17,10 @@ jobs:
           - key: tracking
             path: Tracking_blocklist/compile-config.json
             out:  Tracking_blocklist/full_anti_track.txt
-      max-parallel: 2
+          - key: annoyances
+            path: Annoyances_list/compile-config.json
+            out: Annoyances_list/full_anti_track.txt
+      max-parallel: 3
 
     steps:
       - name: Checkout
