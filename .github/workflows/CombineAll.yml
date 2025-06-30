@@ -20,9 +20,16 @@ jobs:
             out:  "Tracking_blocklist/full_anti_track.txt"
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Check out repository
+        uses: actions/checkout@v4
 
-      - run: npm i -g @adguard/hostlist-compiler jq
+      - name: Install jq CLI
+        uses: dcarbone/install-jq-action@v3
+        with:
+          version: "1.6"
+
+      - name: Install hostlist-compiler
+        run: npm i -g @adguard/hostlist-compiler
 
     # ---------- Compile to compare differences -----------
       - name: First compile (before version bump)
