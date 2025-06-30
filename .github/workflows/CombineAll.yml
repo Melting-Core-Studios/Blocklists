@@ -70,7 +70,7 @@ jobs:
         with:
           path: artifacts
 
-            - name: Compare, bump version & recompile
+      - name: Compare, bump version & recompile
         id: process
         shell: bash
         run: |
