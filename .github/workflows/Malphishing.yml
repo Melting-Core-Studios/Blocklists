@@ -5,8 +5,7 @@ on:
     - cron: '0 */2 * * *'
   push:
     paths:
-      - 'lists/**Malvertising*.txt'
-      - 'malvertising-config.json'
+      - './Malvertising_Blocklist/compile-config.json'
   workflow_dispatch:
 
 jobs:
