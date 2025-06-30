@@ -3,7 +3,6 @@
     "description": "Blocklist compiled of all MCS tested and compiled lists.",
     "homepage": "https://github.com/Melting-Core-Studios/Blocklists",
     "license": "CC BY-SA 4.0",
-    "version": "auto",
     "sources": [
         { "source": "https://raw.githubusercontent.com/Melting-Core-Studios/Blocklists/refs/heads/main/Malvertising_Blocklist.txt", "type": "adblock" },
         { "source": "https://phishing.army/download/phishing_army_blocklist.txt", "type": "adblock" },
