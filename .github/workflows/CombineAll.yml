@@ -77,21 +77,13 @@ jobs:
             cfg="$dir/compile-config.json"
             artifact_out="$dir/$(basename "$(jq -r .out < "$cfg")")"
             repo_out="$(jq -r .out < "$cfg")"
-
-            # Vergelijk artifact-output met bestaande file
             if ! cmp -s "$artifact_out" "$repo_out"; then
               echo "🔄 $key changed"
-
-              # Bump version alleen bij verandering:
               cur=$(jq -r '.version' "$cfg")
-              [[ "$cur" == "auto" || -z "$cur" ]] && cur="1.0.0000a"
+              [[ "$cur" == "auto" || -z "$cur" ]] && cur="1.0"
               IFS='.' read -r _ minor _ <<<"$cur"
               minor=$((minor + 1))
-
-              # Genereer random pas bij bump:
-              rnd=$(shuf -i 1000-9999 -n1)
-              letter=$(shuf -n1 -e {a..z})
-              new="1.${minor}.${rnd}${letter}"
+              new="1.${minor}"
 
               jq ".version = \"${new}\"" "$cfg" > "$cfg.tmp" && mv "$cfg.tmp" "$cfg"
               echo "Bumped $key to $new"
