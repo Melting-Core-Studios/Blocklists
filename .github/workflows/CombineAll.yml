@@ -80,6 +80,15 @@ jobs:
             cfg="$dir/compile-config.json"
             
             rel_out=$(jq -r '.out' "$cfg")
+              # gebruik de matrix-mapping als reserve
+              case "$key" in
+                malvertising) rel_out="Malvertising_Blocklist/malvertising_blocklist.txt" ;;
+                tracking)     rel_out="Tracking_blocklist/full_anti_track.txt" ;;
+                annoyances)   rel_out="Annoyances_list/annoyances.txt" ;;
+                *)            echo "::error::Geen out-pad voor key $key"; exit 1 ;;
+              esac
+            fi
+
             
             repo_out="$GITHUB_WORKSPACE/$rel_out"
             artifact_out="$dir/$rel_out"
@@ -95,6 +104,7 @@ jobs:
 
             if ! cmp -s "$artifact_out" "$repo_out"; then
               echo "🔄 $key changed"
+
               cur=$(jq -r '.version' "$cfg")
               [[ "$cur" == "auto" || -z "$cur" ]] && cur="1.0"
               IFS='.' read -r _ minor _ <<<"$cur"

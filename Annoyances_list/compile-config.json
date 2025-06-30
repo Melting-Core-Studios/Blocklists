@@ -1,10 +1,9 @@
 {
-  "name": "[ MCS ] Anti-Tracking",
-  "description": "Blocklist that combines the workings of ",
+  "name": "[ MCS ] Begone Annoyances",
+  "description": "A blocklist that will remove all annoyances from online browsing.",
   "homepage": "https://github.com/Melting-Core-Studios/Blocklists",
   "license": "CC BY-SA 4.0",
   "version": "1.0",
-  "out": "Annoyances_list/annoyances.txt",
   "sources": [
     {
       "source": "https://filters.adtidy.org/android/filters/14_optimized.txt",
