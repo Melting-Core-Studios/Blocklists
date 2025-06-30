@@ -1,0 +1,25 @@
+{
+    "name": "[ MCS ] Combined-Anti-Phishing",
+    "description": "Blocklist compiled of all MCS tested and compiled lists.",
+    "homepage": "https://github.com/Melting-Core-Studios/Blocklists",
+    "license": "CC BY-SA 4.0",
+    "version": "auto",
+    "sources": [
+        { "source": "https://raw.githubusercontent.com/Melting-Core-Studios/Blocklists/refs/heads/main/Malvertising_Blocklist.txt", "type": "adblock" },
+        { "source": "https://phishing.army/download/phishing_army_blocklist.txt", "type": "adblock" },
+        { "source": "https://openphish.com/feed.txt", "type": "adblock" },
+        { "source": "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts", "type": "adblock" },
+        { "source": "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt", "type": "adblock" }
+    ],
+    "transformations": [
+        "RemoveComments",
+        "Deduplicate",
+        "RemoveEmptyLines",
+        "TrimLines",
+        "InsertFinalNewLine"
+    ],
+    "exclusions": [
+        "@@||accounts.google.com^$important",
+        "@@||login.microsoftonline.com^$important"
+    ]
+}
