@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Begone Annoyances
 ! Description: A blocklist that will remove all annoyances from online browsing.
-! Version: 1.5
+! Version: 1.6
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-06-30T21:14:29.946Z
+! Last modified: 2025-06-30T23:14:26.055Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -65219,6 +65219,11 @@ material.angular.io##app-cookie-popup
 tumblr.com##div#cmp-app-container
 tiktok.com##tiktok-cookie-banner
 globalblue.com,globalblue.ru##.gbnew-cookie-bar
+la-grotta-solar.es,haus-ladn.de,hutwiller.de,hutwiller.de,jumpropeberlin.com,die-plank.de,worstbassist.com##+js(set-cookie, ckies_facebook_pixel, deny)
+la-grotta-solar.es,worstbassist.com##+js(set-cookie, ckies_google_analytics, deny)
+la-grotta-solar.es##+js(set-cookie, ckies_google_maps, allow)
+la-grotta-solar.es,die-plank.de,jumpropeberlin.com,worstbassist.com##+js(set-cookie, ckies_youtube, allow)
+la-grotta-solar.es,cora-broodjes.nl,haus-ladn.de,hutwiller.de,hutwiller.de,jumpropeberlin.com,die-plank.de,haban-uhren.at,leoschilbach.de,worstbassist.com##+js(set-cookie, ckies_cloudflare, allow)
 bbc.com##body:has(div[class*="Styled"][class*="Container"] [data-testid="bbc-logo-wrapper"]) > .fc-consent-root:style(display: flex !important)
 tedbaker.com,fortune.com,bbc.com,boohoo.com,cgi.com,dunelm.com,edumsko.ru,fanipogody.pl,finnkino.fi,fitx.de,fussballgucken.info,gov.lv,liberbank.es,pickup.de,neplp.lv,riga.lv,schuurman-schoenen.nl,senec.com,sevdesk.at,sevdesk.de,shopilya.com,snp.nl,stoffe.de,stwbs.de,successinsights.nl,swedbank.com,t-mobile.com,terc.hu,tyg.se,ufz.de,uktv.co.uk,wikifolio.com##body:style(overflow: auto !important;)
 ##.js-consent.consent
