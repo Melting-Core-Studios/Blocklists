@@ -1,4 +1,5 @@
 name: Compile all blocklists
+
 on:
   schedule:
     - cron: '0 */2 * * *'
@@ -29,61 +30,51 @@ jobs:
           version: "1.6"
 
       - name: Install hostlist-compiler
-        run: npm i -g @adguard/hostlist-compiler
+        run: npm install -g @adguard/hostlist-compiler
 
-    # ---------- Compile to compare differences -----------
       - name: First compile (before version bump)
         run: |
-          hostlist-compiler \
-            -c ${{ matrix.cfg.path }} \
-            -o temp_output.txt
+          hostlist-compiler -c "${{ matrix.cfg.path }}" -o temp_output.txt
 
-      - name: Skip job als er geen inhoudwijziging is
+      - name: Determine if content changed
         id: need_update
         run: |
-          if cmp -s temp_output.txt ${{ matrix.cfg.out }} ; then
+          if cmp -s temp_output.txt "${{ matrix.cfg.out }}"; then
             echo "changed=false" >> $GITHUB_OUTPUT
           else
             echo "changed=true"  >> $GITHUB_OUTPUT
           fi
 
-      - name: Stop verdere stappen (matrix-job) als niets veranderde
+      - name: Stop if no changes
         if: steps.need_update.outputs.changed == 'false'
-        run: echo "Blocklist ongewijzigd – job beëindigd."
+        run: echo "Blocklist unchanged – skipping version bump and commit."
 
-    # ---------- Definitive compile ----------
-      - name: Bump version (custom 1.b.xxxxc)
+      - name: Bump version (1.b.xxxxc)
         if: steps.need_update.outputs.changed == 'true'
         id: bump
         shell: bash
         run: |
           FILE="${{ matrix.cfg.path }}"
-
           current=$(jq -r '.version' "$FILE")
           [[ "$current" == "auto" || -z "$current" ]] && current="1.0.0000a"
-
-          IFS='.' read -r major minor patch <<<"$current"
+          IFS='.' read -r _ minor _ <<<"$current"
           minor=$((minor + 1))
-
           rnd=$(shuf -i 1000-9999 -n 1)
           letter=$(tr -dc 'a-z' </dev/urandom | head -c1)
           new_version="1.${minor}.${rnd}${letter}"
-
           jq ".version = \"${new_version}\"" "$FILE" > "$FILE.tmp" && mv "$FILE.tmp" "$FILE"
           echo "new_version=$new_version" >> $GITHUB_OUTPUT
 
       - name: Final compile with bumped version
         if: steps.need_update.outputs.changed == 'true'
         run: |
-          hostlist-compiler \
-            -c ${{ matrix.cfg.path }} \
-            -o ${{ matrix.cfg.out }}
+          hostlist-compiler -c "${{ matrix.cfg.path }}" -o "${{ matrix.cfg.out }}"
 
-      - name: Commit & push
+      - name: Commit & push changes
         if: steps.need_update.outputs.changed == 'true'
         run: |
           git config --global user.email "actions@github.com"
           git config --global user.name  "MCS-Bot"
-          git add ${{ matrix.cfg.path }} ${{ matrix.cfg.out }}
+          git add "${{ matrix.cfg.path }}" "${{ matrix.cfg.out }}"
           git commit -m "Auto-build ${{ matrix.cfg.out }} – v${{ steps.bump.outputs.new_version }} $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push --force-with-lease
