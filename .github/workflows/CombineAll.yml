@@ -19,6 +19,7 @@ jobs:
             out:  "Malvertising_Blocklist/malvertising_blocklist.txt"
           - path: "Tracking_blocklist/compile-config.json"
             out:  "Tracking_blocklist/full_anti_track.txt"
+      max-parallel: 1
 
     steps:
       - name: Check out repository
