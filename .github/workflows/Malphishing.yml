@@ -22,7 +22,7 @@ jobs:
       - name: Build malvertising list
         run: |
           hostlist-compiler \
-            -c compile-config.json \
+            -c Malvertising_Blocklist/compile-config.json \
             -o Malvertising_Blocklist/malvertising_combined_blocklist.txt
 
       - name: Commit if changed
