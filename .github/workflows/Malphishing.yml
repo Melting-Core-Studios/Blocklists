@@ -1,11 +1,11 @@
-name: Build  - Malvertising blocklist
+name: Build – Malvertising blocklist
 
 on:
   schedule:
     - cron: '0 */2 * * *'
   push:
     paths:
-      - './Malvertising_Blocklist/compile-config.json'
+      - 'Malvertising_Blocklist/**'
   workflow_dispatch:
 
 jobs:
@@ -20,19 +20,22 @@ jobs:
         run: npm install -g @adguard/hostlist-compiler
 
       - name: Build malvertising list
+        working-directory: Malvertising_Blocklist
         run: |
           hostlist-compiler \
-            -c Malvertising_Blocklist/compile-config.json \
-            -o Malvertising_Blocklist/malvertising_combined_blocklist.txt
+            -c compile-config.json \
+            -o malvertising_combined_blocklist.txt
 
-      - name: Commit if changed
+      - name: Commit & push when changed
         run: |
           git config --global user.email "actions@github.com"
           git config --global user.name  "MCS-Bot"
-          if git diff --quiet Malvertising_Blocklist/malvertising_blocklist.txt; then
-            echo "No changes"
+
+          # Wijzigingen?
+          if git diff --quiet Malvertising_Blocklist/malvertising_combined_blocklist.txt; then
+            echo "No changes – skip commit"
           else
-            git add Malvertising_Blocklist/malvertising_blocklist.txt
-            git commit -m "Auto-build Malvertising Combined List $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git add Malvertising_Blocklist/malvertising_combined_blocklist.txt
+            git commit -m "Auto-build Malvertising list $(date -u +'%Y-%m-%d %H:%M UTC')"
             git push
           fi
