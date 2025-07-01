@@ -1,5 +1,5 @@
 ### Combined list, by Melting Core Studios
-Hello everyone. You're currently viewing the max combined list for privacy. This list consists of multiple, freely available lists and will be updated regularly and automatically. This list is compiled through the Workflow of GitHub.
+Hello everyone. You're currently viewing the combined list for annoyances. This list consists of multiple, freely available lists and will be updated regularly and automatically. This list is compiled through the Workflow of GitHub. Since we did not want to reinvent the wheel, we have no hand in the rules that are created within the filter list. All credit goes to the curators of the lists. 
 
 ### Credits
 Since this list uses freely available lists, and we want to provide full transparency, we want to list every contributer to this list of which we've automated the integration with our own research. All the credit go to these creators for their efforts in fighting for your right to privacy.
