@@ -1,0 +1,120 @@
+!
+! Title: [ MCS ] Dynamic AdBlock
+! Description: A regex list compiled to serve as a dynamic adblock that targets patterns and often used bypasses.
+! Version: 0.5.1158c
+! Homepage: https://github.com/Melting-Core-Studios/Blocklists
+! License: CC BY-SA 4.0
+!
+! === CORE ADVERTISING PATTERNS ===
+/^(.+[_.-])?adse?rv(er?|ice)?s?[0-9]*[_.-]/
+/^(.+[_.-])?telemetry[_.-]/
+/^ad([sxv]?[0-9]*|system)[_.-]([^.[:space:]]+\.){1,}|[_.-]ad([sxv]?[0-9]*|system)[_.-]/
+/^adim(age|g)s?[0-9]*[_.-]/
+/^adtrack(er|ing)?[0-9]*[_.-]/
+/^advert(s|is(ing|ements?))?[0-9]*[_.-]/
+/^aff(iliat(es?|ion))?[_.-]/
+/^banners?[_.-]/
+/^mads\./
+/^pixels?[-.]/
+/^beacons?[0-9]*[_.-]/
+
+! === ANALYTICS & TRACKING ===
+! Analytics services
+/^analytics?[_.-]/
+/^(.+[_.-])?metrics?[_.-]/
+/^(.+[_.-])?insights?[_.-]/
+/^(.+[_.-])?collect(or)?[_.-]/
+/^count(ers?)?[0-9]*[_.-]/
+/^stat(s|istics)?[0-9]*[_.-]/
+/^track(ing)?[0-9]*[_.-]/
+
+! YouTube advertising patterns
+/rr[0-9].*sn-j.*googlevideo.com/
+/r[0-9]+---sn-[a-z0-9-]+\.googlevideo\.com/
+/r[0-9]---sn-[a-z0-9-]+\.googlevideo\.com/
+/^r\d---sn-[a-z0-9-]*\.googlevideo\.com$/
+
+! General Facebook patterns
+/^(.+\.)?(facebook|fb(cdn|sbx)?|tfbnw)\.(com|net)$/
+/^(.+\.)?(instagram|ig(cdn)?)\.(com|net)$/
+/^(.+\.)?whatsapp\.(com|net)$/
+
+! LinkedIn tracking
+/^(.+\.)?linkedin\.(com|net)$/
+
+! General social media patterns
+/^(.+\.)?twitter\.(com|net)$/
+/^(.+\.)?tiktok\.(com|net)$/
+/^(.+\.)?pinterest\.(com|net)$/
+/^(.+\.)?snapchat\.(com|net)$/
+/^(.+\.)?reddit\.(com|net)$/
+
+! Network patterns
+/^(.+[_.-])?doubleclick[_.-]/
+/^(.+[_.-])?adsystem[_.-]/
+/^(.+[_.-])?adnxs[_.-]/
+/^(.+[_.-])?adsensebygo[_.-]/
+/^(.+[_.-])?outbrain[_.-]/
+/^(.+[_.-])?taboola[_.-]/
+
+! === COMPREHENSIVE TRACKING SERVICES ===
+
+! Service patterns
+/^(.+[_.-])?hotjar[_.-]/
+/^(.+[_.-])?crazyegg[_.-]/
+/^(.+[_.-])?mouseflow[_.-]/
+/^(.+[_.-])?fullstory[_.-]/
+/^(.+[_.-])?smartlook[_.-]/
+/^(.+[_.-])?logrocket[_.-]/
+
+! === TRACKING PARAMETERS ===
+/utm_[^&]+/
+/fbclid=[^&]+/
+/gclid=[^&]+/
+/msclkid=[^&]+/
+/yclid=[^&]+/
+/_hsenc=[^&]+/
+/_hsmi=[^&]+/
+/mc_eid=[^&]+/
+/mc_cid=[^&]+/
+
+! === COOKIE CONSENT & COMPLIANCE ===
+/^(.+[_.-])?cookiebot[_.-]/
+/^(.+[_.-])?cookieconsent[_.-]/
+/^(.+[_.-])?cookielaw[_.-]/
+/^(.+[_.-])?onetrust[_.-]/
+/^(.+[_.-])?quantcast[_.-]/
+/^(.+[_.-])?consentmanager[_.-]/
+
+! === EMAIL TRACKING ===
+/^(.+[_.-])?mailchimp[_.-]/
+/^(.+[_.-])?constantcontact[_.-]/
+/^(.+[_.-])?sendgrid[_.-]/
+/^(.+[_.-])?mailgun[_.-]/
+/^(.+[_.-])?aweber[_.-]/
+/^(.+[_.-])?getresponse[_.-]/
+
+! === COMPREHENSIVE AD NETWORKS ===
+/^(.*\.)*(sonobi|contentabc|exponential|bebi|3lift|leanplum|hotjar|m-pathy|parsely|exelator|touchcommerce|magnetic|exosrv|go2affise|mgid|clksite|tynt|inclk|bidswitch|optimizely|tiqcdn|maxymiser)\.(([a-z]{2,3}\.)*[a-z]{2,6})$/
+/^(.*\.)*(dotomi|urbanairship|criteo|yimg|footprint|sitescout|turn|w55c|openx|voluumtrk|videoplaza|inmobi|reporo|cnzz|skim(resources|links)|tribalfusion|getsocial|hoverr|mediaplex|auditude|tacoda|puserving|d(e|o)mdex)\.(([a-z]{2,3}\.)*[a-z]{2,6})$/
+/^(.*\.)*(buffpanel|redshell|treasuredata|unity(ads|3d)|evidon|flashtalking|mathtag|mediamath|scorecardresearch|yieldmanager|sharezips|liveadvert|mktoresp|online-metrix|mobileapptracking|webengage|mpstat|trafficjunky|alphonso|stickyadstv|marketo|tubemogul|kameleoon)\.(([a-z]{2,3}\.)*[a-z]{2,6})$/
+
+! === DEVICE & IOT TRACKING ===
+! Roku tracking
+/(ads|captive|logs)\.roku\.com$/
+
+! Smart device tracking
+/(\.|^)meari\.com\.cn$/
+/(\.|^)tuyacn\.com$/
+/(\.|^)ty-us-storage[0-9]*[_.-]/
+/(\.|^)iot-dns\.com$/
+
+! === EXTENDED PATTERNS ===
+! Complex advertising patterns
+/^https?:\/\/([A-Za-z0-9.-]*\.)?clicks\.beap\.bc\.yahoo\.com\//
+/^https?:\/\/([A-Za-z0-9.-]*\.)?secure\.footprint\.net\//
+/^https?:\/\/([A-Za-z0-9.-]*\.)?sitescout(\.\w{2}\.\w{2}|\.\w{2,4})\//
+/^https?:\/\/([A-Za-z0-9.-]*\.)?appnexus(\.\w{2}\.\w{2}|\.\w{2,4})\//
+/^https?:\/\/([A-Za-z0-9.-]*\.)?evidon(\.\w{2}\.\w{2}|\.\w{2,4})\//
+/^https?:\/\/([A-Za-z0-9.-]*\.)?mediamath(\.\w{2}\.\w{2}|\.\w{2,4})\//
+/^https?:\/\/([A-Za-z0-9.-]*\.)?scorecardresearch(\.\w{2}\.\w{2}|\.\w{2,4})\//

@@ -1,0 +1,14 @@
+!
+! Title: [ MCS ] Dynamic AdBlock (Experimental)
+! Description: A regex list compiled to serve as a dynamic adblock that targets patterns and often used bypasses.
+! Version: 0.1.0012a
+! Homepage: https://github.com/Melting-Core-Studios/Blocklists
+! License: CC BY-SA 4.0
+!
+! === TLD BLOCKING (EXPERIMENTAL) ===
+! /(\.|^)cn$/
+! /(\.|^)ru$/
+! /(\.|^)tk$/
+! /(\.|^)ml$/
+! /(\.|^)ga$/
+! /(\.|^)cf$/
