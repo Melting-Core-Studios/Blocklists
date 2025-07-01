@@ -20,6 +20,9 @@ jobs:
           - key: annoyances
             path: Annoyances_list/compile-config.json
             out: Annoyances_list/annoyances.txt
+          - key: adblocking
+            path: AdBlocking/compile-config.json
+            out: AdBlocking/adblock.txt
       max-parallel: 3
 
     steps:
@@ -83,6 +86,7 @@ jobs:
               malvertising) output_file="Malvertising_Blocklist/malvertising_blocklist.txt" ;;
               tracking)     output_file="Tracking_blocklist/full_anti_track.txt"     ;;
               annoyances)   output_file="Annoyances_list/annoyances.txt"        ;;
+              adblocking)   output_file="AdBlocking/adblock.txt"          ;;
               *)            echo "::error::Unknown key: $key"; exit 1 ;;
             esac
 
