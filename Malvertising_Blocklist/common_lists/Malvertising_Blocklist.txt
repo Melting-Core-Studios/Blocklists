@@ -1,0 +1,108 @@
+! Title: [ MCS ] Adware & Malvertising Security
+! Description: Blokkeert domeinen die adware verspreiden, bundelen of hosten
+! Version: 1.0.0021a
+! Homepage: https://www.meltingcorestudios.com/
+! License: CC BY-SA 4.0
+! Author: Melting Core Studios
+
+! =============== 1. Install-Bundlers & Download Wrappers ===============
+||*amonetize*^
+||*installcore*^
+||*installcapital*^
+||*installerex*^
+||*openinstaller*^
+||*premiumpackdownload*^
+||*download-genius*^
+||*download5-cdn.com^
+||letshareus.com^
+||*.cntrlbrk.com^
+||*.softonicinstaller.*^
+||*.soft32download.*^
+||*.cnet-download.com^
+||*.updowntoday.*^
+
+! =============== 2. Malvertising / Rogue-Ads CDN’s ===============
+||*.media.net^
+||static.media.net^
+||contextual.media.net^
+||rtb.media.net^
+||taboola.com^$third-party
+||outbrain.com^$third-party
+||revcontent.com^
+||mgid.com^
+||content.ad^
+||zergnet.com^
+||trafficjunky.net^
+||adblade.com^
+||propellerads.com^
+
+! =============== 3. Fake-Software & Warez Portals ===============
+||*.allfilesdownload.*^
+||*.mfileshare.*^
+||*.greataudiosdownloads.*^
+||*.greatvideosdownloads.*^
+||*.mediasearchdirect.*^
+||*.newfastmediasearcher.*^
+||*.freedownloadmanager-online.*^
+||*.cracksnow.*^
+||*.cracksguru.*^
+||*.serialsdownload.*^
+
+! =============== 4. Browser-Hijacker Families ===============
+||*delta-search*^
+||*.conduit-search.com^
+||search.conduit.com^
+||*.babylon-toolbar.*^
+||*.sweet-page.com^
+||*.webssearches.com^
+||*.search-magnified.com^
+||*.searchawesomeapp.*^
+
+! =============== 5. Push-Notification / Click-Jackers ===============
+||*pushwelcome*^
+||*.pushworld*^
+||*.pushnotificationserv*^
+||*.push-native.com^
+||*.clickallow.co^
+||*.allow-ads.com^
+||*.click-notifications.*^
+
+! =============== 6. Mobile & APK Adware ===============
+||*.mobimagic.*^
+||*.adloadx.*^
+||*.leadbolt.net^
+||*.airpush.com^
+||*.omyapp.com^
+||*.dspmp.com^
+||*.appnext.com^
+||*.chartboost.com^
+
+! =============== 7. Cryptocurrency Clip-/Bundleware ===============
+||*.cryptotabdownload.*^
+||*.minergate.*^
+||*.cryptominerinstaller.*^
+||*.coinhive.com^
+||*.webmine.*^
+
+! =============== 8. Wildcards voor Overkoepelende Netwerken ===============
+||*bundleinstaller*^
+||*setupdownload*^
+||*downloadredirect*^
+||*getyourfile*^
+||*fastdownload*^
+||*mirrordownload*^
+||*files-cdn*^
+||*adwarecdn*^
+||*malware-ads*^
+
+! =============== 9. Anti-Breakage (essentieel) ===============
+@@||download.microsoft.com^$important
+@@||download.mozilla.org^$important
+@@||github.com^$important
+@@||*.githubusercontent.com^$important
+@@||dl.google.com^$important
+@@||nx-cache.nxcdn.com^$important
+@@||downloads.sourceforge.net^$important
+@@||pypi.org^$important
+
+! =============== EINDE ADWARE SECURITY BLOCKLIST ===============
