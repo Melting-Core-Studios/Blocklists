@@ -23,7 +23,7 @@ jobs:
           - key: adblocking
             path: AdBlocking/compile-config.json
             out: AdBlocking/adblock.txt
-      max-parallel: 3
+      max-parallel: 4
 
     steps:
       - name: Checkout
