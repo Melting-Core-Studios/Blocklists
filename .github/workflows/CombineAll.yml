@@ -133,7 +133,17 @@ jobs:
               jq ".version = \"${new}\"" "$artifact_cfg" > "$artifact_cfg.tmp" && mv "$artifact_cfg.tmp" "$artifact_cfg"
               echo "Bumped $key to $new"
               
-              hostlist-compiler -c "$artifact_cfg" -o "$repo_out"
+              retries=3
+              count=0
+              until hostlist-compiler -c "$artifact_cfg" -o "$repo_out"; do
+                count=$((count + 1))
+                if [ "$count" -ge "$retries" ]; then
+                  echo "::error::hostlist-compiler failed after $retries attempts"
+                  exit 1
+                fi
+                echo "hostlist-compiler failed, retrying ($count/$retries)..."
+                sleep 5
+              done
               cp "$artifact_cfg" "$repo_cfg"
               git add "$repo_cfg" "$repo_out"
             fi
