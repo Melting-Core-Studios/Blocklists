@@ -1,0 +1,40 @@
+{
+  "name": "[ MCS ] Ultralist",
+  "description": "A massive blocklist of all precompiled lists",
+  "homepage": "https://github.com/Melting-Core-Studios/Blocklists",
+  "license": "CC BY-SA 4.0",
+  "version": "1.0",
+  "sources": [
+    {
+      "source": "https://raw.githubusercontent.com/Melting-Core-Studios/Blocklists/refs/heads/main/AdBlocking/adblock.txt",
+      "type": "adblock"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Melting-Core-Studios/Blocklists/refs/heads/main/Annoyances_list/annoyances.txt",
+      "type": "adblock"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Melting-Core-Studios/Blocklists/refs/heads/main/AntiSocials/asocial.txt",
+      "type": "adblock"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Melting-Core-Studios/Blocklists/refs/heads/main/Malvertising_Blocklist/malvertising_blocklist.txt",
+      "type": "adblock"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Melting-Core-Studios/Blocklists/refs/heads/main/Tracking_blocklist/full_anti_track.txt",
+      "type": "adblock"
+    }
+  ],
+  "transformations": [
+    "RemoveComments",
+    "Deduplicate",
+    "RemoveEmptyLines",
+    "TrimLines",
+    "InsertFinalNewLine"
+  ],
+  "exclusions": [
+    "@@||accounts.google.com^$important",
+    "@@||login.microsoftonline.com^$important"
+  ]
+}

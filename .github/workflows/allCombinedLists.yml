@@ -1,0 +1,138 @@
+name: Compile all massive lists
+
+on:
+  schedule:
+    - cron: '0 */1 * * *'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        cfg:
+          - key: main
+            path: Ultralist/compile-config.json
+            out:  Ultralist/bombshell.txt
+      max-parallel: 1
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install jq
+        uses: dcarbone/install-jq-action@v3
+        with:
+          version: "1.6"
+
+      - name: Install hostlist-compiler
+        run: npm install -g @adguard/hostlist-compiler
+
+      - name: Compile preliminary output
+        run: |
+          hostlist-compiler -c "${{ matrix.cfg.path }}" -o "${{ matrix.cfg.out }}"
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.cfg.key }}
+          path: |
+            ${{ matrix.cfg.path }}
+            ${{ matrix.cfg.out }}
+
+  publish:
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout full history
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Install jq
+        uses: dcarbone/install-jq-action@v3
+        with:
+          version: '1.6'
+
+      - name: Install hostlist-compiler
+        run: npm install -g @adguard/hostlist-compiler
+
+      - name: Download artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: artifacts
+
+      - name: Compare, bump version & recompile
+        id: process
+        shell: bash
+        run: |
+          changed_any=false
+
+          for dir in artifacts/*; do
+            key=$(basename "$dir")
+            
+            case "$key" in
+              main) output_file="Ultralist/bombshell.txt" ;;
+              *)            echo "::error::Unknown key: $key"; exit 1 ;;
+            esac
+
+            artifact_cfg=$(find "$dir" -name "compile-config.json" -type f | head -n1)
+            artifact_out=$(find "$dir" -name "*.txt" -type f | head -n1)
+            
+            repo_cfg="$GITHUB_WORKSPACE/$(dirname "$output_file")/compile-config.json"
+            repo_out="$GITHUB_WORKSPACE/$output_file"
+
+            echo "🔍 Processing $key:"
+            
+            if [[ ! -f "$artifact_cfg" ]] || [[ ! -f "$artifact_out" ]]; then
+              echo "::error::Artifact files not found"
+              exit 1
+            fi
+
+            if [[ ! -f "$repo_out" ]]; then
+              echo "🔄 $key changed (repo file missing)"
+              changed_any=true
+            else
+              artifact_clean=$(grep -v "^! Last modified:" "$artifact_out" || true)
+              repo_clean=$(grep -v "^! Last modified:" "$repo_out" || true)
+              
+              if [[ "$artifact_clean" != "$repo_clean" ]]; then
+                echo "🔄 $key changed (content differs, ignoring timestamps)"
+                changed_any=true
+              else
+                echo "✅ $key unchanged (only timestamp differs)"
+                continue
+              fi
+            fi
+
+            if [[ "$changed_any" == "true" ]]; then
+              cur=$(jq -r '.version // "1.0"' "$artifact_cfg")
+              [[ "$cur" == "auto" || -z "$cur" ]] && cur="1.0"
+              IFS='.' read -r _ minor _ <<<"$cur"
+              minor=$((minor + 1))
+              new="1.${minor}"
+              
+              jq ".version = \"${new}\"" "$artifact_cfg" > "$artifact_cfg.tmp" && mv "$artifact_cfg.tmp" "$artifact_cfg"
+              echo "Bumped $key to $new"
+              
+              hostlist-compiler -c "$artifact_cfg" -o "$repo_out"
+              cp "$artifact_cfg" "$repo_cfg"
+              git add "$repo_cfg" "$repo_out"
+            fi
+          done
+
+          echo "changed_any=$changed_any" >> $GITHUB_OUTPUT
+
+      - name: Cleanup temporary artifacts
+        if: always()
+        run: rm -rf artifacts
+
+      - name: Commit & push if needed
+        if: steps.process.outputs.changed_any == 'true'
+        run: |
+          git config user.email "actions@github.com"
+          git config user.name "MCS-Bot"
+          git commit -m "Auto-build updated blocklists – $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push --force-with-lease
