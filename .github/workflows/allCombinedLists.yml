@@ -74,6 +74,7 @@ jobs:
             key=$(basename "$dir")
             
             case "$key" in
+              annoyances) echo "$key is still present... weird" ;;
               main) output_file="Ultralist/bombshell.txt" ;;
               *)            echo "::error::Unknown key: $key"; exit 1 ;;
             esac
