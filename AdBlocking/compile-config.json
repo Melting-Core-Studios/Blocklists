@@ -36,6 +36,22 @@
     {
       "source": "https://filters.adtidy.org/ios/filters/11_optimized.txt",
       "type": "adblock"
+    },
+    {
+      "source": "https://filters.adtidy.org/windows/filters/2_optimized.txt",
+      "type": "adblock"
+    },
+    {
+      "source": "https://filters.adtidy.org/mac/filters/2_optimized.txt",
+      "type": "adblock"
+    },
+    {
+      "source": "https://filters.adtidy.org/windows/filters/11_optimized.txt",
+      "type": "adblock"
+    },
+    {
+      "source": "https://filters.adtidy.org/mac/filters/11_optimized.txt",
+      "type": "adblock"
     }
   ],
   "transformations": [
