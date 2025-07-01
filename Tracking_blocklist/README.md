@@ -9,6 +9,7 @@ Since this list uses freely available lists, and we want to provide full transpa
 - AdGuard: [filter_11.txt](https://adguardteam.github.io/HostlistsRegistry/assets/filter_11.txt)
 - Badmojr: [domains.txt](https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/domains.txt)
 - StevenBlack: [block.energized.pro](https://block.energized.pro/)
+- Pete Lowe's: [serverlist.php](https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&mimetype=plaintext)
 
 ### ⚠️ WARNING ⚠️
 As always with our lists, it's important to note that these lists MAY break your browsing experience. This list is merely here to provide a full, dedicated list of several blocking lists that, combined into one, will provide a much more user-friendly experience when importing this into your content blocker. 
