@@ -1,0 +1,4 @@
+### Experimental? How?
+Well, let's say you want to create a dynamic block list that fully embraces pretty much everything you can think of, but then... You add it, you update it and... Ohno! Google's login doesn't work anymore! Now some may see that as desired, but to most that use the web regularly for work and home use, that's not ideal. 
+
+That's why we're creating max privacy lists in an attempt to add the highest amount of privacy for the lowest amount of cost (free, duh). However, since the filter lists in this folder do break some core functionality of say Google, ChatGPT, Facebook and so on, we want to make absolutely clear that with each update to these lists, core functionality can break, so BE ⚠️ WARNED ⚠️. 
