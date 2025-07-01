@@ -1,0 +1,135 @@
+!
+! Title: [ MCS ] A-Social
+! Description: A dynamic social tracking and interacting blocker
+! Version: 0.3.1050a
+! Homepage: https://github.com/Melting-Core-Studios/Blocklists
+! License: CC BY-SA 4.0
+!
+! === MOST COMMON PATTERNS ===
+! Facebook widget patterns
+/^(.+[_.-])?facebook[_.-]?like[_.-]/
+/^(.+[_.-])?facebook[_.-]?share[_.-]/
+/^(.+[_.-])?facebook[_.-]?comment[_.-]/
+/^(.+[_.-])?fb[_.-]?like[_.-]/
+/^(.+[_.-])?fb[_.-]?share[_.-]/
+
+! Twitter button patterns
+/^(.+[_.-])?twitter[_.-]?share[_.-]/
+/^(.+[_.-])?twitter[_.-]?tweet[_.-]/
+/^(.+[_.-])?twitter[_.-]?follow[_.-]/
+/^(.+[_.-])?tweet[_.-]?button[_.-]/
+
+! LinkedIn patterns
+/^(.+[_.-])?linkedin[_.-]?share[_.-]/
+/^(.+[_.-])?linkedin[_.-]?follow[_.-]/
+
+! Google patterns
+/^(.+[_.-])?google[_.-]?plus[_.-]/
+/^(.+[_.-])?gplus[_.-]/
+/^(.+[_.-])?youtube[_.-]?subscribe[_.-]/
+
+! Pinterest patterns
+/^(.+[_.-])?pinterest[_.-]?save[_.-]/
+/^(.+[_.-])?pinterest[_.-]?follow[_.-]/
+/^(.+[_.-])?pin[_.-]?it[_.-]/
+
+! WhatsApp patterns
+/^(.+[_.-])?whatsapp[_.-]?share[_.-]/
+/^(.+[_.-])?whatsapp[_.-]?send[_.-]/
+
+! Telegram patterns
+/^(.+[_.-])?telegram[_.-]?share[_.-]/
+
+! Reddit patterns
+/^(.+[_.-])?reddit[_.-]?submit[_.-]/
+/^(.+[_.-])?reddit[_.-]?share[_.-]/
+
+! TikTok patterns
+/^(.+[_.-])?tiktok[_.-]?share[_.-]/
+/^(.+[_.-])?tiktok[_.-]?follow[_.-]/
+
+! === ALGEMENE SOCIALE BUTTON PATRONEN ===
+! Like button patterns
+/^(.+[_.-])?like[_.-]?button[_.-]/
+/^(.+[_.-])?like[_.-]?btn[_.-]/
+/^(.+[_.-])?social[_.-]?like[_.-]/
+
+! Share button patterns
+/^(.+[_.-])?share[_.-]?button[_.-]/
+/^(.+[_.-])?share[_.-]?btn[_.-]/
+/^(.+[_.-])?social[_.-]?share[_.-]/
+/^(.+[_.-])?sharing[_.-]?button[_.-]/
+
+! Follow button patterns
+/^(.+[_.-])?follow[_.-]?button[_.-]/
+/^(.+[_.-])?follow[_.-]?btn[_.-]/
+/^(.+[_.-])?social[_.-]?follow[_.-]/
+
+! Social widget patterns
+/^(.+[_.-])?social[_.-]?widget[_.-]/
+/^(.+[_.-])?social[_.-]?plugin[_.-]/
+/^(.+[_.-])?social[_.-]?embed[_.-]/
+
+! === SOCIALE TRACKING & ANALYTICS ===
+! Social analytics
+/^(.+[_.-])?social[_.-]?analytics[_.-]/
+/^(.+[_.-])?social[_.-]?track(ing)?[_.-]/
+/^(.+[_.-])?social[_.-]?metrics[_.-]/
+
+! Widget tracking
+/^(.+[_.-])?widget[_.-]?track(ing)?[_.-]/
+/^(.+[_.-])?button[_.-]?track(ing)?[_.-]/
+
+! === SHARE URL PATTERNS ===
+! Generic share URL patterns
+/\/share\?/
+/\/sharing\//
+/\/shareArticle\?/
+/\/sharer\.php\?/
+/\/intent\/(tweet|like|follow|retweet)/
+/\/plugins\/(like|share)/
+
+! Share parameters
+/share_url=/
+/shared_url=/
+/sharing_url=/
+
+! === CSS CLASS PATTERNS ===
+! Social button class names (cosmetic filters)
+##.social-share
+##.share-button
+##.like-button
+##.follow-button
+##.social-buttons
+##.sharing-buttons
+##.social-widget
+##.fb-like
+##.fb-share
+##.twitter-share
+##.linkedin-share
+##.pinterest-save
+##.social-media-buttons
+##[class*="share-btn"]
+##[class*="social-btn"]
+##[class*="like-btn"]
+##[class*="follow-btn"]
+
+! === ADVANCED REGEX PATTERNS ===
+! Multi-platform button detection
+/^(.+[_.-])?(share|like|follow)[_.-]?(button|btn|widget)[_.-]/
+/^(.+[_.-])?(social)[_.-]?(media)[_.-]?(button|btn|widget|share|like)[_.-]/
+
+! Intent URL patterns
+/\/(intent|share|sharer)\/(tweet|like|follow|share|post)/
+
+! Widget script patterns  
+/^(.+[_.-])?widget[_.-]?js[_.-]?(social|share|like)/
+/^(.+[_.-])?(social|share)[_.-]?widget[_.-]?js[_.-]/
+
+! === EXTRA SOCIAL SERVICES ===
+! Email sharing patterns
+/mailto:\?.*subject=/
+/^(.+[_.-])?email[_.-]?share[_.-]/
+
+! Print sharing patterns  
+/^(.+[_.-])?print[_.-]?share[_.-]/

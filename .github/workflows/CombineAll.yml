@@ -23,7 +23,10 @@ jobs:
           - key: adblocking
             path: AdBlocking/compile-config.json
             out: AdBlocking/adblock.txt
-      max-parallel: 4
+          - key: socials
+            path: AntiSocials/compile-config.json
+            out: AntiSocials/asocial.txt
+      max-parallel: 5
 
     steps:
       - name: Checkout
@@ -87,6 +90,7 @@ jobs:
               tracking)     output_file="Tracking_blocklist/full_anti_track.txt"     ;;
               annoyances)   output_file="Annoyances_list/annoyances.txt"        ;;
               adblocking)   output_file="AdBlocking/adblock.txt"          ;;
+              socials)      output_file="AntiSocials/asocial.txt"        ;;
               *)            echo "::error::Unknown key: $key"; exit 1 ;;
             esac
 
