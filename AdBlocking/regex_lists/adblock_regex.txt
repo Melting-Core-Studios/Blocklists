@@ -1,10 +1,30 @@
 !
 ! Title: [ MCS ] Dynamic AdBlock
 ! Description: A regex list compiled to serve as a dynamic adblock that targets patterns and often used bypasses.
-! Version: 0.5.1158c
+! Version: 1.0.0001a
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
 !
+
+! Exceptions to restore functionality
+@@||cdninstagram.com^
+@@||scontent.cdninstagram.com^
+@@||static.cdninstagram.com^
+@@||fbcdn.net^
+@@||fbsbx.com^
+@@||static.xx.fbcdn.net^
+@@||mmg.whatsapp.net^
+@@||web.whatsapp.com^
+@@||pps.whatsapp.net^
+@@||media.whatsapp.net^
+@@||upload.facebook.com^
+@@||graph.facebook.com^
+
+! Wide META app block rules
+/^(.+\.)?(instagram|ig(cdn)?)\.(com|net)$/
+/^(.+\.)?(facebook|fb(cdn|sbx)?)\.(com|net)$/
+/^(.+\.)?whatsapp\.(com|net)$/
+
 ! === CORE ADVERTISING PATTERNS ===
 /^(.+[_.-])?adse?rv(er?|ice)?s?[0-9]*[_.-]/
 /^(.+[_.-])?telemetry[_.-]/
@@ -33,11 +53,6 @@
 /r[0-9]+---sn-[a-z0-9-]+\.googlevideo\.com/
 /r[0-9]---sn-[a-z0-9-]+\.googlevideo\.com/
 /^r\d---sn-[a-z0-9-]*\.googlevideo\.com$/
-
-! General Facebook patterns
-/^(.+[_.-])?(instagram|ig)[_.-]?(ads|analytics|tracking|pixel)/
-/^(.+[_.-])?(facebook|fb)[_.-]?(ads|analytics|tracking|pixel)/
-/^(.+[_.-])?whatsapp[_.-]?(ads|analytics|tracking)/
 
 ! LinkedIn tracking
 /^(.+\.)?linkedin\.(com|net)$/
