@@ -5,6 +5,17 @@
 ! License: CC BY-SA 4.0
 ! Author: Melting Core Studios
 
+! Exceptions for YouTube QOL extensions
+@@||youtube.com^$important
+@@||ytimg.com^$important
+@@||s.youtube.com^$important
+@@||youtubei.googleapis.com^$important
+@@||youtube.googleapis.com^$important
+@@||googlevideo.com^$important
+@@||yt3.ggpht.com^$important
+@@||googleusercontent.com^$important
+
+
 ! =============== GOOGLE ANALYTICS & TAG MANAGER - ULTRA WILDCARDS ===============
 ! Alle Google Analytics varianten[1][2][4]
 ||*google*analytics*^$third-party
