@@ -120,3 +120,10 @@
 ||*.facebook.it^$third-party
 ||*.facebook.es^$third-party
 ||*.facebook.nl^$third-party
+
+! Exceptions for functionality
+@@||cdninstagram.com^$third-party
+@@||mmg.whatsapp.net^$third-party
+@@||web.whatsapp.com^
+@@||pps.whatsapp.net^
+@@||static.xx.fbcdn.net^$third-party
