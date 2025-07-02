@@ -35,9 +35,9 @@
 /^r\d---sn-[a-z0-9-]*\.googlevideo\.com$/
 
 ! General Facebook patterns
-/^(.+\.)?(facebook|fb(cdn|sbx)?|tfbnw)\.(com|net)$/
-/^(.+\.)?(instagram|ig(cdn)?)\.(com|net)$/
-/^(.+\.)?whatsapp\.(com|net)$/
+/^(.+[_.-])?(instagram|ig)[_.-]?(ads|analytics|tracking|pixel)/
+/^(.+[_.-])?(facebook|fb)[_.-]?(ads|analytics|tracking|pixel)/
+/^(.+[_.-])?whatsapp[_.-]?(ads|analytics|tracking)/
 
 ! LinkedIn tracking
 /^(.+\.)?linkedin\.(com|net)$/
