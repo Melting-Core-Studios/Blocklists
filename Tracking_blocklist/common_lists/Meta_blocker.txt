@@ -1,9 +1,19 @@
 ! Title: [ MCS ] Meta Socials Blocker
 ! Description: Blocks all Meta trackers without breaking functionality
-! Version: 1.2.5772b
+! Version: 1.3.4272ca
 ! Homepage: https://www.meltingcorestudios.com/
 ! License: CC BY-SA 4.0
 ! Author: Melting Core Studios
+
+! Prevent breaking of WhatsApp services
+@@||web.whatsapp.com^$important       
+@@||api.whatsapp.com^$important       
+@@||mmg.whatsapp.net^$important       
+@@||media.cdn.whatsapp.net^$important 
+@@||static.whatsapp.net^$important    
+@@||pps.whatsapp.net^$important       
+@@||chat.whatsapp.com^$important      
+@@||g.whatsapp.net^$important         
 
 ! =============== FACEBOOK CORE TRACKING ===============
 ! Facebook Pixel en Analytics[1][7][26]
