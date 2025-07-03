@@ -6,8 +6,40 @@
 ! Warning: This list may break some functionality of AI tools. Use in a sandbox before definite use. 
 
 ! ============== OPENAI (GPTBot / ChatGPT) ==============
-@@||*.openai.com^$important
-@@||*.chatgpt.com^$important
+! Prevent breakage of ChatGPT
+@@||openai.com^$~third-party
+@@||chatgpt.com^
+@@||auth0.com^
+@@||stripe.com^
+@@||microsoftonline.com^
+@@||azure.com^
+@@||cdn.openai.com^
+@@||platform.openai.com^
+
+! Analytics, Telemetry and Tracking parameters
+||analytics.openai.com^
+||metrics.openai.com^
+||telemetry.openai.com^
+||stats.openai.com^
+||tracking.openai.com^
+||logs.openai.com^
+||events.openai.com^
+||usage.openai.com^
+||profile.openai.com^
+
+! Third Party vendors (direct sale)
+||segment.io^
+||sentry.io^
+||intercom.io^
+||mixpanel.com^
+||datadoghq.com^
+||amplitude.com^
+||bugsnag.com^
+
+! Remove tracking parameters
+$removeparam=utm_source|utm_medium|utm_campaign|utm_content|utm_term|fbclid|gclid|_ga|_gl|mc_cid|mc_eid|openai_tracking|ref_src|ref_medium
+
+! General tracking parameters not required for functionality
 ||openai.com^$third-party
 ||platform.openai.com^$third-party
 ||labs.openai.com^$third-party
