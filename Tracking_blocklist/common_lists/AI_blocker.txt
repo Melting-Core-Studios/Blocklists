@@ -1,9 +1,15 @@
 ! Title: [ MCS ] Say NO to AI
 ! Description: Blocks well known AI training crawlers from obtaining user-data for so called "training purposes". 
-! Version: 0.9.9552a - Open Beta
+! Version: 0.9.9991d - Last testing phase
 ! License: CC BY-SA 4.0
 ! Author: Melting Core Studios
 ! Warning: This list may break some functionality of AI tools. Use in a sandbox before definite use. 
+
+! ============== ANTI-BREAKAGE (essentieel) ===============
+@@||chat.openai.com^$important ! For UI functionality
+@@||claude.ai^$important ! For UI functionality
+@@||labs.openai.com^$image,$important
+@@||midjourney.com^$important
 
 ! ============== OPENAI (GPTBot / ChatGPT) ==============
 ! Prevent breakage of ChatGPT
@@ -169,25 +175,99 @@
 ||otel.llama.com^
 ||otel.meta.com^
 
-
 ||research.facebook.com^$third-party
 ||llama.meta.com^$third-party
 ||crawler.meta.ai^
 /^.*MetaAI-Crawler.*$/                                         ! UA
 
 ! ============== AMAZON BEDROCK / ALEXA TEACHER ==========
+! Amazon's intrusive tracking
+||cloudwatch.amazonaws.com^
+||logs.amazonaws.com^
+||monitoring.amazonaws.com^
+||telemetry.amazonaws.com^
+||metrics.amazonaws.com^
+||datadog.aws.amazon.com^
+||events.amazonaws.com^
+||trace.amazonaws.com^
+
+! Amazon's BedRock tracking prevention
+||costexplorer.amazonaws.com^
+||ce.amazonaws.com^
+||billing.amazonaws.com^
+||tagging.amazonaws.com^
+
 ||bedrock.aws.amazon.com^$third-party
 ||ai-data.aws.com^$third-party
 ||aiaws-crawler.amazon.com^
 /^.*BedrockBot.*$/                                             ! UA
 
 ! ============== BYTEDANCE (ByteSpider / TikTok AI) ======
+! Bytedance overall tracking
+||mon-va.byteoversea.com^
+||maliva-mcs.byteoversea.com^
+||monitor_browser.byteoversea.com^
+||collect.byteoversea.com^
+||metrics.byteoversea.com^
+||telemetry.byteoversea.com^
+||stats.byteoversea.com^
+||tracking.byteoversea.com^
+||logs.byteoversea.com^
+||events.byteoversea.com^
+||usage.byteoversea.com^
+||profile.byteoversea.com^
+
+! Trae AI tracking
+||api.trae.ai/monitor_browser/collect/batch^
+||api.trae.ai/icube/api/v1/device/log/check^
+||api.trae.ai/icube/api/v1/native/config/query^
+||api.trae.ai/api/v1/workspace/feature_gates/values^
+||api.trae.ai/api/sdk/check_update^
+||api-sg-central.trae.ai^
+||bytegate-sg.byteintlapi.com^
+||lf3-static.bytednsdoc.com^
+
+! TikTok AI tracking
+||analytics.tiktok.com^
+||metrics.tiktok.com^
+||telemetry.tiktok.com^
+||tracking.tiktok.com^
+||logs.tiktok.com^
+
 ||bytespider.com^
 ||crawl.bytedance.com^
 ||crawler.bytedance.com^
 /^.*ByteSpider.*$/                                             ! UA
 
 ! ============== STABILITY AI / MIDJOURNEY ===============
+! Default tracking for Stability AI
+||analytics.stability.ai^
+||metrics.stability.ai^
+||telemetry.stability.ai^
+||stats.stability.ai^
+||tracking.stability.ai^
+||logs.stability.ai^
+||events.stability.ai^
+||usage.stability.ai^
+||profile.stability.ai^
+
+! Default tracking for DreamStudio AI
+||analytics.dreamstudio.ai^
+||metrics.dreamstudio.ai^
+||telemetry.dreamstudio.ai^
+||tracking.dreamstudio.ai^
+
+! Default tracking for Midjourney AI
+||analytics.midjourney.com^
+||metrics.midjourney.com^
+||telemetry.midjourney.com^
+||stats.midjourney.com^
+||tracking.midjourney.com^
+||logs.midjourney.com^
+||events.midjourney.com^
+||usage.midjourney.com^
+||profile.midjourney.com^
+
 ||stability.ai^$third-party
 ||dreamstudio.ai^$third-party
 ||crawler.stability.ai^
@@ -196,25 +276,83 @@
 /^.*StabilityCrawler.*$/                                       ! UA
 
 ! ============== ELEUTHER / COMMON CRAWL / CCBot =========
+! Eleuther AI tracking
+||analytics.eleuther.ai^
+||metrics.eleuther.ai^
+||telemetry.eleuther.ai^
+||stats.eleuther.ai^
+||tracking.eleuther.ai^
+||logs.eleuther.ai^
+||events.eleuther.ai^
+||usage.eleuther.ai^
+||profile.eleuther.ai^
+
+! Common Crawl tracking
+||index.commoncrawl.org^
+||data.commoncrawl.org^
+||commoncrawl.org^$third-party
+
+! CCbot Tracking
+||ccbot.commoncrawl.org^
+||ccbot^
+
 ||commoncrawl.org^$third-party
 ||ccbot.semanticscholar.org^
 ||data.commoncrawl.org^$third-party
 /^.*CCBot.*$/                                                  ! UA
 
 ! ============== HUGGING FACE HUB (datasets scraping) ====
+! Default Hugging Face Hub's tracking
+||telemetry.huggingface.co^
+||analytics.huggingface.co^
+||metrics.huggingface.co^
+||tracking.huggingface.co^
+||logs.huggingface.co^
+||events.huggingface.co^
+||usage.huggingface.co^
+||profile.huggingface.co^
+
+! Hugging Face Hub's dataset scraping
+||datasets-server.huggingface.co^
+||api.huggingface.co/telemetry^
+||api.huggingface.co/metrics^
+||api.huggingface.co/tracking^
+||api.huggingface.co/logs^
+||api.huggingface.co/events^
+||api.huggingface.co/usage^
+||api.huggingface.co/profile^
+
+! Spaces tracking
+||spaces-tracking.huggingface.co^
+||spaces-analytics.huggingface.co^
+
 ||huggingfaceusercontent.com^$third-party
 ||datasets-server.huggingface.co^$third-party
 ||crawl.huggingface.co^
 /^.*HF-Crawler.*$/                                             ! UA
 
 ! ============== GENERIC AI-TRAINING WILDCARDS ===========
+||*analytics*
+||*telemetry*
+||*metrics*
+||*tracking*
+||*logs*
+||*events*
+||*usage*
+||*profile*
+||*collect*
+||*scrape*
+||*bot*
+||*crawl*
+||*spider*
+||*ai-crawler*
+||*train*
+||*dataset*
+||*data-collection*
+||*user-agent: *bot*
+||*user-agent: *spider*
+||*user-agent: *crawl*
 ||*ai-crawler*^$third-party
 ||*model-training*^$third-party
 ||*dataset-crawl*^$third-party
 /^.*\/(dataset|training|crawl)\/.*(bot|spider).*$/
-
-! ============== ANTI-BREAKAGE (essentieel) ===============
-@@||chat.openai.com^$important ! For UI functionality
-@@||claude.ai^$important ! For UI functionality
-@@||labs.openai.com^$image,$important
-@@||midjourney.com^$important

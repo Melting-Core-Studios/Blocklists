@@ -1,6 +1,6 @@
 ! Title: [ MCS ] Say NO to AI
 ! Description: Blocks well known AI training crawlers from obtaining user-data for so called "training purposes". 
-! Version: 0.1.1142c | Pre-release
+! Version: 0.5.3121a | Alpha release
 ! License: CC BY-SA 4.0
 ! Author: Melting Core Studios
 ! Warning: This list may break some functionality of AI tools. Use in a sandbox before definite use. 
@@ -26,3 +26,26 @@ $removeparam=utm_source|utm_medium|utm_campaign|utm_content|utm_term|fbclid|gcli
 ! Meta's Llama tracking prevention
 ^([a-z0-9-]+\.)?(analytics|metrics|telemetry|stats|events|tracking|logs|usage|profile)\.(meta|llama)\.com$|^otel\.(llama|meta)\.com$|^([a-z0-9-]+\.)?(segment\.io|sentry\.io|intercom\.io|mixpanel\.com|datadoghq\.com|amplitude\.com|bugsnag\.com|doubleclick\.net|googleadservices\.com|googlesyndication\.com|facebook\.com|fbcdn\.net|amazon-adsystem\.com|hotjar\.com|newrelic\.com|cloudflareinsights\.com|optimizely\.com|adroll\.com)$
 $removeparam=utm_source|utm_medium|utm_campaign|utm_content|utm_term|fbclid|gclid|_ga|_gl|mc_cid|mc_eid|llama_tracking|ref_src|ref_medium
+
+! Amazon's Bedrock tracking prevention
+^([a-z0-9-]+\.)?(cloudwatch|logs|monitoring|telemetry|metrics|datadog|events|trace|costexplorer|ce|billing|tagging)\.amazonaws\.com$|^datadog\.aws\.amazon\.com$|^([a-z0-9-]+\.)?(segment\.io|sentry\.io|intercom\.io|mixpanel\.com|datadoghq\.com|amplitude\.com|bugsnag\.com|doubleclick\.net|googleadservices\.com|googlesyndication\.com|facebook\.com|fbcdn\.net|amazon-adsystem\.com|hotjar\.com|newrelic\.com|cloudflareinsights\.com|optimizely\.com|adroll\.com)$
+$removeparam=utm_source|utm_medium|utm_campaign|utm_content|utm_term|fbclid|gclid|_ga|_gl|mc_cid|mc_eid|bedrock_tracking|ref_src|ref_medium
+
+! ByteDance's ByteSpider & TikTok AI tracking prevention
+^([a-z0-9-]+\.)?(mon-va|maliva-mcs|monitor_browser|collect|metrics|telemetry|stats|tracking|logs|events|usage|profile)\.byteoversea\.com$|^api(\-sg\-central)?\.trae\.ai/(monitor_browser/collect/batch|icube/api/v1/device/log/check|icube/api/v1/native/config/query|api/v1/workspace/feature_gates/values|api/sdk/check_update)$|^bytegate\-sg\.byteintlapi\.com$|^lf3\-static\.bytednsdoc\.com$|^([a-z0-9-]+\.)?(analytics|metrics|telemetry|tracking|logs)\.tiktok\.com$|^Bytespider$|^([a-z0-9-]+\.)?(segment\.io|sentry\.io|intercom\.io|mixpanel\.com|datadoghq\.com|amplitude\.com|bugsnag\.com|doubleclick\.net|googleadservices\.com|googlesyndication\.com|facebook\.com|fbcdn\.net|amazon-adsystem\.com|hotjar\.com|newrelic\.com|cloudflareinsights\.com|optimizely\.com|adroll\.com)$
+$removeparam=utm_source|utm_medium|utm_campaign|utm_content|utm_term|fbclid|gclid|_ga|_gl|mc_cid|mc_eid|bytedance_tracking|ref_src|ref_medium
+
+! DreamStudio AI | Stability AI | Midjourney AI
+^([a-z0-9-]+\.)?(analytics|metrics|telemetry|stats|events|tracking|logs|usage|profile)\.(stability|dreamstudio|midjourney)\.ai$|^([a-z0-9-]+\.)?(segment\.io|sentry\.io|intercom\.io|mixpanel\.com|datadoghq\.com|amplitude\.com|bugsnag\.com|doubleclick\.net|googleadservices\.com|googlesyndication\.com|facebook\.com|fbcdn\.net|amazon-adsystem\.com|hotjar\.com|newrelic\.com|cloudflareinsights\.com|optimizely\.com|adroll\.com)$
+$removeparam=utm_source|utm_medium|utm_campaign|utm_content|utm_term|fbclid|gclid|_ga|_gl|mc_cid|mc_eid|stability_tracking|midjourney_tracking|ref_src|ref_medium
+
+! EleutherAI, Common Crawl and CCbot tracking prevention
+^([a-z0-9-]+\.)?(analytics|metrics|telemetry|stats|events|tracking|logs|usage|profile)\.eleuther\.ai$|^index\.commoncrawl\.org$|^data\.commoncrawl\.org$|^ccbot(\.commoncrawl\.org)?$|^commoncrawl\.org$
+
+! Hugging Face Hub tracking prevention 
+^([a-z0-9-]+\.)?(telemetry|analytics|metrics|tracking|logs|events|usage|profile)\.huggingface\.co$|^api\.huggingface\.co/(telemetry|metrics|tracking|logs|events|usage|profile)$|^datasets-server\.huggingface\.co$|^spaces-(tracking|analytics)\.huggingface\.co$|^([a-z0-9-]+\.)?(segment\.io|sentry\.io|intercom\.io|mixpanel\.com|datadoghq\.com|amplitude\.com|bugsnag\.com|doubleclick\.net|googleadservices\.com|googlesyndication\.com|facebook\.com|fbcdn\.net|amazon-adsystem\.com|hotjar\.com|newrelic\.com|cloudflareinsights\.com|optimizely\.com|adroll\.com)$
+$removeparam=utm_source|utm_medium|utm_campaign|utm_content|utm_term|fbclid|gclid|_ga|_gl|mc_cid|mc_eid|hf_tracking|ref_src|ref_medium
+
+! General AI tracking prevention (wildcards)
+^([a-z0-9-]+\.)?(analytics|telemetry|metrics|tracking|logs|events|usage|profile|collect|scrape|bot|crawl|spider|ai-crawler|train|dataset|data-collection)\.[a-z0-9-]+\.[a-z]+$
+(?i)(bot|spider|crawl|ai[-_]?crawler|dataset|scrape|train)
