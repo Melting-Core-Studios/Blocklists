@@ -1,6 +1,6 @@
 ! Title: [ MCS ] Say NO to AI
 ! Description: Blocks well known AI training crawlers from obtaining user-data for so called "training purposes". 
-! Version: 0.9.9991d - Last testing phase
+! Version: 0.9.9992a - Last testing phase
 ! License: CC BY-SA 4.0
 ! Author: Melting Core Studios
 ! Warning: This list may break some functionality of AI tools. Use in a sandbox before definite use. 
@@ -11,17 +11,77 @@
 @@||labs.openai.com^$image,$important
 @@||midjourney.com^$important
 
-! ============== OPENAI (GPTBot / ChatGPT) ==============
 ! Prevent breakage of ChatGPT
-@@||openai.com^$~third-party
-@@||chatgpt.com^
-@@||auth0.com^
-@@||stripe.com^
-@@||microsoftonline.com^
-@@||azure.com^
-@@||cdn.openai.com^
-@@||platform.openai.com^
+@@||openai.com^$important
+@@||chatgpt.com^$important
+@@||auth0.com^$important
+@@||stripe.com^$important
+@@||microsoftonline.com^$important
+@@||azure.com^$important
+@@||cdn.openai.com^$important
+@@||platform.openai.com^$important
 
+! Prevent breakage of Gemini
+@@||gemini.google.com^$important
+@@||accounts.google.com^$important
+@@||apis.google.com^$important
+@@||googleapis.com^$important
+@@||clients6.google.com^$important
+@@||clients4.google.com^$important
+@@||www.gstatic.com^$important
+@@||ssl.gstatic.com^$important
+
+! Prevent Perplexity from breaking
+@@||perplexity.ai^$important
+@@||api.perplexity.ai^$important
+@@||pplx-api.perplexity.ai^$important
+@@||account.perplexity.ai^$important
+@@||auth.perplexity.ai^$important
+@@||billing.perplexity.ai^$important
+@@||support.perplexity.ai^$important
+@@||help.perplexity.ai^$important
+@@||docs.perplexity.ai^$important
+@@||labs.perplexity.ai^$important
+@@||pplx-next-static-public.perplexity.ai^$important
+
+! Prevent Claude from breaking
+@@||claude.ai^$important
+@@||accounts.anthropic.com^$important
+@@||cdn.anthropic.com^$important
+@@||api.anthropic.com^$important
+
+! Prevent Cohere from breaking
+@@||cohere.com^$important
+@@||api.cohere.ai^$important
+@@||dashboard.cohere.ai^$important
+@@||auth.cohere.ai^$important
+@@||cdn.cohere.ai^$important
+
+! Prevent Meta's Llama from breaking
+@@||llama.meta.com^$important
+@@||api.llama.meta.com^$important
+@@||ai.meta.com^$important
+@@||cdn.meta.com^$important
+
+! Prevent Amazon's Bedrock breaking (Europe)
+! Had to use regex due to the insane amount of bedrock URLs
+^bedrock(\-runtime|\-agent|\-agent\-runtime)?\.[a-z0-9-]+\.amazonaws\.com$
+! Attempt to use wildcards to prevent breaking
+@@||bedrock-*-amazonaws.com^$important
+@@||bedrock-runtime-*-amazonaws.com^$important
+@@||bedrock-agent-*-amazonaws.com^$important
+@@||bedrock-agent-runtime-*-amazonaws.com^$important
+
+! Prevent TikTok's AI from breaking
+@@||tiktok.com^$important
+@@||doubao.com^$important
+@@||api.tiktok.com^$important
+@@||api.doubao.com^$important
+@@||cdn.tiktok.com^$important
+
+
+
+! ============== OPENAI (GPTBot / ChatGPT) ==============
 ! Analytics, Telemetry and Tracking parameters
 ||analytics.openai.com^
 ||metrics.openai.com^
@@ -66,19 +126,6 @@
 /^.*ClaudeBot.*$/                                              ! UA
 
 ! ============== PERPLEXITY AI ===========================
-! Prevent breakage of Perplexity AI
-@@||perplexity.ai^$~third-party
-@@||api.perplexity.ai^
-@@||pplx-api.perplexity.ai^
-@@||account.perplexity.ai^
-@@||auth.perplexity.ai^
-@@||billing.perplexity.ai^
-@@||support.perplexity.ai^
-@@||help.perplexity.ai^
-@@||docs.perplexity.ai^
-@@||labs.perplexity.ai^
-@@||pplx-next-static-public.perplexity.ai^
-
 ! Main perplexity tracking parameters
 ||perplexity.ai^$third-party
 ||perplexitybot.com^
