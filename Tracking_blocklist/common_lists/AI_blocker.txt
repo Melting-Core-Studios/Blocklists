@@ -6,6 +6,8 @@
 ! Warning: This list may break some functionality of AI tools. Use in a sandbox before definite use. 
 
 ! ============== OPENAI (GPTBot / ChatGPT) ==============
+@@||*.openai.com^$important
+@@||*.chatgpt.com^$important
 ||openai.com^$third-party
 ||platform.openai.com^$third-party
 ||labs.openai.com^$third-party
@@ -22,9 +24,59 @@
 /^.*ClaudeBot.*$/                                              ! UA
 
 ! ============== PERPLEXITY AI ===========================
+! Prevent breakage of Perplexity AI
+@@||perplexity.ai^$~third-party
+@@||api.perplexity.ai^
+@@||pplx-api.perplexity.ai^
+@@||account.perplexity.ai^
+@@||auth.perplexity.ai^
+@@||billing.perplexity.ai^
+@@||support.perplexity.ai^
+@@||help.perplexity.ai^
+@@||docs.perplexity.ai^
+@@||labs.perplexity.ai^
+@@||pplx-next-static-public.perplexity.ai^
+
+! Main perplexity tracking parameters
 ||perplexity.ai^$third-party
 ||perplexitybot.com^
 ||perplexitybrowser.com^
+
+! Private data collectors
+||activity.perplexity.ai^
+||analytics.perplexity.ai^
+||behavior.perplexity.ai^
+||data.perplexity.ai^
+||telemetry.perplexity.ai^
+||metrics.perplexity.ai^
+||stats.perplexity.ai^
+||events.perplexity.ai^
+||tracking.perplexity.ai^
+||logs.perplexity.ai^
+||profile.perplexity.ai^
+||usage.perplexity.ai^
+
+! Targeted advertising parameters
+||ads.perplexity.ai^
+||ad-metrics.perplexity.ai^
+||targeting.perplexity.ai^
+||advertising.perplexity.ai^
+||adtech.perplexity.ai^
+||sponsored.perplexity.ai^
+
+! Browser metric parameters
+||browser-metrics.perplexity.ai^
+||comet-tracking.perplexity.ai^
+||browser-analytics.perplexity.ai^
+||browser-telemetry.perplexity.ai^
+
+! Vendor sales endpoints
+||vendor.perplexity.ai^
+||partners.perplexity.ai^
+||third-party.perplexity.ai^
+||integration.perplexity.ai^
+||external.perplexity.ai^
+
 /^.*PerplexityBot.*$/                                          ! UA
 
 ! ============== COHERE (cohere-training-data-crawler) ===
