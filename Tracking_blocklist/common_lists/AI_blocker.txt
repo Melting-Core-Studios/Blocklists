@@ -1,6 +1,6 @@
 ! Title: [ MCS ] Say NO to AI
 ! Description: Blocks well known AI training crawlers from obtaining user-data for so called "training purposes". 
-! Version: 0.9.2116-pre-release
+! Version: 0.9.9552a - Open Beta
 ! License: CC BY-SA 4.0
 ! Author: Melting Core Studios
 ! Warning: This list may break some functionality of AI tools. Use in a sandbox before definite use. 
@@ -27,18 +27,6 @@
 ||usage.openai.com^
 ||profile.openai.com^
 
-! Third Party vendors (direct sale)
-||segment.io^
-||sentry.io^
-||intercom.io^
-||mixpanel.com^
-||datadoghq.com^
-||amplitude.com^
-||bugsnag.com^
-
-! Remove tracking parameters
-$removeparam=utm_source|utm_medium|utm_campaign|utm_content|utm_term|fbclid|gclid|_ga|_gl|mc_cid|mc_eid|openai_tracking|ref_src|ref_medium
-
 ! General tracking parameters not required for functionality
 ||openai.com^$third-party
 ||platform.openai.com^$third-party
@@ -49,6 +37,22 @@ $removeparam=utm_source|utm_medium|utm_campaign|utm_content|utm_term|fbclid|gcli
 /^.*\/gptbot\/?.*$/ ! UA-pattern
 
 ! ============== ANTHROPIC (Claude) ======================
+! Anthropic tracking parameters
+||analytics.anthropic.com^
+||metrics.anthropic.com^
+||telemetry.anthropic.com^
+||stats.anthropic.com^
+||tracking.anthropic.com^
+||logs.anthropic.com^
+||events.anthropic.com^
+||usage.anthropic.com^
+||profile.anthropic.com^
+
+! Claude specific tracking parameters
+||claudebot.anthropic.com^
+||claude-web.anthropic.com^
+||anthropic-ai.anthropic.com^
+
 ||anthropic.com^$third-party
 ||claude.ai^$third-party
 ||claudebot.ai^
@@ -112,17 +116,60 @@ $removeparam=utm_source|utm_medium|utm_campaign|utm_content|utm_term|fbclid|gcli
 /^.*PerplexityBot.*$/                                          ! UA
 
 ! ============== COHERE (cohere-training-data-crawler) ===
+! Default tracking parameters for Cohere AI
+||analytics.cohere.com^
+||metrics.cohere.com^
+||telemetry.cohere.com^
+||stats.cohere.com^
+||tracking.cohere.com^
+||logs.cohere.com^
+||events.cohere.com^
+||usage.cohere.com^
+||profile.cohere.com^
+
+! Training crawler prevention
+||cohere-training-data-crawler.cohere.com^
+||cohere-training-data-crawler.com^
+
 ||cohere.ai^$third-party
 ||coherebot.com^
 /^.*cohere-training-data-crawler.*$/                          ! UA
 
 ! ============== GOOGLE (Gemini / Bard training) =========
+||gemini.google.com/analytics^
+||gemini.google.com/metrics^
+||gemini.google.com/telemetry^
+||gemini.google.com/events^
+||gemini.google.com/tracking^
 ||bard.google.com^$third-party
 ||crawl-content.google.com^$third-party
 ||ai.googleusercontent.com^
 /^.*Google-Extended.*$/                                        ! UA (“Google-Extended” opt-out)
 
 ! ============== META (Llama & Research) =================
+! Meta default tracking (for AI)
+||analytics.meta.com^
+||metrics.meta.com^
+||telemetry.meta.com^
+||stats.meta.com^
+||tracking.meta.com^
+||logs.meta.com^
+||events.meta.com^
+||usage.meta.com^
+||profile.meta.com^
+
+! Meta's Llama tracking
+||telemetry.llama.com^
+||metrics.llama.com^
+||logs.llama.com^
+||analytics.llama.com^
+||events.llama.com^
+
+! Meta's Llama Stack Tracking (telemetry)
+||otel.llama.com^
+||otel.meta.com^
+
+
 ||research.facebook.com^$third-party
 ||llama.meta.com^$third-party
 ||crawler.meta.ai^
