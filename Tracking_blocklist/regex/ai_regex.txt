@@ -1,0 +1,28 @@
+! Title: [ MCS ] Say NO to AI
+! Description: Blocks well known AI training crawlers from obtaining user-data for so called "training purposes". 
+! Version: 0.1.1142c | Pre-release
+! License: CC BY-SA 4.0
+! Author: Melting Core Studios
+! Warning: This list may break some functionality of AI tools. Use in a sandbox before definite use. 
+
+! Perplexity AI tracking prevention
+^([a-z0-9-]+\.)?(analytics|telemetry|metrics|stats|events|tracking|logs|data|activity|behavior|profile|usage|ads?|ad-metrics|targeting|advertising|adtech|sponsored|vendor|partners|third-party|integration|external|browser-metrics|comet-tracking|browser-analytics|browser-telemetry)\.perplexity\.ai$
+
+! ChatGPT | OpenAI tracking prevention
+^([a-z0-9-]+\.)?(analytics|metrics|telemetry|stats|events|tracking|logs|usage|profile)\.openai\.com$|^([a-z0-9-]+\.)?(segment\.io|sentry\.io|intercom\.io|mixpanel\.com|datadoghq\.com|amplitude\.com|bugsnag\.com|doubleclick\.net|googleadservices\.com|googlesyndication\.com|facebook\.com|fbcdn\.net|amazon-adsystem\.com|googletagmanager\.com|hotjar\.com|newrelic\.com|cloudflareinsights\.com|optimizely\.com|adroll\.com)$
+$removeparam=utm_source|utm_medium|utm_campaign|utm_content|utm_term|fbclid|gclid|_ga|_gl|mc_cid|mc_eid|openai_tracking|ref_src|ref_medium
+
+! CohereAI tracking prevention
+^([a-z0-9-]+\.)?(analytics|metrics|telemetry|stats|events|tracking|logs|usage|profile)\.cohere\.com$|^cohere-training-data-crawler(\.cohere\.com|\.com)$|^([a-z0-9-]+\.)?(segment\.io|sentry\.io|intercom\.io|mixpanel\.com|datadoghq\.com|amplitude\.com|bugsnag\.com|doubleclick\.net|googleadservices\.com|googlesyndication\.com|facebook\.com|fbcdn\.net|amazon-adsystem\.com)$
+
+! Google Gemini tracking prevention
+^([a-z0-9-]+\.)?(analytics|metrics|telemetry|stats|events|tracking|logs|usage|profile)\.google\.com$|^([a-z0-9-]+\.)?(doubleclick\.net|googletagmanager\.com|googletagservices\.com|googlesyndication\.com|adservice\.google\.[a-z]+|partnerad\.l\.doubleclick\.net|securepubads\.g\.doubleclick\.net|pagead2\.googlesyndication\.com|pagead-googlehosted\.l\.google\.com|segment\.io|sentry\.io|intercom\.io|mixpanel\.com|datadoghq\.com|amplitude\.com|bugsnag\.com|facebook\.com|fbcdn\.net|amazon-adsystem\.com|hotjar\.com|newrelic\.com|cloudflareinsights\.com|optimizely\.com|adroll\.com)$|^gemini\.google\.com/(analytics|metrics|telemetry|events|tracking)$
+$removeparam=utm_source|utm_medium|utm_campaign|utm_content|utm_term|fbclid|gclid|_ga|_gl|mc_cid|mc_eid|gemini_tracking|ref_src|ref_medium
+
+! Anthropic (Claude) tracking prevention
+^([a-z0-9-]+\.)?(analytics|metrics|telemetry|stats|events|tracking|logs|usage|profile)\.anthropic\.com$|^(claudebot|claude-web|anthropic-ai)\.anthropic\.com$|^([a-z0-9-]+\.)?(segment\.io|sentry\.io|intercom\.io|mixpanel\.com|datadoghq\.com|amplitude\.com|bugsnag\.com|doubleclick\.net|googleadservices\.com|googlesyndication\.com|facebook\.com|fbcdn\.net|amazon-adsystem\.com|hotjar\.com|newrelic\.com|cloudflareinsights\.com|optimizely\.com|adroll\.com)$
+$removeparam=utm_source|utm_medium|utm_campaign|utm_content|utm_term|fbclid|gclid|_ga|_gl|mc_cid|mc_eid|anthropic_tracking|ref_src|ref_medium
+
+! Meta's Llama tracking prevention
+^([a-z0-9-]+\.)?(analytics|metrics|telemetry|stats|events|tracking|logs|usage|profile)\.(meta|llama)\.com$|^otel\.(llama|meta)\.com$|^([a-z0-9-]+\.)?(segment\.io|sentry\.io|intercom\.io|mixpanel\.com|datadoghq\.com|amplitude\.com|bugsnag\.com|doubleclick\.net|googleadservices\.com|googlesyndication\.com|facebook\.com|fbcdn\.net|amazon-adsystem\.com|hotjar\.com|newrelic\.com|cloudflareinsights\.com|optimizely\.com|adroll\.com)$
+$removeparam=utm_source|utm_medium|utm_campaign|utm_content|utm_term|fbclid|gclid|_ga|_gl|mc_cid|mc_eid|llama_tracking|ref_src|ref_medium
