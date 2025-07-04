@@ -9,7 +9,23 @@
 @@||fonts.googleapis.com^
 @@||fonts.gstatic.com^
 @@||cdn.sstatic.net^
-@@||redditstatic.com^
+
+! Fix Reddit load issue
+@@||reddit.com^$document
+@@||redditstatic.com^$stylesheet
+@@||redditmedia.com^
+@@||reddit.com/api/
+@@||gql.reddit.com^
+@@||www.reddit.com^
+
+! Fix StackOverflow load issue
+@@||cdn.sstatic.net^$stylesheet
+@@||stackoverflow.com^$document
+@@||fonts.googleapis.com^$stylesheet
+@@||fonts.gstatic.com^
+@@||ajax.googleapis.com^$script
+
+
 
 ! === AD SERVERS ===
 /^(.+[_.-])?ads?[0-9]*[_.-]/

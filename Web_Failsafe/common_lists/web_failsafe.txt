@@ -19,7 +19,20 @@
 @@||fonts.googleapis.com^
 @@||fonts.gstatic.com^
 @@||cdn.sstatic.net^
-@@||redditstatic.com^
+@@||reddit.com^$document
+@@||redditstatic.com^$stylesheet
+@@||redditmedia.com^
+@@||reddit.com/api/
+@@||gql.reddit.com^
+@@||www.reddit.com^
+
+! Fix StackOverflow load issue
+@@||cdn.sstatic.net^$stylesheet
+@@||stackoverflow.com^$document
+@@||fonts.googleapis.com^$stylesheet
+@@||fonts.gstatic.com^
+@@||ajax.googleapis.com^$script
+
 
 ! Rules from Microsoft_blocker.txt
 @@||login.microsoft.com^$important
