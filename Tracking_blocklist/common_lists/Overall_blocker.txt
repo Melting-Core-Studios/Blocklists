@@ -53,7 +53,7 @@
 ||*.google.com^$path=/gtag*
 ||*.google.com^$path=/collect*
 
-! IP-based tracking bypass[11][16]
+! IP-based tracking bypass
 ||142.250.*^$domain=~google.com
 ||172.217.*^$domain=~google.com
 ||216.58.*^$domain=~google.com
