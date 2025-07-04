@@ -1,27 +1,27 @@
-! Title: [ MCS ] Agressive blocking
-! Description: Blocklist that tries to fight against the often used bypass trackers. Has a higher risk to break common websites, use at your own risk!
-! Version: V3.22.8811c
+! Title: [ MCS ] Overall blocker (agressive)
+! Description: A very agressive blocklist that will take on the higher ranked trackers.
+! Version: V1.52.1113a-test
 ! Homepage: https://meltingcorestudios.com/
 ! License: CC BY-SA 4.0
 ! Author: Melting Core Studios
 ! Warning: This list attempts to block bypasses used by trackers. This can be effective, but can also easily break websites. Use at your own risk. 
 
 ! =============== GOOGLE ANALYTICS BYPASS DOMAINS ===============
-! Google Analytics bypass domeinen die eerdere lijsten omzeilen[1][6][11][16]
+! Google Analytics bypass domeinen die eerdere lijsten omzeilen
 ||click.googleanalytics.com^
 ||analytics.google.com^
 ||www.google-analytics.com^
 ||ssl.google-analytics.com^
 ||www.googleanalytics.com^
 
-! Google Analytics stealth tracking[1][6]
+! Google Analytics stealth tracking
 ||collect.google-analytics.com^
 ||region1.google-analytics.com^
 ||region1.analytics.google.com^
 ||stats.g.doubleclick.net^
 
 ! =============== GOOGLE SYNDICATION ADVANCED BYPASS ===============
-! Advanced Google Syndication subdomains[4][9][14]
+! Advanced Google Syndication subdomains
 ||afs.googlesyndication.com^
 ||tpc.googlesyndication.com^
 ||partner.googlesyndication.com^
@@ -34,7 +34,7 @@
 ||gtagmanager.google.com^
 
 ! =============== MEDIA.NET AGGRESSIVE TRACKING ===============
-! Media.net advanced tracking network[3][8][13][18]
+! Media.net advanced tracking network
 ||static.media.net^
 ||media.net^
 ||contextual.media.net^
@@ -48,7 +48,7 @@
 ||analytics.media.net^
 
 ! =============== ADVANCED BYPASS TECHNIQUES ===============
-! Cross-domain tracking bypass[12][17]
+! Cross-domain tracking bypass
 ||*.google.com^$path=/analytics*
 ||*.google.com^$path=/gtag*
 ||*.google.com^$path=/collect*
@@ -59,7 +59,7 @@
 ||216.58.*^$domain=~google.com
 
 ! =============== STEALTH TRACKING DOMAINS ===============
-! Proxy en stealth tracking services[1][11][16]
+! Proxy en stealth tracking services
 ||proxy.googleusercontent.com^$third-party
 ||translate.googleusercontent.com^$third-party
 ||webcache.googleusercontent.com^$third-party
@@ -99,7 +99,7 @@
 ||hotjar.com^$third-party
 
 ! =============== SERVER-SIDE TRACKING BYPASS ===============
-! Server-side tracking die client-side blocking omzeilt[11][16]
+! Server-side tracking die client-side blocking omzeilt
 ||/gtm/js*$script,third-party
 ||/gtag/js*$script,third-party
 ||/analytics/js*$script,third-party
@@ -121,7 +121,7 @@
 /^.*[?&](gclid|fbclid|msclkid).*$/
 
 ! =============== ADVANCED EVASION TECHNIQUES ===============
-! Advanced evasion domains[22][25][30]
+! Advanced evasion domains
 ||evasion.*.com^$third-party
 ||stealth.*.net^$third-party
 ||bypass.*.org^$third-party
@@ -133,7 +133,7 @@
 ||*.telemetry.*^$third-party
 
 ! =============== ANTI-ADBLOCK TRACKING ===============
-! Anti-adblock tracking services[11][16]
+! Anti-adblock tracking services
 ||anti-adblock.*.com^$third-party
 ||adblock-detect.*.net^$third-party
 ||blockthrough.*.org^$third-party
@@ -170,5 +170,3 @@
 @@||www.google.com^$important
 @@||ssl.gstatic.com^$important
 @@||fonts.googleapis.com^$important
-
-! =============== EINDE HIGHER RISK TRACKING BLOCKLIST ===============
