@@ -1,0 +1,150 @@
+! Title: [ MCS ] Web Failsafe
+! Description: A general exception list that will allow basic functionality through allow rules.
+! Version: 0.1.0101d-alpha-release
+! Homepage: https://www.meltingcorestudios.com/
+! License: CC BY-SA 4.0
+! Author: Melting Core Studios
+@@||stackoverflow.com^$important
+@@||stackexchange.com^$important
+@@||reddit.com^$important
+@@||redd.it^$important
+@@||gstatic.com^$important
+@@||googleusercontent.com^$important
+
+! Rules from Microsoft_blocker.txt
+@@||login.microsoft.com^$important
+@@||login.microsoftonline.com^$important
+@@||account.microsoft.com^$important
+@@||www.microsoft.com^$important
+@@||support.microsoft.com^$important
+@@||docs.microsoft.com^$important
+@@||technet.microsoft.com^$important
+@@||msdn.microsoft.com^$important
+@@||update.microsoft.com^$important
+@@||windowsupdate.microsoft.com^$important
+@@||download.microsoft.com^$important
+@@||catalog.update.microsoft.com^$important
+@@||www.office.com^$important
+@@||www.outlook.com^$important
+@@||outlook.live.com^$important
+@@||www.onedrive.com^$important
+@@||onedrive.live.com^$important
+@@||www.skype.com^$important
+@@||www.xbox.com^$important
+@@||account.xbox.com^$important
+@@||download.windowsupdate.com^$important
+@@||fe2.update.microsoft.com^$important
+@@||*.officeapps.live.com^$script,$xhr,important
+@@||statics.teams.cdn.office.net^$important
+@@||aadcdn.msauth.net^$important
+@@||loginstatic.microsoft.com^$important
+
+! Rules from Google_blocker.txt
+@@||youtube.com^$important
+@@||ytimg.com^$important
+@@||s.youtube.com^$important
+@@||youtubei.googleapis.com^$important
+@@||youtube.googleapis.com^$important
+@@||googlevideo.com^$important
+@@||yt3.ggpht.com^$important
+@@||googleusercontent.com^$important
+@@||youtubei.googleapis.com^$important
+@@||*.googlevideo.com^$important
+
+! Rules from Meta_blocker.txt
+@@||cdninstagram.com^$third-party
+@@||mmg.whatsapp.net^$third-party
+@@||web.whatsapp.com^
+@@||pps.whatsapp.net^
+@@||static.xx.fbcdn.net^$third-party
+@@||www.facebook.com^$important
+@@||m.facebook.com^$important
+@@||www.instagram.com^$important
+@@||www.whatsapp.com^$important
+@@||web.whatsapp.com^$important
+@@||web.whatsapp.com^$important       
+@@||api.whatsapp.com^$important       
+@@||mmg.whatsapp.net^$important       
+@@||media.cdn.whatsapp.net^$important 
+@@||static.whatsapp.net^$important    
+@@||pps.whatsapp.net^$important       
+@@||chat.whatsapp.com^$important      
+@@||g.whatsapp.net^$important  
+
+! Rules from AI_blocker.txt
+@@||chat.openai.com^$important ! For UI functionality
+@@||claude.ai^$important ! For UI functionality
+@@||labs.openai.com^$image,$important
+@@||midjourney.com^$important
+@@||openai.com^$important
+@@||chatgpt.com^$important
+@@||auth0.com^$important
+@@||stripe.com^$important
+@@||microsoftonline.com^$important
+@@||azure.com^$important
+@@||cdn.openai.com^$important
+@@||platform.openai.com^$important
+@@||gemini.google.com^$important
+@@||accounts.google.com^$important
+@@||apis.google.com^$important
+@@||googleapis.com^$important
+@@||clients6.google.com^$important
+@@||clients4.google.com^$important
+@@||www.gstatic.com^$important
+@@||ssl.gstatic.com^$important
+@@||perplexity.ai^$important
+@@||api.perplexity.ai^$important
+@@||pplx-api.perplexity.ai^$important
+@@||account.perplexity.ai^$important
+@@||auth.perplexity.ai^$important
+@@||billing.perplexity.ai^$important
+@@||support.perplexity.ai^$important
+@@||help.perplexity.ai^$important
+@@||docs.perplexity.ai^$important
+@@||labs.perplexity.ai^$important
+@@||pplx-next-static-public.perplexity.ai^$important
+@@||claude.ai^$important
+@@||accounts.anthropic.com^$important
+@@||cdn.anthropic.com^$important
+@@||api.anthropic.com^$important
+@@||cohere.com^$important
+@@||api.cohere.ai^$important
+@@||dashboard.cohere.ai^$important
+@@||auth.cohere.ai^$important
+@@||cdn.cohere.ai^$important
+@@||llama.meta.com^$important
+@@||api.llama.meta.com^$important
+@@||ai.meta.com^$important
+@@||cdn.meta.com^$important
+^bedrock(\-runtime|\-agent|\-agent\-runtime)?\.[a-z0-9-]+\.amazonaws\.com$
+@@||bedrock-*-amazonaws.com^$important
+@@||bedrock-runtime-*-amazonaws.com^$important
+@@||bedrock-agent-*-amazonaws.com^$important
+@@||bedrock-agent-runtime-*-amazonaws.com^$important
+@@||tiktok.com^$important
+@@||doubao.com^$important
+@@||api.tiktok.com^$important
+@@||api.doubao.com^$important
+@@||cdn.tiktok.com^$important
+
+! Rules from adblock_regex.txt
+@@||cdninstagram.com^
+@@||scontent.cdninstagram.com^
+@@||static.cdninstagram.com^
+@@||fbcdn.net^
+@@||fbsbx.com^
+@@||static.xx.fbcdn.net^
+@@||mmg.whatsapp.net^
+@@||web.whatsapp.com^
+@@||pps.whatsapp.net^
+@@||media.whatsapp.net^
+@@||upload.facebook.com^
+
+! Rules from Malvertising_Blocklist.txt@@||download.microsoft.com^$important
+@@||download.mozilla.org^$important
+@@||github.com^$important
+@@||*.githubusercontent.com^$important
+@@||dl.google.com^$important
+@@||nx-cache.nxcdn.com^$important
+@@||downloads.sourceforge.net^$important
+@@||pypi.org^$important
