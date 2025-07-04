@@ -61,7 +61,11 @@
 /^(.+\.)?tiktok\.(com|net)$/
 /^(.+\.)?pinterest\.(com|net)$/
 /^(.+\.)?snapchat\.(com|net)$/
-/^(.+\.)?reddit\.(com|net)$/
+/^ads\.reddit\.com$/
+/^events\.reddit\.com$/
+/^gql\.reddit\.com$/
+/\/promoted\/[^/]+$/
+
 
 ! Network patterns
 /^(.+[_.-])?doubleclick[_.-]/

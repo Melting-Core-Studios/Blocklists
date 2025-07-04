@@ -1,0 +1,137 @@
+! Title: [ MCS ] Say NO to AI | Regex Edition
+! Description: Attempt to block as many ads and trackers as possible through regex entries.
+! Version: 0.0.0012a-alpha-release
+! License: CC BY-SA 4.0
+! Author: Melting Core Studios
+! Warning: This list may break some functionality of AI tools. Use in a sandbox before definite use. 
+
+! Whitelist for many websites
+@@||fonts.googleapis.com^
+@@||fonts.gstatic.com^
+@@||cdn.sstatic.net^
+@@||redditstatic.com^
+
+! === AD SERVERS ===
+/^(.+[_.-])?ads?[0-9]*[_.-]/
+/^(.+[_.-])?adserver[_.-]/
+/^(.+[_.-])?adnetwork[_.-]/
+/^(.+[_.-])?adsystem[_.-]/
+/^(.+[_.-])?doubleclick[_.-]/
+/^(.+[_.-])?googlesyndication[_.-]/
+/^(.+[_.-])?googletagservices[_.-]/
+/^(.+[_.-])?openx[_.-]/
+/^(.+[_.-])?adnxs[_.-]/
+/^(.+[_.-])?criteo[_.-]/
+/^(.+[_.-])?contextweb[_.-]/
+/^(.+[_.-])?zedo[_.-]/
+/^(.+[_.-])?taboola[_.-]/
+/^(.+[_.-])?outbrain[_.-]/
+/^(.+[_.-])?revcontent[_.-]/
+/^(.+[_.-])?propellerads[_.-]/
+/^(.+[_.-])?mgid[_.-]/
+/^(.+[_.-])?yldbt[_.-]/
+/^(.+[_.-])?rubiconproject[_.-]/
+
+! === TRACKING / TELEMETRY ===
+/\/track(ing)?[0-9]*[_.-]/
+/\/log(ging)?[_.-]/
+/^(.+[_.-])?telemetry[_.-]/
+/^(.+[_.-])?beacon[_.-]/
+/pixel(s)?[_.-]/
+/\/collect/
+/\/event(s)?/
+/\/measure/
+/\/engage/
+/\/stats/
+/^(.+[_.-])?metrics?[_.-]/
+/^(.+[_.-])?insights?[_.-]/
+/^(.+[_.-])?quantserve[_.-]/
+/^(.+[_.-])?scorecardresearch[_.-]/
+/^(.+[_.-])?siteintercept[_.-]/
+/^(.+[_.-])?logrocket[_.-]/
+
+! === ANALYTICS PLATFORMS ===
+/^(.+[_.-])?analytics?[_.-]/
+/^(.+[_.-])?google-analytics[_.-]/
+/^(.+[_.-])?mixpanel[_.-]/
+/^(.+[_.-])?segment[_.-]/
+/^(.+[_.-])?amplitude[_.-]/
+/^(.+[_.-])?heapanalytics[_.-]/
+/^(.+[_.-])?parsely[_.-]/
+/^(.+[_.-])?chartbeat[_.-]/
+/^(.+[_.-])?matomo[_.-]/
+
+! === UTM & CLICK IDS (URL PARAMETER TRACKING) ===
+/[?&]utm_[^&]+/
+/[?&]fbclid=[^&]+/
+/[?&]gclid=[^&]+/
+/[?&]msclkid=[^&]+/
+/[?&]yclid=[^&]+/
+/[?&]mc_[^&]+/
+/[?&]hsa_[^&]+/
+/[?&]affid=[^&]+/
+/[?&]campaign=[^&]+/
+
+! === EMAIL / CRM TRACKING ===
+/^(.+[_.-])?mailchimp[_.-]/
+/^(.+[_.-])?sendgrid[_.-]/
+/^(.+[_.-])?aweber[_.-]/
+/^(.+[_.-])?constantcontact[_.-]/
+/^(.+[_.-])?getresponse[_.-]/
+/^(.+[_.-])?convertkit[_.-]/
+
+! === CONSENT & COOKIE TRACKERS ===
+/^(.+[_.-])?cookiebot[_.-]/
+/^(.+[_.-])?cookieconsent[_.-]/
+/^(.+[_.-])?cookielaw[_.-]/
+/^(.+[_.-])?onetrust[_.-]/
+/^(.+[_.-])?quantcast[_.-]/
+/^(.+[_.-])?trustarc[_.-]/
+
+! === SESSION RECORDING & HEATMAPS ===
+/^(.+[_.-])?hotjar[_.-]/
+/^(.+[_.-])?crazyegg[_.-]/
+/^(.+[_.-])?fullstory[_.-]/
+/^(.+[_.-])?mouseflow[_.-]/
+/^(.+[_.-])?smartlook[_.-]/
+/^(.+[_.-])?inspectlet[_.-]/
+
+! === SOCIAL MEDIA PIXELS / TRACKERS ===
+/connect\.facebook\.net/
+/^(.+[_.-])?facebookpixel[_.-]/
+/^(.+[_.-])?snapchat\.(com|net)$/ 
+/t\.co\/i\/adsct/
+/^(.+[_.-])?twitter\.com\/ads/
+/^(.+[_.-])?linkedin\.(com|net)\/insight/
+/^(.+[_.-])?tiktok\.(com|net)\/tracking/
+
+! === SDK & MOBILE TRACKERS ===
+/^(.+[_.-])?(unityads|firebase|adjust|appsflyer|branch|kochava|tune|flurry)[_.-]/
+/^(.+[_.-])?(swrve|leanplum|uxcam)[_.-]/
+
+! === VIDEO AD TRACKING ===
+/^(.+[_.-])?videoplaza[_.-]/
+/^(.+[_.-])?auditude[_.-]/
+/^(.+[_.-])?tremorhub[_.-]/
+/^(.+[_.-])?tubemogul[_.-]/
+/^(.+[_.-])?brightcove[_.-]/
+
+! === IOT & DEVICE TELEMETRY ===
+/ads\.roku\.com/
+/logs\.roku\.com/
+/^(.+[_.-])?tuya\.com$/
+/iot-dns\.com/
+/cloudfront\.net\/track/
+
+! === BROWSER PUSH & NOTIFICATION TRAPS ===
+/^(.+[_.-])?pushwoosh[_.-]/
+/^(.+[_.-])?onesignal[_.-]/
+/^(.+[_.-])?pushcrew[_.-]/
+/^(.+[_.-])?pushengage[_.-]/
+
+! === CONTENT MARKETING & NATIVES ===
+/^(.+[_.-])?taboola[_.-]/
+/^(.+[_.-])?outbrain[_.-]/
+/^(.+[_.-])?content\.ad[_.-]/
+/^(.+[_.-])?zergnet[_.-]/
+/^(.+[_.-])?revcontent[_.-]/

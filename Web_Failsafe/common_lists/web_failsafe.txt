@@ -4,12 +4,22 @@
 ! Homepage: https://www.meltingcorestudios.com/
 ! License: CC BY-SA 4.0
 ! Author: Melting Core Studios
+
+(^|\.)media(-[a-z0-9]+)?\.cdn\.whatsapp\.net$
+(^|\.)mmg\.whatsapp\.net$
+
 @@||stackoverflow.com^$important
 @@||stackexchange.com^$important
 @@||reddit.com^$important
 @@||redd.it^$important
 @@||gstatic.com^$important
 @@||googleusercontent.com^$important
+
+! Core functionality for a lot of websites
+@@||fonts.googleapis.com^
+@@||fonts.gstatic.com^
+@@||cdn.sstatic.net^
+@@||redditstatic.com^
 
 ! Rules from Microsoft_blocker.txt
 @@||login.microsoft.com^$important

@@ -6,6 +6,13 @@
 ! Author: Melting Core Studios
 
 ! Prevent breaking of WhatsApp services
+! Regex to prevent Android image sharing issue
+(^|\.)media(-[a-z0-9]+)?\.cdn\.whatsapp\.net$
+(^|\.)mmg\.whatsapp\.net$
+
+! Prevent breaking of WhatsApp Android
+@@||media.*.cdn.whatsapp.net
+@@||mmg.whatsapp.net
 @@||web.whatsapp.com^$important       
 @@||api.whatsapp.com^$important       
 @@||mmg.whatsapp.net^$important       

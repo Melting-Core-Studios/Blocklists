@@ -341,6 +341,9 @@
 ||metrics.data.hicloud.com^
 ||bdapi-in-ads.realmemobile.com^
 
+! =============== DEVICE DATA COLLECTION PREVENTION ===============
+|| graph.*^$third-party
+
 ! =============== WAARSCHUWING ===============
 ! BELANGRIJK: Deze regels kunnen kritieke functies verstoren!
 ! Test altijd eerst voordat je volledig implementeert
