@@ -1,0 +1,14 @@
+! Title: [ MCS ] Web Failsafe
+! Description: A general exception list that will allow basic functionality through allow rules.
+! Version: 0.6.4771g-beta-test
+! Homepage: https://www.meltingcorestudios.com/
+! License: CC BY-SA 4.0
+! Author: Melting Core Studios
+@@||download.microsoft.com^$important
+@@||download.mozilla.org^$important
+@@||github.com^$important
+@@||*.githubusercontent.com^$important
+@@||dl.google.com^$important
+@@||nx-cache.nxcdn.com^$important
+@@||downloads.sourceforge.net^$important
+@@||pypi.org^$important
