@@ -1,6 +1,6 @@
 ! Title: [ MCS ] Meta Socials Blocker
 ! Description: Blocks all Meta trackers without breaking functionality
-! Version: 0.1.2201a-alpha-release
+! Version: 0.3.1391da-alpha
 ! Homepage: https://www.meltingcorestudios.com/
 ! License: CC BY-SA 4.0
 ! Author: Melting Core Studios
@@ -15,3 +15,9 @@
 0.0.0.0 edge-mqtt-fallback.facebook.com
 0.0.0.0 gateway.instagram.com
 0.0.0.0 com.facebook.services
+0.0.0.0 brightdata.com
+0.0.0.0 scraperapi.com
+0.0.0.0 datascraper.io
+0.0.0.0 serpapi.com
+0.0.0.0 crawlbase.com
+0.0.0.0 oxylabs.io

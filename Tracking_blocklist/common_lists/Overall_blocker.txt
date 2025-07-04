@@ -1,10 +1,50 @@
 ! Title: [ MCS ] Overall blocker (agressive)
 ! Description: A very agressive blocklist that will take on the higher ranked trackers.
-! Version: V1.52.1113a-test
+! Version: V2.0.4213c
 ! Homepage: https://meltingcorestudios.com/
 ! License: CC BY-SA 4.0
 ! Author: Melting Core Studios
 ! Warning: This list attempts to block bypasses used by trackers. This can be effective, but can also easily break websites. Use at your own risk. 
+
+! DNS Bypassers
+||metrics-api.lpages.co^
+||track.sagepub.com^
+||track.hubspot.com^
+||analytics.tiktok.com^
+||analytics.tumblr.com^
+
+! Wildcards for DNS Bypassers
+||track.*^
+||metrics.*^
+||analytics.*^
+
+! Hard to detect session trackers
+||sessionstack.com^
+||glassboxdigital.com^
+||quantummetric.com^
+||logrocket.com^
+||clicktale.net^
+||sessiontrack.com^
+
+! Data scrapers
+||brightdata.com^
+||scraperapi.com^
+||datascraper.io^
+||serpapi.com^
+||crawlbase.com^
+||oxylabs.io^
+
+! Injected trackers
+||unpkg.com^$script,third-party
+||cdn.jsdelivr.net/npm/*track*
+||cdn.jsdelivr.net/npm/*analytics*
+
+! CSP Leak protection
+||csp-report.com^
+||report-uri.com^
+||sentry.io^
+||loggly.com^
+||bugsnag.com^
 
 ! =============== GOOGLE ANALYTICS BYPASS DOMAINS ===============
 ! Google Analytics bypass domeinen die eerdere lijsten omzeilen

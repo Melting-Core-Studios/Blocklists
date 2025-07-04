@@ -1,9 +1,12 @@
 ! Title: [ MCS ] Annoying annoyances | regex
 ! Description: An AdGuard only blocker that removes certain cosmetic elements because bypasses suck
-! Version: V1.1.0122re
+! Version: V1.3.0332re
 ! Homepage: https://meltingcorestudios.com/
 ! License: CC BY-SA 4.0
 ! Author: Melting Core Studios
 ! Warning: This list attempts to block bypasses used by trackers. This can be effective, but can also easily break websites. Use at your own risk. 
 
 ##^pie-cookie-banner$
+##+js(aeld, DOMSubtreeModified, /cookie/i)
+##[id*="cookie"], [class*="cookie"], div:has-text(/cookie/i)
+##[data-session-replay], [data-behavior-track]

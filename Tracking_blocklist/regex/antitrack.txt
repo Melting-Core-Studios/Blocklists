@@ -1,6 +1,6 @@
 ! Title: [ MCS ] Say NO to AI | Regex Edition
 ! Description: Attempt to block as many ads and trackers as possible through regex entries.
-! Version: 0.0.0012a-alpha-release
+! Version: 1.0.4113r
 ! License: CC BY-SA 4.0
 ! Author: Melting Core Studios
 ! Warning: This list may break some functionality of AI tools. Use in a sandbox before definite use. 
@@ -25,7 +25,9 @@
 @@||fonts.gstatic.com^
 @@||ajax.googleapis.com^$script
 
-
+/^.*[?&](utm_|ga_|gtm_|fb_|mc_|clickid|session_id|visitor_id).*$/
+/^.*(fingerprint|canvas|entropy|deviceID).*\.js$/
+/^.*\/(client|user|visitor).*\.min\.js$/
 
 ! === AD SERVERS ===
 /^(.+[_.-])?ads?[0-9]*[_.-]/
@@ -138,6 +140,7 @@
 /^(.+[_.-])?tuya\.com$/
 /iot-dns\.com/
 /cloudfront\.net\/track/
+/^.*\/scrape(api|bot|tool).*\.js$/
 
 ! === BROWSER PUSH & NOTIFICATION TRAPS ===
 /^(.+[_.-])?pushwoosh[_.-]/
