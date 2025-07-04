@@ -42,10 +42,16 @@
 @@||www.youtube.com/youtubei/v1/next^$script
 @@||www.youtube.com/youtubei/v1/player^$script
 
-! Schakel agressieve regex uit voor deze trusted tools
+! Disabled regex for Revanced tools
 /^.*\/sponsor.*$/$domain=~sponsor.ajay.app
 /^.*\/collect.*$/$domain=~returnyoutubedislikeapi.com
 /^.*\/api\/.*$/$domain=~revanced.app|~piped.video|~returnyoutubedislikeapi.com
+
+! === REVANCED ANNOUNCEMENT PATCH FIX ===
+@@||revanced.app^
+@@||revd.app^
+@@||revancedcdn.com^
+@@||cdn.jsdelivr.net/npm/revanced*^
 
 ! DNS Bypassers
 ||metrics-api.lpages.co^
