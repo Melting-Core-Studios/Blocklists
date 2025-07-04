@@ -128,7 +128,6 @@
 
 ! === EXTRA SOCIAL SERVICES ===
 ! Email sharing patterns
-/mailto:\?.*subject=/
 /^(.+[_.-])?email[_.-]?share[_.-]/
 
 ! Print sharing patterns  

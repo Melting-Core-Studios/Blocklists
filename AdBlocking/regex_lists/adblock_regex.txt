@@ -48,7 +48,6 @@
 /^track(ing)?[0-9]*[_.-]/
 
 ! YouTube advertising patterns
-/rr[0-9].*sn-j.*googlevideo.com/
 /r[0-9]+---sn-[a-z0-9-]+\.googlevideo\.com/
 /r[0-9]---sn-[a-z0-9-]+\.googlevideo\.com/
 /^r\d---sn-[a-z0-9-]*\.googlevideo\.com$/
