@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.24
+! Version: 1.25
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-07-04T14:26:34.820Z
+! Last modified: 2025-07-04T23:16:42.776Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -82,6 +82,7 @@ unian.net#?#div[style] > div.article-shares:upward(1)
 123telugu.com#$#.post-page-content { padding-bottom: 0 !important; }
 debate.com.mx#$#header { height: auto !important; }
 debate.com.mx#$#body { padding-top: 70px !important; }
+aznude.com,tasteofhome.com,steamplay.*,steanplay.*,streamp1ay.*,streanplay.*##.jw-settings-sharing
 rambler.ru##div[data-blocks="content_info"] + div[class^="container-"]
 rambler.ru#%#//scriptlet('remove-in-shadow-dom','div[data-blocks="content_info"] + div[class^="container-"]')
 vikna.tv##.section-share
@@ -5022,7 +5023,7 @@ filmhafizasi.com##.share-float
 genk.vn##.kmnw-content
 gsminfo.com.ua###social-statistics-4
 timesofindia.com##.mobile-socialshare-top
-aznude.com,tasteofhome.com,steamplay.*,steanplay.*,streamp1ay.*,streanplay.*##.jw-settings-sharing
+aznude.com,tasteofhome.com,steamplay.*,steanplay.*,streamp1ay.*,streanplay.*,envivo5.com##.jw-settings-sharing
 colorlib.com##.wpex-fa-social-widget
 gumtree.com.au##.vip-ad-social-share
 biod.ro##.thrv_social
