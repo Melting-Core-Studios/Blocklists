@@ -25,6 +25,10 @@
 @@||fonts.gstatic.com^
 @@||ajax.googleapis.com^$script
 
+! Fix Announcement Patch (Revanced)
+- /^.*announcement.*$/
+/^.*announcement.*$/ $domain=~revanced.app|~revancedcdn.com|~revd.app
+
 /^.*[?&](utm_|ga_|gtm_|fb_|mc_|clickid|session_id|visitor_id).*$/
 /^.*(fingerprint|canvas|entropy|deviceID).*\.js$/
 /^.*\/(client|user|visitor).*\.min\.js$/

@@ -210,3 +210,10 @@
 @@||www.google.com^$important
 @@||ssl.gstatic.com^$important
 @@||fonts.googleapis.com^$important
+
+! === WHITELIST: REVANCED ANNOUNCEMENT PATCH ===
+@@||revanced.app/api/announcements
+@@||revd.app/api/announcements
+@@||revancedcdn.com/assets/announcements.json
+@@||revanced.app^
+@@||revancedcdn.com^
