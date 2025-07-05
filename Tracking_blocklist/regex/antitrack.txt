@@ -33,6 +33,9 @@
 /^.*(fingerprint|canvas|entropy|deviceID).*\.js$/
 /^.*\/(client|user|visitor).*\.min\.js$/
 
+! Fix for instagram stories
+/^(.+\.)?(instagram|ig(cdn)?)\.(com|net)$/ $domain=~cdninstagram.com|~fbcdn.net
+
 ! === AD SERVERS ===
 /^(.+[_.-])?ads?[0-9]*[_.-]/
 /^(.+[_.-])?adserver[_.-]/
