@@ -6,6 +6,53 @@
 ! Author: Melting Core Studios
 ! Warning: This list attempts to block bypasses used by trackers. This can be effective, but can also easily break websites. Use at your own risk. 
 
+! === YouTube Revanced / SponsorBlock / Return Dislike Support ===
+
+! SponsorBlock API (nodig voor het skippen van segmenten)
+@@||sponsor.ajay.app^
+@@||sponsor.ajay.app/api^
+
+! Return YouTube Dislike API
+@@||returnyoutubedislikeapi.com^
+@@||returnyoutubedislikeapi.com/votes^
+
+! Revanced backend en updates
+@@||revanced.app^
+@@||revanced.net^
+@@||revd.app^
+@@||revancedcdn.com^
+
+! Revanced-compatibele alternatieve frontends (voor YouTube-inhoud)
+@@||piped.video^
+@@||pipedapi.kavin.rocks^
+@@||invidious.snopyta.org^
+@@||invidious.io^
+@@||invidious.projectsegfau.lt^
+
+! CDN voor scriptinjecties / modulaire patches
+@@||cdn.jsdelivr.net/npm/sponsorblock*^
+@@||cdn.jsdelivr.net/npm/return-youtube-dislike*^
+@@||cdn.jsdelivr.net/npm/youtube-skip-ads*^
+
+! YouTube Internals die soms nodig zijn voor functionaliteit zoals Announcements
+@@||youtubei.googleapis.com^
+@@||www.youtube.com/api/stats/ads^
+@@||www.youtube.com/youtubei/v1/notifications^
+@@||www.youtube.com/youtubei/v1/browse^$script
+@@||www.youtube.com/youtubei/v1/next^$script
+@@||www.youtube.com/youtubei/v1/player^$script
+
+! Disabled regex for Revanced tools
+/^.*\/sponsor.*$/$domain=~sponsor.ajay.app
+/^.*\/collect.*$/$domain=~returnyoutubedislikeapi.com
+/^.*\/api\/.*$/$domain=~revanced.app|~piped.video|~returnyoutubedislikeapi.com
+
+! === REVANCED ANNOUNCEMENT PATCH FIX ===
+@@||revanced.app^
+@@||revd.app^
+@@||revancedcdn.com^
+@@||cdn.jsdelivr.net/npm/revanced*^
+
 ! DNS Bypassers
 ||metrics-api.lpages.co^
 ||track.sagepub.com^
