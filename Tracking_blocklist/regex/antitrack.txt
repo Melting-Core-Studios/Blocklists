@@ -1,6 +1,6 @@
 ! Title: [ MCS ] Say NO to AI | Regex Edition
 ! Description: Attempt to block as many ads and trackers as possible through regex entries.
-! Version: 1.0.4113r
+! Version: 1.2.5521f
 ! License: CC BY-SA 4.0
 ! Author: Melting Core Studios
 ! Warning: This list may break some functionality of AI tools. Use in a sandbox before definite use. 
@@ -24,6 +24,10 @@
 @@||fonts.googleapis.com^$stylesheet
 @@||fonts.gstatic.com^
 @@||ajax.googleapis.com^$script
+
+! Fix for broad login types
+@@||*/login^$xmlhttprequest
+@@||*/session^$script
 
 ! Fix Announcement Patch (Revanced)
 - /^.*announcement.*$/
