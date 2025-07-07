@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Begone Annoyances
 ! Description: A blocklist that will remove all annoyances from online browsing.
-! Version: 1.97
+! Version: 1.98
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-07-07T13:32:46.840Z
+! Last modified: 2025-07-07T14:18:30.335Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -541,6 +541,7 @@ hobbybaecker.de#@#.cookie-notice:not(body):not(html)
 @@||marfeel.mgr.consensu.org/main.tcf.cmp.js$domain=der-postillon.com
 zdnet.com#@##onetrust-consent-sdk
 empik.com#@#.cookies-accept
+icscards.nl#@##cookiebar
 @@||theverge.com/platform/amp/*/eu-cookie-consent-policy-updated-guidelines-cookie-wall
 aixfoam.com,aixfoam.de,aixfoam.dk,aixfoam.fi,aixfoam.fr,aixfoam.nl,aixfoam.se#@##cc-notification
 @@||shinsori.com/wp-content/plugins/jetpack/_inc/build/widgets/eu-cookie-law/eu-cookie-law.min.js$domain=shinsori.com
@@ -71923,7 +71924,7 @@ search.itaa.be#@##cookieWrapper
 gogolf.fi#@##cookie_hdr_showagain
 play-cricket.com#@##cookieaccept
 buendnisse-fuer-bildung.de,destatis.de,drklein.de,oxfamnovib.nl,schleswig-holstein.de,thw-ausbildungszentrum.de,thw.de,zensus2022.de#@##cookiebanner
-icscards.nl#@##cookiebar
+icscards.nl,wellness-point.com#@##cookiebar
 skyrc.com#@##cookiebox
 rodekruis.be#@##cookieconsent-banner
 book-n-drive.de#@##cookiedialog
