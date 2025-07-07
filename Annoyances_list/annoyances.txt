@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Begone Annoyances
 ! Description: A blocklist that will remove all annoyances from online browsing.
-! Version: 1.89
+! Version: 1.90
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-07-07T05:21:16.609Z
+! Last modified: 2025-07-07T06:27:00.865Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -1323,7 +1323,6 @@ store.playstation.com#@$?#meta[name="apple-itunes-app"] { remove: true; }
 /penton_gdpr.js
 -cookie-message.js
 /cookie/policy-
-/cookieconsent.$~stylesheet,domain=~crm.cat|~alginor.no|~khl.ru|~kundenkonto.lidl-connect.de|~shmoop.com|~retrogames.cc|~download.pixelexperience.org|~data.gov.lv
 /cookies_acceptance.
 /eucookienotice.
 ||cdn.jsdelivr.net/npm/@lmc-eu/cookie-consent-manager$domain=teamio.com
@@ -15749,7 +15748,6 @@ buttondown.email#@##subscribe-form
 ||cdn.cookiesuit.com^$third-party
 /wp-content/plugins/consent-magic-pro/*
 ||transcend-cdn.com^$third-party
-/pandectes-core.js
 ||consentbanner.de^$third-party
 /css/modules/consent.css^$~third-party,domain=~avela.no
 /dist/resources/js/consent.js^
@@ -46295,7 +46293,7 @@ playswellwithbutter.com#@#a[href^="https://www.pinterest.com/pin/create/button/"
 /osb_consent.min.js
 /otBannerSdk.js
 /oxcookienote.min.js
-/pandectes-gdpr-compliance-49/assets/pandectes-core.js
+/pandectes-core.js
 /pdcookiepro//views/js/front.js
 /pdcookiepro/cookie?
 /pescookies.min.js
