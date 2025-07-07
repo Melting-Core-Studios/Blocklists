@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Begone Annoyances
 ! Description: A blocklist that will remove all annoyances from online browsing.
-! Version: 1.96
+! Version: 1.97
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-07-07T12:33:56.137Z
+! Last modified: 2025-07-07T13:32:46.840Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -69662,7 +69662,7 @@ eco-toimistotarvikkeet.fi,kassakaappi.net,proficient.fi,xn--tytuoli-b1a.fi###eva
 virtasenkauppa.fi###gtmCookieBanner
 kiinteistomaailma.fi###km-ccw
 napsu.fi###napsu_cc
-mieli.fi###pwd-cookie-consent-customize
+mieli.fi,omaishoitajat.fi###pwd-cookie-consent-customize
 br-automation.com###siwa-cookiebar
 print24.com##.ModalSubModule_overlay__qg9IL
 lehtodigital.fi##.__ld_cookies
@@ -79020,6 +79020,7 @@ reddit.com##[data-testid="bottom-sheet-upsell-wrapper"]
 duckduckgo.com##[data-testid="serp-popover-promotion"]
 m.yelp.com##[data-testid="smart-banner-pitch"]
 myhome.nifty.com##[data-tracking-selfmade-smart-app-banner]
+etsy.com##[data-web-prompt-root="true"]
 weatherbug.com##[href="/appdownload"]
 wpxi.com##[href="/mobile-apps/"]
 my-best.com##[href="https://mybest.go.link/dW75E"]
