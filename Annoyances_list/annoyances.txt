@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Begone Annoyances
 ! Description: A blocklist that will remove all annoyances from online browsing.
-! Version: 1.100
+! Version: 1.101
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-07-07T17:16:54.820Z
+! Last modified: 2025-07-07T19:16:28.835Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -26,8 +26,6 @@ www-livemint-com.cdn.ampproject.org,livemint.com$$div[class="openinApp2"]
 4pda.to#?#.menu-main-mobile > li.menu-main-item > a[href^="https://4pda.to/huawei/"]:upward(1)
 www-techradar-com.cdn.ampproject.org##amp-jwplayer
 9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,electrek.co##.newsletter-box
-[$path=/search]ya.ru,yandex.*##.Distribution-Popup
-[$path=/search]ya.ru,yandex.*#$#div[class*="Distribution-SplashScreenModal"]:has(span.Distribution-AgeRestriction) { display: none !important; }
 market.yandex.*##div[id="/header/headerPromo"]
 market.yandex.*##div[data-apiary-widget-id="/headBanner"]
 market.yandex.*##div[data-apiary-widget-id="/content/productMediaBanner"]
@@ -18054,6 +18052,8 @@ khanacademy.org##div[aria-label="Notification Banner"]
 cadenaser.com#%#//scriptlet('trusted-click-element', '#redesignCmpWrapper > div > div > a[href^="https://cadenaser.com/"]')
 as.com#%#//scriptlet('trusted-click-element', '#redesignCmpWrapper > div > div > a[href^="https://as.com/"]', '', '500')
 github.com###cookie-consent-banner
+tescoma.cz,tescoma.sk,tescoma.pl,tescoma.hu,tescoma.de,tescoma.es,tescoma.pt,tescoma.uk,tescoma.it,tescoma.at##div[data-testid="layout-popup"]
+tescoma.cz,tescoma.sk,tescoma.pl,tescoma.hu,tescoma.de,tescoma.es,tescoma.pt,tescoma.uk,tescoma.it,tescoma.at##.overlay-wrapper
 ostannipodii.com###message_cookies
 cmp.e24.no,minmote.no,cmp.vg.no#%#//scriptlet('trusted-click-element', '.btns-container > button[title="Tilpass cookies"]')
 cmp.e24.no,minmote.no,cmp.vg.no#%#//scriptlet('trusted-click-element', '.message-row > button[title="Avvis alle"]', '', '1000')
