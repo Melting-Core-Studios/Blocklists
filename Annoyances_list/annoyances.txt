@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Begone Annoyances
 ! Description: A blocklist that will remove all annoyances from online browsing.
-! Version: 1.90
+! Version: 1.91
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-07-07T06:27:00.865Z
+! Last modified: 2025-07-07T07:20:11.276Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -631,7 +631,7 @@ shoprite.com##div[data-testid="smartBannerWrapper-testId"]
 carparts.com#$#.mobile-smart-banner { display: none !important; }
 carparts.com#$#.header-mfe { margin-top: 0 !important; }
 carparts.com#$#.header-mfe > header > div > .w-full { top: 0 !important; }
-doctoranytime.gr##.mobile-app-promo-banner
+startpage.com,doctoranytime.gr##.mobile-app-promo-banner
 vnexpress.net##.installvneapp
 online.otpbank.ru#%#//scriptlet('set-cookie', 'redirect_app', 'false')
 [$path=/pogoda]yandex.*##div[class^="AppLeftPanelLinksClient_"]
@@ -16228,6 +16228,7 @@ kolesa.ru##body > div[style*="z-index"]:has(> div[style] > a[href="https://www.k
 lotto.pl#%#//scriptlet('set-local-storage-item', 'privacyAccepted', '2')
 brainhub.eu##.fs-consent_banner
 mkelektronik-esklep.pl##.cookie-message-popup-js
+omadanetworks.com,tp-link.com###tp-cookie-banner
 june12.io##div[class^="GDPRPanel_"]
 qrcodecreator.com##div[class^="CookiePopup_wrapper__"]
 avtocod.ru##cookie-accept-terms
@@ -16691,7 +16692,6 @@ desport.ru##div[class^="Cookies_cookie__"]
 utkonos.ru,lenta.com##lu-cookie-agree
 ||itau.com.br/gestao-de-cookies/
 ||santander.com.br/mfe-cookies/$domain=santander.com.br
-passport.vivo.com##.cookie-dialog
 mironetcz.*,mironet.*###cookiesDialog
 bunq.me#%#//scriptlet('set-local-storage-item', 'bunq:CookieConsentStore:isBannerVisible', 'false')
 lime-shop.com##.l-accept-cookies
@@ -21161,7 +21161,6 @@ my-bier.de###eu_cookiebox
 sony.ru,pch.com,sony.com.br,royalmail.com,uber.com##.privacy_prompt
 vergleich.org##.legal-note
 bmvg.de,bundeswehr.de##.c-privacy-protection-banner
-tp-link.com##.cookie-dialog
 filepuma.com,glarysoft.com##.cookiesTip
 beautydepot.ru,print24.com##.cookie__wrap
 neff-home.com,bosch-home.*#$#body.cookielaw-blur-background>*:not([data-t-decorator="CookieLaw"]) { -webkit-filter: none !important; filter: none !important; }
@@ -21630,7 +21629,7 @@ voghion.com###app > .shade
 tecadmin.net##a#manage-preferences
 tecadmin.net,voghion.com,madamecoco.com,businessinsider.in,gadgetsnow.com,indiatimes.com##.consent-popup
 zebra.cn,sanook.com,inexchange.se##.consentBanner
-cifras.com.br,dev.ua,unitika.co.jp,whynow.co.uk,devby.io,bbbl.dev,m.bosch-garden.com,birdinflight.com,petsathome.com,dnevnik.hr##.cookie-dialog
+omadanetworks.com,passport.vivo.com,tp-link.com,cifras.com.br,dev.ua,unitika.co.jp,whynow.co.uk,devby.io,bbbl.dev,m.bosch-garden.com,birdinflight.com,petsathome.com,dnevnik.hr##.cookie-dialog
 przyjacielekawy.pl,finder.com##.cookie-footer-bar
 just-wiped.net,shop.garten-bienen.at,india-store.de,schaumstofflager.de,photowall.de,turkiyesigorta.com.tr,turkiyehayatemeklilik.com.tr,vakifemeklilik.com.tr,nofluffjobs.com##.cookie-information
 veeam.com##.cookie-messaging
