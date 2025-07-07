@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Begone Annoyances
 ! Description: A blocklist that will remove all annoyances from online browsing.
-! Version: 1.88
+! Version: 1.89
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-07-07T04:33:18.489Z
+! Last modified: 2025-07-07T05:21:16.609Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -1323,6 +1323,7 @@ store.playstation.com#@$?#meta[name="apple-itunes-app"] { remove: true; }
 /penton_gdpr.js
 -cookie-message.js
 /cookie/policy-
+/cookieconsent.$~stylesheet,domain=~crm.cat|~alginor.no|~khl.ru|~kundenkonto.lidl-connect.de|~shmoop.com|~retrogames.cc|~download.pixelexperience.org|~data.gov.lv
 /cookies_acceptance.
 /eucookienotice.
 ||cdn.jsdelivr.net/npm/@lmc-eu/cookie-consent-manager$domain=teamio.com
@@ -15913,7 +15914,7 @@ buttondown.email#@##subscribe-form
 /cookieCompliance.js
 /cookiecompliance/*$script
 /cookieConsent-
-/cookieconsent.$~stylesheet,domain=~crm.cat|~alginor.no|~khl.ru|~kundenkonto.lidl-connect.de|~shmoop.com|~retrogames.cc|~download.pixelexperience.org|~data.gov.lv
+/cookieconsent.$~stylesheet,domain=~crm.cat|~alginor.no|~khl.ru|~kundenkonto.lidl-connect.de|~shmoop.com|~retrogames.cc|~download.pixelexperience.org|~data.gov.lv|~douglas.nl
 /cookieconsent/*
 /cookieconsent_
 /cookiecontrol-$domain=~msi.com
