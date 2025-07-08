@@ -1,6 +1,6 @@
 ! Title: [ MCS ] Say NO to AI | Regex Edition
 ! Description: Attempt to block as many ads and trackers as possible through regex entries.
-! Version: 1.3.4512e
+! Version: 1.3.4721r
 ! License: CC BY-SA 4.0
 ! Author: Melting Core Studios
 ! Warning: This list may break some functionality of AI tools. Use in a sandbox before definite use. 
@@ -30,16 +30,16 @@
 @@||*/session^$script
 
 ! Fix for base login types
-@@||cdn.jsdelivr.net^
-@@||cloudfront.net^
-@@||ajax.googleapis.com^
-@@||fonts.googleapis.com^
-@@||fonts.gstatic.com^
-@@||cdnjs.cloudflare.com^
-@@||static.*.nl^
-@@||cdn.*.nl^
-@@||*.akamai.net^
-@@||*.akamaized.net^
+@@||cdn.jsdelivr.net^$important
+@@||cloudfront.net^$important
+@@||ajax.googleapis.com^$important
+@@||fonts.googleapis.com^$important
+@@||fonts.gstatic.com^$important
+@@||cdnjs.cloudflare.com^$important
+@@||static.*.nl^$important
+@@||cdn.*.nl^$important
+@@||*.akamai.net^$important
+@@||*.akamaized.net^$important
 
 ! Fix for too aggressive regex types
 /^.*\/auth.*$/ $domain=~facebook.com|~google.com
