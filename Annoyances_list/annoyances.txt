@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Begone Annoyances
 ! Description: A blocklist that will remove all annoyances from online browsing.
-! Version: 1.103
+! Version: 1.104
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-07-07T22:18:03.658Z
+! Last modified: 2025-07-08T03:19:17.497Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -62476,6 +62476,7 @@ shop.naturtrend.com###cookie-appliance-popup-box
 team.repair###cookie-banner-ID
 velosure.co.uk###cookie-bar-template
 dnschecker.org,ruedasgordas.es###cookie-box
+loversstores.com###cookie-check
 yousign.com###cookie-consent-app
 store.azeron.eu###cookie-consent-background
 albar.co.il,chicagobooth.edu,eurocommercialproperties.com,joinstellar.ai,news.stanford.edu###cookie-consent-banner
@@ -64820,6 +64821,7 @@ tiktok.com##.tiktok-sdk-cookie-banner
 tastedive.com##.tk-Footer
 trademachines.com##.tm-cookie-dialog-root
 thenew.institute##.tni-trackers
+thenaturallovecompany.com##.tnlc-gdpr-wrapper
 iloveimg.com##.toast-bottom-left
 ikea.com##.toast-container
 odeoncinemasgroup.smg.com##.toast-info
@@ -65255,7 +65257,7 @@ all3dp.com,meteo.it,unitedmusic.com###iubenda-cs-banner
 laportecontemporaine.shop,meesterslijpers.nl###ism-consent-box
 baden-wuerttemberg.de,cdek.ru,elektrikstore.hu,empresasnegocios.pt,leumi.co.il,pushwoosh.com,rzd.ru,salon24.pl,shoei-helmets.com,tipik.hu##.cookie-alert
 ctt.de,ironmaxx.de,landyschemist.com,scienceinsport.com##.amgdprjs-bar-template
-e-recharge.net,eurotradefair.nl,iahsap.com,jobs.tuwien.ac.at,leitor.net,mangalivre.net,netshoes.com.br,pnp.co.za,prostokvashino.ru,rabbitscams.sex,shoestock.com.br,spursteakranches.com,supercheapauto.co.nz,supercheapauto.com.au,vumatel.co.za,zattini.com.br##.cookie-notification
+beslist.nl,e-recharge.net,eurotradefair.nl,iahsap.com,jobs.tuwien.ac.at,leitor.net,mangalivre.net,netshoes.com.br,pnp.co.za,prostokvashino.ru,rabbitscams.sex,shoestock.com.br,spursteakranches.com,supercheapauto.co.nz,supercheapauto.com.au,vumatel.co.za,zattini.com.br##.cookie-notification
 shate-m.by,shate-m.kz##.cookie-alert-show
 aperitif.no,byggmesteren.as,cosmosmagazine.com,estatenyheter.no,forskning.no,forsvaretsforum.no,journalisten.no,khrono.no,m24.no,sciencenordic.com,sciencenorway.no##.adn-message
 adshares.net,emerald.com,fadc.org.br,forit.ro###cookies-consent
@@ -65754,6 +65756,10 @@ material.angular.io##app-cookie-popup
 tumblr.com##div#cmp-app-container
 tiktok.com##tiktok-cookie-banner
 globalblue.com,globalblue.ru##.gbnew-cookie-bar
+calvinklein.com.br##+js(set-cookie, PVH_COOKIES_GDPR, Accept)
+calvinklein.com.br##+js(set-cookie, PVH_COOKIES_GDPR_ANALYTICS, Reject)
+calvinklein.com.br##+js(set-cookie, PVH_COOKIES_GDPR_SOCIALMEDIA, Reject)
+iscc-system.org##+js(set-session-storage-item, aesirx-analytics-rejected, true)
 bbc.com##body:has(div[class*="Styled"][class*="Container"] [data-testid="bbc-logo-wrapper"]) > .fc-consent-root:style(display: flex !important)
 tedbaker.com,fortune.com,bbc.com,boohoo.com,cgi.com,dunelm.com,edumsko.ru,fanipogody.pl,finnkino.fi,fitx.de,fussballgucken.info,gov.lv,liberbank.es,pickup.de,neplp.lv,riga.lv,schuurman-schoenen.nl,senec.com,sevdesk.at,sevdesk.de,shopilya.com,snp.nl,stoffe.de,stwbs.de,successinsights.nl,swedbank.com,t-mobile.com,terc.hu,tyg.se,ufz.de,uktv.co.uk,wikifolio.com##body:style(overflow: auto !important;)
 ##.js-consent.consent
