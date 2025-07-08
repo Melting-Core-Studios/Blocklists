@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Begone Annoyances
 ! Description: A blocklist that will remove all annoyances from online browsing.
-! Version: 1.106
+! Version: 1.107
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-07-08T05:19:48.168Z
+! Last modified: 2025-07-08T06:25:19.954Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -4700,6 +4700,7 @@ fotomac.com.tr#$#.content { padding-bottom: 0!important; }
 winfuture.de#$##container { margin: auto auto!important; }
 ilikewallpaper.net#$##divWalllist { padding: 0!important; }
 softpedia.com#$#iframe.swipebox-rightxd[id="relcontent"] { top: 60px!important; height: 535px!important; }
+windowsxlite.com#%#//scriptlet('set-constant', 'disableRightClick', 'false')
 asiaon.top#%#//scriptlet('href-sanitizer', 'a[href^="https://link.asiaon.top/full?api="][href*="&url=aHR0c"]', '?url', 'base64decode')
 uploadcloud.pro#%#//scriptlet("adjust-setTimeout", ".show('drop')", "*", "0.001")
 zetrrent.com#%#//scriptlet('adjust-setInterval', '.html())-1', '*', '0.001')
@@ -30575,6 +30576,7 @@ luzmedia.co##.indietech-support-widget
 theinertia.com##.inertia-contribute-home
 thespinoff.co.nz##.infinite-scroll-divider
 road.cc##.info-subscription-box
+pbs.org##.inline-invite
 mayoclinic.org##.internal-promo-stack-order
 opb.org##.internal_promotion
 mayoclinic.org##.internalads
@@ -76365,6 +76367,7 @@ dexerto.com##.mb-16:has-text(Sign up)
 commoncog.com##.md\:px-2.py-10:has-text(Subscribe to the newsletter)
 inverse.com##.msl:has-text(Subscribe for free)
 businessinsider.in##.mx-auto.container:has-text(NEWSLETTER)
+stuff.co.nz##.nl-container:has-text(inbox)
 bakerbynature.com##.optin:has-text(Sign Up)
 cockroachlabs.com##.p-4.bg-\[\#F5F5F5\]:has-text(Subscribe to our newsletter)
 weather.com##.p-5.bg-white.rounded-xl:has-text(Weather in your inbox)
