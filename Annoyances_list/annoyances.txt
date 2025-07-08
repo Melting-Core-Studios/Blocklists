@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Begone Annoyances
 ! Description: A blocklist that will remove all annoyances from online browsing.
-! Version: 1.109
+! Version: 1.110
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-07-08T09:20:26.743Z
+! Last modified: 2025-07-08T10:19:24.736Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -6569,6 +6569,7 @@ scitechdaily.com,thewindowsclub.com#@#.ad-space
 ||wp-r.github.io/*/assets/js/cache-adsreplace-shortcodes.js
 @@||search-module.s3.us-east-2.amazonaws.com/pubs/trib/adblockdetect.js
 armidaleexpress.com.au,bendigoadvertiser.com.au,canberratimes.com.au,centralwesterndaily.com.au,crookwellgazette.com.au,dailyadvertiser.com.au,dailyliberal.com.au,examiner.com.au,illawarramercury.com.au,newcastleherald.com.au,portnews.com.au,thecourier.com.au,thesenior.com.au#%#//scriptlet('set-cookie', 'dismissCheck', '1')
+||pmur.org/scripts/LeParisien_abChoice.js
 ashemaletube.com##.adblock.tac
 madarascans.com#@#.ad-slot
 ||terrarium.com.pl/wp-content/themes/mystery-child/adblock-detection.
@@ -11629,6 +11630,7 @@ ozgurkocaeli.com.tr,turkuazgazetesi.net,yenialanya.com,mansetaydin.com,seskocael
 gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,thelocal.ch,morgenpost.de,waz.de,nrz.de,braunschweiger-zeitung.de,abendblatt.de,wolfsburger-nachrichten.de,wolfenbuetteler-zeitung.de,ynet.co.il#$#html > body.tp-modal-open { overflow: auto !important; }
 gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,thelocal.ch,morgenpost.de,waz.de,nrz.de,braunschweiger-zeitung.de,abendblatt.de,wolfsburger-nachrichten.de,wolfenbuetteler-zeitung.de,ynet.co.il#$#div[class="tp-modal"][style^="z-index: 3000"] { display: none !important; }
 gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,thelocal.ch,morgenpost.de,waz.de,nrz.de,braunschweiger-zeitung.de,abendblatt.de,wolfsburger-nachrichten.de,wolfenbuetteler-zeitung.de,ynet.co.il#$#div[class="tp-modal"][style^="z-index: 3000"] ~ div.tp-backdrop { display: none !important; }
+leparisien.fr#%#//scriptlet('trusted-set-local-storage-item', 'newsletterView', '[{"nlSlug":"faits-divers","displaysCount":1,"lastDisplayedTime":"2125-07-08T08:19:33.072Z"}]')
 link.me##.fixed.bottom-2:has(a[href^="/signup?"])
 bilezikci.com###b-social-container
 bauknecht.de##.vtex-modal-layout-0-x-modal--newsletter-popup
@@ -30914,6 +30916,7 @@ r34.app##figure.-mx-1.mt-4
 softwarekeep.com##img[alt="Banner"]
 gettr.com##img[alt="GETTR coin"]
 msn.com##views-right-rail
+woolworths.co.nz###cartology-product-cig-tile:has-text(Start Free Trial)
 twitter.com,x.com###layers[style="z-index: 1;"]:has(div[role="dialog"] a[href="/i/premium_sign_up"][style])
 deviantart.com##.ReactModalPortal + div[class]:has(> iframe[title="DealerAdIframe"])
 airfry.pro##.bg-gradient-to-br:has-text(Cookbook)
@@ -30922,6 +30925,7 @@ jinxxy.com##.grid > .relative:has(.block[href^="https://"])
 theworld.org##.mui-style-9ulf7o-root:has-text(Donate today!)
 tripadvisor.*##a[href^="https://www.tripadvisor"][target="_blank"]:has(> section[aria-label])
 twitter.com,x.com##aside[role="complementary"]:has(> a[href="/i/premium_sign_up"])
+woolworths.co.nz##cdx-cta:has-text(Learn more)
 blitz.gg##div[class]:has(> .placeholder > [href^="/pro?utm_"])
 deviantart.com##div[role="complementary"] > div[class]:has(> div > iframe[title="DealerAdIframe"])
 dailysignal.com#?#.tds-content > p:-abp-contains(Donate now)
