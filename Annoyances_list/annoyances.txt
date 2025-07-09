@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Begone Annoyances
 ! Description: A blocklist that will remove all annoyances from online browsing.
-! Version: 1.130
+! Version: 1.131
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-07-09T12:34:26.361Z
+! Last modified: 2025-07-09T13:33:08.297Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -16634,7 +16634,7 @@ remnote.com##div[cypress-id="consent-popup"]
 whereby.com#%#//scriptlet('trusted-set-cookie', 'cookie_consents', '{"strictlyNecessary":true,"preferences":false,"statistics":false,"marketing":false}')
 fairtrade-universities.de#%#//scriptlet('set-cookie', 'cookie_google_maps', '1')
 dropbox.com##.ccpa-iframe-portal
-parfum-klik.*,parfum-klick.*,perfume-click.*,parfem-klik.cz,parfume-klik.dk,perfume-clic.es,profumo-clic.it,perfum-klik.pl,parfyme-klikk.no,perfume-clique.pt,parfyymi-klikkaus.fi,parfym-klick.se##div[id^="cookie"]
+tsm.ru,you-porn.com,parfum-klik.*,parfum-klick.*,perfume-click.*,parfem-klik.cz,parfume-klik.dk,perfume-clic.es,profumo-clic.it,perfum-klik.pl,parfyme-klikk.no,perfume-clique.pt,parfyymi-klikkaus.fi,parfym-klick.se##div[id^="cookie"]
 swiss.com.pl###consent_wrapper
 kolba.pl##main > section.bottom-0:has(button#banner-accept-all-cookies-btn)
 limanowa.in###notificationsPopup
@@ -18370,7 +18370,6 @@ news.tvb.com###root > #popup_bg
 fahrplan.oebb.at#%#//scriptlet('trusted-click-element', '#CookieBtnWrapper .lyr_atomText, div[data-cookie-content="functional"] > input', '#HFS_CookieSelectChoice', '500')
 ioi.dk#%#//scriptlet('trusted-click-element', '#updateButton + .coi-banner__accept')
 lalal.ai,rivegauche.ru,megamarket.ru,whitebit.com###cookies-notification
-you-porn.com##div[id^="cookie"]
 dailymotion.com#%#//scriptlet('trusted-click-element', '.consent_screen-accept')
 moneycontrol.com#$#body { overflow: auto !important; }
 secrid.com#%#//scriptlet('set-cookie', 'cookies', 'true')
@@ -65811,10 +65810,6 @@ tumblr.com##div#cmp-app-container
 atlassian.net##div[data-testid="cookie-consent-banner"]
 tiktok.com##tiktok-cookie-banner
 globalblue.com,globalblue.ru##.gbnew-cookie-bar
-voltafinance.com##+js(set-cookie, __wr_disclaimer_source, 1)
-ghostinternational.com##+js(set-cookie, pum-9213, true)
-delta.com##+js(set-cookie, dtPCB, true)
-threads.com##+js(set-session-storage-item, cb, 1)
 bbc.com##body:has(div[class*="Styled"][class*="Container"] [data-testid="bbc-logo-wrapper"]) > .fc-consent-root:style(display: flex !important)
 tedbaker.com,fortune.com,bbc.com,boohoo.com,cgi.com,dunelm.com,edumsko.ru,fanipogody.pl,finnkino.fi,fitx.de,fussballgucken.info,gov.lv,liberbank.es,pickup.de,neplp.lv,riga.lv,schuurman-schoenen.nl,senec.com,sevdesk.at,sevdesk.de,shopilya.com,snp.nl,stoffe.de,stwbs.de,successinsights.nl,swedbank.com,t-mobile.com,terc.hu,tyg.se,ufz.de,uktv.co.uk,wikifolio.com##body:style(overflow: auto !important;)
 ##.js-consent.consent
@@ -65924,8 +65919,8 @@ chatgpt.com##+js(set-cookie, oai-allow-ne, false)
 enac.es##+js(set-cookie, lopd_medicion, 2)
 dtksoft.com,ecuavisa.com,exaktacreative.se,goindex.lt##+js(set-cookie, user_cookie_consent, 1)
 sebo.ddns.opc-asp.de##+js(set-cookie, opc_webapp_cookiesaccepted_be264d3fecc64041f12c2afcba82edc0, 1, , reload, 1)
-voltafinance.com##+js(trusted-set-cookie, __wr_disclaimer_source, 1)
-ghostinternational.com##+js(trusted-set-cookie, pum-9213, true)
+voltafinance.com##+js(set-cookie, __wr_disclaimer_source, 1)
+ghostinternational.com##+js(set-cookie, pum-9213, true)
 skyrc.com##+js(set-cookie, accept-cookie-20240708, false)
 mycare.de##+js(set-cookie, cookie-policy-accepted-v3, true)
 mycare.de##+js(set-cookie, cc_analytics, false)
@@ -66037,7 +66032,7 @@ autotrader.ca##+js(set-cookie, cbnr, 1)
 kto.*##+js(set-cookie, caccept, on)
 harry-gerlach.de,schulze-immobilien.de##+js(set-cookie, privacyPolicyAccept, 0, , reload, 1)
 aa.com##+js(set-cookie, cookie_banner, closed)
-delta.com##+js(trusted-set-cookie, dtPCB, true)
+delta.com##+js(set-cookie, dtPCB, true)
 verdis.se##+js(set-cookie, allow-all-cookies, 0)
 verdis.se##+js(set-cookie, initial-cookie-setting-done, 1, , reload, 1)
 kektura.hu##+js(set-cookie, cookie_consent_, 1)
@@ -67842,6 +67837,7 @@ aida64.co.uk,aida64.com.ua,aida64.de,aida64.hu,aida64.it,aida64russia.com##+js(s
 iscc-system.org##+js(set-session-storage-item, aesirx-analytics-rejected, true)
 workwide.de##+js(set-session-storage-item, cookieModal2, 1)
 erco.com##+js(set-session-storage-item, cookieMessageDisagree, true)
+threads.com##+js(set-session-storage-item, cb, 1)
 communitycrimemap.com##+js(set-session-storage-item, disclaimerOpened, 1)
 smartwielen.lu##+js(set-session-storage-item, terms-and-policy-accepted, true)
 remington-europe.com##+js(set-session-storage-item, cookies_dismissed, 1)
