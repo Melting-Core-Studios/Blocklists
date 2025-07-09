@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Begone Annoyances
 ! Description: A blocklist that will remove all annoyances from online browsing.
-! Version: 1.129
+! Version: 1.130
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-07-09T11:16:37.601Z
+! Last modified: 2025-07-09T12:34:26.361Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -285,7 +285,6 @@ pornone.com#@#.overheaderbanner
 @@||yorkshirepost.co.uk^$generichide
 ||piano.io/api/tinypass.min.js$domain=hobbyconsolas.com|computerhoy.com|businessinsider.es|snrec.jp|thehindu.com|australiangeographic.com.au
 sanalkurs.net###toast-container > .toast-error[aria-live="assertive"]
-boosty.to##div[class^="LegalInfo-scss--module_root"]
 tradingview.com#$#div[id="overlap-manager-root"] > div[data-id] > div[data-dialog-name^="gopro"] { display: none !important; }
 tradingview.com#$?#body[class] { overflow: auto !important; padding-right: 0 !important; }
 coolpc.com.tw,coolpc.tw#%#//scriptlet("adjust-setTimeout", "SkipMsg()", "*", "0.02")
@@ -16175,6 +16174,7 @@ cmp.focus.de#%#//scriptlet('trusted-click-element', '.sp_choice_type_9[title*="Z
 teslawissen.ch,scootertechno.com,mysize.ch,aeotec.com,geschichte-wissen.de,4kfilme.de,pk.edu.pl,warzywapolowe.pl,airportwebcams.net#$?#div[consent-skip-blocker] { remove: true; }
 teslawissen.ch,scootertechno.com,mysize.ch,aeotec.com,geschichte-wissen.de,4kfilme.de,pk.edu.pl,warzywapolowe.pl,airportwebcams.net#$#body[style] { overflow: auto !important; }
 teslawissen.ch,scootertechno.com,mysize.ch,aeotec.com,geschichte-wissen.de,4kfilme.de,pk.edu.pl,warzywapolowe.pl,airportwebcams.net#$#html[style] { overflow: auto !important; }
+d5render.com##.home-hero-section ~ div > div[style^="box-sizing:border-box; position:fixed; bottom:0; left:0; z-index:9999; width:100%; display:flex;"]
 geotastic.net#%#//scriptlet('set-local-storage-item', 'privacy-policy-accepted', 'true')
 sport-thieme.de#%#//scriptlet('trusted-click-element', '#usercentrics-cmp-ui >>> button.uc-save-button')
 sneakerfreaker.com#%#//scriptlet('trusted-set-cookie', 'sfConsent', 'denied')
@@ -65811,6 +65811,10 @@ tumblr.com##div#cmp-app-container
 atlassian.net##div[data-testid="cookie-consent-banner"]
 tiktok.com##tiktok-cookie-banner
 globalblue.com,globalblue.ru##.gbnew-cookie-bar
+voltafinance.com##+js(set-cookie, __wr_disclaimer_source, 1)
+ghostinternational.com##+js(set-cookie, pum-9213, true)
+delta.com##+js(set-cookie, dtPCB, true)
+threads.com##+js(set-session-storage-item, cb, 1)
 bbc.com##body:has(div[class*="Styled"][class*="Container"] [data-testid="bbc-logo-wrapper"]) > .fc-consent-root:style(display: flex !important)
 tedbaker.com,fortune.com,bbc.com,boohoo.com,cgi.com,dunelm.com,edumsko.ru,fanipogody.pl,finnkino.fi,fitx.de,fussballgucken.info,gov.lv,liberbank.es,pickup.de,neplp.lv,riga.lv,schuurman-schoenen.nl,senec.com,sevdesk.at,sevdesk.de,shopilya.com,snp.nl,stoffe.de,stwbs.de,successinsights.nl,swedbank.com,t-mobile.com,terc.hu,tyg.se,ufz.de,uktv.co.uk,wikifolio.com##body:style(overflow: auto !important;)
 ##.js-consent.consent
