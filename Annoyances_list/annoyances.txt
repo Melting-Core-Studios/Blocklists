@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Begone Annoyances
 ! Description: A blocklist that will remove all annoyances from online browsing.
-! Version: 1.152
+! Version: 1.153
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-07-10T17:19:14.026Z
+! Last modified: 2025-07-10T20:19:56.497Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -2398,6 +2398,8 @@ tv.yandex.*##.recommended-ott
 apteki.yandex.ru##div[data-qa="BannerSlider"]
 www.kinopoisk.ru#$#header[class][style*="--header-height:150px"] > div > img { display: none !important; }
 www.kinopoisk.ru#$#header[class][style*="--header-height:150px"] > div.header-navigation { margin-top: 0 !important; }
+||qitano.com/wp-content/uploads/LEGOOLmovie/
+||qitano.com/wp-content/uploads/*.gif1
 similarweb.com##.extensions-promo
 migalhas.com.br##.patrocinador
 timesofindia.indiatimes.com##.aboundfloatingMain
@@ -2407,6 +2409,7 @@ newsday.com#%#//scriptlet('remove-class', 'nd-lock', 'html')
 colegialacasero.com##[class]:has(> div.dvr-3x2)
 duckduckgo.com##section[class^="homepage-cta-section_"]
 rikeilabo.com##.cta-wrap
+qitano.com,rikeilabo.com##div[id^="xeory-fixed-banner"]
 thewrap.com##.entry-content > div.wp-block-spacer
 thewrap.com##.entry-content > div.wp-block-spacer + div.wp-block-group.has-global-padding
 ||creatives-promo.telegraaf.nl^
