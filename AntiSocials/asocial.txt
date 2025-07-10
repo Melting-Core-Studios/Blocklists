@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.52
+! Version: 1.53
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-07-10T13:33:57.161Z
+! Last modified: 2025-07-10T14:19:15.255Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -43,6 +43,7 @@ adguard.info,adguard.com,adguard.app#$#.hello_from_adguard_advanced_protection_i
 indianexpress.com##.social-icon
 unn.com.ua##body > div.fancybox-opened
 unn.com.ua##body > div.fancybox-opened + div.fancybox-overlay
+@@||apis.google.com/js/plusone.js$domain=lexlege.pl
 @@||yastatic.net/share2/share.js$domain=rkf.online
 dizipal.org,diziyoutv.com#@#.facebook-like
 dizipal.org,diziyoutv.com#@#.facebook-share
@@ -8705,6 +8706,8 @@ dooralei.ru#$#body { overflow: visible!important; }
 twgreatdaily.com#$#.body.modal-open { overflow: visible!important; }
 catalogmineralov.ru#$#body { overflow: visible!important; }
 1track.ru#$#body { overflow: visible!important; }
+lexlege.pl#%#//scriptlet('trusted-set-constant', 'gapi', '{"plusone": {}}')
+lexlege.pl#%#//scriptlet('set-constant', 'gapi.plusone.render', 'noopFunc')
 cystore.com#@#a[href^="https://lin.ee/"]
 hn.cz#@#.article-sharing
 nationalgeographic.pt#@#.socialmedia
