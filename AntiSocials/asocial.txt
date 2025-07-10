@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.46
+! Version: 1.47
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-07-10T04:31:20.058Z
+! Last modified: 2025-07-10T07:19:27.274Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -19807,6 +19807,7 @@ tastesbetterfromscratch.com##.block-follow-updates
 iowagirleats.com,simplifylivelove.com,therecipecritic.com##.block-pinterest-cta
 vegrecipesofindia.com##.block-social-links
 studyfinds.org##.block-social-share
+carnewschina.com##.block_social_media__content
 usrtk.org##.blog-article-share-options
 artforum.com##.blog-article__share-sticky
 thehustle.co##.blog-hustle-social-links
@@ -21035,6 +21036,7 @@ jagranjosh.com##ul[class^="Details_Social_"]
 lataco.com##ul[class^="SocialSharing_"]
 dailymail.co.uk,thisismoney.co.uk##ul[class^="linksHolder-"]
 foxnews.com##.article-meta-lower:has(.article-social)
+carnewschina.com##.article_detail__top_stories:has-text(Follow us for ev updates)
 thedispatch.com##.border-y.py-2:has-text(Share)
 appleinsider.com##.col-xs-12 > div:has-text(Follow AppleInsider)
 theguardian.com##.dcr-4gwv1z > ul:has-text(Get our)
