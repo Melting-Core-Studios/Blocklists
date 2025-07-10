@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Begone Annoyances
 ! Description: A blocklist that will remove all annoyances from online browsing.
-! Version: 1.154
+! Version: 1.155
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-07-10T21:18:52.555Z
+! Last modified: 2025-07-10T22:17:56.103Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -19,6 +19,7 @@ echo.msk.ru#$?#span > div[role]:has(> div[class] > section.content) { margin-top
 @@||consent.cookiebot.com^$app=ee.telia.selfservice
 ~vert.sh,~search.brave.com,~status.im,~lafenice.io,~kurer-sreda.ru,~chorki.com,~zattoo.com,~zaycev.net,~hitta.se,~mail.ru,~facebook.com,~instagram.com,~drive.google.com$$link[rel="manifest"]
 www-livemint-com.cdn.ampproject.org,livemint.com$$div[class="openinApp2"]
+codedead.com,etelecinema.hu,drive.gsb.gov.tr##div[role="alert"]
 4pda.to#?#.menu-main-mobile > li.menu-main-item > a[href^="https://4pda.to/huawei/"]:upward(1)
 www-techradar-com.cdn.ampproject.org##amp-jwplayer
 9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,electrek.co##.newsletter-box
@@ -17840,7 +17841,7 @@ ruggable.de,talentdays.pl#$#html { overflow: auto !important; padding-right: 0 !
 ruggable.de,talentdays.pl#$#body { overflow: auto !important; padding-right: 0 !important; }
 emu-land.net##.policy-validation
 fydeos.io#%#//scriptlet('trusted-set-local-storage-item', 'is_accept_cookie', 'true')
-codedead.com,etelecinema.hu,drive.gsb.gov.tr##div[role="alert"]
+cline.bot,codedead.com,etelecinema.hu,drive.gsb.gov.tr##div[role="alert"]
 iotransfer.itopvpn.com##.fl-accept
 chessly.com##span > div[class^="NotificationPanel_"]:has(> div[class^="CookieConsentForm_"])
 casaevideo.com.br#%#//scriptlet('set-cookie', 'acceptPolicy', 'true')
