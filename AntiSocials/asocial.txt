@@ -1,82 +1,13 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.47
+! Version: 1.48
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-07-10T07:19:27.274Z
+! Last modified: 2025-07-10T07:35:43.159Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
-/^(.+[_.-])?facebook[_.-]?like[_.-]/
-/^(.+[_.-])?facebook[_.-]?share[_.-]/
-/^(.+[_.-])?facebook[_.-]?comment[_.-]/
-/^(.+[_.-])?fb[_.-]?like[_.-]/
-/^(.+[_.-])?fb[_.-]?share[_.-]/
-/^(.+[_.-])?twitter[_.-]?share[_.-]/
-/^(.+[_.-])?twitter[_.-]?tweet[_.-]/
-/^(.+[_.-])?twitter[_.-]?follow[_.-]/
-/^(.+[_.-])?tweet[_.-]?button[_.-]/
-/^(.+[_.-])?linkedin[_.-]?share[_.-]/
-/^(.+[_.-])?linkedin[_.-]?follow[_.-]/
-/^(.+[_.-])?google[_.-]?plus[_.-]/
-/^(.+[_.-])?gplus[_.-]/
-/^(.+[_.-])?youtube[_.-]?subscribe[_.-]/
-/^(.+[_.-])?pinterest[_.-]?save[_.-]/
-/^(.+[_.-])?pinterest[_.-]?follow[_.-]/
-/^(.+[_.-])?pin[_.-]?it[_.-]/
-/^(.+[_.-])?whatsapp[_.-]?share[_.-]/
-/^(.+[_.-])?whatsapp[_.-]?send[_.-]/
-/^(.+[_.-])?telegram[_.-]?share[_.-]/
-/^(.+[_.-])?reddit[_.-]?submit[_.-]/
-/^(.+[_.-])?reddit[_.-]?share[_.-]/
-/^(.+[_.-])?tiktok[_.-]?share[_.-]/
-/^(.+[_.-])?tiktok[_.-]?follow[_.-]/
-/^(.+[_.-])?like[_.-]?button[_.-]/
-/^(.+[_.-])?like[_.-]?btn[_.-]/
-/^(.+[_.-])?social[_.-]?like[_.-]/
-/^(.+[_.-])?share[_.-]?button[_.-]/
-/^(.+[_.-])?share[_.-]?btn[_.-]/
-/^(.+[_.-])?social[_.-]?share[_.-]/
-/^(.+[_.-])?sharing[_.-]?button[_.-]/
-/^(.+[_.-])?follow[_.-]?button[_.-]/
-/^(.+[_.-])?follow[_.-]?btn[_.-]/
-/^(.+[_.-])?social[_.-]?follow[_.-]/
-/^(.+[_.-])?social[_.-]?widget[_.-]/
-/^(.+[_.-])?social[_.-]?plugin[_.-]/
-/^(.+[_.-])?social[_.-]?embed[_.-]/
-/^(.+[_.-])?social[_.-]?analytics[_.-]/
-/^(.+[_.-])?social[_.-]?track(ing)?[_.-]/
-/^(.+[_.-])?social[_.-]?metrics[_.-]/
-/^(.+[_.-])?widget[_.-]?track(ing)?[_.-]/
-/^(.+[_.-])?button[_.-]?track(ing)?[_.-]/
-/\/share\?/
-/\/sharing\//
-/\/shareArticle\?/
-/\/sharer\.php\?/
-/\/intent\/(tweet|like|follow|retweet)/
-/\/plugins\/(like|share)/
-/share_url=/
-/shared_url=/
-/sharing_url=/
-##.share-button
-##.like-button
-##.follow-button
-##.social-buttons
-##.fb-like
-##.pinterest-save
-##.social-media-buttons
-##[class*="share-btn"]
-##[class*="social-btn"]
-##[class*="like-btn"]
-##[class*="follow-btn"]
-/^(.+[_.-])?(share|like|follow)[_.-]?(button|btn|widget)[_.-]/
-/^(.+[_.-])?(social)[_.-]?(media)[_.-]?(button|btn|widget|share|like)[_.-]/
-/\/(intent|share|sharer)\/(tweet|like|follow|share|post)/
-/^(.+[_.-])?widget[_.-]?js[_.-]?(social|share|like)/
-/^(.+[_.-])?(social|share)[_.-]?widget[_.-]?js[_.-]/
-/^(.+[_.-])?email[_.-]?share[_.-]/
-/^(.+[_.-])?print[_.-]?share[_.-]/
 unian.net#?#div[style] > div.article-shares:upward(1)
 123telugu.com#$#.cat-tags { display: none !important; }
 123telugu.com#$#.post-page-content { padding-bottom: 0 !important; }
