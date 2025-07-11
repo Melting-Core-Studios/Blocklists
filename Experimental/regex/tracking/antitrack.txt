@@ -5,99 +5,13 @@
 ! Author: Melting Core Studios
 ! Warning: This list may break some functionality of AI tools. Use in a sandbox before definite use. 
 
-! Whitelist for many websites
-@@||fonts.googleapis.com^
-@@||fonts.gstatic.com^
-@@||cdn.sstatic.net^
-
-! Fix Reddit load issue
-@@||reddit.com^$document
-@@||redditstatic.com^$stylesheet
-@@||redditmedia.com^
-@@||reddit.com/api/
-@@||gql.reddit.com^
-@@||www.reddit.com^
-
-! Fix StackOverflow load issue
-@@||cdn.sstatic.net^$stylesheet
-@@||stackoverflow.com^$document
-@@||fonts.googleapis.com^$stylesheet
-@@||fonts.gstatic.com^
-@@||ajax.googleapis.com^$script
-
-! Fix for broad login types
-@@||*/login^$xmlhttprequest
-@@||*/session^$script
-
-! Fix for base login types
-@@||cdn.jsdelivr.net^$important
-@@||cloudfront.net^$important
-@@||ajax.googleapis.com^$important
-@@||fonts.googleapis.com^$important
-@@||fonts.gstatic.com^$important
-@@||cdnjs.cloudflare.com^$important
-@@||static.*.nl^$important
-@@||cdn.*.nl^$important
-@@||*.akamai.net^$important
-@@||*.akamaized.net^$important
-
-! Fix for too aggressive regex types
-/^.*\/auth.*$/ $domain=~facebook.com|~google.com
-
-! Fix Announcement Patch (Revanced)
-- /^.*announcement.*$/
-/^.*announcement.*$/ $domain=~revanced.app|~revancedcdn.com|~revd.app
-
+! Anti fingerprinting
 /^.*[?&](utm_|ga_|gtm_|fb_|mc_|clickid|session_id|visitor_id).*$/
 /^.*(fingerprint|canvas|entropy|deviceID).*\.js$/
 /^.*\/(client|user|visitor).*\.min\.js$/
 
 ! Fix for instagram stories
 /^(.+\.)?(instagram|ig(cdn)?)\.(com|net)$/ $domain=~cdninstagram.com|~fbcdn.net
-
-! === FUNCTIONALITY ISSUES ===
-! Below are websites known to have issues with our agressive lists
-! This is an attempt to restore their functionality
-
-@@||duckduckgo.com^
-@@||ac.duckduckgo.com^
-@@||cdn.duckduckgo.com^
-@@||staticcdn.duckduckgo.com^
-@@||external-content.duckduckgo.com^
-@@||improving.duckduckgo.com^
-@@||links.duckduckgo.com^
-@@||duckduckgo.com/atb.js$script,domain=duckduckgo.com
-@@||duckduckgo.com/lib/*$script,domain=duckduckgo.com
-
-@@||fonts.gstatic.com^$font
-@@||cdnjs.cloudflare.com^$script
-@@||cloudfront.net^$script
-@@||jsdelivr.net^$script
-
-@@||mollie.com^
-@@||cdn.mollie.com^
-@@||stripe.com^
-@@||js.stripe.com^
-@@||paypal.com^
-@@||www.paypalobjects.com^
-@@||ideal.nl^
-@@||adyen.com^
-@@||checkoutshopper-live.adyen.com^
-
-@@||youtube-nocookie.com^
-@@||embed.spotify.com^
-@@||open.spotify.com^$important
-
-@@||hcaptcha.com^
-@@||gstatic.com/recaptcha^
-@@||google.com/recaptcha^
-
-! Restoring functionality through CSS allowlist
-##.css--ad
-##.css-social-sidebar
-##.static-social
-##.staticAd
-##.default_rc_theme
 
 ! === AD SERVERS ===
 /^(.+[_.-])?ads?[0-9]*[_.-]/
