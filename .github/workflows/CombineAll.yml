@@ -92,13 +92,14 @@ jobs:
             key=$(basename "$dir")
             
             case "$key" in
-              malvertising) output_file="Malvertising_Blocklist/malvertising_blocklist.txt" ;;
-              tracking)     output_file="Tracking_blocklist/full_anti_track.txt"     ;;
-              annoyances)   output_file="Annoyances_list/annoyances.txt"        ;;
-              adblocking)   output_file="AdBlocking/adblock.txt"          ;;
-              socials)      output_file="AntiSocials/asocial.txt"        ;;
+              malvertising*) output_file="Malvertising_Blocklist/malvertising_blocklist.txt" ;;
+              tracking*)     output_file="Tracking_blocklist/full_anti_track.txt"     ;;
+              annoyances*)   output_file="Annoyances_list/annoyances.txt"        ;;
+              adblocking*)   output_file="AdBlocking/adblock.txt"          ;;
+              socials*)      output_file="AntiSocials/asocial.txt"        ;;
               *)            echo "::error::Unknown key: $key"; exit 1 ;;
             esac
+
 
             artifact_cfg=$(find "$dir" -name "compile-config.json" -type f | head -n1)
             artifact_out=$(find "$dir" -name "*.txt" -type f | head -n1)
