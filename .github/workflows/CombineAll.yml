@@ -54,7 +54,7 @@ jobs:
             ${{ matrix.cfg.path }}
             ${{ matrix.cfg.out }}
 
-    publish:
+  publish:
     needs: build
     runs-on: ubuntu-latest
 
