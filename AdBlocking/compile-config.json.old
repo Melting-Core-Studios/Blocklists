@@ -6,76 +6,52 @@
   "version": "1.225",
   "sources": [
     {
-      "name": "d3ward hosts",
       "source": "https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.txt",
-      "type": "hosts",
-      "transformations": ["RemoveComments", "Compress"]
+      "type": "hosts"
     },
     {
-      "name": "d3ward adblock",
       "source": "https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.adblock",
-      "type": "adblock",
-      "transformations": ["RemoveComments"]
+      "type": "adblock"
     },
     {
-      "name": "EasyList",
       "source": "https://easylist-downloads.adblockplus.org/easylist.txt",
-      "type": "adblock",
-      "transformations": ["RemoveComments", "Validate"]
+      "type": "adblock"
     },
     {
-      "name": "AdGuard Base Android",
       "source": "https://filters.adtidy.org/android/filters/2_optimized.txt",
-      "type": "adblock",
-      "transformations": ["RemoveComments", "Validate"]
+      "type": "adblock"
     },
     {
-      "name": "AdGuard Base iOS",
       "source": "https://filters.adtidy.org/ios/filters/2_optimized.txt",
-      "type": "adblock",
-      "transformations": ["RemoveComments", "Validate"]
+      "type": "adblock"
     },
     {
-      "name": "AdGuard Mobile Android",
       "source": "https://filters.adtidy.org/android/filters/11_optimized.txt",
-      "type": "adblock",
-      "transformations": ["RemoveComments", "Validate"]
+      "type": "adblock"
     },
     {
-      "name": "AdGuard Mobile iOS",
       "source": "https://filters.adtidy.org/ios/filters/11_optimized.txt",
-      "type": "adblock",
-      "transformations": ["RemoveComments", "Validate"]
+      "type": "adblock"
     },
     {
-      "name": "AdGuard Base Windows",
       "source": "https://filters.adtidy.org/windows/filters/2_optimized.txt",
-      "type": "adblock",
-      "transformations": ["RemoveComments", "Validate"]
+      "type": "adblock"
     },
     {
-      "name": "AdGuard Base Mac",
       "source": "https://filters.adtidy.org/mac/filters/2_optimized.txt",
-      "type": "adblock",
-      "transformations": ["RemoveComments", "Validate"]
+      "type": "adblock"
     },
     {
-      "name": "AdGuard Mobile Windows",
       "source": "https://filters.adtidy.org/windows/filters/11_optimized.txt",
-      "type": "adblock",
-      "transformations": ["RemoveComments", "Validate"]
+      "type": "adblock"
     },
     {
-      "name": "AdGuard Mobile Mac",
       "source": "https://filters.adtidy.org/mac/filters/11_optimized.txt",
-      "type": "adblock",
-      "transformations": ["RemoveComments", "Validate"]
+      "type": "adblock"
     }
   ],
   "transformations": [
     "RemoveComments",
-    "Compress",
-    "Validate",
     "Deduplicate",
     "RemoveEmptyLines",
     "TrimLines",
