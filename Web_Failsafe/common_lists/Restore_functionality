@@ -1,6 +1,6 @@
 ! Title: [ MCS ] Fix the broken web
 ! Description: A list meant to restore web apps / plugins that restore power to the people. 
-! Version: 0.1.0021f
+! Version: 0.2.3284a
 ! License: CC BY-SA 4.0
 ! Author: Melting Core Studios
 ! Warning: This list may break some functionality of AI tools. Use in a sandbox before definite use. 
@@ -48,3 +48,23 @@
 ! Regex
 @@/^https?:\/\/(?:api\.)?returnyoutubedislike(?:api)?\.com\/.*/$important
 @@/^https?:\/\/returnyoutubedislikeapi\.com\/(?:votes|swagger|Configs|Diagnostics).*/$important
+
+! TOOL: Revanced Manager and Patches
+! Main domains
+@@||api.revanced.app^$important
+@@||releases.revanced.app^$important
+@@||revanced.app^$important
+
+! Specific endpoints
+@@||api.revanced.app/announcements*$important
+@@||api.revanced.app/v4/announcements*$important
+@@||api.revanced.app/v4/about*$important
+@@||api.revanced.app/v4/patches*$important
+@@||api.revanced.app/v4/contributors*$important
+@@||releases.revanced.app/tools*$important
+@@||revanced.app/announcements*$important
+
+! Regex
+@@/^https?:\/\/api\.revanced\.app\/(?:announcements|v4\/.*)?.*/$important
+@@/^https?:\/\/releases\.revanced\.app\/(?:tools|patches|contributors|announcement).*/$important
+@@/^https?:\/\/revanced\.app\/announcements.*/$important
