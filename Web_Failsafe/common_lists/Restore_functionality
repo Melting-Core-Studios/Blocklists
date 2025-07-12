@@ -49,12 +49,20 @@
 @@/^https?:\/\/(?:api\.)?returnyoutubedislike(?:api)?\.com\/.*/$important
 @@/^https?:\/\/returnyoutubedislikeapi\.com\/(?:votes|swagger|Configs|Diagnostics).*/$important
 
-! TOOL: Dislike Returned (revanced)
-! Main domains
-@@||dislike-returned.app^$important,document
-@@||api.dislike-returned.app^$important,document
-@@||dislike-returned.app^$network
-@@||api.dislike-returned.app^$network
+! Additional certificate related whitelists
+! Potential duplications, will be removed when fix works.
+@@||returnyoutubedislikeapi.com^$important,document
+@@||api.returnyoutubedislike.com^$important,document
+@@||returnyoutubedislike.com^$important,document
+@@||returnyoutubedislikeapi.com^$important,network
+@@||api.returnyoutubedislike.com^$important,network
+@@||returnyoutubedislike.com^$important,network
+@@||returnyoutubedislikeapi.com/votes*$important
+@@||returnyoutubedislikeapi.com/swagger/*$important
+@@||returnyoutubedislikeapi.com/Configs/*$important
+@@||returnyoutubedislikeapi.com^$stealth
+@@||returnyoutubedislikeapi.com^$important,document
+@@||api.returnyoutubedislike.com^$important,document  
 
 ! TOOL: Revanced Manager and Patches
 ! Main domains
