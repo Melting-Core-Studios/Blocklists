@@ -49,22 +49,12 @@
 @@/^https?:\/\/(?:api\.)?returnyoutubedislike(?:api)?\.com\/.*/$important
 @@/^https?:\/\/returnyoutubedislikeapi\.com\/(?:votes|swagger|Configs|Diagnostics).*/$important
 
-! Additional whitelists needed to restore function without tracking
-@@||returnyoutubedislikeapi.com^$document
-@@||api.returnyoutubedislike.com^$document
-@@||returnyoutubedislike.com^$document
-@@||returnyoutubedislikeapi.com^$network
-@@||api.returnyoutubedislike.com^$network
-@@||returnyoutubedislike.com^$network
-@@||returnyoutubedislikeapi.com^$important,document
-@@||api.returnyoutubedislike.com^$important,document
-@@||returnyoutubedislike.com^$important,document
-@@||returnyoutubedislikeapi.com^$important,network
-@@||api.returnyoutubedislike.com^$important,network
-@@||returnyoutubedislike.com^$important,network
-@@||returnyoutubedislikeapi.com/votes*$important
-@@||returnyoutubedislikeapi.com/swagger/*$important
-@@||returnyoutubedislikeapi.com/Configs/*$important
+! TOOL: Dislike Returned (revanced)
+! Main domains
+@@||dislike-returned.app^$important,document
+@@||api.dislike-returned.app^$important,document
+@@||dislike-returned.app^$network
+@@||api.dislike-returned.app^$network
 
 ! TOOL: Revanced Manager and Patches
 ! Main domains
