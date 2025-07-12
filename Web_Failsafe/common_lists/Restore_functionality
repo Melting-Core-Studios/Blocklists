@@ -32,3 +32,19 @@
 @@/^https?:\/\/(?:api\.)?sponsor\.ajay\.app\/api\/.*/$important
 @@/^https?:\/\/sponsorblock\.(?:kavin\.rocks|gleesh\.net|2255\.me|hostux\.net)\/.*/$important
 @@/^https?:\/\/(?:sb\.ltn\.fi|mirror\.sb\.mchang\.xyz|sb\.minibomba\.pro)\/.*/$important
+
+! TOOL: Return YouTube Dislike (both web and Revanced)
+! Main domains
+@@||returnyoutubedislike.com^$important
+@@||returnyoutubedislikeapi.com^$important
+@@||api.returnyoutubedislike.com^$important
+
+! Specific endpoints
+@@||returnyoutubedislikeapi.com/votes*$important
+@@||returnyoutubedislikeapi.com/swagger/*$important
+@@||returnyoutubedislikeapi.com/Configs/*$important
+@@||returnyoutubedislikeapi.com/Diagnostics*$important
+
+! Regex
+@@/^https?:\/\/(?:api\.)?returnyoutubedislike(?:api)?\.com\/.*/$important
+@@/^https?:\/\/returnyoutubedislikeapi\.com\/(?:votes|swagger|Configs|Diagnostics).*/$important
