@@ -51,18 +51,19 @@
 
 ! Additional certificate related whitelists
 ! Potential duplications, will be removed when fix works.
-@@||returnyoutubedislikeapi.com^$important,document
-@@||api.returnyoutubedislike.com^$important,document
-@@||returnyoutubedislike.com^$important,document
-@@||returnyoutubedislikeapi.com^$important,network
-@@||api.returnyoutubedislike.com^$important,network
-@@||returnyoutubedislike.com^$important,network
-@@||returnyoutubedislikeapi.com/votes*$important
-@@||returnyoutubedislikeapi.com/swagger/*$important
-@@||returnyoutubedislikeapi.com/Configs/*$important
 @@||returnyoutubedislikeapi.com^$stealth
-@@||returnyoutubedislikeapi.com^$important,document
-@@||api.returnyoutubedislike.com^$important,document  
+@@||api.returnyoutubedislike.com^$stealth
+@@||returnyoutubedislike.com^$stealth
+@@||returnyoutubedislikeapi.com/votes*$important,document,network
+@@||returnyoutubedislikeapi.com/swagger/*$important,document,network
+@@||returnyoutubedislikeapi.com/Configs/*$important,document,network
+@@||returnyoutubedislikeapi.com/Diagnostics*$important,document,network
+@@||returnyoutubedislikeapi.com/api/*$important,document,network
+@@||returnyoutubedislikeapi.com^$important,document,network,stealth
+@@||api.returnyoutubedislike.com^$important,document,network,stealth
+@@||returnyoutubedislike.com^$important,document,network,stealth
+@@||*.returnyoutubedislike.com^$important,document,network,stealth
+@@||*.returnyoutubedislikeapi.com^$important,document,network,stealth
 
 ! TOOL: Revanced Manager and Patches
 ! Main domains
