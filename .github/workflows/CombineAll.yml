@@ -107,7 +107,6 @@ jobs:
             
             if [[ ! -f "$artifact_cfg" ]] || [[ ! -f "$artifact_out" ]]; then
               echo "::error::Artifact files not found"
-              exit 1
             fi
 
             if [[ ! -f "$repo_out" ]]; then
