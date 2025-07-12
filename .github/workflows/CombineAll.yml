@@ -15,10 +15,10 @@ jobs:
         cfg:
           - key: malvertising
             path: Malvertising_Blocklist/compile-config.json
-            out:  Malvertising_Blocklist/malvertising_blocklist.txt
+            out: Malvertising_Blocklist/malvertising_blocklist.txt
           - key: tracking
             path: Tracking_blocklist/compile-config.json
-            out:  Tracking_blocklist/full_anti_track.txt
+            out: Tracking_blocklist/full_anti_track.txt
           - key: annoyances
             path: Annoyances_list/compile-config.json
             out: Annoyances_list/annoyances.txt
@@ -49,12 +49,12 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: ${{ matrix.cfg.key }}
+          name: ${{ matrix.cfg.key }}-${{ github.run_number }}
           path: |
             ${{ matrix.cfg.path }}
             ${{ matrix.cfg.out }}
 
-  publish:
+    publish:
     needs: build
     runs-on: ubuntu-latest
 
@@ -86,16 +86,16 @@ jobs:
 
           for dir in artifacts/*; do
             key=$(basename "$dir")
+            base_key=$(echo "$key" | sed 's/-[0-9]*$//')
             
-            case "$key" in
-              malvertising*) output_file="Malvertising_Blocklist/malvertising_blocklist.txt" ;;
-              tracking*)     output_file="Tracking_blocklist/full_anti_track.txt"     ;;
-              annoyances*)   output_file="Annoyances_list/annoyances.txt"        ;;
-              adblocking*)   output_file="AdBlocking/adblock.txt"          ;;
-              socials*)      output_file="AntiSocials/asocial.txt"        ;;
-              *)            echo "::error::Unknown key: $key"; exit 1 ;;
+            case "$base_key" in
+              malvertising) output_file="Malvertising_Blocklist/malvertising_blocklist.txt" ;;
+              tracking)     output_file="Tracking_blocklist/full_anti_track.txt" ;;
+              annoyances)   output_file="Annoyances_list/annoyances.txt" ;;
+              adblocking)   output_file="AdBlocking/adblock.txt" ;;
+              socials)      output_file="AntiSocials/asocial.txt" ;;
+              *)            echo "::warning::Unknown artifact key: $base_key, skipping..."; continue ;;
             esac
-
 
             artifact_cfg=$(find "$dir" -name "compile-config.json" -type f | head -n1)
             artifact_out=$(find "$dir" -name "*.txt" -type f | head -n1)
@@ -103,24 +103,26 @@ jobs:
             repo_cfg="$GITHUB_WORKSPACE/$(dirname "$output_file")/compile-config.json"
             repo_out="$GITHUB_WORKSPACE/$output_file"
 
-            echo "🔍 Processing $key:"
+            echo "🔍 Processing $base_key:"
             
             if [[ ! -f "$artifact_cfg" ]] || [[ ! -f "$artifact_out" ]]; then
-              echo "::error::Artifact files not found"
+              echo "::warning::Artifact files not found for $base_key, skipping..."
+              continue
             fi
 
+            # Rest van je logica blijft hetzelfde...
             if [[ ! -f "$repo_out" ]]; then
-              echo "🔄 $key changed (repo file missing)"
+              echo "🔄 $base_key changed (repo file missing)"
               changed_any=true
             else
               artifact_clean=$(grep -v "^! Last modified:" "$artifact_out" || true)
               repo_clean=$(grep -v "^! Last modified:" "$repo_out" || true)
               
               if [[ "$artifact_clean" != "$repo_clean" ]]; then
-                echo "🔄 $key changed (content differs, ignoring timestamps)"
+                echo "🔄 $base_key changed (content differs, ignoring timestamps)"
                 changed_any=true
               else
-                echo "✅ $key unchanged (only timestamp differs)"
+                echo "✅ $base_key unchanged (only timestamp differs)"
                 continue
               fi
             fi
@@ -133,7 +135,7 @@ jobs:
               new="1.${minor}"
               
               jq ".version = \"${new}\"" "$artifact_cfg" > "$artifact_cfg.tmp" && mv "$artifact_cfg.tmp" "$artifact_cfg"
-              echo "Bumped $key to $new"
+              echo "Bumped $base_key to $new"
               
               retries=3
               count=0
