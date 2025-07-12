@@ -1,0 +1,34 @@
+! Title: [ MCS ] Fix the broken web
+! Description: A list meant to restore web apps / plugins that restore power to the people. 
+! Version: 0.1.0021f
+! License: CC BY-SA 4.0
+! Author: Melting Core Studios
+! Warning: This list may break some functionality of AI tools. Use in a sandbox before definite use. 
+
+! TOOL: SponsorBlock
+! Main domains
+@@||sponsor.ajay.app^$important
+@@||api.sponsor.ajay.app^$important
+@@||status.sponsor.ajay.app^$important
+@@||web.sponsor.ajay.app^$important
+
+! Mirror domains
+@@||sponsorblock.kavin.rocks^$important
+@@||sponsorblock.gleesh.net^$important
+@@||sponsorblock.2255.me^$important
+@@||sponsorblock.hostux.net^$important
+@@||sb.ltn.fi^$important
+@@||mirror.sb.mchang.xyz^$important
+@@||sb.minibomba.pro^$important
+
+! Endpoints
+@@||sponsor.ajay.app/api/skipSegments*$important
+@@||sponsor.ajay.app/api/userInfo*$important
+@@||sponsor.ajay.app/api/isUserVip*$important
+@@||sponsor.ajay.app/api/branding*$important
+@@||sponsor.ajay.app/database*$important
+
+! Regex
+@@/^https?:\/\/(?:api\.)?sponsor\.ajay\.app\/api\/.*/$important
+@@/^https?:\/\/sponsorblock\.(?:kavin\.rocks|gleesh\.net|2255\.me|hostux\.net)\/.*/$important
+@@/^https?:\/\/(?:sb\.ltn\.fi|mirror\.sb\.mchang\.xyz|sb\.minibomba\.pro)\/.*/$important
