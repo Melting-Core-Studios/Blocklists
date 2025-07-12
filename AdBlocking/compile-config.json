@@ -3,73 +3,105 @@
   "description": "A blocklist that automatically updates every hour to include the latest developments",
   "homepage": "https://github.com/Melting-Core-Studios/Blocklists",
   "license": "CC BY-SA 4.0",
-  "version": "1.225",
+  "version": "1.226",
   "sources": [
     {
       "name": "d3ward hosts",
       "source": "https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.txt",
       "type": "hosts",
-      "transformations": ["RemoveComments", "Compress"]
+      "transformations": [
+        "RemoveComments",
+        "Compress"
+      ]
     },
     {
       "name": "d3ward adblock",
       "source": "https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.adblock",
       "type": "adblock",
-      "transformations": ["RemoveComments"]
+      "transformations": [
+        "RemoveComments"
+      ]
     },
     {
       "name": "EasyList",
       "source": "https://easylist-downloads.adblockplus.org/easylist.txt",
       "type": "adblock",
-      "transformations": ["RemoveComments", "Validate"]
+      "transformations": [
+        "RemoveComments",
+        "Validate"
+      ]
     },
     {
       "name": "AdGuard Base Android",
       "source": "https://filters.adtidy.org/android/filters/2_optimized.txt",
       "type": "adblock",
-      "transformations": ["RemoveComments", "Validate"]
+      "transformations": [
+        "RemoveComments",
+        "Validate"
+      ]
     },
     {
       "name": "AdGuard Base iOS",
       "source": "https://filters.adtidy.org/ios/filters/2_optimized.txt",
       "type": "adblock",
-      "transformations": ["RemoveComments", "Validate"]
+      "transformations": [
+        "RemoveComments",
+        "Validate"
+      ]
     },
     {
       "name": "AdGuard Mobile Android",
       "source": "https://filters.adtidy.org/android/filters/11_optimized.txt",
       "type": "adblock",
-      "transformations": ["RemoveComments", "Validate"]
+      "transformations": [
+        "RemoveComments",
+        "Validate"
+      ]
     },
     {
       "name": "AdGuard Mobile iOS",
       "source": "https://filters.adtidy.org/ios/filters/11_optimized.txt",
       "type": "adblock",
-      "transformations": ["RemoveComments", "Validate"]
+      "transformations": [
+        "RemoveComments",
+        "Validate"
+      ]
     },
     {
       "name": "AdGuard Base Windows",
       "source": "https://filters.adtidy.org/windows/filters/2_optimized.txt",
       "type": "adblock",
-      "transformations": ["RemoveComments", "Validate"]
+      "transformations": [
+        "RemoveComments",
+        "Validate"
+      ]
     },
     {
       "name": "AdGuard Base Mac",
       "source": "https://filters.adtidy.org/mac/filters/2_optimized.txt",
       "type": "adblock",
-      "transformations": ["RemoveComments", "Validate"]
+      "transformations": [
+        "RemoveComments",
+        "Validate"
+      ]
     },
     {
       "name": "AdGuard Mobile Windows",
       "source": "https://filters.adtidy.org/windows/filters/11_optimized.txt",
       "type": "adblock",
-      "transformations": ["RemoveComments", "Validate"]
+      "transformations": [
+        "RemoveComments",
+        "Validate"
+      ]
     },
     {
       "name": "AdGuard Mobile Mac",
       "source": "https://filters.adtidy.org/mac/filters/11_optimized.txt",
       "type": "adblock",
-      "transformations": ["RemoveComments", "Validate"]
+      "transformations": [
+        "RemoveComments",
+        "Validate"
+      ]
     }
   ],
   "transformations": [
