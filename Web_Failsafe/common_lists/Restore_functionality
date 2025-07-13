@@ -104,6 +104,7 @@
 ! Other pages
 @@||carenzorgt.nl/care_pages/*$important,document,network,stealth
 @@||carenzorgt.nl/pages/*$important,document,network,stealth
+@@||carenzorgt.nl/app/*$important,document,network,stealth
 @@||carenzorgt.nl/connections/*$important,document,network,stealth
 @@||carenzorgt.nl/profiles/*$important,document,network,stealth
 @@||carenzorgt.nl/?*$important,document,network,stealth
@@ -121,4 +122,6 @@
 @@||carenzorgt.nl/api/auth*$important,network,stealth
 @@||carenzorgt.nl/auth/sessions*$important,network,stealth
 
+! Broadest unblocking
+@@||*.carenzorgt.*$important^
 
