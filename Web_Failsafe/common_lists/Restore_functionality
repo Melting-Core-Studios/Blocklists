@@ -85,7 +85,32 @@
 
 ! WEB APP: Carenzorgt
 ! Special request for people in need of care in The Netherlands
-@@||carenzorgt.nl^$important,document,network
-@@||www.carenzorgt.nl^$important,document,network
-@@||support.carenzorgt.nl^$important,document,network
-@@||*.carenzorgt.nl^$important,document,network
+! Main domains
+@@||carenzorgt.nl^$important,document,network,stealth
+@@||www.carenzorgt.nl^$important,document,network,stealth
+@@||*.carenzorgt.nl^$important,document,network,stealth
+@@||caren.nl^$important,document,network,stealth
+@@||www.caren.nl^$important,document,network,stealth
+@@||*.caren.nl^$important,document,network,stealth
+@@||support.carenzorgt.nl^$important,document,network,stealth
+
+! Javascript and session managers
+@@||carenzorgt.nl/assets/*$important,script
+@@||carenzorgt.nl/auth/*$important,script
+@@||carenzorgt.nl/api/*$important,script
+@@||carenzorgt.nl/signup-wizard*$important,script
+@@||carenzorgt.nl/landing/*$important,script
+
+! Login endpoints
+@@||carenzorgt.nl/auth/login*$important,document,network
+@@||carenzorgt.nl/auth/recoveries/*$important,document,network
+@@||carenzorgt.nl/reset_password*$important,document,network
+@@||carenzorgt.nl/signup-wizard*$important,document,network
+@@||carenzorgt.nl/landing/#welcome/login*$important,document,network
+
+! Two-factor restore
+@@||carenzorgt.nl/api/sms*$important,network
+@@||carenzorgt.nl/api/auth*$important,network
+@@||carenzorgt.nl/auth/sessions*$important,network
+
+
