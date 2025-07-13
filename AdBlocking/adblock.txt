@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Block those ads
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.246
+! Version: 1.247
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-07-13T14:15:14.878Z
+! Last modified: 2025-07-13T14:21:40.709Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -33924,7 +33924,6 @@
 @@||pics.porn300.com^
 @@||cdn*.porn300.com^
 @@||banner.dna.fi^
-||yomovies.repair^
 ||adx-open-service.youku.com^
 ||ad.youku.com^
 ||ykad-data.youku.com^
