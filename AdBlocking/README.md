@@ -8,6 +8,8 @@ Since this list uses freely available lists, and we want to provide full transpa
 - D3ward (hosts): [d3host.txt](https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.txt)
 - D3ward (adblock): [d3host.adblock](https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.adblock)
 - EasyList: [easylist.txt](https://easylist-downloads.adblockplus.org/easylist.txt)
+- Goooler: [1024_hosts](https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts)
+- Adaway: [hosts.txt](https://adaway.org/hosts.txt)
 
 ### ⚠️ WARNING ⚠️
 As always with our lists, it's important to note that these lists MAY break your browsing experience. This list is merely here to provide a full, dedicated list of several blocking lists that, combined into one, will provide a much more user-friendly experience when importing this into your content blocker. 

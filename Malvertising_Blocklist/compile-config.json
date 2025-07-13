@@ -40,6 +40,8 @@
   ],
   "transformations": [
     "RemoveComments",
+    "Compress",
+    "Validate",
     "Deduplicate",
     "RemoveEmptyLines",
     "TrimLines",

@@ -104,10 +104,16 @@
     {
       "source": "https://ph00lt0.github.io/blocklist/blocklist.txt",
       "type": "adblock"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/xxcriticxx/.pl-host-file/master/hosts.txt",
+      "type": "hosts"
     }
   ],
   "transformations": [
     "RemoveComments",
+    "Compress",
+    "Validate",
     "Deduplicate",
     "RemoveEmptyLines",
     "TrimLines",
