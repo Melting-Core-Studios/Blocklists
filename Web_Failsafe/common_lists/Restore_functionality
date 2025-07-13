@@ -1,6 +1,6 @@
 ! Title: [ MCS ] Fix the broken web
 ! Description: A list meant to restore web apps / plugins that restore power to the people. 
-! Version: 0.2.3284a
+! Version: 0.2.7515d
 ! License: CC BY-SA 4.0
 ! Author: Melting Core Studios
 ! Warning: This list may break some functionality of AI tools. Use in a sandbox before definite use. 
@@ -82,3 +82,10 @@
 @@/^https?:\/\/api\.revanced\.app\/(?:announcements|v4\/.*)?.*/$important
 @@/^https?:\/\/releases\.revanced\.app\/(?:tools|patches|contributors|announcement).*/$important
 @@/^https?:\/\/revanced\.app\/announcements.*/$important
+
+! WEB APP: Carenzorgt
+! Special request for people in need of care in The Netherlands
+@@||carenzorgt.nl^$important,document,network
+@@||www.carenzorgt.nl^$important,document,network
+@@||support.carenzorgt.nl^$important,document,network
+@@||*.carenzorgt.nl^$important,document,network
