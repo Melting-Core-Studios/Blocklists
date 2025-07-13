@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Begone Annoyances
 ! Description: A blocklist that will remove all annoyances from online browsing.
-! Version: 1.166
+! Version: 1.167
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-07-13T12:30:50.589Z
+! Last modified: 2025-07-13T13:27:35.534Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -62086,6 +62086,7 @@ playswellwithbutter.com#@#a[href^="https://www.pinterest.com/pin/create/button/"
 ||privacy-center.org^$third-party
 ||privacy.advancelocal.com/fides.js
 ||privacy.clion.agency^$third-party
+||privacy.condenastdigital.com/fides.js
 ||privacy.wum.rocks/public/app.js
 ||privacybee.com^$third-party
 ||privacylab.it^$third-party
@@ -72159,6 +72160,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||deutsche-weihnachtsmaerkte.de/booster/$~third-party
 @@||dl.gmx.com/permission/oneTrust/consent/$~third-party
 @@||dl.mail.com/permission/oneTrust/consent/$~third-party,xmlhttprequest
+@@||dlcdnimgs.asus.com/vendor/cookie-banner/$~third-party
 @@||dr-sup.de/_Resources/Static/Packages/$stylesheet,~third-party
 @@||ecookie.nl/build/$domain=anwbvignetten.nl|playseatstore.com
 @@||einthusan.tv/gdpr-consent-quantcast.js$~third-party
