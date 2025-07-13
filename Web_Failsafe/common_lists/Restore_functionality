@@ -95,22 +95,30 @@
 @@||support.carenzorgt.nl^$important,document,network,stealth
 
 ! Javascript and session managers
-@@||carenzorgt.nl/assets/*$important,script
-@@||carenzorgt.nl/auth/*$important,script
-@@||carenzorgt.nl/api/*$important,script
-@@||carenzorgt.nl/signup-wizard*$important,script
-@@||carenzorgt.nl/landing/*$important,script
+@@||carenzorgt.nl/auth/*$important,document,network,stealth
+@@||carenzorgt.nl/api/*$important,document,network,stealth
+@@||carenzorgt.nl/landing/*$important,document,network,stealth
+@@||carenzorgt.nl/signup-wizard*$important,document,network,stealth
+@@||carenzorgt.nl/dashboard*$important,document,network,stealth
+
+! Other pages
+@@||carenzorgt.nl/care_pages/*$important,document,network,stealth
+@@||carenzorgt.nl/pages/*$important,document,network,stealth
+@@||carenzorgt.nl/connections/*$important,document,network,stealth
+@@||carenzorgt.nl/profiles/*$important,document,network,stealth
+@@||carenzorgt.nl/?*$important,document,network,stealth
+@@||carenzorgt.nl/?reditect=*$important,document,network,stealth
 
 ! Login endpoints
-@@||carenzorgt.nl/auth/login*$important,document,network
-@@||carenzorgt.nl/auth/recoveries/*$important,document,network
-@@||carenzorgt.nl/reset_password*$important,document,network
-@@||carenzorgt.nl/signup-wizard*$important,document,network
-@@||carenzorgt.nl/landing/#welcome/login*$important,document,network
+@@||carenzorgt.nl/auth/login*$important,document,network,stealth
+@@||carenzorgt.nl/auth/recoveries/*$important,document,network,stealth
+@@||carenzorgt.nl/reset_password*$important,document,network,stealth
+@@||carenzorgt.nl/signup-wizard*$important,document,network,stealth
+@@||carenzorgt.nl/landing/#welcome/login*$important,document,network,stealth
 
 ! Two-factor restore
-@@||carenzorgt.nl/api/sms*$important,network
-@@||carenzorgt.nl/api/auth*$important,network
-@@||carenzorgt.nl/auth/sessions*$important,network
+@@||carenzorgt.nl/api/sms*$important,network,stealth
+@@||carenzorgt.nl/api/auth*$important,network,stealth
+@@||carenzorgt.nl/auth/sessions*$important,network,stealth
 
 
