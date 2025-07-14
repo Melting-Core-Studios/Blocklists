@@ -1,9 +1,35 @@
 ! Title: [ MCS ] OEM Smartphone Tracking Blocklist
 ! Description: Blocks specific OEM tracking based on academic research
-! Version: V2.0.6601dg
+! Version: V2.0.6991tr
 ! Homepage: https://www.meltingcorestudios.com/
 ! License: CC BY-SA 4.0
 ! Author: Melting Core Studios
+
+! =============== ANTI BREAKAGE ===============
+@@||m.media-amazon.com^$important
+@@||images-eu.ssl-images-amazon.com^$important
+@@||images-na.ssl-images-amazon.com^$important
+@@||completion.amazon.nl^$important
+@@||www.amazon.nl^$important
+
+! JavaScript & CSS Libraries
+@@||cdn.jsdelivr.net^$important
+@@||cdnjs.cloudflare.com^$important
+@@||unpkg.com^$important
+@@||code.jquery.com^$important
+@@||maxcdn.bootstrapcdn.com^$important
+@@||stackpath.bootstrapcdn.com^$important
+
+! Google Services
+@@||ajax.googleapis.com^$important
+@@||fonts.googleapis.com^$important
+@@||fonts.gstatic.com^$important
+
+! Payment Services
+@@||js.stripe.com^$important
+@@||www.paypal.com^$important
+@@||checkout.stripe.com^$important
+
 
 ! =============== SAMSUNG SPECIFIC TRACKING (RESEARCH BASED) ===============
 ! Based on Trinity College Dublin research
