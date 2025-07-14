@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.69
+! Version: 1.70
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-07-14T12:29:48.304Z
+! Last modified: 2025-07-14T14:57:06.324Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -13,6 +13,7 @@ unian.net#?#div[style] > div.article-shares:upward(1)
 123telugu.com#$#.post-page-content { padding-bottom: 0 !important; }
 debate.com.mx#$#header { height: auto !important; }
 debate.com.mx#$#body { padding-top: 70px !important; }
+bestporn4free.com,camcam.cc###show-sharing-buttons
 rambler.ru##div[data-blocks="content_info"] + div[class^="container-"]
 rambler.ru#%#//scriptlet('remove-in-shadow-dom','div[data-blocks="content_info"] + div[class^="container-"]')
 vikna.tv##.section-share
@@ -4046,7 +4047,7 @@ booklive.jp##body .sns_section
 tbs.co.jp###share_space
 rallys.online##.comFixedUl
 reissuerecords.net##.single_body_sns
-bestporn4free.com,camcam.cc###show-sharing-buttons
+camcam.cc###show-sharing-buttons
 semnasem.org##.article__footer-column-social-share
 busan.com##.btns > li[onclick^="cosmosfarm_share_"][class]
 logmi.jp##hatena-bookmark-counter
