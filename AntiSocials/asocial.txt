@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.76
+! Version: 1.77
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-07-15T14:18:08.928Z
+! Last modified: 2025-07-15T23:16:49.508Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -21101,6 +21101,7 @@ urbia.de##.a-socialbar
 oberpfalzecho.de##.actions__button--share
 krone.at##.al__socials
 giga.de##.alice-push-channel
+db-stream.com##.anime-share
 pcgameshardware.de##.artSocialLinks
 finanznachrichten.de##.article--footer
 butenunbinnen.de##.article-addons
@@ -21190,6 +21191,7 @@ goldinvest.de##.uael-marketing-button
 dioezesanmuseum-rottenburg.de##.uncode-vc-social
 watson.ch##.watson-sharebuttons
 redensarten-index.de##[href="https://www.pinterest.de/redensartenindex/"]
+tagesspiegel.de##a[data-gtm-class="article-social-link"]
 handelsblatt.com##app-icon-link
 stol.it##div[class^="ModifyAndShareDetailArticle_"]
 zett.it##nav-social
@@ -21606,6 +21608,7 @@ cronacheancona.it##.sharing_icons_wrapper
 mediaset.it##.shr
 ilmeteo.net##.siguenos-reducido
 greenstyle.it##.single-post__social
+aresdifesa.it##.single56__share
 assopoker.com##.singlemeta
 finanzaonline.com,mediaset.it,teleborsa.it,tempostretto.it##.soc
 tuttotek.it##.soc-media-sharing
