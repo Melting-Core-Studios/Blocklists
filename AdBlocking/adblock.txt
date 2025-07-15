@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Block those ads
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.302
+! Version: 1.303
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-07-15T21:17:05.020Z
+! Last modified: 2025-07-15T22:18:20.504Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -8545,6 +8545,7 @@
 ||dqgtmenikcjbaf.xyz^
 ||dqhvhpderqbsg.online^
 ||dqmdfmswqp.com^
+||dqovxymuv.com^
 ||dqrqkthfjgvc.com^
 ||dr0.biz^
 ||dr22.biz^
@@ -8806,6 +8807,7 @@
 ||dvypar.com^
 ||dwalmcharley.shop^
 ||dwatervery.com^
+||dwavamtujydry.store^
 ||dwcvhyxusxeun.online^
 ||dweanmokpobd.com^
 ||dwellsew.com^
@@ -9046,6 +9048,7 @@
 ||editiontowritin.org^
 ||edlilu.com^
 ||ednewsbd.com^
+||ednfaugthrnuqs.xyz^
 ||edoumeph.com^
 ||edprivatedqualize.org^
 ||edpwikvvdmetv.store^
@@ -9219,6 +9222,7 @@
 ||ekctohqd.com^
 ||ekdllcgoehbht.store^
 ||ekdthfqecpmjp.click^
+||ekerududeyuqb.space^
 ||ekexwkwmu.com^
 ||ekgloczbsblg.com^
 ||ekmas.com^
@@ -13672,6 +13676,7 @@
 ||illestchines.com^
 ||illfatedspirit.pro^
 ||illicitdandily.cam^
+||illinformed-camp.pro^
 ||illinformed-imagination.com^
 ||illishrastus.com^
 ||illiterate-finance.com^
@@ -16666,6 +16671,7 @@
 ||lovescontactthemeetup.com^
 ||lovingassociate.com^
 ||lovingboulevard.com^
+||lovingdrop.pro^
 ||lovinghosethus.com^
 ||lovxpgatpwtao.com^
 ||lowdahhamhung.top^
@@ -29485,6 +29491,7 @@
 ||vwawakgqgvyvj.top^
 ||vwbbphonljgrr.website^
 ||vwfqfdkvj.com^
+||vwgowgvgloavw.top^
 ||vwjvkvlmyvvgl.top^
 ||vwmdzetaikxvc.site^
 ||vwpttkoh.xyz^
@@ -31485,6 +31492,7 @@
 ||zzqolojveoorj.top^
 ||zzqolojveoozq.top^
 ||zzqyniagpyt.com^
+||zzrazrorjakoz.top^
 ||zzrazrorjqbao.top^
 ||zzrazrorjqlqw.top^
 ||zztggqscmcyj.com^
@@ -34744,6 +34752,8 @@
 ||1991482557.rsc.cdn77.org^
 ||static.adconnect.vn^
 ||kernh41.com^
+||l.cdn-fileserver.com^
+||search-nowglobal.com^
 ||loader.motor-talk.de^
 ||loader.nyitvatartas24.hu^
 ||vungle.com^
@@ -35545,7 +35555,6 @@ Banner468x60
 @@||cdn.datatables.net^
 ||ntuplay.xyz^$badfilter
 ||totaladblock.com^$badfilter
-||suzihaza.com^$badfilter
 ||i.ibb.co^$badfilter
 /^https?:\/\/(.+?\.)?videogamesblogger\.com\/wp-content\/uploads\/.*[a-zA-Z0-9]{8,}\.*/$badfilter
 ||freeadultcomix.com^$badfilter
