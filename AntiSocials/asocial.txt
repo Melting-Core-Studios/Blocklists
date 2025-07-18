@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.86
+! Version: 1.87
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-07-18T01:18:28.860Z
+! Last modified: 2025-07-18T03:28:15.992Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -4760,7 +4760,6 @@ elpais.com##[id^="btn_share_otros_"]
 expres.online##.pull-right > div.social
 konhaber.com,belge.com.tr##.sosyalMedya
 hnonline.sk,wiadomoscikosmetyczne.pl,halowies.pl,tygodnik-rolniczy.pl,tsum.ru##.item__share
-millionacres.com##.container-fluid > div.row > div.soc-bg
 firstwefeast.com,careeraddict.com##.article-share-container
 phonemore.com##.share_content
 allacronyms.com##li[title="Share on Facebook"]
@@ -6026,6 +6025,7 @@ xgore.net,atn.ua,300gospodarka.pl,telekritika.ua##.tags-share-box
 kulturologia.ru,novate.ru##.postLikesBox
 chosun.com##.news_left_aside_sns > li > a[class^="share_"]
 tengrinews.kz,tw.nextapple.com,prtimes.jp,thepatriotjournal.com,techbang.com##.side-share
+ringtv.com,t24.com.tr,tproger.ru##.share-story
 video.az##.jw-sharing-dock-btn
 derstandard.at##.story-tool-socialshare-menu
 la7.it###shareholder
