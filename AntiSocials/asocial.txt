@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.93
+! Version: 1.94
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-07-18T15:18:21.900Z
+! Last modified: 2025-07-18T16:22:59.005Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -7341,6 +7341,7 @@ safezone.cc#?#.resourceBody-sidebar > div.resourceSidebarGroup:contains(Поде
 hdfilmcehennemi.*#?##sidebarNav > .card > .card-header > span:contains(/^Paylaş$/):upward(2)
 versiya.info#?#div[class="sidebar"]:has(> div#fb-root)
 newslaundry.com#?##container div[class] > ul[class] > li > a[href^="https://www.facebook.com/sharer.php"]:upward(2)
+winfuture.de##body > #topnewscontent ~ .teaser ~ .text:has(> div > a[class^="social_link_"])
 eadaily.com#?#.latest-block > div.side-announcement:has(> div#ok_group_widget)
 eadaily.com#?#.latest-block > div.side-announcement:has(> div#vk_groups)
 bookz.ru#?#.b_block > h2.h2caption:contains(Поделиться)
@@ -21678,6 +21679,7 @@ play.radionorba.it##share-view
 ||nursetimes.org/wp-content/uploads/2016/01/telegram-banner.png
 bizgate.nikkei.com##.c-single-sns
 blog.esuteru.com##.article-button-simple
+news.yahoo.co.jp##[class^="ArticleShare"]
 seikatsusha-ddm.com##.p-under-sns
 ||imyfone.com/assets/js/media_share/
 ||ministop.co.jp/site_common/js/sns_
