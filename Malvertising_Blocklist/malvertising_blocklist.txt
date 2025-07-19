@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Combined-Anti-Phishing
 ! Description: Blocklist compiled of all MCS tested and compiled lists.
-! Version: 1.113
+! Version: 1.114
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-07-19T05:20:33.081Z
+! Last modified: 2025-07-19T09:17:10.190Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -101927,3 +101927,4 @@
 ||kostumn1.ilabserver.com^
 ||tracker.club-os.com^
 ||pub-549d59daefd74f7583e1766800fe7b07.r2.dev^
+/^https:\/\/[a-z]{3,30}\.[a-z]{2,4}\/socket\.io\/socket\.io\.js$/$script,1p,strict1p,match-case,domain=ci|ge|eu|life,header=nel:/report_to":"cf-nel/
