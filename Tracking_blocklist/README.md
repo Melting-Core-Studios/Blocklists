@@ -4,7 +4,6 @@ Hello everyone. You're currently viewing the max combined list for privacy. This
 ### Credits
 Since this list uses freely available lists, and we want to provide full transparency, we want to list every contributer to this list of which we've automated the integration with our own research. All the credit go to these creators for their efforts in fighting for your right to privacy.
 
-- NextDNS: [github repo](Malvertising_Blocklist/README.md)
 - EasyList: [easyprivacy.txt](https://easylist.to/easylist/easyprivacy.txt)
 - AdGuard: [filter_11.txt](https://adguardteam.github.io/HostlistsRegistry/assets/filter_11.txt)
 - Badmojr: [domains.txt](https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/domains.txt)
