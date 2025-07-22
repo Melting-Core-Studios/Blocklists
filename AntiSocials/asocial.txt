@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.113
+! Version: 1.114
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-07-22T10:19:51.826Z
+! Last modified: 2025-07-22T11:16:19.347Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -13,6 +13,7 @@ unian.net#?#div[style] > div.article-shares:upward(1)
 123telugu.com#$#.post-page-content { padding-bottom: 0 !important; }
 debate.com.mx#$#header { height: auto !important; }
 debate.com.mx#$#body { padding-top: 70px !important; }
+vogue.com.cn,forms.yandex.ru,victoriassecret.com.tr,foodnavigator.com,abcnews.go.com,inn.co.il##.Share
 rambler.ru##div[data-blocks="content_info"] + div[class^="container-"]
 rambler.ru#%#//scriptlet('remove-in-shadow-dom','div[data-blocks="content_info"] + div[class^="container-"]')
 vikna.tv##.section-share
@@ -6412,7 +6413,7 @@ zeit.de##.sharing-menu
 srf.ch##.sharing-bar__container > a:not(.sharing-bar__button--comment)
 uludagsozluk.com##a[onclick^="ulu.paylas"]
 courrier.jp,makeup.com.ua,thisismoney.co.uk##.fb
-vogue.com.cn,forms.yandex.ru,victoriassecret.com.tr,foodnavigator.com,abcnews.go.com,inn.co.il##.Share
+vogue.com.cn,forms.yandex.*,victoriassecret.com.tr,foodnavigator.com,abcnews.go.com,inn.co.il##.Share
 moskvichmag.ru,ubisoft.com##.ArticleShare
 pastelink.net,hbr-russia.ru,mel.fm##.sharing-panel
 mel.fm##.survey-result__social-share
@@ -22435,6 +22436,7 @@ jobdetails.nestle.com#@#.socialbutton
 comicsands.com#@#.sticky-share
 40ton.net#@#.td-post-sharing-top
 tmstor.es#@#.top_social
+swingliteracy.com#@#.tve_social_items
 nothiefsallowed.com#@#.twitter-timeline
 google.com#@#SHARE-BUTTON
 geki-cine.jp,hypnosismic-anime.com,mamodan-plus.clony.co.jp,monsterhunternow.belugacpn.jp,ufret.jp#@#a[href^="https://twitter.com/intent/tweet?"]
