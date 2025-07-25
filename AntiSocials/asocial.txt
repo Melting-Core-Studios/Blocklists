@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.125
+! Version: 1.126
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-07-24T14:20:09.733Z
+! Last modified: 2025-07-25T03:28:07.819Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -5343,7 +5343,7 @@ hindustantimes.com##a[data-action="share/whatsapp/share"]
 johnnys-web.com,travel.willer.co.jp,kidd.co.kr##.sns-share-btn
 vc.ru,dtf.ru##.v-shares
 walkerplus.com##.m-article_share
-ankerjapan.com,signal.diamond.jp,walkerplus.com##.m-sns
+japanmetaldaily.com,ankerjapan.com,signal.diamond.jp,walkerplus.com##.m-sns
 moviewalker.jp,walkerplus.com##.bl_snsBar
 syri.net##.whatsapp-link
 theoryandpractice.ru##.distribution
@@ -8220,7 +8220,7 @@ designboom.com,livescience.com,pbtech.co.nz,peoplesworld.org,space.com##.fa-face
 ##.share-bar-desktop
 ~upi.com##.share-block
 ~bilibili.com,~airbnb.com,~ge.tt##.share-box
-~m.gsmarena.com,~bleacherreport.com,~thedodo.com##.share-buttons
+~out.com,~m.gsmarena.com,~bleacherreport.com,~thedodo.com##.share-buttons
 ##.share-cont
 ##.share-counter
 ##.share-general
