@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.216
+! Version: 1.217
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-07-28T01:26:13.797Z
+! Last modified: 2025-07-28T05:29:01.941Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -2538,6 +2538,7 @@
 ||analytics.yola.net^
 ||analytics.yolacdn.net^
 ||analytics.yollamedia.com^
+||analytics.yyggames.com^
 ||analytics.ziftsolutions.com^
 ||analyticsehnwe.servicebus.windows.net^
 ||analyticssec.overwolf.com^
@@ -46164,7 +46165,6 @@
 ||analytics.yoxo.ro^
 ||analytics.yten.com^
 ||analytics.yutomobi.com^
-||analytics.yyggames.com^
 ||analytics.zapps.me^
 ||analytics.zapps.vn^
 ||analytics.zatomac.vn^
