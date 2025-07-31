@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Begone Annoyances
 ! Description: A blocklist that will remove all annoyances from online browsing.
-! Version: 1.193
+! Version: 1.194
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-07-30T04:40:18.306Z
+! Last modified: 2025-07-31T04:39:02.310Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -131,6 +131,7 @@
 ||gardenovens.com^
 ||liftedknowledge.com^
 ||lunchroomlock.com^
+||marketspiders.com^
 ||materialisticmoon.com^
 ||meltmilk.com^
 ||merequartz.com^
@@ -145,7 +146,6 @@
 ||popplantation.com^
 ||possiblepencil.com^
 ||pricklypollution.com^
-||pristinegale.com^
 ||profusesupport.com^
 ||quixoticnebula.com^
 ||realizerecess.com^
@@ -162,7 +162,6 @@
 ||shapecomb.com^
 ||skillfuldrop.com^
 ||smoggysongs.com^
-||soresidewalk.com^
 ||spellsalsa.com^
 ||springolive.com^
 ||steadfastsystem.com^
@@ -183,6 +182,7 @@
 ||debonairtree.com^
 ||memorizematch.com^
 ||boatpaper.com^
+||neatbadger.com^
 ||canvasandsocks.com^
 ||thefishstops.com^
 ||themepicker.com^
@@ -348,6 +348,7 @@
 ||fuzzybasketball.com^
 ||honeybulb.com^
 ||coatfood.com^
+||burnbubble.com^
 ||aboardamusement.com^
 ||meremark.com^
 ||intelligentscissors.com^
@@ -461,7 +462,6 @@
 ||widgets.jobbio.com^
 ||t7z.cupid.iqiyi.com^$badfilter
 ||succeedscene.com^$badfilter
-@@||blubroid.de^
 ||widgets.*.webengage.com^
 -cookie-banner-
 -cookie-law.js
