@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.247
+! Version: 1.248
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-08-01T13:37:35.106Z
+! Last modified: 2025-08-01T16:23:10.878Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -233462,6 +233462,7 @@ dlsdk.appsflyer.com^
 ||accorhotels.com^
 ||accorhotels.ws^
 ||account.squadata.net^
+||accountable2you.com^
 ||accountinsight.cloud^
 ||accounts.tnet.nl^
 ||accurateshooter.net^
@@ -234494,6 +234495,7 @@ dlsdk.appsflyer.com^
 ||applemediaservices.com^
 ||application.com^
 ||applicationinsights.azure.com^
+||applicationinsights.io^
 ||applies.goldenbees.fr^
 ||applift.com^
 ||appmate.io^
@@ -238281,6 +238283,8 @@ dlsdk.appsflyer.com^
 ||faktor.mk^
 ||falundata.com^
 ||falundata.org^
+||family.microsoft.com^
+||familyorbit.com^
 ||familysafetyproduction.com^
 ||familysearch.org^
 ||familytreedna.com^
@@ -238402,6 +238406,7 @@ dlsdk.appsflyer.com^
 ||finding.hardwareheaven.com^
 ||findingsale.nl^
 ||findingsgallery.co.uk^
+||findmykids.app^
 ||findmykids.org^
 ||findnsave.idahostatesman.com^
 ||findresources4me.com^
@@ -238788,6 +238793,7 @@ dlsdk.appsflyer.com^
 ||geotrust.com^
 ||geover-prod.do.dsp.mp.microsoft.com^
 ||geover.prod.do.dsp.mp.microsoft.com^
+||geozilla.com^
 ||gerstobes.cc^
 ||geryi.com^
 ||gestmax.eu^
@@ -239965,6 +239971,7 @@ dlsdk.appsflyer.com^
 ||ipsllc-usa.info^
 ||ipsos-nederland.nl^
 ||ipsos-online.com^
+||ipsos-reporting.com^
 ||ipsos.com^
 ||ipsos.nl^
 ||ipsos.pl^
@@ -240263,6 +240270,7 @@ dlsdk.appsflyer.com^
 ||kbowebbncb.com^
 ||kcmsurvey.com^
 ||kcmsurvey.eu^
+||kdlparentalcontrol.com^
 ||keap-link006.com^
 ||keap.com^
 ||keep-rewards.life^
@@ -240302,8 +240310,13 @@ dlsdk.appsflyer.com^
 ||kickmobiles.com^
 ||kickofflabs.com^
 ||kicnse.com^
+||kid-control.com^
+||kid-control.ru^
+||kiddoware.com^
+||kidgy.com^
 ||kidoz.net^
 ||kidsenjongeren.nl^
+||kidslox.com^
 ||kieskeurig.nl^
 ||kieskompas.nl^
 ||kiirkasiino.ee^
@@ -240793,6 +240806,7 @@ dlsdk.appsflyer.com^
 ||locdrop.query.yahoo.com^
 ||locize.app^
 ||locize.io^
+||lockittight.com^
 ||locuslabs.com^
 ||loewen-play.de^
 ||loffertadeldia.it^
@@ -241298,6 +241312,7 @@ dlsdk.appsflyer.com^
 ||metric.gstatic.com^
 ||metrica.yandex.net^
 ||metricool.com^
+||metrics-collector.cloudability.com^
 ||metrics.dropwizard.io^
 ||metrics.groene.nl^
 ||metrics.mozilla.com^
@@ -241428,6 +241443,7 @@ dlsdk.appsflyer.com^
 ||mmcc.yxlady.com^
 ||mmcdn.nl^
 ||mmg.zone^
+||mmguardian.com^
 ||mmqs10.top^
 ||mnd-track-backend.herokuapp.com^
 ||mnemonic.ai^
@@ -241460,6 +241476,7 @@ dlsdk.appsflyer.com^
 ||mobilebet.de^
 ||mobiledissector.com^
 ||mobilee.com^
+||mobilefence.com^
 ||mobileleaves.com^
 ||mobilenations.com^
 ||mobilewalla.com^
@@ -241740,6 +241757,8 @@ dlsdk.appsflyer.com^
 ||netent.com^
 ||netflix-service.com^
 ||netko0o.com^
+||netnanny.com^
+||netprocesse.com^
 ||netqin.ps^
 ||netreviews.com^
 ||netspidermm.indiatimes.com^
@@ -242238,6 +242257,7 @@ dlsdk.appsflyer.com^
 ||origin-nvidia.tw^
 ||original-slots.de^
 ||original-wetten.de^
+||orjq.net^
 ||orthofyto.com^
 ||orthohealthfoundation.nl^
 ||orthokennis.nl^
@@ -242766,6 +242786,7 @@ dlsdk.appsflyer.com^
 ||pro.cn^
 ||pro.hoye.letv.com^
 ||pro.iweihai.cn^
+||probit.com^
 ||proctor.io^
 ||proctor360.com^
 ||proctoredu.com^
@@ -243045,6 +243066,7 @@ dlsdk.appsflyer.com^
 ||quota-reader.net^
 ||quoteslabs.net^
 ||quotientapp.com^
+||qustodio.com^
 ||quw18.com^
 ||quyaoya.com^
 ||qvidian.com^
@@ -243478,6 +243500,7 @@ dlsdk.appsflyer.com^
 ||safecrusade.com^
 ||safejournal.dk^
 ||safelinks.protection.outlook.com^
+||safenet.family^
 ||safeopt.com^
 ||saferwet.com^
 ||safetracing.infomaniak.com^
@@ -243583,6 +243606,7 @@ dlsdk.appsflyer.com^
 ||screencloud.auth0.com^
 ||screenondemand.de^
 ||screenrant.com^
+||screentimelabs.com^
 ||screpy.com^
 ||scribit.pro^
 ||script-bd.baixing.net^
@@ -243650,6 +243674,7 @@ dlsdk.appsflyer.com^
 ||seebug.org^
 ||seeding-alliance.de^
 ||seeger-seeger.li^
+||seekdroid.com^
 ||seen.hgo7r.cn^
 ||seenthis.co^
 ||seersco.com^
@@ -243983,6 +244008,7 @@ dlsdk.appsflyer.com^
 ||snapmobileasia.net^
 ||snapppt.com^
 ||snarf.evebox.org^
+||sng.link^
 ||snippets-prod.frankfurt.moz.works^
 ||snippets-prod.moz.works^
 ||snippets-stage.moz.works^
@@ -244327,6 +244353,7 @@ dlsdk.appsflyer.com^
 ||stats.gridsuite.net^
 ||stats.hey.com^
 ||stats.hosting24.com^
+||stats.ideanote.io^
 ||stats.it53.nl^
 ||stats.ivpn.net^
 ||stats.lineageos.org^
@@ -245015,6 +245042,7 @@ dlsdk.appsflyer.com^
 ||truepublish.de^
 ||truepush.com^
 ||truewebtechnolabs.com^
+||truple.io^
 ||trust-provider.com^
 ||trust.zone^
 ||trust23wallet.art^
@@ -245266,6 +245294,7 @@ dlsdk.appsflyer.com^
 ||useadify.com^
 ||useamp.com^
 ||useblackbox.io^
+||useboomerang.com^
 ||usebroca.com^
 ||usecag.apm.whirlpool.com^
 ||usecart.com^
@@ -245294,6 +245323,7 @@ dlsdk.appsflyer.com^
 ||usersnap.com^
 ||userway.org^
 ||ushaqi.com^
+||usibtheteam.com^
 ||usingde.com^
 ||ut76nb.sparkasse.at^
 ||utarget.co.uk^
@@ -245755,6 +245785,7 @@ dlsdk.appsflyer.com^
 ||wiredplus.com^
 ||wirelessdevicestats.googleapis.com^
 ||wiremo.co^
+||wisemo.com^
 ||wisepops.net^
 ||wishabi.net^
 ||wishpond.com^
@@ -246208,6 +246239,7 @@ dlsdk.appsflyer.com^
 ||znctrack.net^
 ||znsv.baidu.cn^
 ||zo66.com^
+||zoemob.com^
 ||zohocampaigns.com^
 ||zohoinsights1.eu^
 ||zoom121.site^
@@ -246247,7 +246279,6 @@ dlsdk.appsflyer.com^
 ||zzrcz.com^
 ||zzsx8.com^
 ||zzzjvqzkmqllb.top^
-||netprocesse.com^
 ||badv.wp.pl^
 ||emisjawidgeet.onet.pl^
 ||ads.edipresse.pl^
