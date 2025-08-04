@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.167
+! Version: 1.168
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-08-04T03:54:05.798Z
+! Last modified: 2025-08-04T04:55:01.633Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -13,17 +13,6 @@ unian.net#?#div[style] > div.article-shares:upward(1)
 123telugu.com#$#.post-page-content { padding-bottom: 0 !important; }
 debate.com.mx#$#header { height: auto !important; }
 debate.com.mx#$#body { padding-top: 70px !important; }
-nimbusweb.me##.blog-bottom-block
-nimbusweb.me##.blog-bottom-block + hr
-newscrab.com##.social-icon-share
-goo-net.com###top > .sns_block
-bandainamcoent.co.jp##.article__block--social.bottom
-nierautomata-anime.com##.p-share_in
-kino.1tv.ru##.eump-share-social-items
-tripoto.com##.margin-top-med[data-original-title="Share on Facebook"]
-britannica.com##.md-list-share
-beejournal.ru#?#.item-page > div[itemprop] > div.custom > div[style]:has(> div.ya-share2)
-natemat.pl#?##article-body > div:not(.art):has(> div > iframe.instagram-media)
 rambler.ru##div[data-blocks="content_info"] + div[class^="container-"]
 rambler.ru#%#//scriptlet('remove-in-shadow-dom','div[data-blocks="content_info"] + div[class^="container-"]')
 vikna.tv##.section-share
@@ -51,9 +40,6 @@ j-cast.com#?##entry-content > div.align-justify:has(> div.align-inner-box > div.
 gurugurulog.com#?#.content > nav.section-box > ul.article-button > li.article-twitter:upward(2)
 finance.rambler.ru#?#div[class^="container-"] > div[class^="container-"]:has(> amp-social-share)
 adguard.info,adguard.com,adguard.app#$#.hello_from_adguard_advanced_protection_ios { display: none !important; }
-##.social-widgets-in
-easypdf.com#$##social.modal { display: none !important; }
-goblin-online.ru##.bg_popup-social__wrap
 indianexpress.com##.social-icon
 unn.com.ua##body > div.fancybox-opened
 unn.com.ua##body > div.fancybox-opened + div.fancybox-overlay
