@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Begone Annoyances
 ! Description: A blocklist that will remove all annoyances from online browsing.
-! Version: 1.199
+! Version: 1.200
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-08-03T04:45:28.933Z
+! Last modified: 2025-08-04T03:54:03.057Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -49,6 +49,7 @@
 ||consent.wko.at^
 ||privacy.ene.si^
 ||gdpr-api.sharethis.com^
+||cookies.eo.nl^
 ||gdpr.api.bcdn.jp^
 ||consent.radiotimes.com^
 ||consent.a24films.com^
@@ -110,9 +111,10 @@
 ||celestialspectra.com^
 ||changeablecats.com^
 ||chessbranch.com^
+||clammychicken.com^
 ||cloisteredcurve.com^
 ||colossalcry.com^
-||combcompetition.com^
+||confesschairs.com^
 ||convertbatch.com^
 ||debonairdust.com^
 ||dramaticdirection.com^
@@ -121,6 +123,7 @@
 ||enigmaticcanyon.com^
 ||enormousearth.com^
 ||equablekettle.com^
+||exampleshake.com^
 ||fairfeeling.com^
 ||faucetfoot.com^
 ||fewjuice.com^
@@ -327,6 +330,7 @@
 ||sulkycook.com^
 ||colossalcoat.com^
 ||cutechin.com^
+||livelylaugh.com^
 ||selfishsnake.com^
 ||dockdigestion.com^
 ||stalesummer.com^
@@ -457,6 +461,7 @@
 ||script.marquiz.ru^
 ||toolbar.complex.com^
 ||widgets.jobbio.com^
+||combcompetition.com^
 ||t7z.cupid.iqiyi.com^$badfilter
 ||succeedscene.com^$badfilter
 ||widgets.*.webengage.com^
