@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Begone Annoyances
 ! Description: A blocklist that will remove all annoyances from online browsing.
-! Version: 1.208
+! Version: 1.209
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-08-09T04:26:31.230Z
+! Last modified: 2025-08-10T04:38:04.701Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -39,6 +39,7 @@
 ||mobile-data.onetrust.io^
 ||cmpworker.operationsports.com^
 ||cmp.dynamic.deka.de^
+||consent-manager.thenextweb.com^
 ||consent.bbcgoodfood.com^
 ||cmpv2.itworld.co.kr^
 ||cp.gutefrage.net^
@@ -159,7 +160,6 @@
 ||rollconnection.com^
 ||saltsacademy.com^
 ||scaredstomach.com^
-||shapecomb.com^
 ||skillfuldrop.com^
 ||smoggysongs.com^
 ||soothingglade.com^
@@ -196,7 +196,6 @@
 ||joyouspool.com^
 ||captivatingcanyon.com^
 ||bawdybalance.com^
-||bahamashello.com^
 ||ubiquitoussea.com^
 ||sandstrophies.com^
 ||orangebirdie.com^
@@ -293,7 +292,6 @@
 ||radiateprose.com^
 ||planebasin.com^
 ||truculentrate.com^
-||solarislabyrinth.com^
 ||engineertrick.com^
 ||aspiringapples.com^
 ||eventexistence.com^
@@ -597,7 +595,6 @@
 ||cmp.telerama.fr^
 ||cmp.uniconsent.com^
 ||cmpv2.pcworld.com^
-||consent-manager.thenextweb.com^
 ||consent.23g.io^
 ||consent.canalboat.co.uk^
 ||consent.cmp.oath.com^
