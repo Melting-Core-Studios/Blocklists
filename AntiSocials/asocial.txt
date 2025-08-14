@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.224
+! Version: 1.225
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-08-14T06:25:07.613Z
+! Last modified: 2025-08-14T07:18:41.368Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -19488,6 +19488,8 @@ loveandlemons.com###pinthispage
 jacobin.com###post-footer-share
 jacobin.com###post-header-share
 mediaite.com###post-social
+news.keckmedicine.org###ppmodule_shareus
+news.keckmedicine.org###ppmodule_socialmedia
 auburnpub.com,azdailysun.com,beatricedailysun.com,billingsgazette.com,bismarcktribune.com,chippewa.com,columbustelegram.com,cumberlink.com,dailyjournalonline.com,democratherald.com,elkodaily.com,fremonttribune.com,gazettetimes.com,globegazette.com,hanfordsentinel.com,helenair.com,herald-review.com,jg-tc.com,journalstar.com,journaltimes.com,lacrossetribune.com,lebanon-express.com,lompocrecord.com,magicvalley.com,missoulanews.com,missoulian.com,mtstandard.com,muscatinejournal.com,napavalleyregister.com,nwitimes.com,pantagraph.com,poststar.com,qconline.com,qctimes.com,rapidcityjournal.com,ravallirepublic.com,santamariatimes.com,siouxcityjournal.com,stltoday.com,tdn.com,thesouthern.com,thetandd.com,theworldlink.com,trib.com,tucson.com,wcfcourier.com,winonadailynews.com,wiscnews.com###reaction-wrap
 recipeland.com###rhs-pinbar
 redice.tv###s1
@@ -20059,7 +20061,7 @@ goodreturns.in##.gd-newsletter-subscribe-sharelinks
 just-food.com##.gdm-article-actions
 naval-technology.com,railway-technology.com,verdict.co.uk##.gdm-article-share
 otakuusamagazine.com##.geekmag-share-buttons
-techloy.com,thepickool.com,wionews.com##.gh-post-page__share
+techloy.com,thepickool.com,therage.co,wionews.com##.gh-post-page__share
 ghacks.net##.ghacks_share_widget
 avaaz.org##.global-footer-connect
 cars.com##.global-footer-social-buttons
