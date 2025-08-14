@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.313
+! Version: 1.314
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-08-14T10:20:09.067Z
+! Last modified: 2025-08-14T12:35:01.840Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -230641,6 +230641,9 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||analytics.qoqa.ch^
 ||analytics.qoqa.com^
 ||appsflyer-report.honkaiimpact3.com^
+||trackers.fubo.tv^
+||beacons-prod.fubo.tv^
+||events.fubo.tv^
 ||usdiagnosis.icocofun.com^
 ||eats-ads-event-capture.coupang.com^
 ||apm-fe.xiaohongshu.com^
@@ -232723,6 +232726,7 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||taplytics-umami.grubhub.com
 |c.blue.*.com^|
 ||faro-collector-prod-*.grafana.net^
+||*adapt-beacon.awsprodops.movetv.com^
 ||hn-ping*.hashnode.com^
 ||ana*.inews24.com^
 ||analytics.streamfab.
