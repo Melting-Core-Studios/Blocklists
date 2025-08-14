@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.319
+! Version: 1.320
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-08-14T19:15:50.501Z
+! Last modified: 2025-08-14T22:17:13.052Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -33641,6 +33641,7 @@
 ||driver.jugnoo.in^
 ||e.e.themighty.com^
 ||e.mail.levi.com^
+||e.shop.app^
 ||e.synchronybank.com^
 ||e.vcty.co^
 ||e035.pandasuite.io^
@@ -34184,6 +34185,7 @@
 ||go.rzr.to^
 ||go.saudiarabia.innovatedating.com^
 ||go.shokshak.com^
+||go.shop.app^
 ||go.shoppremiumoutlets.com^
 ||go.sirved.com^
 ||go.skippy.ai^
@@ -34215,6 +34217,7 @@
 ||go.teepik.com^
 ||go.tellusapp.com^
 ||go.test.mindfi.co^
+||go.test.shop.app^
 ||go.thai.innovatedating.com^
 ||go.tinder.com^
 ||go.topicit.net^
@@ -238327,7 +238330,6 @@ dlsdk.appsflyer.com^
 ||chat.alternate.nl^
 ||chat.covid19.go.id^
 ||chat.ind.nl^
-||chat.kindlycdn.com^
 ||chatango.com^
 ||chatback.nl^
 ||chatbase.co^
@@ -241071,6 +241073,7 @@ dlsdk.appsflyer.com^
 ||gatedcontent.com^
 ||gatekeeperconsent.com^
 ||gateway-sop.fpt.vn^
+||gateway.hobbii.com^
 ||gateways.s3.amazonaws.com^
 ||gavran.nl^
 ||gb.net^
@@ -242233,6 +242236,7 @@ dlsdk.appsflyer.com^
 ||integralads.com^
 ||integrate.io^
 ||integrations.etrusted.com^
+||integrations.gitbook.com^
 ||integry.io^
 ||intel.morningstar.co.uk^
 ||intellexa.com^
@@ -242672,6 +242676,8 @@ dlsdk.appsflyer.com^
 ||kikaloterij.nl^
 ||kimberlite.io^
 ||kinderattraktie.nl^
+||kindly.ai^
+||kindlycdn.com^
 ||kindredgroup.com^
 ||kinetic6.co.ke^
 ||kinetic6.com.au^
@@ -246187,7 +246193,6 @@ dlsdk.appsflyer.com^
 ||shop-adtm-assets.shpp.ext.zooplus.io^
 ||shop-links.co^
 ||shop.admin.yinyuetai.com^
-||shop.app^
 ||shop.pe^
 ||shop.yinyuetai.com^
 ||shop265.com^
@@ -247208,6 +247213,7 @@ dlsdk.appsflyer.com^
 ||timeboxter.store^
 ||timeshares.best^
 ||timetravelpromotion.com^
+||timplicity.com^
 ||timvanvlierden.nl^
 ||tindersparks.com^
 ||tinosmarble.com^
@@ -247529,6 +247535,7 @@ dlsdk.appsflyer.com^
 ||uczzd.net^
 ||udrwyjpwjfeg.com^
 ||ue.yeyoucdn.com^
+||ue1.adobe.io^
 ||ueadlian.com^
 ||uebawtz7.me^
 ||uerzyr.cn^
@@ -247643,6 +247650,7 @@ dlsdk.appsflyer.com^
 ||urs.microsoft.com^
 ||urs.zdnet.com^
 ||us-central1-report-uri-openathens.cloudfunctions.net^
+||us-central1-shopify-instrumentat-ff788286.cloudfunctions.net^
 ||us-central1-signal-data-science.cloudfunctions.net^
 ||us.bannyat.com^
 ||us01campaign.zoom.us^
@@ -248090,6 +248098,7 @@ dlsdk.appsflyer.com^
 ||widget.dd.com^
 ||widget.directory.dailycommercial.com^
 ||widget.getyourguide.com^
+||widget.kapa.ai^
 ||widget.kelkoo.com^
 ||widget.kominfo.go.id^
 ||widget.raaze.com^
@@ -248639,10 +248648,6 @@ dlsdk.appsflyer.com^
 ||zzrcz.com^
 ||zzsx8.com^
 ||zzzjvqzkmqllb.top^
-||timplicity.com^
-||widget.kapa.ai^
-||integrations.gitbook.com^
-||ue1.adobe.io^
 ||badv.wp.pl^
 ||emisjawidgeet.onet.pl^
 ||ads.edipresse.pl^
