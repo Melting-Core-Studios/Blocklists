@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.230
+! Version: 1.231
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-08-15T12:31:26.974Z
+! Last modified: 2025-08-15T13:28:50.712Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -22306,8 +22306,8 @@ upday.com##div[class^="ShareButton_"]
 autobild.es,businessinsider.es,computerhoy.com,hobbyconsolas.com,topgear.es##div[class^="share-bar_"]
 autobild.es,businessinsider.es,computerhoy.com,hobbyconsolas.com,topgear.es##div[class^="social-list_"]
 15min.lt##.share--sticky
-cosmopolitanturkiye.com,harpersbazaar.com.tr,samdan.com.tr##.gl-btn
-cosmopolitanturkiye.com,harpersbazaar.com.tr,samdan.com.tr##.gl-likes
+harpersbazaar.com.tr,samdan.com.tr##.gl-btn
+harpersbazaar.com.tr,samdan.com.tr##.gl-likes
 haberler.com##.googleNews
 diyanet.tv##.lobibox-notify-wrapper
 diyanet.tv##.navbar-sosyal
