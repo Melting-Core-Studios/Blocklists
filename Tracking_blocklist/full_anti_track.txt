@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.325
+! Version: 1.326
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-08-15T13:30:12.140Z
+! Last modified: 2025-08-15T14:17:43.152Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -29,6 +29,7 @@
 ://insights-collector.
 ://internal-matomo.
 ://metrics-collector.
+://rum.collector.
 ://segment-api.
 ://segment-cdn.
 ://t.targito.
@@ -2395,6 +2396,7 @@
 ||analytic.rollout.io^
 ||analyticcdn.globalmailer.com^
 ||analyticcdn.wlmediahub.com^
+||analytics-api.gemcommerce.com^
 ||analytics-api.klickly.com^
 ||analytics-cms.whitebeard.me^
 ||analytics-consent-manager-v2-prod.azureedge.net^
@@ -45213,7 +45215,6 @@
 ||analytics-alv.google.com^
 ||analytics-api-s.cloudinary.com^
 ||analytics-api.dvdfab.cn^
-||analytics-api.gemcommerce.com^
 ||analytics-api.smzdm.com^
 ||analytics-api.statvoo.com^
 ||analytics-api.vanceai.com^
