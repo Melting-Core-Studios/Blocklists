@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.323
+! Version: 1.324
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-08-15T08:23:33.889Z
+! Last modified: 2025-08-15T12:32:52.343Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -3397,7 +3397,6 @@
 ||events.sk.ht^
 ||ip7prksb2muxvmmh25t6rxl2te0tfulc.lambda-url.eu-west-1.on.aws^
 ||nws.naltis.com^
-||offer.slgnt.eu^
 ||osd.oxygem.it^
 ||rs.smc.tf^
 ||stats-dc1.frz.io^
@@ -69613,7 +69612,6 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||mobile-ws.apprissmobile.com^
 ||mobile.confsettings.com^
 ||mobile.pipe.aria.microsoft.com^
-||mobile.slgnt.eu^
 ||mobilead.kuwo.cn^
 ||mobileadexchange.net^
 ||mobileads.indiatimes.com^
@@ -79617,7 +79615,6 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||sisfulylydevelope.com^
 ||sislog.es^
 ||sisteraboveaddition.com^
-||site-azp.slgnt.eu^
 ||site-config.com^
 ||site-maps.cc^
 ||site.answers.com^
@@ -197940,6 +197937,8 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||popunhot1.blogspot.com^
 ||re-direct.pl^
 ||t.co^
+||slgnt.eu^
+||slgnt.us^
 ||stape.ac^
 ||sdk-log.airbridge.io^
 ||trk.analytics.wisetracker.co.kr^
