@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.242
+! Version: 1.243
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-08-18T08:24:08.113Z
+! Last modified: 2025-08-18T11:15:34.271Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -13,6 +13,8 @@ unian.net#?#div[style] > div.article-shares:upward(1)
 123telugu.com#$#.post-page-content { padding-bottom: 0 !important; }
 debate.com.mx#$#header { height: auto !important; }
 debate.com.mx#$#body { padding-top: 70px !important; }
+serien.*,serienstream.to,s.to##.beSocialShare
+serien.*,serienstream.to,s.to##.ssto-share-buttons
 rambler.ru##div[data-blocks="content_info"] + div[class^="container-"]
 rambler.ru#%#//scriptlet('remove-in-shadow-dom','div[data-blocks="content_info"] + div[class^="container-"]')
 vikna.tv##.section-share
@@ -5265,8 +5267,8 @@ delfi.lt,delfi.ee##.C-article-social
 hrej.cz##.un-chip-group > a[data-share-type]
 suntory.co.jp,keizai.biz,hamakei.com,akiba.keizai.biz,freeserial.cmoa.jp,shiki.jp,goobike.com,ozmall.co.jp,beauty.hotpepper.jp,ktn.co.jp,hominis.media,kikubon.jp,shibukei.com##.snsArea
 ogolosha.ua##.gallery-icon-box__share
-serien.*,serienstream.to,s.to##.beSocialShare
-serien.*,serienstream.to,s.to##.ssto-share-buttons
+186.2.175.5,serien.*,serienstream.to,s.to##.beSocialShare
+186.2.175.5,serien.*,serienstream.to,s.to##.ssto-share-buttons
 mobilenet.cz##.detailButtons > a.btn--facebook
 sports.ru##.b-social-buttons-new
 scribd.com##.sharing_btn
