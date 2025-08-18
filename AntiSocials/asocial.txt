@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.243
+! Version: 1.244
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-08-18T11:15:34.271Z
+! Last modified: 2025-08-18T12:33:46.134Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -13,8 +13,6 @@ unian.net#?#div[style] > div.article-shares:upward(1)
 123telugu.com#$#.post-page-content { padding-bottom: 0 !important; }
 debate.com.mx#$#header { height: auto !important; }
 debate.com.mx#$#body { padding-top: 70px !important; }
-serien.*,serienstream.to,s.to##.beSocialShare
-serien.*,serienstream.to,s.to##.ssto-share-buttons
 rambler.ru##div[data-blocks="content_info"] + div[class^="container-"]
 rambler.ru#%#//scriptlet('remove-in-shadow-dom','div[data-blocks="content_info"] + div[class^="container-"]')
 vikna.tv##.section-share
@@ -6774,7 +6772,7 @@ kitguru.net##.widget_FacebookLikeBox
 shayhowe.com##.toc > .share
 infoworld.com,tutsplus.com##.social-share-menu
 ukraina.ru,ria.ru##.b-sharebar
-avex.jp,softonic.cn,softonic.com,softonic.pl,softonic.nl##.list-share
+tsk-net.com,avex.jp,softonic.cn,softonic.com,softonic.pl,softonic.nl##.list-share
 wired.com##.social-icons__list-item--facebook
 wired.com##.social-icons__list-item--twitter
 trickscrunch.com,tricksnation.com,themeslide.com##.mts-cl-overlap-box
