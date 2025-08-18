@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.244
+! Version: 1.245
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-08-18T12:33:46.134Z
+! Last modified: 2025-08-18T14:18:21.089Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -367,6 +367,7 @@ esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israel
 esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israelnationalnews.com,lifehacker.com,cgmagonline.com,gizmodo.com,gamerevolution.com,metro.co.uk,thurrott.com,stereogum.com,ign.com,newsweek.com,dailymail.co.uk,comingsoon.net,timesofisrael.com,nypost.com,9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,electrek.co#%#//scriptlet('remove-in-shadow-dom', 'div[data-spot-im-class="vote-links"] + span[class$="index__dot"]')
 2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com##.comment__share > *
 antirez.com,comicbook.com,alexp.pl,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com###thread-share-bar
+architecture-weekly.com#?#h4 ~ div[class] button[type="button"]:has(> div[class] > div[class]:contains(/^More$/))
 ilfattoquotidiano.it##.fqm-share-end
 ilfattoquotidiano.it##.ifq-news-meta__share
 dogrulukpayi.com##.sticky-share-menu
@@ -992,7 +993,7 @@ bahianoticias.com.br#?#div[class]:has(> h2:contains(/^Compartilhar$/))
 gauchazh.clicrbs.com.br##button:has(> svg > path[d^="M236.24,"])
 music.yandex.ru##.d-share-popup
 substack.com##.share-dialog a.pencraft[id^="trigger"][aria-label="View more"]
-substack.com#?#.pencraft:has(> div[class*="font-text-"]:contains(/Facebook|Bluesky|LinkedIn|Reddit|Pinterest|Hacker News|X \(Twitter\)|Share to X/))
+architecture-weekly.com,substack.com#?#.pencraft:has(> div[class*="font-text-"]:contains(/Facebook|Bluesky|LinkedIn|Reddit|Pinterest|Hacker News|X \(Twitter\)|Share to X/))
 lesfrontaliers.lu##.sticky-share
 record.com.mx##.post-social-icons
 b17.ru##span[title="Поделиться"]
@@ -4418,7 +4419,7 @@ s.gamespark.jp,s.resemom.jp,s.inside-games.jp##.arti-share
 colopl.co.jp###sec_twitter
 wired.com,vanityfair.com##.social-icons__list-item--email
 wacul-ai.com###content__sns
-dechisoku.com,gekiyaku.com,barulab.blog.fc2.com###social_box
+gekiyaku.com,barulab.blog.fc2.com###social_box
 collesiru.jp,store.wacoal.jp,pokemonsleep.net,hikaku.com,pixiin.com,kurokaminootome.com,oreyubi.cf-anime.com,crank-in.net,belluna.jp,biz-journal.jp,colopl.co.jp,barulab.blog.fc2.com###sns
 pachinko-max.com,g-journal.jp,biz-journal.jp###vertical_sns
 mdn.co.jp##.secShareSns
@@ -4851,7 +4852,7 @@ allacronyms.com##li[title="Share on Facebook"]
 ltn.com.tw##a[class^="share"]
 ||cache.ltn.com.tw/js/c.js
 sadeempc.com##.sidebar-content > #text-3
-texal.jp,techdim.com,coolztricks.com,janefriedman.com##.wplogout-social-wrapper
+techdim.com,coolztricks.com,janefriedman.com##.wplogout-social-wrapper
 einrichtungsbeispiele.de###socialSharingSpace
 tip-berlin.de##.share-buttons__toggle
 livehindustan.com##.artcl-shre
