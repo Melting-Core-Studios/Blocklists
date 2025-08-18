@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.240
+! Version: 1.241
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-08-18T06:27:41.264Z
+! Last modified: 2025-08-18T07:20:58.497Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -5260,7 +5260,7 @@ dpchas.com.ua##.social-sharing-buttons__button
 novosti.dn.ua##.social > li[data-count]
 delfi.lt,delfi.ee##.C-article-social
 hrej.cz##.un-chip-group > a[data-share-type]
-keizai.biz,hamakei.com,akiba.keizai.biz,freeserial.cmoa.jp,shiki.jp,goobike.com,ozmall.co.jp,beauty.hotpepper.jp,ktn.co.jp,hominis.media,kikubon.jp,shibukei.com##.snsArea
+suntory.co.jp,keizai.biz,hamakei.com,akiba.keizai.biz,freeserial.cmoa.jp,shiki.jp,goobike.com,ozmall.co.jp,beauty.hotpepper.jp,ktn.co.jp,hominis.media,kikubon.jp,shibukei.com##.snsArea
 ogolosha.ua##.gallery-icon-box__share
 serien.*,serienstream.to,s.to##.beSocialShare
 serien.*,serienstream.to,s.to##.ssto-share-buttons
