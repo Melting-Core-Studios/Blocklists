@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.345
+! Version: 1.346
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-08-19T03:10:02.887Z
+! Last modified: 2025-08-19T05:18:00.744Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -1325,6 +1325,7 @@
 ||j93557g.com^
 ||jaderooster.com^
 ||jailbulb.com^
+||jamexport.com^
 ||jazzstadium.com^
 ||jazzwholesale.com^
 ||jetskiscovers.com^
@@ -3863,6 +3864,7 @@
 ||anon-stats.eff.org^
 ||api-hotmart-tracking-manager.hotmart.com^
 ||appanalysis.banggood.com^
+||aptoide-mmp.aptoide.com^
 ||asanalytics.booking.com^
 ||ats.alot.com^
 ||aurum.tirto.id^
