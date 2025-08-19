@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.344
+! Version: 1.345
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-08-18T18:25:16.960Z
+! Last modified: 2025-08-19T03:10:02.887Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -37338,6 +37338,7 @@
 ||logsbin.dantri.com.vn^
 ||pixel.coccoc.com^
 ||track-srv.vietnamnet.vn^
+@@||stats.britishbaseball.org.uk^
 @@||cbsi.map.fastly.net^
 @@||content.ingbank.pl^
 @@||wwwimage-tve.cbsstatic.com^
@@ -37345,7 +37346,6 @@
 ||0be7953b6183453bc6ba182bf6b8ba79.loophole.site^
 ||0daydreams.net^
 ||1-engineer.ru^
-||1.tattlererun.life^
 ||1005.filemail.com^
 ||1008.filemail.com^
 ||10086623.top^
@@ -37430,7 +37430,6 @@
 ||8d47114af5f3c9c1051f4c599218bda3.loophole.site^
 ||8db3b91a-ea93-419b-b51b-0a69902759c5.usrfiles.com^
 ||8slions.picklescoop.com^
-||8t.tattlererun.life^
 ||90001.lovestoblog.com^
 ||90001a.lovestoblog.com^
 ||900southwashington.com^
@@ -37519,7 +37518,6 @@
 ||adobehelp.net^
 ||adrianfrieg.com^
 ||advansys.com.ar^
-||adver.com.br^
 ||advustech.com^
 ||aestheticbalance.bg^
 ||af252586-b8bc-483a-8746-8f15528289b9.random.patria.duckdns.org^
@@ -37529,7 +37527,6 @@
 ||agenciacrabli.com^
 ||agricultural-brooks-nevertheless-hawk.trycloudflare.com^
 ||ahbwh1325asdw.shop^
-||airlife.bget.ru^
 ||ajczgt.ignorelist.com^
 ||akacostanyaszarvas.hu^
 ||akrapo7.github.io^
@@ -37543,6 +37540,7 @@
 ||alina-quintana.com^
 ||allendostmen.com^
 ||allfile.ink^
+||alliedmso.com^
 ||almawadatours.com^
 ||almehluz.com^
 ||ambankpay.com^
@@ -37562,7 +37560,6 @@
 ||apexservices.duckdns.org^
 ||api.centinyxlivetagfile.com^
 ||api.chanlevip.site^
-||api.co-operativefinance.com^
 ||api.ewfiles.net^
 ||api.hostize.com^
 ||api.kernaltpoiceplaned.com^
@@ -37657,6 +37654,7 @@
 ||bedoueroom.top^
 ||beecz.cafe^
 ||bendahacokseviyorum.com^
+||benshamcentre.co.uk^
 ||best.obs.cn-sz1.ctyun.cn^
 ||bestieslos.com^
 ||bestproductreviews.xyz^
@@ -37691,12 +37689,14 @@
 ||bmidrive.pro^
 ||boatn1941.ddns.net^
 ||body.alwaysdata.net^
+||bodypopo.darrenofficial.com^
 ||boisterous-travesseiro-aff021.netlify.app^
 ||bokneeg.com^
 ||bokneg.com^
 ||bold-accepts-wide-te.trycloudflare.com^
 ||bon.organzoperate.com^
 ||book.organzoperate.com^
+||book.rollingvideogames.com^
 ||bookneg.com^
 ||bookvrff.com^
 ||bookvrfsrv.com^
@@ -37768,6 +37768,7 @@
 ||catbaparadisehotel.com.vn^
 ||categories-figure.gl.at.ply.gg^
 ||cc9.ne.jp^
+||ccilogistica.com.br^
 ||cculturel.com^
 ||cdaonline.com.ar^
 ||cdb43e7e-794e-414b-a487-fd4a7eaf86ee.usrfiles.com^
@@ -37800,7 +37801,6 @@
 ||checksmart.site^
 ||chenwangqiao.com^
 ||chinaapper.com^
-||chinesegarden.com.tr^
 ||chrome-update.pro^
 ||chrome-upgrade.com^
 ||churchinmanila.org^
@@ -37809,7 +37809,6 @@
 ||city.organzoperate.com^
 ||class1004.dothome.co.kr^
 ||classroomseven.com^
-||clearsoundclinic.com^
 ||clickcease.biz^
 ||clientes.sangrecreativa.com^
 ||cliffg.me^
@@ -37905,7 +37904,6 @@
 ||daylightlamps.co.nz^
 ||daytona.lovestoblog.com^
 ||dayzcheatcheck.online^
-||db3b91a-ea93-419b-b51b-0a69902759c5.usrfiles.com^
 ||dbestgroup.infy.uk^
 ||dcabril.duckdns.org^
 ||dck.pistolsbeige.com^
@@ -38047,6 +38045,7 @@
 ||desk-app-now.com^
 ||desxc.s3.us-east-2.amazonaws.com^
 ||dev.southsideblackancestry.com^
+||device.redirec.com^
 ||dezcom.com^
 ||dezino.ir^
 ||dffd520sst.shop^
@@ -38268,22 +38267,17 @@
 ||h4.deforestmortality.top^
 ||h4.disbeliefpapaya.top^
 ||h4.donateddealing.top^
-||h4.fringezipping.bet^
-||h4.groutlandlady.top^
 ||h4.hateimplant.top^
 ||h4.obstinateenticing.lat^
 ||h4.possumdefense.digital^
 ||h4.postcard-upscale.shop^
 ||h4.renewed-landline.top^
 ||h4.residue-player.world^
-||h4.ripcordbuffalo.run^
 ||h4.stumblinggalley.top^
 ||h4.subfloorpurgatory.life^
 ||h4.sublimeravage.shop^
-||h4.tattlererun.life^
 ||h4.wiryexclusion.top^
 ||hacbishop.kernaltpoiceplaned.com^
-||haeum.nfile.net^
 ||hampsteadresidences.com^
 ||hamster-exchange.top^
 ||hasalltalent.com^
@@ -38293,7 +38287,6 @@
 ||heliotide.mypi.co^
 ||help.costariga.de^
 ||helpfullyk.click^
-||higreens.co.in^
 ||hihi.trumdvfb.com^
 ||historylab.infy.uk^
 ||hitman-pro.ru^
@@ -38365,6 +38358,7 @@
 ||isthecapital.com^
 ||itcomsrv.kz^
 ||itssprout.com^
+||izocab.com^
 ||izogard.com^
 ||izumi-sv.f5.si^
 ||j-bookmarks-annie-possess.trycloudflare.com^
@@ -38553,6 +38547,7 @@
 ||mizunoaoi.com^
 ||mncxzswedf.lovestoblog.com^
 ||modernitgen.com^
+||moe.livesync.hyghbyte.com^
 ||mogilux.com.br^
 ||mogimall.com^
 ||mompougaere.elementfx.com^
@@ -38619,6 +38614,7 @@
 ||nexuss.international^
 ||nhatheptienchebinhduong.com^
 ||nicoletapedestru.co.uk^
+||nigga.dstat.cfd^
 ||nigger.comslut.xyz^
 ||nimbusvaults.com^
 ||nitrofeatures.app^
@@ -38781,6 +38777,7 @@
 ||proprtrmsvstr.world^
 ||prtsscr.com^
 ||psyyhalogiya2024.com^
+||ptc.wa.com.pk^
 ||ptcl.site^
 ||ptgut.co.id^
 ||pub-0478b308b8cf46709a73d0eed5afd633.r2.dev^
@@ -38856,10 +38853,13 @@
 ||rtb.my.id^
 ||rtost.duckdns.org^
 ||rubick.ai^
+||runds.duckdns.org^
 ||rush-poetry-stations-disciplinary.trycloudflare.com^
 ||rwvyt.com.br^
 ||rxquickpay.com^
 ||s3o-cnc.ddns.net^
+||s3ov8.ddns.net^
+||s3ov838.ddns.net^
 ||sablayan.seasonshotelmindoro.com^
 ||saf-oil.ru^
 ||safe.kernaltpoiceplaned.com^
@@ -38881,6 +38881,7 @@
 ||sbd.hoangmaidong.com^
 ||sbsbiz.com.my^
 ||scan-echo.online^
+||scanwellhaulage.com^
 ||schedule-pci.gl.at.ply.gg^
 ||schenckel.com.br^
 ||schetcik.online^
@@ -38931,6 +38932,7 @@
 ||sg123.net^
 ||sgsmtp12.sgcloudhosting.com^
 ||sharefilesonline.net^
+||sharegolem.com^
 ||sharenvpn.net^
 ||shein-commande.com^
 ||shein-info-fr.com^
@@ -38960,6 +38962,7 @@
 ||smtp.nota-fiscal.email^
 ||smtp.southsideblackancestry.com^
 ||smtp261.storeroom-headgear.com^
+||snoopdogweed.n0rv3m.xyz^
 ||snoopdogweedhitler.comslut.xyz^
 ||snow-fish-425904.hostingersite.com^
 ||snowsro.com^
@@ -38974,14 +38977,12 @@
 ||softdl2.360tpcdn.com^
 ||solsniper.eu^
 ||solutelco.com^
-||somahuertos.com^
 ||sontungcoffee.com^
 ||sony-verified.com^
 ||sos-atlanta.com^
 ||sovetskiy228.github.io^
 ||spaceframe.mobi.space-frame.co.za^
 ||sphd-ci.com^
-||spoar.org.in^
 ||spost.vip^
 ||spst.hqup.in^
 ||squarefilein.com^
@@ -38997,11 +38998,13 @@
 ||static.3001.net^
 ||static.ilclock.com^
 ||static.topxgun.com^
+||static.zongheng.com^
 ||staticfile-6eec8.wasmer.app^
 ||staticfile-71e3d.wasmer.app^
 ||stattcheck-intuiit.com^
 ||statuesque-praline-1be80d.netlify.app^
 ||stdown.dinju.com^
+||stealer.cy^
 ||stellar-gumption-ea9fd6.netlify.app^
 ||stellular-naiad-e3ac09.netlify.app^
 ||sterlingpropertygroup.com.au^
@@ -39016,7 +39019,6 @@
 ||streamfast.sbs^
 ||streammobs.com^
 ||stud.clanweb.eu^
-||studio.clanweb.eu^
 ||studio.maweb.eu^
 ||study-leasing.gl.at.ply.gg^
 ||sumitbiotech.in^
@@ -39115,6 +39117,7 @@
 ||toolsswift.com^
 ||top1miku.duckdns.org^
 ||toroking.xyz^
+||totalpropertycare.ae^
 ||tqidskreen.top^
 ||trabajo2025.lovestoblog.com^
 ||trace467.com^
@@ -39235,7 +39238,6 @@
 ||wallet-sollare.com^
 ||warpdrive.top^
 ||was-logistics.com^
-||waterstead.s3.ap-east-1.amazonaws.com^
 ||wavecarried.vietnamddns.com^
 ||web-arc.netlify.app^
 ||web-sanpaolo.dubya.info^
@@ -39243,7 +39245,6 @@
 ||webhook.southsideblackancestry.com^
 ||website.mypetapp.co.za^
 ||websitedesigningindia.biz^
-||weddingphotomenu.com^
 ||welcometimes.info^
 ||wendystream.com^
 ||wenwillstdu.com^
@@ -39364,7 +39365,6 @@
 ||zammler.com.kz^
 ||zap.plugmax.app^
 ||zapataplast.com.ar^
-||zapchast-gazkotel.ru^
 ||zapinformatica.net.br^
 ||zarurt.com^
 ||zaydacortez.com^
@@ -39396,6 +39396,7 @@
 ||zihniozdil.info^
 ||zion-wealth.com^
 ||ziriesgranada.com^
+||zistpolymer.com^
 ||zivalife.com.br^
 ||zlatsad47.ru^
 ||zloiy.com^
@@ -197541,16 +197542,15 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||5-bkywlqbncj6bgnx7.izumisv1.cc^
 ||6kd743o1w.com^
 ||accesspoint.cc^
+||api.co-operativefinance.com^
 ||autoiwc.ru^
-||book.rollingvideogames.com^
 ||carbonrebate-gov.com^
-||ccilogistica.com.br^
+||chinesegarden.com.tr^
 ||chuguadventures.co.tz^
 ||dangtienluc.com^
 ||daralquwa.com^
 ||daviddarle.fr^
 ||detail-booking.com.br^
-||device.redirec.com^
 ||dgsf.cat^
 ||dhnconstrucciones.com.ar^
 ||divametalart.com^
@@ -197585,16 +197585,14 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||safeguarddelusion.life^
 ||scainseto.com.br^
 ||shaderm.com^
-||sharegolem.com^
 ||skynetx.com.br^
-||stealer.cy^
+||spoar.org.in^
 ||tecunonline.com^
 ||vipcncnetwork.com^
 ||vpn.silk-gen.com^
 ||windatem.com^
 ||www.amranhvac.com^
 ||www.aqianniao.com^
-||www.benshamcentre.co.uk^
 ||z977oq4e.com^
 ||zinergnave.com^
 ||180hits.de^
