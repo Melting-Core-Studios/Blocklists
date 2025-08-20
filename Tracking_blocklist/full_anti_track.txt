@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.356
+! Version: 1.357
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-08-20T10:19:03.087Z
+! Last modified: 2025-08-20T11:15:57.541Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -237711,6 +237711,65 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||target.myparliament.com^
 ||target.vr-bankenportal.de^
 ||watv.gogoinflight.com^
+||amtvgfz.veneera.de^
+||bpftoyh.chamelo.com^
+||bzljqlx.elietahari.com^
+||cdskjrg.giliarto.com^
+||cpsmbor.ensorings.com^
+||czirtyk.sugarmesmooth.com^
+||edczrfj.veneera.com^
+||gofqpma.kimkimblehair.com^
+||gslclvw.lackorecouture.com^
+||hnvrprl.getmainelobster.com^
+||lumhdco.mykitsch.com^
+||msnpurf.themjewelersny.com^
+||pmpbzjp.everydaydose.com^
+||qqguqdw.veneera.nl^
+||rmxmtsg.wowe.me^
+||rulrdow.solawave.co^
+||rwlywoe.keepnaturewild.com^
+||tzfgzgo.quickservicepanama.com^
+||ucscaik.gardencup.com^
+||ujyloty.kingofchristmas.com^
+||untrhhc.veneera.co.uk^
+||uqnnvhk.ericjavits.com^
+||wioaavu.enkay.com^
+||wpdlphr.khoj.city^
+||xjoipse.vivarawpets.com^
+||zzmknba.maupets.com^
+||a.uwhealth.org^
+||analysis.sozialversicherung.at^
+||analytics.akvo.org^
+||analytics.dx.ohio.gov^
+||analytics.effectory.com^
+||analytics.ferrero.com^
+||dap.amsterdam.nl^
+||fpt.fjordtravel.no^
+||gmn.gloo.com^
+||logfiles.storck.com^
+||mphdd.multipharma.be^
+||p-pan.triodos.com^
+||p.zwilling.com^
+||piwik.slotsparadise.com^
+||piwik.twyzle.com^
+||piwik.vegasaces.com^
+||piwikpro.vodafone.com^
+||polpharmaanalytics.pl^
+||ptm.wuerth.de^
+||purple.fitchconnect.com^
+||pwk.tweedekamer.nl^
+||site-analytics.iop.ohio.gov^
+||statistics.ind.nl^
+||statistiek.rechtspraak.nl^
+||statistiek.rvo.nl^
+||statistieken.ns-epublisher.com^
+||stats.dealerspike.com^
+||stats.manz.at^
+||tag2.uwv.nl^
+||wa.mybookie.ag^
+||wa.xbet.ag^
+||webanalytics.helen.fi^
+||www.webanalytics.europa.eu^
 ||https-filtering-check.adtidy.org^
 ||ecommerce-events*.adscale.com^
 ||install*.zonastat.com^
@@ -239973,7 +240032,6 @@ dlsdk.appsflyer.com^
 ||analitik.edevlet.gov.tr^
 ||analyser.de^
 ||analysis.fiscloudservices.com^
-||analysis.sozialversicherung.at^
 ||analysis.windows.net^
 ||analytic.com^
 ||analytics-acc.cjib.nl^
@@ -242994,7 +243052,6 @@ dlsdk.appsflyer.com^
 ||dante2007.com^
 ||danzz.ch^
 ||daofile.com^
-||dap.amsterdam.nl^
 ||dapp-radar.info^
 ||dapresy.com^
 ||daraz.com^
@@ -248065,7 +248122,6 @@ dlsdk.appsflyer.com^
 ||ozoneproject.com^
 ||ozto.com^
 ||p-cdn.us^
-||p-pan.triodos.com^
 ||p.7060.la^
 ||p.befrank.nl^
 ||p.ecwan77.net^
@@ -248706,7 +248762,6 @@ dlsdk.appsflyer.com^
 ||pvcy.me^
 ||pwa001.belastingdienst.nl^
 ||pwj.biqugezw.com^
-||pwk.tweedekamer.nl^
 ||pwwwapi.kbs.co.kr^
 ||px-cdn.net^
 ||px-cloud.net^
@@ -250078,12 +250133,9 @@ dlsdk.appsflyer.com^
 ||staticxx.facebook.com^
 ||statik-us.info^
 ||statistics.gem2go.page^
-||statistics.ind.nl^
 ||statistics.library.dmu.ac.uk^
 ||statisticsv2.yinyuetai.com^
 ||statistiek.digid.nl^
-||statistiek.rechtspraak.nl^
-||statistiek.rvo.nl^
 ||statistieken.coa.nl^
 ||statistieken.groenlinks.nl^
 ||statistieken.pharmeon.nl^
@@ -250372,7 +250424,6 @@ dlsdk.appsflyer.com^
 ||tag.uwv.nl^
 ||tag.wetransfer.com^
 ||tag.youfone.nl^
-||tag2.uwv.nl^
 ||tagdiv.com^
 ||tagembed.com^
 ||tagging.wetransfer.com^
