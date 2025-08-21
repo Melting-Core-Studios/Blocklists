@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.365
+! Version: 1.366
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-08-21T15:19:14.981Z
+! Last modified: 2025-08-21T16:29:34.040Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -81917,7 +81917,6 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||stat.yellowtracker.com^
 ||stat.zuimeitianqi.com^
 ||stat1.clickfraud.ru^
-||stat2.openinstall.io^
 ||statad.ru^
 ||statbest.in^
 ||statchecker.yandex.ru^
@@ -88295,7 +88294,6 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||web-vitals.booking.com^
 ||web.acumenpi.com^
 ||web.ali213.net^
-||web.cdn.openinstall.io^
 ||web.delighted.com^
 ||web.e.rapidonline.com^
 ||web.hearclear.com^
@@ -199555,6 +199553,8 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||popunhot1.blogspot.com^
 ||re-direct.pl^
 ||t.co^
+||openinstall.io^
+||s.ssl.qhres2.com^
 ||slgnt.eu^
 ||slgnt.us^
 ||stape.ac^
