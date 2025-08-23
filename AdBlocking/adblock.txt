@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Block those ads
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1129
+! Version: 1.1130
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-08-23T03:38:18.178Z
+! Last modified: 2025-08-23T04:18:34.783Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -5777,6 +5777,7 @@
 ||ced843cd18.com^
 ||cedarsvoices.cyou^
 ||cedeimprovise.com^
+||cedesenvy.digital^
 ||cediscaffer.click^
 ||cedricfaces.shop^
 ||cedrt6.pro^
@@ -12454,6 +12455,7 @@
 ||gutazngipaf.com^
 ||gutockeewhargo.net^
 ||gutphewlittleoddly.com^
+||gutsaushul.net^
 ||guttidetoluole.rest^
 ||guvmmaolnk.com^
 ||guvntjbcyqzyw.space^
@@ -17743,6 +17745,7 @@
 ||mgmaringpoli.org^
 ||mgpsmeqekhyewwt.com^
 ||mgptijzevfuxj.space^
+||mgtioide.xyz^
 ||mgujumljajzgt.store^
 ||mgupnmwky.com^
 ||mgxbwylia.com^
@@ -27293,6 +27296,7 @@
 ||tektosicawnie.rest^
 ||tel-tel-fie.com^
 ||telechargementdirect.net^
+||teledusdoeg.com^
 ||telegramdisposedjaws.com^
 ||telegramspun.com^
 ||telegraphcompetenceslightly.com^
@@ -30192,6 +30196,7 @@
 ||wahinesluddism.qpon^
 ||wahoha.com^
 ||wahtotten.com^
+||waifometolie.net^
 ||waifsdavidic.shop^
 ||wailakihipping.cyou^
 ||wailakisegno.world^
@@ -31657,6 +31662,7 @@
 ||xzphlvnrjgzsw.site^
 ||xzqpz.com^
 ||xzqttyicbzhgs.website^
+||xzshonsscrjzu.online^
 ||xztixabqdyrcnk.com^
 ||xzwcwyntxbgrd.com^
 ||xzxjtukltgeee.online^
@@ -34563,7 +34569,6 @@
 ||voluumtrk2.com^
 ||api.smartnews-ads.com^
 ||netpub.media^
-||stripe.rs-1028-a.com^
 ||samsungtvads.com^
 ||amaerodactylon.com^
 ||cdn.aucey.com^
@@ -35822,6 +35827,7 @@
 ||hdvmyo.com^
 ||adsy.mail.bg^
 .fwmrm.net^
+||stripe.rs-1028-a.com^
 ||piguiqproxy.com^$badfilter
 ||delivery.senvangvn.com^
 @@||reports.adguard.com^
@@ -36629,6 +36635,7 @@ Banner468x60
 /^https?:\/\/(.+?\.)?videogamesblogger\.com\/wp-content\/uploads\/.*[a-zA-Z0-9]{8,}\.*/$badfilter
 ||freeadultcomix.com^$badfilter
 @@||local.adguard.org^
+@@||thumbor.thedailymeal.com^
 ||imgshare.info^$badfilter
 @@||download.adguard.com^
 @@||admin.mailchimp.com^
