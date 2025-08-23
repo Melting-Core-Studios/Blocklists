@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.376
+! Version: 1.377
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-08-23T08:20:23.021Z
+! Last modified: 2025-08-23T09:16:44.003Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -4178,6 +4178,7 @@
 ||performance-logger.minted.com^
 ||perr.hola.org^
 ||pf.newegg.com^
+||ping.anizm.net^
 ||ping.hashnode.com^
 ||ping.hungama.com^
 ||pingback.giphy.com^
@@ -4253,6 +4254,7 @@
 ||saa.insideedition.com^
 ||sapi.tremendous.com^
 ||service.techzine.eu^
+||sherlock-events-sampler.ebay.com^
 ||shopmetric.rediff.com^
 ||sid.nordstrom.com^
 ||slipstream.skyscanner.net^
@@ -4404,6 +4406,7 @@
 ||tracking.shopstyle.co.uk^
 ||tracking.shopstyle.com^
 ||tracking.unrealengine.com^
+||tracking.wallapop.com^
 ||trackr.vivenu.com^
 ||trck.coomeet.com^
 ||trckng.dainese.com^
@@ -36994,6 +36997,7 @@
 ||tongji.xinmin.cn^
 ||tr.discuss.com.hk^
 ||tr.price.com.hk^
+||track.hk01.com^
 ||track.hujiang.com^
 ||track.sohu.com^
 ||track.tom.com^
@@ -74725,7 +74729,6 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||pincai.com^
 ||pinesapmitring.help^
 ||pinetech.vn^
-||ping.anizm.net^
 ||ping.answerbook.com^
 ||ping.contactpigeon.com^
 ||ping.getadblock.com^
@@ -80418,7 +80421,6 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||shephazigry.com^
 ||sheppeystuffer.top^
 ||sheriffshruglow.com^
-||sherlock-events-sampler.ebay.com^
 ||sherouscolvered.com^
 ||sherpa-cdn.com^
 ||sherpa.agoda.com^
@@ -85030,7 +85032,6 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||track.go-rilla.mobi^
 ||track.go.qiagen.com^
 ||track.gotprofits.com^
-||track.hk01.com^
 ||track.holly-harlow.com^
 ||track.hooligapps.com^
 ||track.igg.com^
