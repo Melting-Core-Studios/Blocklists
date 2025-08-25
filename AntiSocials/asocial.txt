@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.287
+! Version: 1.288
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-08-25T19:13:37.409Z
+! Last modified: 2025-08-25T23:15:32.799Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -13,6 +13,7 @@ unian.net#?#div[style] > div.article-shares:upward(1)
 123telugu.com#$#.post-page-content { padding-bottom: 0 !important; }
 debate.com.mx#$#header { height: auto !important; }
 debate.com.mx#$#body { padding-top: 70px !important; }
+bigkyiv.com.ua,musixmatch.com##.share-row
 rambler.ru##div[data-blocks="content_info"] + div[class^="container-"]
 rambler.ru#%#//scriptlet('remove-in-shadow-dom','div[data-blocks="content_info"] + div[class^="container-"]')
 vikna.tv##.section-share
@@ -5233,7 +5234,7 @@ gadgetsnow.com,timesofindia.indiatimes.com##div[data-socialshare]
 jn.pt##div[class^="mrec-"]
 fastcompany.com##.highlight-share-popover
 blog.netwrix.com##.social-button-list
-bigkyiv.com.ua,musixmatch.com##.share-row
+doityourself.com,bigkyiv.com.ua,musixmatch.com##.share-row
 team29.org##ul[class*="socials--share-"]
 gsm1x.xyz###HTML8
 bunshun.jp,news18.com###twitter-share-btn
