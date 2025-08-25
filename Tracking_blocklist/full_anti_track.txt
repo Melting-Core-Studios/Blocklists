@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.391
+! Version: 1.392
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-08-25T10:20:06.940Z
+! Last modified: 2025-08-25T11:16:36.634Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -238839,6 +238839,7 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||target.vr-bankenportal.de^
 ||watv.gogoinflight.com^
 ||https-filtering-check.adtidy.org^
+||logs.dradis.netflix.com^
 ||ecommerce-events*.adscale.com^
 ||install*.zonastat.com^
 ||log*.zijieapi.com^
@@ -238995,6 +238996,7 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||tw*.netcore.co.in^
 ||wa.gmx.
 charlestownwyllie.oaklawnnonantum.com^
+|a.klaviyo.com^
 ||api-*.hismarttv.com^
 ||auth-*.hismarttv.com^
 -track-inview.
@@ -239006,6 +239008,7 @@ directtrack.*.js
 .histats.*.js
 .hit.gemius.*.js
 .hit.stat24.
+://a.klaviyo.com^
 ||tracking.*.miui.com^
 ||datacollector-*.dt.hicloud.com^
 dynamic-report-api.appsflyersdk.com^
