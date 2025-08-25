@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.280
+! Version: 1.281
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-08-25T05:18:03.195Z
+! Last modified: 2025-08-25T08:23:04.992Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -367,6 +367,7 @@ esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israel
 esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israelnationalnews.com,lifehacker.com,cgmagonline.com,gizmodo.com,gamerevolution.com,metro.co.uk,thurrott.com,stereogum.com,ign.com,newsweek.com,dailymail.co.uk,comingsoon.net,timesofisrael.com,nypost.com,9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,electrek.co#%#//scriptlet('remove-in-shadow-dom', 'div[data-spot-im-class="vote-links"] + span[class$="index__dot"]')
 2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com##.comment__share > *
 antirez.com,comicbook.com,alexp.pl,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com###thread-share-bar
+gpuopen.com##.flex:has(> button[id^="share-"])
 news.tv-asahi.co.jp##.js-shareLine
 news.tv-asahi.co.jp##.js-shareTwitter
 news.tv-asahi.co.jp##.js-shareFacebook
@@ -20102,7 +20103,7 @@ artnews.com##.header-super-nav
 iranwire.com##.header-top
 news.cgtn.com,newsus.cgtn.com##.header-v3-follow-common
 cgtn.com,cri.cn##.header-v3-shareicon
-pulse.com.gh,pulse.ng##.headerSocials
+africa.businessinsider.com,pulse.com.gh,pulse.ng##.headerSocials
 cpac.ca##.header__multi__social
 mirror.co.uk##.header__nav__share--active
 accessonline.com##.header__social-search__icons
@@ -20147,6 +20148,7 @@ inews.co.uk##.inews__post-share
 labiotech.eu##.inline-block.space-y-8
 mainichi.jp##.inline-list
 winnipegfreepress.com##.interactive
+bossip.com##.io-header__social-links
 insideevs.com##.isBottomShare
 iphoneincanada.ca,teslanorth.com##.item--share
 flyercity.ca##.item_share_area
@@ -20707,6 +20709,7 @@ bbc.co.uk##.ssrcss-11faxz6-TagShareWrapper
 middleeasteye.net##.st-inline-share-buttons
 wng.org##.st-sticky-share-buttons
 dailytorch.com##.stButton
+africa.businessinsider.com##.standard-detailSocialShare
 audacy.com##.station-footer__social
 aceshowbiz.com##.stay-connected
 pnn.ps##.stay-connected-color
