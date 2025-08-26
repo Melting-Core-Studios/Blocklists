@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.288
+! Version: 1.289
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-08-25T23:15:32.799Z
+! Last modified: 2025-08-26T01:11:11.229Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -13,7 +13,6 @@ unian.net#?#div[style] > div.article-shares:upward(1)
 123telugu.com#$#.post-page-content { padding-bottom: 0 !important; }
 debate.com.mx#$#header { height: auto !important; }
 debate.com.mx#$#body { padding-top: 70px !important; }
-bigkyiv.com.ua,musixmatch.com##.share-row
 rambler.ru##div[data-blocks="content_info"] + div[class^="container-"]
 rambler.ru#%#//scriptlet('remove-in-shadow-dom','div[data-blocks="content_info"] + div[class^="container-"]')
 vikna.tv##.section-share
@@ -19590,6 +19589,7 @@ venturebeat.com##.Footer__social-icon
 thedailybeast.com##.Footer__socials
 i24news.tv##.Footer_social-network-links-wrapper__xN9Go
 earth.com##.Footer_social_bar__E9yGn
+indianexpress.com##.G-folow-button
 meduza.io##.GeneralMaterial-module-share
 bdnews24.com##.HeaderTopSocialIcon
 sfgate.com##.ListingTile_social_nav-wrapper
@@ -21006,6 +21006,7 @@ theshovel.com.au##.padding-top-small > .widgetizedArea:has-text(Like this)
 jacobin.com##.po-fr__heading:has-text(Share this article)
 lifenews.com##.post_style_zk > p:has-text(Please subscribe)
 newsroom.ucla.edu##.promo-card-muted:has-text(RSS feed)
+futurism.com##.py-4:has-text(Share This Article)
 heritagedaily.com##.tds-button:has-text(FOLLOW ON GOOGLE NEWS)
 twitch.tv##.tw-balloon:has-text(Share To)
 ruwix.com##.widget-title:has-text(Share this page!)
