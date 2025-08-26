@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.292
+! Version: 1.293
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-08-26T10:20:12.477Z
+! Last modified: 2025-08-26T11:15:23.165Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -21007,6 +21007,7 @@ electronicintifada.net##ul.inline.links
 jagranjosh.com##ul[class^="Details_Social_"]
 lataco.com##ul[class^="SocialSharing_"]
 dailymail.co.uk,thisismoney.co.uk##ul[class^="linksHolder-"]
+abc.net.au##.Button_root__UZ8td:has-text(Share)
 foxnews.com##.article-meta-lower:has(.article-social)
 carnewschina.com##.article_detail__top_stories:has-text(Follow us for ev updates)
 thedispatch.com##.border-y.py-2:has-text(Share)
