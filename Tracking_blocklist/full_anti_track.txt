@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.413
+! Version: 1.414
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-08-27T22:16:33.010Z
+! Last modified: 2025-08-27T23:16:32.099Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -236700,6 +236700,9 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||tk.airfrance.si^
 ||tk.airfrance.tg^
 ||tk.boutique.cotemaison.fr^
+||st.sooplive.co.kr^
+||collector1.sooplive.co.kr^
+||exlogcollector.sooplive.co.kr^
 ||d2fuc4clr7gvcn.cloudfront.net^
 ||adgbb.io.naver.com^
 ||d2zd0wa1vpt7j9.cloudfront.net^
@@ -237651,7 +237654,6 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||notes-analytics-events.news.apple-dns.net^
 ||weather-analytics-events.news.apple-dns.net^
 ||analytics.snaptube.app^
-||collector1.sooplive.co.kr^
 ||sq.requestads.com^
 ||hwstats.unity3d.com^
 ||analytics.cloud.unity3d.com^
@@ -240351,8 +240353,6 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||target.dzbank.com^
 ||target.holcimelevate.com^
 ||watv.gogoinflight.com^
-||st.sooplive.co.kr^
-||exlogcollector.sooplive.co.kr^
 ||https-filtering-check.adtidy.org^
 ||ecommerce-events*.adscale.com^
 ||install*.zonastat.com^
