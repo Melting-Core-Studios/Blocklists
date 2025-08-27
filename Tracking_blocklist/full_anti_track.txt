@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.408
+! Version: 1.409
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-08-27T11:15:49.210Z
+! Last modified: 2025-08-27T12:32:25.685Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -200816,6 +200816,7 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||popunhot1.blogspot.com^
 ||re-direct.pl^
 ||t.co^
+||analytiwave.com^
 ||wc.paybooc.co.kr^
 ||tagm.uneedcomms.com^
 ||openinstall.io^
@@ -236695,6 +236696,7 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||tk.airfrance.si^
 ||tk.airfrance.tg^
 ||tk.boutique.cotemaison.fr^
+||d2fuc4clr7gvcn.cloudfront.net^
 ||adgbb.io.naver.com^
 ||d2zd0wa1vpt7j9.cloudfront.net^
 ||wlg.shinhancard.com^
@@ -240344,7 +240346,6 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||target.dzbank.com^
 ||target.holcimelevate.com^
 ||watv.gogoinflight.com^
-||d2fuc4clr7gvcn.cloudfront.net^
 ||https-filtering-check.adtidy.org^
 ||ecommerce-events*.adscale.com^
 ||install*.zonastat.com^
