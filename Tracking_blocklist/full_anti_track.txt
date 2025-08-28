@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.418
+! Version: 1.419
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-08-28T13:28:42.288Z
+! Last modified: 2025-08-28T15:18:03.704Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -237877,6 +237877,11 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||prugskh.net^
 ||intlsucus.ucweb.com^
 @@||app.message.sonicwall.com^
+||sync.clearnview.com^
+||ck-ie.com^
+||rtb.voltaxam.com^
+||4dex.tech^
+||dsp-service.admatic.de^
 ||a.chdist.com^
 ||a.demco.com^
 ||a.netquote.com^
@@ -244693,7 +244698,6 @@ dlsdk.appsflyer.com^
 ||cj21ep.cn^
 ||cjhq.baidu.cn^
 ||cjmooter.xcache.kinxcdn.com^
-||ck-ie.com^
 ||ck.page^
 ||ckeditor.com^
 ||cl.he9630.com^
@@ -245843,7 +245847,7 @@ dlsdk.appsflyer.com^
 ||dapresy.com^
 ||daraz.com^
 ||dart.clearchannel.com^
-||daserste.de^
+||daserste.de^$badfilter
 ||dashboard.co.uk^
 ||dashboard.webwinkelkeur.nl^
 ||dashet.com^
@@ -247280,6 +247284,7 @@ dlsdk.appsflyer.com^
 ||gadgets.buienradar.nl^
 ||gadwhy.com^
 ||gagdonkey.net^
+||gaggle.net^
 ||gaia-oasis.com^
 ||galaxy.sogoucdn.com^
 ||galeriedestrouvailles.fr^
@@ -249246,6 +249251,7 @@ dlsdk.appsflyer.com^
 ||lighthouselabs.eu^
 ||lighthouselist.com^
 ||lightson.vpsboard.com^
+||lightspeedsystems.app^
 ||lightspeedsystems.com^
 ||lightssplash.shop^
 ||liinkedin.com^
@@ -254130,6 +254136,7 @@ dlsdk.appsflyer.com^
 ||volontexaucee.fr^
 ||volument.com^
 ||volusion.com^
+||voo.chat^
 ||voonix.net^
 ||voqally.com^
 ||vortex-win.data.microsoft.com^
@@ -254891,9 +254898,10 @@ dlsdk.appsflyer.com^
 ||zzrcz.com^
 ||zzsx8.com^
 ||zzzjvqzkmqllb.top^
-||voo.chat^
-||lightspeedsystems.app^
-||gaggle.net^
+||kantarsifo.se^
+||extrahefty.com^
+||aitd.one^
+||freevpn.one^
 ||badv.wp.pl^
 ||emisjawidgeet.onet.pl^
 ||ads.edipresse.pl^
