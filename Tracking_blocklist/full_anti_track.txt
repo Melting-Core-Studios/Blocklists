@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.420
+! Version: 1.421
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-08-28T16:21:54.419Z
+! Last modified: 2025-08-29T01:09:30.035Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -3934,6 +3934,7 @@
 ||collect.reagroupdata.com.au^
 ||collect.stepstone.co.uk^
 ||collect.thunder-io.com^
+||collection.mola.tv^
 ||collector-direct.xhamster.com^
 ||collector-px0py5pczn.octopart.com^
 ||collector.fiverr.com^
@@ -4168,6 +4169,8 @@
 ||na.groupondata.com^
 ||nasi.etherscan.com^
 ||net.haier.com^
+||nid.thesun.co.uk^
+||nid.thetimes.com^
 ||no9pldds1lmn3.soundcloud.com^
 ||nr-data.noelleeming.co.nz^
 ||nr.noelleeming.co.nz^
@@ -16339,7 +16342,6 @@
 ||target.miaprova.com^
 ||target.michaels.com^
 ||target.microchip.com^
-||target.microsoft.com^
 ||target.monaco.pwc.fr^
 ||target.mtu-solutions.com^
 ||target.myhealthtoolkit.com^
@@ -72395,7 +72397,6 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||nicksstevmark.com^
 ||nicolborning.click^
 ||nicolsphonol.rest^
-||nid.thesun.co.uk^
 ||niecesauthor.com^
 ||nielsen-netratings.com^
 ||nielsenadservices.com^
@@ -84413,6 +84414,7 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||taquafumbles.shop^
 ||targad.de^
 ||target.hidabroot.org^
+||target.microsoft.com^
 ||target.my.com^
 ||target.net.finam.ru^
 ||targeta41.net^
