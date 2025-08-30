@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.428
+! Version: 1.429
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-08-30T02:56:14.231Z
+! Last modified: 2025-08-30T04:19:46.801Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -238,6 +238,7 @@
 ||healthroundprince.com^
 ||heap-api.com^
 ||herbgreencolumn.com^
+||hightouch-events.com^
 ||hirsung.de^
 ||histais.com^
 ||hs-analytics.net^
@@ -3222,6 +3223,7 @@
 ||d1tqsoh7s4xjz9.cloudfront.net^
 ||d1vg5xiq7qffdj.cloudfront.net^
 ||d1xfq2052q7thw.cloudfront.net^
+||d1yz9u4jf6oqub.cloudfront.net^
 ||d1z3r0i09bwium.cloudfront.net^
 ||d1z9vm58yath60.cloudfront.net^
 ||d20kffh39acpue.cloudfront.net^
@@ -3861,6 +3863,7 @@
 ||analytics.python.org^
 ||analytics.qogita.com^
 ||analytics.realestate.com.au^
+||analytics.shutterstock.com^
 ||analytics.silktide.com^
 ||analytics.slashdotmedia.com^
 ||analytics.synchrony.com^
@@ -46106,7 +46109,6 @@
 ||analytics.shein.com^
 ||analytics.shift.agency^
 ||analytics.shopware.io^
-||analytics.shutterstock.com^
 ||analytics.sidekicker.ai^
 ||analytics.signalpusher.com^
 ||analytics.simpler.so^

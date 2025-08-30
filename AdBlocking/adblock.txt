@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Block those ads
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1277
+! Version: 1.1278
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-08-30T03:27:59.106Z
+! Last modified: 2025-08-30T04:18:15.126Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -294,6 +294,7 @@
 ||2022welcome.com^
 ||2024jphatomenesys35.top^
 ||2024jphatomenesys36.top^
+||2042be5d8c.com^
 ||206ads.com^
 ||20dollars2surf.com^
 ||20l2ldrn2.de^
@@ -25289,6 +25290,7 @@
 ||rgjlzlgxohjyg.site^
 ||rgkccvmr.xyz^
 ||rgmhynhrzzsao.site^
+||rgmuksfuciowy.online^
 ||rgobrulzyjxyt.site^
 ||rgrvmhtm.com^
 ||rgskrmtckgwwl.online^
@@ -30352,6 +30354,7 @@
 ||ueaxkddhsrqvc.space^
 ||uecclasnoch.com^
 ||uedrrztkxmplx.xyz^
+||uefdjyvbojoej.store^
 ||uefhucspqzoza.space^
 ||uel-uel-fie.com^
 ||uelclnfeaxlur.online^
@@ -36647,12 +36650,10 @@
 ||dlyarecnew.me^
 ||elpushnot.com^
 ||fft.delovoemesto.ru^
-||mu.zilovaro.store^
 ||my.rb2psh.ru^
 ||newup.bid^
 ||nservw.net^
 ||onemontay.ru^
-||par.moyslovar.ru^
 ||rb.sveto-sharik.ru^
 ||rb.umspecrek.ru^
 ||rbfive.bid^
@@ -36889,6 +36890,7 @@
 ||harbor08062025.shop^
 ||havejav11.fun^
 ||hgcustom-ad.xyz^
+||hmpryf89.xyz^
 ||honest05032026.shop^
 ||hot.justpornflix.com^
 ||hs.hentaislayer.net^
@@ -36950,6 +36952,7 @@
 ||proll.shemrec.cc^
 ||pundr.shemrec.cc^
 ||px9.nuderedtube.com^
+||q.pairies.site^
 ||qa.hdclips.fun^
 ||qa.pleasedonotblockme.com^
 ||quziao.xyz^
@@ -37233,7 +37236,6 @@
 ||community.richlandsource.com^
 ||connected.ashrae.org^
 ||connected.county10.com^
-||gemtun.ctnewsjunkie.com^
 ||images.decaturish.com^
 ||jobs.educationweekjobs.co.uk^
 ||kitt.tucsonsentinel.com^
@@ -37281,7 +37283,6 @@
 ||t.jetrck.com^
 ||t.loantrck.com^
 ||t.maxtrck.shop^
-||t.nextrck.website^
 ||t.quicktrck.space^
 ||bidmyqps.xyz^
 ||ctrtraffic.com^
@@ -37409,6 +37410,7 @@
 ||filter.fstsrv20.com^
 ||filter.highsea.fun^
 ||filter.intellectscoop.com^
+||filter.kraftads.com^
 ||filter.leoback.com^
 ||filter.myadcampaigns.com^
 ||filter.optumads.com^
@@ -37522,6 +37524,7 @@
 ||rtb-uswest.voisetech.com^
 ||rtb-uswest.wxadserve.xyz^
 ||rtb2-apac.affinity.net^
+||rtb2-eu.applabs.live^
 ||rtb2-useast.adpix.online^
 ||rtb2-useast.ampx.io^
 ||rtb2-useast.applabs.live^
@@ -37675,7 +37678,6 @@
 ||xml-v4.winkleads.com^
 ||xml-v4.xmladsystem.com^
 ||xml-v4.xmlorbit.com^
-||xml-v4.zenvuedigital.com^
 ||xml.adexone.com^
 ||xml.admozartppc.com^
 ||xml.adportonic.com^
@@ -37895,6 +37897,11 @@
 ||yomovies.fitness^
 .fwmrm.net^
 ||piguiqproxy.com^$badfilter
+||mu.zilovaro.store^
+||par.moyslovar.ru^
+||gemtun.ctnewsjunkie.com^
+||t.nextrck.website^
+||xml-v4.zenvuedigital.com^
 ||delivery.senvangvn.com^
 @@||reports.adguard.com^
 ||nessainy.net^$badfilter
