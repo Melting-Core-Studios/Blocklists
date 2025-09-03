@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.447
+! Version: 1.448
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-09-03T08:22:25.805Z
+! Last modified: 2025-09-03T12:31:34.993Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -3417,6 +3417,7 @@
 ||events.sk.ht^
 ||ip7prksb2muxvmmh25t6rxl2te0tfulc.lambda-url.eu-west-1.on.aws^
 ||nws.naltis.com^
+||offer.slgnt.eu^
 ||osd.oxygem.it^
 ||rs.smc.tf^
 ||stats-dc1.frz.io^
@@ -202723,7 +202724,6 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||tagm.uneedcomms.com^
 ||openinstall.io^
 ||s.ssl.qhres2.com^
-||slgnt.eu^
 ||slgnt.us^
 ||stape.ac^
 ||sdk-log.airbridge.io^
@@ -237760,6 +237760,9 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||tk.airfrance.si^
 ||tk.airfrance.tg^
 ||tk.boutique.cotemaison.fr^
+||site-see.slgnt.eu^
+||site-azp.slgnt.eu^
+||mobile.slgnt.eu^
 ||d2fuc4clr7gvcn.cloudfront.net^
 ||adgbb.io.naver.com^
 ||d2zd0wa1vpt7j9.cloudfront.net^
