@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.449
+! Version: 1.450
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-09-03T13:26:53.435Z
+! Last modified: 2025-09-03T18:23:03.441Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -68086,7 +68086,6 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||log.funshareapp.com^
 ||log.fwdcmp.com^
 ||log.game.qcplay.com^
-||log.getadblock.com^
 ||log.getdropbox.com^
 ||log.giacngo.vn^
 ||log.giaoduc.net.vn^
@@ -76057,7 +76056,6 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||pinesapmitring.help^
 ||pinetech.vn^
 ||ping.contactpigeon.com^
-||ping.getadblock.com^
 ||ping.kitidi.com^
 ||ping.pinyin.sogou.com^
 ||ping.staticmoly.me^
@@ -248081,6 +248079,7 @@ dlsdk.appsflyer.com^
 ||growth-for-social-media.com^
 ||growth-pa.googleapis.com^
 ||growthbook.io^
+||growzillas.com^
 ||grsm.io^
 ||grupalet.com^
 ||grupaonet.pl^
@@ -248127,6 +248126,7 @@ dlsdk.appsflyer.com^
 ||guysonlydating.com^
 ||gw6.push.mcp.weibo.cn^
 ||gw630.com^
+||gxadvisor.com^
 ||gydag.com^
 ||gyrtg.com^
 ||gz00005.top^
@@ -249538,6 +249538,7 @@ dlsdk.appsflyer.com^
 ||lapropostagiornaliera.it^
 ||larrotinoconsiglia.it^
 ||larryiragold.best^
+||larsfriis.io^
 ||lasagneandands.com^
 ||lasceltaconveniente.it^
 ||lashou1000.com^
@@ -250140,6 +250141,7 @@ dlsdk.appsflyer.com^
 ||maline-immobilier.fr^
 ||mall.tv^
 ||mallidy.com^
+||manaferra.com^
 ||manage.devcenter.microsoft.com^
 ||manage.wdfans.cn^
 ||mandrill.com^
@@ -255379,10 +255381,13 @@ dlsdk.appsflyer.com^
 ||zzrcz.com^
 ||zzsx8.com^
 ||zzzjvqzkmqllb.top^
-||larsfriis.io^
-||gxadvisor.com^
-||manaferra.com^
-||growzillas.com^
+||mistanalytics.nl^
+||e.livekit.io^
+||commonroom.io^
+||cr-relay.com^
+||getadblock.com^
+||adblockplus.org^
+||eyeo.com^
 ||badv.wp.pl^
 ||emisjawidgeet.onet.pl^
 ||ads.edipresse.pl^
