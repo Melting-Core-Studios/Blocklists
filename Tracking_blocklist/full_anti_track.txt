@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.463
+! Version: 1.464
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-09-06T21:14:14.270Z
+! Last modified: 2025-09-06T22:15:19.446Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -2909,7 +2909,6 @@
 ||rtxpx-a.akamaihd.net^
 ||rum.azion.com^
 ||rum.azioncdn.net^
-||rum.hlx.page^
 ||rum.ingress.layer0.co^
 ||rum.layer0.co^
 ||rum.uptime.com^
@@ -244158,6 +244157,7 @@ dlsdk.appsflyer.com^
 ^google-analytics-universal-cart.min.js^
 ^google-analytics-universal.min.js^
 ^google-tag-manager-cart.min.js^
+^gtm.js^
 ^kakao.min.js^
 ^keepalive.min.js^
 ^log4javascript.js^
@@ -247975,6 +247975,7 @@ dlsdk.appsflyer.com^
 ||circle-ci.com^
 ||circle-cl.com^
 ||circu.net^
+||circulation.story.nl^
 ||circus.nl^
 ||citibank.com^
 ||citiservi.es^
@@ -251202,6 +251203,7 @@ dlsdk.appsflyer.com^
 ||hkkjcg.com^
 ||hl2rcv.adobe.com^
 ||hlrcv.stage.adobe.com^
+||hlx.page^
 ||hm.baidu.cn^
 ||hm.ru^
 ||hmimg.com^
@@ -252680,7 +252682,6 @@ dlsdk.appsflyer.com^
 ||livecall.io^
 ||livechat-metrics.messagebird.com^
 ||livechat.prod.cloud.statcan.ca^
-||livechat.zaurus.io^
 ||livechatinc.com^
 ||livecom.net^
 ||livefilestore.com^
@@ -255318,6 +255319,7 @@ dlsdk.appsflyer.com^
 ||robertbridgeman.com^
 ||robinhq.com^
 ||robly.com^
+||robotime.cn^
 ||robscholtemuseum.nl^
 ||rockerbox.com^
 ||rocketdownload.com^
@@ -255727,6 +255729,7 @@ dlsdk.appsflyer.com^
 ||sentry.scaleway.com^
 ||sentry.svc.tfw.io^
 ||sentry.tools.element.io^
+||sentry.uncinc.nl^
 ||sentry.voipgrid.nl^
 ||seohub.digital^
 ||seoindia.today^
@@ -255771,6 +255774,7 @@ dlsdk.appsflyer.com^
 ||sgpjpslot.net^
 ||sgqcvfjvr.onet.pl^
 ||sgtm.kaspersky.com^
+||sgtm.natuurmonumenten.nl^
 ||sgtm.plein.nl^
 ||sh.qihoo.com^
 ||shakegroup.nl^
@@ -256611,6 +256615,7 @@ dlsdk.appsflyer.com^
 ||tag.youfone.nl^
 ||tagdiv.com^
 ||tagembed.com^
+||tagging.bergmanclinics.nl^
 ||tagging.elektrobode.nl^
 ||tagging.toeleveringonline.nl^
 ||tagging.versaantafel.nl^
@@ -256629,6 +256634,7 @@ dlsdk.appsflyer.com^
 ||talk-cdn.krone.at^
 ||talk.hyvor.com^
 ||talk.krone.at^
+||talkdeskapp.com^
 ||talkjs.com^
 ||tallyfy.com^
 ||talos360.co.uk^
@@ -256843,6 +256849,7 @@ dlsdk.appsflyer.com^
 ||thunder.partners^
 ||thxnr.com^
 ||thyvjboy.com^
+||ti.hornbach.nl^
 ||ti6sritai2y2cqwc23byo7iobm0vfpsg.lambda-url.us-east-1.on.aws^
 ||tiangoutai.com^
 ||tiangu99.com^
@@ -257688,6 +257695,7 @@ dlsdk.appsflyer.com^
 ||websolutions.ne.cision.com^
 ||websolve.com^
 ||webstarts.com^
+||webstat.erasmusmc.nl^
 ||webstat.kuwo.cn^
 ||webstatistiekenwaas.kb.nl^
 ||webstats.cpvo.europa.eu^
@@ -258205,6 +258213,7 @@ dlsdk.appsflyer.com^
 ||zapingers.autos^
 ||zapr.in^
 ||zapto.org^
+||zaurus.io^
 ||zb.nxing.cn^
 ||zbz.m.qxs.la^
 ||zcdsp.com^
@@ -258310,9 +258319,6 @@ dlsdk.appsflyer.com^
 ||zzrcz.com^
 ||zzsx8.com^
 ||zzzjvqzkmqllb.top^
-||tagging.bergmanclinics.nl^
-||talkdeskapp.com^
-||sentry.uncinc.nl^
 ||badv.wp.pl^
 ||emisjawidgeet.onet.pl^
 ||ads.edipresse.pl^
