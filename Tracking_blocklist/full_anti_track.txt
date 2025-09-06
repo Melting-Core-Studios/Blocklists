@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.462
+! Version: 1.463
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-09-06T13:20:27.045Z
+! Last modified: 2025-09-06T21:14:14.270Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -249393,6 +249393,7 @@ dlsdk.appsflyer.com^
 ||diagnostics.apple.com.akadns.net^
 ||diagnostics.apple.com^
 ||diagnostics.office.com^
+||dialercallinfolookup-pa.googleapis.com^
 ||dialog-mail.com^
 ||diandian.ccom^
 ||dianjoy.com^
@@ -258309,7 +258310,9 @@ dlsdk.appsflyer.com^
 ||zzrcz.com^
 ||zzsx8.com^
 ||zzzjvqzkmqllb.top^
-||dialercallinfolookup-pa.googleapis.com^
+||tagging.bergmanclinics.nl^
+||talkdeskapp.com^
+||sentry.uncinc.nl^
 ||badv.wp.pl^
 ||emisjawidgeet.onet.pl^
 ||ads.edipresse.pl^
