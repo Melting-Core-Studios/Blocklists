@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Block those ads
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1456
+! Version: 1.1457
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-09-07T03:36:49.039Z
+! Last modified: 2025-09-07T04:17:58.413Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -2634,6 +2634,7 @@
 ||amkjyjjcxjst.com^
 ||amlumineona.com^
 ||amlyyqjbrvlov.top^
+||amlyyqjbrvrmb.top^
 ||ammankeyan.com^
 ||ammelinreceded.cyou^
 ||ammeosmeak.click^
@@ -10229,6 +10230,7 @@
 ||ejlqdcyrjsakh.site^
 ||ejnqilgwjzqys.online^
 ||ejnrfzsbvwqwj.online^
+||ejpmrwxzzggrx.online^
 ||ejsgmeirtaumd.store^
 ||ejtchpiqmhqle.com^
 ||ejufwpkpikrgy.space^
@@ -16631,6 +16633,7 @@
 ||jplsuusayjlfy.com^
 ||jpltclbrnyefiij.com^
 ||jpmkbcgx-o.buzz^
+||jpoeeexklntxcv.net^
 ||jpoeeexklntxcv.xyz^
 ||jpojrkwzofpxn.space^
 ||jpooavwizlvf.com^
@@ -18999,6 +19002,7 @@
 ||lvgmmwjmvmkna.top^
 ||lvihawwxrn.com^
 ||lvlhmjerf.buzz^
+||lvmllngjayavj.top^
 ||lvmllngjaymky.top^
 ||lvoaglwvomnma.top^
 ||lvoaglwvomnyz.top^
@@ -25483,6 +25487,7 @@
 ||qnuecpgpjfgxg.store^
 ||qnxrfwtnijcvj.space^
 ||qoaaa.com^
+||qoapvdltqqkqlhj.com^
 ||qoasixfcmjnub.store^
 ||qoclick.com^
 ||qoduruwkddheq.site^
@@ -29067,6 +29072,7 @@
 ||sortexampleposition.com^
 ||sorthurry.com^
 ||sorucall.com^
+||sosdvvuhhte.net^
 ||soshoord.com^
 ||sosignamentswithde.org^
 ||sotchoum.com^
@@ -40569,6 +40575,8 @@
 ||etl.tindersparks.com^
 ||sensors.larkplayerapp.com^
 ||log.kajicam.com^
+||key.sexymovie.name^
+||xml-v4.kraftads.com^
 ||reachableads-av.*.amazonaws.com^
 /^139\.45\.197\.2(4[0-9]|5[0-4])/
 ||ads.livetv*.me^
@@ -40600,6 +40608,7 @@ Banner468x60
 @@||admin.mailchimp.com^
 @@||connectivitycheck.gstatic.com^$important
 @@||pgpartner.com^
+@@||redirect.disqus.com^
 @@||webstatic.nero.com^
 @@||s1.wp.com^
 @@||krebsonsecurity.com
