@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Block those ads
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1457
+! Version: 1.1458
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-09-07T04:17:58.413Z
+! Last modified: 2025-09-07T05:15:17.485Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -13788,6 +13788,7 @@
 ||gvrfpmnggeva.xyz^
 ||gvt2.com^
 ||gvtdzbtjjqchi.website^
+||gvtuctmstgxv.com^
 ||gwallet.com^
 ||gwbjoieneuqb.com^
 ||gwbone-cpw.today^
@@ -38804,6 +38805,7 @@
 ||js.allporncomic.com^
 ||js.allporncomix.com^
 ||jx3.freepornobook.com^
+||key.sexymovie.name^
 ||kr.sampleperson.site^
 ||kra.timbuk.online^
 ||kx4.firstsexfilm.com^
@@ -38981,7 +38983,6 @@
 ||fd01ce9a02.0012e30263.com^
 ||0eab70c429.a567dda4c2.com^
 ||203a382a60.403dee4b16.com^
-||33773a42d8.944ef08b40.com^
 ||72d6526e68.8e323e599c.com^
 ||75a42994ae.4ffc468d9b.com^
 ||7a7bedd6ea.ef8d86ab11.com^
@@ -39343,7 +39344,6 @@
 ||rtb-apac-v4.voisetech.com^
 ||rtb-apac.admidadsp.com^
 ||rtb-apac.affinity.net^
-||rtb-apac.ergadx.com^
 ||rtb-apac.freevpnplanet.com^
 ||rtb-apac.voisetech.com^
 ||rtb-eu-v4.admozartexchange.com^
@@ -39539,6 +39539,7 @@
 ||xml-v4.fstsrv19.com^
 ||xml-v4.fstsrv21.com^
 ||xml-v4.glcsrv.com^
+||xml-v4.kraftads.com^
 ||xml-v4.kvicads.com^
 ||xml-v4.medialabs.info^
 ||xml-v4.mediataggus.com^
@@ -39588,7 +39589,6 @@
 ||xml.edgexml.com^
 ||xml.epikads.com^
 ||xml.exdirectopl.com^
-||xml.exdiroplect.com^
 ||xml.eyandfarto.org^
 ||xml.fdkox-b.online^
 ||xml.fdkox-c.online^
@@ -40575,8 +40575,6 @@
 ||etl.tindersparks.com^
 ||sensors.larkplayerapp.com^
 ||log.kajicam.com^
-||key.sexymovie.name^
-||xml-v4.kraftads.com^
 ||reachableads-av.*.amazonaws.com^
 /^139\.45\.197\.2(4[0-9]|5[0-4])/
 ||ads.livetv*.me^
