@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.472
+! Version: 1.473
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-09-08T08:23:59.865Z
+! Last modified: 2025-09-08T09:20:50.929Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -140,6 +140,7 @@
 ||dataofpages.com^
 ||datas3ntinel.com^
 ||demdex.net^
+||deviceinf.com^
 ||digi-ping.com^
 ||directavenue.tech^
 ||dispatchunique.com^
@@ -190,6 +191,7 @@
 ||fptls.com^
 ||fptls2.com^
 ||fptls3.com^
+||fptls4.com^
 ||funnelserv.systems^
 ||fzlnk.com^
 ||g10102301085.co^
@@ -2433,6 +2435,7 @@
 ||analytics.developer.riotgames.com^
 ||analytics.disney.go.com^
 ||analytics.disneyinternational.com^
+||analytics.dv.socure.io^
 ||analytics.dvidshub.net^
 ||analytics.edgekey.net^
 ||analytics.eggoffer.com^
@@ -2493,6 +2496,7 @@
 ||analytics.vixcloud.co^
 ||analytics.webpushr.com^
 ||analytics.websolute.it^
+||analytics.webynize.com^
 ||analytics.wildtangent.com^
 ||analytics.witglobal.net^
 ||analytics.yahoo.com^
@@ -2788,6 +2792,7 @@
 ||matomo.clanto.cloud^
 ||mc.yandex.com^
 ||mc.yandex.ru^
+||mc.yango.com^
 ||mcdp-*.outbrain.com^
 ||mediametrics.mpsa.com^
 ||metrics.beyondwords.io^
@@ -2834,6 +2839,7 @@
 ||observe-nexus.pointandplace.com^
 ||obseu.netgreencolumn.com^
 ||onespot-tracking.herokuapp.com^
+||optimizer.poxo.com^
 ||p.tryretool.com^
 ||page-events-ustats.udemy.com^
 ||pages-stats.rbl.ms^
@@ -2909,6 +2915,7 @@
 ||rtxpx-a.akamaihd.net^
 ||rum.azion.com^
 ||rum.azioncdn.net^
+||rum.cronitor.io^
 ||rum.ingress.layer0.co^
 ||rum.layer0.co^
 ||rum.uptime.com^
@@ -2965,6 +2972,7 @@
 ||stats.itweb.co.za^
 ||stats.kaltura.com^
 ||stats.ksearchnet.com^
+||stats.lmofficial.to^
 ||stats.locallabs.com^
 ||stats.lotlinx.com^
 ||stats.mituyu.com^
@@ -4051,6 +4059,7 @@
 ||femetrics.grammarly.io^
 ||fgn-plausible.serverable.com^
 ||firebaselogging.googleapis.com^
+||fp.bizjournals.com^
 ||fpa-cdn.adweek.com^
 ||fpa-cdn.arstechnica.com^
 ||fpc.fingerprint.com^
@@ -4180,10 +4189,12 @@
 ||nid.thetimes.com^
 ||no9pldds1lmn3.soundcloud.com^
 ||nr-data.noelleeming.co.nz^
+||nr-js.imaios.com^
 ||nr.noelleeming.co.nz^
 ||ocular.hotukdeals.com^
 ||ophan.theguardian.com^
 ||optimizely.techtarget.com^
+||otel-mobile.doordash.com^
 ||p.hentaiforce.net^
 ||p.minds.com^
 ||p.spotidownloader.com^
@@ -4228,6 +4239,7 @@
 ||prairiedog.hashnode.com^
 ||privacy-api.9gag.com^
 ||privacyfriendly.netlify.app^
+||private.wccftech.com^
 ||prod-events.nykaa.com^
 ||proxima.midjourney.com^
 ||pulsar.ebay.com^
@@ -4341,7 +4353,9 @@
 ||t.birchlane.com^
 ||t.dailymail.co.uk^
 ||t.deepnote.com^
+||t.factorform.com^
 ||t.freelancer.com^
+||t.goodchop.com^
 ||t.indeed.com^
 ||t.ionos.com^
 ||t.jossandmain.com^
@@ -4351,6 +4365,7 @@
 ||t.pagesix.com^
 ||t.perigold.com^
 ||t.poki.io^
+||t.prageru.com^
 ||t.regionsjob.com^
 ||t.wayfair.ca^
 ||t.wayfair.co.uk^
@@ -4389,6 +4404,7 @@
 ||tms.eharmony.ca^
 ||tms.hft.everyplate.com^
 ||tms.hft.factor75.com^
+||tms.hft.goodchop.com^
 ||tms.hft.greenchef.com^
 ||tms.hft.hellofresh.com^
 ||tongji-res.meizu.com^
@@ -36959,6 +36975,7 @@
 ||stw.extrem-down.zone^
 ||stw.extreme-down.
 ||t.blablacar.com^
+||t.hellowork.com^
 ||tc2.hometogo.net^
 ||tracking.cdiscount.com^
 ||tss.sport2000.fr^
@@ -37173,6 +37190,7 @@
 ||beat.yourtv.jp^
 ||clb.yahoo.co.jp^
 ||counter.asobeans.jp^
+||counter1.fc2.com^
 ||ctr.po-kaki-to.com^
 ||d-log.asahi.co.jp^
 ||d-log.tv-asahi.co.jp^
@@ -45648,7 +45666,6 @@
 ||analytics.dugun.com^
 ||analytics.dungs.com^
 ||analytics.durst-group.com^
-||analytics.dv.socure.io^
 ||analytics.dv.socure.us^
 ||analytics.dvv-hosting.net^
 ||analytics.e.beachesmailings.com^
@@ -53419,7 +53436,6 @@
 ||counter.wbtiger.mmska.ru^
 ||counter.websiteout.net^
 ||counter.yesky.com^
-||counter1.fc2.com^
 ||counter24.luxnet.ua^
 ||counter4u.de^
 ||counteractshrubs.com^
@@ -69773,7 +69789,6 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||mc.pirateship.com^
 ||mc.yandex.com.tr^
 ||mc.yandex.md^
-||mc.yango.com^
 ||mc7clurd09pla4nrtat7ion.com^
 ||mcc.godaddy.com^
 ||mcdlks.com^
@@ -80566,7 +80581,6 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||rum-ingest.us1.signalfx.com^
 ||rum-metrics.bunny.net^
 ||rum-reporter-prod.exp.bn.nr^
-||rum.cronitor.io^
 ||rum.eu-central-1.amazonaws.com^
 ||rum.eu-west-1.amazonaws.com^
 ||rum.eu-west-2.amazonaws.com^
@@ -84207,7 +84221,6 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||stats.lemonlearning.com^
 ||stats.live-video.net^
 ||stats.llaun.ch^
-||stats.lmofficial.to^
 ||stats.logiccmx.com^
 ||stats.maazahmad.in^
 ||stats.manz.at^
@@ -85093,7 +85106,6 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||t.email.superdrug.com^
 ||t.eroges.com^
 ||t.events.byui.edu^
-||t.factorform.com^
 ||t.fastcmp.com^
 ||t.fasttrck.tech^
 ||t.felmat.net^
