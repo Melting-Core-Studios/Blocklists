@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.475
+! Version: 1.476
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-09-08T13:29:21.637Z
+! Last modified: 2025-09-08T14:18:21.738Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -3382,6 +3382,7 @@
 ||orbidder.otto.de^
 ||pixel.poptok.com^
 ||px.staticfiles.at^
+||qa-events-schema.viacom.tech^
 ||retrack.q-divisioncdn.de^
 ||rum.mauve.eu^
 ||stat.clichehosting.de^
@@ -78299,7 +78300,6 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||q770.whittierdailynews.com^
 ||q99i1qi6.de^
 ||q9nxf84vkt.xyz^
-||qa-events-schema.viacom.tech^
 ||qa-vatote.icu^
 ||qa.groggedrotl.com^
 ||qa24ljic4i.com^
@@ -245848,6 +245848,7 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||target.tiaa-cref.org^
 ||target.tiaa.org^
 ||watv.gogoinflight.com^
+||posthog.lingvanex.com^
 ||https-filtering-check.adtidy.org^
 ||ecommerce-events*.adscale.com^
 ||install*.zonastat.com^
