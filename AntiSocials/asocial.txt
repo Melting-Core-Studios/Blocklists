@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.365
+! Version: 1.366
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-09-09T04:19:22.758Z
+! Last modified: 2025-09-09T09:17:48.699Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -372,6 +372,7 @@ esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israel
 esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israelnationalnews.com,lifehacker.com,cgmagonline.com,gizmodo.com,gamerevolution.com,metro.co.uk,thurrott.com,stereogum.com,ign.com,newsweek.com,dailymail.co.uk,comingsoon.net,timesofisrael.com,nypost.com,9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,electrek.co#%#//scriptlet('remove-in-shadow-dom', 'div[data-spot-im-class="vote-links"] + span[class$="index__dot"]')
 2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com##.comment__share > *
 antirez.com,comicbook.com,alexp.pl,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com###thread-share-bar
+musica.com###avisoinferior:has(> aside > a[href^="https://www.facebook.com/sharer.php"])
 seventeen.com##main .text-under-lede ~ div[class*=" "] > div:has(div[aria-label="Share article"])
 techbook.de##section[data-type="rich-text"]:has(> .wp-block-buttons > .wp-block-button > a.wp-block-button__link[href="https://www.instagram.com/techbook.de/"])
 techbook.de##section[data-type="headline"]:has(> #h3-techbook-folgen)
