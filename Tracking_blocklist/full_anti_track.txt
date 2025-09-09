@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.482
+! Version: 1.483
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-09-09T14:16:22.726Z
+! Last modified: 2025-09-09T15:19:17.534Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -208874,6 +208874,7 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||popunhot1.blogspot.com^
 ||re-direct.pl^
 ||t.co^
+||cdn.debugbear.com^
 ||analytiwave.com^
 ||wc.paybooc.co.kr^
 ||tagm.uneedcomms.com^
@@ -245375,6 +245376,7 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||tk.airfrance.tg^
 ||tk.billieblush.com^
 ||tk.boutique.cotemaison.fr^
+||leo.hepsiburada.com^
 ||d2fuc4clr7gvcn.cloudfront.net^
 ||adgbb.io.naver.com^
 ||d2zd0wa1vpt7j9.cloudfront.net^
@@ -246356,7 +246358,6 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||prugskh.net^
 ||intlsucus.ucweb.com^
 @@||app.message.sonicwall.com^
-||cdn.debugbear.com^
 ||a.netquote.com^
 ||al.milanoo.com^
 ||analytic.surfline.com^
@@ -248785,7 +248786,6 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||target.tiaa-cref.org^
 ||target.tiaa.org^
 ||watv.gogoinflight.com^
-||leo.hepsiburada.com^
 ||https-filtering-check.adtidy.org^
 ||ecommerce-events*.adscale.com^
 ||install*.zonastat.com^
