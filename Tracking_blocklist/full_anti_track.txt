@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.490
+! Version: 1.491
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-09-10T13:26:09.704Z
+! Last modified: 2025-09-10T15:17:45.197Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -37171,6 +37171,7 @@
 ||d-log.asahi.co.jp^
 ||d-log.tv-asahi.co.jp^
 ||d.tv-asahi.co.jp^
+||ek-tracker.ekitan.com^
 ||eq-beacon.stream.co.jp^
 ||eq-player-log.cdnext.stream.ne.jp^
 ||gtm.diamond.jp^
