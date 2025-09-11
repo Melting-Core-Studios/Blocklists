@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.502
+! Version: 1.503
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-09-11T20:15:28.794Z
+! Last modified: 2025-09-11T23:16:50.880Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -2808,6 +2808,7 @@
 ||metrics.mdstrm.com^
 ||metrics.onshape.com^
 ||metrics.pico.tools^
+||metrics.rapidedge.io^
 ||metrics.scribblelive.com^
 ||metrics.userguiding.com^
 ||metrix.emagister.com^
@@ -4450,6 +4451,7 @@
 ||tracking.unrealengine.com^
 ||tracking.wallapop.com^
 ||trackr.vivenu.com^
+||trafficid.brandwell.ai^
 ||trck.coomeet.com^
 ||trckng.dainese.com^
 ||trcksplt.miro.com^
@@ -70895,7 +70897,6 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||metrics.qualer.com^
 ||metrics.quickmedates.com^
 ||metrics.quillbot.com^
-||metrics.rapidedge.io^
 ||metrics.raptr.com^
 ||metrics.robinhood.net^
 ||metrics.roots.com^
