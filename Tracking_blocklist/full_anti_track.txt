@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.501
+! Version: 1.502
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-09-11T18:20:33.265Z
+! Last modified: 2025-09-11T20:15:28.794Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -64587,7 +64587,6 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||ignals.com^
 ||ignateignatetame.com^
 ||ignfa.rowenhomes.com^
-||ignhl.aura.com^
 ||ignifyecom.s3.amazonaws.com^
 ||ignoblerectifymargaret.com^
 ||ignorant-excitement.pro^
@@ -248758,6 +248757,8 @@ dlsdk.appsflyer.com^
 ^consent-tracking-api.js^
 ^cookie-message-AllBrands.min.js^
 ^cookieBanner.AOL.js^
+^cookieBar.js^
+^cookiebanner.js^
 ^cookieconsent-onetrust-js.js^
 ^cookieconsent.min.js^
 ^criteo.min.js^
@@ -248776,6 +248777,7 @@ dlsdk.appsflyer.com^
 ^google-analytics-universal-cart.min.js^
 ^google-analytics-universal.min.js^
 ^google-tag-manager-cart.min.js^
+^gtag.js^
 ^gtm.js^
 ^kakao.min.js^
 ^keepalive.min.js^
@@ -250801,6 +250803,7 @@ dlsdk.appsflyer.com^
 ||analytics.withgoogle.com^
 ||analytics.write.as^
 ||analytics2.uros.icu^
+||analyticsaura.com^
 ||analyticson.com^
 ||analyticsseo.com^
 ||analyticssuitefrontend-pa.googleapis.com^
@@ -251202,7 +251205,10 @@ dlsdk.appsflyer.com^
 ||augeomarketing.com^
 ||augu3yhd485st.com^
 ||aunica.com^
+||aura-analytics.com^
 ||aura-dsp.com^
+||aura.com^
+||auraanalytics.com.au^
 ||auryc.com^
 ||ausgezeichnet.org^
 ||ausha.co^
@@ -251235,6 +251241,7 @@ dlsdk.appsflyer.com^
 ||autotrader.co.uk^
 ||autoverify.com^
 ||autowriterpro.com^
+||autxllc.com^
 ||av-joyu-cutes.com^
 ||av-northern-apps.com^
 ||av.st^
@@ -251289,6 +251296,7 @@ dlsdk.appsflyer.com^
 ||axiommedia.co^
 ||axis.com^
 ||axkxy.com^
+||axoltbrain.com^
 ||axonhealthcare.nl^
 ||ayabreya.xyz^
 ||ayaline.com^
@@ -251662,6 +251670,7 @@ dlsdk.appsflyer.com^
 ||bewelllabs.com^
 ||bexcommunicatie.nl^
 ||beyable.com^
+||beyondproducts.io^
 ||bfc-bussum.nl^
 ||bfdcdn.com^
 ||bfgcdn.com^
@@ -252293,7 +252302,7 @@ dlsdk.appsflyer.com^
 ||cat.pexels.com^
 ||catalog.video.msn.com^
 ||catbrushcable.com^
-||catharinaziekenhuis.nl^
+||catharinaziekenhuis.nl^$badfilter
 ||cathyimmediates.xyz^
 ||cauzal.ai^
 ||cavai.com^
@@ -254005,6 +254014,7 @@ dlsdk.appsflyer.com^
 ||dh54wf.xyz^
 ||dhqbrvplips7x.cloudfront.net^
 ||dhxyzx.cn^
+||di2ce.com^
 ||di5.biz^
 ||diabacorenaganotonic.best^
 ||diablo3.com^
@@ -255349,6 +255359,7 @@ dlsdk.appsflyer.com^
 ||getadblock.com^
 ||getambassador.com^
 ||getamigo.io^
+||getaura.ai^
 ||getbee.io^
 ||getblue.io^
 ||getblueshift.com^
@@ -257764,6 +257775,7 @@ dlsdk.appsflyer.com^
 ||matomo.nymtech.net^
 ||matomo.org^
 ||matomo.osttirol.com^
+||matomo.php^
 ||matomo.pifferi.info^
 ||matomo.post.at^
 ||matomo.riot.im^
@@ -260817,6 +260829,7 @@ dlsdk.appsflyer.com^
 ||springernature.io^
 ||spt.dictionary.com^
 ||sptrack.trello.com^
+||sputnik8.com^
 ||spyenterpri.space^
 ||spyfu.com^
 ||spyic.com^
@@ -260943,6 +260956,7 @@ dlsdk.appsflyer.com^
 ||statistieken.coa.nl^
 ||statistieken.groenlinks.nl^
 ||statistieken.pharmeon.nl^
+||statistieken.sheerenloo.nl^
 ||statistik.die-partei.net^
 ||statistik.yellowmap.de^
 ||statistik1.ru^
