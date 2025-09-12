@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.507
+! Version: 1.508
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-09-12T13:25:21.458Z
+! Last modified: 2025-09-12T21:15:11.533Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -296,6 +296,7 @@
 ||matheranalytics.com^
 ||mathilde-ads.com^
 ||matomo3.org^
+||maxclientstatapi.com^
 ||maxepv.com^
 ||mb-tracking.com^
 ||mbmgivexdvpajr.com^
@@ -2707,6 +2708,7 @@
 ||fkrkkmxsqeb5bj9r.s3.amazonaws.com^
 ||flashstats.libsyn.com^
 ||flixgvid.flix360.io^
+||fls-na.amazon.com^
 ||fog.pixual.co^
 ||fp-cdn.azureedge.net^
 ||fs-client-logger.herokuapp.com^
@@ -2785,6 +2787,7 @@
 ||loglady.skypicker.com^
 ||logs-api.shoprunner.com^
 ||logs.animaapp.com^
+||logs.betterstack.com^
 ||logs.dynamicauth.com^
 ||logs.mezmo.com^
 ||logs.spilgames.com^
@@ -4168,6 +4171,7 @@
 ||metrics.freemake.com^
 ||metrics.hackerrank.com^
 ||metrics.hyperliquid.xyz^
+||metrics.imdb.com^
 ||metrics.onewegg.com^
 ||metrics.roblox.com^
 ||metrics.spkt.io^
@@ -69245,7 +69249,6 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||logs.appsource.microsoft.com^
 ||logs.asknebula.com^
 ||logs.betria.com^
-||logs.betterstack.com^
 ||logs.characterstrong.com^
 ||logs.chelaile.net.cn^
 ||logs.chronosphere.io^
@@ -71048,7 +71051,6 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||metrics.idtid.com^
 ||metrics.iknowwhatyoudidlastsummer.movie^
 ||metrics.ilearntoboat.com^
-||metrics.imdb.com^
 ||metrics.immoscoop.be^
 ||metrics.intouchcustomer.com^
 ||metrics.jelou.ai^
@@ -96103,7 +96105,6 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||statics-marketingsites-eus-ms-com.akamaized.net^
 ||statics-marketingsites-neu-ms-com.akamaized.net^
 ||aax-us-east-retail-direct.amazon.com^
-||fls-na.amazon.com^
 ||adserver-vpc-alb-0-649637586.ap-northeast-1.elb.amazonaws.com^
 ||adserver-vpc-alb-1-769379334.ap-northeast-1.elb.amazonaws.com^
 ||data-collect-337392791.ap-northeast-2.elb.amazonaws.com^
