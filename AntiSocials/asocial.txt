@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.392
+! Version: 1.393
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-09-13T09:14:32.960Z
+! Last modified: 2025-09-14T01:11:09.809Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -6369,7 +6369,6 @@ correiodopovo.com.br##.menusocial > nav > ul > li > a[href="javascript:;"][oncli
 superesportes.com.br###shareitensInf > a[id^="share"]
 jornaldacidadeonline.com.br##.post__share-bar
 jakbudowac.pl###actionsPanel > .actions-list > button[class^="action share-"]
-n-tv.de##.article__share
 openspeedtest.com###ostsharebutton
 videosdemadurasx.com,sexvid.*,gamefavo.com##a[href="#share"]
 pornpics.com##.gall-info-share
@@ -21122,7 +21121,7 @@ clubic.com##[style="position: sticky; top: 55px;"]:has-text(Inscrivez-vous à no
 nbcsports.com##p.cms-textAlign-center:has-text(follow NBC Sports)
 psypost.org##strong:has-text(/Stay informed|Stay on top/)
 royalqueenseeds.*##.social-media-icons-footer
-agfk-bw.de,clara.es,hcb.net##.socialmedia
+agfk-bw.de,clara.es,hcb.net,travel.state.gov##.socialmedia
 avira.com,byjus.com,commentpicker.com,hakaimagazine.com,hollywoodlife.com,homemark.co.za,ilgiornale.it,iphoneitalia.com,malaymail.com,maxabout.com,motorsport-xl.de,ncbi.nlm.nih.gov,news24.com,novosti.rs,nu.nl,politico.eu,tennismagazin.de,thepostmillennial.com##.social-sharing
 exafm.com,goldderby.com,lacaderadeeva.com,lamejor.com.mx,lasillarota.com,mvsnoticias.com,pronto.com.ar,radioformula.com.mx,revistaforum.com.br,sumedico.com##.share-group
 brecha.com.uy,consigli.it,lgbtqnation.com,ocaholic.ch##.a2a_kit
@@ -21185,6 +21184,7 @@ globalnews.ca###footer-social
 adblockplus.org###social-list
 gameloop.com##.Footer_follow__eMVb8
 gameloop.com##.Share_pc_share__RxDpq
+n-tv.de##.article__share
 rawstory.com##.body-share-wrap
 globalnews.ca##.c-socialShare
 kabeleins.de,prosieben.de,prosiebenmaxx.de,ran.de,sat1.de,sixx.de,suomi24.fi##.fb-page
