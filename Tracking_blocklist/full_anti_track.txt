@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.515
+! Version: 1.516
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-09-14T08:20:14.695Z
+! Last modified: 2025-09-14T12:27:44.943Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -2700,6 +2700,7 @@
 ||events.yourcx.io^
 ||eventsproxy.gargantuan.futureplc.com^
 ||evt.houzz.com^
+||ewe.loudcrowd.com^
 ||f-log-at.grammarly.io^
 ||f-log-test.grammarly.io^
 ||fcmatch.google.com^
@@ -37155,6 +37156,7 @@
 ||track.tesiteca.it^
 ||tracker.stileo.it^
 ||tracking.gruppo.mps.it^
+||ad-bls-tracking.lemino.docomo.ne.jp^
 ||ad-platform.jmty.jp^
 ||altema-log.com^
 ||ana.3751chat.com^
