@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.522
+! Version: 1.523
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-09-15T08:22:59.352Z
+! Last modified: 2025-09-15T11:15:41.276Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -88438,7 +88438,6 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||tr-vcode-api.vivoglobal.com^
 ||tr-vcode-od.vivoglobal.com^
 ||tr-vcode-or.vivoglobal.com^
-||tr.acobt.tech^
 ||tr.bigpoint.com^
 ||tr.broadwaydirect.com^
 ||tr.buccaneers.com^
@@ -210968,11 +210967,14 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||t.dripemail2.com^
 ||trk.klclick2.com^
 ||trk.klclick3.com^
+||acobt.tech^
 ||galaxien.com^
+||marketingcloudapis.com^
 ||maximiser.net^
 ||popunhot1.blogspot.com^
 ||re-direct.pl^
 ||t.co^
+||yastatic.net^
 ||pixel-img.com^
 ||pixel.prb-team.com^
 ||cdn.debugbear.com^
@@ -260099,7 +260101,6 @@ dlsdk.appsflyer.com^
 ||marketingalphaprod.streaming.mediaservices.windows.net^
 ||marketingautomation.services^
 ||marketingblocks.ai^
-||marketingcloudapis.com^
 ||marketinghub.opentext.com^
 ||marketingmakers.nl^
 ||marketingman10.com^
@@ -265067,7 +265068,6 @@ dlsdk.appsflyer.com^
 ||yaohq.com^
 ||yareviews.ru^
 ||yaso.su^
-||yastatic.net^
 ||yatemy.cn^
 ||yazex.com^
 ||yccdn.com^
