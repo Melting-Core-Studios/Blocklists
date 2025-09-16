@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.409
+! Version: 1.410
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-09-16T11:14:07.279Z
+! Last modified: 2025-09-16T14:16:52.426Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -13,6 +13,7 @@ unian.net#?#div[style] > div.article-shares:upward(1)
 123telugu.com#$#.post-page-content { padding-bottom: 0 !important; }
 debate.com.mx#$#header { height: auto !important; }
 debate.com.mx#$#body { padding-top: 70px !important; }
+gorodkirov.ru,news-komi.ru##.article-footer__wrap-social
 rambler.ru##div[data-blocks="content_info"] + div[class^="container-"]
 rambler.ru#%#//scriptlet('remove-in-shadow-dom','div[data-blocks="content_info"] + div[class^="container-"]')
 vikna.tv##.section-share
@@ -754,7 +755,6 @@ blog.ui.com##button + div:not([class],[id]):has(> div[class*="hoverable"] svg > 
 dot.asahi.com##.article-share-list
 bookplus.nikkei.com##.shareModalOpenButton
 russkiymir.ru##.ul_socials_2
-gorodkirov.ru,news-komi.ru##.article-footer__wrap-social
 yle.fi###sticky-share-menu-button
 grammarly.com##div[class$="-post"] > div[class$="-container"][style^="top"]:has(> a[href*="facebook.com/dialog/share"])
 torinocronaca.it##div[id^="share_link_container_"]
@@ -7862,6 +7862,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_apps
 ##a[href^="http://twitter.com/intent/tweet?"]
 ##a[href^="http://www.twitter.com/intent/tweet?"]
 ##a[href^="http://twitter.com/intent/tweet/?"]
+##.article-footer__wrap-social
 ##button[title="shareOnWhatsap"]
 ##button[title="Delen op Facebook"]
 ##button[title="Delen op Twitter"]
