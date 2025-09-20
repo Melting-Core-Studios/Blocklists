@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.551
+! Version: 1.552
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-09-20T08:21:07.508Z
+! Last modified: 2025-09-20T12:29:34.143Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -59,6 +59,7 @@
 ||adnext.co^
 ||adrtx.net^
 ||adscore.com^
+||adsmeasurement.com^
 ||adspsp.com^
 ||adstk.io^
 ||adultium.com^
@@ -2945,6 +2946,7 @@
 ||rum.uptime.com^
 ||rw.marchex.io^
 ||s.autopilotapp.com^
+||s.axon.ai^
 ||s.vibe.co^
 ||sa.scorpion.co^
 ||scripts.psyma.com^
@@ -3232,6 +3234,7 @@
 ||d11bdev7tcn7wh.cloudfront.net^
 ||d169bbxks24g2u.cloudfront.net^
 ||d16fk4ms6rqz1v.cloudfront.net^
+||d16hi2v1mh7lg7.cloudfront.net^
 ||d1733r3id7jrw5.cloudfront.net^
 ||d18p8z0ptb8qab.cloudfront.net^
 ||d191y0yd6d0jy4.cloudfront.net^
@@ -43752,7 +43755,6 @@
 ||adslop.link^
 ||adslot.com^
 ||adsm.gameforge.de^
-||adsmeasurement.com^
 ||adsmediacl.com^
 ||adsmediator.com^
 ||adsmg.fanfox.net^
