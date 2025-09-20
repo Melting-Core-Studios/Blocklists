@@ -1,30 +1,14 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.433
+! Version: 1.434
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-09-20T04:19:07.235Z
+! Last modified: 2025-09-20T05:15:08.187Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
-lj_bookmarklet
-axolot.mave.digital##.mobile-menu-header > span + svg[height="38"]
-nonno.hpplus.jp##.content_sns
-rockstarintel.com##.thb_widget_twitter
-meetia.net###float-sns-btn-label
-hek.de##.js_social_facebook
-hek.de##.js_social_xing
-politrussia.com##.soc_btn
-chernozem.info##.button_more
-onedio.ru##.modalpopupmask
-rachidscience.com,gazetevatan.com##.share2
-fotostrana.ru##span[onclick^="newCatalogJS.appShare."]
-rupprecht.de#?#.article-more-actions > div.well > div:has(> ul.list-group > li > a.social-facebook)
 unian.net#?#div[style] > div.article-shares:upward(1)
-##.social-sidebar-wrap
-chernozem.info,tv5.zp.ua,inforesist.org,zabeba.li###social-community-popup
-twgreatdaily.com#$#div[aria-labelledby="mySmallModalLabel"] { display: none!important; }
 123telugu.com#$#.cat-tags { display: none !important; }
 123telugu.com#$#.post-page-content { padding-bottom: 0 !important; }
 debate.com.mx#$#header { height: auto !important; }
