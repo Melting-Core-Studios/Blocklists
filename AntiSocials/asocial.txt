@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.439
+! Version: 1.440
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-09-22T04:19:41.400Z
+! Last modified: 2025-09-22T06:24:45.298Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -587,7 +587,7 @@ filmibeat.com##.fb-article-sharesocial
 transfermarkt.com.tr##a.db[href="https://x.com/TMtr_news"]
 matsukiyococokara-online.com##.page-bottom > .widget.block-static-block:has(.p-snsbtnlist)
 foodandwine.com,allrecipes.com##.mm-recipes-social-share__share-wrapper
-hotukdeals.com,pepper.com##button[data-t="shareBtn"]
+pepperdeals.com,pepperdeals.se,chollometro.com,preisjaeger.at,hotukdeals.com,pepper.com##button[data-t="shareBtn"]
 aptoide.com##div[class^="main-header-mobile__ShareContainer-"]
 nur.kz##button[aria-label="Open sharing modal"]
 sakh.online#?#div[class^="SakhHome_header"]:contains(Социальные сети)
@@ -2673,7 +2673,7 @@ thepcenthusiast.com##.tpce-social-wrapper
 webcomicsapp.com##.icon-share-btn
 simcong.com##.sns_share_wrap
 obrazovaka.ru##article > div.one-of
-intencelove.com,kasioda.com,delishare.jp,isa-computer.com,star.ape.jp###snsShareBottom
+comicommunity.com,intencelove.com,kasioda.com,delishare.jp,isa-computer.com,star.ape.jp###snsShareBottom
 girlsvip-matome.com##.top_sosial
 newscrab.com##.social-icon-share
 1tv.ru###eump-lottie-share
