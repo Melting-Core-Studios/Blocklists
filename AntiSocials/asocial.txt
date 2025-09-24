@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.449
+! Version: 1.450
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-09-24T02:57:44.651Z
+! Last modified: 2025-09-24T03:30:21.685Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -19824,7 +19824,7 @@ tennis.com##.-sharebar
 nhl.com,petri.com##.-social
 ynet.co.il,ynetnews.com##.AccordionShareWrapper
 abebooks.com,nbcsports.com,nhpr.org,pitchbook.com,scrippsnews.com##.ActionBar
-kpbs.org##.ActionBar-items
+kpbs.org,wmar2news.com##.ActionBar-items
 newatlas.com##.ActionLink
 newscientist.com##.ArticleHeader__SocialWrapper
 afar.com##.ArticlePage-actions-wrapper
@@ -19952,7 +19952,7 @@ u.today##.article__gnews
 rt.com##.article__google-news
 odessa-journal.com##.article__hictory-descr_share
 tvpworld.com##.article__icons
-armeniasputnik.am,noticiabrasil.net.br,spnfa.ir,sputnik-abkhazia.info,sputnik-georgia.com,sputnik-ossetia.com,sputnik.af,sputnik.az,sputnik.by,sputnik.kg,sputnik.kz,sputnik.tj,sputnikarabic.ae,sputnikglobe.com,sputniknews.africa,sputniknews.cn,sputniknews.com,sputniknews.com.tr,sputniknews.in,sputniknews.jp,sputniknews.lat,sputniknews.ru,sputniknews.uz,sputniknews.vn,sputniknewsbr.com.br,sputnikportal.rs##.article__news-services-subscribe
+armeniasputnik.am,noticiabrasil.net.br,noticiaslatam.lat,spnfa.ir,sputnik-abkhazia.info,sputnik-georgia.com,sputnik-ossetia.com,sputnik.af,sputnik.az,sputnik.by,sputnik.kg,sputnik.kz,sputnik.tj,sputnikarabic.ae,sputnikglobe.com,sputniknews.africa,sputniknews.cn,sputniknews.com,sputniknews.com.tr,sputniknews.in,sputniknews.jp,sputniknews.lat,sputniknews.ru,sputniknews.uz,sputniknews.vn,sputniknewsbr.com.br,sputnikportal.rs##.article__news-services-subscribe
 thenewhumanitarian.org##.article__post-share
 ecowatch.com##.article__share-buttons
 wnep.com##.article__sharing
@@ -22284,7 +22284,7 @@ caravan.kz##.PatternCurrentNewsContent__share
 caravan.kz##.PatternCurrentNewsHead__share
 rg.ru##.StoryContentMainShare_root__LRFwu
 5-tv.ru##._links
-ria.ru##.article__aggr
+radiosputnik.ru,ria.ru##.article__aggr
 gtrk.tv##.footer-social-wrap
 rosphoto.com##.ft-soc-block
 interfax.ru##.header__soc
