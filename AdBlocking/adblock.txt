@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Block those ads
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1832
+! Version: 1.1833
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-09-24T03:30:20.150Z
+! Last modified: 2025-09-24T04:19:12.315Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -27487,6 +27487,7 @@
 ||qnnomoxfmeqlr.com^
 ||qnp16tstw.com^
 ||qnpuinwkrqmyy.online^
+||qnpyggpouxysw.online^
 ||qnravllmrkpdo.space^
 ||qnrvhxytjioqx.com^
 ||qnsakkjtftgvb.online^
@@ -28764,6 +28765,7 @@
 ||rfifavwhiomx.com^
 ||rfihub.com^
 ||rfihub.net^
+||rfilmuhipsfdh.online^
 ||rfity.com^
 ||rfjqkgnnuouma.space^
 ||rfjqujxaued.net^
@@ -39429,6 +39431,7 @@
 ||go.gsrv.dev^
 ||go.tbllzon.com^
 ||go.xyouxxx.com^
+||go1.3mre.work^
 ||go1.a2ure.work^
 ||go1.bgunit.com^
 ||go1.ccre.work^
@@ -39582,12 +39585,10 @@
 ||creatives.x2lt.com^
 ||cx6.lastxxxmovies.com^
 ||data.bangtubevideos.com^
-||delete05032026.shop^
 ||democratic072925.shop^
 ||departjavgg124.fun^
 ||dilute08062025.shop^
 ||discourage072925.shop^
-||dust.xxx-video-indian.com^
 ||dx7.sosporntube.com^
 ||dzqtn.lesbianbliss.com^
 ||earnvids05032026.shop^
@@ -39670,7 +39671,6 @@
 ||pip.jhbsdds.com^
 ||pleasejav182.fun^
 ||pop.lovingsiren.com^
-||prayer05032026.shop^
 ||pre.03porno.com^
 ||pre.102porno.net^
 ||pre.ebasos.club^
@@ -39924,6 +39924,7 @@
 ||s.8jfbt5va3r.com^
 ||s.advantageclicks.net^
 ||s.allureanews.com^
+||s.b7q9v8z.com^
 ||s.brilmaver.com^
 ||s.cant3am.com^
 ||s.cm9srv.com^
@@ -40177,6 +40178,7 @@
 ||data.bvsrv.com^
 ||dsp.branchdsp.io^
 ||filter-eu.adportonic.com^
+||filter-eu.adxpoint.com^
 ||filter-eu.adzestoads.xyz^
 ||filter-eu.blasti.download^
 ||filter-eu.high-on-ads.com^
@@ -40371,7 +40373,6 @@
 ||xml-eu-v4.9versemedia.com^
 ||xml-eu-v4.adexone.com^
 ||xml-eu-v4.adportonic.com^
-||xml-eu-v4.adquint.com^
 ||xml-eu-v4.adsfloow.net^
 ||xml-eu-v4.adverttise.com^
 ||xml-eu-v4.adxpoint.com^
@@ -40482,7 +40483,6 @@
 ||xml-v4.ripamatic.com^
 ||xml-v4.springtides.xyz^
 ||xml-v4.srvqck10.com^
-||xml-v4.srvqck19.com^
 ||xml-v4.srvqck21.com^
 ||xml-v4.srvqck23.com^
 ||xml-v4.srvqck25.com^
@@ -41613,6 +41613,7 @@ Banner468x60
 /^https?:\/\/(.+?\.)?videogamesblogger\.com\/wp-content\/uploads\/.*[a-zA-Z0-9]{8,}\.*/$badfilter
 ||freeadultcomix.com^$badfilter
 @@||local.adguard.org^
+@@||thumbor.thedailymeal.com^
 ||imgshare.info^$badfilter
 @@||download.adguard.com^
 @@||admin.mailchimp.com^
