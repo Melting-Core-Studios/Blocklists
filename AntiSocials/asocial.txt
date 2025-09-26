@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.468
+! Version: 1.469
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-09-26T09:17:11.322Z
+! Last modified: 2025-09-26T11:13:23.829Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -375,6 +375,7 @@ esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israel
 esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israelnationalnews.com,lifehacker.com,cgmagonline.com,gizmodo.com,gamerevolution.com,metro.co.uk,thurrott.com,stereogum.com,ign.com,newsweek.com,dailymail.co.uk,comingsoon.net,timesofisrael.com,nypost.com,9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,electrek.co#%#//scriptlet('remove-in-shadow-dom', 'div[data-spot-im-class="vote-links"] + span[class$="index__dot"]')
 2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com##.comment__share > *
 antirez.com,comicbook.com,alexp.pl,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com###thread-share-bar
+al.com##.sharebarBeta > ul > li:has(> button[aria-label="Share this article"])
 litv.tv##a[title="加入Line好友"]
 litv.tv##button[title="分享"]
 driving.ca##.model__social > .model__social-text
@@ -4366,7 +4367,6 @@ gsm1x.xyz###social-counter
 pinterest.*##div[data-test-id="share-button"]
 usedoor.jp##.allcontsntsdivs > p[align="center"]
 nextgov.com##.social-options
-slamdunk-movie.jp##button[data-share-toggle]
 ma-bank.net##.social_list
 rakuten.co.jp###susumeruArea
 wazap.com###large_twitter_btn
@@ -8024,6 +8024,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_apps
 ##a[href^="http://twitter.com/intent/tweet?"]
 ##a[href^="http://www.twitter.com/intent/tweet?"]
 ##a[href^="http://twitter.com/intent/tweet/?"]
+##button[data-share-toggle]
 ##.article-footer__wrap-social
 ##button[title="shareOnWhatsap"]
 ##button[title="Delen op Facebook"]
