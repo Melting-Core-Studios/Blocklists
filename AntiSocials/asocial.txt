@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.478
+! Version: 1.479
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-09-29T08:23:03.634Z
+! Last modified: 2025-09-29T12:32:01.858Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -376,6 +376,7 @@ esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israel
 esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israelnationalnews.com,lifehacker.com,cgmagonline.com,gizmodo.com,gamerevolution.com,metro.co.uk,thurrott.com,stereogum.com,ign.com,newsweek.com,dailymail.co.uk,comingsoon.net,timesofisrael.com,nypost.com,9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,electrek.co#%#//scriptlet('remove-in-shadow-dom', 'div[data-spot-im-class="vote-links"] + span[class$="index__dot"]')
 2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com##.comment__share > *
 antirez.com,comicbook.com,alexp.pl,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com###thread-share-bar
+iatropedia.gr##div[style]:has(> div.single-social)
 povar.ru###content > div[style^="text-align"]:has(> div.uSocial-Share)
 spectrum.ieee.org##.floating-shares
 al.com##.sharebarBeta > ul > li:has(> button[aria-label="Share this article"])
@@ -5201,7 +5202,7 @@ aznude.com,tasteofhome.com,steamplay.*,steanplay.*,streamp1ay.*,streanplay.*,env
 colorlib.com##.wpex-fa-social-widget
 gumtree.com.au##.vip-ad-social-share
 biod.ro##.thrv_social
-thedrum.com,omelete.com.br##.article__header__social
+omelete.com.mx,thedrum.com,omelete.com.br##.article__header__social
 cubiq.ru##.subs
 skysmart.ru##.share-simple
 chargedretail.co.uk,themuslimvibe.com##.w-sharing-tooltip
