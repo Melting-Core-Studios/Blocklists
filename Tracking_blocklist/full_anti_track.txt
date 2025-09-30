@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.610
+! Version: 1.611
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-09-30T04:20:06.656Z
+! Last modified: 2025-09-30T07:18:10.828Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -162,6 +162,7 @@
 ||eagle-insight.com^
 ||ecn-ldr.de^
 ||ed-sys.net^
+||ediemidnightzombies.com^
 ||efreecode.com^
 ||egoi.site^
 ||emailsnow.info^
@@ -3201,6 +3202,9 @@
 ||metrics.mzstatic.com^
 ||supportmetrics.apple.com^
 ||yandexadexchange.net^
+||do-not-tracker.org^
+||eviltracker.net^
+||trackersimulator.org^
 ||d10lpsik1i8c69.cloudfront.net^
 ||d11bdev7tcn7wh.cloudfront.net^
 ||d169bbxks24g2u.cloudfront.net^
@@ -68341,7 +68345,6 @@
 ||dnt62trk.com^
 ||dnvogsqirpcfq.space^
 ||do-global.com^
-||do-not-tracker.org^
 ||do.redbuckzincate.com^
 ||do0digwedphcm.cloudfront.net^
 ||do1dns3y1w33m.cloudfront.net^
@@ -69861,7 +69864,6 @@
 ||edible-seat.pro^
 ||edible-sort.pro^
 ||edidnotap.org^
-||ediemidnightzombies.com^
 ||edificecanters.click^
 ||edigfccghidjchhiaacf.world^
 ||edigitalresearch.com^
@@ -71733,7 +71735,6 @@
 ||evil22.aerostarmodel.buzz^
 ||evilexchanged.com^
 ||evilstrike.pro^
-||eviltracker.net^
 ||evippusc.com^
 ||evnrhdqfqbcykku.com^
 ||evnzrsecbioqp.today^
@@ -112000,7 +112001,6 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||trackers-1816877321.us-east-1.elb.amazonaws.com^
 ||trackers.fubo.tv^
 ||trackershop-uk.com^
-||trackersimulator.org^
 ||trackeverything.co^
 ||trackgdi.com^
 ||trackhorizon.nnmtools.com^
@@ -121122,7 +121122,6 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||zmaehtvocezof.space^
 ||zmamhuakbbu.com^
 ||zmaticoo.com^
-||zmaticoo.funsdata.com^
 ||zmbquvsa.com^
 ||zmiqg.eccouncil.org^
 ||zmixdvlsfruqc.website^
@@ -155137,6 +155136,7 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||popunhot1.blogspot.com^
 ||re-direct.pl^
 ||t.co^
+||funsdata.com^
 ||ahatm12od.top^
 ||an.gr-wcon.com^
 ||pixel-img.com^
@@ -192086,6 +192086,7 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||analytics.qoqa.ch^
 ||analytics.qoqa.com^
 ||appsflyer-report.honkaiimpact3.com^
+||trace.free-reels.com^
 ||event-portal.dailyinnovation.biz^
 ||dtcollect.newsbang.com^
 ||dev-apigw.samsungdmroute.com^
