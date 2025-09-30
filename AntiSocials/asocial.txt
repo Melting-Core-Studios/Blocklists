@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.483
+! Version: 1.484
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-09-30T07:17:00.424Z
+! Last modified: 2025-09-30T09:17:14.226Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -724,7 +724,7 @@ livehindustan.com##div[class^="StoryPage_shrView_"]
 foreignpolicy.com##.share-dropdown__nav + span.vertical-divider
 hindustantimes.com##div[class^="shareNentryPoints_"]
 glassrpske.com##.tags
-dailymail.co.uk##.socialShareContainer > ul > li:not(:is(.email,.copyToClipboard))
+dailymail.co.uk##.socialShareContainer > ul > li
 dailymail.co.uk##div[class^="commentAction"] > div[class^="container"] > button:not(:has(> span[class^="copy"]))
 india.com##.social-icon
 m.twitch.tv##div[class*=" secondaryContent--"] > div[class^="Layout-sc-"]:has(> button path[d*="l5-5 5 5z"])
@@ -5977,7 +5977,7 @@ merriam-webster.com###social-sidebar-container
 abc.es##.vjs-voc-embed-codes-social-share-superwrap
 clipdiary.com##.col-md-2 > div.well
 dailysabah.com##.articles_social_media
-zutool.jp,jjan.kr,persol-tech-s.co.jp,ukranews.com##.article_social
+partnerkin.com,zutool.jp,jjan.kr,persol-tech-s.co.jp,ukranews.com##.article_social
 pensador.com,dicio.com.br,significados.com.br,dicionariodenomesproprios.com.br##.sg-social
 usnews.com##div[class*="SocialSharing"]
 itoolab.com,investing.com###share-btn
