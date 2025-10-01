@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.616
+! Version: 1.617
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-10-01T08:22:47.115Z
+! Last modified: 2025-10-01T11:17:04.375Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -1646,6 +1646,7 @@
 ||perfectfetch.com^
 ||perkyjade.com^
 ||phonecup.com^
+||phoneresult.com^
 ||photohints.com^
 ||physicstees.com^
 ||pickmicro.com^
@@ -94528,7 +94529,6 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||phonegrid.org^
 ||phonehalfmoonwild.com^
 ||phonemesh.org^
-||phoneresult.com^
 ||phonsmidgen.qpon^
 ||phonydepth.com^
 ||phoolreekrowobs.com^
