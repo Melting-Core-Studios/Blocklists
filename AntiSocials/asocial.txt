@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.502
+! Version: 1.503
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-10-02T21:14:14.143Z
+! Last modified: 2025-10-02T22:14:31.900Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -20782,6 +20782,7 @@ oxfordamerican.org##.shareLinkContainer
 tech.hindustantimes.com##.shareLinks
 windowsreport.com##.shareMobile
 drexel.edu##.share__body
+gov.br,wtop.com##.share__container
 vimeo.com##.share_body
 snowbrains.com##.share_btnhead
 goodmenproject.com##.share_count_holder
@@ -20935,6 +20936,7 @@ cio.com##.social-share-sticky-menu
 arnnet.com.au,csoonline.com,infoworld.com,networkworld.com##.social-share-sticky-menu__wrapper
 appleinsider.com##.social-share-wrap
 rappler.com##.social-share__actions
+cnn.com##.social-share_labelled-list
 edition.cnn.com##.social-share_labelled-list__share-links
 officialcharts.com##.social-sharing-bar
 bestnewshere.com,mediaweek.com.au##.social-sharing-bot
@@ -22232,7 +22234,6 @@ olhardigital.com.br##.share-header
 oantagonista.com.br##.share-posts
 sicnoticias.pt##.share-toggle-wrapper
 jornaldenegocios.pt##.shareModal
-gov.br##.share__container
 slatual.com.br##.share_post_head_item_two
 acordacidade.com.br##.shared
 trabalhabrasil.com.br##.sharedVacancy
