@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.627
+! Version: 1.628
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-10-03T10:17:26.585Z
+! Last modified: 2025-10-03T12:31:09.512Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -2888,7 +2888,6 @@
 ||pixel.pub.lilyai.net^
 ||pixel.redgifs.com^
 ||pixel.safe-installation.com^
-||pixel.sprinklr.com^
 ||pixel.wp.com^
 ||pixel.yola.com^
 ||pla.fwdcdn.com^
@@ -95305,7 +95304,6 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||pixel-pmailepmailod-betlocalairy.ww.staging.tabtab-staging.com^
 ||pixel-prepostold.vle.billing-ww.staging.tabtab-staging.com^
 ||pixel-preprolax1.staging.tabtab-staging.com^
-||pixel-prod2.sprinklr.com^
 ||pixel-ptooleptoolod-betfairy-live-stagingsvcvps1.staging.tabtab-staging.com^
 ||pixel-ptooleptoolod-betfairy-ww.staging.tabtab-staging.com^
 ||pixel-pub-api.onecommerce.io^
@@ -102541,7 +102539,6 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||sentry-next.wixpress.com^
 ||sentry-platform.pogospike.com^
 ||sentry-prod.loblaw.digital^
-||sentry-prod.sprinklr.com^
 ||sentry-relay.opera-api.com^
 ||sentry-tech.cdek.ru^
 ||sentry-v2.coros.com^
@@ -111178,7 +111175,6 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||tracking-api.passeidireto.com^
 ||tracking-app.diginetica.net^
 ||tracking-lealcobrancaspremium.p-email.net^
-||tracking-prod.sprinklr.com^
 ||tracking-production-3e47c89e5c807dd5.elb.us-east-1.amazonaws.com^
 ||tracking-server-prod-1.zenmxapps.com^
 ||tracking-sst.clicksafety.com^
@@ -208635,6 +208631,18 @@ dlsdk.appsflyer.com^
 ||zzrcz.com^
 ||zzsx8.com^
 ||zzzjvqzkmqllb.top^
+||optimus.tech^
+||sprinklr.com^
+||aura-analytics-backend-default-rtdb.europe-west1.firebasedatabase.app^
+||tracking.swap.fm^
+||visitor.abmatic.ai^
+||cancelx.com^
+||aryanjalan.com^
+||clic2load.fr^
+||accelimedia.com^
+||gblock.app^
+||bc.anwb.nl^
+||hosthavoc.com^
 ||badv.wp.pl^
 ||emisjawidgeet.onet.pl^
 ||ads.edipresse.pl^
