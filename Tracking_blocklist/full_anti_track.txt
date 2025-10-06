@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.638
+! Version: 1.639
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-10-06T08:22:39.961Z
+! Last modified: 2025-10-06T09:21:14.299Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -2441,6 +2441,7 @@
 ||affiliates.minglematch.com^
 ||alexandria.marfeelcdn.com^
 ||ams-pageview-public.s3.amazonaws.com^
+||analytic-client.adult-chess.com^
 ||analytic-client.blitzmightyparty.com^
 ||analytic-client.panowars.com^
 ||analytic.rollout.io^
@@ -52069,7 +52070,6 @@
 ||analytic-api.mitienda.mx^
 ||analytic-api.optisignsapp.com^
 ||analytic-bi.tourismthailand.org^
-||analytic-client.adult-chess.com^
 ||analytic-elb-1253429370.us-east-1.elb.amazonaws.com^
 ||analytic-events-prod.dataservices-mml.cloud^
 ||analytic-info-collector.unimealplan.com^
