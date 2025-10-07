@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.645
+! Version: 1.646
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-10-07T10:18:12.919Z
+! Last modified: 2025-10-07T12:33:02.178Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -88,6 +88,7 @@
 ||awmonitor.com^
 ||b3mxnuvcer.com^
 ||bfmio.com^
+||bgalytics.com^
 ||bidgx.com^
 ||bidswitch.net^
 ||bkrtx.com^
@@ -4202,6 +4203,7 @@
 ||ophan.theguardian.com^
 ||optimizely.techtarget.com^
 ||otel-mobile.doordash.com^
+||p.codio.com^
 ||p.hentaiforce.net^
 ||p.minds.com^
 ||p.spotidownloader.com^
@@ -153732,6 +153734,7 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||t.dripemail2.com^
 ||trk.klclick2.com^
 ||trk.klclick3.com^
+||adsflowprime.top^
 ||galaxien.com^
 ||marketingcloudapis.com^
 ||maximiser.net^
