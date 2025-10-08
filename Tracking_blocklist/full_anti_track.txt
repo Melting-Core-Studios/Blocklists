@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.650
+! Version: 1.651
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-10-08T08:22:50.856Z
+! Last modified: 2025-10-08T10:18:11.129Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -2517,6 +2517,7 @@
 ||analytics.radiatemedia.com^
 ||analytics.reyrey.net^
 ||analytics.rogersmedia.com^
+||analytics.sayprimer.com^
 ||analytics.scorpion.co^
 ||analytics.shorthand.com^
 ||analytics.snidigital.com^
@@ -54554,7 +54555,6 @@
 ||analytics.savematic.com^
 ||analytics.savematik.com^
 ||analytics.savvymoney.com^
-||analytics.sayprimer.com^
 ||analytics.sberhealth.ru^
 ||analytics.scandichotels.com^
 ||analytics.schaecke.at^
@@ -192609,6 +192609,7 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||analytics.qoqa.ch^
 ||analytics.qoqa.com^
 ||appsflyer-report.honkaiimpact3.com^
+||apptics.zoho.in^
 ||analytics.oliveapp.net^
 ||event-portal.dailyinnovation.biz^
 ||dtcollect.newsbang.com^
