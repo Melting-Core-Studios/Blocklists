@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.531
+! Version: 1.532
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-10-09T08:21:07.407Z
+! Last modified: 2025-10-09T10:17:29.705Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -6110,7 +6110,7 @@ m.interia.pl##.article-social.is-bottom
 dekorstilim.com##.product-right > div.product-social > a[data-selector="share-link"]
 archive.fo,archive.is,archive.li,archive.vn,archive.md,archive.ph###DIVSHARE > center#DIVSHARE2 button[onclick^="window.open"]
 unyekent.com,afyonmansethaber.com,kanal16haber.com,aksarayhaber68.com,aksarayhaberci.com##.Paylas_Butonlari_001
-sxyporn.org,sxyprn.com,sxyprn.net##.sharing_toolbox
+sxyporn.*,sxyprn.com,sxyprn.net##.sharing_toolbox
 cumberlink.com,journalstar.com##.social-share-links
 prezo.jp,gazeta.ru##.column-share
 sirabee.com,smart-flash.jp,amp-pcwelt-de.cdn.ampproject.org##.socialButton:not(.feedback)
