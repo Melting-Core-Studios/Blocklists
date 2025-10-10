@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.663
+! Version: 1.664
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-10-10T08:22:10.485Z
+! Last modified: 2025-10-10T12:32:31.676Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -472,7 +472,6 @@
 ||venusrevival.com^
 ||veozn3f.com^
 ||vfghe.com^
-||videocdnmetrika.com^
 ||videoplayerhub.com^
 ||visit-server.inmobi-choice.io^
 ||vkanalytics.net^
@@ -115443,6 +115442,7 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||videoadstech.org^
 ||videobox.com^
 ||videobyte.com^
+||videocdnmetrika.com^
 ||videocdnmetrika1.com^
 ||videocdnmetrika10.com^
 ||videocdnmetrika11.com^
@@ -192772,6 +192772,7 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||analytics.qoqa.ch^
 ||analytics.qoqa.com^
 ||appsflyer-report.honkaiimpact3.com^
+||prebid-server-canary.ifunny.co^
 ||log.oceanzz.xyz^
 ||analytics.oliveapp.net^
 ||event-portal.dailyinnovation.biz^
