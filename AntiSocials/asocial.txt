@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.543
+! Version: 1.544
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-10-12T21:13:35.603Z
+! Last modified: 2025-10-12T22:14:11.319Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -373,6 +373,7 @@ esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israel
 esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israelnationalnews.com,lifehacker.com,cgmagonline.com,gizmodo.com,gamerevolution.com,metro.co.uk,thurrott.com,stereogum.com,ign.com,newsweek.com,dailymail.co.uk,comingsoon.net,timesofisrael.com,nypost.com,9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,electrek.co#%#//scriptlet('remove-in-shadow-dom', 'div[data-spot-im-class="vote-links"] + span[class$="index__dot"]')
 2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com##.comment__share > *
 antirez.com,comicbook.com,alexp.pl,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com###thread-share-bar
+techtrenches.substack.com##.post-ufi > .post-ufi-button[href="javascript:void(0)"]
 2798731938.zigcou.com##div[class^="Post_post__"] > .-translate-x-1\/2
 motorsport.com##.msnt-share
 buymeacoffee.com##.editorContent + div[class="xs:hidden"]
@@ -19983,6 +19984,7 @@ businesstraveller.com##.article-share-outer
 babylonbee.com,notthebee.com##.article-shareables
 cosmosmagazine.com,forbes.com,heise.de,phillyvoice.com##.article-sharing
 forexlive.com##.article-slot__socials
+kyodonews.net##.article-sns
 newrepublic.com,thetech.com##.article-social
 nbcnews.com##.article-social-share-top
 heraldscotland.com##.article-sticky-social
