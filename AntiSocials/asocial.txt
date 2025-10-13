@@ -1,13 +1,14 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.548
+! Version: 1.549
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-10-13T15:16:40.183Z
+! Last modified: 2025-10-13T17:14:53.503Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
+techblog.gr,repl.it##.share-button-wrapper
 unian.net#?#div[style] > div.article-shares:upward(1)
 123telugu.com#$#.cat-tags { display: none !important; }
 123telugu.com#$#.post-page-content { padding-bottom: 0 !important; }
@@ -373,6 +374,7 @@ esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israel
 esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israelnationalnews.com,lifehacker.com,cgmagonline.com,gizmodo.com,gamerevolution.com,metro.co.uk,thurrott.com,stereogum.com,ign.com,newsweek.com,dailymail.co.uk,comingsoon.net,timesofisrael.com,nypost.com,9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,electrek.co#%#//scriptlet('remove-in-shadow-dom', 'div[data-spot-im-class="vote-links"] + span[class$="index__dot"]')
 2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com##.comment__share > *
 antirez.com,comicbook.com,alexp.pl,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com###thread-share-bar
+book.dmm.co.jp##div[data-testid="notification-setting-block"] > div > div > div:has(> div > button[data-testid="share-line-button"])
 24saatgazetesi.com##.mobile-share-button-container
 techtrenches.substack.com##.post-ufi > .post-ufi-button[href="javascript:void(0)"]
 2798731938.zigcou.com##div[class^="Post_post__"] > .-translate-x-1\/2
@@ -6395,7 +6397,7 @@ shostka.info,sumypost.com##.ni-share
 shostka.info,sumypost.com##.to-telegram
 wiez.pl##.single__post__socials-top
 181fm.com##.button-dropdown.share
-techblog.gr,repl.it##.share-button-wrapper
+marketbeat.com,techblog.gr,repl.it##.share-button-wrapper
 t3n.de##.c-social.-buttons
 ng.ru,bigmir.net##.b-article-share
 dealsite.co.kr,folhavitoria.com.br,onet.pl##.twitterShare
