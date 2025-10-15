@@ -1,14 +1,23 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.564
+! Version: 1.565
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-10-15T13:29:57.713Z
+! Last modified: 2025-10-15T16:17:51.031Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
 unian.net#?#div[style] > div.article-shares:upward(1)
+~gazetaby.com,~journey.cloud,~howtogeek.com,~dunyavegercekler.com##.social-wrapper
+id.piano.io#@#.social-wrapper
+telepolis.pl#@#.social-wrapper
+id.tinypass.com#@#.social-wrapper
+icoholder.com#@#.social-wrapper
+nobody.one#@#.social-wrapper
+gazetaby.media,gazetaby.info#@#.social-wrapper
+minutouno.com#@#.social-wrapper
+meczyki.pl#@#.social-wrapper
 123telugu.com#$#.cat-tags { display: none !important; }
 123telugu.com#$#.post-page-content { padding-bottom: 0 !important; }
 debate.com.mx#$#header { height: auto !important; }
@@ -8587,7 +8596,6 @@ designboom.com,livescience.com,pbtech.co.nz,peoplesworld.org,space.com##.fa-face
 ##.social-v
 ~medialeaks.ru##.social-widgets
 ##.social-widgets-in
-~gazetaby.com,~journey.cloud,~howtogeek.com,~dunyavegercekler.com##.social-wrapper
 ##.social4iv
 ~biletyplus.ru,~mousehuntgame.com##.socialButtons
 ~mamba.ru,~xxxlshop.de##.socialLinks
@@ -9010,7 +9018,6 @@ chunithm.sega.jp#@#a[href^="https://x.com/intent/post?"]
 retail.ru#%#//scriptlet('set-constant', 'Ya', 'emptyObj')
 retail.ru#%#//scriptlet('set-constant', 'Ya.share2', 'noopFunc')
 petra.gov.jo#@#.addthis_inline_share_toolbox
-id.piano.io#@#.social-wrapper
 heiwa-9inday.jp#@#a[href^="https://twitter.com/intent/tweet?"]
 sklep.ebilet.pl#@#.share-box
 lexlege.pl#%#//scriptlet('trusted-set-constant', 'gapi', '{"plusone": {}}')
@@ -9030,7 +9037,6 @@ ensemble-stars-welcome-2025-diagnosis.belugacpn.jp#@#a[href^="https://x.com/inte
 developer.mozilla.org#@#.share
 drive.weixin.qq.com#@#.shareWrapper
 iyf.tv#@#.share-top
-telepolis.pl#@#.social-wrapper
 find.vivo.com.cn#@#.share-list
 hypnosismic-anime.com#@#a[href^="https://twitter.com/intent/tweet?"]
 mamodan-plus.clony.co.jp#@#a[href^="https://twitter.com/intent/tweet?"]
@@ -9072,7 +9078,6 @@ guilded.gg#@#.icon-reddit
 vk.com#@#.share_buttons
 jobs.intervalgroup.com#@#.IN-widget
 buhplatforma.com.ua#@##facebook-icon
-id.tinypass.com#@#.social-wrapper
 fetcherx.com,voltimum.com.tr,nippononline.ru,honor.ru,sportsgrid.com,gazeteduvar.com.tr#@#.social-block
 lovemeow.com#@#.share-buttons
 simpleweeklymealplanner.com#@#.share-button
@@ -9141,7 +9146,6 @@ citaty.info#@#.social_twitter
 citaty.info#@#.social_facebook
 plurk.com#@#a[href^="https://twitter.com/share"]
 oricon.co.jp#@#.share-buttons
-icoholder.com#@#.social-wrapper
 omocoro.jp#@#.fixed-social
 tecstaff.jp#@#.social-widget
 filmaffinity.com#@##share-container
@@ -9236,12 +9240,10 @@ gilmon.ru#@#.page-share
 wrc.net.pl#@#.socials
 joemonster.org#@#.socialContainer
 @@||kayiprihtim.com/wp-content/plugins/easy-social-share-buttons3/lib/modules/social-followers-counter/assets/font/essb-socialfollowers.ttf
-nobody.one#@#.social-wrapper
 thisismoney.co.uk#@#.img-share
 bestfonts.pro#@#.share-wrap
 ethias.be#@#.social-media
 sbs.com.au#@##facebook-icon
-gazetaby.media,gazetaby.info#@#.social-wrapper
 us.hola.com#@#.social-nav
 do-slez.com#@#.img-share
 wpgurme.com#@#.post-share
@@ -9250,9 +9252,7 @@ techgame.pl#@##share-container
 wyborcza.pl,wyborcza.biz#@#.socialBar
 dragonbounbd.foroactivo.com#@#.social_btn
 bat.com#@#.socialbutton:not(.dropdown-menu.pull-right)
-minutouno.com#@#.social-wrapper
 png.is,nohat.cc#@#.socialshare
-meczyki.pl#@#.social-wrapper
 pzonline.com#@#.social_fix
 politico.com#@#.social-tools
 province.ru#@#.ya-share2
