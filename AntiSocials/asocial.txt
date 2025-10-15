@@ -1,13 +1,15 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.561
+! Version: 1.562
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-10-15T09:18:13.968Z
+! Last modified: 2025-10-15T11:14:42.665Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
+architecture-weekly.com,substack.com#?#.pencraft:has(> div[class*="font-text-"]:contains(/Facebook|Bluesky|LinkedIn|Reddit|Pinterest|Hacker News|X \(Twitter\)|Share to X/))
+nicolasbustamante.com,blog.bytebytego.com,thecoder.cafe##.pencraft + div:has(> a[role="button"].post-ufi-button > div.label)
 unian.net#?#div[style] > div.article-shares:upward(1)
 123telugu.com#$#.cat-tags { display: none !important; }
 123telugu.com#$#.post-page-content { padding-bottom: 0 !important; }
@@ -1169,7 +1171,8 @@ bahianoticias.com.br#?#div[class]:has(> h2:contains(/^Compartilhar$/))
 gauchazh.clicrbs.com.br##button:has(> svg > path[d^="M236.24,"])
 music.yandex.ru##.d-share-popup
 substack.com##.share-dialog a.pencraft[id^="trigger"][aria-label="View more"]
-architecture-weekly.com,substack.com#?#.pencraft:has(> div[class*="font-text-"]:contains(/Facebook|Bluesky|LinkedIn|Reddit|Pinterest|Hacker News|X \(Twitter\)|Share to X/))
+thegamebusiness.com,nicolasbustamante.com,blog.bytebytego.com,thecoder.cafe##.pencraft + div:has(> a[role="button"].post-ufi-button > div.label)
+thegamebusiness.com,architecture-weekly.com,substack.com#?#.pencraft:has(> div[class*="font-text-"]:contains(/Facebook|Bluesky|LinkedIn|Reddit|Pinterest|Hacker News|X \(Twitter\)|Share to /))
 lesfrontaliers.lu##.sticky-share
 record.com.mx##.post-social-icons
 b17.ru##span[title="Поделиться"]
@@ -1404,7 +1407,6 @@ mjakmalopolska.pl##.col-socialshare
 quke.ru##span.share-compare__btn
 telemarket24.ru##.showShareWindow
 thecoder.cafe##.pencraft > button#trigger1
-nicolasbustamante.com,blog.bytebytego.com,thecoder.cafe##.pencraft + div:has(> a[role="button"].post-ufi-button > div.label)
 thecoder.cafe##.post-ufi > div.like-button-container ~ .post-ufi-button[href="javascript:void(0)"]
 corrierecomunicazioni.it,ai4business.it##div[class^="wp-block-"][class$="-block-social"]
 herodevs.com##.margin-top:has(> div.is-wrapper-social-media)
