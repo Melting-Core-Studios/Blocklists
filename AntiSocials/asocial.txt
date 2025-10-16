@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.571
+! Version: 1.572
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-10-16T14:16:50.767Z
+! Last modified: 2025-10-16T16:20:52.383Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -373,6 +373,7 @@ esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israel
 esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israelnationalnews.com,lifehacker.com,cgmagonline.com,gizmodo.com,gamerevolution.com,metro.co.uk,thurrott.com,stereogum.com,ign.com,newsweek.com,dailymail.co.uk,comingsoon.net,timesofisrael.com,nypost.com,9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,electrek.co#%#//scriptlet('remove-in-shadow-dom', 'div[data-spot-im-class="vote-links"] + span[class$="index__dot"]')
 2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com##.comment__share > *
 antirez.com,comicbook.com,alexp.pl,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com###thread-share-bar
+rotaborsa.com##div[data-toggle^="kanews-popup-share"]
 filmora.wondershare.com##.address-share > div:has(> a[data-share="facebook"])
 bunshun.jp##.aside-social-links
 vbr.ru##div[class^="ArticleShare_container"]
@@ -4205,7 +4206,7 @@ thecode.media##.pqp-social-button-container
 pc.co.il###navbarSharing
 transparency.org##.js-highlight-tooltip
 stopcor.org,ukrinform.*##.youtube
-dnevno.hr,fintolk.pro,e-earphone.blog,koneta.nifty.com##.wp-embed-share
+rotaborsa.com,dnevno.hr,fintolk.pro,e-earphone.blog,koneta.nifty.com##.wp-embed-share
 sanabo.com,beauty.biglobe.ne.jp###sns_btn
 city.toyonaka.osaka.jp###sns_btn_in
 himaraya.co.jp##.catalog-detail-shere
@@ -5118,7 +5119,7 @@ andro-news.com##.page-news__likes
 petlebi.com##.pd-share-line
 nationalheraldindia.com##div[class^="styles-m__sticky-social-share_"]
 downtoearth.org.in##a[onclick^="social_open("]
-jolie.de,euractiv.com,business2community.com,blog.mettl.com##.sharect
+rotaborsa.com,jolie.de,euractiv.com,business2community.com,blog.mettl.com##.sharect
 cine24h.online,cine24h.net,henaojara.com##ul.ListPOpt > li > a[rel="nofollow"][onclick]
 programme-television.org##.infos_partage
 ahrefs.com##.share-post-top-bottom:not(.subscr-fright)
