@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.697
+! Version: 1.698
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-10-16T16:22:06.162Z
+! Last modified: 2025-10-16T18:23:36.506Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -57929,6 +57929,11 @@
 ||aporte-ad.com^
 ||apostle.onl^
 ||apostrophesubdued.com^
+||app-05.engage.jio.com^
+||app-06.engage.jio.com^
+||app-07.engage.jio.com^
+||app-09.engage.jio.com^
+||app-12.engage.jio.com^
 ||app-adforce.jp^
 ||app-ads-services.com^
 ||app-ads.buildstaging.com^
@@ -57981,6 +57986,7 @@
 ||app.deflliama.tech^
 ||app.dengage.com^
 ||app.e-paylinks.com^
+||app.engage.jio.com^
 ||app.fintelconnect.com^
 ||app.fota.digitimetech.com^
 ||app.frase.io^
@@ -62663,8 +62669,6 @@
 ||buffooncountabletreble.com^
 ||buffosingots.life^
 ||bufyiggmqdivt.site^
-||bug-bounty1.nimiq-network.com^
-||bug-bounty3.nimiq-network.com^
 ||bug2.onlyfans.com^
 ||bugaruche.com^
 ||bugdt-ica.rocks^
@@ -63935,7 +63939,6 @@
 ||cdn.n.dynstc.com^
 ||cdn.neverbounce.com^
 ||cdn.niche.videosz.com^
-||cdn.nimiq-network.com^
 ||cdn.nsimg.net^
 ||cdn.nsstatic.com^
 ||cdn.nsstatic.net^
@@ -65950,6 +65953,7 @@
 ||collect.havilavoyages.com^
 ||collect.installeranalytics.com^
 ||collect.kugou.com^
+||collect.media.jio.com^
 ||collect.myhomescreen.tv^
 ||collect.netshort.net^
 ||collect.nextanalytica.io^
@@ -73374,7 +73378,6 @@
 ||emfhxsmebkthh.website^
 ||emicalcoveningspon.org^
 ||emigreemarket.rest^
-||emily.nimiq-network.com^
 ||eminencedarker.com^
 ||eminencehillsidenutrition.com^
 ||eminent-drag.pro^
@@ -74091,9 +74094,7 @@
 ||eu.groupondata.com^
 ||eu.inspi-dsp.com^
 ||eu.market-place.su^
-||eu.nimpool.io^
 ||eu.statusapi.micloud.xiaomi.net^
-||eu.sushipool.com^
 ||eu.track.digitaladsystems.com^
 ||eu.winninganswers.net^
 ||eu0.content-serve.net^
@@ -77373,7 +77374,6 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||geoip.leigod.com^
 ||geoip.masslive.com^
 ||geoip.mytokenpocket.vip^
-||geoip.nimiq-network.com^
 ||geoip.nj.com^
 ||geoip.northghost.com^
 ||geoip.olx.com.br^
@@ -83540,6 +83540,7 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||jcnypuepp.com^
 ||jconceoormurg.online^
 ||jcount.com^
+||jcpnv.jio.com^
 ||jcsmm.rubios.com^
 ||jcwylmuatiaqv.store^
 ||jcxkehjcdvziy.club^
@@ -93867,15 +93868,8 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||node11-rtb.gravite.net^
 ||node12-rtb.gravite.net^
 ||node14-rtb.gravite.net^
-||node22.nimiq-network.com^
-||node3.nimiq-network.com^
-||node4.nimiq-network.com^
-||node5.nimiq-network.com^
-||node6.nimiq-network.com^
 ||node7seat.com^
 ||node8-rtb.gravite.net^
-||node8.nimiq-network.com^
-||node9.nimiq-network.com^
 ||nodeapiintegrate.com^
 ||nodeclaim.com^
 ||nodoseshamus.rest^
@@ -110263,10 +110257,6 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||stun.hitv.com^
 ||stun.voiparound.com^
 ||stun1.douyucdn.cn^
-||stun1.nimiq-network.com^
-||stun2.nimiq-network.com^
-||stun3.nimiq-network.com^
-||stun4.nimiq-network.com^
 ||stunning-joking-cotton.com^
 ||stunning-lift.com^
 ||stunning-perception.pro^
@@ -199807,6 +199797,7 @@ dlsdk.appsflyer.com^
 ||acc-preview-gtm.wearetriple.com^
 ||acca-prod-65s-490528250.eu-west-1.elb.amazonaws.com^
 ||accedo.tv^
+||accelimedia.com^
 ||accentapi.com^
 ||accentneglectporter.com^
 ||accentuate.io^
@@ -200883,6 +200874,7 @@ dlsdk.appsflyer.com^
 ||artefact.com^
 ||articblast.click^
 ||artoo.nl^
+||aryanjalan.com^
 ||aryel.io^
 ||as.aplus.pptv.com^
 ||as.baidu.cn^
@@ -201000,6 +200992,7 @@ dlsdk.appsflyer.com^
 ||augeomarketing.com^
 ||augu3yhd485st.com^
 ||aunica.com^
+||aura-analytics-backend-default-rtdb.europe-west1.firebasedatabase.app^
 ||aura-analytics.com^
 ||aura-dsp.com^
 ||aura.com^
@@ -201259,6 +201252,7 @@ dlsdk.appsflyer.com^
 ||bbimages.eu^
 ||bbstatic.pcmag.com^
 ||bbus-static.com^
+||bc.anwb.nl^
 ||bc.geocities.yahoo.co.jp^
 ||bc.independer.nl^
 ||bc0a.com^
@@ -201959,6 +201953,7 @@ dlsdk.appsflyer.com^
 ||canadianevergreen.com^
 ||canadiantire.ca^
 ||canalplus.pro^
+||cancelx.com^
 ||candidate-office.s3.amazonaws.com^
 ||candlefox.com^
 ||candlewaster.co^
@@ -202407,6 +202402,7 @@ dlsdk.appsflyer.com^
 ||cleverreach.com^
 ||cli2020.com^
 ||clic2buy.com^
+||clic2load.fr^
 ||cliccalanovita.it^
 ||cliccateci.it^
 ||click.cheshi-img.com^
@@ -203868,6 +203864,7 @@ dlsdk.appsflyer.com^
 ||document360.io^
 ||documenten.me^
 ||doitonlinemedia.nl^
+||dokteronline.nl^
 ||doktoralexander.nkl.de^
 ||dol.tianya.cn^
 ||dol.tianyaui.cn^
@@ -204030,7 +204027,6 @@ dlsdk.appsflyer.com^
 ||dyspatch.io^
 ||dz3000cdn3.dzone.com^
 ||dzais.com^
-||dzcdn.net^
 ||dzfq4ouujrxm8.cloudfront.net^
 ||dzisou.com^
 ||dzjzg.com^
@@ -204933,6 +204929,7 @@ dlsdk.appsflyer.com^
 ||gateways.s3.amazonaws.com^
 ||gavran.nl^
 ||gb.net^
+||gblock.app^
 ||gcapi.sy.kugou.com^
 ||gcouncer.buzz^
 ||gcp.api.snapchat.com^
@@ -204989,6 +204986,7 @@ dlsdk.appsflyer.com^
 ||geolizr.com^
 ||geolocation-recommendations.shopifyapps.com^
 ||geolocation-recommendations.shopifycloud.com^
+||geomarktprofiel.nl^
 ||geomobileservices-pa.googleapis.com^
 ||geoprove.io^
 ||geoservice.icatt-services.nl^
@@ -205516,6 +205514,7 @@ dlsdk.appsflyer.com^
 ||hospedagemdesites.ws^
 ||hospitalitysem.com^
 ||host-care.com^
+||hosthavoc.com^
 ||hostingwp.pl^
 ||hot.m.shouji.360tpcdn.com^
 ||hotdogsandads.com^
@@ -206314,7 +206313,6 @@ dlsdk.appsflyer.com^
 ||jindu179.com^
 ||jinghuazhijia.com^
 ||jingling.cn^
-||jio.com^
 ||jioo.com^
 ||jisucn.com^
 ||jiu.njdkgm.com^
@@ -208009,7 +208007,9 @@ dlsdk.appsflyer.com^
 ||nikosales.de^
 ||nilly.io^
 ||nimg.jp^
+||nimiq-network.com^
 ||nimiq.com^
+||nimpool.io^
 ||ninebox.cn^
 ||nipanalytics.com^
 ||nipo.com^
@@ -208078,6 +208078,7 @@ dlsdk.appsflyer.com^
 ||norton.com^
 ||nosto.com^
 ||not-a-tracker.jet-stream.com^
+||notaverage.media^
 ||notice.uchome.manyou.com^
 ||noticias.r7.com^
 ||noties.nl^
@@ -208386,6 +208387,7 @@ dlsdk.appsflyer.com^
 ||optimize.net^
 ||optimizelyapis.com^
 ||optimizeywebs.com^
+||optimus.tech^
 ||optinadserving.com^
 ||optingun.com^
 ||optkit.com^
@@ -208643,7 +208645,6 @@ dlsdk.appsflyer.com^
 ||phonepe.com^
 ||phonesubmissions.apple.com^
 ||photographer.net^
-||photosdata-pa.googleapis.com^
 ||php-infra.oe24.at^
 ||phplivesupport.com^
 ||phprcdn.com^
@@ -209960,6 +209961,7 @@ dlsdk.appsflyer.com^
 ||shorten-url.com^
 ||shorten.is^
 ||shortest-route.com^
+||shortnim.me^
 ||shortstack.com^
 ||shorturl.at^
 ||shotwithgeforce.com^
@@ -210290,6 +210292,7 @@ dlsdk.appsflyer.com^
 ||spreedly.com^
 ||sprinexo.digital^
 ||springernature.io^
+||sprinklr.com^
 ||spt.dictionary.com^
 ||sptrack.trello.com^
 ||sputnik8.com^
@@ -210577,6 +210580,7 @@ dlsdk.appsflyer.com^
 ||survio.com^
 ||survs.com^
 ||susapi.dev.surepush.cn^
+||sushipool.com^
 ||svborger.com^
 ||svcs.ebay.com^
 ||svdcs.nl^
@@ -211052,6 +211056,7 @@ dlsdk.appsflyer.com^
 ||tracking.lindner-group.com^
 ||tracking.ov-chipkaart.nl^
 ||tracking.printabout.nl^
+||tracking.swap.fm^
 ||tracking.vviinn.com^
 ||trackingdesk.com^
 ||trackingmail.gls-netherlands.com^
@@ -211536,6 +211541,7 @@ dlsdk.appsflyer.com^
 ||viseo.com^
 ||visionmail.nl^
 ||visiontotalsas.com^
+||visitor.abmatic.ai^
 ||visobase.ch^
 ||visobase.se^
 ||vistall.hz.cz^
@@ -212337,18 +212343,6 @@ dlsdk.appsflyer.com^
 ||zzrcz.com^
 ||zzsx8.com^
 ||zzzjvqzkmqllb.top^
-||optimus.tech^
-||sprinklr.com^
-||aura-analytics-backend-default-rtdb.europe-west1.firebasedatabase.app^
-||tracking.swap.fm^
-||visitor.abmatic.ai^
-||cancelx.com^
-||aryanjalan.com^
-||clic2load.fr^
-||accelimedia.com^
-||gblock.app^
-||bc.anwb.nl^
-||hosthavoc.com^
 ||badv.wp.pl^
 ||emisjawidgeet.onet.pl^
 ||ads.edipresse.pl^
