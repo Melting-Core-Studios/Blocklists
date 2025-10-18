@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.577
+! Version: 1.578
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-10-17T16:19:35.376Z
+! Last modified: 2025-10-18T02:53:12.231Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -553,7 +553,6 @@ e-himart.co.kr###share_sns_layer
 sokuyaku.jp##.facebookbox
 iine-tachikawa.net##.p-snsCta
 ilfattoquotidiano.it##.fqm-share-end
-ilfattoquotidiano.it##.ifq-news-meta__share
 dogrulukpayi.com##.sticky-share-menu
 gravidia.jp##.sw-SnsShare
 animalpolitico.com##div.relative > button.relative:has(> span:contains(Compartir))
@@ -20772,7 +20771,7 @@ thenationalpulse.com##.share-layout-stack
 dailymail.co.uk,fundrazr.com,gizmodo.com,modernagejournal.com,nymag.com,thisismoney.co.uk,zapimoveis.com.br##.share-link
 middleeastmonitor.com##.share-link-btn
 gamingbible.com,ladbible.com,sportbible.com,tyla.com,unilad.com,uniladtech.com##.share-link_container__q9th7
-thenewstack.io##.share-media
+euronews.rs,thenewstack.io##.share-media
 fintech.tv,war.ukraine.ua##.share-news
 thehackernews.com##.share-open-modal
 bdnews24.com##.share-option
@@ -21921,6 +21920,8 @@ fidelityhouse.eu##.header_facebook
 agi.it##.hidden.xlarge\:flex.border-t.border-base-300.pt-2.core.items-center.justify-between
 24plus.ilsole24ore.com##.icon-send
 m.calciomercato.com##.icon-share
+ilfattoquotidiano.it##.ifq-news-meta__share
+ilfattoquotidiano.it##.ifq-post__share
 alfredopedulla.com##.ig-banner
 milanodabere.it##.info-links
 zona.eu##.insta-frame
