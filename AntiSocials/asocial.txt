@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.581
+! Version: 1.582
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-10-19T04:20:11.708Z
+! Last modified: 2025-10-19T08:18:43.872Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -631,7 +631,6 @@ secondthoughts.ai##p[data-attrs*="&action=share"]
 smclinic.ru##.b-author__socials
 insurance.mts.ru##div[class^="BlogPost_sharing"]
 emojiall.com##.content_sidebar > div.widget:has(a.share_link)
-glassalmanac.com##.shhr-btn
 bes.media##.social__block
 aws.amazon.com##button[aria-label="Share content"]
 change.org##ul[data-qa="share-actions"]
@@ -20394,6 +20393,7 @@ crypto.news##.google-news-banner
 coinedition.com##.google-news-block
 crypto.news##.google-news-button
 alarabiya.net##.google-news-callout
+glassalmanac.com##.google-news-card
 sammobile.com##.google-news-cta
 coinpedia.org##.google_news-space
 techadvisor.com##.google_news_button
@@ -20737,6 +20737,7 @@ buzzfeed.com##.share-bar_buzzfeed___uZ4R
 beincrypto.com##.share-block
 ibtimes.co.in##.share-btn-wrp
 bylancer.com##.share-buttons-icons
+glassalmanac.com##.share-buttons-toggler
 cknxnewstoday.ca##.share-buttons_buttons__V3uFu
 apptrigger.com##.share-capture
 cryptopolitan.com##.share-col
@@ -20828,6 +20829,7 @@ cjr.org##.sharing-buttons
 thekitchenmagpie.com##.sharing-cta
 dagens.com##.sharing-element
 al-watan.com,qatar-tribune.com##.sharingColumn
+glassalmanac.com##.shhr-btn
 firstpost.com##.shr-ic
 theurbanlist.com##.side-box
 michaelmedved.com##.side_col_follow_box
