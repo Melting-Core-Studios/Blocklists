@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.585
+! Version: 1.586
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-10-20T07:17:13.911Z
+! Last modified: 2025-10-20T08:22:30.373Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -371,6 +371,9 @@ esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israel
 esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israelnationalnews.com,lifehacker.com,cgmagonline.com,gizmodo.com,gamerevolution.com,metro.co.uk,thurrott.com,stereogum.com,ign.com,newsweek.com,dailymail.co.uk,comingsoon.net,timesofisrael.com,nypost.com,9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,electrek.co#%#//scriptlet('remove-in-shadow-dom', 'div[data-spot-im-class="vote-links"] + span[class$="index__dot"]')
 2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com##.comment__share > *
 antirez.com,comicbook.com,alexp.pl,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com###thread-share-bar
+sadeczanin.info##.ant-typography.mt-1 > article.ant-typography > button
+elcomercio.pe##.s-buttons
+tunota.com##.flex:has(> div[aria-label="Redes Sociales"])
 periodicocorreo.com.mx##snr-island.show > ul > li:has(> a[data-action="share:btn"])
 periodicocorreo.com.mx##.article-details:has(> div > ul > li > a.snrfa)
 fastmail.com##button[data-share-action]
@@ -20402,7 +20405,7 @@ coinedition.com##.google-news-block
 crypto.news##.google-news-button
 alarabiya.net##.google-news-callout
 glassalmanac.com##.google-news-card
-sammobile.com##.google-news-cta
+cybernews.com,sammobile.com##.google-news-cta
 coinpedia.org##.google_news-space
 techadvisor.com##.google_news_button
 auto.hindustantimes.com##.googlenewfollowidget
