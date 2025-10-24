@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Block those ads
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.2503
+! Version: 1.2504
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-10-24T03:33:41.750Z
+! Last modified: 2025-10-24T04:19:18.264Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -3651,6 +3651,7 @@
 ||auchletcecal.cfd^
 ||auchoahy.net^
 ||auchoons.net^
+||aucmauphufaukoo.net^
 ||aucmistaibs.net^
 ||aucmoartoas.com^
 ||aucooltiwitsaih.net^
@@ -10803,6 +10804,7 @@
 ||edwinanickpot.world^
 ||edwinavowal.shop^
 ||edwmpt.com^
+||edwnvejbh.com^
 ||edwrrlvzlqgzk.site^
 ||edxilaprgjxqt.site^
 ||eeberoasfqxwg.global^
@@ -15399,6 +15401,7 @@
 ||hazelhideous.com^
 ||hazelmarks.com^
 ||hazicu.hothomefuck.com^
+||haziestyepely.cfd^
 ||hazoopso.net^
 ||hazuro.online^
 ||hb-247.com^
@@ -25727,6 +25730,7 @@
 ||partners-show.com^
 ||partsroll.xyz^
 ||partycastes.shop^
+||partycurled.com^
 ||partypartners.com^
 ||partyroll.xyz^
 ||parumal.com^
@@ -25784,6 +25788,7 @@
 ||patientconfusedperfectly.com^
 ||patinasspikier.qpon^
 ||patinmemento.help^
+||patkoxyukkoaf.online^
 ||patsiesnoblify.rest^
 ||patsincerelyswing.com^
 ||patsyfactorygallery.com^
@@ -25835,6 +25840,7 @@
 ||pbmt.cloud^
 ||pbogeswgndovxr.com^
 ||pbolnoomselab.online^
+||pbpbcriabaaay.website^
 ||pbqhjgkueppwm.online^
 ||pbsrhknvoaioy.online^
 ||pbtbypkdqlxmn.love^
@@ -38232,6 +38238,7 @@
 ||wynvalur.com^
 ||wyptjqwxif.com^
 ||wyqikvlslnuuf.space^
+||wyrglylcvbpdy.net^
 ||wysasys.com^
 ||wysythbmtbyjh.site^
 ||wytnrgtxsgvwo.online^
@@ -42625,6 +42632,7 @@
 ||assets-v2.boisedev.com^
 ||assets-v2.invaluable.com^
 ||assets-v2.northsidesun.com^
+||community.jerseyshoreonline.com^
 ||community.noozhawk.com^
 ||community.richlandsource.com^
 ||connected.ashrae.org^
@@ -42989,7 +42997,6 @@
 ||xml-eu-v4.tenxads.com^
 ||xml-eu-v4.trackifyy.com^
 ||xml-eu-v4.winkleads.com^
-||xml-eu-v4.xmladsystem.com^
 ||xml-eu-v4.xmlorbit.com^
 ||xml-eu-v4.zenvuedigital.com^
 ||xml-eu.adzestoads.xyz^
@@ -43013,6 +43020,7 @@
 ||xml-v4.adverttise.com^
 ||xml-v4.adxpoint.com^
 ||xml-v4.adzreach.com^
+||xml-v4.agilitydigitalmedia.com^
 ||xml-v4.appmonsta.ai^
 ||xml-v4.audienceye.com^
 ||xml-v4.blasti.download^
@@ -44103,7 +44111,6 @@ Banner468x60
 /^https?:\/\/(.+?\.)?videogamesblogger\.com\/wp-content\/uploads\/.*[a-zA-Z0-9]{8,}\.*/$badfilter
 ||freeadultcomix.com^$badfilter
 @@||local.adguard.org^
-@@||thumbor.thedailymeal.com^
 ||imgshare.info^$badfilter
 @@||download.adguard.com^
 @@||admin.mailchimp.com^
