@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.616
+! Version: 1.617
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-10-27T15:18:32.355Z
+! Last modified: 2025-10-27T17:15:07.204Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -370,6 +370,7 @@ esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israel
 esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israelnationalnews.com,lifehacker.com,cgmagonline.com,gizmodo.com,gamerevolution.com,metro.co.uk,thurrott.com,stereogum.com,ign.com,newsweek.com,dailymail.co.uk,comingsoon.net,timesofisrael.com,nypost.com,9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,electrek.co#%#//scriptlet('remove-in-shadow-dom', 'div[data-spot-im-class="vote-links"] + span[class$="index__dot"]')
 2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com##.comment__share > *
 antirez.com,comicbook.com,alexp.pl,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com###thread-share-bar
+theconversation.com###share-article-dropdown-trigger-desktop
 newsweekjapan.jp##div[class^="wv-social"]
 gendai.media##div[data-app-component="ArticleShareRaw"]
 emosurff.com##.feedSocialsArea
@@ -4272,6 +4273,7 @@ onlineshop.ocn.ne.jp,simseller.goo.ne.jp##.js-line-share
 nttdata.com##.c-link-share
 s.tabelog.com##.show-matome-description__sns-like-btn
 safezone.cc##a[aria-label="Поделиться"]
+theconversation.com,timesnownews.com###native-share
 video.tv-tokyo.co.jp###dropdownSNSShare
 tv-tokyo.co.jp##.tbcms_official-footer__share
 visitukraine.today##.page-text_main-wrapp-socials
@@ -8834,6 +8836,7 @@ designboom.com,livescience.com,pbtech.co.nz,peoplesworld.org,space.com##.fa-face
 ||cdn-library.su/plusonet/lib/$domain=~pluso.net
 ||mailget.net^$third-party
 ||my.hellobar.com^$third-party
+anime4up.rest###tme-alert
 sai-zen-sen.jp##.iikamo-modal-dialog
 libertycity.net#%#//scriptlet('set-cookie', 'soc_fullscr', '1')
 libertycity.net#%#//scriptlet('set-cookie', 'soc_fullscr_cnt', '1')
