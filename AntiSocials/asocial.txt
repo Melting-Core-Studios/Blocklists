@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.627
+! Version: 1.628
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-10-29T13:31:45.750Z
+! Last modified: 2025-10-29T14:17:45.282Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -40,6 +40,7 @@ j-cast.com#?##entry-content > div.align-justify:has(> div.align-inner-box > div.
 gurugurulog.com#?#.content > nav.section-box > ul.article-button > li.article-twitter:upward(2)
 finance.rambler.ru#?#div[class^="container-"] > div[class^="container-"]:has(> amp-social-share)
 adguard.info,adguard.com,adguard.app#$#.hello_from_adguard_advanced_protection_ios { display: none !important; }
+##a[href^="https://www.threads.net/intent/post?url"]
 indianexpress.com##.social-icon
 unn.com.ua##body > div.fancybox-opened
 unn.com.ua##body > div.fancybox-opened + div.fancybox-overlay
@@ -7948,7 +7949,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_apps
 ##a[aria-label="View share options"]
 ##.social-btn-list_mini
 ##share-widget
-##a[href^="https://www.threads.net/intent/post?url"]
+##a[href^="https://www.threads.net/intent/post?"]
 ##a[href^="https://bsky.app/intent/compose?text="]
 ##.item_sns_list
 ##a[href^="https://www.linkedin.com/feed/?shareActive="]
