@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.630
+! Version: 1.631
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-10-29T16:21:41.774Z
+! Last modified: 2025-10-29T18:24:20.780Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -913,7 +913,7 @@ raiplay.it##.rai-sharing-button
 tv8.it##.c-social-share__container
 apps.jeurissen.co##main[data-id="whatsnew"] > section.cja-featureblock:has(> div.cja-feature > ul > li > a[href^="https://www.facebook.com/sharer/"])
 chrono24.cn,chrono24.co.uk,chrono24.com,chrono24.de,chrono24.es,chrono24.fr,chrono24.it,chrono24.jp,chrono24.nl##.wt-share-offer
-comexlive.org##.ss_clear
+mcxlive.org,comexlive.org##.ss_clear
 creators-station.jp##.sgl-SnsFix
 kddi.com##.news-detail-social
 life.pravda.com.ua##.post_news_social > div.button
