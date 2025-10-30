@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.771
+! Version: 1.772
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-10-30T10:19:30.578Z
+! Last modified: 2025-10-30T11:16:51.483Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -2405,6 +2405,7 @@
 ||wildwoodavenue.com^
 ||wirecomic.com^
 ||wiredforcoffee.com^
+||wirenewsletter.com^
 ||wirypaste.com^
 ||wisedotcom.com^
 ||wispycity.com^
@@ -2808,6 +2809,7 @@
 ||insitez.blob.core.windows.net^
 ||intake-analytics.wikimedia.org^
 ||invitejs.trustpilot.com^
+||ip-check-perf.radar.cloudflare.com^
 ||ip.lovely-app.com^
 ||ip.momentummedia.com.au^
 ||iq.sixaxisllc.com^
@@ -121684,7 +121686,6 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||wiqccpxjtvkjs.store^
 ||wiqhit.com^
 ||wiredminds.de^
-||wirenewsletter.com^
 ||wirierattila.shop^
 ||wiringdisciplinarysmooth.com^
 ||wiringswyes.shop^
