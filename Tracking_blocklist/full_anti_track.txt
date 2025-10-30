@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.775
+! Version: 1.776
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-10-30T20:20:07.998Z
+! Last modified: 2025-10-30T23:17:12.503Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -169179,7 +169179,9 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||s24-analytics.com^
 ||smpl.hit.ppdb.pl^
 ||def-platform.com^
+||cedexis.com^
 ||pv.datacaciques.com^
+||npario-inc.net^
 ||rcounter.rambler.ru^
 ||vdc.zoomph.com^
 ||taskapi.net^
@@ -209863,11 +209865,9 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||sdks.stats-locations.com^
 ||analytics.any.do^
 ||omni-ads.omni.news^
-||npario-inc.net^
 ||resolver.gslb.mi-idc.com^
 ||api.analytics.omgpop.com^
 ||bidder.mdspinc.com^
-||cedexis.com^
 ||collector.brandify.com^
 ||googleadapis.l.google.com^
 ||installtracker.com^
