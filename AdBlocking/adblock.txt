@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Block those ads
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.2668
+! Version: 1.2669
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-10-31T13:28:19.882Z
+! Last modified: 2025-10-31T14:17:14.503Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -1387,6 +1387,7 @@
 ||acuteprone.com^
 ||acvxskfeohrzi.online^
 ||aczrxebflhpkx.online^
+||ad-api.gl-inet.com^
 ||ad-back.net^
 ||ad-balancer.net^
 ||ad-cheers.com^
@@ -5277,6 +5278,7 @@
 ||bureautrickle.com^
 ||bureauxcope.casa^
 ||burellylimu.world^
+||burelytriens.qpon^
 ||burghalbuttal.help^
 ||burglarycirculationintense.com^
 ||burgledretreat.cyou^
@@ -5339,6 +5341,7 @@
 ||bvmcdn.net^
 ||bvodoujjv.xyz^
 ||bvrigohidxggr.site^
+||bvryckykikvhh.website^
 ||bvtmvalgidefh.store^
 ||bvtpk.com^
 ||bvtznvqieofte.website^
@@ -24040,6 +24043,7 @@
 ||ougnflauhyluf.online^
 ||ougrourautopt.net^
 ||ouhcukdnksvft.space^
+||oukrgmho.com^
 ||ouldhukelpmetor.org^
 ||oulsools.com^
 ||oumpackoordailt.net^
@@ -28230,6 +28234,7 @@
 ||releaseavailandproc.org^
 ||releasedfinish.com^
 ||releaseeviltoll.com^
+||relentdendric.cyou^
 ||relentlessexpensive.com^
 ||relestar.com^
 ||relevanti.com^
@@ -29483,6 +29488,7 @@
 ||ryujsqssracyc.space^
 ||rywlnwjqyurzo.site^
 ||ryxgucplemf.com^
+||rzanpklutdqbu.com^
 ||rzbgpqlkzqux.com^
 ||rzeso.com^
 ||rzeuizwtvteer.online^
@@ -33182,6 +33188,7 @@
 ||tmbzzscswoyir.space^
 ||tmdsrbtmrnwxz.website^
 ||tmebhjkjrtbb.com^
+||tmedapgqtmqhs.store^
 ||tmfngnuqxzpux.online^
 ||tmfvsriauxxam.space^
 ||tmgujtsto.com^
@@ -42657,7 +42664,6 @@
 ||static.appi-fy.ai^
 ||static.arbigo.com^
 ||xmlstatic.pubsfusion.com^
-||ad-api.gl-inet.com^
 ||promo.evvnt.com^
 ||msp.newsbreak.com^
 ||ads-service.api.linkme.global^
@@ -43621,6 +43627,7 @@
 ||prebid-*.rubiconproject.com^
 ||pl.ua^$badfilter
 Banner468x60
+||adult-chess.com^$badfilter
 ||consent.cookiefirst.com^$badfilter
 ||mgcld.xyz^$badfilter
 ||vp2.txxx.com^$badfilter
