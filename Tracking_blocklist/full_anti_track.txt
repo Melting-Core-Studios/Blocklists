@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.784
+! Version: 1.785
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-11-01T01:15:44.141Z
+! Last modified: 2025-11-01T06:23:33.611Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -3073,6 +3073,7 @@
 ||t.c4tw.net^
 ||t.commandbar.com^
 ||t.enuygun.com^
+||t.fastcmp.com^
 ||t.fullres.net^
 ||t.jobsyn.org^
 ||t.menepe.com^
@@ -37136,6 +37137,7 @@
 ||ek-tracker.ekitan.com^
 ||eq-beacon.stream.co.jp^
 ||eq-player-log.cdnext.stream.ne.jp^
+||fp.kakaku.com^
 ||gtm.diamond.jp^
 ||is-log.furunavi.jp^
 ||ln.ameba.jp^
@@ -113188,7 +113190,6 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||t.eroges.com^
 ||t.eu1.target2sell.mirakl.net^
 ||t.events.byui.edu^
-||t.fastcmp.com^
 ||t.fasttrck.tech^
 ||t.flickr.com^
 ||t.fluxtrck.site^
@@ -209406,7 +209407,6 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||exacttarget.api.mashery.com^
 ||exc.ns.nl^
 ||external-promo-metrics.yandex.net^
-||fp.kakaku.com^
 ||geo.hltv.org^
 ||geoip.cleveland.com^
 ||geoip.mlive.com^
