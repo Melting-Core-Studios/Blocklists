@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.794
+! Version: 1.795
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-11-02T20:17:50.500Z
+! Last modified: 2025-11-02T22:16:25.788Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -112132,7 +112132,6 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||stats.endpoints.news^
 ||stats.energyaspects.com^
 ||stats.engagementhq.com^
-||stats.enzymic.co^
 ||stats.epic.com^
 ||stats.equi-score.com^
 ||stats.erf.de^
@@ -218863,6 +218862,7 @@ dlsdk.appsflyer.com^
 ||adyun.com^
 ||adz.zwee.ly^
 ||adzouk.com^
+||adzymic.co^
 ||ae-media.ca^
 ||ae.nflximg.net^
 ||aee3fcf685f8e11e7ace80a8c8421731-1535716790.ap-southeast-2.elb.amazonaws.com^
@@ -220298,6 +220298,7 @@ dlsdk.appsflyer.com^
 ||boyxu.cn^
 ||bp.blogspot.com^
 ||bpapi.apple.com^
+||bplslb.com^
 ||bpmonline.com^
 ||bpremium.de^
 ||br.blackfling.com^
@@ -222886,6 +222887,7 @@ dlsdk.appsflyer.com^
 ||environics.ca^
 ||enviso.io^
 ||envs.net^
+||enzymic.co^
 ||eomail6.com^
 ||eoopersed.one^
 ||ephemeralcounters.api.roblox.co^
@@ -225908,6 +225910,7 @@ dlsdk.appsflyer.com^
 ||marketing.services.apple^
 ||marketing.skiff.org^
 ||marketing.utrinskivesnik.mk^
+||marketing.workbooks.com^
 ||marketingalphaprod.streaming.mediaservices.windows.net^
 ||marketingblocks.ai^
 ||marketinghub.opentext.com^
@@ -226379,6 +226382,7 @@ dlsdk.appsflyer.com^
 ||muso.com^
 ||mvads.kugou.com^
 ||mwlucuvbyrff.com^
+||mwm2.com^
 ||mwm2.nl^
 ||mxhichina.com^
 ||mxmrt.com^
@@ -227592,6 +227596,7 @@ dlsdk.appsflyer.com^
 ||proximi.io^
 ||proximitymarketing.com^
 ||proyalz.nl^
+||prppr.nl^
 ||prtl.co^
 ||psb.lenovomm.com^
 ||psh.ai^
@@ -229294,6 +229299,7 @@ dlsdk.appsflyer.com^
 ||tagembed.com^
 ||tagging.bergmanclinics.nl^
 ||tagging.elektrobode.nl^
+||tagging.stas.nl^
 ||tagging.toeleveringonline.nl^
 ||tagging.versaantafel.nl^
 ||tagging.wetransfer.com^
@@ -229301,6 +229307,7 @@ dlsdk.appsflyer.com^
 ||taginspector.com^
 ||tagmanager.becop.nl^
 ||tagmanager.google.com^
+||tagmanager.top^
 ||tags.nationwide.com^
 ||tags.natwest.com^
 ||tags.sendinblue.com^
@@ -230705,7 +230712,9 @@ dlsdk.appsflyer.com^
 ||yee.js.cn^
 ||yeelight.com^
 ||yeelyn.com^
+||yellow.ai^
 ||yellow.co-operativebank.co.uk^
+||yellowmessenger.com^
 ||yellowpages.com^
 ||yellowpages.pl^
 ||yellowpageseu.net^
@@ -230946,13 +230955,6 @@ dlsdk.appsflyer.com^
 ||zzrcz.com^
 ||zzsx8.com^
 ||zzzjvqzkmqllb.top^
-||tagging.stas.nl^
-||tagmanager.top^
-||prppr.nl^
-||mwm2.com^
-||marketing.workbooks.com^
-||yellow.ai^
-||yellowmessenger.com^
 ||badv.wp.pl^
 ||emisjawidgeet.onet.pl^
 ||ads.edipresse.pl^
