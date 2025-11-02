@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.793
+! Version: 1.794
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-11-02T13:23:18.142Z
+! Last modified: 2025-11-02T20:17:50.500Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -114752,7 +114752,6 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||telemetry.chase.co.uk.edgekey.net^
 ||telemetry.chillicream.com^
 ||telemetry.chowmain.software^
-||telemetry.cloud.yellow.ai^
 ||telemetry.cloudmediahive.net^
 ||telemetry.codefinity.com^
 ||telemetry.coder.com^
@@ -181260,8 +181259,10 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||nexus.mbna.ca^
 ||nexus.tdbank.com^
 ||nexus.tdinsurance.com^
+||ntms-test.coles.com.au^
 ||ntms-test.creditcards.money.qantas.com^
 ||ntms-test.koganmoney.com.au^
+||ntms.coles.com.au^
 ||ntms.creditcards.money.qantas.com^
 ||ntms.koganmoney.com.au^
 ||p.pulse.buyatoyota.com^
@@ -214958,6 +214959,7 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||metrics.worldsbestbartendersselection.com^
 ||ms.apg.nl^
 ||nettokom-lp.information.nettokom.de^
+||nmetrics.coles.com.au^
 ||nmetrics.creditcards.money.qantas.com^
 ||nmetrics.koganmoney.com.au^
 ||oferplan-data.lavozdegalicia.es^
@@ -219022,6 +219024,7 @@ dlsdk.appsflyer.com^
 ||alerts.lidlplus.com^
 ||alerts.thedailystar.net^
 ||alescodata.com^
+||alexa.auth.switch-bot.com^
 ||alexa.com^
 ||alfa-track.com^
 ||alfa145.com^
@@ -221207,7 +221210,6 @@ dlsdk.appsflyer.com^
 ||coinside.ru^
 ||coinwidget.com^
 ||col.hztags.net^
-||coles.com.au^
 ||colisprive.com^
 ||colissimo.fr^
 ||collect-eu-*.myhomescreen.tv^
@@ -222312,6 +222314,7 @@ dlsdk.appsflyer.com^
 ||diablo3.com^
 ||diagassets-lb.apple.com.akadns.net^
 ||diagassets.g.aaplimg.com^
+||diagnostic.degiro.nl^
 ||diagnostics-eudb.office.com^
 ||diagnostics.apple.com.akadns.net^
 ||diagnostics.apple.com^
@@ -223226,6 +223229,7 @@ dlsdk.appsflyer.com^
 ||fireworkapi.com^
 ||fireworktv.com^
 ||firmalyzer.com^
+||firstbeatanalytics.com^
 ||firstpromoter.com^
 ||firststat.ru^
 ||fisheries.gov.pg^
@@ -224666,6 +224670,7 @@ dlsdk.appsflyer.com^
 ||instatus.com^
 ||insticator-localhost-products.s3.amazonaws.com^
 ||insticator-review-products.s3.amazonaws.com^
+||instituutorshof.be^
 ||instreet.cn^
 ||instrument-ofgod.com^
 ||instytut-pollster.pl^
@@ -227651,7 +227656,6 @@ dlsdk.appsflyer.com^
 ||purevpn.com.cdn.cloudflare.net^
 ||purevpn.com^
 ||purplebrain.com^
-||purpledshub.com^
 ||purr.nytimes.com^
 ||push.air-matters.com^
 ||push.api.bbci.co.uk^
@@ -229220,6 +229224,8 @@ dlsdk.appsflyer.com^
 ||sysdig.com^
 ||sysomos.com^
 ||sytcyf.com^
+||syte.ai^
+||syteapi.com^
 ||sytech-consultants.com^
 ||sytsr.com^
 ||sytz1288.com^
@@ -230940,6 +230946,13 @@ dlsdk.appsflyer.com^
 ||zzrcz.com^
 ||zzsx8.com^
 ||zzzjvqzkmqllb.top^
+||tagging.stas.nl^
+||tagmanager.top^
+||prppr.nl^
+||mwm2.com^
+||marketing.workbooks.com^
+||yellow.ai^
+||yellowmessenger.com^
 ||badv.wp.pl^
 ||emisjawidgeet.onet.pl^
 ||ads.edipresse.pl^
