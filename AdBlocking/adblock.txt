@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Block those ads
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.2798
+! Version: 1.2799
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-11-06T13:30:33.054Z
+! Last modified: 2025-11-06T14:17:32.841Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -2897,6 +2897,7 @@
 ||apologiesoccursdepressed.com^
 ||apologyspent.com^
 ||aporodiko.com^
+||apostilabomine.shop^
 ||apozemachimera.cfd^
 ||app-momentum.com^
 ||appads.com^
@@ -6812,6 +6813,7 @@
 ||cmbqnjwjyqzvv.online^
 ||cmccymjawtcpd.space^
 ||cmdrogqpxvxtr.online^
+||cmdtubyfwosoa.online^
 ||cmefanso.com^
 ||cmfads.com^
 ||cmgpeeexadmwb.site^
@@ -12140,6 +12142,7 @@
 ||frugtores.help^
 ||fruiterdisrupt.cfd^
 ||fruitfulconference.pro^
+||fruitfulmission.com^
 ||fruitiesmatchina.com^
 ||frumpsatheize.life^
 ||frusttollmen.cfd^
@@ -17731,6 +17734,7 @@
 ||juysqudhjre.xyz^
 ||juywkhbpmswmq.website^
 ||jvbxyldxbhda.com^
+||jvdoukkjmbwaq.website^
 ||jvergbdvwit.xyz^
 ||jvlrcbfxijxgk.store^
 ||jvmbgorjhyyao.click^
@@ -25503,6 +25507,7 @@
 ||pattedearnestly.com^
 ||pattguarani.help^
 ||pattyheadlong.com^
+||patwariwiping.shop^
 ||paudugoureguw.com^
 ||pauewr4cw2xs5q.com^
 ||paufoasevops.com^
@@ -45005,6 +45010,8 @@
 ||prebid-*.rubiconproject.com^
 ||pl.ua^$badfilter
 Banner468x60
+/^https:\/\/[a-z]{3,4}\.[a-z]{10,13}\.com\/loader\.min\.js$/$script,third-party,match-case,header=etag:/^W\/"[0-9a-f]{32}-\d{13}"$/
+/^https:\/\/d[0-9a-z]{12,13}\.cloudfront\.net\/loader\.min\.js$/$script,third-party,match-case,header=etag:/^W\/"[0-9a-f]{32}"$/
 ||consent.cookiefirst.com^$badfilter
 ||mgcld.xyz^$badfilter
 ||vp2.txxx.com^$badfilter
