@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.817
+! Version: 1.818
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-11-06T10:21:01.506Z
+! Last modified: 2025-11-06T11:17:22.129Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -219423,6 +219423,10 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||target.virginmoney.com.au^
 ||target.yourchi.org^
 ||watv.gogoinflight.com^
+||api-ktm.kkday.com^
+||riskpoc.trip.com^
+||chloro.trip.com^
+||ubt-sgp.trip.com^
 ||https-filtering-check.adtidy.org^
 ||matomo-demo-*.amazonaws.com^
 ||*-default-cn.rum.aliyuncs.com^
@@ -223447,7 +223451,6 @@ dlsdk.appsflyer.com^
 ||chl.ca^
 ||chl7rysobc3ol6xla.com^
 ||chlfanbase.ca^
-||chloro.trip.com^
 ||chlorobike.com^
 ||chmae.com^
 ||chmod777.ltd^
@@ -230583,7 +230586,6 @@ dlsdk.appsflyer.com^
 ||riqu2015.com^
 ||risecodes.com^
 ||riskified.com^
-||riskpoc.trip.com^
 ||rj.baidu.cn^
 ||rjfun.com^
 ||rjfun.github.io^
