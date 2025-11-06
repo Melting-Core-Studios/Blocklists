@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.818
+! Version: 1.819
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-11-06T11:17:22.129Z
+! Last modified: 2025-11-06T12:33:53.434Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -173475,6 +173475,8 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||popunhot1.blogspot.com^
 ||re-direct.pl^
 ||t.co^
+||delog.nestads.com^
+||deapi.nestads.com^
 ||event.marketap.io^
 ||crm.marketap.io^
 ||gre.groobee.io^
@@ -214973,6 +214975,10 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||tk.boutique.femmeactuelle.fr^
 ||tk.boutique.harpersbazaar.fr^
 ||tk.boutique.programme-tv.net^
+||api-ktm.kkday.com^
+||riskpoc.trip.com^
+||chloro.trip.com^
+||ubt-sgp.trip.com^
 ||collector.moderntv.eu^
 ||log1.wanmei.com^
 ||log2.wanmei.com^
@@ -219423,10 +219429,6 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||target.virginmoney.com.au^
 ||target.yourchi.org^
 ||watv.gogoinflight.com^
-||api-ktm.kkday.com^
-||riskpoc.trip.com^
-||chloro.trip.com^
-||ubt-sgp.trip.com^
 ||https-filtering-check.adtidy.org^
 ||matomo-demo-*.amazonaws.com^
 ||*-default-cn.rum.aliyuncs.com^
