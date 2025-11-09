@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.675
+! Version: 1.676
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-11-09T04:19:41.523Z
+! Last modified: 2025-11-09T18:21:20.671Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -5309,7 +5309,7 @@ ok-magazine.ru##.socNetworks-footer-article
 video.repubblica.it###gs-social-sharebuttons
 boardingarea.com,daemonanime.net,redanianintelligence.com,eckovation.com,kevinpurcell.org,daemon-hentai.com##.widget_twitter_timeline
 eckovation.com##.widget_mo_optin_widgets
-washingtonpost.com,lehighvalleylive.com,thingiverse.com,reuters.com,cleveland.com,shaiyallin.com,airly.org,infosecwriteups.com,blog.getadblock.com,medium.datadriveninvestor.com,mlblogs.com,music.apple.com##button[aria-label^="Share"]
+datawrapper.dwcdn.net,washingtonpost.com,lehighvalleylive.com,thingiverse.com,reuters.com,cleveland.com,shaiyallin.com,airly.org,infosecwriteups.com,blog.getadblock.com,medium.datadriveninvestor.com,mlblogs.com,music.apple.com##button[aria-label^="Share"]
 infosecwriteups.com,blog.getadblock.com,medium.datadriveninvestor.com##div[data-popper-reference-hidden] span[tabindex] ~ div > div[class] div ~ button[class]
 goal-life.com##.authors + div.text-center
 filmtipo.com,rutrailer.com,handmadekultur.de,bestsimilar.com,film-like.com##.ssk-sticky
