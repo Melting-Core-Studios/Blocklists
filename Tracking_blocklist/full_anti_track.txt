@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.834
+! Version: 1.835
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-11-09T13:23:40.733Z
+! Last modified: 2025-11-09T14:15:17.266Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -2738,6 +2738,7 @@
 ||dep.hmgroup.com^
 ||dfanalytics.dealerfire.com^
 ||diagnose.igstatic.com^
+||dig.ultimedia.com^
 ||distillery.wistia.com^
 ||doppler-beacon.cbsivideo.com^
 ||doppler-client-events.cbsivideo.com^
@@ -74117,6 +74118,7 @@
 ||difyferukentaspe.com^
 ||dig.bdurl.net^
 ||dig.zjurl.cn^
+||dig2.ultimedia.com^
 ||digamyaggress.click^
 ||digbearings.com^
 ||digeiz.com^
@@ -222365,6 +222367,7 @@ dlsdk.appsflyer.com^
 ||a.m.gxwztv.com^
 ||a.m.shuhuangge.org^
 ||a.nanhuwang.com^
+||a.newsadoo.com^
 ||a.nowscore.com^
 ||a.nytimes.com^
 ||a.qiao024.com^
@@ -223773,7 +223776,6 @@ dlsdk.appsflyer.com^
 ||auraanalytics.com.au^
 ||auryc.com^
 ||ausgezeichnet.org^
-||ausha.co^
 ||aussievitamin.com^
 ||australia-southeast1-jg-real-time-reporting.cloudfunctions.net^
 ||austrialotterie.com^
@@ -225377,6 +225379,7 @@ dlsdk.appsflyer.com^
 ||codomaza.com^
 ||coglilaffare.it^
 ||cognigy.ai^
+||cognigy.com^
 ||cognism.com^
 ||cognitivemarketing.tid.es^
 ||cognito-identity.us-east-1.amazonaws.com^
@@ -227730,6 +227733,7 @@ dlsdk.appsflyer.com^
 ||geforcenow.com^
 ||geili.co^
 ||geistm.com^
+||gelacy.app^
 ||geldanforderung-hennrike.de^
 ||geldloterijen.nl^
 ||geller-pa.googleapis.com^
@@ -227824,6 +227828,7 @@ dlsdk.appsflyer.com^
 ||gettingurl.com^
 ||gettrackify.com^
 ||getvero.com^
+||getwoohoo.com^
 ||gewinnabfrage.at^
 ||gewuwen.com^
 ||gf108.com^
@@ -228070,7 +228075,6 @@ dlsdk.appsflyer.com^
 ||gugulonger.cn^
 ||guidashu.com^
 ||guide-piscine.fr^
-||gumlet.com^
 ||gummyadvertising.com.mt^
 ||guohead.com^
 ||guomob.com^
@@ -228415,6 +228419,8 @@ dlsdk.appsflyer.com^
 ||iab.com^
 ||iabacorenaganotonic.best^
 ||iabtechlab.com^
+||iabtechlab.github.io^
+||iabtechnologylab.com^
 ||iad-apple.com.akadns.net^
 ||iadmoo.apple.com^
 ||iads.xinmin.cn^
@@ -228914,6 +228920,7 @@ dlsdk.appsflyer.com^
 ||ip-geolocation.netcraft.com^
 ||ip-tracker.org^
 ||ip-vn.com^
+||ip.bsky.app^
 ||ip.notable.app^
 ||ip138.com^
 ||ip2location.com^
@@ -231422,6 +231429,7 @@ dlsdk.appsflyer.com^
 ||pfm-repair.com^
 ||pfmintelligence.com^
 ||pg.com^
+||pg.dpgmedia.net^
 ||pgdt.gtimg.com^
 ||pgforsta.com^
 ||pharos.mfa.gr^
@@ -231976,6 +231984,7 @@ dlsdk.appsflyer.com^
 ||questionstar.com^
 ||questpass.pl^
 ||queue-it.com^
+||quickcep.com^
 ||quickconnect.to^
 ||quicklyemailsend77.com^
 ||quicktapsurvey.com^
@@ -232634,11 +232643,13 @@ dlsdk.appsflyer.com^
 ||sentry.lbry.tech^
 ||sentry.matrix.org^
 ||sentry.openbook.social^
+||sentry.quodari.com^
 ||sentry.scaleway.com^
 ||sentry.svc.tfw.io^
 ||sentry.tools.element.io^
 ||sentry.uncinc.nl^
 ||sentry.voipgrid.nl^
+||sentry.wikipower.dev^
 ||seohub.digital^
 ||seoindia.today^
 ||seopult.ru^
@@ -232864,6 +232875,7 @@ dlsdk.appsflyer.com^
 ||smarketingcloud.com^
 ||smarsh.com^
 ||smartadserver.ru^
+||smartagent.app^
 ||smartasset.com^
 ||smartboulevard.co.uk^
 ||smartdesign.immowelt.org^
@@ -233348,6 +233360,7 @@ dlsdk.appsflyer.com^
 ||surfplezier.nl^
 ||surv.xbizmedia.com^
 ||survalyzer.com^
+||survalyzer.swiss^
 ||survey.apple.com^
 ||survey.clevelandclinic.org^
 ||survey.fm^
@@ -233801,6 +233814,7 @@ dlsdk.appsflyer.com^
 ||top.ge^
 ||top10casino.nl^
 ||top267.com^
+||topbuytips.store^
 ||topcams.life^
 ||topfab.co.nz^
 ||tophat.com^
@@ -234059,7 +234073,6 @@ dlsdk.appsflyer.com^
 ||ulearn.io^
 ||ulink.cc^
 ||ultimatebet.com^
-||ultimedia.com^
 ||ultracart.com^
 ||ultriva.com^
 ||ulyvjty4rd.com^
@@ -235136,10 +235149,6 @@ dlsdk.appsflyer.com^
 ||zzrcz.com^
 ||zzsx8.com^
 ||zzzjvqzkmqllb.top^
-||topbuytips.store^
-||quickcep.com^
-||getwoohoo.com^
-||gelacy.app^
 ||badv.wp.pl^
 ||emisjawidgeet.onet.pl^
 ||ads.edipresse.pl^
