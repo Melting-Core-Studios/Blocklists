@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.684
+! Version: 1.685
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-11-10T13:30:06.841Z
+! Last modified: 2025-11-10T14:17:26.859Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -369,6 +369,7 @@ esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israel
 esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israelnationalnews.com,lifehacker.com,cgmagonline.com,gizmodo.com,gamerevolution.com,metro.co.uk,thurrott.com,stereogum.com,ign.com,newsweek.com,dailymail.co.uk,comingsoon.net,timesofisrael.com,nypost.com,9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,electrek.co#%#//scriptlet('remove-in-shadow-dom', 'div[data-spot-im-class="vote-links"] + span[class$="index__dot"]')
 echofm.online,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com##.comment__share > *
 echofm.online,antirez.com,comicbook.com,alexp.pl,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com###thread-share-bar
+pravda.com.ua##.post_news_social
 keybooks.gr##.kbs-social-share
 ptsecurity.com##button:has(path[d^="M2.974"])
 ptsecurity.com##.flex > div.border-skin-general:has(> div.flex a[href^="https://t.me/share/"])
@@ -5548,7 +5549,7 @@ freeones.com##.share-modal-title
 ||psychologies.ru/*/blocks/psy_zen_promo_*.jpg
 grupormultimedio.com,slantmagazine.com,tarnow.ikc.pl##.single-component-share
 nba.com##.stats-share-button
-bokumachi-anime.com,kaiju-no8.net,mdzol.com,adrenaline.com.br##.news__share
+gazetaolsztynska.pl,bokumachi-anime.com,kaiju-no8.net,mdzol.com,adrenaline.com.br##.news__share
 mid-day.com##.social-sharing-post-txt ul.social-icons-inline
 ||player.daznservices.com/player/releases/v*/unfilled/share.chunk.js$domain=goal.com
 lsm.lv##.share-caption
