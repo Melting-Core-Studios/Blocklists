@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.849
+! Version: 1.850
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-11-11T13:30:58.086Z
+! Last modified: 2025-11-11T17:17:19.826Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -3604,6 +3604,7 @@
 ||rum.marquardmedia.hu^
 ||videostat-new.index.hu^
 ||videostat.index.hu^
+||beacon.coofis.com^
 ||parsley.detik.com^
 ||tracker.oval.id^
 ||analytics.competitoor.com^
