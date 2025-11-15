@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.873
+! Version: 1.874
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-11-15T13:24:11.766Z
+! Last modified: 2025-11-15T16:18:41.359Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -2517,6 +2517,7 @@
 ||3p-geo.yahoo.com^
 ||3p-udc.yahoo.com^
 ||682a5845.b-cdn.net^
+||9w2zed1szg.execute-api.us-east-1.amazonaws.com^
 ||a.hcaptcha.com^
 ||a.mobify.com^
 ||a.vturb.net^
@@ -49236,6 +49237,7 @@
 ||7moor-fs1.com^
 ||7moor.com^
 ||7mts.com^
+||7ng6v3lu3c.execute-api.us-east-1.amazonaws.com^
 ||7nkbwdf1uq.ru^
 ||7nt9p4d4.de^
 ||7ooo.ru^
@@ -87300,6 +87302,7 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||j.bs.twlxxl.cn^
 ||j.kfd3sm2c.com^
 ||j0ss4np1c5.site^
+||j0v36abmdj.execute-api.us-east-1.amazonaws.com^
 ||j178.wmur.com^
 ||j2.ru^
 ||j282.thetimes-tribune.com^
@@ -92339,6 +92342,7 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||m62rtkpf.de^
 ||m6pz5h8qi18jq1s7hjkytxn7sjc0zpxw5gks3vyk8dcxs2cstjgdxkp7t1eb.me^
 ||m6r.eu^
+||m6ulblxep4.execute-api.us-east-1.amazonaws.com^
 ||m700.bigrapidsnews.com^
 ||m821.saratogian.com^
 ||m869.presstelegram.com^
@@ -127972,6 +127976,7 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||adtag-or2-697022674.us-west-2.elb.amazonaws.com^
 ||beaconserver-ce-vpc0-1909323404.us-west-2.elb.amazonaws.com^
 ||wildcard-ads-448740142.us-west-2.elb.amazonaws.com^
+||bin5y4muil.execute-api.us-east-1.amazonaws.com^
 ||amnyescsmgcagjj.com^
 ||assets.anzuinfra.com^
 ||dynamic-l1.anzuinfra.com^
@@ -227310,7 +227315,6 @@ dlsdk.appsflyer.com^
 ||exchangeratesapi.io^
 ||exclusiefmoment.nl^
 ||execs.com^
-||execute-api.us-east-1.amazonaws.com^
 ||exepto.ru^
 ||exit.macandbumble.com^
 ||exp-tas.com^
@@ -229396,6 +229400,7 @@ dlsdk.appsflyer.com^
 ||kfewaz.zh1155.com^
 ||kfhuihe.net^
 ||kfluoa.com^
+||kg668dbov0.execute-api.us-east-1.amazonaws.com^
 ||kgcjgsa8.net^
 ||kguke.com^
 ||kho3au7l4z.me^
@@ -232232,6 +232237,7 @@ dlsdk.appsflyer.com^
 ||reflect.se^
 ||refr.cc^
 ||reg.tiscali.cz^
+||regionalserver.com^
 ||reglement-info-netflix.com^
 ||reklami.24fudbal.mk^
 ||reklami.daily.mk^
@@ -235265,7 +235271,7 @@ dlsdk.appsflyer.com^
 ||zzrcz.com^
 ||zzsx8.com^
 ||zzzjvqzkmqllb.top^
-||regionalserver.com^
+||mailmeisters.nl^
 ||badv.wp.pl^
 ||emisjawidgeet.onet.pl^
 ||ads.edipresse.pl^
