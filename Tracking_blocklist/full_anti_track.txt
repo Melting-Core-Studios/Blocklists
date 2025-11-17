@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.884
+! Version: 1.885
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-11-17T18:24:11.438Z
+! Last modified: 2025-11-17T20:20:04.017Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -202049,6 +202049,8 @@ dlsdk.appsflyer.com^
 ||device-metrics-*.amazon.com^
 ||flurry.agentportal.*.yahoodns.net^
 ||mobileanalytics.*.amazonaws.com^
+/^https:\/\/anon1.gt\d{6}.com/
+/^anon1.gt\d{6}.com$/
 -logsdk.kwai-pro.com^
 -ulog-*.kwai-pro.com^
 -ulog-*.kwaipros.com^
