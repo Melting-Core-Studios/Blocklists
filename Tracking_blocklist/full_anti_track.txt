@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.911
+! Version: 1.912
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-11-21T21:16:18.413Z
+! Last modified: 2025-11-21T22:17:20.310Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -3965,6 +3965,7 @@
 ||analytics.nike.com^
 ||analytics.ovh.com^
 ||analytics.oyorooms.com^
+||analytics.passes.com^
 ||analytics.pgncs.notion.so^
 ||analytics.plex.tv^
 ||analytics.productreview.com.au^
@@ -60616,7 +60617,6 @@
 ||analytics.partijvoordedieren.nl^
 ||analytics.partners.paysafecard.com^
 ||analytics.pason.com^
-||analytics.passes.com^
 ||analytics.passiton.com^
 ||analytics.patsnap.com^
 ||analytics.payfactors.com^
