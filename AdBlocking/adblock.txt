@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Block those ads
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.3165
+! Version: 1.3166
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-11-23T14:14:16.935Z
+! Last modified: 2025-11-23T15:15:04.423Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -5487,6 +5487,7 @@
 ||browsfried.com^
 ||browsiprod.com^
 ||browsobsolete.com^
+||brtigetgfw.com^
 ||brtsumthree.com^
 ||brtwlhfmomcng.site^
 ||bruceleadx1.com^
@@ -6469,6 +6470,7 @@
 ||cgtwccqrpbota.global^
 ||cgtwpoayhmqi.online^
 ||cgwwqqzsclqke.website^
+||cgxjhtjxe.com^
 ||chabadokor.com^
 ||chachors.net^
 ||chacolieutopia.shop^
@@ -8976,6 +8978,7 @@
 ||dgxmvglp.com^
 ||dgzwvdfllpqef.space^
 ||dhaajqtp.com^
+||dhaisicc.com^
 ||dharupal.com^
 ||dhbbfvljzjouy.website^
 ||dhbfsbanlrmqm.website^
@@ -9407,6 +9410,7 @@
 ||dnqmuubtrodvi.site^
 ||dnrblyqtuo.net^
 ||dnrwtqdqfthjh.net^
+||dnsiztagjyftz.website^
 ||dntfgskgcxnl.com^
 ||dnurxagcqddad.website^
 ||dnvogsqirpcfq.space^
@@ -10802,6 +10806,7 @@
 ||energypopulationpractical.com^
 ||enfantsfizzle.cyou^
 ||enfbgiiqdlhox.xyz^
+||enfoldsfurca.com^
 ||enfonceilya.cfd^
 ||enforcementmutenessyogurt.com^
 ||enframement.pics^
@@ -12930,6 +12935,7 @@
 ||fuzilsstorage.cyou^
 ||fv-bpmnrzkv.vip^
 ||fvahbwnlcqvaf.site^
+||fvainjetmzyqi.online^
 ||fvaslplblqgzc.online^
 ||fvcccifbvygvb.space^
 ||fvcm.net^
@@ -13008,6 +13014,7 @@
 ||fxxogvmdpnwgw.online^
 ||fycdnhwmaitdg.online^
 ||fycoknyfpxcej.store^
+||fycppnvbtqoyp.site^
 ||fydhxqfmuiuza.site^
 ||fyewrocgieeog.site^
 ||fyglaybyszlbb.online^
@@ -17132,6 +17139,7 @@
 ||ixnatpsdzezjr.online^
 ||ixnow.xyz^
 ||ixnp.com^
+||ixorachoregy.com^
 ||ixpaecojilsoj.space^
 ||ixsgksvcnjqvo.online^
 ||ixtbiwi-jf.world^
@@ -22766,6 +22774,7 @@
 ||ninetyninesec.com^
 ||ninilfwodxdyj.website^
 ||ninontoising.com^
+||niobefrogeye.com^
 ||niolpwvcjjfvj.website^
 ||nipcrater.com^
 ||nipechala.com^
@@ -31123,6 +31132,7 @@
 ||smackedtapnet.com^
 ||smaclick.com^
 ||smadex.com^
+||smaikheftily.cyou^
 ||small-discussion.com^
 ||smallbruisedfollowing.com^
 ||smallestexpectedspecialty.com^
@@ -42363,7 +42373,6 @@
 ||1991482557.rsc.cdn77.org^
 ||static.adconnect.vn^
 ||kernh41.com^
-/^https:\/\/[a-z]{3,4}\.[a-z]{8,13}\.com\/loader\.min\.js$/$script,third-party,match-case,header=etag:/^W\/"[0-9a-f]{32}-\d{13}"$/
 ||vungle.com^
 ||concertads-configs.vox-cdn.com^
 ||https-filtering-check.adtidy.org^
