@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.920
+! Version: 1.921
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-11-23T01:21:53.456Z
+! Last modified: 2025-11-23T03:25:53.443Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -202,6 +202,7 @@
 ||fzlnk.com^
 ||g10102301085.co^
 ||g10300385420.co^
+||g10498469755.co^
 ||g11686975765.co^
 ||g1188506010.co^
 ||g11885060100.co^
@@ -209,11 +210,13 @@
 ||g12281228770.co^
 ||g1386590346.co^
 ||g1584674682.co^
+||g1584674683.co^
 ||g1584674684.co^
 ||g1782759015.co^
 ||g1782759016.co^
 ||g1980843350.co^
 ||g2575096355.co^
+||g594253006.co^
 ||g792337340.co^
 ||g792337342.co^
 ||g792337343.co^
@@ -223,6 +226,7 @@
 ||g9508048080.co^
 ||g9706132415.co^
 ||g990421675.co^
+||g9904216750.co^
 ||g990421676.co^
 ||gbqofs.com^
 ||gcprivacy.com^
@@ -2031,6 +2035,7 @@
 ||shockinggrass.com^
 ||shockingship.com^
 ||showsteel.com^
+||shredform.com^
 ||shredquiz.com^
 ||shrewsburyshow.com^
 ||shrillspoon.com^
@@ -2646,6 +2651,7 @@
 ||analytics.yyggames.com^
 ||analytics.ziftsolutions.com^
 ||analyticsehnwe.servicebus.windows.net^
+||analyticsplusdev.clientify.net^
 ||analyticssec.overwolf.com^
 ||ao-freegeoip.herokuapp.com^
 ||ape-tagit.timeinc.net^
@@ -61570,7 +61576,6 @@
 ||analyticsoverzicht.com^
 ||analyticspixel.microsoft.com^
 ||analyticsplus.classlink.com^
-||analyticsplusdev.clientify.net^
 ||analyticssystems.net^
 ||analyticstrackback.com^
 ||analyticstransfer-id.taximaxim.com^
@@ -81412,7 +81417,6 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||g0wow.net^
 ||g1-globosaude.com^
 ||g1.dfcfw.com^
-||g10498469755.co^
 ||g10696554090.co^
 ||g10894638425.co^
 ||g1386590345.co^
@@ -81435,13 +81439,11 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||g4i62.com^
 ||g4nd.com^
 ||g55uuy.shop^
-||g594253006.co^
 ||g5f2y.top^
 ||g650.delcotimes.com^
 ||g792337341.co^
 ||g8tor.com^
 ||g986.themorningsun.com^
-||g9904216750.co^
 ||g9hc4.cn^
 ||g9qnk89pd5ic.com^
 ||ga-prod-api.powr.tv^
