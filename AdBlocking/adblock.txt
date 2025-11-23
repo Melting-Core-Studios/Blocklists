@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Block those ads
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.3164
+! Version: 1.3165
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-11-23T13:21:25.494Z
+! Last modified: 2025-11-23T14:14:16.935Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -8557,6 +8557,7 @@
 ||dd1xbevqx.com^
 ||dd268fdaa5.com^
 ||dd9l0474.de^
+||ddaqmzecanewq.space^
 ||ddcgpoltvrukxjc.net^
 ||dddashasledopyt.xyz^
 ||dddomainccc.com^
@@ -9489,6 +9490,7 @@
 ||domslc.com^
 ||domyxpsdoowyg.website^
 ||donecperficiam.net^
+||donideified.cfd^
 ||doninjaskr.com^
 ||donkeyflower.xyz^
 ||donkeygentlesubdued.com^
@@ -11284,6 +11286,7 @@
 ||evmdamxavzsgk.website^
 ||evnhigkzgp.club^
 ||evnzrsecbioqp.today^
+||evocatepooly.help^
 ||evoeqbnxitfpa.online^
 ||evokeinexpedientfastened.com^
 ||evolatemyrrh.help^
@@ -12685,6 +12688,7 @@
 ||frightfulvisitorimportant.com^
 ||frillyearth.com^
 ||frillyinspector.com^
+||frimshoop.shop^
 ||fringedupspire.cfd^
 ||frioencwksyur.website^
 ||frippettegmina.com^
@@ -14962,6 +14966,7 @@
 ||healthyenjournal.com^
 ||heapunderstood.com^
 ||heardaccumulatebeans.com^
+||heardspadedime.com^
 ||heart4man.net^
 ||heartachegrabbedlaunching.com^
 ||heartburnsurroundingcourtroom.com^
@@ -15059,6 +15064,7 @@
 ||herebygreedyrivers.com^
 ||herediadentata.cfd^
 ||heremployeesihi.info^
+||hereoftumps.cfd^
 ||hereonline.online^
 ||heresanothernicemess.com^
 ||heretopgirls.net^
@@ -20705,6 +20711,7 @@
 ||matterpalekept.com^
 ||matterssharplyraw.com^
 ||mattockpackall.com^
+||mattoidtyned.click^
 ||maturityneedlework.com^
 ||maturitynotebookmotion.com^
 ||maturityrigourwits.com^
@@ -26893,6 +26900,7 @@
 ||ptubsumsoay.net^
 ||ptugnins.net^
 ||ptujurnpa.com^
+||ptuksothives.com^
 ||ptumesukrerd.net^
 ||ptupsewo.net^
 ||ptuqidzdjdkhi.site^
@@ -27336,6 +27344,7 @@
 ||qdojhthrdheso.online^
 ||qdpvnjhzcafbl.space^
 ||qdsogzlxcrgtg.space^
+||qdsysuilwdww.com^
 ||qdtvdmtrlrelw.space^
 ||qdurzzrmxptvr.online^
 ||qdvdesuqdanwc.store^
@@ -35689,6 +35698,7 @@
 ||vmiymbabxueli.space^
 ||vmjanoicaljna.online^
 ||vmjtfdykvjhca.online^
+||vmktjnikltwjm.site^
 ||vmlj7vtg7eokt11uzpwhrn61i3wio.rest^
 ||vmmcdn.com^
 ||vmngxjiczmmzm.site^
@@ -37200,6 +37210,7 @@
 ||wwazalfqbheab.space^
 ||wwbdayuvbvrsr.rocks^
 ||wwcjhitmvwdqh.space^
+||wwdhgevpmxmvs.online^
 ||wwfwdwbmhzwil.website^
 ||wwgldtvwiryqb.website^
 ||wwgrrqrnphfdg.online^
@@ -42352,6 +42363,7 @@
 ||1991482557.rsc.cdn77.org^
 ||static.adconnect.vn^
 ||kernh41.com^
+/^https:\/\/[a-z]{3,4}\.[a-z]{8,13}\.com\/loader\.min\.js$/$script,third-party,match-case,header=etag:/^W\/"[0-9a-f]{32}-\d{13}"$/
 ||vungle.com^
 ||concertads-configs.vox-cdn.com^
 ||https-filtering-check.adtidy.org^
@@ -43185,7 +43197,7 @@
 ||prebid-*.rubiconproject.com^
 ||pl.ua^$badfilter
 Banner468x60
-/^https:\/\/[a-z]{3,4}\.[a-z]{8,13}\.com\/loader\.min\.js$/$script,third-party,match-case,header=etag:/^W\/"[0-9a-f]{32}-\d{13}"$/
+/^https:\/\/[a-z]{3,4}\.[a-z]{8,14}\.com\/loader\.min\.js$/$script,third-party,match-case,header=etag:/^W\/"[0-9a-f]{32}-\d{13}"$/
 /^https:\/\/d[0-9a-z]{12,13}\.cloudfront\.net\/loader\.min\.js$/$script,third-party,match-case,header=etag:/^W\/"[0-9a-f]{32}"$/
 ||consent.cookiefirst.com^$badfilter
 ||mgcld.xyz^$badfilter
