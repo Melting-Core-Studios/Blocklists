@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Block those ads
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.3155
+! Version: 1.3156
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-11-23T04:30:44.558Z
+! Last modified: 2025-11-23T05:15:44.017Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -12081,6 +12081,7 @@
 ||fiwekmyzlnvjx.site^
 ||fiwhibse.com^
 ||fixatestali.help^
+||fixed-swimming.pro^
 ||fixedlyfully.com^
 ||fixedname.pro^
 ||fixedopening.com^
@@ -23265,6 +23266,7 @@
 ||nxkoqodezlmeh.store^
 ||nxmpmugazsghw.website^
 ||nxmsiuptjboqj.space^
+||nxpgyryvwtzjz.online^
 ||nxppdpumqf.com^
 ||nxrujexaxepmt.site^
 ||nxt-psh.com^
@@ -27770,6 +27772,7 @@
 ||qvxrbcmwwtdudcm.net^
 ||qvzcjlybqjvgx.website^
 ||qvzxpcedohgjp.website^
+||qwbrgeyutdnuj.website^
 ||qwcagaftfkepf.website^
 ||qwduwtqvuxstu.com^
 ||qwgruwrtcyxft.store^
@@ -29926,6 +29929,7 @@
 ||sb-stat1.com^
 ||sb89347.com^
 ||sbaxwhtjxblva.store^
+||sbbneosq.com^
 ||sbboppwsuocy.com^
 ||sbbyimgvmkxuf.online^
 ||sbclrysunaz.com^
@@ -31802,6 +31806,7 @@
 ||stimulateartificial.com^
 ||stingerfound.com^
 ||stingy-piano.pro^
+||stingyhorror.pro^
 ||stinkconstituent.com^
 ||stinklistedtobacco.com^
 ||stinkyloadeddoctor.com^
@@ -43062,7 +43067,7 @@
 ||prebid-*.rubiconproject.com^
 ||pl.ua^$badfilter
 Banner468x60
-/^https:\/\/[a-z]{3,4}\.[a-z]{10,13}\.com\/loader\.min\.js$/$script,third-party,match-case,header=etag:/^W\/"[0-9a-f]{32}-\d{13}"$/
+/^https:\/\/[a-z]{3,4}\.[a-z]{8,13}\.com\/loader\.min\.js$/$script,third-party,match-case,header=etag:/^W\/"[0-9a-f]{32}-\d{13}"$/
 /^https:\/\/d[0-9a-z]{12,13}\.cloudfront\.net\/loader\.min\.js$/$script,third-party,match-case,header=etag:/^W\/"[0-9a-f]{32}"$/
 ||consent.cookiefirst.com^$badfilter
 ||mgcld.xyz^$badfilter
