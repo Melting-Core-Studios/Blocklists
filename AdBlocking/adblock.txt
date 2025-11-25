@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Block those ads
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.3211
+! Version: 1.3212
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-11-25T16:22:09.575Z
+! Last modified: 2025-11-25T17:17:19.058Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -23514,6 +23514,7 @@
 ||ntyivmvvzscaj.store^
 ||nuamhmoviliol.online^
 ||nuayrztxdbfem.site^
+||nubairtagnu.com^
 ||nubileforward.com^
 ||nucleinkafirs.top^
 ||nucleo.online^
@@ -24674,6 +24675,7 @@
 ||ordinary-check.com^
 ||ordinaryhopeflippant.com^
 ||ordinaryneckegg.com^
+||ordjpubbwy.com^
 ||orepassport.com^
 ||orest-vlv.com^
 ||orfa1st5.de^
@@ -39920,9 +39922,7 @@
 ||ad.tpmn.co.kr^
 ||ad.video-mech.ru^
 ||ad01.tmgrup.com.tr^
-||adblock2.static-cloudflare.workers.dev^
-||adblock3.static-cloudflare.workers.dev^
-||adblock4.static-cloudflare.workers.dev^
+||adblock*.static-cloudflare.workers.dev^
 ||adblockeromega.com^
 ||adcheck.about.co.kr^
 ||addefenderplus.info^
@@ -40030,6 +40030,7 @@
 ||linkx.ix.tc^
 ||magictag.digislots.in^
 ||marketing.888.com^
+||masque-ads.b-cdn.net^
 ||mbid.marfeelrev.com^
 ||media.netrefer.com^
 ||media.vivaclix.com^
@@ -42911,6 +42912,9 @@
 ||ads2native.com^
 ||hdvmyo.com^
 ||adsy.mail.bg^
+||adblock2.static-cloudflare.workers.dev^
+||adblock3.static-cloudflare.workers.dev^
+||adblock4.static-cloudflare.workers.dev^
 .fwmrm.net^
 ||piguiqproxy.com^$badfilter
 ||delivery.senvangvn.com^
