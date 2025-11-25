@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.935
+! Version: 1.936
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-11-25T19:15:32.739Z
+! Last modified: 2025-11-25T21:16:42.526Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -2768,7 +2768,6 @@
 ||cs.zg-api.com^
 ||csi.gstatic.com^
 ||csp-reporting.cloudflare.com^
-||csp.secureserver.net^
 ||csr.onet.pl^
 ||ct.corpusapp.com^
 ||ct.pinterest.com^
@@ -2811,7 +2810,6 @@
 ||eventlog.inspsearchapi.com^
 ||events-endpoint.pointandplace.com^
 ||events-proxy.mintlify.com
-||events.api.secureserver.net^
 ||events.audiate.me^
 ||events.brightline.tv^
 ||events.btw.so^
@@ -37502,7 +37500,6 @@
 ||10.glacierbruecke.ru^
 ||10.k59ee.ru^
 ||103-181-182-245.nevacloud.io^
-||104.154.66.148.host.secureserver.net^
 ||10f.77-6.ru^
 ||10ta.do-k-3.ru^
 ||11.briarhaven.ru^
@@ -37517,9 +37514,7 @@
 ||12.c70ye.ru^
 ||123.ywxww.net^
 ||123123-b5b.pages.dev^
-||126.75.70.216.host.secureserver.net^
 ||12pause84.com^
-||131.157.66.148.host.secureserver.net^
 ||132.red-81-42-249.staticip.rima-tde.net^
 ||137z.qu1rkfuse.ru^
 ||139-162-143-187.ip.linodeusercontent.com^
@@ -37650,7 +37645,6 @@
 ||219.rv6324.ru^
 ||22.c70ye.ru^
 ||2215.c70ye.ru^
-||226.74.148.132.host.secureserver.net^
 ||22k.g7ve.ru^
 ||22x.hl5a6.ru^
 ||23.heronturm.ru^
@@ -81948,7 +81942,6 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||g.jwpsrv.com^
 ||g.mnw.cn^
 ||g.s8dj.com^
-||g.sst.secureserver.net^
 ||g.tbcdn.cn^
 ||g0gr67p.de^
 ||g0wow.net^
@@ -161104,7 +161097,6 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||codeads.com^
 ||www.freehitwebcounters.com^
 ||redemptionengine.com^
-||images-pw.secureserver.net^
 ||tracker.departapp.com^
 ||opentag-stats.qubit.com^
 ||analytics-api-samples.googlecode.com^
@@ -197523,6 +197515,7 @@ dlsdk.appsflyer.com^
 ||600.static.anwb.nl^
 ||600ad.com^
 ||60608787.com^
+||615653.com^
 ||626uc.com^
 ||62ac0a5777dcfd000863a23b--pat-splash.netlify.app^
 ||644446.com^
@@ -198541,6 +198534,7 @@ dlsdk.appsflyer.com^
 ||airgid.io^
 ||airiane.com^
 ||airnet.org.au^
+||airopuertcolluci.com^
 ||airport.ai^
 ||airpushmarketing.s3.amazonaws.com^
 ||airrobe.com^
@@ -198591,6 +198585,7 @@ dlsdk.appsflyer.com^
 ||alefvanoon.xyz^
 ||aleno.me^
 ||aleo.com^
+||alert-service.com^
 ||alert.autohome.com.cn^
 ||alertcarolina.unc.edu^
 ||alerts.lidlplus.com^
@@ -198828,6 +198823,7 @@ dlsdk.appsflyer.com^
 ||anycast.me^
 ||anyclip.com^
 ||anydesk.com^
+||anydigitalmarketers.com^
 ||anyhost.ru^
 ||anysdk.com^
 ||anyshare.lenovo.com^
@@ -199501,6 +199497,7 @@ dlsdk.appsflyer.com^
 ||bedegaming.com^
 ||bedful.com^
 ||bedrijfmaju.com^
+||bedrijfsenergievergelijker.online^
 ||bedrijvenmonitor.info^
 ||beeclever.app^
 ||beehiiv.com^
@@ -199523,6 +199520,7 @@ dlsdk.appsflyer.com^
 ||bellengmail.blogspot.com^
 ||bellennummer.com^
 ||bellennummernederland.com^
+||belmora.fun^
 ||bemail.it^
 ||bemesyd-cdn.freetls.fastly.net^
 ||bemob.com^
@@ -199550,6 +199548,7 @@ dlsdk.appsflyer.com^
 ||bes-progfree.com^
 ||besafe.global^
 ||beschikking-belastingdienst.com^
+||besled.nl^
 ||besoinactuel.fr^
 ||besparingennu.nl^
 ||best-life-insurance-uk.com^
@@ -199588,6 +199587,7 @@ dlsdk.appsflyer.com^
 ||beta.com.tw^
 ||betaaldienst-aanvraag.nl^
 ||betano.de^
+||betatraining.eu^
 ||betcity.net^
 ||betcity.nl^
 ||beterlot.nl^
@@ -199771,6 +199771,7 @@ dlsdk.appsflyer.com^
 ||bloomreach.cloud^$badfilter
 ||bloomreach.com^
 ||blox.l4urenz.nl^
+||blr.io^
 ||bltg.s-bol.com^
 ||blue-sail.net^
 ||bluecats.com^
@@ -199850,6 +199851,7 @@ dlsdk.appsflyer.com^
 ||bosiwangzi.cn^
 ||bosku21.xyz^
 ||botcopy.com^
+||botetextile.com^
 ||botframework.com^
 ||botfuel-hermes-webchat-server.herokuapp.com^
 ||botfuel.io^
@@ -199907,6 +199909,7 @@ dlsdk.appsflyer.com^
 ||brcache.madthumbs.com^
 ||breezily168.com^
 ||breezometer.com^
+||brevosend.com^
 ||brgm.fr^
 ||brick.global.ssl.fastly.net^
 ||bricovideo.com^
@@ -199929,6 +199932,7 @@ dlsdk.appsflyer.com^
 ||bro3.biz^
 ||broadcom.com^
 ||brockmeyer.nl^
+||broekkort.online^
 ||brooklynrail-web.imgix.net^
 ||brothersoft.com^
 ||brownrice.com^
@@ -199943,6 +199947,7 @@ dlsdk.appsflyer.com^
 ||brytecore.com^
 ||brytes.de^
 ||bsdev.cn^
+||bsh-group.com^
 ||bsiet.husky.sogou.com^
 ||bsp-proxy.wetransfer.net^
 ||bsp-we-mavta-fapp.azurewebsites.net^
@@ -199962,6 +199967,7 @@ dlsdk.appsflyer.com^
 ||btncdn.com^
 ||btpnative.com^
 ||btr.domywife.com^
+||btsndrc.ac^
 ||btw-zoeken.nl^
 ||btyou.com^
 ||bubbleup.com^
@@ -199999,6 +200005,7 @@ dlsdk.appsflyer.com^
 ||buyeasy.by^
 ||buyexpressly.com^
 ||buyimg.bianxianmao.com^
+||buytrckcenter.com^
 ||buyverticals.com^
 ||buzinessware.ir^
 ||buzz.app^
@@ -200501,10 +200508,12 @@ dlsdk.appsflyer.com^
 ||chmod777.ltd^
 ||chnhty.com^
 ||chobit.cc^
+||chocoladefabriek.pro^
 ||choice-apis-prod-2120274730.eu-central-1.elb.amazonaws.com^
 ||choice-insights.nl^
 ||chooinkya.com^
 ||choozle.com^
+||choshu.co.jp^
 ||chromatec.ru^
 ||chronopost-relivraison.fr^
 ||chtbl.com^
@@ -200592,6 +200601,7 @@ dlsdk.appsflyer.com^
 ||click.ganji.com^
 ||click.hay3s.com^
 ||click.hd.sohu.com^
+||click.hello.klarna.com^
 ||click.livedoor.com^
 ||click.ru^
 ||click.tianya.cn^
@@ -200865,6 +200875,7 @@ dlsdk.appsflyer.com^
 ||config.edge.skype.com^
 ||confirmit.com.au^
 ||confirmit.com^
+||confiserie-moehlenkamp.nl^
 ||congstar-media.de^
 ||connect.facebook.com^
 ||connect.graydon-global.com^
@@ -200895,6 +200906,7 @@ dlsdk.appsflyer.com^
 ||consentserve.com^
 ||consentua.com^
 ||consiglidimario.it^
+||consolecosmos.com^
 ||constantcontact.com^
 ||constaschool.icu^
 ||constructor.com^
@@ -200994,6 +201006,7 @@ dlsdk.appsflyer.com^
 ||cookiesmanager.vandervalkonline.com^
 ||cookieyes.com^
 ||cool-tabs.com^
+||cool.fr.nf^
 ||coolguang.com^
 ||coolnay.com^
 ||cooolyi.cn^
@@ -201098,6 +201111,7 @@ dlsdk.appsflyer.com^
 ||cpro.baidu.cn^
 ||cpro1.edushi.com^
 ||cpro2.baidu.cn^
+||cpro20.com^
 ||cps.360buy.com^
 ||cptrack.de^
 ||cpv.channelray^
@@ -202103,6 +202117,7 @@ dlsdk.appsflyer.com^
 ||dp.559.cc^
 ||dp1037.com^
 ||dpa-tools.ui-portal.de^
+||dpaikar.com^
 ||dpg-eventstreams.akamaized.net^
 ||dpgmmservices.nl^
 ||dpgshops.nl^
@@ -202126,6 +202141,7 @@ dlsdk.appsflyer.com^
 ||drive-constant.trade^
 ||drive-thirdparty.googleapis.com^
 ||drive-thirdparty.googleusercontent.com^
+||drivesvictory.net^
 ||drlsf.com^
 ||drmcmm.baidu.cn^
 ||dropbox.one^
@@ -202155,6 +202171,7 @@ dlsdk.appsflyer.com^
 ||dub.co^
 ||dub.sh^
 ||dubox.com^
+||duckdns.org^
 ||duelz.com^
 ||dugbvb.com^
 ||dukaan.com^
@@ -202230,7 +202247,9 @@ dlsdk.appsflyer.com^
 ||e.kewro.com^
 ||e.livekit.io^
 ||e.lolaliza.com^
+||e.names4ever.eu^
 ||e.pcloud.link^
+||e.protest.eu^
 ||e.qiaoyuwang.com^
 ||e.romgv.com^
 ||e.simyo.nl^
@@ -202385,6 +202404,7 @@ dlsdk.appsflyer.com^
 ||eltiempo.es^
 ||em-cultuur.nl^
 ||emag.ro^
+||email-abnamro.nl^
 ||email-address-validator.us.greenhouse.io^
 ||email-circleci.com^
 ||email-marketing-consultants.com^
@@ -202392,6 +202412,7 @@ dlsdk.appsflyer.com^
 ||email.awscloud.com^
 ||email.cgroup.online^
 ||email.designmynight.com^
+||email.drukwerkdeal.nl^
 ||email.elitedangerous.com^
 ||email.hm.com^
 ||email.hunkemoller.com^
@@ -202443,7 +202464,9 @@ dlsdk.appsflyer.com^
 ||encharge.io^
 ||endnote.com^
 ||endorsal.io^
+||enepal.net^
 ||energokst.kz^
+||engage.ticketmaster.com^
 ||engage.wixapps.net^
 ||engagebay.com^
 ||engagement.ai^
@@ -202483,6 +202506,7 @@ dlsdk.appsflyer.com^
 ||epochtimes.org^
 ||epochweekly.com^
 ||epowernetworktrackerimages.s3.amazonaws.com^
+||epps.fr^
 ||eprivacy.americanexpress.com^
 ||epro.sohu.com^
 ||epsilon.com^
@@ -202585,6 +202609,7 @@ dlsdk.appsflyer.com^
 ||examity.com^
 ||examonline.in^
 ||examsoft.com^
+||excellentwebshop.nl^
 ||exceptiontop.ga^
 ||exchange4media.com^
 ||exchangerates.org.uk^
@@ -202721,6 +202746,9 @@ dlsdk.appsflyer.com^
 ||federatedml-pa.googleapis.com^
 ||feedback-pa.clients6.google.com^
 ||feedback-pa.googleapis.com^
+||feedback.bol.com^
+||feedback.brainwash-kappers.nl^
+||feedback.coolblue.eu^
 ||feedback.developers.cloudflare.com^
 ||feedback.hubapi.com^
 ||feedback.mail.goto.com^
@@ -202857,6 +202885,7 @@ dlsdk.appsflyer.com^
 ||flowsense.com.br^
 ||flowsense.com^
 ||flowsparks.com^
+||flowvox-3.com^
 ||fls.amazon.com^
 ||fluxus.org^
 ||fluzo.com^
@@ -202969,6 +202998,7 @@ dlsdk.appsflyer.com^
 ||freshset.pl^
 ||freshshare.com^
 ||freshworks.com^
+||freunde-der-natur-huefingen.de^
 ||friendbuy.com^
 ||friendly.ch^
 ||friendly.is^
@@ -202980,6 +203010,7 @@ dlsdk.appsflyer.com^
 ||frontendlogging.parknowportal.com^
 ||frontify.com^
 ||frontnieuws.com^
+||frozendiscounts.com^
 ||frshplkng.nl^
 ||fruitman.nl^
 ||fs.uc.nearme.com.cn^
@@ -202993,6 +203024,7 @@ dlsdk.appsflyer.com^
 ||fucnm.com^
 ||fugu-it.com^
 ||fujianryt.com^
+||fujisolar.jp^
 ||full-house.nl^
 ||fullcontact.com^
 ||fullfatcommerce.com^
@@ -203011,10 +203043,12 @@ dlsdk.appsflyer.com^
 ||funneltracker.io^
 ||funnygames.nl^
 ||funnypuri.com^
+||furcommission.com^
 ||fus.lenovomm.com^
 ||fuseclick.com^
 ||fusedeck.com^
 ||fushionstyle.store^
+||fusion-reach7.com^
 ||futureinterest.org^
 ||futuresimple.com^
 ||futy-widget-2.netlify.app^
@@ -203098,6 +203132,7 @@ dlsdk.appsflyer.com^
 ||ganjehost.com^
 ||ganjituiguang.ganji.com^
 ||gapromomanager-pa.googleapis.com^
+||garagepark.nl^
 ||garena.com^
 ||gastonsers.autos^
 ||gate.rapidsec.net^
@@ -203125,12 +203160,14 @@ dlsdk.appsflyer.com^
 ||gdskywings.com^
 ||gdsqwy.org^
 ||ge95.com^
+||gedaky.com^
 ||gedmatch.com^
 ||geefmijmeeraanbiedingen.nl^
 ||geeksrepos.com^
 ||geforce.cn^
 ||geforce.com^
 ||geforcenow.com^
+||gegafi.com^
 ||geili.co^
 ||geistm.com^
 ||gelacy.app^
@@ -203295,6 +203332,7 @@ dlsdk.appsflyer.com^
 ||givegood.gifts^
 ||gjghy.com^
 ||gjirafa.tech^
+||gju.io^
 ||glance-mediametrie.com^
 ||glasszz.com^
 ||gleam.io^
@@ -203371,6 +203409,7 @@ dlsdk.appsflyer.com^
 ||goodfiles.com^
 ||goodgourd.co.nz^
 ||goodworld.me^
+||goodworthspartners.co.za^
 ||googie-anaiytlcs.com^
 ||google.com.onion^
 ||googletakes.com^
@@ -203410,6 +203449,7 @@ dlsdk.appsflyer.com^
 ||graph.fbpigeon.com^
 ||graph.nationwide.co.uk^
 ||graph.nu.nl^
+||grassipietre.it^
 ||gratis247.nl^
 ||gratisloten.nl^
 ||gratismeedoen.nl^
@@ -203462,6 +203502,7 @@ dlsdk.appsflyer.com^
 ||gtm.oasisfeng.com^
 ||gtm.reflect.app^
 ||gtm.wearetriple.com^
+||gtminet.net^
 ||gtmniddocks.herokuapp.com^
 ||gtmucs.cn^
 ||gu.qlogo.cn^
@@ -203485,6 +203526,7 @@ dlsdk.appsflyer.com^
 ||guysonlydating.com^
 ||gw6.push.mcp.weibo.cn^
 ||gw630.com^
+||gwu.io^
 ||gxadvisor.com^
 ||gydag.com^
 ||gyrtg.com^
@@ -203497,6 +203539,7 @@ dlsdk.appsflyer.com^
 ||h5.holalauncher.com^
 ||h50007.www5.hpe.com^
 ||h9377c.com^
+||habbit.net^
 ||habu.com^
 ||hacksawgaming.com^
 ||hahahaaaa.icu^
@@ -203531,6 +203574,7 @@ dlsdk.appsflyer.com^
 ||haptikapi.com^
 ||hardrockcasino.nl^
 ||harga-xiaomi.com^
+||harlingfordhotel.com^
 ||harnessdigitalmarketing.com^
 ||hascosafety.com^
 ||hashtag-labs.com^
@@ -203538,6 +203582,7 @@ dlsdk.appsflyer.com^
 ||hashting.promo^
 ||hatech.dev^
 ||hatena.ne.jp^
+||hatfieldhouseonhibernia.com^
 ||hatix.store^
 ||havasmediagroup.com^
 ||hawk-tech.io^
@@ -203637,11 +203682,13 @@ dlsdk.appsflyer.com^
 ||hinet.net^
 ||hipchat.com^
 ||hipex.io^
+||hireology.com^
 ||hireserve.nl^
 ||hirlevel.mostjoaron.hu^
 ||hit-360.com^
 ||hitcounters.net^
 ||hitpath.com^
+||hitzigrath.net^
 ||hivecn.cn^
 ||hivedata.cc^
 ||hivestack.com^
@@ -203668,6 +203715,7 @@ dlsdk.appsflyer.com^
 ||hnyny.com^
 ||hobbykompetenz.de^
 ||hockeyapp.net^
+||hokenstore.com^
 ||holdet.dk^
 ||holidayaccommodation4u.com^
 ||hollandcasino.nl^
@@ -203701,6 +203749,7 @@ dlsdk.appsflyer.com^
 ||hot.m.shouji.360tpcdn.com^
 ||hotdogsandads.com^
 ||hotdownloads.org^
+||hotelmozart-bonn.com^
 ||hotjar-analytics.com^
 ||hotspex.com^
 ||houdaolj.com^
@@ -204070,6 +204119,7 @@ dlsdk.appsflyer.com^
 ||iii.6park.com^
 ||iisl7wpf.me^
 ||ijoycig.com^
+||ijstem.com^
 ||il8r.com^
 ||ilcatalogodegliaffari.it^
 ||ilgiardinodegliincontri.it^
@@ -204130,6 +204180,7 @@ dlsdk.appsflyer.com^
 ||imjgrp.club^
 ||immanens.com^
 ||immob.cn^
+||immogestor.com^
 ||imneinei.com^
 ||imp.xgo.com.cn^
 ||impact-ad.jp^
@@ -204156,6 +204207,8 @@ dlsdk.appsflyer.com^
 ||indianadscompany.com^
 ||indieclick.3janecdn.com^
 ||indooratlas.com^
+||indown.io^
+||indyexpressband.com^
 ||indymobileapp.com^
 ||inesclusivaoggi.it^
 ||inetpro.io^
@@ -204375,6 +204428,7 @@ dlsdk.appsflyer.com^
 ||is.autonavi.com^
 ||is.com^
 ||is.gd^
+||isagro.com^
 ||isenselabs.com^
 ||ishortn.ink^
 ||ishowbg.com^
@@ -204393,6 +204447,7 @@ dlsdk.appsflyer.com^
 ||italiaonline.it^
 ||iterable.com^
 ||itgoverance.eu^
+||itnmarketing.nl^
 ||itnova.nl^
 ||its-dori.tumblr.com^
 ||itsbharat.com^
@@ -204547,6 +204602,7 @@ dlsdk.appsflyer.com^
 ||jouwvindplaats.nl^
 ||jovanca.nl^
 ||joyfuldoors.com^
+||joygameplace.com^
 ||joystickinteractive.com^
 ||jp.as.pptv.com^
 ||jp88.cc^
@@ -204660,6 +204716,7 @@ dlsdk.appsflyer.com^
 ||kele4.com^
 ||kelkoogroup.net^
 ||ker.pic2pic.site^
+||keramagroup.nl^
 ||kerasentials.life^
 ||kerassebtials.ltd^
 ||kermit.macnn.com^
@@ -204701,6 +204758,7 @@ dlsdk.appsflyer.com^
 ||kiirkasiinod.net^
 ||kikaloterij.nl^
 ||kimberlite.io^
+||kimblegroup.com^
 ||kinderattraktie.nl^
 ||kindly.ai^
 ||kindlycdn.com^
@@ -204733,6 +204791,7 @@ dlsdk.appsflyer.com^
 ||kk7kk.com^
 ||kkcaicai.com^
 ||klantactie.nl^
+||klantenservice.com^
 ||klantenservicebelgie.be^
 ||klantenservicenummer.co^
 ||klantenvertellen.nl^
@@ -204775,6 +204834,7 @@ dlsdk.appsflyer.com^
 ||kolikkopelit.com^
 ||koloskys.de^
 ||kompas.services^
+||kompassdata.com^
 ||konodrac.com^
 ||kontakt.io^
 ||konzertfreunde-cloppenburg.de^
@@ -204821,6 +204881,7 @@ dlsdk.appsflyer.com^
 ||kulturlese.com^
 ||kumascans.com^
 ||kunkkukasino.com^
+||kuntaljewels.com^
 ||kurniaagung.net^
 ||kurzelinks.de^
 ||kustomerapp.com^
@@ -204842,6 +204903,7 @@ dlsdk.appsflyer.com^
 ||l.naver.com^
 ||l.ykimg.com^
 ||l845.nn.nl^
+||l982.landleven.nl^
 ||la2.chungta.vn^
 ||labellemontagne.com^
 ||lachasseauxdeals.fr^
@@ -204931,6 +204993,7 @@ dlsdk.appsflyer.com^
 ||leadstree.org^
 ||leadsync.me^
 ||leadview.io^
+||leafflip.com^
 ||leananalytics.io^
 ||lebowski.wetransfer.com^
 ||lecocktaildunet.fr^
@@ -205036,6 +205099,7 @@ dlsdk.appsflyer.com^
 ||lindaevenhuis.nl^
 ||lindis.es^
 ||line-apps.com^
+||lineclearexpress.com^
 ||lingdian98.com^
 ||linguise.com^
 ||link-sharepoint.com^
@@ -205060,6 +205124,7 @@ dlsdk.appsflyer.com^
 ||linkmoon.net^
 ||linknavigator.nl^
 ||linknavy.nl^
+||linkora-1.com^
 ||linkpage.cn^
 ||linkpizza.com^
 ||links-circleci.com^
@@ -205362,6 +205427,7 @@ dlsdk.appsflyer.com^
 ||m-78.jp^
 ||m-habitat.fr^
 ||m-t.io^
+||m-tec.mg^
 ||m.28487.net^
 ||m.7180443.com^
 ||m.aboutyou.de^
@@ -205426,12 +205492,14 @@ dlsdk.appsflyer.com^
 ||mail-contact-unsub.eu^
 ||mail.cos.com^
 ||mail2.instantcrush.nl^
+||mail2jake.com^
 ||mailappzone.com^
 ||mailblaze.com^
 ||mailblue.nl^
 ||mailbox.co.id^
 ||mailcamp.nl^
 ||mailcampaigns.nl^
+||mailcatch.com^
 ||mailerlite.com^
 ||mailersend.com^
 ||mailgun.org^
@@ -205452,6 +205520,8 @@ dlsdk.appsflyer.com^
 ||mailssenders.com^
 ||mailsuite.com^
 ||mailuserskyc.com^
+||mailworks-start.be^
+||mailworks.be^
 ||mailws.zoho.eu^
 ||mainad.com^
 ||mainbx.com^
@@ -205608,6 +205678,7 @@ dlsdk.appsflyer.com^
 ||medal.blog.csdn.net^
 ||medallia.com^
 ||medallia.eu^
+||medef.ru^
 ||media-lab.ai^
 ||media.chase.com^
 ||media.cheshi.com^
@@ -205756,6 +205827,7 @@ dlsdk.appsflyer.com^
 ||minghui.com^
 ||minghui.org^
 ||mingle.com^
+||mingtaijew.com^
 ||mingxianshanghang.cn^
 ||mingysh.com^
 ||mini.hao123.com^
@@ -205785,11 +205857,14 @@ dlsdk.appsflyer.com^
 ||mjmobi.com^
 ||mjt.lu^
 ||mk-api.acc.wearetriple.com^
+||mkb-trainingen.nl^
+||mkbmailer.com^
 ||mkr1en1mksitesap.blob.core.windows.net^
 ||mkt-api.auvik.com^
 ||mkt-api.raiffeisen.sk^
 ||mkt5558.com^
 ||mkt922.com^
+||mktb2b.net^
 ||mktdplp102neda.azureedge.net^
 ||mktgcdn.com^
 ||mktoedge.com^
@@ -205854,6 +205929,7 @@ dlsdk.appsflyer.com^
 ||mobpro.com^
 ||mocaplatform.com^
 ||modern.watson.data.microsoft.com^
+||modernstreaming.in^
 ||moengage.com^
 ||mohalla.in^
 ||mojiva.com^
@@ -206024,6 +206100,8 @@ dlsdk.appsflyer.com^
 ||myycrw.com^
 ||myzk1.com^
 ||myzwqwe12.com^
+||mz-marketing.nl^
+||mzx.io^
 ||mzy2014.com^
 ||n-st.vip.com^
 ||n.a.mosenni.com^
@@ -206032,6 +206110,7 @@ dlsdk.appsflyer.com^
 ||n.cosbot.cn^
 ||n.mark.letv.com^
 ||n.rich^
+||n2s.in^
 ||n33033.com^
 ||n8s.jp^
 ||na1r.services.adobe.com^
@@ -206115,6 +206194,7 @@ dlsdk.appsflyer.com^
 ||netent.com^
 ||netflix-service.com^
 ||netko0o.com^
+||netlogin.com^
 ||netnanny.com^
 ||netprocesse.com^
 ||netqin.ps^
@@ -206395,6 +206475,7 @@ dlsdk.appsflyer.com^
 ||odistatic.net^
 ||odnaknopka.ru^
 ||odnxs.net^
+||odorcandeocy.com^
 ||oem.twimg.com^
 ||oerjefomwwoeimdroewp1.info^
 ||oersterk.nu^
@@ -206481,6 +206562,7 @@ dlsdk.appsflyer.com^
 ||onestly.de^
 ||onestore.ms^
 ||onetad.com^
+||onetech-telecoms.com^
 ||onetech.group^
 ||onetime.nl^
 ||onetrust.com^
@@ -206651,6 +206733,7 @@ dlsdk.appsflyer.com^
 ||ow.s1.shuhuangge.org^
 ||ow.s2.shuhuangge.org^
 ||owler.com^
+||owlwaterproofing.co.uk^
 ||ox.furaffinity.net^
 ||oxiapps.com^
 ||oxmvifnvqu.nl^
@@ -206917,6 +207000,7 @@ dlsdk.appsflyer.com^
 ||pixel.ionos.it^
 ||pixel.myappfree.com^
 ||pixelcog.github.io^
+||pixeldeals100.com^
 ||pixelpin.io^
 ||pixelpoint.io^
 ||pixels.ai^
@@ -206929,6 +207013,7 @@ dlsdk.appsflyer.com^
 ||pjtymy.cn^
 ||pk840.com^
 ||pkt.nl^
+||pkweb.it^
 ||pla.paretosecurity.com^
 ||place2book.com^
 ||placehold.it^
@@ -206938,6 +207023,7 @@ dlsdk.appsflyer.com^
 ||placerescarnales.es^
 ||places.nl^
 ||pladform.ru^
+||planeta.nl^
 ||planetgaming.nl^
 ||planetnine.com^
 ||planhat.com^
@@ -207100,6 +207186,7 @@ dlsdk.appsflyer.com^
 ||priceinfo.comuv.com^
 ||pricelist.skype.com^
 ||pricespider.com^
+||pridori.com^
 ||primariaciorogarla.ro^
 ||prime31.com^
 ||primed.io^
@@ -207272,6 +207359,7 @@ dlsdk.appsflyer.com^
 ||pushpushgo.com^
 ||pushwoosh.com^
 ||puszczanskizielnikterencjusza.pl^
+||puurnouta.nl^
 ||pv-apps.web.oebb.at^
 ||pv.anzhi.com^
 ||pv.cheshi-img.com^
@@ -207442,6 +207530,7 @@ dlsdk.appsflyer.com^
 ||randerscardroom.dk^
 ||randomhunk.xyz^
 ||rankactive.com^
+||rankinggenie.com^
 ||rankur.com^
 ||ransomwaretracker.abuse.ch^
 ||rantandrave.co.uk^
@@ -207464,10 +207553,12 @@ dlsdk.appsflyer.com^
 ||rb.gy^
 ||rbdf8uzi.housinganywhere.com^
 ||rbywg.com^
+||rcl.ink^
 ||rcmd.pop.ijinshan.com^
 ||rcontent.services.tvn.pl^
 ||rd.e.sogou.com^
 ||rdandx.com^
+||rdg.io^
 ||rdiqt.cn^
 ||rdstation.com.br^
 ||rdstation.com^
@@ -207476,6 +207567,7 @@ dlsdk.appsflyer.com^
 ||re.taotaosou.com^
 ||reach-pa.googleapis.com^
 ||reachmail.com^
+||reachora-4.com^
 ||reachplc.com^
 ||react-tweet.vercel.app^
 ||readable.com^
@@ -207548,6 +207640,7 @@ dlsdk.appsflyer.com^
 ||remotepc.com^
 ||remoteutilities.com^
 ||rencai56.com^
+||renewdomainaltessa.com^
 ||renouveler-carte-vitale.com^
 ||reparatie-centrum.com^
 ||reparatiescentrum.com^
@@ -207648,6 +207741,7 @@ dlsdk.appsflyer.com^
 ||riqu2015.com^
 ||risecodes.com^
 ||riskified.com^
+||rivora-2.com^
 ||rj.baidu.cn^
 ||rjfun.com^
 ||rjfun.github.io^
@@ -207842,6 +207936,7 @@ dlsdk.appsflyer.com^
 ||saito-tech.votted.net^
 ||saito.tech^
 ||sajari.com^
+||saledelivery.zone^
 ||salepower.nl^
 ||salesforce-scrt.com^
 ||salesforceliveagent.com^
@@ -207858,6 +207953,7 @@ dlsdk.appsflyer.com^
 ||same.jrj.com.cn^
 ||samen.npostart.nl^
 ||samenzorgenvoortwente.nl^
+||samsung-mail.com^
 ||samsungadhub.com^
 ||samsungcloud.com^
 ||samsungdm.com^
@@ -207914,6 +208010,7 @@ dlsdk.appsflyer.com^
 ||sckvk.nl^
 ||sclizhong.com^
 ||scmdocs.nvidia.com^
+||scnv.io^
 ||scommunity.linkedin.com^
 ||scontent-cdt1-1.cdninstagram.com^
 ||scontent-iad3-1.cdninstagram.com^
@@ -207985,6 +208082,7 @@ dlsdk.appsflyer.com^
 ||sec.resource.xiaomi.net^
 ||secomapp.com^
 ||seconded.net^
+||secondhome.nl^
 ||secondstreet.com^
 ||secretary.nl^
 ||secretinvestorssociety.com^
@@ -207993,6 +208091,7 @@ dlsdk.appsflyer.com^
 ||secure.xsolla.com^
 ||secureomg.nl^
 ||secureprivacy.ai^
+||secureserver.net^
 ||securiti.ai^
 ||securityiq.infosecinstitute.com^
 ||securitysoftwarezone.com^
@@ -208206,6 +208305,7 @@ dlsdk.appsflyer.com^
 ||signal.co^
 ||signal360.com^
 ||signaler-pa.clients6.google.com^
+||signoz.io^
 ||signupgenius.com^
 ||sijoitusrahastot.org^
 ||simbagames.de^
@@ -208299,6 +208399,7 @@ dlsdk.appsflyer.com^
 ||smartr.biz^
 ||smartredirect.de^
 ||smartseostrategist.com^
+||smartstreamingott.com^
 ||smartsupp.com^
 ||smartsuppchat.com^
 ||smblock.s3.amazonaws.com^
@@ -208320,6 +208421,7 @@ dlsdk.appsflyer.com^
 ||snapmobileasia.net^
 ||snapppt.com^
 ||snarf.evebox.org^
+||snelnet.net^
 ||sng.link^
 ||snippets-prod.frankfurt.moz.works^
 ||snippets-prod.moz.works^
@@ -208435,6 +208537,7 @@ dlsdk.appsflyer.com^
 ||speech.googleapis.com^
 ||speechkit.io^
 ||speedycasino.com^
+||speegleconstructionllc.com^
 ||sph.com.sg^
 ||sphdigital.com^
 ||sphwq.net^
@@ -208510,6 +208613,7 @@ dlsdk.appsflyer.com^
 ||spyzie.io^
 ||sqext.com^
 ||sqreemtech.com^
+||squareoneresearch.com^
 ||squareup.com^
 ||squawka.com^
 ||squeak.cloud^
@@ -208727,6 +208831,7 @@ dlsdk.appsflyer.com^
 ||stroeerdigitalgroup.de^
 ||stroeerdigitalpublishing.de^
 ||strongmind.it^
+||stroomvoorbedrijven.com^
 ||studio-gong.de^
 ||studio.nws.ai^
 ||studiorific.com^
@@ -208814,6 +208919,7 @@ dlsdk.appsflyer.com^
 ||sygic.com^
 ||syilm.net^
 ||sykty.com^
+||sylviaworld.com^
 ||symauth.com^
 ||symcb.com^
 ||symcd.com^
@@ -208895,6 +209001,7 @@ dlsdk.appsflyer.com^
 ||taat00889.com^
 ||tabs.stationmade.com^
 ||tacs.c0nnectthed0ts.com^
+||tacticboardshop.com^
 ||tad.suning.com^
 ||tadarida-web.aboutyou.com^
 ||tag.uwv.nl^
@@ -208919,6 +209026,7 @@ dlsdk.appsflyer.com^
 ||tajxgs.com^
 ||takemyquote.com^
 ||takumi.com^
+||talfa.cz^
 ||talk-cdn.krone.at^
 ||talk.hyvor.com^
 ||talk.krone.at^
@@ -209080,6 +209188,7 @@ dlsdk.appsflyer.com^
 ||thedragonsecurity.it^
 ||thehuddle.nl^
 ||theigsocial.com^
+||thejavaconsultants.com^
 ||thejesperbay.com^
 ||thejourney.com^
 ||thel.com^
@@ -209092,6 +209201,7 @@ dlsdk.appsflyer.com^
 ||themetags.com^
 ||themis.yahoo.com^
 ||thenewco.it^
+||thenitroinfotech.com^
 ||theokex.com^
 ||theoptimizer.io^
 ||therapist.net^
@@ -209249,6 +209359,7 @@ dlsdk.appsflyer.com^
 ||townmanagementsgc.com^
 ||tp.sgcn.com^
 ||tpe163.com^
+||tr.ee^
 ||tr.ifeeder.com^
 ||tr.jumpcloud.com^
 ||tracemyip.org^
@@ -209560,9 +209671,11 @@ dlsdk.appsflyer.com^
 ||urepim.info^
 ||urhu.cn^
 ||uri.sh^
+||url4384.brainwash-kappers.nl^
 ||url5845.paywithmoon.com^
 ||url9644.hopin.com^
 ||urlabc.nl^
+||urlgo.in^
 ||urlr.me^
 ||urlz.fr^
 ||urs.microsoft.com^
@@ -209703,6 +209816,7 @@ dlsdk.appsflyer.com^
 ||verticalresponse.com^
 ||verticalresponse.net^
 ||vertigomediaperformanceprivacypolicy.com^
+||verzorgingsterrein.pro^
 ||vev.design^
 ||vfreebizfiles.com^
 ||vg02h8z1ul.me^
@@ -209821,6 +209935,7 @@ dlsdk.appsflyer.com^
 ||vriendenloterij.nl^
 ||vriendenlotterij.nl^
 ||vrixon.com^
+||vroeg.net^
 ||vs2.gzcu.u3.ucweb.com^
 ||vscodeexperiments.azureedge.net^
 ||vsharewareriver.com^
@@ -209931,6 +210046,7 @@ dlsdk.appsflyer.com^
 ||webfonts.zoho.eu^
 ||webgeoservices.com^
 ||webinevitable.com^
+||webinphp.com^
 ||webjavaskript.net^
 ||webmaster.extabit.com^
 ||webmasterfree.com^
@@ -209958,6 +210074,7 @@ dlsdk.appsflyer.com^
 ||webytics.era.europa.eu^
 ||webyze.com^
 ||webzon.be^
+||wecotra.nl^
 ||wedate.com^
 ||weddenonline-nederland.nl^
 ||weekday.com^
@@ -210172,6 +210289,7 @@ dlsdk.appsflyer.com^
 ||xcdf.cn^
 ||xchgx.com^
 ||xcjy876.com^
+||xcs.io^
 ||xctd.me^
 ||xcy8.com^
 ||xcyjzs.net^
@@ -210307,6 +210425,8 @@ dlsdk.appsflyer.com^
 ||yastatic.net^
 ||yatemy.cn^
 ||yazex.com^
+||ybit.app^
+||ybt.ink^
 ||yccdn.com^
 ||ychml.com^
 ||ychun03.com^
@@ -210470,6 +210590,7 @@ dlsdk.appsflyer.com^
 ||zedrox.app^
 ||zend-apps.com^
 ||zendrive.com^
+||zentara-1.com^
 ||zephr.com^
 ||zeturf.nl^
 ||zeus.qj.net^
@@ -210504,6 +210625,7 @@ dlsdk.appsflyer.com^
 ||zhybzp.cn^
 ||zi-scripts.com^
 ||ziffstatic.com^
+||ziggo.top^
 ||zigpoll.com^
 ||zikanalytics.com^
 ||zingtree.com^
@@ -210559,125 +210681,10 @@ dlsdk.appsflyer.com^
 ||zytwq.net^
 ||zzbaowen.com^
 ||zzkko.com^
+||zzpcentrale.nl^
 ||zzrcz.com^
 ||zzsx8.com^
 ||zzzjvqzkmqllb.top^
-||click.hello.klarna.com^
-||mingtaijew.com^
-||fusion-reach7.com^
-||linkora-1.com^
-||mailworks.be^
-||mailworks-start.be^
-||kuntaljewels.com^
-||feedback.brainwash-kappers.nl^
-||url4384.brainwash-kappers.nl^
-||botetextile.com^
-||e.names4ever.eu^
-||bedrijfsenergievergelijker.online^
-||rivora-2.com^
-||zentara-1.com^
-||excellentwebshop.nl^
-||reachora-4.com^
-||flowvox-3.com^
-||stroomvoorbedrijven.com^
-||buytrckcenter.com^
-||kompassdata.com^
-||leafflip.com^
-||thejavaconsultants.com^
-||scnv.io^
-||ziggo.top^
-||enepal.net^
-||consolecosmos.com^
-||verzorgingsterrein.pro^
-||broekkort.online^
-||gtminet.net^
-||immogestor.com^
-||onetech-telecoms.com^
-||ijstem.com^
-||pkweb.it^
-||gegafi.com^
-||gedaky.com^
-||talfa.cz^
-||chocoladefabriek.pro^
-||615653.com^
-||n2s.in^
-||epps.fr^
-||dpaikar.com^
-||ybt.ink^
-||ybit.app^
-||speegleconstructionllc.com^
-||duckdns.org^
-||hatfieldhouseonhibernia.com^
-||urlgo.in^
-||squareoneresearch.com^
-||modernstreaming.in^
-||tacticboardshop.com^
-||m-tec.mg^
-||pridori.com^
-||hokenstore.com^
-||tr.ee^
-||hireology.com^
-||rankinggenie.com^
-||mz-marketing.nl^
-||renewdomainaltessa.com^
-||rcl.ink^
-||sylviaworld.com^
-||bsh-group.com^
-||webinphp.com^
-||engage.ticketmaster.com^
-||furcommission.com^
-||mail2jake.com^
-||mkb-trainingen.nl^
-||garagepark.nl^
-||vroeg.net^
-||owlwaterproofing.co.uk^
-||joygameplace.com^
-||e.protest.eu^
-||puurnouta.nl^
-||isagro.com^
-||secondhome.nl^
-||itnmarketing.nl^
-||thenitroinfotech.com^
-||mkbmailer.com^
-||besled.nl^
-||zzpcentrale.nl^
-||betatraining.eu^
-||kimblegroup.com^
-||lineclearexpress.com^
-||klantenservice.com^
-||netlogin.com^
-||alert-service.com^
-||confiserie-moehlenkamp.nl^
-||email-abnamro.nl^
-||anydigitalmarketers.com^
-||planeta.nl^
-||indyexpressband.com^
-||drivesvictory.net^
-||mailcatch.com^
-||gwu.io^
-||grassipietre.it^
-||samsung-mail.com^
-||belmora.fun^
-||harlingfordhotel.com^
-||rdg.io^
-||medef.ru^
-||frozendiscounts.com^
-||cool.fr.nf^
-||blr.io^
-||pixeldeals100.com^
-||snelnet.net^
-||gju.io^
-||keramagroup.nl^
-||xcs.io^
-||mzx.io^
-||brevosend.com^
-||airopuertcolluci.com^
-||freunde-der-natur-huefingen.de^
-||email.drukwerkdeal.nl^
-||wecotra.nl^
-||hitzigrath.net^
-||feedback.coolblue.eu^
-||feedback.bol.com^
 ||badv.wp.pl^
 ||emisjawidgeet.onet.pl^
 ||ads.edipresse.pl^
