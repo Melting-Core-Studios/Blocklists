@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.977
+! Version: 1.978
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-12-02T01:14:26.620Z
+! Last modified: 2025-12-02T03:16:50.439Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -2814,6 +2814,7 @@
 ||era.easyvoyage.com^
 ||error-analytics-production.shopifysvc.com^
 ||error-analytics-sessions-production.shopifysvc.com^
+||essential-apps-analytics.herokuapp.com^
 ||et.educationdynamics.com^
 ||ev.moneymade.io^
 ||event-logger.tagboard.com^
@@ -3011,6 +3012,7 @@
 ||pixel.blivenyc.com^
 ||pixel.embed.su^
 ||pixel.mintigo.com^
+||pixel.propublica.org^
 ||pixel.pub.lilyai.net^
 ||pixel.redgifs.com^
 ||pixel.roymorgan.com^
@@ -79667,7 +79669,6 @@
 ||essayservice.com^
 ||essencesnore.com^
 ||essentia-analytics.com^
-||essential-apps-analytics.herokuapp.com^
 ||essential-trash.com^
 ||essentialdrivers.org^
 ||essentialmost.com^
@@ -104282,7 +104283,6 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||pixel.prelytix.com^
 ||pixel.prod.roymorgan.shinesolutions.cloud^
 ||pixel.production.dealerbluesky.com^
-||pixel.propublica.org^
 ||pixel.pushground.com^
 ||pixel.pzkie.com^
 ||pixel.quantserve.com.0.failopen.0.prx.useast.v1api.securly.com^
