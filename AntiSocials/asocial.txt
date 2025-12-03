@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.828
+! Version: 1.829
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-12-03T04:25:47.526Z
+! Last modified: 2025-12-03T05:17:12.992Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -367,6 +367,9 @@ esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israel
 esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israelnationalnews.com,lifehacker.com,cgmagonline.com,gizmodo.com,gamerevolution.com,metro.co.uk,thurrott.com,stereogum.com,ign.com,newsweek.com,dailymail.co.uk,comingsoon.net,timesofisrael.com,nypost.com,9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,electrek.co#%#//scriptlet('remove-in-shadow-dom', 'div[data-spot-im-class="vote-links"] + span[class$="index__dot"]')
 echofm.online,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com##.comment__share > *
 echofm.online,antirez.com,comicbook.com,alexp.pl,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com###thread-share-bar
+nissin.com##.ShareSNS
+nestle.co.jp###block-da-vinci-code-social-bottom
+kobayashi.co.jp##.NewsDetailSns
 unicharm.co.jp##.corp-wrap-sns
 corp.shiseido.com##.share-linkedIn
 seeklogo.com##.containerSocialShare
@@ -5587,7 +5590,7 @@ shop-pro.jp###products_sns
 thecritic.co.uk##.sf-sharing
 mistore.jp##.article-section-share
 turizmtatilseyahat.com##.jeg_share_count
-online.ua,times.abema.tv##.c-article-share
+elecom.co.jp,online.ua,times.abema.tv##.c-article-share
 linustechtips.com##.lmgComment_shareLink
 myflixertv.to###site-notice
 navitime.com##.p-guide-detail-footer__sns
