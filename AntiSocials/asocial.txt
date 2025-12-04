@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.836
+! Version: 1.837
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-12-04T12:34:57.432Z
+! Last modified: 2025-12-04T13:34:35.586Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -376,6 +376,7 @@ nestle.co.jp###block-da-vinci-code-social-bottom
 kobayashi.co.jp##.NewsDetailSns
 unicharm.co.jp##.corp-wrap-sns
 corp.shiseido.com##.share-linkedIn
+animehub.ac##.gc-share
 seeklogo.com##.containerSocialShare
 arigus.tv##.e-share
 shonanjin.com##.p-post-detail__sns
