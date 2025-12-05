@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.1000
+! Version: 1.1001
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-12-05T17:17:28.048Z
+! Last modified: 2025-12-05T20:20:16.561Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -189139,6 +189139,10 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||tk.boutique.femmeactuelle.fr^
 ||tk.boutique.harpersbazaar.fr^
 ||tk.boutique.programme-tv.net^
+||gx-target-experiments-frontend-api.gx.nvidia.com^
+||prod.otel.kaizen.nvidia.com^
+||telegraph.prd.api.discoveryplus.com^
+||telegraph.prd.api.hbomax.com^
 ||phaseshift.almagrow.com^
 ||advancedanalytics-websocket-pri-001.hexaglobe.net^
 ||analytics.cosmicstack.org^
@@ -192612,6 +192616,7 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||telemetry.*.pvp.net^
 ||analyzer*.fc2.com^
 ||hba*.hepsiburada.com^
+prd.api.bleacherreport.com^
 ||apiproxy-log-nlb-1f304af4d3ac01a4.elb.us-east-*.amazonaws.com^
 ||customerevents.us-east-*.internal.dradis.netflix.com^
 ||sgtm.wimdu.
