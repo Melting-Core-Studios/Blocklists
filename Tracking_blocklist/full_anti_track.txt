@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.1005
+! Version: 1.1006
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-12-06T18:22:42.297Z
+! Last modified: 2025-12-06T19:14:24.863Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -3670,7 +3670,6 @@
 ||analytics2-3-meride-tv.akamaized.net^
 ||analytics2-meride-tv.akamaized.net^
 ||audit.shaa.it^
-||click.kataweb.it^
 ||cnt.iol.it^
 ||dmp.citynews.ovh^
 ||dmpcdn.el-mundo.net^
@@ -3682,7 +3681,6 @@
 ||livestats.matrix.it^
 ||load.nootiz.com^
 ||log.edidomus.it^
-||logger.kataweb.it^
 ||nanostats.nanopress.it^
 ||plausible.citynews.ovh^
 ||rbdata.boostymark.com^
@@ -28161,7 +28159,6 @@
 ||nzbusiness.vodafone.co.nz^
 ||obrazy.dlabiznesu.pracuj.pl^
 ||occidente.ubmmexico.com^
-||oci.dyn.com^
 ||ocpi.americanexpress.ca^
 ||offer.coface.com^
 ||offer.lyreco.com^
@@ -75282,7 +75279,6 @@
 ||data.iamcreative.ch^
 ||data.impact.be^
 ||data.insights.thrivelearning.com^
-||data.kataweb.it^
 ||data.kuiniuca.com^
 ||data.lakehorn.com^
 ||data.laverdad.es^
@@ -120376,7 +120372,6 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||tracing.toc.platform.michaels.com^
 ||tracing.yelp.com^
 ||track-ad.biyingniao.com^
-||track-apac.adformnet.akadns.net^
 ||track-api.workmagic.io^
 ||track-eu.trackingtraffo.com^
 ||track-ger.aqara.com^
@@ -160475,7 +160470,6 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||ad.jamba.net^
 ||ad.jamster.ca^
 ||ad.jokeroo.com^
-||ad.kataweb.it^
 ||ad.krutilka.ru^
 ||ad.lgappstv.com^
 ||ad.lyricswire.com^
@@ -165737,7 +165731,6 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||sc.sc-analytics.jp^
 ||identitypxl.com^
 ||featureassets.org^
-||oasjs.kataweb.it^
 ||danatrak.com^
 ||twitter.sx^
 ||sentinelbi.com^
@@ -193420,6 +193413,7 @@ dlsdk.appsflyer.com^
 ||4-u.fr^
 ||4.0p10n000000in97saa.00d0n000000gtiyuay.gslb.siteforce.com^
 ||4000hours-club.xyz^
+||40924.nl^
 ||40n23zgkic3y-a.akamaihd.net^
 ||40pg2e2187urs70xz2sj2xo6-wpengine.netdna-ssl.com^
 ||41-games.com^
@@ -194206,6 +194200,7 @@ dlsdk.appsflyer.com^
 ||adf.dahe.cn^
 ||adfixus.com^
 ||adflake.com^
+||adformnet.akadns.net^
 ||adhai.com^
 ||adhome.1fangchan.com^
 ||adhouyi.com^
@@ -195730,6 +195725,7 @@ dlsdk.appsflyer.com^
 ||billetto.dk^
 ||billionfocus.com^
 ||billssoftwarepicks.net^
+||bimaple.com^
 ||bimbolive.com^
 ||bing.com^$badfilter
 ||bing.net^
@@ -195964,6 +195960,7 @@ dlsdk.appsflyer.com^
 ||brid.tv^
 ||bridg.com^
 ||bridgeman.nl^
+||bridgesend-8.com^
 ||brightedge.com^
 ||brighteon.com^
 ||brightlocal.com^
@@ -196938,6 +196935,7 @@ dlsdk.appsflyer.com^
 ||connect.summit.co.uk^
 ||connectadrealtime.com^
 ||connecthings.com^
+||connectide-1.com^
 ||connectif.ai^
 ||connectif.cloud^
 ||connections.edge.bamgrid.com^
@@ -198268,6 +198266,7 @@ dlsdk.appsflyer.com^
 ||dy48bnzanqw0v.cloudfront.net^
 ||dydab.com^
 ||dyfedtelecom.com^
+||dyn.com^
 ||dynamic-tracking.com^
 ||dynamic-yield.com^
 ||dynamic.faz.net^
@@ -198305,14 +198304,17 @@ dlsdk.appsflyer.com^
 ||e.hellomingpian.com^
 ||e.issuu.com^
 ||e.kewro.com^
+||e.kro-ncrv.nl^
 ||e.livekit.io^
 ||e.lolaliza.com^
 ||e.names4ever.eu^
 ||e.protest.eu^
 ||e.qiaoyuwang.com^
 ||e.romgv.com^
+||e.saniweb.nl^
 ||e.simyo.nl^
 ||e.stat.ykimg.com^
+||e.tegeldepot.nl^
 ||e.theatlantic.com^
 ||e.transavia.com^
 ||e.yangjingbang.net^
@@ -198426,6 +198428,7 @@ dlsdk.appsflyer.com^
 ||eeee500.com^
 ||eempien.nl^
 ||eestikasiino.com^
+||eethuissimbad.art^
 ||eetuh.net^
 ||efarma.nl^
 ||effectivemeasure.com^
@@ -199074,6 +199077,7 @@ dlsdk.appsflyer.com^
 ||friendlyanalytics.io^
 ||friendsofjacks.eu^
 ||fring.work^
+||from-tn.com^
 ||fromfactory.club^
 ||frontapp.com^
 ||frontendlogging.parknowportal.com^
@@ -200251,6 +200255,15 @@ dlsdk.appsflyer.com^
 ||img2.qekun.com^
 ||img80.net^
 ||imgapp.yeyou.com^
+||imgloadexample12.com^
+||imgloadexample14.com^
+||imgloadexample20.com^
+||imgloadexample34.com^
+||imgloadexample35.com^
+||imgloadexample37.com^
+||imgloadexample46.com^
+||imgloadexample49.com^
+||imgloadexample59.com^
 ||imi.chat^
 ||imiengage.io^
 ||imjgrp.club^
@@ -200783,6 +200796,7 @@ dlsdk.appsflyer.com^
 ||karellasschespeelautomaten.nl^
 ||kasiino-eesti.ee^
 ||kat.cr^
+||kataweb.it^
 ||kawa11.space^
 ||kbg.rip^
 ||kbnetworkz.s3.amazonaws.com^
@@ -201189,6 +201203,7 @@ dlsdk.appsflyer.com^
 ||lineclearexpress.com^
 ||lingdian98.com^
 ||linguise.com^
+||link-forge6.com^
 ||link-sharepoint.com^
 ||link.invitado.nl^
 ||link.kentaa.nl^
@@ -201199,6 +201214,7 @@ dlsdk.appsflyer.com^
 ||link.tubitv.com^
 ||linkbide.com^
 ||linkbox.pro^
+||linkbridge7.com^
 ||linkeye.ximalaya.com^
 ||linkfire.com^
 ||linkhaven.nl^
@@ -201578,6 +201594,7 @@ dlsdk.appsflyer.com^
 ||mail-boutique2.fr^
 ||mail-contact-unsub.eu^
 ||mail.cos.com^
+||mail.rodekruis.nl^
 ||mail2.instantcrush.nl^
 ||mail2jake.com^
 ||mailappzone.com^
@@ -202063,6 +202080,7 @@ dlsdk.appsflyer.com^
 ||morganonline.nl^
 ||morke.uk^
 ||morphio.ai^
+||morven14.com^
 ||mosa86.com^
 ||motabet.email^
 ||mothershiptestservice-pa.googleapis.com^
@@ -202324,6 +202342,7 @@ dlsdk.appsflyer.com^
 ||newsfordads.com^
 ||newsifier.com^
 ||newsifier.nl^
+||newsletter.zahia.be^
 ||newsletter2go.com^
 ||newsletteradvice.com^
 ||newsletterails.com^
@@ -202453,6 +202472,7 @@ dlsdk.appsflyer.com^
 ||nosto.com^
 ||not-a-tracker.jet-stream.com^
 ||notaverage.media^
+||note-forge6.com^
 ||notice.uchome.manyou.com^
 ||noticias.r7.com^
 ||noties.nl^
@@ -203307,6 +203327,7 @@ dlsdk.appsflyer.com^
 ||priormail.eu^
 ||prisma.de^
 ||prismana.com^
+||prismanalytics3947.com^
 ||prismanote.com^
 ||priv.center^
 ||privacy-center.org^
@@ -203369,6 +203390,7 @@ dlsdk.appsflyer.com^
 ||proservices24.com^
 ||proshopboard.nl^
 ||prospekte.sueddeutsche.de^
+||prospera-7.com^
 ||prosperbiz-websites.nl^
 ||prosperbiz.com^
 ||prosperbiz.nl^
@@ -204915,6 +204937,7 @@ dlsdk.appsflyer.com^
 ||stempunt.nu^
 ||ster.nl^
 ||stervapoimenialena.info^
+||stevenclark.eu^
 ||stfalcon.github.io^
 ||stg-iad.apple.com^
 ||stg8.com^
@@ -205956,6 +205979,7 @@ dlsdk.appsflyer.com^
 ||vers80.com^
 ||versenderbuero.com^
 ||version.bind^
+||vertexsolutions2501.com^
 ||verticalmailer.com^
 ||verticalresponse.com^
 ||verticalresponse.net^
@@ -206017,6 +206041,7 @@ dlsdk.appsflyer.com^
 ||visobase.ch^
 ||visobase.se^
 ||vistall.hz.cz^
+||vistatravelclub.com^
 ||visto.li^
 ||visualdna.com^
 ||visualwebsiteoptimizer.com^
@@ -206747,6 +206772,7 @@ dlsdk.appsflyer.com^
 ||zephr.com^
 ||zeturf.nl^
 ||zeus.qj.net^
+||zeylin15.com^
 ||zgc66.com^
 ||zgdfz6h7po.me^
 ||zgfszs.com^
@@ -206843,6 +206869,7 @@ dlsdk.appsflyer.com^
 ||zzrcz.com^
 ||zzsx8.com^
 ||zzzjvqzkmqllb.top^
+||from-il.com^
 ||badv.wp.pl^
 ||emisjawidgeet.onet.pl^
 ||ads.edipresse.pl^
