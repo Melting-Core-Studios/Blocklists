@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.1004
+! Version: 1.1005
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-12-06T13:25:19.055Z
+! Last modified: 2025-12-06T18:22:42.297Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -10844,7 +10844,6 @@
 ||nscmetrics.shell.com^
 ||nsm.dell.com^
 ||nsm.sungardas.com^
-||nsmeasure.jstor.org^
 ||nsmetrics.adelaidenow.com.au^
 ||nsmetrics.couriermail.com.au^
 ||nsmetrics.dailytelegraph.com.au^
@@ -62001,7 +62000,6 @@
 ||analytics.metrohealth.org^
 ||analytics.michaelkors.com^
 ||analytics.midfirst.com^
-||analytics.mightyape.co.nz^
 ||analytics.mindivy.net^
 ||analytics.mindjolt.com^
 ||analytics.mindvalley.com^
@@ -191740,7 +191738,6 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||info.edm.heartsonfire.com^
 ||lp.healthcare.aephandsonlabs.com^
 ||lp.hol3.demoamericas275.adobe.com^
-||measure.jstor.org^
 ||metric.nissan.ee^
 ||metric.nissan.fi^
 ||metric.parcelforce.com^
@@ -193726,6 +193723,8 @@ dlsdk.appsflyer.com^
 ||9cdn.net^
 ||9dtiny.cn^
 ||9eriz.x.incapdns.net^
+||9gtb.com^
+||9gti.com^
 ||9kff.com^
 ||9now.com.au^
 ||9pctbx.net^
@@ -193879,6 +193878,7 @@ dlsdk.appsflyer.com^
 ||aabdmn.com^
 ||aachener-zeitung.de^
 ||aad.map.fastly.net^
+||aaemc.nl^
 ||aafp.net^
 ||aajtak.in^
 ||aakit.com^
@@ -194099,10 +194099,13 @@ dlsdk.appsflyer.com^
 ||acuitybrandslighting.net^
 ||acuityscheduling.com^
 ||acumbamail.com^
+||acupuncturistleiden.nl^
+||acupunctuur-oost.nl^
 ||acupunctuurrotterdam.nu^
 ||acwebconnecting.com^
 ||acwgf.com^
 ||ad*.adfarm*.adition.com^
+||ad-analytics.xyz^
 ||ad-cdn-endpoint.azureedge.net^
 ||ad-cdn.name^
 ||ad-center.com^
@@ -194396,6 +194399,7 @@ dlsdk.appsflyer.com^
 ||adslot.uc.cn^
 ||adsninja.club^
 ||adsninja.com^
+||adsobscure.com^
 ||adsolutions.com^
 ||adsonica.com^
 ||adsor.openrunner.com^
@@ -194499,6 +194503,7 @@ dlsdk.appsflyer.com^
 ||affilimate.com^
 ||affinilead.com^
 ||affinitysolutions.com^
+||affirm.com^
 ||affixcrm.com^
 ||affle.com^
 ||affplus.com^
@@ -194586,6 +194591,7 @@ dlsdk.appsflyer.com^
 ||aixport.de^
 ||aiyukeji.cn^
 ||aiyukeji.com^
+||aiyyo.site^
 ||aj1754.online^
 ||ajapk.com^
 ||ajaxcdn.org^
@@ -195222,6 +195228,7 @@ dlsdk.appsflyer.com^
 ||autoketing.org^
 ||autolink.herokuapp.com^
 ||autolinkmaker.itunes.apple.com^
+||automaticemailsender.com^
 ||automattenset.nl^
 ||automattic.com^
 ||automizely.com^
@@ -195519,6 +195526,7 @@ dlsdk.appsflyer.com^
 ||beaconinside.com^
 ||beaconsinspace.com^
 ||beaconstac.com^
+||beacontracking.net^
 ||beadage.net^
 ||bealion.com^
 ||beano.io^
@@ -195533,6 +195541,7 @@ dlsdk.appsflyer.com^
 ||becomes.social^
 ||bedegaming.com^
 ||bedful.com^
+||bedrijfloket.nl^
 ||bedrijfmaju.com^
 ||bedrijfsenergievergelijker.online^
 ||bedrijvenmonitor.info^
@@ -195667,6 +195676,7 @@ dlsdk.appsflyer.com^
 ||bgf.nl^
 ||bgwgroup.com.au^
 ||bgwgroup.github.io^
+||bhimiji.com^
 ||bhnrewards.com^
 ||bi-flogger-alb-ext-343643057.us-east-1.elb.amazonaws.com^
 ||bibblio.org^
@@ -195772,6 +195782,7 @@ dlsdk.appsflyer.com^
 ||bizset.pl^
 ||bizzabo.com^
 ||bjcu.u3.ucweb.com^
+||bjoetiekje.nl^
 ||bjs.9669.cn^
 ||bjvvqu.cn^
 ||bjxiaohua.com^
@@ -195798,6 +195809,7 @@ dlsdk.appsflyer.com^
 ||blockchain.info^
 ||blockthrough.com^
 ||blogblog.com^
+||blogger-lab.com^
 ||bloggerads.net^
 ||blogheim.at^
 ||blogher.com^
@@ -196195,6 +196207,7 @@ dlsdk.appsflyer.com^
 ||capten.io^
 ||capterra-static.com^
 ||capterra.com^
+||captiwate.com^
 ||car-brand-logos.s3.amazonaws.com^
 ||carbondmp.com^
 ||carbonrmp.com^
@@ -196215,6 +196228,7 @@ dlsdk.appsflyer.com^
 ||carromking.com^
 ||carrot.link^
 ||carrotquest.io^
+||cart-bot.net^
 ||cartfulsolutions.com^
 ||cartkit-public.s3.amazonaws.com^
 ||cartkitcdn.com^
@@ -196518,6 +196532,7 @@ dlsdk.appsflyer.com^
 ||chengzhao95511.com^
 ||chenwen7788.com^
 ||chessabc.com^
+||chi-ori.nl^
 ||chicdn.net^
 ||chichaylimona.com^
 ||chicken18.com^
@@ -196797,6 +196812,7 @@ dlsdk.appsflyer.com^
 ||cnvinfo.nl^
 ||cnxad.com^
 ||cnxad.net^
+||cnys-tcm.com^
 ||cnzhqs.com^
 ||cnzzlink.com^
 ||co-in.io^
@@ -197707,6 +197723,7 @@ dlsdk.appsflyer.com^
 ||dante2007.com^
 ||danzz.ch^
 ||daofile.com^
+||daohearts.com^
 ||dapp-radar.info^
 ||dapresy.com^
 ||dart.clearchannel.com^
@@ -197765,6 +197782,7 @@ dlsdk.appsflyer.com^
 ||datahawk.co^
 ||dataim.nl^
 ||datainsightsnetwork.nl^
+||dataklmsad902.site^
 ||dataleaf.nl^
 ||datalog.bancsabadell.com^
 ||datamixer-pa.googleapis.com^
@@ -198486,12 +198504,14 @@ dlsdk.appsflyer.com^
 ||embedsocial.com^
 ||embelliequotidienne.fr^
 ||embluemail.com^
+||emerald.com^
 ||emercury.net^
 ||emetriq.com^
 ||emg.io^
 ||emizexpi.today^
 ||emlmkt.com^
 ||emlnk.com^
+||emmitsburg.net^
 ||emojied.net^
 ||emoticon.sns.iqiyi.com^
 ||empiresames.com^
@@ -198510,6 +198530,7 @@ dlsdk.appsflyer.com^
 ||endorsal.io^
 ||enepal.net^
 ||energokst.kz^
+||energyarts.com^
 ||engage.ticketmaster.com^
 ||engage.wixapps.net^
 ||engagebay.com^
@@ -198821,6 +198842,7 @@ dlsdk.appsflyer.com^
 ||fengbuy.com^
 ||fenggejiaju.com^
 ||fengkongcloud.com^
+||fera.ai^
 ||fermson.com^
 ||fernsehlotterie.de^
 ||ferzy.com^
@@ -198895,6 +198917,7 @@ dlsdk.appsflyer.com^
 ||fitcoaching-pa.googleapis.com^
 ||fitness-bayern.de^
 ||fitronics.nl^
+||fitshiatsu.con^
 ||fixthephoto.com^
 ||fizeromane.es^
 ||fjkst.com^
@@ -198995,6 +199018,7 @@ dlsdk.appsflyer.com^
 ||fotao9.com^
 ||founseezb.cn^
 ||fourierlogistics.com^
+||fourseasacupuncture.com^
 ||foursixty.com^
 ||foursquare.com^
 ||fourstack.nl^
@@ -199287,6 +199311,7 @@ dlsdk.appsflyer.com^
 ||getgist.com^
 ||gethypervisual.com^
 ||getinsights.io^
+||getjoy.ai^
 ||getlasso.co^
 ||getlucky.nl^
 ||getmidnight.com^
@@ -199381,6 +199406,7 @@ dlsdk.appsflyer.com^
 ||glasszz.com^
 ||gleam.io^
 ||gleanin.com^
+||gleap.io^
 ||glimpseprotocol.io^
 ||glint-people-academy.skilljar.com^
 ||glitchtip.com^
@@ -199441,6 +199467,7 @@ dlsdk.appsflyer.com^
 ||goldbroker.com^
 ||golden1.sogou.com^
 ||golden1.sohu.com^
+||goldenlotusqigong.com^
 ||goldennuggetcasino.com^
 ||goldrummel.de^
 ||goldruncasino.nl^
@@ -199460,6 +199487,7 @@ dlsdk.appsflyer.com^
 ||goothusen.nkl.de^
 ||gorgias.chat^
 ||gorgias.com^
+||gorgias.help^
 ||goslot.com^
 ||gosquared.com^
 ||gosupportnow.com^
@@ -199638,6 +199666,7 @@ dlsdk.appsflyer.com^
 ||hbyyzm.com^
 ||hc.baidu.cn^
 ||hc.nl^
+||hca.org.au^
 ||hccms.com.cn^
 ||hcreditx.com^
 ||hd.ruten.com.tw^
@@ -199655,9 +199684,11 @@ dlsdk.appsflyer.com^
 ||hearst.io^
 ||hearstapps.com^
 ||heartbeat.belkin.com^
+||heatmapcore.com^
 ||heatmaps.me^
 ||heavenmedia.v3g4s.com^
 ||heefwozhlxgz.com^
+||heelacupunctuur.com^
 ||hefan365.com^
 ||heib10.top^
 ||heib12.top^
@@ -200157,9 +200188,11 @@ dlsdk.appsflyer.com^
 ||igp.cloud^
 ||igvmafo.com^
 ||ihars.com^
+||ihreiki.com^
 ||ihualun.com^
 ||iia1.pikacn.com^
 ||iii.6park.com^
+||iili.io^
 ||iisl7wpf.me^
 ||ijoycig.com^
 ||ijstem.com^
@@ -200249,10 +200282,12 @@ dlsdk.appsflyer.com^
 ||indebuurt.nl^
 ||indianadscompany.com^
 ||indieclick.3janecdn.com^
+||indigoeight.com^
 ||indooratlas.com^
 ||indown.io^
 ||indyexpressband.com^
 ||indymobileapp.com^
+||inekevanderham.nl^
 ||inesclusivaoggi.it^
 ||inetpro.io^
 ||infiniamobile.com^
@@ -200283,6 +200318,7 @@ dlsdk.appsflyer.com^
 ||informizely.com^
 ||informz.net^
 ||infozone.pl^
+||infraforge.ai^
 ||infura.io^
 ||infusionsoft.app^
 ||infusionsoft.com^
@@ -200303,6 +200339,7 @@ dlsdk.appsflyer.com^
 ||inmobicdn.cn^
 ||inmoment.com^
 ||inneractive.com^
+||innerway.ca^
 ||inoptimaformavolendam.nl^
 ||inovarcontabilidade.net^
 ||inovatik.com^
@@ -200627,10 +200664,12 @@ dlsdk.appsflyer.com^
 ||johtzj.com^
 ||joi-2-casino.com^
 ||joigaming.eu^
+||joinground.com^
 ||joinowow.fun^
 ||joinsherpa.io^
 ||jointreport-switch.com^
 ||jokerstar.de^
+||jonathanbreedveld.com^
 ||jooble.com^
 ||jooule.com^
 ||jornaiserevistasmedia.com^
@@ -200682,6 +200721,7 @@ dlsdk.appsflyer.com^
 ||jspg.cc^
 ||jssd.uumeitu.com^
 ||jssdk.touchpoints.schibsted.media^
+||jstor.org^
 ||jswebproduction.com^
 ||jt.yunxiufang.net^
 ||jtol.co.uk^
@@ -200698,6 +200738,7 @@ dlsdk.appsflyer.com^
 ||jumplead.io^
 ||jundazulin.com^
 ||junfull.com^
+||jungshim.org^
 ||juniormie.nl^
 ||junubos.org^
 ||jusha.com^
@@ -200891,6 +200932,7 @@ dlsdk.appsflyer.com^
 ||kosmo-call.de^
 ||kosmocall.de^
 ||kostenloseerotik.org^
+||kota-yoshida.com^
 ||koukou7.com^
 ||kparser.com^
 ||kqy1.com^
@@ -200933,7 +200975,9 @@ dlsdk.appsflyer.com^
 ||kv101-prod.do.dsp.mp.microsoft.com^
 ||kvkc.nl^
 ||kvthhh.top^
+||kwai-pro.com^
 ||kwai.com^
+||kwai.net^
 ||kwcdn.com^
 ||kwfloterij.nl^
 ||kxcdn.com^
@@ -201030,6 +201074,7 @@ dlsdk.appsflyer.com^
 ||leadpress.nl^
 ||leadquizzes.com^
 ||leads.io^
+||leadsforge.ai^
 ||leadsgirl.biz^
 ||leadsonline.com^
 ||leadstree.org^
@@ -201544,6 +201589,7 @@ dlsdk.appsflyer.com^
 ||mailcatch.com^
 ||mailerlite.com^
 ||mailersend.com^
+||mailforge.ai^
 ||mailgun.org^
 ||mailigen.com^
 ||mailing-echt-privat.de^
@@ -201645,6 +201691,8 @@ dlsdk.appsflyer.com^
 ||maspherechic.fr^
 ||massariuscdn.com^
 ||massmailpartner.com^
+||masteroh.com^
+||masteroh.mx^
 ||mastersione.de^
 ||match.rtbidder.net^
 ||matelma.com^
@@ -201818,6 +201866,7 @@ dlsdk.appsflyer.com^
 ||mgwl668.com^
 ||mh.zoho.eu^
 ||mi-home.no^
+||mi-shiatsu.com^
 ||mi.com^
 ||mi.hr^
 ||mia.africa.com^
@@ -201834,6 +201883,7 @@ dlsdk.appsflyer.com^
 ||microsoft-stopt.com^
 ||microsoftoniine.co^
 ||midwestmerch.com^
+||mightyape.co.nz^
 ||migrate.driveapi.micloud.xiaomi.net^
 ||migu.kssws.ks-cdn.com^
 ||mihui.com^
@@ -202160,6 +202210,7 @@ dlsdk.appsflyer.com^
 ||n8s.jp^
 ||na1r.services.adobe.com^
 ||na2m-pr.licenses.adobe.com^
+||nadallas.com^
 ||nagich.com^
 ||nahovitsyn.com^
 ||nai.cpxkvc.com^
@@ -202222,6 +202273,7 @@ dlsdk.appsflyer.com^
 ||nederlandseloterij.nl^
 ||neexii.su^
 ||nefl.com^
+||negate.io^
 ||neiacademy.nl^
 ||nellie.booking.com^
 ||nelreports.net^
@@ -202464,6 +202516,7 @@ dlsdk.appsflyer.com^
 ||nyk.my.salesforce.com^
 ||nylalobghyhirgh.com^
 ||nylottery.ny.gov^
+||nyn-qigong.com^
 ||nysita.com^
 ||nyxcosmetics.com^
 ||nzezn.com^
@@ -202571,6 +202624,7 @@ dlsdk.appsflyer.com^
 ||omnichannel-solutions.wearetriple.com^
 ||omnidesk.io^
 ||omniscrienttow.com^
+||omnisendlink.com^
 ||omnycontent.com^
 ||oms.expedia.com^
 ||omt-services.com^
@@ -202600,6 +202654,8 @@ dlsdk.appsflyer.com^
 ||onedun.com^
 ||onef.pro^
 ||onelink-translations.com^
+||onenessconcept.com^
+||onenessqigong.com^
 ||oneplus.cn^
 ||oneplus.com^
 ||oneplus.in^
@@ -202746,6 +202802,7 @@ dlsdk.appsflyer.com^
 ||origin-nvidia.tw^
 ||original-slots.de^
 ||original-wetten.de^
+||orit-zilberman.com^
 ||orjq.net^
 ||orthofyto.com^
 ||orthohealthfoundation.nl^
@@ -202856,6 +202913,7 @@ dlsdk.appsflyer.com^
 ||papajia55.com^
 ||paqle.dk^
 ||pardot.com^
+||parentingwithouttears.com^
 ||parimatch.com^
 ||parisvegasclub.de^
 ||parking.zunmi.cn^
@@ -202976,6 +203034,7 @@ dlsdk.appsflyer.com^
 ||php-infra.oe24.at^
 ||phplivesupport.com^
 ||phprcdn.com^
+||phwf.wordpress.com^
 ||piacereautentico.it^
 ||pic.0597kk.com^
 ||pic.2u.com.cn^
@@ -203208,6 +203267,7 @@ dlsdk.appsflyer.com^
 ||pragmaticplay.net^
 ||pragmaticplayphp.com^
 ||praktijklichtpunt.nu^
+||praktijktcg.nl^
 ||pranagoodenergy.nl^
 ||prc.rjje4.com^
 ||pre.stone-systems.com^
@@ -203237,6 +203297,7 @@ dlsdk.appsflyer.com^
 ||primariaciorogarla.ro^
 ||prime31.com^
 ||primed.io^
+||primeforge.ai^
 ||primescratchcards.de^
 ||primeslots.de^
 ||primespielhalle.de^
@@ -203448,10 +203509,17 @@ dlsdk.appsflyer.com^
 ||qdchunyu.com^
 ||qgss8.com^
 ||qhaif.com^
+||qi-connection.com^
+||qi-gong.nl^
 ||qiailm.com^
+||qicentrum.eu^
 ||qicm.aexp-static.com^
+||qicrystals.com.au^
 ||qihaoqu.com^
+||qing-bai.nl^
 ||qingqu.la^
+||qioflife.nl^
+||qiological.com^
 ||qiota.com^
 ||qiqipower.com^
 ||qiqivv.com^
@@ -203632,6 +203700,7 @@ dlsdk.appsflyer.com^
 ||rebrandly.com^
 ||rebuyengine.com^
 ||rec.ingka.com^
+||recart.com^
 ||receipts.canarymail.io^
 ||receptiv.com^
 ||recherche-api.quebecormedia.com^
@@ -203946,6 +204015,7 @@ dlsdk.appsflyer.com^
 ||s1.hiapk.com^
 ||s1.qiuyi.cn^
 ||s1.quebecormedia.com^
+||s15-def.ap4r.com^
 ||s2-prod.mirror.co.uk^
 ||s2.menzis.nl^
 ||s2.vinkvink.nl^
@@ -204460,6 +204530,7 @@ dlsdk.appsflyer.com^
 ||snacks.faz.net^
 ||snap.com^
 ||snapchance.nl^
+||snapengage.com^
 ||snapfiles.com^
 ||snapito.com^
 ||snapkit.com^
@@ -204496,6 +204567,7 @@ dlsdk.appsflyer.com^
 ||socialnmobile.com^
 ||socialrapid.eu^
 ||socialshopwave.com^
+||socialtrackers.com^
 ||society6.com^
 ||socorro-webapp.services.mozilla.com^
 ||socoto.com^
@@ -204716,6 +204788,7 @@ dlsdk.appsflyer.com^
 ||stake.com^
 ||stamceldonatie.nl^
 ||stamped.io^
+||stape.id^
 ||staqnet.com^
 ||star-mini.c10r.facebook.com^
 ||star-randsrv.bsg.brave.com^
@@ -204770,6 +204843,7 @@ dlsdk.appsflyer.com^
 ||statics.liberation.fr^
 ||staticxx.facebook.com^
 ||statik-us.info^
+||stationmade.com^
 ||statistics.gem2go.page^
 ||statistics.library.dmu.ac.uk^
 ||statisticsv2.yinyuetai.com^
@@ -204899,6 +204973,18 @@ dlsdk.appsflyer.com^
 ||sundaysky.com^
 ||sundylighting.com^
 ||sunjianhao.com^
+||sunkyeong.de^
+||sunkyeong.dk^
+||sunkyeong.es^
+||sunkyeong.fr^
+||sunkyeong.in^
+||sunkyeong.mx^
+||sunkyeong.my^
+||sunkyeong.nl^
+||sunkyeong.org.au^
+||sunkyeong.org.uk^
+||sunkyeong.org^
+||sunkyeongtoronto.ca^
 ||sunmaker.de^
 ||sunnynaturalproducts.com^
 ||sunpalacecasino.eu^
@@ -204957,6 +205043,7 @@ dlsdk.appsflyer.com^
 ||switchadhub.com^
 ||switchy.io^
 ||swx.0.0.0.0.cn^
+||swymrelay.com^
 ||sxbhzs.net^
 ||sxdyrq.com^
 ||sxjxhg.com^
@@ -205067,6 +205154,7 @@ dlsdk.appsflyer.com^
 ||tags.natwest.com^
 ||tags.sendinblue.com^
 ||tags.youngcapital.nl^
+||taichionline.it^
 ||taiwancivilgovernment.com^
 ||tajxgs.com^
 ||takemyquote.com^
@@ -205080,6 +205168,7 @@ dlsdk.appsflyer.com^
 ||talos360.co.uk^
 ||talview.com^
 ||tamoco.com^
+||tandfonline.com^
 ||tangoomedia.com^
 ||tangoutianxia.com^
 ||tansuotv.com^
@@ -205122,6 +205211,8 @@ dlsdk.appsflyer.com^
 ||tc600.com^
 ||tcdexploitatie.nl^
 ||tcjy66.cc^
+||tcmclassics.org^
+||tcmworld.org^
 ||tcommunity.linkedin.com^
 ||td.com^
 ||tda.link^
@@ -205250,8 +205341,10 @@ dlsdk.appsflyer.com^
 ||thenitroinfotech.com^
 ||theokex.com^
 ||theoptimizer.io^
+||thepowerofqi.org^
 ||therapist.net^
 ||theraptormedia.com^
+||theresegodthelp.nl^
 ||thescenseproject.com^
 ||thesocial-ig.com^
 ||theta.sogou.com^
@@ -205291,6 +205384,7 @@ dlsdk.appsflyer.com^
 ||tiktok.com^
 ||tiktokcdn-us.com^
 ||tiktokcdn.com^
+||tiktokw.us^
 ||tilbudmaskin.no^
 ||tile-service.weather.microsoft.com^
 ||time.akamai.com^
@@ -205433,6 +205527,7 @@ dlsdk.appsflyer.com^
 ||trackjs.com^
 ||trackles.com^
 ||trackmaven.com^
+||trackmyshopping.net^
 ||trackonomics.net^
 ||tractionnext.com^
 ||tracxn.com^
@@ -205458,6 +205553,7 @@ dlsdk.appsflyer.com^
 ||travelbase.nl^
 ||travelcenter.uk^
 ||travelclown.nl^
+||travellah.my^
 ||travelvalley.nl^
 ||traxr.net^
 ||trbna.com^
@@ -205699,6 +205795,7 @@ dlsdk.appsflyer.com^
 ||uplinkly-static.com^
 ||uplynk.com^
 ||upoint.id^
+||uppromote.com^
 ||uprive.com^
 ||upscribe.net^
 ||upsellproductaddons.com^
@@ -205877,6 +205974,7 @@ dlsdk.appsflyer.com^
 ||viafoura.net^
 ||vianederland.nl^
 ||viapplogs.net^
+||vibrationoflife.com^
 ||vichc.com^
 ||victorjx.com^
 ||victory.com^
@@ -205924,6 +206022,8 @@ dlsdk.appsflyer.com^
 ||visualwebsiteoptimizer.com^
 ||vitaepro.nl^
 ||vitakruid.nl^
+||vitals.app^
+||vitals.co^
 ||vitaminesperpost.nl^
 ||vitaminstore.nl^
 ||vitastyle.nl^
@@ -206054,6 +206154,7 @@ dlsdk.appsflyer.com^
 ||wc.vandervalkonline.com^
 ||wclc.com^
 ||wda.ydt.com.cn^
+||wdbos80993.com^
 ||wdgsl.com^
 ||wdzsb.com.cn^
 ||we-are-adot.com^
@@ -206303,6 +206404,7 @@ dlsdk.appsflyer.com^
 ||wu65.com^
 ||wua.cx^
 ||wudang05.com^
+||wuji-gong.org^
 ||wuliao.juqingba.cn^
 ||wumii.cn^
 ||wunderino.de^
@@ -206311,6 +206413,7 @@ dlsdk.appsflyer.com^
 ||wup-16c9d93d.mbna.co.uk^
 ||wup-7b4df495.santander.cl^
 ||wuqdebjfhjas.bid^
+||wutaodance.com^
 ||wuwho.cn^
 ||wwis-dubc1-vip60.adobe.com^
 ||www-elperiodic-com.translate.goog^
@@ -206438,6 +206541,7 @@ dlsdk.appsflyer.com^
 ||xue.zbyw.cn^
 ||xul478.com^
 ||xulizui6.com^
+||xvtest.net^
 ||xx.m.gxwztv.com^
 ||xxad.cc^
 ||xxguan.cn^
@@ -206659,12 +206763,15 @@ dlsdk.appsflyer.com^
 ||zhichi08.com^
 ||zhidian3g.cn^
 ||zhifenjie.com^
+||zhigong.nl^
 ||zhihei.com^
 ||zhihu.xmcimg.com^
 ||zhiliaoapp.com^
+||zhinengmalden.com^
 ||zhiong.net^
 ||zhiyuanteam.com^
 ||zhjfad.com^
+||zhong-he.nl^
 ||zhongchouyan.com^
 ||zhuanfakong.com^
 ||zhuba8.com^
@@ -206680,6 +206787,7 @@ dlsdk.appsflyer.com^
 ||zingtree.com^
 ||zipify.com^
 ||zisunion.com^
+||ziyuanting.nl^
 ||zizcy.com^
 ||zjbdt.com^
 ||zjhim.com^
@@ -206696,6 +206804,7 @@ dlsdk.appsflyer.com^
 ||zohocampaigns.com^
 ||zohoinsights1.eu^
 ||zonnebloem.nl^
+||zonos.com^
 ||zoom121.site^
 ||zoominfo.com^
 ||zorbamaster.com^
@@ -206734,35 +206843,6 @@ dlsdk.appsflyer.com^
 ||zzrcz.com^
 ||zzsx8.com^
 ||zzzjvqzkmqllb.top^
-||joinground.com^
-||9gti.com^
-||9gtb.com^
-||negate.io^
-||heatmapcore.com^
-||gorgias.help^
-||kwai.net^
-||kwai-pro.com^
-||stape.id^
-||tiktokw.us^
-||s15-def.ap4r.com^
-||wdbos80993.com^
-||iili.io^
-||recart.com^
-||vitals.app^
-||affirm.com^
-||fera.ai^
-||vitals.co^
-||uppromote.com^
-||swymrelay.com^
-||stationmade.com^
-||zonos.com^
-||omnisendlink.com^
-||xvtest.net^
-||getjoy.ai^
-||blogger-lab.com^
-||snapengage.com^
-||cart-bot.net^
-||dataklmsad902.site^
 ||badv.wp.pl^
 ||emisjawidgeet.onet.pl^
 ||ads.edipresse.pl^
