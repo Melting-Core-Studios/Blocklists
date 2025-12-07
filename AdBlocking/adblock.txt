@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Block those ads
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.3461
+! Version: 1.3462
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-12-07T03:24:44.886Z
+! Last modified: 2025-12-07T04:30:48.781Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -4047,6 +4047,7 @@
 ||baclight.qpon^
 ||bacrtcqhpkmbp.online^
 ||bacteriaministry.com^
+||bad-charge.pro^
 ||badgegirdle.com^
 ||badjocks.com^
 ||badlandlispyippee.com^
@@ -19784,6 +19785,7 @@
 ||ldmvxbtttoecu.website^
 ||ldnkepcuqetum.online^
 ||ldoxxwevehxgm.site^
+||ldpxydjyoh.com^
 ||ldqlbzuhjovtd.website^
 ||ldqsoiynsqiix.website^
 ||ldrtuisabstxa.store^
@@ -24306,6 +24308,7 @@
 ||ofhypnoer.com^
 ||ofhzqxpfhusrw.website^
 ||ofiftihaigny.net^
+||ofinmuqmydevc.space^
 ||ofjxfukjzgnqo.space^
 ||ofkcearzvssxw.website^
 ||ofklefkian.com^
@@ -27939,6 +27942,7 @@
 ||qg9unohql2223k2gikr8867ijnt6r82h8jihl.cfd^
 ||qgbdpqpkowqik.website^
 ||qgbgddskkmgto.online^
+||qgbuebgjpn.com^
 ||qgcdlmntrgooa.space^
 ||qgdgcbtfuxgra.store^
 ||qgerr.com^
@@ -28153,6 +28157,7 @@
 ||qoxrmcuiogxhe.website^
 ||qoydtxdfmwlwn.store^
 ||qoyvzmxbarkla.website^
+||qozdodzpgcnpl.space^
 ||qozveo.com^
 ||qp-kkhdfspt.space^
 ||qpbtocrhhjnz.one^
@@ -28885,6 +28890,7 @@
 ||recitalenquiry.com^
 ||recitalfinancially.com^
 ||recitercolt.com^
+||reclaimteenslip.cfd^
 ||reclineanomura.click^
 ||reclinenumbermen.com^
 ||reclineonseteducational.com^
@@ -32311,6 +32317,7 @@
 ||stautsoarsoaw.net^
 ||stawhaithimp.net^
 ||stawhoph.com^
+||stayarchaicsuperstitious.com^
 ||stayclockwise.com^
 ||stayedfrozenproduced.com^
 ||staygg.com^
@@ -35053,6 +35060,7 @@
 ||unconscious-long.com^
 ||unconsciousfluent.com^
 ||uncouchsawyers.qpon^
+||uncqrapguooya.space^
 ||uncramcappagh.life^
 ||uncutblamer.shop^
 ||uncutewyches.top^
@@ -39463,6 +39471,7 @@
 ||znlkzudokdzth.website^
 ||znntvpdicngpo.website^
 ||znorrymikvycz.site^
+||znovjidqcxoza.website^
 ||znpeduhjhauqz.space^
 ||znqpmbfussykx.website^
 ||znsebkpnpczim.website^
@@ -39493,6 +39502,7 @@
 ||zohlikopegrdz.space^
 ||zohoptortibsi.net^
 ||zoifwejzptmea.store^
+||zoisixoeqsrfy.website^
 ||zoismeparchs.cfd^
 ||zoisticalien.click^
 ||zoisticdecuria.cyou^
@@ -43760,7 +43770,6 @@
 ||pl.ua^$badfilter
 Banner468x60
 /^https:\/\/[a-z]{3,4}\.[a-z]{8,16}\.com\/loader\.min\.js$/$script,third-party,match-case,header=etag:/^W\/"[0-9a-f]{32}-\d{13}"$/
-/^https:\/\/d[0-9a-z]{12,13}\.cloudfront\.net\/loader\.min\.js$/$script,third-party,match-case,header=etag:/^W\/"[0-9a-f]{32}"$/
 ||consent.cookiefirst.com^$badfilter
 ||myvidplay.com^$badfilter
 ||cloudatacdn.com^$badfilter
