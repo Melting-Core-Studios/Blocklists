@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.852
+! Version: 1.853
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-12-08T13:33:08.144Z
+! Last modified: 2025-12-08T14:18:16.502Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -5472,7 +5472,7 @@ fishki.net,mapsofworld.com##.social_icon
 navbharattimes.indiatimes.com##.wdt_social_share > ._icon:not(.comments)
 navbharattimes.indiatimes.com##.wdt_social_share > .social-cell:not(.comments)
 edh.tw##.line-friend
-pod.link,deezer.com,dhakapost.com,lasestrellas.tv,tudn.com,play.google.com,linktr.ee,tunecore.co.jp,trybotics.com##button[aria-label="Share"]
+telehit.com,pod.link,deezer.com,dhakapost.com,lasestrellas.tv,tudn.com,play.google.com,linktr.ee,tunecore.co.jp,trybotics.com##button[aria-label="Share"]
 maersk.com##.p-section__article__meta__share
 bt.com,tebernuskirecci.com.tr##.share-tags
 every-tuesday.com##.etwp-socialNav
