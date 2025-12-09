@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.857
+! Version: 1.858
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-12-09T04:26:05.564Z
+! Last modified: 2025-12-09T06:26:18.128Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -367,6 +367,8 @@ esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israel
 esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israelnationalnews.com,lifehacker.com,cgmagonline.com,gizmodo.com,gamerevolution.com,metro.co.uk,thurrott.com,stereogum.com,ign.com,newsweek.com,dailymail.co.uk,comingsoon.net,timesofisrael.com,nypost.com,9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,electrek.co#%#//scriptlet('remove-in-shadow-dom', 'div[data-spot-im-class="vote-links"] + span[class$="index__dot"]')
 echofm.online,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com##.comment__share > *
 echofm.online,antirez.com,comicbook.com,alexp.pl,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com###thread-share-bar
+iko-yo.net##a.p-art-sns_btn
+newt.net##div[class$="__share"]
 time.com##button[aria-label="Share this story"]
 protagon.gr##.stopHere
 telecinco.es##astro-island[opts*="ShareBar"]
@@ -21185,6 +21187,7 @@ aajtak.in,businesstoday.in##.whatsapp_channel
 indiatvnews.com##.whatsapp_link
 business-standard.com##.whtsclick
 indiatoday.in##.whtspp_share
+business-standard.com##.whtsppchannle
 androidheadlines.com##.widget-ahcount
 trustedreviews.com##.widget-social-b
 mediapost.com##.widget-waypoint
