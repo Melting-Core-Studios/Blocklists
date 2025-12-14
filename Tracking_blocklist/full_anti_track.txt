@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.1045
+! Version: 1.1046
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-12-14T13:26:11.653Z
+! Last modified: 2025-12-14T16:19:43.150Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -37259,6 +37259,7 @@
 ||track.buyma.com^
 ||track.prod.smash.pet^
 ||tracker.curama.jp^
+||tracking.cds.dmm.com^
 ||tracking.game8.jp^
 ||tracking.gnavi.co.jp^
 ||view.fujitv.co.jp^
