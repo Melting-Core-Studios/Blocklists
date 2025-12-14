@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.878
+! Version: 1.879
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-12-13T04:22:44.900Z
+! Last modified: 2025-12-14T03:26:19.512Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -21175,6 +21175,7 @@ trueachievements.com##.vc
 apa.org##.vertical-icon-bar
 videogameschronicle.com##.vgc-branding__container > ul
 videogameschronicle.com##.vgc-socialshare
+ms.now##.video-details__social-share-menu
 natlawreview.com##.view-footer
 motorsport.tv##.vjs-icons-bar
 dailymail.co.uk##.vjs-social-controls
@@ -21353,6 +21354,7 @@ heritagedaily.com##.tds-button:has-text(FOLLOW ON GOOGLE NEWS)
 twitch.tv##.tw-balloon:has-text(Share To)
 ruwix.com##.widget-title:has-text(Share this page!)
 archaeologymag.com##.widget_custom_html:has-text(Follow us)
+ms.now##.wp-block-group p:has(Share this)
 theintercept.com##[data-ga-track-action]:has-text(Join The Conversation)
 clubic.com##[style="position: sticky; top: 55px;"]:has-text(Inscrivez-vous à notre newsletter quotidienne !)
 nbcsports.com##p.cms-textAlign-center:has-text(follow NBC Sports)
