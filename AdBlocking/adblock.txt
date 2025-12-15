@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Block those ads
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.3640
+! Version: 1.3641
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-12-15T07:21:51.493Z
+! Last modified: 2025-12-15T08:26:35.107Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -2977,6 +2977,7 @@
 ||anbvofwznwbma.website^
 ||ancasgrhu.com^
 ||anceenablesasm.com^
+||ancfuarlcqzpa.online^
 ||anchored-dig.com^
 ||anchored-sell.com^
 ||anchored-upper.pro^
@@ -5751,6 +5752,7 @@
 ||bridlearctic.com^
 ||briefcasebuoyduster.com^
 ||briefinedibleparson.com^
+||briefrush.pro^
 ||brieftrouble.com^
 ||brigadedelegatesandbox.com^
 ||brightcriticism.com^
@@ -10016,6 +10018,7 @@
 ||dlbtsqpnhhzzf.site^
 ||dldvfyshpgftw.website^
 ||dle-news.xyz^
+||dletviqckubbb.space^
 ||dlhdcawqeawfb.space^
 ||dlhwyaetguynl.space^
 ||dljecxbxgaosn.online^
@@ -10877,6 +10880,7 @@
 ||eardepth-prisists.com^
 ||earflaproof.world^
 ||earlapssmalm.com^
+||earlapswrapsflair.cfd^
 ||earldomarmet.shop^
 ||earlinessone.xyz^
 ||early-finding.com^
@@ -11368,6 +11372,7 @@
 ||eladove.com^
 ||elajqjtwnoaef.space^
 ||elapsejollyinsolence.com^
+||elastic-effect.pro^
 ||elasticad.net^
 ||elasticalsdebatic.org^
 ||elastinsyll.cfd^
@@ -34795,6 +34800,7 @@
 ||tartinedonjons.cyou^
 ||tartlay.com^
 ||tartstudio.pro^
+||tarweednasionwacs.cyou^
 ||tashliknobble.qpon^
 ||taskagepaves.cfd^
 ||taskagetaka.help^
@@ -35494,6 +35500,7 @@
 ||tlllccmkxwcze.website^
 ||tlnoutride.cfd^
 ||tlootas.org^
+||tlopeamc.com^
 ||tlpkhtssklgtq.store^
 ||tlpooimiqxwrc.online^
 ||tlppbtcenjfwy.online^
@@ -41200,6 +41207,7 @@
 ||yylocmbfkmymlg.com^
 ||yynapudha.com^
 ||yypkjxtumgofe.site^
+||yypqvjzprpsfm.online^
 ||yysqrduhpfsci.net^
 ||yysqrduhpfsci.xyz^
 ||yytxgghgvtwfp.icu^
@@ -41285,6 +41293,7 @@
 ||zaxekvomlfghf.site^
 ||zazlluqbstvzk.website^
 ||zazlpkapqlrai.website^
+||zbhxbpkoqbysc.website^
 ||zbkimwyrhzhas.store^
 ||zbmzkxmensplm.club^
 ||zbpnldcollzdv.website^
@@ -43830,7 +43839,6 @@
 ||iionads.com^
 ||slc.cbssports.com^
 ||pnzekbgdcsumd.com^
-||ritzumafma.com^
 ||config.htplayground.com^
 ||sharebang.com^
 ||prebid.scope3.com^
@@ -44365,8 +44373,6 @@
 ||s.dseoa0.com^
 ||s.dsjo13.com^
 ||s.dskjl8.com^
-||s.dskwke.com^
-||s.dsldv6.com^
 ||s.dslzv2.com^
 ||s.dsnain.com^
 ||s.dso3bb.com^
@@ -44569,7 +44575,6 @@
 ||click-v4.mkrclkuno.com^
 ||click-v4.plclick.com^
 ||click-v4.preclksize.com^
-||click.explodasclksec.com^
 ||click.expmclck.com^
 ||click.junclikrmedi.com^
 ||click.mainexpclkdir.com^
@@ -44607,6 +44612,7 @@
 ||filter.adexone.com^
 ||filter.adportonic.com^
 ||filter.adquint.com^
+||filter.adverttise.com^
 ||filter.adxpoint.com^
 ||filter.adzreach.com^
 ||filter.audienceye.com^
@@ -44653,7 +44659,6 @@
 ||rtb-eu-v4.admozartexchange.com^
 ||rtb-eu-v4.agilitydigitalmedia.com^
 ||rtb-eu-v4.cpmme.com^
-||rtb-eu-v4.hueadsortb.com^
 ||rtb-eu-v4.kigoras.com^
 ||rtb-eu-v4.prertbdir.com^
 ||rtb-eu-v4.ras-trk.com^
@@ -44749,6 +44754,7 @@
 ||xml-eu-v4.programmaticnexus.com^
 ||xml-eu-v4.qovolta.com^
 ||xml-eu-v4.re-media.info^
+||xml-eu-v4.regalrisemedia.com^
 ||xml-eu-v4.ripamatic.com^
 ||xml-eu-v4.springtides.xyz^
 ||xml-eu-v4.srvqck10.com^
@@ -44761,7 +44767,6 @@
 ||xml-eu-v4.trackifyy.com^
 ||xml-eu-v4.winkleads.com^
 ||xml-eu-v4.xmlorbit.com^
-||xml-eu.adexone.com^
 ||xml-eu.adportonic.com^
 ||xml-eu.adxcircle.com^
 ||xml-eu.blasti.download^
@@ -45868,6 +45873,7 @@
 ||pl.ua^$badfilter
 Banner468x60
 /^https:\/\/[a-z]{3,4}\.[a-z]{8,16}\.com\/loader\.min\.js$/$script,third-party,match-case,header=etag:/^W\/"[0-9a-f]{32}-\d{13}"$/
+/^https:\/\/d[0-9a-z]{12,13}\.cloudfront\.net\/loader\.min\.js$/$script,third-party,match-case,header=etag:/^W\/"[0-9a-f]{32}"$/
 ||consent.cookiefirst.com^$badfilter
 ||myvidplay.com^$badfilter
 ||cloudatacdn.com^$badfilter
