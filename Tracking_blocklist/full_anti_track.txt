@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.1069
+! Version: 1.1070
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-12-18T03:19:32.322Z
+! Last modified: 2025-12-18T06:28:09.833Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -80657,7 +80657,6 @@
 ||events.api.gamma.app^
 ||events.api.red.wemesh.ca^
 ||events.apizones.com^
-||events.app-performance.music.amazon.dev^
 ||events.askjdhaa.com^
 ||events.asurion.com^
 ||events.audioplace.me^
@@ -120199,7 +120198,6 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||trac.i3.dmm.com^
 ||tracdelight.com^
 ||tracdelight.io^
-||trace.app-performance.music.amazon.dev^
 ||trace.bingoholiday.xyz^
 ||trace.free-reels.com^
 ||trace.mjyx.com^
@@ -189991,6 +189989,8 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||tk.boutique.femmeactuelle.fr^
 ||tk.boutique.harpersbazaar.fr^
 ||tk.boutique.programme-tv.net^
+||browser-fp.production.linktr.ee^
+||app-performance.music.amazon.dev^
 ||d2qxmykuaro8s3.cloudfront.net^
 ||tag.poomang.com^
 ||d.nordprotect.com^
