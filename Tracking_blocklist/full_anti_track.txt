@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.1084
+! Version: 1.1085
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-12-19T20:19:56.170Z
+! Last modified: 2025-12-19T21:16:52.992Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -965,6 +965,7 @@
 ||cumbersomecake.com^
 ||cumbersomecarpenter.com^
 ||cupcakegem.com^
+||curatedtea.com^
 ||curbminers.com^
 ||curbneon.com^
 ||curiouschalk.com^
@@ -1054,6 +1055,7 @@
 ||dreamycanyon.com^
 ||driftingchef.com^
 ||driftpizza.com^
+||droidwiz.com^
 ||drollwharf.com^
 ||dustydime.com^
 ||dustyhammer.com^
@@ -189991,6 +189993,7 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||tk.boutique.femmeactuelle.fr^
 ||tk.boutique.harpersbazaar.fr^
 ||tk.boutique.programme-tv.net^
+||telemetry.microsoft.us^
 ||analytics.heistotron.uk^
 ||fluffy-analytics.vercel.app^
 ||stats.renet.io^
@@ -205375,7 +205378,6 @@ dlsdk.appsflyer.com^
 ||telemetry-incoming.r53-2.services.mozilla.com^
 ||telemetry.bluedot.io^
 ||telemetry.microsoft.com.nsatc.net^
-||telemetry.microsoft.us^
 ||telemetry.notable.app^
 ||telephonyspamprotect-pa.googleapis.com^
 ||telequid.com^
