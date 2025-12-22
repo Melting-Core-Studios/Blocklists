@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.919
+! Version: 1.920
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-12-22T04:37:03.688Z
+! Last modified: 2025-12-22T05:21:48.277Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -367,6 +367,8 @@ esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israel
 esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israelnationalnews.com,lifehacker.com,cgmagonline.com,gizmodo.com,gamerevolution.com,metro.co.uk,thurrott.com,stereogum.com,ign.com,newsweek.com,dailymail.co.uk,comingsoon.net,timesofisrael.com,nypost.com,9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,electrek.co#%#//scriptlet('remove-in-shadow-dom', 'div[data-spot-im-class="vote-links"] + span[class$="index__dot"]')
 echofm.online,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com##.comment__share > *
 echofm.online,antirez.com,comicbook.com,alexp.pl,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com###thread-share-bar
+123telugu.com##.elementor-widget-penci-social-counter
+123telugu.com#?#.elementor-widget-heading:contains(Social Media)
 openai.com##.grid-cols-12.w-full .ms-auto div.gap-5xs[aria-haspopup="dialog"]
 whatjewwannaeat.com##.share-simple-wrapper
 onvista.de##div:has(> a[href^="https://www.facebook.com/sharer.php"])
@@ -7142,7 +7144,7 @@ donday.ru###cboxOverlay
 donday.ru###colorbox
 penzainform.ru###divSocial
 dailymail.co.uk###dms-txt
-polrail.com,hourei.net,ewrc.cz,speedtest.pl,flyordie.com,convertinmp4.com,amazon.com###facebook
+gallery.123telugu.com,polrail.com,hourei.net,ewrc.cz,speedtest.pl,flyordie.com,convertinmp4.com,amazon.com###facebook
 polrail.com###facebooksocialpluginlink
 zagranitsa.com###facebookWindow
 polszczyzna.pl,elise.com.ua###fanback
