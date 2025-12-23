@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.933
+! Version: 1.934
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-12-23T19:16:12.138Z
+! Last modified: 2025-12-23T20:18:27.831Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -861,7 +861,7 @@ zonatmo.com##div.text-center:has(> a.social-share)
 videogamegeek.com##gg-share-buttons
 haberler.com###share-whatsapp
 finalroundai.com##.blog-post5-content_share
-motortrend.com,google.*##div[aria-label="Share"]
+motortrend.com##div[aria-label="Share"]
 israelnationalnews.com##.article-edit-out:has(+ #fb-root)
 pornogratisdiario.com##.wrap-tabs > div.item:has(> a[href="#share"])
 puritanas.com##button[data-target="ShareCnt"]
@@ -9009,7 +9009,6 @@ catalogmineralov.ru#$#body { overflow: visible!important; }
 bomb01.com#$##modal { display: none!important; }
 1track.ru#$#body { overflow: visible!important; }
 notebooklm.google.com#@#.share-button
-drive.google.*#@#div[aria-label="Share"]
 idolmaster-official.jp#@#a[href^="https://twitter.com/intent/tweet?"]
 celebmafia.com#@#.addtoany_share_save_container
 @@||celebmafia.com/wp-content/plugins/add-to-any/addtoany.min.css
