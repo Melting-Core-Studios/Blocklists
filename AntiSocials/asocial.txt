@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.937
+! Version: 1.938
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-12-24T04:33:22.813Z
+! Last modified: 2025-12-24T05:21:22.939Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -2289,7 +2289,6 @@ block.fm##.bg-card-01.px-8
 autonomous.ai##div[class^="BlogDetail_SocialWrapper"]
 turkish123.com##.social-home
 digital-expert.online##.comment-action-wrapper
-quriostore.com##.product-share
 aydinhedef.com.tr##section[class^="share-block-"]
 yp.ru##.ya-share-div
 sacnilk.com##.articletag ~ div:has(> a.fa-facebook)
@@ -6036,7 +6035,7 @@ cozumpark.com,expatsportugal.com##.wpf-sbtn
 track24.ru###trackingFormShare_
 wildberries.ru##.open-socialshare
 farpost.ru##.share-button-link
-ggsel.net,shopier.com,dvdplanetstore.pk,newegg.com,ggsel.com,ogretmenevdesatis.com,dogeat.ru##.product-share
+hoff.ru,quriostore.com,ggsel.net,shopier.com,dvdplanetstore.pk,newegg.com,ggsel.com,ogretmenevdesatis.com,dogeat.ru##.product-share
 thenewslens.com,neggly.org,tw.nextapple.com,zdg.md,shopnz.ru,stirileprotv.ro,webcg.net,landofgames.ru,lifter.com.ua##.social-btns
 miejscawewroclawiu.pl,forums.flyer.co.uk##.widget_facebook
 0352.ua##.company-marks
