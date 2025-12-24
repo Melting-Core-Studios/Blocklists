@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.1114
+! Version: 1.1115
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-12-24T13:30:52.642Z
+! Last modified: 2025-12-24T17:16:22.133Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -189552,6 +189552,7 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||tk.boutique.femmeactuelle.fr^
 ||tk.boutique.harpersbazaar.fr^
 ||tk.boutique.programme-tv.net^
+||pushd-android-logs.s3.amazonaws.com^
 ||uxlog-api.danawa.com^
 ||log-bridge-mobile.kr.karrotmarket.com^
 ||telemetry.microsoft.us^
@@ -190461,6 +190462,7 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||analytics.qoqa.ch^
 ||analytics.qoqa.com^
 ||appsflyer-report.honkaiimpact3.com^
+||ihmonitor.luckincoffee.us^
 ||report.1-1.io^
 ||logdata.hatspotlight.asia^
 ||datarangers-event.myrightone.com^
@@ -192137,6 +192139,8 @@ dlsdk.appsflyersdk.com^
 ||*inapps.appsflyersdk.com^
 ||*register.appsflyersdk.com^
 dlsdk.appsflyer.com^
+||track-*.hungrypanda.co^
+||trace-*.hungrypanda.co^
 ||collector-*.perimeterx.net^
 ||kbox-analytics-prod.s*.amazonaws.com^
 ||stats.*.ronghub.com^
