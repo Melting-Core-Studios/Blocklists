@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.1135
+! Version: 1.1136
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-12-28T01:25:11.756Z
+! Last modified: 2025-12-28T03:45:21.504Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -36215,7 +36215,6 @@
 ||t.service.thetimes.co.uk^
 ||t.staging-mail.tabcorp.com.au^
 ||t.twenty.co^
-||t.vrbo.io^
 ||t1.benefits.tops.co.th^
 ||t1.discover.flashnews.com.au^
 ||t1.stadiumgoods.com^
@@ -37417,6 +37416,7 @@
 ||a.pikabu.ru^
 ||a.ria.ru^
 ||affilate.hh.ru^
+||alloy-web.zvuk.com^
 ||analytics.carambatv.ru^
 ||api-metric.gosweb.gosuslugi.ru^
 ||booster.osnova.io^
@@ -111406,6 +111406,7 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||t.vacations.disneydestinations.com^
 ||t.vfgtc.com^
 ||t.visit.disneydestinations.com^
+||t.vrbo.io^
 ||t.wivowu.my^
 ||t.workupload.com^
 ||t.wowtrk.com^
