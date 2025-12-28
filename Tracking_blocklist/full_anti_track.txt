@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.1139
+! Version: 1.1140
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-12-28T08:22:54.179Z
+! Last modified: 2025-12-28T09:18:02.042Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -272,6 +272,7 @@
 ||ilius.net^
 ||impactcdn.com^
 ||impactradius-event.com^
+||imponestvional.com^
 ||imrworldwide.com^
 ||imzahrwl.xyz^
 ||ineed2s.ro^
@@ -3039,6 +3040,7 @@
 ||ns.rvmkitt.com^
 ||nwr.static.mmcdn.com^
 ||o9tt6h08li.execute-api.eu-west-1.amazonaws.com^
+||obs.branderblender.com^
 ||obs.du89buildings.com^
 ||obs.esnlocco.com^
 ||obs.system1onesource.com^
@@ -3373,7 +3375,9 @@
 ||webstats.thaindian.com^
 ||webtracker.apicasystem.com^
 ||wf.typesquare.com^
+||wgs.wgs-static.com^
 ||widget.educationdynamics.com^
+||work.selecdoo.com^
 ||wstats.slashed.cloud^
 ||wt.viagogo.net^
 ||x.babe.today^
@@ -120025,7 +120029,6 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||wordtradeflank.com^
 ||worgzcdfgkyff.space^
 ||work.gd^
-||work.selecdoo.com^
 ||work5.ru^
 ||workaccount.free.bg^
 ||workcahoots.com^
