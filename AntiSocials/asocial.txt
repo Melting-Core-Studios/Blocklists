@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.961
+! Version: 1.962
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2025-12-30T14:18:04.163Z
+! Last modified: 2025-12-30T15:18:33.016Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -5320,7 +5320,7 @@ kumakumakumabear.com,anime-umamusume.jp##.footer__sns
 thebridgechronicle.com,greaterkashmir.com,street-beat.ru##div[class^="social-share"]
 dospara.co.jp,peachjohn.co.jp,comss.ru##span[data-target="share-review"]
 yodobashi.com,utaten.com##.snsNav
-ntvtelugu.com,postupi.online##.social-wrap
+coicuru.jp,ntvtelugu.com,postupi.online##.social-wrap
 pusatporn18.com##a[href^="https://chat.whatsapp.com/"] > img
 today.line.me##.interactiveShare-item
 gamek.vn##a[onclick*="shareOnFacebook()"]
@@ -6526,7 +6526,7 @@ my.mail.ru##.b-video-viral-panel
 dreamtv.com.tr##section.social
 tvmovieflix.com###slideleft
 jpopasia.com,atlasobscura.com##.btn-facebook
-optc-ww.channel.or.jp,d-navi004.com###snsbox
+coicuru.jp,optc-ww.channel.or.jp,d-navi004.com###snsbox
 ogretmensitemiz.com##a[href="javascript:void(0);"][onclick^="shareFacebook"]
 amarujala.com##.floating-share-iconsDv
 shostka.info,sumypost.com##.ni-share
