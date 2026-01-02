@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.975
+! Version: 1.976
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-01-02T11:15:56.186Z
+! Last modified: 2026-01-02T17:16:06.504Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -1352,7 +1352,7 @@ bahianoticias.com.br#?#div[class]:has(> h2:contains(/^Compartilhar$/))
 gauchazh.clicrbs.com.br##button:has(> svg > path[d^="M236.24,"])
 music.yandex.ru##.d-share-popup
 substack.com##.share-dialog a.pencraft[id^="trigger"][aria-label="View more"]
-nicolasbustamante.com,read.engineerscodex.com##.pencraft + div:has(> button > div.label)
+blog.corkmac.app,nicolasbustamante.com,read.engineerscodex.com##.pencraft + div:has(> button > div.label)
 sources.news,thegamebusiness.com,nicolasbustamante.com,blog.bytebytego.com,thecoder.cafe##.pencraft + div:has(> a[role="button"].post-ufi-button > div.label)
 nicolasbustamante.com,read.engineerscodex.com,sources.news,thegamebusiness.com,architecture-weekly.com,substack.com#?#.pencraft:has(> div[class*="font-text-"]:contains(/Facebook|Bluesky|LinkedIn|Reddit|Pinterest|Hacker News|X \(Twitter\)|Share to |Start at/))
 lesfrontaliers.lu##.sticky-share
