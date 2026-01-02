@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.973
+! Version: 1.974
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-01-02T09:20:59.952Z
+! Last modified: 2026-01-02T10:18:02.041Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -366,6 +366,7 @@ esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israel
 esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israelnationalnews.com,lifehacker.com,cgmagonline.com,gizmodo.com,gamerevolution.com,metro.co.uk,thurrott.com,stereogum.com,ign.com,newsweek.com,dailymail.co.uk,comingsoon.net,timesofisrael.com,nypost.com,9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,electrek.co#%#//scriptlet('remove-in-shadow-dom', 'div[data-spot-im-class="vote-links"] + span[class$="index__dot"]')
 echofm.online,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com##.comment__share > *
 echofm.online,antirez.com,comicbook.com,alexp.pl,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com###thread-share-bar
+atomicmail.io##.hero_article-meta-share
 twitcasting.tv##.tw-tweet-open-link
 sftworks.jp##.p-shareBlock
 kurashiru.com##.SpApp-share
@@ -20406,6 +20407,7 @@ cars.com##.global-footer-social-buttons
 tweaktown.com##.gnci
 phonearena.com##.gnews-wrapper
 oneindia.com##.goog-one-news
+thehindu.com##.google-btn
 dailyartmagazine.com##.google-feed-row
 pcguide.com##.google-news
 crypto.news##.google-news-banner
@@ -20415,6 +20417,7 @@ alarabiya.net##.google-news-callout
 glassalmanac.com##.google-news-card
 cybernews.com,sammobile.com##.google-news-cta
 quiverquant.com##.google-news-follow
+tmz.com##.google-preferred-btn
 9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,spaceexplored.com##.google-preferred-source-badge
 restofworld.org##.google-preferred-v1
 coinpedia.org##.google_news-space
