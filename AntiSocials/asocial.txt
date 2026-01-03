@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.979
+! Version: 1.980
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-01-03T19:13:49.137Z
+! Last modified: 2026-01-03T23:16:01.723Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -409,7 +409,6 @@ hominis.media##.share-modal-open
 hominis.media##li:has(> a.share-modal-open)
 qms.ru##.result-link
 kyivindependent.com##div[class^="ShareButton_wrapButton"]
-tomshardware.com###utility-bar
 windowscentral.com###utilitybar__button--share
 seededatthetable.com,kitchendivas.com##.social-rocket-inline-buttons
 inkatrinaskitchen.com##div[class^="social-rocket-"][class*="-button"]
@@ -19872,6 +19871,7 @@ yardbarker.com###top-nav-soc
 baystatebanner.com###top-soc-icon-wrap
 hexus.net###topicons
 dansingerman.com,fark.com,radioguide.fm,rare.us,thetvaddict.com###twitter
+tomshardware.com###utility-bar
 mansionglobal.com###webui-save-and-share
 videocardz.com###welcome-modal
 walesonline.co.uk###whatsapp-community
@@ -19895,13 +19895,9 @@ embed.listcorp.com##.CompanyPage2CompanyPageAbout__share
 miaminewtimes.com,westword.com##.ContentShareTools
 nutraingredients.com##.Detail-share
 federalnewsnetwork.com##.Entry-infoSocial
-findingtheuniverse.com##.FTU-social-floating
 omannews.gov.om##.Fiction-FeedBack
 abc.net.au##.FixedHeader_shareBtn__yNush
-nutraingredients.com##.Follow
 weather.com##.Footer--socialContainer--3z8CW
-talkingpointsmemo.com##.Footer__Follow
-venturebeat.com##.Footer__social-icon
 thedailybeast.com##.Footer__socials
 i24news.tv##.Footer_social-network-links-wrapper__xN9Go
 earth.com##.Footer_social_bar__E9yGn
