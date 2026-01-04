@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.1188
+! Version: 1.1189
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-01-04T13:28:47.510Z
+! Last modified: 2026-01-04T14:16:22.079Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -188187,6 +188187,7 @@ dlsdk.appsflyer.com^
 ||email.triodos.nl^
 ||email.vervemail.com^
 ||email.wearetriple.com^
+||email2.oxxio.nl^
 ||emailheatmaps.com^
 ||emailocto-espsecuretrackingproxy-beb33fa4a237ae52.elb.eu-west-1.amazonaws.com^
 ||emailoctopus.com^
@@ -191833,6 +191834,7 @@ dlsdk.appsflyer.com^
 ||miidi.net^
 ||mijifen.com^
 ||mijn-alerts.com^
+||mijn.plus.nl^
 ||mijnics-actualisatie.com^
 ||mijnoverheid.hopp.to^
 ||mijnovh91026.me^
@@ -192325,6 +192327,7 @@ dlsdk.appsflyer.com^
 ||nielsen.app^
 ||nielsen.com^
 ||nieuwe-casinos.net^
+||nieuwsbrief.ah.nl^
 ||nieuwsbriefsysteem-static.nl^
 ||nieuwsbriefsysteem.nl^
 ||niferstall.de^
@@ -193951,6 +193954,7 @@ dlsdk.appsflyer.com^
 ||rt.services.visualstudio.com^
 ||rt.sharepoint.com^
 ||rt.yammer.com^
+||rt3-t.offer.renault.com^
 ||rtb.eanalyzer.de^
 ||rtcstats-server.jitsi.net^
 ||rtlog.musical.ly^
@@ -194643,6 +194647,7 @@ dlsdk.appsflyer.com^
 ||spaceboost.com^
 ||sparenergi.dk^
 ||sparklane-group.com^
+||sparkpostmail.com^
 ||spartoo.nl^
 ||spatialbuzz.com^
 ||spatialbuzz.net^
@@ -196177,6 +196182,7 @@ dlsdk.appsflyer.com^
 ||wbgtp.com^
 ||wblake.net^
 ||wbpctips.mobile.sina.cn^
+||wbpwr.eu^
 ||wc.vandervalkonline.com^
 ||wclc.com^
 ||wda.ydt.com.cn^
@@ -196448,6 +196454,7 @@ dlsdk.appsflyer.com^
 ||www-elperiodic-com.translate.goog^
 ||www-googletagmanager.l.google.com^
 ||wx.xwjqr.com^
+||wyattmattersshow.com^
 ||wyhzzy.com^
 ||wyolotto.com^
 ||wyttech.cn^
@@ -196873,7 +196880,12 @@ dlsdk.appsflyer.com^
 ||zzrcz.com^
 ||zzsx8.com^
 ||zzzjvqzkmqllb.top^
-||wyattmattersshow.com^
+||logs.paytm.com^
+||analytics.paytm.com^
+||hawkeye-api.paytm.com^
+||log.mxis.com^
+||ads.mxis.com^
+||apis.sharechat.com^
 ||badv.wp.pl^
 ||emisjawidgeet.onet.pl^
 ||ads.edipresse.pl^
