@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.980
+! Version: 1.981
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-01-03T23:16:01.723Z
+! Last modified: 2026-01-04T01:25:16.361Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -20000,6 +20000,7 @@ babylonbee.com,notthebee.com##.article-shareables
 forbes.com,heise.de,phillyvoice.com##.article-sharing
 kyodonews.net##.article-sns
 newrepublic.com,thetech.com##.article-social
+browardpalmbeach.com,dallasobserver.com,miaminewtimes.com,phoenixnewtimes.com,westword.com##.article-social-share-buttons
 yalereview.org##.article-social-share-icon
 nbcnews.com##.article-social-share-top
 heraldscotland.com##.article-sticky-social
@@ -20870,7 +20871,8 @@ streetsblog.org##.single_sharingInner__3IoQO
 wordsworth.co.za##.site-footer-block-social-accounts
 nme.com,operawire.com,whoopsee.it##.site-footer-social
 operawire.com##.site-header-actions-social
-ecowatch.com##.site-header__social
+dallasobserver.com,ecowatch.com,miaminewtimes.com,phoenixnewtimes.com,westword.com##.site-header__social
+browardpalmbeach.com##.site-header__social-link
 news.sky.com,skysports.com##.site-share-wrapper
 archaeology.org##.site-socials
 simplejoy.com##.sj-recipe-callout
