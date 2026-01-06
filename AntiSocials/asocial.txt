@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.988
+! Version: 1.989
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-01-06T04:36:46.187Z
+! Last modified: 2026-01-06T05:22:16.886Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -5311,7 +5311,7 @@ itstolytsa.ua##a[onclick^="window.open('https://api.whatsapp.com/send?text="]
 itstolytsa.ua##.share-wr
 magazine.aldi-nord.de###modShareBtn
 haaretz.com##button[title^="Share in"]
-meiwakucheck.com,videoskaseros.com,mobilissimo.ro,indiatvnews.com,ntv.com.tr,internshipguide.jp,animego.ong,history-lordfilm.ru,aksam.com.tr,anicobin.ldblog.jp,elconsolto.com,enechange.co.jp,timesofisrael.com,pauta.cl,bt.com,vnexpress.net,besniekspres.com,kralmuzik.com.tr,veritas-a.com,sex.com,interior-heart.com,h-n-h.jp,discours.io,twicomi.com,cnbctv18.com,ksl.com,ai.seas.upenn.edu##.social
+news.err.ee,meiwakucheck.com,videoskaseros.com,mobilissimo.ro,indiatvnews.com,ntv.com.tr,internshipguide.jp,animego.ong,history-lordfilm.ru,aksam.com.tr,anicobin.ldblog.jp,elconsolto.com,enechange.co.jp,timesofisrael.com,pauta.cl,bt.com,vnexpress.net,besniekspres.com,kralmuzik.com.tr,veritas-a.com,sex.com,interior-heart.com,h-n-h.jp,discours.io,twicomi.com,cnbctv18.com,ksl.com,ai.seas.upenn.edu##.social
 queer.pl##a[href^="https://twitter.com/home?"]
 corrieredellosport.it##div[class^="SocialColumn_"]
 sahadan.com,mackolik.com##.widget-article__share-button
@@ -7952,6 +7952,7 @@ www.kinopoisk.ru##div[class*="-share-buttons"]
 www.kinopoisk.ru##.ya-share2
 auto.ru##.ScrollableSidebar > div[class^="PageLogbookCard_"] button[class*="LogbookCardActions__share-"]
 auto.ru#?#.Review__footer-col:has(> div.ReviewShare)
+sippo.asahi.com,tsn.ua##.c-share-sticky
 vogue.co.jp,vogue.*##div[class^="SplitScreenContentHeaderNativeShareButton-"]
 leggo.it,ajunews.com##.share_sticky
 mdpr.jp##ul[class$="articleDetail__snsList"]
