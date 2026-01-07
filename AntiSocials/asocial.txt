@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.993
+! Version: 1.994
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-01-07T04:37:37.054Z
+! Last modified: 2026-01-07T06:27:56.322Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -6458,7 +6458,8 @@ aorus.com##ul.social
 jazzradio.com,zenradio.com,classicalradio.com,di.fm##.social-region
 rosewe.com##.shareToShow
 nv.ua##.article__footer_share
-travelfoodatlas.com,instalki.pl##.dpsp-share-text
+dailydishrecipes.com,travelfoodatlas.com##.dpsp-content-wrapper
+dailydishrecipes.com,travelfoodatlas.com,instalki.pl##.dpsp-share-text
 unian.net,1plus1.video##.o-share-table-cell-right
 niopik.ru,klinikarassvet.ru,unian.net##.shares-block
 obemdito.com.br,fdpbt.de,unian.net##.share-mobile
