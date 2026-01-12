@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1023
+! Version: 1.1024
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-01-12T14:22:05.770Z
+! Last modified: 2026-01-12T17:20:49.826Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -368,13 +368,11 @@ esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israel
 esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israelnationalnews.com,lifehacker.com,cgmagonline.com,gizmodo.com,gamerevolution.com,metro.co.uk,thurrott.com,stereogum.com,ign.com,newsweek.com,dailymail.co.uk,comingsoon.net,timesofisrael.com,nypost.com,9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,electrek.co#%#//scriptlet('remove-in-shadow-dom', 'div[data-spot-im-class="vote-links"] + span[class$="index__dot"]')
 echofm.online,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com##.comment__share > *
 echofm.online,antirez.com,comicbook.com,alexp.pl,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com###thread-share-bar
+copilot.microsoft.com##.mt-2 > div.flex > button[type="button"] ~ ul.mt-0:has(> li.contents > button[type="button"][title="X"])
 nugglove.com##div[data-testid="share-menu"]
 willmusic.com.tw##.toolbox__nails > a.toolbox__button
 femimatsu.com##.Twitterarea
 myoji-yurai.net##div[data-plugins-type="mixi-favorite"]:has(> span > iframe[src^="https://plugins.mixi.jp/favorite.pl?"])
-todoist.com##cookie-banner
-haliky.com#%#//scriptlet('set-cookie', 't_cookiesCategories', 'emptyArr')
-haliky.com#%#//scriptlet('set-cookie', 't_cookiesConsentGiven', 'true')
 to-corona-ex.com##main .tablet\:-mx-2 ~ .mt-12
 windguru.cz##a[data-name="share"]
 zvyki.com##.onesongblock-end
