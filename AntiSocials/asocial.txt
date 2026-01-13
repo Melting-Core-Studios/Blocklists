@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1028
+! Version: 1.1029
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-01-13T10:20:06.562Z
+! Last modified: 2026-01-13T12:37:32.826Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -370,7 +370,6 @@ echofm.online,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt
 echofm.online,antirez.com,comicbook.com,alexp.pl,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com###thread-share-bar
 online.nojima.co.jp##.veu_socialSet
 copilot.microsoft.com##.mt-2 > div.flex > button[type="button"] ~ ul.mt-0:has(> li.contents > button[type="button"][title="X"])
-nugglove.com##div[data-testid="share-menu"]
 willmusic.com.tw##.toolbox__nails > a.toolbox__button
 femimatsu.com##.Twitterarea
 myoji-yurai.net##div[data-plugins-type="mixi-favorite"]:has(> span > iframe[src^="https://plugins.mixi.jp/favorite.pl?"])
@@ -8804,6 +8803,7 @@ designboom.com,livescience.com,pbtech.co.nz,peoplesworld.org,space.com##.fa-face
 ##.sns_share_area
 ##.sns_twit
 ##.sns_view
+##div[data-testid="share-menu"]
 /wp-content/plugins/ays-facebook-popup-likebox/*
 ##.ays-fpl-modal
 /cdn-cgi/pe/bag2?r[]=*mailget.net
