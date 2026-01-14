@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1033
+! Version: 1.1034
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-01-14T06:28:06.919Z
+! Last modified: 2026-01-14T12:36:43.462Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -14068,7 +14068,6 @@ _social_footer_
 ##.follow-social
 ##.follow-social-media
 ##.follow-sprite
-##.follow-text
 ##.follow-tw
 ##.follow-twit
 ##.follow-twitter
@@ -22693,7 +22692,6 @@ accounts.motorsport.com#@#.facebook-block
 flugzeugbilder.de#@#.fb-footer
 the-dharmawangsa.com#@#.fb-widget
 bot.targethunter.ru#@#.fb_sidebar
-autoplus.fr,mixcloud.com#@#.follow-text
 freesvg.org,giro.com,rainn.org#@#.footer-social
 kioskpolis.pl#@#.footer__socials
 gab.com#@#.gab-bttn
