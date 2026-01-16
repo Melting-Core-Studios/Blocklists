@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.1268
+! Version: 1.1269
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-01-16T10:20:28.461Z
+! Last modified: 2026-01-16T12:36:00.264Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -130,6 +130,7 @@
 ||cloudwp.io^
 ||clrt.ai^
 ||cnna.io^
+||cnstrc.com^
 ||cntxtfl.com^
 ||confiant-integrations.net^
 ||convead.io^
@@ -149838,6 +149839,7 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||t.dripemail2.com^
 ||trk.klclick2.com^
 ||trk.klclick3.com^
+||mix2ads.com^
 ||popunhot1.blogspot.com^
 ||t.co^
 ||webreseau.com^
@@ -175298,6 +175300,8 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||analytics.qoqa.ch^
 ||analytics.qoqa.com^
 ||appsflyer-report.honkaiimpact3.com^
+||usage.digitalconcerthall.com^
+||report.starshort.online^
 ||matomo.podslink.net^
 ||news-events.apple.com^
 ||ihmonitor.luckincoffee.us^
@@ -181262,7 +181266,6 @@ dlsdk.appsflyer.com^
 ||cnpmjs.org^
 ||cnscdj.com^
 ||cnsjx.net^
-||cnstrc.com^
 ||cnsypic.com^
 ||cntrsync.ru^
 ||cnvinfo.nl^
