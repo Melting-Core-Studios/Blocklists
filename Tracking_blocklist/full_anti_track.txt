@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.1264
+! Version: 1.1265
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-01-16T01:19:54.102Z
+! Last modified: 2026-01-16T06:29:38.506Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -4021,7 +4021,6 @@
 ||roibest-report-sdk.qiliangjia.com^
 ||sal.isanook.com^
 ||stat.matichon.co.th^
-||webpushstat.api.engagelab.cc^
 ||0.myikas.com^
 ||analitik.bik.gov.tr^
 ||analytics.faprika.net^
@@ -98018,7 +98017,6 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||pushsar.com^
 ||pushserve.xyz^
 ||pushservice.info^
-||pushstat.api.engagelab.cc^
 ||pushtide.com^
 ||pushtimize.com^
 ||pushtoast-a.akamaihd.net^
@@ -175212,6 +175210,8 @@ ff0235f4aec83b63c532fee8e7c0dd8151314b9026089ffefe40e3f39916561.us-east-.prod.se
 ||analytics.qoqa.ch^
 ||analytics.qoqa.com^
 ||appsflyer-report.honkaiimpact3.com^
+||engagelab.cc^
+||global-sis.engagelab.com^
 ||matomo.podslink.net^
 ||news-events.apple.com^
 ||ihmonitor.luckincoffee.us^
@@ -176976,6 +176976,7 @@ dlsdk.appsflyersdk.com^
 ||*conversions.appsflyersdk.com^
 ||*register.appsflyersdk.com^
 dlsdk.appsflyer.com^
+||clarity.ms^|
 ||gbxreport-*.wf.com^
 ||tracking.geo.*.amazonaws.com^
 ||logreport-global-dual.cool*cloud.com^
