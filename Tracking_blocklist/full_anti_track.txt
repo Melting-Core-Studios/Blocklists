@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.1313
+! Version: 1.1314
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-01-22T19:24:57.718Z
+! Last modified: 2026-01-22T22:20:38.318Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -2713,6 +2713,7 @@
 ||analytics.developer.riotgames.com^
 ||analytics.disney.go.com^
 ||analytics.disneyinternational.com^
+||analytics.distributednews.com^
 ||analytics.dv.socure.io^
 ||analytics.dvidshub.net^
 ||analytics.edgekey.net^
@@ -55470,7 +55471,6 @@
 ||analytics.digitaldudes.nl^
 ||analytics.digitaltheatreplus.com^
 ||analytics.dineengine.net^
-||analytics.distributednews.com^
 ||analytics.diversityresources.com^
 ||analytics.dns-shop.ru^
 ||analytics.doccafe.com^
@@ -184249,6 +184249,8 @@ collector-.tvsquared.com
 ||tk.boutique.femmeactuelle.fr^
 ||tk.boutique.harpersbazaar.fr^
 ||tk.boutique.programme-tv.net^
+||mssdk16-normal-us-ttp.capcutapi.us^
+||pinpoint.espn.com^
 ||analytics.itbox.ua^
 ||jaeger.netmonet.co^
 ||sp.pluto.tv^
@@ -187342,6 +187344,7 @@ collector-.tvsquared.com
 |load.sst.
 ||thegreatesthits.
 |piwik.
+||log-v*-boot.capcutapi.com^
 ||logs.collector.*.cloud.solarwinds.com^
 ||agatha-log-service-*.a.run.app^
 ||me9ddf.moebelix.
