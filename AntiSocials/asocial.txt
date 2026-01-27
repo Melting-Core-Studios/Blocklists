@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1100
+! Version: 1.1101
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-01-26T20:22:22.406Z
+! Last modified: 2026-01-27T03:45:07.637Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -367,8 +367,9 @@ esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israel
 esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israelnationalnews.com,lifehacker.com,cgmagonline.com,gizmodo.com,gamerevolution.com,metro.co.uk,thurrott.com,stereogum.com,ign.com,newsweek.com,dailymail.co.uk,comingsoon.net,timesofisrael.com,nypost.com,9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,electrek.co#%#//scriptlet('remove-in-shadow-dom', 'div[data-spot-im-class="vote-links"] + span[class$="index__dot"]')
 cogconnected.com,echofm.online,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com##.comment__share > *
 cogconnected.com,echofm.online,antirez.com,comicbook.com,alexp.pl,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com###thread-share-bar
+reciperunner.com###dpsp-content-bottom
 dancearoundthekitchen.com##.wprm-callout-custom
-dancearoundthekitchen.com###dpsp-content-top:has(> .dpsp-networks-btns-share)
+cozycravings.com,babysavers.com,dancearoundthekitchen.com###dpsp-content-top:has(> .dpsp-networks-btns-share)
 12tomatoes.com###recipe > .s2c-card:has(> .wrapper > .clash-card.hearts)
 indiatimes.com##.socail-icons
 nikkei.com###btn-fb-share
@@ -21411,7 +21412,7 @@ nbcsports.com##p.cms-textAlign-center:has-text(follow NBC Sports)
 psypost.org##strong:has-text(/Stay informed|Stay on top/)
 royalqueenseeds.*##.social-media-icons-footer
 agfk-bw.de,clara.es,hcb.net,travel.state.gov##.socialmedia
-1movies.bz,avira.com,byjus.com,commentpicker.com,hakaimagazine.com,hollywoodlife.com,homemark.co.za,ilgiornale.it,iphoneitalia.com,malaymail.com,maxabout.com,motorsport-xl.de,ncbi.nlm.nih.gov,novosti.rs,nu.nl,politico.eu,tennismagazin.de,thepostmillennial.com,uncnews.unc.edu##.social-sharing
+1movies.bz,avira.com,betakit.com,byjus.com,commentpicker.com,hakaimagazine.com,hollywoodlife.com,homemark.co.za,ilgiornale.it,iphoneitalia.com,malaymail.com,maxabout.com,motorsport-xl.de,ncbi.nlm.nih.gov,novosti.rs,nu.nl,politico.eu,tennismagazin.de,thepostmillennial.com,uncnews.unc.edu##.social-sharing
 exafm.com,goldderby.com,lacaderadeeva.com,lamejor.com.mx,lasillarota.com,mvsnoticias.com,pronto.com.ar,radioformula.com.mx,revistaforum.com.br,sumedico.com##.share-group
 brecha.com.uy,consigli.it,lgbtqnation.com,sdxcentral.com##.a2a_kit
 beebom.com,captimes.com,cheknews.ca,cockroachlabs.com,cpac.ca,estadao.com.br,fandomwire.com,gta5-mods.com,mag.toyota.co.uk,mydramalist.com,philstarlife.com,silicon.co.uk,silicon.de,silicon.es,silicon.fr,silicon.pt,stadiumtalk.com##.share-container
