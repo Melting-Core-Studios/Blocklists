@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.1345
+! Version: 1.1346
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-01-31T08:26:01.299Z
+! Last modified: 2026-01-31T12:38:47.511Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -96164,7 +96164,6 @@ collector-.tvsquared.com
 ||popunderjs.com^
 ||popunderstar.com^
 ||popunderz.com^
-||popup.lifterapps.com^
 ||popup.sapoapps.vn^
 ||popupblockergold.com^
 ||popupblockermax.app^
@@ -104022,7 +104021,6 @@ collector-.tvsquared.com
 ||shgcdn2.com^
 ||shichihukuudon.com^
 ||shickdistal.help^
-||shield.sitelock.com^
 ||shieldcheckerservices.com^
 ||shieldload.neoseeker.com^
 ||shielrelents.cfd^
@@ -191786,6 +191784,7 @@ dlsdk.appsflyer.com^
 ||ads.mms.mk^
 ||ads.mopud.com^
 ||ads.mp.pl^
+||ads.mxis.com^
 ||ads.newtentionassets.net^
 ||ads.novatv.mk^
 ||ads.pandora.tv.net^
@@ -192223,6 +192222,7 @@ dlsdk.appsflyer.com^
 ||analytics.naproxy.com^
 ||analytics.nicknick.nl^
 ||analytics.partijvoordedieren.nl^
+||analytics.paytm.com^
 ||analytics.pgncs.nova.chat^
 ||analytics.podtrac.com^
 ||analytics.rabbit-company.com^
@@ -192389,6 +192389,7 @@ dlsdk.appsflyer.com^
 ||apigraphs.net^
 ||apigurus.com^
 ||apilocate.amap.com^
+||apis.sharechat.com^
 ||apkarchive.ru^
 ||apkdo.com^
 ||apkpure.net^
@@ -197295,6 +197296,7 @@ dlsdk.appsflyer.com^
 ||hatfieldhouseonhibernia.com^
 ||hatix.store^
 ||havasmediagroup.com^
+||hawkeye-api.paytm.com^
 ||hb-minify-juc1ugur1qwqqqo4.stackpathdns.com^
 ||hb.wpmucdn.com^
 ||hbalx.cn^
@@ -198033,6 +198035,8 @@ dlsdk.appsflyer.com^
 ||insided.com^
 ||insideoutside.redmond.corp.microsoft.com^
 ||insight.ftm.nl^
+||insight.nn.nl^
+||mail.research.nn.nl^
 ||insight.rapid7.com^
 ||insightplatforms.com^
 ||insights-collector.gog.com^
@@ -199117,6 +199121,7 @@ dlsdk.appsflyer.com^
 ||loffertadeldia.it^
 ||log.collect.yinyuetai.com^
 ||log.moviebox.baofeng.com^
+||log.mxis.com^
 ||log.nuomi.com^
 ||log.sv.pandora.tv^
 ||log.tailscale.io^
@@ -199139,6 +199144,7 @@ dlsdk.appsflyer.com^
 ||logs.grayjay.app^
 ||logs.grayjay.com^
 ||logs.nav.porsche.com^
+||logs.paytm.com^
 ||logstat.t.sfht.com^
 ||logz.io^
 ||lokicollective.org^
@@ -204741,12 +204747,31 @@ dlsdk.appsflyer.com^
 ||zzrcz.com^
 ||zzsx8.com^
 ||zzzjvqzkmqllb.top^
-||logs.paytm.com^
-||analytics.paytm.com^
-||hawkeye-api.paytm.com^
-||log.mxis.com^
-||ads.mxis.com^
-||apis.sharechat.com^
+||api.didiglobal.com^
+||douyin.com^
+||piwik.h5mag.com^
+||paypalusa.me^
+||dcloud.net.cn^
+||lifterapps.com^
+||sitelock.com^
+||kcmg.nl^
+||sysinfotools.com^
+||radicalmentelegno.com^
+||brainignite.click^
+||hosecopper.click^
+||buildyourwebrank.com^
+||curahome.digital^
+||get-programmers.com^
+||sh-stt.com^
+||info.nl^
+||skyhills.com^
+||skyhills.io^
+||sky-hills.com^
+||sky-hills.io^
+||skyhillscasino.io^
+||skyhills-casino.io^
+||anjouangaming.org^
+||midzone.tools^
 ||badv.wp.pl^
 ||emisjawidgeet.onet.pl^
 ||ads.edipresse.pl^
