@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.1351
+! Version: 1.1352
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-02-01T08:29:14.076Z
+! Last modified: 2026-02-01T09:29:00.912Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -501,6 +501,7 @@
 ||vfghe.com^
 ||videoplayerhub.com^
 ||visit-server.inmobi-choice.io^
+||visitor-speed.com^
 ||vkanalytics.net^
 ||vmzqqmlpwwmazjnio.com^
 ||vpdcp.com^
@@ -4751,6 +4752,7 @@
 ||tracker-remp.premiumtimesng.com^
 ||tracker.affiliate.iqbroker.com^
 ||tracker.bang.com^
+||tracker.hollandandbarrett.com^
 ||tracker.nbcuas.com^
 ||tracker.ranker.com^
 ||tracker.shopclues.com^
@@ -114624,7 +114626,6 @@ collector-.tvsquared.com
 ||visitiq.io^
 ||visitnj.org^
 ||visitor-analytics.io^
-||visitor-speed.com^
 ||visitor-track.com^
 ||visitor.pixplug.in^
 ||visitorbadge.io^
