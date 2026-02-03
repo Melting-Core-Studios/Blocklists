@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.1361
+! Version: 1.1362
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-02-03T01:47:42.121Z
+! Last modified: 2026-02-03T04:13:56.789Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -2783,6 +2783,7 @@
 ||analytics.sayprimer.com^
 ||analytics.scorpion.co^
 ||analytics.shorthand.com^
+||analytics.skyscanner.net^
 ||analytics.snidigital.com^
 ||analytics.strangeloopnetworks.com^
 ||analytics.superstructure.ai^
@@ -4729,6 +4730,7 @@
 ||tgt.maep.ibm.com^
 ||tif.ionos.com^
 ||tilanalytics.timesinternet.in^
+||titanprod.narvar.com^
 ||tms.abconsent.com^
 ||tms.eharmony.ca^
 ||tms.hft.everyplate.com^
@@ -53882,7 +53884,6 @@
 ||analytics.sketchup.com^
 ||analytics.skillsmp.com^
 ||analytics.skroutz.gr^
-||analytics.skyscanner.net^
 ||analytics.slido.com^
 ||analytics.sling.com^
 ||analytics.smallpdf.com^
