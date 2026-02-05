@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.1373
+! Version: 1.1374
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-02-05T01:31:49.860Z
+! Last modified: 2026-02-05T05:55:04.707Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -3448,7 +3448,6 @@
 ||tracking.waterfrontmedia.com^
 ||tracking1.brandmentions.com^
 ||trackla.stackla.com^
-||traction.technologyadvice.com^
 ||trafficfuelpixel.s3-us-west-2.amazonaws.com^
 ||trap.skype.com^
 ||traxex.gannettdigital.com^
@@ -110635,6 +110634,7 @@ collector-.tvsquared.com
 ||trackwilltrk.com^
 ||trackwin.net^
 ||tracot.com^
+||traction.technologyadvice.com^
 ||tractionize.com^
 ||tradbypass.com^
 ||trade-in-value.com^
@@ -191070,6 +191070,7 @@ collector-.tvsquared.com
 ||tk.boutique.femmeactuelle.fr^
 ||tk.boutique.harpersbazaar.fr^
 ||tk.boutique.programme-tv.net^
+||um.merinfo.se^
 ||iv-datatracker.spx.shopee.sg^
 ||clientlog.pwsdk.com^
 ||dlog.pwsdk.com^
