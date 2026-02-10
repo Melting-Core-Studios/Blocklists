@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.1406
+! Version: 1.1407
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-02-10T04:34:45.339Z
+! Last modified: 2026-02-10T06:12:14.579Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -153745,6 +153745,7 @@ collector-.tvsquared.com
 ||popunhot1.blogspot.com^
 ||t.co^
 ||webreseau.com^
+||lighthouselabs.eu^
 ||snssdk.gatedata.org^
 ||1mythtracker.xyz^
 ||log.grm.gsretail.com^
@@ -204009,7 +204010,6 @@ dlsdk.appsflyer.com^
 ||light.co-operativebank.co.uk^
 ||lightcars.de^
 ||lighthouse.vimeocdn.com^
-||lighthouselabs.eu^
 ||lighthouselist.com^
 ||lightson.vpsboard.com^
 ||lightspeedsystems.app^
