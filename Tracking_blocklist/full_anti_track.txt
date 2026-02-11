@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.1414
+! Version: 1.1415
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-02-11T14:18:14.535Z
+! Last modified: 2026-02-11T23:30:11.559Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -623,6 +623,7 @@
 ||aliasanvil.com^
 ||alikeaddition.com^
 ||aliveachiever.com^
+||allnewhost.com^
 ||alloutdubstep.com^
 ||allsunflowers.com^
 ||alltypo.com^
@@ -817,6 +818,7 @@
 ||callousbrake.com^
 ||calmcactus.com^
 ||calmstudent.com^
+||calvarycards.com^
 ||calypsocapsule.com^
 ||cannonchange.com^
 ||canvasandsocks.com^
@@ -193679,6 +193681,7 @@ collector-.tvsquared.com
 |load.sst.
 ||thegreatesthits.
 |piwik.
+-upaas.ucweb.com^
 ||datadog-log.clovergames.io
 ||log-v*-boot.capcutapi.com^
 ||logs.collector.*.cloud.solarwinds.com^
