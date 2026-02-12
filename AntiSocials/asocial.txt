@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1162
+! Version: 1.1163
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-02-12T06:02:47.190Z
+! Last modified: 2026-02-12T09:44:00.565Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -19837,8 +19837,9 @@ sputnikglobe.com###cta
 indiabusinessjournal.com###cus-news-detail-sharing-icons
 ofbez.com###custom_html-2
 freegameplanet.com###custom_html-3
-archaeologymag.com,thegrayzone.com###custom_html-4
+alltechnerd.com,archaeologymag.com,thegrayzone.com###custom_html-4
 ceoworld.biz###custom_html-7
+alltechnerd.com###custom_html-9
 asianews.it###det_article_share
 asianews.it###det_article_sharebottom
 evoke.ie###div_block-38-1408714
@@ -20301,6 +20302,7 @@ chatelaine.com##.css-1uko8nb-ShareButtons
 onedayonly.co.za##.css-p1ns9f
 fashionmagazine.com##.css-zh7gar-ShareButtons
 coincodecap.com##.ct-block-wrapper
+christiantoday.com##.ct-hpg-share
 columbian.com##.cta
 kcrw.com##.cta-wrapper
 colorado.edu##.cu-share-sidebar
@@ -21312,6 +21314,7 @@ ctrl.blog##.webshare
 firstpost.com##.whats-app-desc
 businesstoday.in##.whatsAppChannel
 dailymail.co.uk,oogtv.nl##.whatsapp
+christiandaily.com##.whatsapp-follow-box
 bolavip.com##.whatsapp-link
 aajtak.in,businesstoday.in##.whatsapp_channel
 indiatvnews.com##.whatsapp_link
