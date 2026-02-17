@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.1448
+! Version: 1.1449
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-02-17T01:47:05.846Z
+! Last modified: 2026-02-17T04:17:37.043Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -36781,6 +36781,7 @@
 ||tracking.badeladies.de^
 ||tracking.behaarteladies.de^
 ||tracking.bizarrladies.de^
+||tracking.buhl.de^
 ||tracking.busenladies.de^
 ||tracking.deutscheladies.de^
 ||tracking.devoteladies.de^
@@ -109303,7 +109304,6 @@ collector-.tvsquared.com
 ||tracking.become.co.jp^
 ||tracking.binarypromos.com^
 ||tracking.bol.com^
-||tracking.buhl.de^
 ||tracking.buyhatke.com^
 ||tracking.carbonatixaudio.com^
 ||tracking.carfax.com^
