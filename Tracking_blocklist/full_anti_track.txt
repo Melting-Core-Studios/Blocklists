@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.1452
+! Version: 1.1453
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-02-17T19:46:14.484Z
+! Last modified: 2026-02-17T22:28:23.846Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -36824,7 +36824,6 @@
 ||wa.web.de^
 ||ymprove.gmx.net^
 ||ymprove.web.de^
-||service.utiq.com^
 ||tmi.jv-telcoid.es^
 ||tmi.vodafone.de^
 ||u.20minutes.fr^
@@ -190750,6 +190749,7 @@ collector-.tvsquared.com
 ||td.seventeen.com^
 ||td.veranda.com^
 ||td.womansday.com^
+||service.utiq.com^
 ||utiq.automoto.it^
 ||utiq.chefkoch.de^
 ||utiq.corsematin.com^
