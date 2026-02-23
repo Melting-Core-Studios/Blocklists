@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.1476
+! Version: 1.1477
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-02-23T14:08:16.788Z
+! Last modified: 2026-02-23T20:41:58.347Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -190315,7 +190315,6 @@ collector-.tvsquared.com
 ||apm-fe.xiaohongshu.com^
 ||apm-track.xiaohongshu.com^
 ||app-tracking.hlogo.de^
-||ucus.ucweb.com^
 ||stat.weamvideo.com^
 ||telemetry.codefusion.technology^
 ||receiver.habby.mobi^
@@ -190410,6 +190409,7 @@ collector-.tvsquared.com
 ||installtracker.com^
 ||prugskh.com^
 ||prugskh.net^
+||ucus.ucweb.com^
 ||intlsucus.ucweb.com^
 @@||app.message.sonicwall.com^
 ||a.chdist.com^
