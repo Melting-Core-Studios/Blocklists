@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.1472
+! Version: 1.1473
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-02-23T01:48:31.316Z
+! Last modified: 2026-02-23T06:05:05.322Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -3448,7 +3448,6 @@
 ||tracking.bababam.com^
 ||tracking.brandmentions.com^
 ||tracking.cerdmann.com^
-||tracking.diginetica.net^
 ||tracking.dsmmadvantage.com^
 ||tracking.fanbridge.com^
 ||tracking.feedperfect.com^
@@ -52902,7 +52901,6 @@
 ||api-push.com^
 ||api-push.in.meizu.com^
 ||api-push.meizu.com^
-||api-qa.diginetica.net^
 ||api-sdk.beaconbank.jp^
 ||api-share.mob.com^
 ||api-shoulei-ssl.xunlei.com^
@@ -52978,7 +52976,6 @@
 ||api.deeplink.dev^
 ||api.dewmobile.net^
 ||api.dianshihome.com^
-||api.diginetica.net^
 ||api.distribution.hulu.com^
 ||api.dkyweipsds.com^
 ||api.e-toys.cn^
@@ -58373,7 +58370,6 @@
 ||cat.cntnetwork.com^
 ||cat.pexels.com^
 ||catad5959.com^
-||catalog.diginetica.net^
 ||cataloguedelay.com^
 ||catalyst.io^
 ||catalystcrown.com^
@@ -58638,7 +58634,6 @@
 ||cdn.defractal.com^
 ||cdn.dengage.com^
 ||cdn.dfsdk.com^
-||cdn.diginetica.net^
 ||cdn.dirjournal.com^
 ||cdn.djtig.com^
 ||cdn.dmpcounter.com^
@@ -96672,7 +96667,6 @@ collector-.tvsquared.com
 ||recreativ.com^
 ||recreativ.ru^
 ||recruitbox.media.iid.jp^
-||recs.diginetica.net^
 ||recs.smarthint.co^
 ||recsys-api.buzzfeed.com^
 ||rectangledevelopernewspapers.com^
@@ -107956,7 +107950,6 @@ collector-.tvsquared.com
 ||tracking-api.italki.com^
 ||tracking-api.passeidireto.com^
 ||tracking-api.xsolla.com^
-||tracking-app.diginetica.net^
 ||tracking-lealcobrancaspremium.p-email.net^
 ||tracking-module.api.dpgmedia.cloud^
 ||tracking-production-3e47c89e5c807dd5.elb.us-east-1.amazonaws.com^
@@ -150355,6 +150348,7 @@ collector-.tvsquared.com
 ||popunhot1.blogspot.com^
 ||t.co^
 ||webreseau.com^
+||diginetica.net^
 ||at.artistchai.co.kr^
 ||data.artistchai.co.kr^
 ||snssdk.gatedata.org^
@@ -188348,6 +188342,7 @@ collector-.tvsquared.com
 ||tk.boutique.femmeactuelle.fr^
 ||tk.boutique.harpersbazaar.fr^
 ||tk.boutique.programme-tv.net^
+||animo.sto.wiki^
 ||totem.tvmaze.com^
 ||dwh-prod.moz.de^
 ||affiliate.hrkgame.com^
@@ -191712,6 +191707,7 @@ collector-.tvsquared.com
 ||target.virginmoney.com.au^
 ||watv.gogoinflight.com^
 ||https-filtering-check.adtidy.org^
+||cdn-*.gravityfield.ai^
 ||powa-ingest-prod-*.video-player.arcpublishing.com^
 ||collector-*.pxchk.net^
 ||matomo-demo-*.amazonaws.com^
