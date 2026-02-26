@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.1487
+! Version: 1.1488
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-02-26T01:45:06.014Z
+! Last modified: 2026-02-26T04:14:58.466Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -3261,6 +3261,7 @@
 ||secure-stats.pingdom.com^
 ||session.timecommerce.net^
 ||sessions.embeddables.com^
+||sgm-w.jd.com^
 ||slackb.com^
 ||smart-data-systems.com^
 ||smrt.as^
@@ -3709,6 +3710,7 @@
 ||fd.bawag.at^
 ||geo.mtvnn.com^
 ||geo.xcel.io^
+||grafana-agent.cuboxx.io^
 ||live.cxo.name^
 ||liveviewer.ez.no^
 ||log.worldsoft-cms.info^
@@ -4264,6 +4266,7 @@
 ||c.wired.com^
 ||c.wort-suche.com^
 ||c.xbox.com^
+||cactus.joybuy.com^
 ||cdapi.collegedunia.com^
 ||chloro.trip.com^
 ||chronicle.medal.tv^
@@ -4275,6 +4278,7 @@
 ||clickins.slixa.com^
 ||client-log.box.com^
 ||client-metrics.chess.com^
+||clk-m.joybuy.com^
 ||clp-mms.cloudpro.co.uk^
 ||cm-mms.coachmag.co.uk^
 ||cm.nordvpn.com^
@@ -4445,6 +4449,7 @@
 ||gurgle.pcmag.com^
 ||gurgle.spiceworks.com^
 ||h031.familydollar.com^
+||h5log.joybuy.com^
 ||health-metrics-api.setapp.com^
 ||heap.drop.com^
 ||hlogger.heraldcorp.com^
@@ -36719,6 +36724,7 @@
 ||tracking.zaertlicheladies.de^
 ||tracking.zierlicheladies.de^
 ||tracksrv.zdf.de^
+||ud.galaxus.de^
 ||vfd2dyn.vodafone.de^
 ||wa.gmx.ch^
 ||wa.gmx.net^
@@ -73961,7 +73967,6 @@ collector-.tvsquared.com
 ||h562.pasadenastarnews.com^
 ||h5collector.mihoyo.com^
 ||h5log-api-dualstack.mihoyo.com^
-||h5log.joybuy.com^
 ||h5lwvwj.top^
 ||h5v.eu^
 ||h6.msn.com^
@@ -189376,6 +189381,7 @@ collector-.tvsquared.com
 ||tk.boutique.femmeactuelle.fr^
 ||tk.boutique.harpersbazaar.fr^
 ||tk.boutique.programme-tv.net^
+||smetrics.edb.gov.sg^
 ||animo.sto.wiki^
 ||totem.tvmaze.com^
 ||dwh-prod.moz.de^
