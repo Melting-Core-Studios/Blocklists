@@ -1,23 +1,13 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1213
+! Version: 1.1214
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-02-26T04:13:35.067Z
+! Last modified: 2026-02-26T05:57:11.305Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
-dancearoundthekitchen.com##.wprm-callout-custom
-abc-mart.net###js-shareBtn
-tengrinews.kz##.tn-shared
-newsday.com##.simpleShare
-andraware.com,kiiky.com,prywatnie.eu,stoodnt.com,freecoursesites.net,gamesgds.com##.ct-share-box
-depokpos.com##div[class^="gmr-social-share"] > ul.gmr-socialicon-share > li:not(.comment-icon)
-m.timesofindia.com##div[data-ga*="share-facebook"]
-dni.ru##.sotial
-mobil.stern.de##.social-icon-table > .social-icon:not(.social-icon-email)
-mschistota.ru#?#.share > div.row > div.col-md-6 > div:contains(Поделитесь)
 unian.net#?#div[style] > div.article-shares:upward(1)
 123telugu.com#$#.cat-tags { display: none !important; }
 123telugu.com#$#.post-page-content { padding-bottom: 0 !important; }
