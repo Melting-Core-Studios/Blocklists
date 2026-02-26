@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.1490
+! Version: 1.1491
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-02-26T08:42:58.838Z
+! Last modified: 2026-02-26T12:57:08.870Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -2202,6 +2202,7 @@
 ||sicksmash.com^
 ||siderain.com^
 ||sierrakermit.com^
+||signalszone.com^
 ||signaturepod.com^
 ||silentcredit.com^
 ||silentjackal.com^
@@ -101696,7 +101697,6 @@ collector-.tvsquared.com
 ||signals.galencollege.edu^
 ||signals.teknosa.com^
 ||signals.turkcell.com.tr^
-||signalszone.com^
 ||signamentswithd.com^
 ||signaturewoundedgraduation.com^
 ||signcalamity.com^
