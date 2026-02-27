@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1221
+! Version: 1.1222
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-02-27T04:10:40.462Z
+! Last modified: 2026-02-27T07:44:06.279Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -8423,7 +8423,7 @@ jp##.box-sns
 ~hatena.ne.jp##a[onclick^="window.open('http://b.hatena.ne.jp/add?"]
 ~hatena.ne.jp##a[href*="//b.hatena.ne.jp/add?"]
 ~hatena.ne.jp##a[href*="//b.hatena.ne.jp/append?"]
-~hatena.ne.jp##a[href*="//b.hatena.ne.jp/entry/"]
+~hatena.ne.jp,~hatelabo.jp##a[href*="//b.hatena.ne.jp/entry/"]
 ~github.com,~feedly.com##a[href^="http://feedly.com/i/subscription/"]
 ~github.com,~feedly.com##a[href^="https://feedly.com/i/subscription/"]
 ##a[href^="http://vkrugudruzei.ru/x/button?url="]
