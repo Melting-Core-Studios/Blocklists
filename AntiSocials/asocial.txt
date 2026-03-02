@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1233
+! Version: 1.1234
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-03-02T04:11:37.276Z
+! Last modified: 2026-03-02T06:52:49.474Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -5878,7 +5878,7 @@ bankier.pl##.m-social-bar > div[class^="m-social-bar"]:not(.m-social-bar__commen
 newscientist.com##.article-body .social__button-container
 thumbnails.porncore.net##a[href^="//share.naver.com/"]
 mhealth.ru##.test-result-share
-webopedia.com,hetmanrecovery.com,pokatim.ru##._share
+craj.jp,webopedia.com,hetmanrecovery.com,pokatim.ru##._share
 pianetamilan.it,corriere.it##.bck-social-nav
 om1.ru##.socialnetworks-posting
 rockstargames.su##.post-share__title
@@ -6243,7 +6243,7 @@ livedoor.biz,onecall2ch.com,chaos2ch.com,himasoku.com,akb48matomemory.com,blog.l
 blog.livedoor.jp,chaos2ch.com,livedoor.biz###article_bottom_v2 + nav.section-box
 sleipnirstart.com###sbm
 oumaga-times.com##.container-inner > nav.section-box > ul.plugin-box
-clubshiny-blog2.com,karakoto.com,ramen.walkerplus.com,niwaka.com,mynavi-agent.jp,exgel.jp,weekly.ascii.jp,utaten.com,store.united-arrows.co.jp,dmm.co.jp,localplace.jp,news.yahoo.co.jp##.snsShare
+kyohaku.go.jp,clubshiny-blog2.com,karakoto.com,ramen.walkerplus.com,niwaka.com,mynavi-agent.jp,exgel.jp,weekly.ascii.jp,utaten.com,store.united-arrows.co.jp,dmm.co.jp,localplace.jp,news.yahoo.co.jp##.snsShare
 dmm.com,dmm.co.jp##.d-sns-button
 eikaiwa.dmm.com##div[class$="-q-detail-sns"]
 mobile01.com##a[href="#popUpSharing"]
