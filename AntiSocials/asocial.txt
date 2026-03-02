@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1239
+! Version: 1.1240
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-03-02T20:32:50.368Z
+! Last modified: 2026-03-02T23:22:23.249Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -368,6 +368,7 @@ esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israel
 esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israelnationalnews.com,lifehacker.com,cgmagonline.com,gizmodo.com,gamerevolution.com,metro.co.uk,thurrott.com,stereogum.com,ign.com,newsweek.com,dailymail.co.uk,comingsoon.net,timesofisrael.com,nypost.com,9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,electrek.co#%#//scriptlet('remove-in-shadow-dom', 'div[data-spot-im-class="vote-links"] + span[class$="index__dot"]')
 cogconnected.com,echofm.online,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com##.comment__share > *
 cogconnected.com,echofm.online,antirez.com,comicbook.com,alexp.pl,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com###thread-share-bar
+beincrypto.com#?#div[class^="Container-sc-"] > div[class^="Label-"]:contains(Share Article)
 chess.com##button[data-cy="sidebar-share-icon"]
 gazetepencere.com##div[data-twitter]
 poprant.indiatimes.com##.socialShareArticalShowWrapper
@@ -5644,7 +5645,7 @@ fishki.net,mapsofworld.com##.social_icon
 navbharattimes.indiatimes.com##.wdt_social_share > ._icon:not(.comments)
 navbharattimes.indiatimes.com##.wdt_social_share > .social-cell:not(.comments)
 edh.tw##.line-friend
-univision.com,televisa.com,telehit.com,pod.link,deezer.com,dhakapost.com,lasestrellas.tv,tudn.com,play.google.com,linktr.ee,tunecore.co.jp,trybotics.com##button[aria-label="Share"]
+zmescience.com,univision.com,televisa.com,telehit.com,pod.link,deezer.com,dhakapost.com,lasestrellas.tv,tudn.com,play.google.com,linktr.ee,tunecore.co.jp,trybotics.com##button[aria-label="Share"]
 maersk.com##.p-section__article__meta__share
 bt.com,tebernuskirecci.com.tr##.share-tags
 every-tuesday.com##.etwp-socialNav
