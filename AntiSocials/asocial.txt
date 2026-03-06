@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1266
+! Version: 1.1267
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-03-06T04:06:57.829Z
+! Last modified: 2026-03-06T13:53:05.944Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -369,6 +369,7 @@ esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israel
 esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israelnationalnews.com,lifehacker.com,cgmagonline.com,gizmodo.com,gamerevolution.com,metro.co.uk,thurrott.com,stereogum.com,ign.com,newsweek.com,dailymail.co.uk,comingsoon.net,timesofisrael.com,nypost.com,9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,electrek.co#%#//scriptlet('remove-in-shadow-dom', 'div[data-spot-im-class="vote-links"] + span[class$="index__dot"]')
 cogconnected.com,echofm.online,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com##.comment__share > *
 cogconnected.com,echofm.online,antirez.com,comicbook.com,alexp.pl,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com###thread-share-bar
+vk.com##div[data-testid="video_page_share_button"]
 googlegaido.quest,androidjapan.one#%#//scriptlet('set-cookie', 'tpgwcc', '1')
 latlong.net##.col-3 > div.locationdiv:has(> a[href="https://twitter.com/latlong_net"])
 elmostrador.cl##.the-share
@@ -9119,7 +9120,7 @@ designboom.com,livescience.com,pbtech.co.nz,peoplesworld.org,space.com##.fa-face
 ##.sns_button
 ##.sns_facebook
 ##.sns_kakao
-~ebsi.co.kr,~lordsmobile.igg.com##.sns_list
+~shufoo.net,~ebsi.co.kr,~lordsmobile.igg.com##.sns_list
 ##.sns_scroll
 ##.sns_share_area
 ##.sns_twit
