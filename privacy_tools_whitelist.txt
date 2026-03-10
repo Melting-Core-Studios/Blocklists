@@ -1,0 +1,21 @@
+!
+! Title: [ MCS ] Whitelist Privacy Tools
+! Description: A blocklist that automatically updates every hour to include the latest developments
+! Version: 1.0010
+! Homepage: https://github.com/Melting-Core-Studios/Blocklists
+! License: CC BY-SA 4.0
+! Last modified: 2026-03-10T14:05:00.431Z
+!
+! Compiled by @adguard/hostlist-compiler v1.0.39
+!
+! SponsorBlock
+@@||sponsor.ajay.app^$important
+! Return YouTube Dislike
+@@||returnyoutubedislikeapi.com^$important
+! DeArrow
+@@||dearrow.ajay.app^$important
+@@||sponsor.ajay.app^$important
+! Misc pages about above tools
+@@||wiki.sponsor.ajay.app^$important
+@@||status.sponsor.ajay.app^$important
+@@||returnyoutubedislike.com^$important
