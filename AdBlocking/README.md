@@ -9,6 +9,7 @@ Since this list uses freely available lists, and we want to provide full transpa
 - D3ward (adblock): [d3host.adblock](https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.adblock)
 - EasyList: [easylist.txt](https://easylist-downloads.adblockplus.org/easylist.txt)
 - Goooler: [1024_hosts](https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts)
+- Pete Lowe's Blocklist: [AdGuard Team's version](https://adguardteam.github.io/HostlistsRegistry/assets/filter_3.txt)
 - Adaway: [hosts.txt](https://adaway.org/hosts.txt)
 
 ### ⚠️ WARNING ⚠️
