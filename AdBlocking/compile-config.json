@@ -54,6 +54,10 @@
       "type": "adblock"
     },
     {
+      "source": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/ultimate.mini.txt"
+      "type": "adblock"
+    },
+    {
       "source": "https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts",
       "type": "hosts"
     },
