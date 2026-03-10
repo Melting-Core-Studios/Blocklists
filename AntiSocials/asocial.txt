@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1280
+! Version: 1.1281
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-03-10T09:40:25.368Z
+! Last modified: 2026-03-10T11:03:49.480Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -368,6 +368,7 @@ esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israel
 esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israelnationalnews.com,lifehacker.com,cgmagonline.com,gizmodo.com,gamerevolution.com,metro.co.uk,thurrott.com,stereogum.com,ign.com,newsweek.com,dailymail.co.uk,comingsoon.net,timesofisrael.com,nypost.com,9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,electrek.co#%#//scriptlet('remove-in-shadow-dom', 'div[data-spot-im-class="vote-links"] + span[class$="index__dot"]')
 cogconnected.com,echofm.online,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com##.comment__share > *
 cogconnected.com,echofm.online,antirez.com,comicbook.com,alexp.pl,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com###thread-share-bar
+siyahdergi.com##div > span.jl_sh_t
 jalam.ne.jp##ul[class^="share"]
 avporner.com##.video-options
 telugucinema.com###vuukle-emote
@@ -4371,7 +4372,7 @@ sputniknews-uz.com,sputnik-tj.com,sputnik-ossetia.com,sputnik-abkhazia.info,sput
 lycoris-recoil.com##.l-header_share
 lycoris-recoil.com##.p-timeline
 magazine.tabelog.com##li[class*="tm_share_button"]
-uagna.it,wealthquint.com##.jl_sfoot
+siyahdergi.com,uagna.it,wealthquint.com##.jl_sfoot
 rskrf.ru###page-content .social
 advice.co.th##.chat_shop
 kdnuggets.com##.addthis_native_toolbox
