@@ -28,6 +28,9 @@ jobs:
           - key: socials
             path: AntiSocials/compile-config.json
             out: AntiSocials/asocial.txt
+          - key: nativetracking
+            path: DeviceTracking/compile-config.json
+            out: DeviceTracking/ostracking.txt
       max-parallel: 5
 
     steps:
