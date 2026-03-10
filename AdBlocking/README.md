@@ -1,16 +1,16 @@
 ### Combined list, by Melting Core Studios
 Hello everyone. You're currently viewing the combined list for AdBlocking. This list consists of multiple, freely available lists and will be updated regularly and automatically. This list is compiled through the Workflow of GitHub. Since reinventing the wheel would cost too much time, we've decided we'll invest our time in a regex list to dynamically target ads, rather than compose a list that already exists. Other than the regexes found in our list, we do not take credit. 
 
+### ⚠️ DEVICE WARNING ⚠️
+Only meant for devices with 2GB or more of RAM. Devices with less RAM and running an AdBlocker, or an AdGuard Home server with less than 2GB of RAM, may have degraded performance when using this list. Make sure your device can handle large lists. 
+
 ### Credits
 Since this list uses freely available lists, and we want to provide full transparency, we want to list every contributer to this list of which we've automated the integration with our own research. All the credit go to these creators for their efforts in fighting for your right to privacy.
 
 - AdGuard: [filters](https://filters.adtidy.org/android/filters)
-- D3ward (hosts): [d3host.txt](https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.txt)
-- D3ward (adblock): [d3host.adblock](https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.adblock)
-- EasyList: [easylist.txt](https://easylist-downloads.adblockplus.org/easylist.txt)
-- Goooler: [1024_hosts](https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts)
-- Pete Lowe's Blocklist: [AdGuard Team's version](https://adguardteam.github.io/HostlistsRegistry/assets/filter_3.txt)
-- HaGeZi's Multi Ultimate: [ultimate.mini.txt](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/ultimate.mini.txt)
+- AdGuardDNS: [filter_1.txt](https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/refs/heads/main/assets/filter_1.txt)
+- Pete Lowe's Blocklist: [AdGuard Team's version](https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/refs/heads/main/assets/filter_3.txt)
+- HaGeZi's Multi Ultimate: [ultimate.mini.txt](https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/refs/heads/main/assets/filter_49.txt)
 - Adaway: [hosts.txt](https://adaway.org/hosts.txt)
 
 ### ⚠️ WARNING ⚠️
