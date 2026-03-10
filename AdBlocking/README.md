@@ -10,6 +10,7 @@ Since this list uses freely available lists, and we want to provide full transpa
 - EasyList: [easylist.txt](https://easylist-downloads.adblockplus.org/easylist.txt)
 - Goooler: [1024_hosts](https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts)
 - Pete Lowe's Blocklist: [AdGuard Team's version](https://adguardteam.github.io/HostlistsRegistry/assets/filter_3.txt)
+- HaGeZi's Multi Ultimate: [ultimate.mini.txt](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/ultimate.mini.txt)
 - Adaway: [hosts.txt](https://adaway.org/hosts.txt)
 
 ### ⚠️ WARNING ⚠️
