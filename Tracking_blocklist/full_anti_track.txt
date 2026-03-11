@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.1565
+! Version: 1.1566
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-03-11T01:30:20.164Z
+! Last modified: 2026-03-11T05:47:55.436Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -853,6 +853,7 @@
 ||carsarace.com^
 ||cartelsalsa.com^
 ||cartkitten.com^
+||cartlug.com^
 ||carvecakes.com^
 ||casualphysics.com^
 ||catalogcake.com^
@@ -4602,6 +4603,9 @@
 ||p.codio.com^
 ||p.controld.com^
 ||p.hentaiforce.net^
+||p.mdb.tools^
+||p.midbound.click^
+||p.midbound.net^
 ||p.minds.com^
 ||p.spotidownloader.com^
 ||pac.thescottishsun.co.uk^
