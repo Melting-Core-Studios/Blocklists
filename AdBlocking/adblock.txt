@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Block those ads
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.5379
+! Version: 1.5380
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-03-13T12:46:34.660Z
+! Last modified: 2026-03-13T13:59:47.892Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -157544,6 +157544,7 @@ Banner468x60
 ||adflight.com^
 ||adforce.com^
 ||adformdsp.net^
+||adgardener.com^
 ||adimage.guardian.co.uk^
 ||adimages.been.com^
 ||adimages.carsoup.com^
@@ -157966,6 +157967,7 @@ Banner468x60
 ||affiliates.allposters.com^
 ||affiliates.globat.com^
 ||affiliates.thinkhost.net^
+||affiliates.ultrahosting.com^
 ||affiliatetracking.com^
 ||affiliatetracking.net^
 ||afflnx.com^
@@ -158691,7 +158693,6 @@ Banner468x60
 ||oxen.hillcountrytexas.com^
 ||p-n.io^
 ||page-checker.eu^
-||page-redirect.eu^
 ||pagead.l.google.com^
 ||pagerank-ranking.de^
 ||pageranktop.com^
@@ -297866,6 +297867,7 @@ Banner468x60
 ||page-bussines-review.com^
 ||page-id10486322489102-creator-meta.com^
 ||page-metaquest.com^
+||page-redirect.eu^
 ||page-stats.de^
 ||page-suspension.com^
 ||page-suspension.net^
