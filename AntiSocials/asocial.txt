@@ -1,44 +1,14 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1312
+! Version: 1.1313
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-03-17T04:15:53.868Z
+! Last modified: 2026-03-17T05:58:22.459Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
-osservatoriocpi.unicatt.it##.newsinfo:has(> .newsinfo__content > .shareicon)
-eatwell101.com##.share-mobile-button[onclick^="displaySharePanel"]
-jtb.co.jp##.gap-\[32px\].px-\[15px\].py-\[32px\] > .self-stretch.py-\[16px\].sm\:p-\[30px\]
-tri247.com##.gb-container > .gb-container:has(> .ns-buttons.ns-no-print)
-altchar.com##.js-share-article
-com-frogmind-badland-humble.en.aptoide.com##div[class^="appview-header_"] > div[class*="ActionContainer"]:has(path[d*="0-1.012.21-1.377.54L4.154 7.52a2.3 2.3 0 00.063"])
-youcontrol.com.ua##.btn-blog-share
-livehindustan.com##div[class^="StoryPage_shrView_"]
-otakuusamagazine.com###geekmag-go-to-share
-otakuusamagazine.com###geekmag-share-buttons
-matomecup.com##.cm-tw
-glavred.info##.navigation__share-btn
-||39.benesse.ne.jp/blog/image/housekeep/blog/social/
-aktuality.sk##.social-buttons-aside
-global.canon###sns-box > div
-liputan6.com##.share-main
-edens-zero.net##.modShareArea > .inner
-profile.ru##.swiper-social-links
-touken-hanamaru.jp###reShare
-indosport.com##div[title^="Bagikan Artikel Ini"]
-naftemporiki.gr,snob.ru##.socialWidget
-filmizleson.com,prestijfilm.com##a[title="Paylaş"]
-southparkstudios.com##.media-extra > div[role="button"][aria-label^="Share" i]
-focus.ua##.yo-social-panel
-smokingmeatforums.com##.p-sidebar-inner > div.block[data-widget-key="forum_overview_share_page"]
-desinhibition.com###share-text
-inwepo.co##[class^="social-sharing"]
 unian.net#?#div[style] > div.article-shares:upward(1)
-turkascihaberleri.com##.nofocus
-atlasobscura.com##.yt-fly-in
-ren.tv###banner_ss_all
 123telugu.com#$#.cat-tags { display: none !important; }
 123telugu.com#$#.post-page-content { padding-bottom: 0 !important; }
 debate.com.mx#$#header { height: auto !important; }
