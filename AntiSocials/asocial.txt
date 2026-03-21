@@ -1,32 +1,14 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1332
+! Version: 1.1333
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-03-21T04:03:47.212Z
+! Last modified: 2026-03-21T05:39:30.304Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
-sao-rpg.com##.ipsMenu_item:has(> a[title="Share this post"])
-cecile.co.jp##.share-box2
-with.kodansha.co.jp##div[class^="share"]
-gdh.digital##div[class*="sticky"][style*="opacity"] > .absolute > .items-center[style]:has(> button[data-state="closed"])
-newsroom.consilium.europa.eu##.modal-content dl.download-list + h4
-folk-media.com##.p-postProductSummary__share.vue-mount-area > ul
-comic-walker.com###bunner_SnsBox
-spy-family.net##.fvNav__share
-sueddeutsche.de,talasexpresshaber.com##.sharing-container
-thelocal.at,thelocal.it,thelocal.se,thelocal.ch##div[class^="entry-meta-share"]
-tsn.ua##.c-share-extra
-panasonic.com###snsgadgets
-jvcmusic.co.jp##.m-share-article
-research.eye.security,uber.com,hackr.io,last.fm##.share-footer
-konest.com#?#article > div#d_subtitle:has(> h5.bold:contains(この情報を共有))
-konest.com#?#article > div#d_subtitle:has(> h5.bold:contains(この情報を共有)) + div#btn
 unian.net#?#div[style] > div.article-shares:upward(1)
-yaizakon.com.ua,memepedia.ru,informator.news,responsibility.org,fitnessera.ru,soft4fun.net,comments.ua,ilife99.com,mur.tv,online-buhuchet.ru,richlife7.com##.spu-bg
-@@||smallcaps.com.au/wp-content/plugins/mashshare$domain=smallcaps.com.au
 123telugu.com#$#.cat-tags { display: none !important; }
 123telugu.com#$#.post-page-content { padding-bottom: 0 !important; }
 debate.com.mx#$#header { height: auto !important; }
