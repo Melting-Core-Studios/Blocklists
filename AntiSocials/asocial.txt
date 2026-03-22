@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1334
+! Version: 1.1335
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-03-22T04:17:03.379Z
+! Last modified: 2026-03-22T14:25:09.823Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -8562,7 +8562,7 @@ jp##.box-sns
 ~hatena.ne.jp##a[onclick^="window.open('http://b.hatena.ne.jp/add?"]
 ~hatena.ne.jp##a[href*="//b.hatena.ne.jp/add?"]
 ~hatena.ne.jp##a[href*="//b.hatena.ne.jp/append?"]
-~hatena.ne.jp,~hatelabo.jp##a[href*="//b.hatena.ne.jp/entry/"]
+~hatena.ne.jp,~hatelabo.jp##a[href*="//b.hatena.ne.jp/entry/"]:not(.http-bookmark)
 ~github.com,~feedly.com##a[href^="http://feedly.com/i/subscription/"]
 ~github.com,~feedly.com##a[href^="https://feedly.com/i/subscription/"]
 ##a[href^="http://vkrugudruzei.ru/x/button?url="]
@@ -9482,6 +9482,7 @@ twgreatdaily.com#$#div[aria-labelledby="mySmallModalLabel"] { display: none!impo
 catalogmineralov.ru#$#.modal_window { display: none!important; }
 catalogmineralov.ru#$#body { overflow: visible!important; }
 1track.ru#$#body { overflow: visible!important; }
+hatenablog-parts.com#@#a[href*="//b.hatena.ne.jp/entry/"]:not(.http-bookmark)
 @@||platform.twitter.com/widgets.js$domain=livejupiter2.blog.jp|nanjpride.blog.jp|j-seiji.blog.jp|akb48matomemory.com|femimatsu.com
 dtf.ru#@#.content-share
 racefans.net#@##social-media
