@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.1625
+! Version: 1.1626
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-03-23T01:53:47.108Z
+! Last modified: 2026-03-23T04:28:47.506Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -1249,6 +1249,7 @@
 ||firstendpoint.com^
 ||firstscreenshot.com^
 ||fishersfinds.com^
+||fishingtoolsbox.com^
 ||fitmessage.com^
 ||fitnessmapper.com^
 ||fivesidedsquare.com^
@@ -4596,6 +4597,7 @@
 ||nr-js.imaios.com^
 ||nr.noelleeming.co.nz^
 ||ocular.hotukdeals.com^
+||op.dragonfru.it^
 ||ophan.theguardian.com^
 ||optimizely.techtarget.com^
 ||otel-mobile.doordash.com^
@@ -69805,7 +69807,6 @@
 ||fishierdears.shop^
 ||fishinghandcuff.com^
 ||fishingslaplobby.com^
-||fishingtoolsbox.com^
 ||fishtownanalytics-collector-1340672531.us-east-1.elb.amazonaws.com^
 ||fishymonster.com^
 ||fiskaqqjajwqv.website^
