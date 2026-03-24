@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.1634
+! Version: 1.1635
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-03-24T01:33:30.930Z
+! Last modified: 2026-03-24T04:18:02.103Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -196864,6 +196864,8 @@
 ||stats.pronouns.page^
 ||posthog.lingvanex.com^
 ||site-azp.slgnt.eu^
+||collector1.sooplive.com^
+||exlogcollector.sooplive.com^
 ||adgbb.io.naver.com^
 ||wrc.shinhancard.com^
 ||h5collector.miyoushe.com^
@@ -197237,6 +197239,7 @@
 ||affiliates.vpn.ht^
 ||alpha.tracedock.com^
 ||an.reflektion.com^
+||analysis.sooplive.com^
 ||analytics.74.ru^
 ||analytics.adfreetime.com^
 ||analytics.bi.encuentra24.com^
@@ -197329,6 +197332,7 @@
 ||daq0d0aotgq0f.cloudfront.net^
 ||dcs.maxthon.com^
 ||deepdive.zum.com^
+||delog.sooplive.com^
 ||discovery-script.newspic.kr^
 ||discovery.newspic.kr^
 ||dnh523js9661q.cloudfront.net^
@@ -197345,6 +197349,7 @@
 ||event.chitai-gorod.ru^
 ||event.impression-neo.naver.com^
 ||event.scimo.io^
+||eventapi.sooplive.com^
 ||events.jora.com^
 ||events.sd-nbb.de^
 ||evs.data.ciceksepeti.com^
