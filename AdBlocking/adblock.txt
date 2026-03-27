@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Block those ads
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.5569
+! Version: 1.5570
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-03-27T12:56:00.191Z
+! Last modified: 2026-03-27T14:11:37.683Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -158641,6 +158641,7 @@ Banner468x60
 ||ads.recoletos.es^
 ||ads.rediff.com^
 ||ads.revjet.com^
+||ads.reward-hunt.com^
 ||ads.scifi.com^
 ||ads.seniorfriendfinder.com^
 ||ads.shizmoo.com^
@@ -159619,7 +159620,6 @@ Banner468x60
 ||pstmrk.it^
 ||pub.chez.com^
 ||pub.club-internet.fr^
-||pub.hardware.fr^
 ||pub.realmedia.fr^
 ||publicidad.elmundo.es^
 ||pureclarity.net^
@@ -159644,7 +159644,6 @@ Banner468x60
 ||r1.visualwebsiteoptimizer.com^
 ||r2.visualwebsiteoptimizer.com^
 ||r3.visualwebsiteoptimizer.com^
-||raac33.net^
 ||radiate.com^
 ||rads.realadmin.pl^
 ||rampidads.com^
@@ -246493,6 +246492,7 @@ Banner468x60
 ||hardquantity.com^
 ||hardshiptrycliff.com^
 ||hardtopworks.digital^
+||pub.hardware.fr^
 ||hardware-gui.su^
 ||adserv.hardware-mag.de^
 ||ads.hardwareand.co^
@@ -305945,6 +305945,7 @@ Banner468x60
 ||piwik.ra-system.de^
 ||stats.ra8.pl^
 ||plausible.raabauke.com^
+||raac33.net^
 ||piwik.raadvankerkenleiden.nl^
 ||collector.raah.ir^
 ||beacon.raaslab.tech^
@@ -309332,7 +309333,6 @@ Banner468x60
 ||rrqw.rewaawokwmbzv.top^
 ||reward-abs.xyz^
 ||reward-based.one^
-||ads.reward-hunt.com^
 ||reward-warsonusd1.com^
 ||rewardany.com^
 ||rewarddormitory.com^
