@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.1652
+! Version: 1.1653
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-03-27T01:57:48.139Z
+! Last modified: 2026-03-27T06:14:12.042Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -198864,6 +198864,8 @@
 ||tk.boutique.femmeactuelle.fr^
 ||tk.boutique.harpersbazaar.fr^
 ||tk.boutique.programme-tv.net^
+||spm.gmarket.co.kr^
+||atsssl.gmarket.co.kr^
 ||qa-track.ssg.com^
 ||smetrics.edb.gov.sg^
 ||animo.sto.wiki^
@@ -203055,6 +203057,7 @@
 ||countly.
 ||countly-
 |piwik.
+||ats.gmarket.co.kr
 -events-collector.spot.im^
 -upaas.ucweb.com^
 ||datadog-log.clovergames.io
@@ -203070,6 +203073,7 @@
 ||mon*.tiktokv.us^
 ||orderana*.spankbang.com^
 ||logstash-*.radio-canada.ca^
+||analytics.vgtimes.
 ||beehiiv-adnetwork-production.s*.amazonaws.com^
 ||telemetry.*.pvp.net^
 ||analyzer*.fc2.com^
