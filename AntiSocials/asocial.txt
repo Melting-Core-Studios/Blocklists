@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1368
+! Version: 1.1369
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-03-30T16:10:29.022Z
+! Last modified: 2026-03-30T19:55:20.017Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -7987,7 +7987,7 @@ eadaily.com#?#.latest-block > div.side-announcement:has(> div#ok_group_widget)
 eadaily.com#?#.latest-block > div.side-announcement:has(> div#vk_groups)
 bookz.ru#?#.b_block > h2.h2caption:contains(Поделиться)
 tutflix.org#?#.resourceSidebarGroup-title:contains(Share)
-pekcazip.com#?#h3:contains(Paylaş)
+hdfilmcehennemi.nl,pekcazip.com#?#h3:contains(Paylaş)
 teenink.com#?#.actions > label:contains(/^Share$/)
 colorlib.com#?#.wpex-fa-social-widget:upward(1)
 discudemy.com##section[class="thirteen wide column"] > div[class="ui attached segment"]:has(> div#shareIconsCounter)
@@ -9120,6 +9120,8 @@ designboom.com,livescience.com,pbtech.co.nz,peoplesworld.org,space.com##.fa-face
 ##.sns_share_area
 ##.sns_twit
 ##.sns_view
+##.playerFoot > div.shareLabel
+##.playerFoot > div.socials
 ##div[data-testid="share-menu"]
 /wp-content/plugins/ays-facebook-popup-likebox/*
 ##.ays-fpl-modal
