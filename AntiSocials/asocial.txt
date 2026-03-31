@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1371
+! Version: 1.1372
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-03-31T04:35:31.545Z
+! Last modified: 2026-03-31T06:16:48.988Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -396,7 +396,6 @@ world.kbs.co.kr##.right_youtube_banners
 world.kbs.co.kr##.comp_right_SNS
 hentaila.com##button[aria-label="Compartir"]
 bleague.jp##.sns-links
-gamesradar.com###utilitybar__button--share
 qiita.com##div[id^="PersonalArticlePage-"] > div[class^="style-"] > div[class^="style-"] > button[aria-label]:has(> span.is-fill.material-symbols-outlined)
 qiita.com##.is-fill.material-symbols-outlined
 missav.run##div[onclick="onShareVideo()"]
@@ -518,7 +517,6 @@ thetoc.gr##.social.a2a_kit
 tapatalk.com##.share_icon_area
 news.web.nhk#?#h1 + div > div > div >  button:contains(シェアする)
 kolesa.ru##div[id^="vk_groups_"]
-livescience.com###utilitybar__button--share
 zhihu.com##.Popover-content div.ShareMenu-menuItems > button.ShareMenu-button:has(> svg[class*="-Weibo24"])
 gamefile.news#?#.pencraft > div.pencraft:has(> button > div:contains(Share))
 gamefile.news##button:has(> svg > path[d^="M4 12v8a2"])
@@ -613,7 +611,7 @@ hominis.media##.share-modal-open
 hominis.media##li:has(> a.share-modal-open)
 qms.ru##.result-link
 kyivindependent.com##div[class^="ShareButton_wrapButton"]
-windowscentral.com###utilitybar__button--share
+techradar.com,gamesradar.com,livescience.com,windowscentral.com,pcgamer.com,tomshardware.com###utilitybar__button--share
 thepounddropper.com,seededatthetable.com,kitchendivas.com##.social-rocket-inline-buttons
 dinnerthendessert.com##.share-recipe
 app.transifex.com##div[class^="u-padding-"]:has(> div.js-social-share)
