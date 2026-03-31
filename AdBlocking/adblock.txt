@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Block those ads
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.5616
+! Version: 1.5617
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-03-30T23:33:01.124Z
+! Last modified: 2026-03-31T01:57:14.220Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -2107,7 +2107,6 @@
 ||de7559fcbb.8b745d2e44.com^
 ||e6b4cfdb36.8381a73c4d.com^
 ||fd01ce9a02.0012e30263.com^
-||8eaf38440e.b91d64b331.com^
 ||ajs.laketrend.com^
 ||b0abd8dd4e.7b13d552d3.com^
 ||dd47055762.df6733029c.com^
@@ -160631,6 +160630,9 @@ analytics-*.aasaam.com
 ||cheezwhiz.z9.web.core.windows.net^
 ||concertads-configs.vox-cdn.com^
 ||https-filtering-check.adtidy.org^
+||43xi7958mmhf8rf.cfd^
+||abtupwcylwjtll.com^
+||abubbleferine.com^
 ||admitad.com^
 ||agdakdhru.in^
 ||alitems.com^
@@ -160638,7 +160640,9 @@ analytics-*.aasaam.com
 ||asgsaitemucuna.cfd^
 ||atdmt.com^
 ||ayjxqgxvefyuv.space^
+||b91d64b331.com^
 ||banyanmethyl.shop^
+||bhogadowxa.in^
 ||bugrestolae.qpon^
 ||bylmfilfswasy.website^
 ||ciebuckone.cyou^
@@ -160649,21 +160653,34 @@ analytics-*.aasaam.com
 ||ehhmwvpl.com^
 ||eutgbfzcrepne.online^
 ||exemplaryspeech.pro^
+||faroffgodsentmuskets.cyou^
+||flashypension.pro^
+||flhdgcfntuel.com^
+||fngvepnjonsdl.online^
 ||fondnotice.pro^
 ||fwmrm.net^
 ||gabibow.cyou^
+||gdlrfbdnmmwes.com^
 ||googletagservices.com^
 ||gpvkaotpddqokr.com^
 ||guckisant.cyou^
+||gzawckjrauepw.site^
+||higherdwelloomiac.cfd^
+||hiobplukootgn.site^
 ||hpwynygtbbdo.com^
+||hzptibajffxdw.website^
 ||ijmrqatwfuemc.website^
 ||imasdk.googleapis.com^
 ||ixflv6oin5853xul.rest^
+||jadtyhkygmemd.online^
 ||jct83bclvg8c7h91f.cfd^
 ||jubsgzufzicne.site^
 ||kendyflewit.cfd^
+||kxconkxyfsupx.online^
 ||lanugowands.qpon^
+||lightheartedpriest.com^
 ||lnzitobjnmskk.space^
+||magnaleunmoldy.shop^
 ||monetag.com^
 ||nsgegxtidrrlr.site^
 ||ntv.io^
@@ -160671,11 +160688,14 @@ analytics-*.aasaam.com
 ||nyzmvpwdxkxdk.online^
 ||nzezezqjwortv.website^
 ||ojrq.net^
+||orcaouphsfurlers.cyou^
 ||ovariangonake.qpon^
 ||ovqinjyr5i32iju5j5l45uinnkpw.rest^
 ||pembinachemiclesya.cyou^
+||piwzbcvempdur.space^
 ||playacthances.qpon^
 ||pmudglgcnic.com^
+||pontagenided.shop^
 ||pughaboral.shop^
 ||qlnprxncesme.com^
 ||qrmfmgsagyono.online^
@@ -160683,6 +160703,7 @@ analytics-*.aasaam.com
 ||redirectingat.com^
 ||refurlnunquam.cyou^
 ||rescuesoctanol.cfd^
+||resolutionmeasures.com^
 ||rubiconproject.com^
 ||rustsobrazil.qpon^
 ||salivalshowoff.cfd^
@@ -160695,17 +160716,23 @@ analytics-*.aasaam.com
 ||tiletteammi.cyou^
 ||tonneauanimus.shop^
 ||trampotpunier.qpon^
+||unframesiberia.com^
 ||unionshypnale.qpon^
 ||vbyqjvmxjmsng.space^
 ||videoplaza.tv^
 ||viosdojjklsuq.site^
 ||vtqwdogrjewrv.site^
 ||wfkkbabwxacmz.site^
+||wormierfiver.com^
 ||wpnrtnmrewunrtok.xyz^
 ||wsxufppuayiui.online^
 ||wtpajmxzlwbnw.website^
 ||wwyhpqjntekib.online^
+||xlhxndmbkhllo.site^
 ||xlycebjrbkkrr.site^
+||xyicgmkbjemlh.website^
+||y929nyeuj9pjo648.rest^
+||ycdhgqvracdci.space^
 ||ydjsycnzctwoh.online^
 ||yeukcqecubdcb.space^
 ||zplqcjhxzuzqe.online^
@@ -339915,7 +339942,6 @@ Banner468x60
 ||unfortunately.sbs^
 ||unfoxyconsy.shop^
 ||analytics.unframed.be^
-||unframesiberia.com^
 ||smetric.unfranchise.com^
 ||analytics.ung.si^
 ||ungads.com^
