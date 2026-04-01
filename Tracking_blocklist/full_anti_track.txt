@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.1680
+! Version: 1.1681
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-04-01T02:07:45.063Z
+! Last modified: 2026-04-01T05:24:22.579Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -2717,6 +2717,7 @@
 ||wikiwhatwhere.com^
 ||wildcommittee.com^
 ||wildwoodavenue.com^
+||windbeetle.com^
 ||wirecomic.com^
 ||wiredforcoffee.com^
 ||wirenewsletter.com^
@@ -4198,13 +4199,13 @@
 ||analytics.kkb.com.tr^
 ||analytics.ticimax.cloud^
 ||c.keltis.com^
-||collector.wawlabs.com^
 ||log.collectaction.com^
 ||sayac.kapital.com.tr^
 ||statistics.daktilo.com^
 ||stats.vidyome.com^
 ||track.livasoft.com.tr^
 ||traffic.wdc.center^
+||wa.wawlabs.com^
 ||tracker.multisearch.io^
 ||tracker.prom.ua^
 ||webvitals.luxnet.ua^
@@ -4240,7 +4241,7 @@
 ||ampltd.medal.tv^
 ||ampltd.top.gg^
 ||ampltd2.medal.tv^
-||anal.billingserv.com^
+||anal.baseserv.com^
 ||anal.doubledouble.top^
 ||analytics-batch.blitz.gg^
 ||analytics-dataplane.invideo.io^
@@ -61696,6 +61697,7 @@
 ||collector.vestiairecollective.com^
 ||collector.vhx.tv^
 ||collector.viki.io^
+||collector.wawlabs.com^
 ||collector.xhamster1.desi^
 ||collector.xhamster19.com^
 ||collector.xhamster44.desi^
@@ -116040,7 +116042,6 @@
 ||winda10.com^
 ||windacerbity.com^
 ||windaloop.com^
-||windbeetle.com^
 ||windfallicontelegraph.com^
 ||windfallleavebrawl.com^
 ||windingnegotiation.com^
@@ -202766,7 +202767,6 @@
 ||tk.boutique.programme-tv.net^
 ||c.qiandao.cn^
 ||logs.tourister.ru^
-||wa.wawlabs.com^
 ||dsas-t.danawa.com^
 ||atsssl.gmarket.co.kr^
 ||qa-track.ssg.com^
