@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.1691
+! Version: 1.1692
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-04-03T09:04:43.164Z
+! Last modified: 2026-04-03T11:38:02.905Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -2725,6 +2725,7 @@
 ||wisedotcom.com^
 ||wispycity.com^
 ||wistfulwaste.com^
+||withsounds.com^
 ||wittypopcorn.com^
 ||wizardbuck.com^
 ||wondermakings.com^
@@ -116282,7 +116283,6 @@
 ||withoutandwhich.com^
 ||withouthuzzah.com^
 ||withsecurify.com^
-||withsounds.com^
 ||witlee-main.firebaseapp.com^
 ||witnessedscratchreluctance.com^
 ||witnessjacket.com^
@@ -205493,6 +205493,7 @@
 ||prugskh.net^
 ||ucus.ucweb.com^
 ||intlsucus.ucweb.com^
+||belgium.wolterskluwer.com^$badfilter
 @@||app.message.sonicwall.com^
 ||a.chdist.com^
 ||adobe.homecenter.com.co^
