@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.1695
+! Version: 1.1696
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-04-03T16:38:57.286Z
+! Last modified: 2026-04-03T17:33:21.337Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.0.0
 !
@@ -60079,22 +60079,56 @@
 ||cdn002.mndcdn.net^
 ||cdn1.tetori.link^
 ||cdn1.wallkit.net^
+||cdn10236888.ahacdn.me^
+||cdn10940717.ahacdn.me^
+||cdn11763314.ahacdn.me^
+||cdn12359286.ahacdn.me^
+||cdn18383040.ahacdn.me^
+||cdn18685953.ahacdn.me^
+||cdn19641441.ahacdn.me^
 ||cdn2.bildirt.com^
 ||cdn2.gigya.com^
 ||cdn2.grv.media^
 ||cdn2.maxiget.com^
 ||cdn2.revw.me^
 ||cdn2.wshareit.com^
+||cdn22904910.ahacdn.me^
+||cdn26121759.ahacdn.me^
+||cdn28786515.ahacdn.me^
 ||cdn2cdn.me^
 ||cdn3-static-cf.gotporn.com^
 ||cdn3.gigya.com^
 ||cdn3.hentaihand.com^
 ||cdn3.hentok.com^
+||cdn31318636.ahacdn.me^
+||cdn32211999.ahacdn.me^
+||cdn38824849.ahacdn.me^
+||cdn38871181.ahacdn.me^
 ||cdn4.wibbitz.com^
+||cdn44221613.ahacdn.me^
+||cdn45602216.ahacdn.me^
+||cdn45892007.ahacdn.me^
 ||cdn4ads.com^
 ||cdn4image.com^
+||cdn50181425.ahacdn.me^
+||cdn52969391.ahacdn.me^
+||cdn54405831.ahacdn.me^
+||cdn61962044.ahacdn.me^
+||cdn65182383.ahacdn.me^
+||cdn69404646.ahacdn.me^
 ||cdn7.network^
 ||cdn7.rocks^
+||cdn72891311.ahacdn.me^
+||cdn73417158.ahacdn.me^
+||cdn75604106.ahacdn.me^
+||cdn78489427.ahacdn.me^
+||cdn79045795.ahacdn.me^
+||cdn81910013.ahacdn.me^
+||cdn83753766.ahacdn.me^
+||cdn88270796.ahacdn.me^
+||cdn88385912.ahacdn.me^
+||cdn88464917.ahacdn.me^
+||cdn89689517.ahacdn.me^
 ||cdn925.com^
 ||cdna.meilleurmobile.com^
 ||cdna.smartborad.com^
@@ -210647,7 +210681,6 @@ dlsdk.appsflyer.com^
 ||agof.de^
 ||agora.io^
 ||agrant.cn^
-||ahacdn.me^
 ||ahanim.com^
 ||ahhuazhen.com^
 ||ahtigames.de^
@@ -213038,6 +213071,7 @@ dlsdk.appsflyer.com^
 ||cognism.com^
 ||cognitivemarketing.tid.es^
 ||cognito-identity.us-east-1.amazonaws.com^
+||cohmu.sbs^
 ||coi-prod.azureedge.net^
 ||coin-hive-proxy-ybydcnjgkl.now.sh^
 ||coinblind.com^
@@ -214437,6 +214471,7 @@ dlsdk.appsflyer.com^
 ||ds.independer.nl^
 ||ds.jlbksy.com^
 ||ds3.biz^
+||dsapgq.com^
 ||dshrx.com^
 ||dslreports.com^
 ||dsp-impr.youdao.com^
@@ -215834,7 +215869,6 @@ dlsdk.appsflyer.com^
 ||goodworld.me^
 ||goodworthspartners.co.za^
 ||googie-anaiytlcs.com^
-||google.com.onion^
 ||googletakes.com^
 ||goothusen.nkl.de^
 ||gorgias.chat^
@@ -217621,6 +217655,7 @@ dlsdk.appsflyer.com^
 ||legal.trendstream.net^
 ||legal.yahoo.com^
 ||legozu.com^
+||lehmanbookstore.com^
 ||leidsonderzoekskollectief.nl^
 ||lejournaldesopportunites.fr^
 ||leju.sina.com.cn^
@@ -220339,6 +220374,7 @@ dlsdk.appsflyer.com^
 ||reader.res.meizu.com^
 ||readmyblog.org^
 ||realeye.io^
+||reallylong.link^
 ||realme.com^
 ||realmemobile.com^
 ||realtime-tentacles-production.b-cdn.net^
@@ -220533,6 +220569,7 @@ dlsdk.appsflyer.com^
 ||rocketdownload.com^
 ||rocketit.com^
 ||rocketresponder.com^
+||rocler.qc.ca^
 ||rod25.dk^
 ||rodneyjoffe.com^
 ||roed25.dk^
@@ -221949,6 +221986,7 @@ dlsdk.appsflyer.com^
 ||teehub.shop^
 ||tegeto.nl^
 ||tegrazone.com^
+||tehnogid.com^
 ||tele.fm^
 ||telecoming.com^
 ||telefoon-discounter.nl^
@@ -222945,6 +222983,7 @@ dlsdk.appsflyer.com^
 ||webchat.vica.gov.sg^
 ||webclicks24.com^
 ||webcollage.net^
+||webcreationteam.org^
 ||webcurso.org^
 ||webdata.iag.cloud^
 ||webdiensten.drechtsteden.nl^
@@ -223503,6 +223542,7 @@ dlsdk.appsflyer.com^
 ||zapingers.autos^
 ||zapr.in^
 ||zapto.org^
+||zaralokakalyanafoundation.org^
 ||zaurus.io^
 ||zb.nxing.cn^
 ||zbz.m.qxs.la^
@@ -223626,13 +223666,6 @@ dlsdk.appsflyer.com^
 ||zzrcz.com^
 ||zzsx8.com^
 ||zzzjvqzkmqllb.top^
-||rocler.qc.ca^
-||reallylong.link^
-||webcreationteam.org^
-||tehnogid.com^
-||zaralokakalyanafoundation.org^
-||lehmanbookstore.com^
-||cohmu.sbs^
 ||badv.wp.pl^
 ||emisjawidgeet.onet.pl^
 ||ads.edipresse.pl^
