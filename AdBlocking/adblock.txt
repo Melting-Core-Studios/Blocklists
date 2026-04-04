@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Block those ads
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.5678
+! Version: 1.5679
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-04-04T22:26:33.507Z
+! Last modified: 2026-04-04T23:29:13.578Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.0.0
 !
@@ -160012,7 +160012,6 @@ analytics-*.aasaam.com
 ||eotaioa.xyz^
 ||fwmrm.net^
 ||googletagservices.com^
-||gutockeewhargo.net^
 ||imasdk.googleapis.com^
 ||monetag.com^
 ||ntv.io^
@@ -249607,6 +249606,7 @@ Banner468x60
 ||analytics.gutleben.systems^
 ||gutmicrobiome.cfd^
 ||gutobtdagruw.com^
+||gutockeewhargo.net^
 ||analytics.gutscheinbuch.de^
 ||gutscheinexxl.de^
 ||r.gutscheinmailer24.de^
