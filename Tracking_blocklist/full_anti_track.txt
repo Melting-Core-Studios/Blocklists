@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.1735
+! Version: 1.1736
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-04-10T10:09:25.623Z
+! Last modified: 2026-04-10T13:02:59.921Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.0.0
 !
@@ -605,7 +605,6 @@
 ||acridtwist.com^
 ||actuallysheep.com^
 ||actuallysnake.com^
-||acustomizedgift.com^
 ||adamantsnail.com^
 ||addictedattention.com^
 ||addressfriend.com^
@@ -48770,6 +48769,7 @@
 ||acuityplatform.com^
 ||aculagdnfquvf.site^
 ||acumocceemuqj.space^
+||acustomizedgift.com^
 ||acutbank.com^
 ||acuteimaginative.com^
 ||acuteinspiration-inventive.com^
@@ -211906,6 +211906,7 @@
 ||countly.
 ||countly-
 |piwik.
+||log.api-maps.yandex.
 ||ja*.apppure.net^
 ||ats.gmarket.co.kr
 -events-collector.spot.im^
@@ -212051,6 +212052,7 @@ charlestownwyllie.oaklawnnonantum.com^
 |a.klaviyo.com^
 ||api-*.hismarttv.com^
 ||auth-*.hismarttv.com^
+||hitcrypt.
 -track-inview.
 directtrack.*.js
 -unbxdAnalytics.
