@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1435
+! Version: 1.1436
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-04-14T11:01:20.726Z
+! Last modified: 2026-04-14T11:59:50.735Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.0.0
 !
@@ -371,6 +371,9 @@ esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israel
 esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israelnationalnews.com,lifehacker.com,cgmagonline.com,gizmodo.com,gamerevolution.com,metro.co.uk,thurrott.com,stereogum.com,ign.com,newsweek.com,dailymail.co.uk,comingsoon.net,timesofisrael.com,nypost.com,9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,electrek.co#%#//scriptlet('remove-in-shadow-dom', 'div[data-spot-im-class="vote-links"] + span[class$="index__dot"]')
 cogconnected.com,echofm.online,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com##.comment__share > *
 cogconnected.com,echofm.online,antirez.com,comicbook.com,alexp.pl,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com###thread-share-bar
+varta1.com.ua##.ova-engine-native-share-button
+banki.ru##div[data-test="tooltip"] div[role="button"]
+20minut.ua##.dropdown-soc
 notion.site##div[data-popup-origin="true"] > div[role="button"]:has(> svg.squareAndArrowUp)
 sn-jp.com##.p-entry__tw-follow
 sn-jp.com#?#.single-post-main > p:contains(SNSで記事をシェア)
