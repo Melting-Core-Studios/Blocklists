@@ -1,12 +1,12 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1446
+! Version: 1.1447
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-04-16T15:25:37.480Z
+! Last modified: 2026-04-16T17:11:44.079Z
 !
-! Compiled by @adguard/hostlist-compiler v2.0.0
+! Compiled by @adguard/hostlist-compiler v2.1.0
 !
 unian.net#?#div[style] > div.article-shares:upward(1)
 123telugu.com#$#.cat-tags { display: none !important; }
@@ -9389,6 +9389,7 @@ designboom.com,livescience.com,pbtech.co.nz,peoplesworld.org,space.com##.fa-face
 ||cdn-library.su/plusonet/lib/$domain=~pluso.net
 ||mailget.net^$third-party
 ||my.hellobar.com^$third-party
+genbank.ru##div[data-popup="socials"]
 lmusic.kz##.c-subscribe-alert__wrapper
 yeniavaz.com#%#//scriptlet('prevent-setTimeout', '#divModalPageLike')
 poupatempo.sp.gov.br##.float-icon-whatsapp
