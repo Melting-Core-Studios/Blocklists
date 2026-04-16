@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.1769
+! Version: 1.1770
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-04-16T11:02:42.627Z
+! Last modified: 2026-04-16T12:02:34.545Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.0.0
 !
@@ -758,6 +758,7 @@
 ||bluenest.net^
 ||bluevinebooks.com^
 ||blushingbeast.com^
+||blushingbread.com^
 ||boatcodeapp.com^
 ||boatpaper.com^
 ||boatsbuilding.com^
@@ -60666,7 +60667,6 @@
 ||blurbsoutpry.com^
 ||blushedagricplage.cyou^
 ||blushing-reaction.pro^
-||blushingbread.com^
 ||blusterflintbig.com^
 ||blusterhawspontaneous.com^
 ||blwadijbvbttx.space^
@@ -211722,7 +211722,6 @@
 ||target.tiaa.org^
 ||target.yourchi.org^
 ||https-filtering-check.adtidy.org^
-||inventorycache.com^$badfilter
 ||bapi-*.moengage.com^
 ||cdn-*.gravityfield.ai^
 ||powa-ingest-prod-*.video-player.arcpublishing.com^
@@ -212052,7 +212051,6 @@ dlsdk.appsflyer.com^
 @@||redirect.appmetrica.yandex.net^
 @@||redirect.appmetrica.yandex.com^
 @@||79423.analytics.edgekey.net^|
-||kindhush.com^$badfilter
 @@||data.service.paypal.com^
 @@||optout.rlcdn.com^
 ||form.info-morimoto-real.jp^$badfilter
