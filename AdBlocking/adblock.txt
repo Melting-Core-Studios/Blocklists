@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Block those ads
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.5835
+! Version: 1.5836
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-04-17T14:54:14.995Z
+! Last modified: 2026-04-17T17:47:10.435Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -158976,20 +158976,38 @@ analytics-*.aasaam.com
 ||cheezwhiz.z9.web.core.windows.net^
 ||concertads-configs.vox-cdn.com^
 ||https-filtering-check.adtidy.org^
+||6060fezix.com^
+||8000trexon.com^
 ||admitad.com^
 ||alitems.com^
 ||atdmt.com^
+||fissileeneuchsupples.cyou^
 ||fwmrm.net^
+||g1okon6cq7lpn5n8whof25p.cfd^
 ||googletagservices.com^
+||ictuizwgjgozv.website^
+||ikqvpmwq.com^
 ||imasdk.googleapis.com^
+||kbujchxeouowl.space^
+||ku5txooz1otjpoxm58.rest^
+||lqfldcimkgtejj.com^
 ||monetag.com^
+||necsvlizaxunm.online^
 ||ntv.io^
+||ocknlwkegpa.com^
 ||ojrq.net^
+||pvqjldytcvxix.online^
+||queleainsulaeoutdate.cyou^
 ||redirectingat.com^
 ||rubiconproject.com^
+||spokcqqaprhzj.site^
+||stupid-command.pro^
+||vdbbiwvxvhzdt.online^
+||vedqxliyxcqkl.space^
 ||videoplaza.tv^
 ||wpnrtnmrewunrtok.xyz^
 ||html-load.cc^
+||increase-rev2.static-cloudflare.workers.dev^
 ||srv.tunefindforfans.com^
 .fwmrm.net^
 ||piguiqproxy.com^$badfilter
@@ -159131,6 +159149,7 @@ Banner468x60
 .900x100.
 ||get-me-wow.
 ||allsportsflix.
+||increase-rev*.static-cloudflare.workers.dev^
 ||util-*.simply-hentai.com^
 ||adv0*.msa.cdn.mediaset.net^
 ||gwrtdp-tn690BFAdt.tclclouds.com^
