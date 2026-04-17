@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Block those ads
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.5832
+! Version: 1.5833
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-04-17T10:53:13.840Z
+! Last modified: 2026-04-17T11:49:10.800Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -159198,7 +159198,6 @@ Banner468x60
 ||ad.allboxing.ru^
 ||ad.altervista.org^
 ||ad.anuntis.com^
-||ad.auditude.com^
 ||ad.bondage.com^
 ||ad.centrum.cz^
 ||ad.cgi.cz^
@@ -159695,7 +159694,6 @@ Banner468x60
 ||affiliates.allposters.com^
 ||affiliates.globat.com^
 ||affiliates.thinkhost.net^
-||affiliates.ultrahosting.com^
 ||affiliatetracking.com^
 ||affiliatetracking.net^
 ||afflnx.com^
@@ -159724,7 +159722,6 @@ Banner468x60
 ||analytics.swiggy.com^
 ||analytics.xelondigital.com^
 ||analyticsapi.happypancake.net^
-||androiddownload.net^
 ||annonser.dagbladet.no^
 ||anrdoezrs.net^
 ||anstrex.com^
@@ -159859,6 +159856,7 @@ Banner468x60
 ||cedato.com^
 ||centerpointmedia.com^
 ||channelintelligence.com^
+||chitika.net^
 ||cityads.telus.net^
 ||cj.com^
 ||cjbmanagement.com^
@@ -160110,7 +160108,6 @@ Banner468x60
 ||gml.email^
 ||go-clicks.de^
 ||go-link.network^
-||go-rank.de^
 ||go.clickwww.com^
 ||go.dhs.gov^
 ||go.eu.sparkpostmail1.com^
@@ -160195,7 +160192,6 @@ Banner468x60
 ||irchan.com^
 ||ireklama.cz^
 ||is-tracking-pixel-api-prod.appspot.com^
-||its-that-easy.com^
 ||jcount.com^
 ||jinkads.de^
 ||joetec.net^
@@ -160641,7 +160637,6 @@ Banner468x60
 ||sumo.com^
 ||superawesome.tv^
 ||supertop100.com^
-||surfmusik-adserver.de^
 ||surveygizmobeacon.s3.amazonaws.com^
 ||t.bawafx.com^
 ||t.carta.com^
@@ -201709,7 +201704,6 @@ Banner468x60
 ||chishir.com^
 ||analytics.chita.ru^
 ||observe.chitchat.gg^
-||chitika.net^
 ||chitinozoan.cfd^
 ||analytics.chitti.app^
 ||log.chitubox.com^
@@ -244482,6 +244476,7 @@ Banner468x60
 ||go-live.fun^
 ||analytics.go-mbu.com^
 ||go-opt.com^
+||go-rank.de^
 ||track.go-rilla.mobi^
 ||go-shopee.net^
 ||go-shopee.shop^
@@ -261589,6 +261584,7 @@ Banner468x60
 ||ad.its-crypto.com^
 ||stats.its-gering.de^
 ||ads.its-newid.net^
+||its-that-easy.com^
 ||smetrics.its-your-heart.com^
 ||rybbit.itsagood.one^
 ||stats.itsallaboutthenumbers.ie^
@@ -333657,6 +333653,7 @@ Banner468x60
 ||surfform.com^
 ||surfingbird.ru^
 ||analytic.surfline.com^
+||surfmusik-adserver.de^
 ||piwik.surfnetcorp.com^
 ||surfomania.pl^
 ||surfpoint.jp^
@@ -346529,6 +346526,7 @@ Banner468x60
 ||track.ultragaming.biz^
 ||gtm.ultragomme.com^
 ||metrics.ultraholistic.com^
+||affiliates.ultrahosting.com^
 ||ultraind.in^
 ||ultrainvariable.com^
 ||ultraiso.net^
@@ -366764,6 +366762,7 @@ Banner468x60
 ||sprint.asapp.com^
 ||sprint-srs-appopen.asapp.com^
 ||images.aspireclicks.com^
+||ad.auditude.com^
 ||adm3.autoimg.cn^
 ||img2.autoimg.cn^
 ||masdpanalytics.azureedge.net^
