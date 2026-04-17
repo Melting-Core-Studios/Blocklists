@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.1779
+! Version: 1.1780
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-04-17T16:54:38.566Z
+! Last modified: 2026-04-17T21:40:54.926Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -57334,7 +57334,6 @@
 ||api.imotech.tech^
 ||api.instant.one^
 ||api.intensifier.de^
-||api.iproyal.com^
 ||api.itpub.cloud^
 ||api.ivymobile.com^
 ||api.jeeng.com^
@@ -66921,7 +66920,6 @@
 ||d.pe.redaspenlove.com^
 ||d.pixiv.org^
 ||d.post-gazette.com^
-||d.provenexpert.net^
 ||d.quadrinhoseroticos.net^
 ||d.rcmd.jp^
 ||d.reddit.com^
@@ -82214,7 +82212,6 @@
 ||iptrack.io^
 ||ipv2-scan.adspower.net^
 ||ipv4.kiki.zalo.ai^
-||ipv6-api.iproyal.com^
 ||ipvertnet.com^
 ||ipvigilante.com^
 ||ipwfxgwjrlrfa.site^
@@ -105391,7 +105388,6 @@
 ||sentry.mws.com^
 ||sentry.mydramawave.com^
 ||sentry.myshows.me^
-||sentry.nadapada.net^
 ||sentry.neilpatelapi.com^
 ||sentry.netvlies.nl^
 ||sentry.neusta.de^
@@ -175226,7 +175222,6 @@
 ||analytics.pineca.nl^
 ||analytics.pineca.pl^
 ||analytics.pineca.pt^
-||analytics.plainproxies.com^
 ||analytics.popvakuutus.fi^
 ||analytics.pro-clima.cz^
 ||analytics.quick-garden.co.uk^
@@ -199809,7 +199804,6 @@
 ||ss.naturelandbd.com^
 ||ss.nazestore.com^
 ||ss.necklacemyway.com^
-||ss.netnut.io^
 ||ss.nevikacare.com^
 ||ss.newurtopia.com^
 ||ss.nexifocus.com^
@@ -213884,6 +213878,7 @@ dlsdk.appsflyer.com^
 ||appget.cn^
 ||appgift.sinaapp.com^
 ||apphq.co^
+||appinfo.usebruno.com^
 ||applause.com^
 ||apple-finance.query.yahoo.com^
 ||apple-resources.s3.amazonaws.com^
@@ -215835,6 +215830,8 @@ dlsdk.appsflyer.com^
 ||collectionofbestporn.com^
 ||collectionuniversel.com^
 ||collectius.com^
+||collector.klm.com^
+||collector.transavia.com^
 ||collector.wassenaar.org^
 ||colmarbrunton.co.nz^
 ||colmarbrunton.com.au^
@@ -220501,6 +220498,7 @@ dlsdk.appsflyer.com^
 ||likeglow.nl^
 ||likes-pie.com^
 ||likesmaster.eu^
+||liknot.com^
 ||lilink.sbs^
 ||lilithgame.com^
 ||limelight.com^
@@ -221587,6 +221585,7 @@ dlsdk.appsflyer.com^
 ||na1r.services.adobe.com^
 ||na2m-pr.licenses.adobe.com^
 ||nadallas.com^
+||nadapada.net^
 ||nagich.com^
 ||nahovitsyn.com^
 ||nai.cpxkvc.com^
@@ -221639,6 +221638,7 @@ dlsdk.appsflyer.com^
 ||near-place.com^
 ||near.com^
 ||nearbysharing-pa.googleapis.com^
+||nearly.family^
 ||nearme.com^
 ||neat-url.com^
 ||neatspy.com^
@@ -222241,6 +222241,7 @@ dlsdk.appsflyer.com^
 ||ou188.com^
 ||outgrow.co^
 ||outlook365.com^
+||outreach.fsisac.com^
 ||outreach.io^
 ||outspot.be^
 ||outspot.nl^
@@ -222438,8 +222439,10 @@ dlsdk.appsflyer.com^
 ||pfm-intelligence.com^
 ||pfm-repair.com^
 ||pfmintelligence.com^
+||pg.ad.nl^
 ||pg.com^
 ||pg.dpgmedia.net^
+||pg.dpgmedia.nl^
 ||pgdt.gtimg.com^
 ||pgforsta.com^
 ||pharos.mfa.gr^
@@ -222834,6 +222837,7 @@ dlsdk.appsflyer.com^
 ||proton66.ru^
 ||protonmails.com^
 ||protonza.com^
+||provenexpert.net^
 ||provesrc.com^
 ||providesupport.com^
 ||proxcake.com^
@@ -225051,6 +225055,7 @@ dlsdk.appsflyer.com^
 ||townmanagementsgc.com^
 ||tp.sgcn.com^
 ||tpe163.com^
+||tpembars.com^
 ||tr.ee^
 ||tr.ifeeder.com^
 ||tr.jumpcloud.com^
@@ -226461,6 +226466,77 @@ dlsdk.appsflyer.com^
 ||zzrcz.com^
 ||zzsx8.com^
 ||zzzjvqzkmqllb.top^
+||sms-man.com^
+||mobileproxy.space^
+||proxys.io^
+||undetectable.io^
+||delar-soft.com^
+||cloaking.house^
+||geelark.com^
+||octobrowser.org^
+||dr.cash^
+||leadbit.com^
+||proxyempire.io^
+||jet-canada.ru^
+||soax.com^
+||mybrocard.com^
+||scenum.io^
+||netnut.io^
+||offer18.com^
+||iproxy.online^
+||astroproxy.com^
+||asocks.com^
+||cpa-queen.com^
+||adspect.ai^
+||kadam.network^
+||richads.link^
+||everad.com^
+||lgaming.network^
+||iproyal.com^
+||ipfoxy.com^
+||infatica.io^
+||cliproxy.com^
+||3snet.co^
+||hydraproxy.com^
+||bestproxy.com^
+||accsmarket.com^
+||thordata.com^
+||proxidize.com^
+||lightningproxies.net^
+||evomi.com^
+||proxy4u.com^
+||sx.org^
+||webshare.io^
+||plainproxies.com^
+||pingproxies.com^
+||ninjasproxy.com^
+||gonzoproxy.com^
+||cyberyozh.com^
+||mangoproxy.com^
+||socnet.store^
+||agency-aurora.com^
+||dark.shopping^
+||crazyfb.shop^
+||daddy-store.online^
+||share.proxy302.com^
+||marsproxies.com^
+||liveproxies.io^
+||tg-giant.com^
+||vmlogin.us^
+||dicloak.com^
+||ls.app^
+||morelogin.com^
+||ixbrowser.com^
+||wadesk.io^
+||aalesmartly.com^
+||hubstudio.cn^
+||like.tg^
+||tavel.in^
+||ez-captcha.com^
+||proxyr.pro^
+||hbsproxy.info^
+||mailerking.net^
+||proxy-man.com^
 ||badv.wp.pl^
 ||emisjawidgeet.onet.pl^
 ||ads.edipresse.pl^
