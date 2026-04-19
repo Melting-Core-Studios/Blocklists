@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Block those ads
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.5861
+! Version: 1.5862
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-04-19T14:41:43.443Z
+! Last modified: 2026-04-19T15:36:21.391Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -159332,7 +159332,6 @@ analytics-*.aasaam.com
 ||admitad.com^
 ||alitems.com^
 ||atdmt.com^
-||charlestoughrace.com^
 ||fwmrm.net^
 ||googletagservices.com^
 ||imasdk.googleapis.com^
@@ -159406,7 +159405,7 @@ Banner468x60
 /^https:\/\/d[0-9a-z]{12,13}\.cloudfront\.net\/loader\.min\.js$/$script,third-party,match-case,header=etag:/^W\/"[0-9a-f]{32}"$/
 /https?:\/\/[a-z0-9]{10,25}\.[a-z0-9]{10,20}\.cfd\/[a-zA-Z0-9]{10,25}\/[a-zA-Z0-9]{1,5}$/$script,match-case,header=set-cookie:/^GL_UI4=/
 ||consent.cookiefirst.com^$badfilter
-||ianrequireadult.com^$badfilter
+||charlestoughrace.com^$badfilter
 @@||injections.adguard.org^
 ||myvidplay.com^$badfilter
 ||cloudatacdn.com^$badfilter
@@ -200956,6 +200955,7 @@ Banner468x60
 ||charleskeithsale.com^
 ||charleskeithsale-us.shop^
 ||stats.charlesonrecreationarea.com^
+||charlestoughrace.com^
 ||charlie-9.cfd^
 ||analytics.charliealgert.com^
 ||charliebushrealtor.com^
