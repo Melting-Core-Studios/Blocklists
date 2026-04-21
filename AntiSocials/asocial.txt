@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1460
+! Version: 1.1461
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-04-21T05:25:33.350Z
+! Last modified: 2026-04-21T07:30:12.473Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -20812,6 +20812,7 @@ datacenterdynamics.com##.a2a_default_style
 tandfonline.com##.a2a_share_target
 reserveamerica.com##.acm-article-share
 marriott.com,sandiegouniontribune.com##.action-bar
+wccftech.com##.add-google
 consequence.net##.add-to-google
 womansworld.com##.add-to-google-banner__wrapper___1PWZa
 city-journal.org##.addthis-trigger
@@ -20976,6 +20977,7 @@ koimoi.com##.btn-whatsup
 androidpolice.com##.btn-x
 consumerreports.org##.btn__social
 bu.edu##.bu-sharing
+channelnewsasia.com##.button--google-preferred
 notateslaapp.com##.button-follow
 unz.com##.button-holder
 healthline.com##.button-wrapper
@@ -21138,6 +21140,7 @@ blogto.com##.facebook-round-control
 news.stv.tv##.facebook-share
 moparinsiders.com##.facebook-widget
 thefastmode.com##.facebook_plugin
+channelnewsasia.com##.fast-card__share-button
 shepherd.com##.fav3-share
 thefreedictionary.com##.fb-share
 bearingarms.com,hotair.com,redstate.com##.fb-social
@@ -21830,6 +21833,7 @@ videocardz.com##.social-item-mail
 videocardz.com##.social-item-media
 knewz.com,revolvermag.com##.social-items
 afro.com,berlin-live.de,elsol.com.ar,hongkongfp.com,investigatemidwest.org,lafocusnews.com,ourweekly.com,theatlantavoice.com,washingtoncitypaper.com,washingtonmonthly.com##.social-links-menu
+complex.com##.social-links-top
 bidfood.nl,businesspost.ie##.social-links-wrapper
 denofgeek.com##.social-links__anchor--sharing
 casino.org##.social-list
