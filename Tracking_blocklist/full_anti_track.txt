@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.1799
+! Version: 1.1800
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-04-21T13:17:03.979Z
+! Last modified: 2026-04-21T15:13:17.844Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -207927,6 +207927,9 @@
 ||tk.boutique.femmeactuelle.fr^
 ||tk.boutique.harpersbazaar.fr^
 ||tk.boutique.programme-tv.net^
+||android-beacons.xumo.com^
+||roku-beacons.xumo.com^
+||samsung-beacons.xumo.com^
 ||stat.katitube.com^
 ||stat.aporntv.com^
 ||data-lake-api.internet.apps.samsung.com^
@@ -208895,6 +208898,7 @@
 ||int.akisinn.me^
 ||int.vlancaa.site^
 ||int.vlancaa.fun^
+||cirrus-full-snapshots-track-csv-v1-0-na-prod.s3.amazonaws.com^
 ||aptoide-rtb.aptoide.com^
 ||qbk1.com^
 ||prod-ue1-metrics.hingeprod.net^
