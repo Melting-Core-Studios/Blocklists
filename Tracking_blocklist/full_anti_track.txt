@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.1803
+! Version: 1.1804
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-04-22T09:19:35.532Z
+! Last modified: 2026-04-22T11:04:53.507Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -3869,7 +3869,6 @@
 ||events.sk.ht^
 ||ip7prksb2muxvmmh25t6rxl2te0tfulc.lambda-url.eu-west-1.on.aws^
 ||nws.naltis.com^
-||offer.slgnt.eu^
 ||osd.oxygem.it^
 ||rs.smc.tf^
 ||stats-dc1.frz.io^
@@ -77286,7 +77285,6 @@
 ||futurenet.com^
 ||futureocto.com^
 ||futurepay.globway.eu^
-||futureplc.slgnt.eu^
 ||fuvvgziqxmsrg.rocks^
 ||fuwin.cyou^
 ||fuwin.sbs^
@@ -92956,7 +92954,6 @@
 ||mobile.confsettings.com^
 ||mobile.marathonbet.com^
 ||mobile.pipe.aria.microsoft.com^
-||mobile.slgnt.eu^
 ||mobilead.kuwo.cn^
 ||mobileadexchange.net^
 ||mobileads.google.com^
@@ -108805,7 +108802,6 @@
 ||site-config.com^
 ||site-maps.cc^
 ||site-p2p-ads.tngdigital.com.my^
-||site-see.slgnt.eu^
 ||site.answers.com^
 ||site.yandex.net^
 ||site24x7rum.com^
@@ -209245,7 +209241,6 @@
 ||gatag.uplus.co.kr^
 ||stats.pronouns.page^
 ||posthog.lingvanex.com^
-||site-azp.slgnt.eu^
 ||adgbb.io.naver.com^
 ||wrc.shinhancard.com^
 ||h5collector.miyoushe.com^
@@ -215999,6 +215994,7 @@ dlsdk.appsflyer.com^
 ||analytics.element43.ch^
 ||analytics.enisa.europa.eu^
 ||analytics.eo.nl^
+||analytics.essentialplugin.com^
 ||analytics.europeansleeper.eu^
 ||analytics.flipperdevices.com^
 ||analytics.gandi.net^
@@ -227651,6 +227647,7 @@ dlsdk.appsflyer.com^
 ||tuquy.com^
 ||turbonino.de^
 ||turkishar.com^
+||turnto.com^
 ||tusdk.com^
 ||tussendierenmens.nl^
 ||tutanoto.com^
@@ -228899,8 +228896,12 @@ dlsdk.appsflyer.com^
 ||zzrcz.com^
 ||zzsx8.com^
 ||zzzjvqzkmqllb.top^
-||analytics.essentialplugin.com^
-||turnto.com^
+||qrypty.com^
+||slgnt.eu^
+||meowmail.in^
+||mypethealh.com^
+||idealsmtp.com^
+||identitytoolkit.googleapis.com^
 ||badv.wp.pl^
 ||emisjawidgeet.onet.pl^
 ||ads.edipresse.pl^
