@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.1807
+! Version: 1.1808
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-04-23T02:10:43.815Z
+! Last modified: 2026-04-23T07:32:55.871Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -929,7 +929,6 @@
 ||climbingright.com^
 ||cloisteredcurve.com^
 ||cloudchickens.com^
-||cloudguppy.com^
 ||cloudhustles.com^
 ||cloudjumbo.com^
 ||clumsycar.com^
@@ -2591,6 +2590,7 @@
 ||touristfuel.com^
 ||toysbasics.com^
 ||toytakeover.com^
+||tracecontent.com^
 ||traderbyte.com^
 ||tradetooth.com^
 ||tranquilcan.com^
@@ -65996,6 +65996,7 @@
 ||cloudflrcdn.com^
 ||cloudfronte.com^
 ||cloudgallery.net^
+||cloudguppy.com^
 ||cloudimagesa.com^
 ||cloudimagesb.com^
 ||cloudiq.com^
@@ -115383,7 +115384,6 @@
 ||trace.seeyouyima.com^
 ||trace.svc.ui.com^
 ||tracead.com^
-||tracecontent.com^
 ||tracelog-debug.yunxish.com^
 ||tracer.concung.com^
 ||tracer.jp^
@@ -214018,6 +214018,7 @@ prd.api.bleacherreport.com^
 ||faro-collector-prod-*.grafana.net^
 ||*adapt-beacon.awsprodops.movetv.com^
 ||hn-ping*.hashnode.com^
+||analytics-v*.eip.telegraph.co.uk^
 ||ana*.inews24.com^
 ||analytics.streamfab.
 ||mcs-*.tiktok.com^
