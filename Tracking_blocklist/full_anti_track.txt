@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.1809
+! Version: 1.1810
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-04-23T09:26:38.949Z
+! Last modified: 2026-04-23T13:20:11.914Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -73637,7 +73637,6 @@
 ||embed.contentverticals.de^
 ||embed.e2ma.net^
 ||embed.fbsbx.com^
-||embed.polymarket.com^
 ||embed.spokenlayer.com^
 ||embedded-preview.pardot.force.com^
 ||embedded.pardot.force.com^
@@ -208629,6 +208628,7 @@
 ||tk.boutique.femmeactuelle.fr^
 ||tk.boutique.harpersbazaar.fr^
 ||tk.boutique.programme-tv.net^
+||data.ssports.com^
 ||sas.a.int-nft.peacocktv.com^
 ||sas.a.peacocktv.com^
 ||sas.a.stable-int.peacocktv.com^
@@ -221182,10 +221182,12 @@ dlsdk.appsflyer.com^
 ||idcloudhosting.my.id^
 ||idcot.com^
 ||idcqi.com^
+||idealsmtp.com^
 ||ident.me^
 ||identified.cn^
 ||identity.tescobank.com^
 ||identityprovider.red-gate.com^
+||identitytoolkit.googleapis.com^
 ||idevelopweb.com^
 ||idfuse.fr^
 ||idhlagency.com^
@@ -221923,6 +221925,7 @@ dlsdk.appsflyer.com^
 ||kafka8.com^
 ||kairosfire.com^
 ||kalmykia.su^
+||kalshi.com^
 ||kansino.nl^
 ||kantar.be^
 ||kantar.com^
@@ -223037,6 +223040,7 @@ dlsdk.appsflyer.com^
 ||mempay.com^
 ||menghuanzs.com^
 ||mengmengdas.com^
+||meowmail.in^
 ||merchantfabricsbd.com^
 ||merchantpool1.linkedin.com^
 ||mergelsbergverlag.de^
@@ -223422,6 +223426,7 @@ dlsdk.appsflyer.com^
 ||myname.club^
 ||myndossier.cloud^
 ||mynewredirectislife.xyz^
+||mypethealh.com^
 ||mypets.ws^
 ||myphotos.cc^
 ||myprivacy.dpgmedia.net^
@@ -224521,6 +224526,7 @@ dlsdk.appsflyer.com^
 ||pollforall.com^
 ||polling.bbc.co.uk^
 ||polosofa.com^
+||polymarket.com^
 ||pomhz.com^
 ||ponf.linkedin.com^
 ||pop.91mangrandi.com^
@@ -224897,6 +224903,7 @@ dlsdk.appsflyer.com^
 ||qrcodekit.to^
 ||qrfy.com^
 ||qrius.nl^
+||qrypty.com^
 ||qsbz2011.com^
 ||qshxc.com^
 ||qsurvey.mozilla.com^
@@ -225867,6 +225874,7 @@ dlsdk.appsflyer.com^
 ||slashwork.hu^
 ||sleeknote.com^
 ||sleepgod.shop^
+||slgnt.eu^
 ||slick.ly^
 ||slickdeals.net^
 ||slickstream.com^
@@ -228371,12 +228379,6 @@ dlsdk.appsflyer.com^
 ||zzrcz.com^
 ||zzsx8.com^
 ||zzzjvqzkmqllb.top^
-||qrypty.com^
-||slgnt.eu^
-||meowmail.in^
-||mypethealh.com^
-||idealsmtp.com^
-||identitytoolkit.googleapis.com^
 ||badv.wp.pl^
 ||emisjawidgeet.onet.pl^
 ||ads.edipresse.pl^
