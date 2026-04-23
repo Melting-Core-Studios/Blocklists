@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Block those ads
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.5905
+! Version: 1.5906
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-04-23T15:50:39.485Z
+! Last modified: 2026-04-23T17:17:29.318Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -158504,19 +158504,25 @@ analytics-*.aasaam.com
 ||cheezwhiz.z9.web.core.windows.net^
 ||concertads-configs.vox-cdn.com^
 ||https-filtering-check.adtidy.org^
+||5e1jng5u4lfi5i9qqi.rest^
+||76nkjujnx7k52j9.cfd^
 ||admitad.com^
 ||alitems.com^
 ||atdmt.com^
+||filmingazulineflamens.cyou^
 ||fwmrm.net^
 ||googletagservices.com^
 ||imasdk.googleapis.com^
 ||monetag.com^
 ||ntv.io^
 ||ojrq.net^
+||pceyowwoejprr.website^
 ||redirectingat.com^
 ||rubiconproject.com^
 ||videoplaza.tv^
+||vmpwxhtnadvihi.com^
 ||wpnrtnmrewunrtok.xyz^
+||yyekuinpxka.com^
 ||html-load.cc^
 ||srv.tunefindforfans.com^
 .fwmrm.net^
@@ -159430,6 +159436,7 @@ Banner468x60
 ||cedato.com^
 ||centerpointmedia.com^
 ||channelintelligence.com^
+||chillingtofu.com^
 ||chitika.net^
 ||cityads.telus.net^
 ||cj.com^
@@ -201207,7 +201214,6 @@ Banner468x60
 ||umami.chilli.be^
 ||chilliconnect.com^
 ||telemetry.chillicream.com^
-||chillingtofu.com^
 ||track.chillipartners.com^
 ||chilliwackcomputer.com^
 ||gtm.chillpillshop.com^
