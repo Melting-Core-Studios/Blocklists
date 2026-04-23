@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.1813
+! Version: 1.1814
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-04-23T19:05:36.983Z
+! Last modified: 2026-04-23T21:45:35.341Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -128,7 +128,6 @@
 ||catsunrunjam.com^
 ||cbdatatracker.com^
 ||cdjbf8trk.com^
-||cdn.sy-d.io^
 ||cdnhst.xyz^
 ||cdnlogs.org^
 ||cdnwidget.com^
@@ -3088,7 +3087,6 @@
 ||ev.moneymade.io^
 ||event-logger.tagboard.com^
 ||event-service.letslinc.com^
-||event.syftdata.com^
 ||event.syndigo.cloud^
 ||eventapi.libring.com^
 ||eventcollector.mcf-prod.a.intuit.com^
@@ -177841,7 +177839,6 @@
 ||load.gtm.kvalitetsmarkiser.dk^
 ||load.gtm.ladenregal.shop^
 ||load.gtm.ladestander.io^
-||load.gtm.landvanons.nl^
 ||load.gtm.larosediffusion.fr^
 ||load.gtm.lederne.dk^
 ||load.gtm.lessoeurs.be^
@@ -211719,6 +211716,7 @@ dlsdk.appsflyer.com^
 @@||track2.royalmail.com^
 @@||webtrack.dhlglobalmail.com^
 @@||biorxiv.org^
+@@||fonts.gstatic.com^$badfilter
 ^AppMeasurement.min.js^
 ^activitymonitor.js^
 ^adHoc.min.js^
@@ -212171,6 +212169,7 @@ dlsdk.appsflyer.com^
 ||24ur.si^
 ||24video.ws^
 ||24vita.de^
+||25-jaareuro.nl^
 ||253qv1sx4ey389p9wtpp9sj0-wpengine.netdna-ssl.com^
 ||25purb1qs9y91rvlxr44yeeg-wpengine.netdna-ssl.com^
 ||25udam187zpf2mzghz28ihhs-wpengine.netdna-ssl.com^
@@ -214320,6 +214319,7 @@ dlsdk.appsflyer.com^
 ||b17.8794.cn^
 ||b17.shangc.net^
 ||b26net.com^
+||b2b2c.nl^
 ||b2bmg.com^
 ||b2c-contenthub.com^
 ||b406929acabac9b095f124c81bdfcf57f.com^
@@ -214673,6 +214673,7 @@ dlsdk.appsflyer.com^
 ||beveiliging-aanvraag.im^
 ||beverlyads.com^
 ||bevr.nl^
+||bevrijdingsuitgifte.nl^
 ||bewelllabs.com^
 ||bexcommunicatie.nl^
 ||beyondproducts.io^
@@ -214865,6 +214866,7 @@ dlsdk.appsflyer.com^
 ||bmw.cloud^
 ||bnbstatic.com^
 ||bnc.lt^
+||bndspn.com^
 ||bnj.ch^
 ||bnn.ca^
 ||bnt-cdn.b-cdn.net^
@@ -215436,6 +215438,7 @@ dlsdk.appsflyer.com^
 ||cdnppb.net^
 ||cdnpure.com^
 ||cdnst.net^
+||cdntranscend.eventbrite.com^
 ||cdntrex.com^
 ||cdntwrk.com^
 ||cdnvideo.ru^
@@ -216347,6 +216350,7 @@ dlsdk.appsflyer.com^
 ||csbew.com^
 ||csell.co^
 ||csgi.com^
+||csidetm.com^
 ||csnakliyat.com^
 ||csnstatic.com^
 ||csp-reporter.ryanair.com^
@@ -218722,6 +218726,7 @@ dlsdk.appsflyer.com^
 ||gonamod.com^
 ||gong.io^
 ||gongm.in^
+||gonift.com^
 ||gonzoproxy.com^
 ||goodfiles.com^
 ||goodgourd.co.nz^
@@ -218768,9 +218773,13 @@ dlsdk.appsflyer.com^
 ||graph.nationwide.co.uk^
 ||graph.nu.nl^
 ||grassipietre.it^
+||gratis.be^
 ||gratis247.nl^
+||gratisherdenkingsmunt.be^
 ||gratisloten.nl^
 ||gratismeedoen.nl^
+||gratisproduct.nl^
+||gratisuitgifte.nl^
 ||gravatar.com^
 ||gravitec.net^
 ||gravity-software.com^
@@ -218819,6 +218828,7 @@ dlsdk.appsflyer.com^
 ||gtm.aeg.fi^
 ||gtm.aeg.ie^
 ||gtm.aeg.nl^
+||gtm.landvanons.nl^
 ||gtm.netvlies.nl^
 ||gtm.oasisfeng.com^
 ||gtm.reflect.app^
@@ -218976,6 +218986,7 @@ dlsdk.appsflyer.com^
 ||helpukrainewinwidget.org^
 ||hem.nl^
 ||hemitus.digital^
+||herdenkingsuitgifte.nl^
 ||here-for-more.info^
 ||hereapi.com^
 ||herefish.com^
@@ -220148,6 +220159,7 @@ dlsdk.appsflyer.com^
 ||jtys8.com^
 ||ju33.com^
 ||juaraplay.net^
+||jubileumuitgifte.nl^
 ||judge.la.welt.de^
 ||judge.me^
 ||juiceanalytics.com^
@@ -221649,6 +221661,8 @@ dlsdk.appsflyer.com^
 ||multiscreensite.com^
 ||mumble.fm^
 ||mummysgold.com^
+||munt-online.nl^
+||muntvoucher.nl^
 ||muonwhila.com^
 ||mushtzani.com^
 ||musicpublishers.nl^
@@ -221744,6 +221758,7 @@ dlsdk.appsflyer.com^
 ||nasma.be^
 ||national-lottery.co.uk^
 ||nationale-loterij.be^
+||nationaleomruilactie.nl^
 ||nationallottery.co.za^
 ||nationaltowerportal.com.ng^
 ||nationbuilder.com^
@@ -221903,6 +221918,7 @@ dlsdk.appsflyer.com^
 ||nieuwsbriefsysteem-static.nl^
 ||nieuwsbriefsysteem.nl^
 ||niferstall.de^
+||nift.me^
 ||nifty.com^
 ||nigga.click^
 ||nighthawk.cloud^
@@ -224691,6 +224707,7 @@ dlsdk.appsflyer.com^
 ||superchinese.com^
 ||superlivescore.net^
 ||supermetrics.com^
+||supersales.nl^
 ||supership.jp^
 ||supfast.net^
 ||supplierone.com^
@@ -224747,7 +224764,9 @@ dlsdk.appsflyer.com^
 ||sxdyrq.com^
 ||sxjxhg.com^
 ||sxz67.com^
+||sy-d.io^
 ||sycbbs.com^
+||syftdata.com^
 ||sygic.com^
 ||syilm.net^
 ||sykty.com^
@@ -225847,6 +225866,7 @@ dlsdk.appsflyer.com^
 ||vr-profibroker.de^
 ||vriendenloterij.nl^
 ||vriendenlotterij.nl^
+||vrijheidsuitgifte.nl^
 ||vrixon.com^
 ||vroeg.net^
 ||vs2.gzcu.u3.ucweb.com^
@@ -226056,6 +226076,7 @@ dlsdk.appsflyer.com^
 ||widen.net^
 ||widget-cdn.janraincapture.com^
 ||widget-mediator.zopim.com^
+||widget-portal.givacard.nl^
 ||widget.cloudpayments.ru^
 ||widget.dd.com^
 ||widget.directory.dailycommercial.com^
