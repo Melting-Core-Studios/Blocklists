@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1476
+! Version: 1.1477
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-04-24T05:33:18.462Z
+! Last modified: 2026-04-24T11:05:32.158Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -371,6 +371,7 @@ esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israel
 esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israelnationalnews.com,lifehacker.com,cgmagonline.com,gizmodo.com,gamerevolution.com,metro.co.uk,thurrott.com,stereogum.com,ign.com,newsweek.com,dailymail.co.uk,comingsoon.net,timesofisrael.com,nypost.com,9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,electrek.co#%#//scriptlet('remove-in-shadow-dom', 'div[data-spot-im-class="vote-links"] + span[class$="index__dot"]')
 cogconnected.com,echofm.online,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com##.comment__share > *
 cogconnected.com,echofm.online,antirez.com,comicbook.com,alexp.pl,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com###thread-share-bar
+goldderby.com##div[data-component="gutenberg-content"] div[data-component="social-media"]
 change.org##div[data-qa="share-section-sunrise"]
 tbank.ru##div[data-qa-file="PostShareButton"]
 immobilienscout24.de##.right_buttons > button[data-testid="navigation-button"]:has(> svg > path[d^="M22.667 18.667c-1.552"][d$="2.667-2.667 2.667v0z"])
@@ -22284,6 +22285,7 @@ cnet.com##[data-meta="footer-section-social"]
 cnet.com##[data-meta="footer-section-social"] + ul
 newstalkzb.co.nz##[data-test-ui="social-connect"]
 sundayworld.com##[data-testid="article-share"]
+stuff.co.nz##[data-testid="body-cta"]
 nytimes.com##[data-testid="social-group"]
 dw.com##[data-tracking-name="footer-section-social-media"]
 dw.com##[data-tracking-name^="sharing-icons-"]
