@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.1843
+! Version: 1.1844
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-04-29T15:12:12.585Z
+! Last modified: 2026-04-29T17:27:23.030Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -2836,6 +2836,7 @@
 ||analytics-api.klickly.com^
 ||analytics-cms.whitebeard.me^
 ||analytics-consent-manager-v2-prod.azureedge.net^
+||analytics-fe.digital-cloud.medallia.ca^
 ||analytics-ipv6.tiktokw.us^
 ||analytics-prd.aws.wehaa.net^
 ||analytics-prod-alb-292764149.us-west-2.elb.amazonaws.com^
@@ -2984,6 +2985,8 @@
 ||browser.pipe.aria.microsoft.com^
 ||bs.yandex.ru^
 ||bundle.ppas.monster^
+||bzr.openai.com^
+||bzrcdn.openai.com^
 ||c.amazinglybrilliant.com.au^
 ||c.bazo.io^
 ||c.live.com^
@@ -58417,7 +58420,6 @@
 ||analytics-events.calm.com^
 ||analytics-events.inshorts.com^
 ||analytics-fe.digital-cloud-syd1.medallia.com.au^
-||analytics-fe.digital-cloud.medallia.ca^
 ||analytics-gateway-fallguys.trafficmanager.net^
 ||analytics-gateway-prod.fallguys.oncatapult.com^
 ||analytics-gateway.delta.dp.lightricks.com^
