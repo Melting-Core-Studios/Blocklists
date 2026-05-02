@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Block those ads
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.6001
+! Version: 1.6002
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-05-02T19:54:14.230Z
+! Last modified: 2026-05-02T20:39:12.066Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -5193,6 +5193,7 @@ vkcdnservice.appspot.com^
 ||459b6951ca.com^
 ||45c1biry82h2kb.cfd^
 ||45pxu8qlehpxg7woekpnff747q.rest^
+||45tjghnuibkifpbc8.cfd^
 ||4690y10pvpq8.com^
 ||46a30abd78.com^
 ||47757e9455.com^
@@ -8691,6 +8692,7 @@ vkcdnservice.appspot.com^
 ||b7510.com^
 ||b7ec509038.com^
 ||b7nvtp6ef62ioe6ro4rj.cfd^
+||b7zxkmxqh6bge9.rest^
 ||b8bd2d84d4.com^
 ||b8e2af647f.com^
 ||b8pfulzbyj7h.com^
@@ -8972,6 +8974,7 @@ vkcdnservice.appspot.com^
 ||bb88480f1d.com^
 ||bbatkopeyuogn.website^
 ||bbcc3e012c.com^
+||bbcgpatmhh.com^
 ||bbcrgate.com^
 ||bbd834il.de^
 ||bbehvkrkbzcyw.online^
@@ -16387,6 +16390,7 @@ vkcdnservice.appspot.com^
 ||emeroidcaufle.com^
 ||emeuagingnavy.cfd^
 ||emfhxsmebkthh.website^
+||emflogwaydousing.cfd^
 ||emhjekwvkwnvz.website^
 ||emicalcoveningspon.org^
 ||emigresdolci.cyou^
@@ -23725,6 +23729,7 @@ vkcdnservice.appspot.com^
 ||itsmillionlead.com^
 ||itstuffnews.com^
 ||itswabluon.com^
+||ittfpcej.com^
 ||ittlewallowisfrie.org^
 ||ittoxicroakon.club^
 ||itvalleynews.com^
@@ -23754,6 +23759,7 @@ vkcdnservice.appspot.com^
 ||iupimwyjqatso.space^
 ||iuqkrdnldzsth.online^
 ||iuqtmoblgqkgq.site^
+||iurjdgqphesic.website^
 ||iutclcgffgbk.com^
 ||iutlrtovfnlbj.online^
 ||iuuiirxnrolwc.store^
@@ -25815,6 +25821,7 @@ vkcdnservice.appspot.com^
 ||ktut7wyvmcke5opp6k1ie48y.rest^
 ||ktwbcdypkcsnc.xyz^
 ||ktwvbnfxd.com^
+||ktxmnweyvslpo.website^
 ||ktxofwditvygq.online^
 ||ku2d3a7pa8mdi.com^
 ||ku34bh9la09.com^
@@ -28677,6 +28684,7 @@ vkcdnservice.appspot.com^
 ||mkhoj.com^
 ||mkingffpvupjd.space^
 ||mkipphpyiymso.site^
+||mkjjilqjetmdf.space^
 ||mkjsqrpmxqdf.com^
 ||mklygiferedme.site^
 ||mkodhnvnhpmlw.online^
@@ -38384,6 +38392,7 @@ vkcdnservice.appspot.com^
 ||refillsmisfond.qpon^
 ||refilmsbones.top^
 ||refinepiledcumbersome.com^
+||refinespaesmatsue.cfd^
 ||refixplained.cfd^
 ||refkxilsrghro.store^
 ||reflagschemer.cyou^
@@ -38947,6 +38956,7 @@ vkcdnservice.appspot.com^
 ||rezrboarmmqmv.top^
 ||rfaedqlxfttxw.site^
 ||rfaenzaahcspb.online^
+||rfajdkrqvqjam.site^
 ||rfapkfkftokev.website^
 ||rfarxhoikoda.xyz^
 ||rfatsbpqippxs.online^
@@ -47599,6 +47609,7 @@ vkcdnservice.appspot.com^
 ||ttudarqrldyoc.site^
 ||ttusrifbdjqay.online^
 ||ttvshnuvy.net^
+||ttwkixuxdfaxv.com^
 ||ttwmed.com^
 ||ttwststmculgv.website^
 ||ttxkxmieazqwq.site^
@@ -55987,6 +55998,7 @@ vkcdnservice.appspot.com^
 ||yowlyfgtthpus.online^
 ||yowmelhhkeovd.store^
 ||yowrekvnrlcdz.site^
+||yoxatqgxh.com^
 ||yoxffovtpvwtr.online^
 ||yoxgbiywfdlsd.online^
 ||yoxggjogbagyt.online^
@@ -145203,6 +145215,9 @@ dlsdk.appsflyer.com^
 ||softclick.com.br^
 ||solution911.com^
 ||templates.buscape.com^
+||tallertorn.com^
+||deltarockme.com^
+||beesratyou.com^
 ||trorqeok.com^
 ||merilrise.com^
 ||elonreptiloid.pw^
@@ -198087,7 +198102,6 @@ Banner468x60
 ||matomo.beesite.de^
 ||stats.beesnoop.de^
 ||beesparliament.com^
-||beesratyou.com^
 ||beeswap.club^
 ||beeswell.org^
 ||beetle-clicks.biz^
@@ -229385,7 +229399,6 @@ Banner468x60
 ||deltanative.com^
 ||deltaoffice.ru^
 ||deltaprojects.com^
-||deltarockme.com^
 ||deltatoto.com^
 ||deltax.com^
 ||ads.deltra.de^
