@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1519
+! Version: 1.1520
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-05-05T11:59:24.216Z
+! Last modified: 2026-05-05T15:53:52.605Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -371,6 +371,7 @@ esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israel
 esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israelnationalnews.com,lifehacker.com,cgmagonline.com,gizmodo.com,gamerevolution.com,metro.co.uk,thurrott.com,stereogum.com,ign.com,newsweek.com,dailymail.co.uk,comingsoon.net,timesofisrael.com,nypost.com,9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,electrek.co#%#//scriptlet('remove-in-shadow-dom', 'div[data-spot-im-class="vote-links"] + span[class$="index__dot"]')
 cogconnected.com,echofm.online,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com##.comment__share > *
 cogconnected.com,echofm.online,antirez.com,comicbook.com,alexp.pl,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com###thread-share-bar
+foodnavigator.com##.share-bar-buttons
 igroray.ru##.product-controls__button--shared
 youtube.com##.icon-share_arrow
 arcticwolf.com##.elementor-widget-heading[data-widget_type="heading.default"]:has(+ .elementor-widget-share-buttons)
@@ -23832,7 +23833,7 @@ bitly.com,knivesout.jp#@#.share-btn
 search.brave.com#@#.share-button-wrapper
 ida2at.com#@#.share-holder
 app.degoo.com#@#.share-icon-container
-dagbladet.no,seher.no#@#.share-icons-bottom
+dagbladet.no,seher.no,sol.no#@#.share-icons-bottom
 pornhub.com#@#.share-link-container
 baidu.com,findagrave.com,locataire.dossierfacile.logement.gouv.fr#@#.share-list
 deezer.com#@#.share-message
