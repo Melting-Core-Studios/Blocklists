@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.1877
+! Version: 1.1878
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-05-06T13:58:45.793Z
+! Last modified: 2026-05-06T16:03:57.198Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -212487,6 +212487,7 @@ dlsdk.appsflyer.com^
 ||1075202878.rsc.cdn77.org^
 ||1081894472.rsc.cdn77.org^
 ||1083328646.rsc.cdn77.org^
+||1088045785.rsc.cdn77.org^$badfilter
 ||1094578850.rsc.cdn77.org^
 ||10bet.com^
 ||10brokers.com^
@@ -212539,6 +212540,7 @@ dlsdk.appsflyer.com^
 ||1410770579.rsc.cdn77.org^
 ||141tube.com^
 ||1430629705.rsc.cdn77.org^
+||1480222913.rsc.cdn77.org^$badfilter
 ||14slph41wbtl2yi39625md6s-wpengine.netdna-ssl.com^
 ||1575730577.rsc.cdn77.org^
 ||1585089255.rsc.cdn77.org^
@@ -212559,6 +212561,7 @@ dlsdk.appsflyer.com^
 ||171745.com^
 ||171dxwjpaqv2danpq11ixf2j-wpengine.netdna-ssl.com^
 ||1720289623.rsc.cdn77.org^
+||1739712465.rsc.cdn77.org^$badfilter
 ||1751350540.rsc.cdn77.org^
 ||1751390105.rsc.cdn77.org^
 ||175bar.com^
@@ -212576,6 +212579,7 @@ dlsdk.appsflyer.com^
 ||1822.nl^
 ||1824867661.rsc.cdn77.org^
 ||1851774772.rsc.cdn77.org^
+||1853586421.rsc.cdn77.org^$badfilter
 ||1855684048.rsc.cdn77.org^
 ||1871350125.rsc.cdn77.org^
 ||1874201666.rsc.cdn77.org^
@@ -212791,6 +212795,8 @@ dlsdk.appsflyer.com^
 ||3bmeteo.com^
 ||3c9sm1yzqy518hwx3f6o4c64-wpengine.netdna-ssl.com^
 ||3ci6gd82qqe3lh3ugujrds6j-wpengine.netdna-ssl.com^
+||3cx.com^$badfilter
+||3cx.us^$badfilter
 ||3djuegos.com^
 ||3dlancer.net^
 ||3ds.com^
@@ -212808,6 +212814,7 @@ dlsdk.appsflyer.com^
 ||3jzi0q2zthm01oqpx2h96lz1-wpengine.netdna-ssl.com^
 ||3kqo2r1c2kzy3oyiqn2r1gjb-wpengine.netdna-ssl.com^
 ||3lib.net^
+||3m.com^$badfilter
 ||3m7ajlsrzj92lfd1hu16hu7vc-wpengine.netdna-ssl.com^
 ||3naked.com^
 ||3ogtym48f0n7g9i61ddao1cl-wpengine.netdna-ssl.com^
@@ -213043,6 +213050,7 @@ dlsdk.appsflyer.com^
 ||99lolo.com^
 ||9a7f6a3c-8431-438c-89d9-90924a59e618.akamaized.net^
 ||9ads.net^
+||9cache.com^$badfilter
 ||9eriz.x.incapdns.net^
 ||9gtb.com^
 ||9gti.com^
@@ -213057,11 +213065,13 @@ dlsdk.appsflyer.com^
 ||a-kmtkmg.net^
 ||a-lehdet.fi^
 ||a-mpd.com^
+||a-msedge.net^$badfilter
 ||a.80982.org^
 ||a.agoradesk.com^
 ||a.apkpure.com^
 ||a.armystar.com^
 ||a.baiy.net^
+||a.cdn-hotels.com^$badfilter
 ||a.cdngeek.net^
 ||a.dangdang.com^
 ||a.deviantart.net^
@@ -213074,6 +213084,7 @@ dlsdk.appsflyer.com^
 ||a.exam58.com^
 ||a.fengyx.com^
 ||a.foxdcg.com^
+||a.fsdn.com^$badfilter
 ||a.giantrealm.com^
 ||a.kandiaoyu.com^
 ||a.kickass.to^
@@ -216223,7 +216234,6 @@ dlsdk.appsflyer.com^
 ||dcs.adobedc.net^
 ||dcsaascdn.net^
 ||dd.iaskgo.com^
-||ddapp.cn^
 ||ddhtek.com^
 ||dditsadn.com^
 ||dditscdn.com^
@@ -216273,6 +216283,7 @@ dlsdk.appsflyer.com^
 ||deltaprojects.com^
 ||delvenetworks.com^
 ||demandware.net^
+||*.demdex.net^
 ||denaamloterij.nl^
 ||deneitherapeut.nl^
 ||denkis.nl^
@@ -216609,7 +216620,6 @@ dlsdk.appsflyer.com^
 ||e-research.nl^
 ||e-spirit.com^
 ||e-trend.co.jp^
-||e.admin60.com^
 ||e.deviantart.net^
 ||e.emgwq.com^
 ||e.eurostar.com^
@@ -216799,7 +216809,7 @@ dlsdk.appsflyer.com^
 ||engagementboost.com^
 ||engageone.video^
 ||engageware.com^
-||engaugeanalytics.com^
+||engageanalytics.com^
 ||engine.lvehaisen.com^
 ||enhance.com^
 ||enki.com^
@@ -217705,7 +217715,6 @@ dlsdk.appsflyer.com^
 ||gtminet.net^
 ||gtmniddocks.herokuapp.com^
 ||gtmucs.cn^
-||guangzizai.com^
 ||guenther.de^
 ||guidashu.com^
 ||guide-piscine.fr^
@@ -218803,7 +218812,6 @@ dlsdk.appsflyer.com^
 ||kindly.ai^
 ||kindredgroup.com^
 ||kinetic6.com^
-||kinetic6iot.com^
 ||kinetic6tracks.com^
 ||king-cobra.eu^
 ||kingbilly.com^
@@ -218897,6 +218905,7 @@ dlsdk.appsflyer.com^
 ||kwfloterij.nl^
 ||kwifa.com^
 ||kxcdn.com^
+||l.google.com^$badfilter
 ||l.ykimg.com^
 ||l982.landleven.nl^
 ||la2.chungta.vn^
@@ -219315,7 +219324,6 @@ dlsdk.appsflyer.com^
 ||m.ee-vip.net^
 ||m.emgwq.com^
 ||m.fhxsw.org^
-||m.fstaw.com^
 ||m.gdt.vip1790.cn^
 ||m.rmuqvq.cn^
 ||m.sjzhushou.com^
@@ -220067,6 +220075,7 @@ dlsdk.appsflyer.com^
 ||novoline.de^
 ||novoplay.nl^
 ||novudialog.nl^
+||novyny.online.ua^$badfilter
 ||nowe.com^
 ||noxgroup.com^
 ||np6.com^
@@ -220076,6 +220085,7 @@ dlsdk.appsflyer.com^
 ||nr4.me^
 ||nreach.io^
 ||ns-advertising.nl^
+||ns-mlab.nl^$badfilter
 ||nsclick.baidu.cn^
 ||nsnmiaomu.cn^
 ||nsogroup.com^
@@ -220404,7 +220414,6 @@ dlsdk.appsflyer.com^
 ||panelinzicht.nl^
 ||panelistasph.com^
 ||panelwizard.com^
-||pangle.com^
 ||pango.co^
 ||panoramafirm.pl^
 ||panoramio.com^
@@ -220465,7 +220474,6 @@ dlsdk.appsflyer.com^
 ||pci.spotify.com^
 ||pdc.micloud.xiaomi.net^
 ||pdok.nl^
-||pdsjycm.com^
 ||pee.cn^
 ||peerclick.com^
 ||pega.com^
@@ -220778,7 +220786,6 @@ dlsdk.appsflyer.com^
 ||privacy.polar.me^
 ||privacy.timeonegroup.com^
 ||privacycenter.cloud^
-||privacycheq.com^
 ||privacymanager.io^
 ||privacytools.com.br^
 ||privacywall.org^
@@ -220887,7 +220894,6 @@ dlsdk.appsflyer.com^
 ||pulsera.io^
 ||pumaskill.com^
 ||punchbox.org^
-||punctures-sakani.com^
 ||pups.bdimg.com^
 ||pure.cloud^
 ||purechat.com^
@@ -220896,8 +220902,10 @@ dlsdk.appsflyer.com^
 ||purevpn.com^
 ||purplebrain.com^
 ||purr.nytimes.com^
+||push-apple.com.akadns.net^$badfilter
 ||push.air-matters.com^
 ||push.api.bbci.co.uk^
+||push.apple.com^$badfilter
 ||push.hicloud.com^
 ||push.res.meizu.com^
 ||pushalert.co^
@@ -220941,7 +220949,6 @@ dlsdk.appsflyer.com^
 ||qcloud.com^
 ||qd.js.sanjiangge.com^
 ||qd.x4399.com^
-||qdatasales.com^
 ||qdchunyu.com^
 ||qhaif.com^
 ||qi-connection.com^
@@ -220983,6 +220990,7 @@ dlsdk.appsflyer.com^
 ||qsurvey.mozilla.com^
 ||qt.biqugezw.com^
 ||quadia-nfs.s3-eu-west-1.amazonaws.com^
+||quadia.webtvframework.com^$badfilter
 ||quaerismedia.nl^
 ||qualifio.com^
 ||quality.seekda.com^
@@ -221513,6 +221521,7 @@ dlsdk.appsflyer.com^
 ||secretary.nl^
 ||secretmedia.s3.amazonaws.com^
 ||secure-chatsystem.com^
+||secure.avaaz.org.dbl.spamhaus.org^$badfilter
 ||secure.bomb5mild.com^
 ||secure.xsolla.com^
 ||securemetrics.v.aaplimg.com^
@@ -222040,7 +222049,6 @@ dlsdk.appsflyer.com^
 ||starleads.org^
 ||starmakerinteractive.com^
 ||starplay.nl^
-||starpopup.com^
 ||startpleintje.nl^
 ||startupdate.nl^
 ||startupfundingbook.com^
@@ -222783,7 +222791,6 @@ dlsdk.appsflyer.com^
 ||typenetwork.com^
 ||typography.com^
 ||tz-dsp.com^
-||tzbtw.com^
 ||u.63kc.com^
 ||u9pxeznuhf9p.mycopilot.com^
 ||uapi.siteground.com^
@@ -223199,7 +223206,6 @@ dlsdk.appsflyer.com^
 ||websolve.com^
 ||webstarts.com^
 ||webstatistiekenwaas.kb.nl^
-||webstats.cpvo.europa.eu^
 ||webstats.eesc.europa.eu^
 ||webstats.etf.europa.eu^
 ||webstats.liberale.de^
@@ -223255,7 +223261,6 @@ dlsdk.appsflyer.com^
 ||widget.getyourguide.com^
 ||widget.kapa.ai^
 ||widget.reviews.co.uk^
-||widget.shopstyle.com.au^
 ||widget.solarquotes.com.au^
 ||widget.trustpilot.com^
 ||widget.uservoice.com^
@@ -223369,7 +223374,6 @@ dlsdk.appsflyer.com^
 ||xctd.me^
 ||xender.cn^
 ||xgapromomanager-pa.googleapis.com^
-||xhbqczl.com^
 ||xhmrv.com^
 ||xhscdn.com^
 ||xhsxgmt.cn^
@@ -223409,7 +223413,6 @@ dlsdk.appsflyer.com^
 ||xmsqz.com^
 ||xmt.paze.com^
 ||xn--i2ru8q2qg.com^
-||xnjpg.com^
 ||xochicalco.edu.mx^
 ||xotto.de^
 ||xovis.com^
@@ -223520,7 +223523,6 @@ dlsdk.appsflyer.com^
 ||yuedu.iqiyi.com^
 ||yug8.com^
 ||yule.sohu.com^
-||yule8.net^
 ||yume.com^
 ||yun-chi.com^
 ||yun.lvehaisen.com^
@@ -223554,6 +223556,8 @@ dlsdk.appsflyer.com^
 ||zebrawin.de^
 ||zedge.net^
 ||zedrox.app^
+||zembla-bnnvara.cdn.prepr.io^$badfilter
+||zen.spamhaus.org^$badfilter
 ||zend-apps.com^
 ||zendrive.com^
 ||zentara-1.com^
@@ -223619,6 +223623,18 @@ dlsdk.appsflyer.com^
 ||zzbaowen.com^
 ||zzkko.com^
 ||zzpcentrale.nl^
+||tagging.centraalbeheer.nl^
+||collectie.centraalbeheer.nl^
+||surfly.com^
+||nxtlinq.io^
+||nxtid.tv^
+||tags.nmrc.nl^
+||localfocuswidgets.net^
+||api-engage-eu.sitecorecloud.io^
+||thisgreencolumn.com^
+||snowplow.bunq.com^
+||yellowtail.it^
+||marketxs.com^
 ||badv.wp.pl^
 ||emisjawidgeet.onet.pl^
 ||ads.edipresse.pl^
