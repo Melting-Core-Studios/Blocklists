@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.1878
+! Version: 1.1879
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-05-06T16:03:57.198Z
+! Last modified: 2026-05-06T17:48:19.856Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -56781,6 +56781,7 @@
 ||ads.centraliprom.com^
 ||ads.cgchannel.com^
 ||ads.chattyradio.com^
+||ads.chaturbate.com^
 ||ads.cheabit.com^
 ||ads.chriscaputo.com^
 ||ads.citymagazine.rs^
@@ -60730,7 +60731,6 @@
 ||analytics.pypestream.com^
 ||analytics.qiqiuyun.net^
 ||analytics.qr-code.io^
-||analytics.qr-generator.ai^
 ||analytics.qs-apps.com^
 ||analytics.qualtir.com^
 ||analytics.quantumworkplace.com^
@@ -63247,7 +63247,6 @@
 ||avsvmcloud.com^
 ||avthelkp.net^
 ||avuibxulygfyx.online^
-||avworld.lt.acemlnc.com^
 ||avxskbxkmtawx.space^
 ||avytybblrvweh.space^
 ||avzaqmaoryehd.website^
@@ -92372,7 +92371,6 @@
 ||malsux10.top^
 ||maltedsanxious.com^
 ||malthahooye.com^
-||maltiverse.lt.acemlnc.com^
 ||maltobiffing.cyou^
 ||malumtinier.shop^
 ||malwuv05.top^
@@ -94034,7 +94032,6 @@
 ||mimicbeeralb.com^
 ||mimicromax.com^
 ||mimidaebebat.cyou^
-||mimikacooney.acemlnc.com^
 ||mimilcnf.pro^
 ||mimiunprest.com^
 ||mimixiaoke.com^
@@ -212433,6 +212430,7 @@ dlsdk.appsflyer.com^
 ^webBehaviorTracking.min.js^
 ^webtrekk.js^
 ||*-gdprlock^
+||*.demdex.net^
 ||000dn.com^
 ||001union.com^
 ||00oo00.com^
@@ -213267,6 +213265,7 @@ dlsdk.appsflyer.com^
 ||accutics.net^
 ||acdn-prod-bsdce-ngcx-va.azureedge.net^
 ||acemlna.com^
+||acemlnc.com^
 ||acewebcontent.azureedge.net^
 ||acewebstatic.azureedge.net^
 ||acfeedbackws.icloud.com^
@@ -213648,6 +213647,7 @@ dlsdk.appsflyer.com^
 ||ai.bioon.com^
 ||ai.com^
 ||aiaibot.com^
+||aiaos.cn^
 ||aic-ngfts.lge.com^
 ||aicdn.com^
 ||aicydb.com^
@@ -213685,6 +213685,7 @@ dlsdk.appsflyer.com^
 ||aiwen.cc^
 ||aiyukeji.cn^
 ||aiyyo.site^
+||aiznshop.com^
 ||ajapk.com^
 ||ajaxcdn.org^
 ||ajhdf.com^
@@ -213730,6 +213731,7 @@ dlsdk.appsflyer.com^
 ||aliexpress.ru^
 ||alikunlun.com^
 ||alimama.com^
+||alimento.be^
 ||alipaylog.com^
 ||alisinak.com^
 ||alissl.ucdl.pp.uc.cn^
@@ -213930,6 +213932,7 @@ dlsdk.appsflyer.com^
 ||apachecon.com^
 ||apexlink.to^
 ||api-appsee.service-now.com^
+||api-engage-eu.sitecorecloud.io^
 ||api-game.meizu.com^
 ||api-jl-ma.global.ssl.fastly.net^
 ||api-jl.global.ssl.fastly.net^
@@ -214087,6 +214090,7 @@ dlsdk.appsflyer.com^
 ||arkadiumhosted.com^
 ||arkeero.com^
 ||arkheus.fr^
+||arklher.cn^
 ||armada.fr^
 ||armenia.su^
 ||armis.tech^
@@ -214775,6 +214779,7 @@ dlsdk.appsflyer.com^
 ||braze-images.com^
 ||brb.duolingo.com^
 ||breezometer.com^
+||brein-medicijn.nl^
 ||brevosend.com^
 ||brgm.fr^
 ||brick.global.ssl.fastly.net^
@@ -215219,7 +215224,6 @@ dlsdk.appsflyer.com^
 ||chatshipper.com^
 ||chatsimple.ai^
 ||chattyinsights.com^
-||chaturbate.com^
 ||chatwoot.com^
 ||chaty.app^
 ||cheapdrone.co.uk^
@@ -215491,6 +215495,7 @@ dlsdk.appsflyer.com^
 ||collect-eu-*.myhomescreen.tv^
 ||collect-prd-alb-539115803.eu-west-2.elb.amazonaws.com^
 ||collect.springer.com^
+||collectie.centraalbeheer.nl^
 ||collectionofbestporn.com^
 ||collectius.com^
 ||collector-px1uglztko.pxchk.net^
@@ -215772,6 +215777,7 @@ dlsdk.appsflyer.com^
 ||creatives.cliphunter.com^
 ||creatives.wetransfer.net^
 ||creativevirtual.com^
+||creatorcontacts.com^
 ||creatordb.app^
 ||credible.com^
 ||creditkarmacdn-a.akamaihd.net^
@@ -216283,7 +216289,6 @@ dlsdk.appsflyer.com^
 ||deltaprojects.com^
 ||delvenetworks.com^
 ||demandware.net^
-||*.demdex.net^
 ||denaamloterij.nl^
 ||deneitherapeut.nl^
 ||denkis.nl^
@@ -216805,11 +216810,11 @@ dlsdk.appsflyer.com^
 ||energymind.nl^
 ||engage.ticketmaster.com^
 ||engage.wixapps.net^
+||engageanalytics.com^
 ||engagebay.com^
 ||engagementboost.com^
 ||engageone.video^
 ||engageware.com^
-||engageanalytics.com^
 ||engine.lvehaisen.com^
 ||enhance.com^
 ||enki.com^
@@ -216864,6 +216869,7 @@ dlsdk.appsflyer.com^
 ||ess.apple.com^
 ||essential-apps.com^
 ||est-mon-blogueur.com^
+||estelnet.it^
 ||estimationrapide.fr^
 ||estimote.com^
 ||estrazionedellotto.it^
@@ -218421,6 +218427,7 @@ dlsdk.appsflyer.com^
 ||interwetten.de^
 ||intikkertje.nl^
 ||into.mix.com^
+||intoleads.nl^
 ||intrum.com^
 ||intsig.com^
 ||inventics.tech^
@@ -218743,6 +218750,7 @@ dlsdk.appsflyer.com^
 ||kairosfire.com^
 ||kalmykia.su^
 ||kalshi.com^
+||kanalisation.com^
 ||kankerhoeverder.nl^
 ||kansino.nl^
 ||kantar.be^
@@ -218776,6 +218784,7 @@ dlsdk.appsflyer.com^
 ||kervit.com^
 ||ketch.com^
 ||ketchcdn.com^
+||ketchupmail.com^
 ||keuzemenu.info^
 ||keyhole.co^
 ||keymaker.synology.com^
@@ -219146,6 +219155,7 @@ dlsdk.appsflyer.com^
 ||loadbee.com^
 ||local.mlcdn.com^
 ||localbitcoins.com^
+||localfocuswidgets.net^
 ||localguidesconnect.com^
 ||localize.uat.mywebsitebuilder.com^
 ||localizecdn.com^
@@ -219275,6 +219285,7 @@ dlsdk.appsflyer.com^
 ||lsxmg.com^
 ||lt45.net^
 ||lto-portal.ph^
+||ltspackcn.cn^
 ||luc.id^
 ||luciq.ai^
 ||lucky7casino.nl^
@@ -219429,6 +219440,7 @@ dlsdk.appsflyer.com^
 ||marketplacecontent.zoom.us^
 ||marketplan.io^
 ||marketresponse.nl^
+||marketxs.com^
 ||markitondemand.com^
 ||markteffect.nl^
 ||marleenneitherapie.nl^
@@ -219879,6 +219891,7 @@ dlsdk.appsflyer.com^
 ||nativeapp.toutiao.com^
 ||nativemedia.rs^
 ||naturamiele.it^
+||naturaroyal.com^
 ||natuurlijkbijmarianne.nl^
 ||natuurlijke-analyse.nl^
 ||natwaves.com^
@@ -219966,6 +219979,7 @@ dlsdk.appsflyer.com^
 ||newyork-company.com^
 ||nex-bridge3.com^
 ||nexd.com^
+||nexicom.net^
 ||nextday.media^
 ||nextlotto.de^
 ||nextmillennium.io^
@@ -220108,6 +220122,8 @@ dlsdk.appsflyer.com^
 ||nwwap.com^
 ||nxcli.io^
 ||nxtid.nl^
+||nxtid.tv^
+||nxtlinq.io^
 ||nyk.my.salesforce.com^
 ||nylottery.ny.gov^
 ||nyn-qigong.com^
@@ -220752,6 +220768,7 @@ dlsdk.appsflyer.com^
 ||pranagoodenergy.nl^
 ||prconsultancy.org^
 ||precisely.com^
+||precmec.com.br^
 ||predic.io^
 ||prefinery.com^
 ||preorder-now.herokuapp.com^
@@ -220822,6 +220839,7 @@ dlsdk.appsflyer.com^
 ||promote.biz.weibo.cn^
 ||promotional.storage.infomaniak.com^
 ||promotrades.com^
+||promotrades.nl^
 ||proofpoint.com^
 ||proprofs.com^
 ||proservices24.com^
@@ -220980,6 +220998,7 @@ dlsdk.appsflyer.com^
 ||qq61.com^
 ||qqm98.com^
 ||qqzu.com^
+||qr-generator.ai^
 ||qrco.de^
 ||qrcodekit.com^
 ||qrfy.com^
@@ -221260,6 +221279,7 @@ dlsdk.appsflyer.com^
 ||rocler.qc.ca^
 ||rod25.dk^
 ||roed25.dk^
+||rogerwebberlaw.com^
 ||rograc.com^
 ||roia.com^
 ||roihunter.com^
@@ -221406,6 +221426,7 @@ dlsdk.appsflyer.com^
 ||saito-tech.votted.net^
 ||saito.tech^
 ||sajari.com^
+||salecord.com^
 ||saledelivery.zone^
 ||salesforce-scrt.com^
 ||salesforceliveagent.com^
@@ -221817,6 +221838,7 @@ dlsdk.appsflyer.com^
 ||snov.io^
 ||snow001.com^
 ||snowflake.com^
+||snowplow.bunq.com^
 ||snowplow.gusto.com^
 ||snowplow.wetransfer.com^
 ||snowplowanalytics.com^
@@ -222228,6 +222250,7 @@ dlsdk.appsflyer.com^
 ||supplyframe.com^
 ||supportactie.nl^
 ||supportsrc.com^
+||surfly.com^
 ||surfmerchants.com^
 ||surfmerchants.net^
 ||surfplezier.nl^
@@ -222345,6 +222368,7 @@ dlsdk.appsflyer.com^
 ||tagdiv.com^
 ||tagembed.com^
 ||tagging.bergmanclinics.nl^
+||tagging.centraalbeheer.nl^
 ||tagging.elektrobode.nl^
 ||tagging.stas.nl^
 ||tagging.toeleveringonline.nl^
@@ -222355,6 +222379,7 @@ dlsdk.appsflyer.com^
 ||tagmanager.top^
 ||tags.nationwide.com^
 ||tags.natwest.com^
+||tags.nmrc.nl^
 ||tags.sendinblue.com^
 ||tagstra.com.au^
 ||taichionline.it^
@@ -222526,6 +222551,7 @@ dlsdk.appsflyer.com^
 ||think-online.nl^
 ||thinkific.com^
 ||thinkyeah.com^
+||thisgreencolumn.com^
 ||thisisdax.com^
 ||thordata.com^
 ||thoughtleadr.com^
@@ -223468,6 +223494,7 @@ dlsdk.appsflyer.com^
 ||yellowpages.com^
 ||yellowpages.pl^
 ||yellowpageseu.net^
+||yellowtail.it^
 ||yellowto.com^
 ||yengo.com^
 ||yext.com^
@@ -223623,18 +223650,13 @@ dlsdk.appsflyer.com^
 ||zzbaowen.com^
 ||zzkko.com^
 ||zzpcentrale.nl^
-||tagging.centraalbeheer.nl^
-||collectie.centraalbeheer.nl^
-||surfly.com^
-||nxtlinq.io^
-||nxtid.tv^
-||tags.nmrc.nl^
-||localfocuswidgets.net^
-||api-engage-eu.sitecorecloud.io^
-||thisgreencolumn.com^
-||snowplow.bunq.com^
-||yellowtail.it^
-||marketxs.com^
+||omjoqxofsxpo.in^
+||sentrypc.com^
+||demeuredelilerollet.com^
+||ilcorsaronero.info^
+||fllingtrainer.com^
+||kelassouf.com^
+||best10hiking.com^
 ||badv.wp.pl^
 ||emisjawidgeet.onet.pl^
 ||ads.edipresse.pl^
