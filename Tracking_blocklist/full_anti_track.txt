@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.1879
+! Version: 1.1880
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-05-06T17:48:19.856Z
+! Last modified: 2026-05-06T21:11:13.565Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -3068,6 +3068,7 @@
 ||creator.zmags.com^
 ||crta.dailymail.co.uk^
 ||cs.zg-api.com^
+||csi.gstatic.com^
 ||csp-reporting.cloudflare.com^
 ||csr.onet.pl^
 ||ct.corpusapp.com^
@@ -76411,6 +76412,7 @@
 ||email.jr-ranger.org^
 ||email.knck.io^
 ||email.lyftmail.com^
+||email.m.ghost.io^
 ||email.m.paymentworks.com^
 ||email.mail-app.lossfreerx.com^
 ||email.mail.courmacslegal.co.uk^
@@ -93465,6 +93467,7 @@
 ||metric.brightcove.com^
 ||metric.electronic4you.at^
 ||metric.enlauncher.online^
+||metric.gstatic.com^
 ||metric.hugoboss.com^
 ||metric.inetcore.com^
 ||metric.inner014.xyz^
@@ -212430,6 +212433,8 @@ dlsdk.appsflyer.com^
 ^webBehaviorTracking.min.js^
 ^webtrekk.js^
 ||*-gdprlock^
+||*.2o7.net^
+||*.adobetm.com^
 ||*.demdex.net^
 ||000dn.com^
 ||001union.com^
@@ -212511,7 +212516,6 @@ dlsdk.appsflyer.com^
 ||123doks.com^
 ||123fg-email.s3.amazonaws.com^
 ||123formbuilder.com^
-||123images.co^
 ||123moviesplayer.com^
 ||123rf.com^
 ||123rf.s3.amazonaws.com^
@@ -212616,8 +212620,6 @@ dlsdk.appsflyer.com^
 ||1kzh.com^
 ||1l1.cc^
 ||1l14d.fr^
-||1lib.education^
-||1lib.limited^
 ||1lib.to^
 ||1millionbot.com^
 ||1o9uu22xvmgf2vc35t1brkz8-wpengine.netdna-ssl.com^
@@ -212979,7 +212981,7 @@ dlsdk.appsflyer.com^
 ||7eb5opl.x.incapdns.net^
 ||7graus.com^
 ||7kkxxzr.x.incapdns.net^
-||7movierulz.lt^
+||7movierulz.it^
 ||7no9.net^
 ||7pass.de^
 ||7tocz3x9zff1rsymt3uo0j3f-wpengine.netdna-ssl.com^
@@ -213047,8 +213049,6 @@ dlsdk.appsflyer.com^
 ||987967.xyz^
 ||99lolo.com^
 ||9a7f6a3c-8431-438c-89d9-90924a59e618.akamaized.net^
-||9ads.net^
-||9cache.com^$badfilter
 ||9eriz.x.incapdns.net^
 ||9gtb.com^
 ||9gti.com^
@@ -213063,7 +213063,6 @@ dlsdk.appsflyer.com^
 ||a-kmtkmg.net^
 ||a-lehdet.fi^
 ||a-mpd.com^
-||a-msedge.net^$badfilter
 ||a.80982.org^
 ||a.agoradesk.com^
 ||a.apkpure.com^
@@ -213215,7 +213214,6 @@ dlsdk.appsflyer.com^
 ||abrfestival.com^
 ||abrye.com^
 ||abschied.b-cdn.net^
-||absoluteroute.com^
 ||abstractapi.com^
 ||abtesting.ai^
 ||abv.bg^
@@ -213240,7 +213238,6 @@ dlsdk.appsflyer.com^
 ||acceptcrypto.io^
 ||access.njherald.com^
 ||access.parallels.com^
-||accessban.com^
 ||accessdubuque.com^
 ||accessibility-spark.herokuapp.com^
 ||accessibilityinsights.io^
@@ -213449,7 +213446,6 @@ dlsdk.appsflyer.com^
 ||adobe-campaign.com^
 ||adobe-dns.adobe.com^
 ||adobe.net^
-||adobedtm.com^
 ||adobeioruntime.net^
 ||adobetarget.com^
 ||adobetm.com^
@@ -214123,6 +214119,7 @@ dlsdk.appsflyer.com^
 ||askyourself.app^
 ||aspire.io^
 ||assertcom.de^
+||assets.adobedtm.com^
 ||assets.adsttc.com^
 ||assets.easou.com^
 ||assets.reviews.io^
@@ -214483,6 +214480,7 @@ dlsdk.appsflyer.com^
 ||besoinactuel.fr^
 ||besparingennu.nl^
 ||best-server.xyz^
+||best10hiking.com^
 ||bestand.info^
 ||bestappsale.com^
 ||beste.nl^
@@ -215531,6 +215529,7 @@ dlsdk.appsflyer.com^
 ||comm100.io^
 ||commbox.io^
 ||comments-api.i.bt.no^
+||commerce.adobedtm.com^
 ||commerce.coinbase.com^
 ||commoninja.com^
 ||commonroom.io^
@@ -216289,6 +216288,7 @@ dlsdk.appsflyer.com^
 ||deltaprojects.com^
 ||delvenetworks.com^
 ||demandware.net^
+||demeuredelilerollet.com^
 ||denaamloterij.nl^
 ||deneitherapeut.nl^
 ||denkis.nl^
@@ -217126,6 +217126,7 @@ dlsdk.appsflyer.com^
 ||flipp.com^
 ||flippback.com^
 ||flipperkast.nl^
+||fllingtrainer.com^
 ||float.kankan.com^
 ||flockler.com^
 ||flocktory.com^
@@ -217543,7 +217544,7 @@ dlsdk.appsflyer.com^
 ||ggxt.net^
 ||ghbtns.com^
 ||ghisler.com^
-||ghost.io^
+||ghost.io^$badfilter
 ||giantin.com^
 ||gif.barclaycardus.com^
 ||gifty.nl^
@@ -217704,7 +217705,7 @@ dlsdk.appsflyer.com^
 ||grytics.com^
 ||gsi-one.org^
 ||gsk.com^
-||gstatic.com^
+||gstatic.com^$badfilter
 ||gsv.de^
 ||gtcartographic.co.uk^
 ||gthub.com^
@@ -218229,6 +218230,7 @@ dlsdk.appsflyer.com^
 ||iii.6park.com^
 ||iili.io^
 ||ijoycig.com^
+||ilcorsaronero.info^
 ||illow.io^
 ||ilumy.com^
 ||im.cyberport.de^
@@ -218777,6 +218779,7 @@ dlsdk.appsflyer.com^
 ||keepaneye.mk^
 ||keitaro.io^
 ||kejet.com^
+||kelassouf.com^
 ||kele4.com^
 ||kelkoogroup.net^
 ||ker.pic2pic.site^
@@ -220211,6 +220214,7 @@ dlsdk.appsflyer.com^
 ||omaze.com^
 ||omegatheme.com^
 ||omg.nl^
+||omjoqxofsxpo.in^
 ||ommerautomaten.nl^
 ||omnidesk.io^
 ||omnisendlink.com^
@@ -221604,6 +221608,7 @@ dlsdk.appsflyer.com^
 ||sentry.svc.tfw.io^
 ||sentry.uncinc.nl^
 ||sentry.voipgrid.nl^
+||sentrypc.com^
 ||seopult.ru^
 ||seosmarty.com^
 ||seramail.nl^
@@ -223650,13 +223655,6 @@ dlsdk.appsflyer.com^
 ||zzbaowen.com^
 ||zzkko.com^
 ||zzpcentrale.nl^
-||omjoqxofsxpo.in^
-||sentrypc.com^
-||demeuredelilerollet.com^
-||ilcorsaronero.info^
-||fllingtrainer.com^
-||kelassouf.com^
-||best10hiking.com^
 ||badv.wp.pl^
 ||emisjawidgeet.onet.pl^
 ||ads.edipresse.pl^
