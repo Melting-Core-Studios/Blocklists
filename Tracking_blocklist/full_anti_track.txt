@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.1885
+! Version: 1.1886
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-05-07T13:57:20.367Z
+! Last modified: 2026-05-07T21:56:52.773Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -129564,6 +129564,7 @@
 ||api2.okanjo.com^
 ||track.omgpl.com^
 ||static.omnilocal.ai^
+||click.oneplus.com^
 ||max-files.oupeng.com^
 ||oumax.oupeng.com^
 ||sadc1.outbrain.org^
@@ -168106,6 +168107,7 @@
 ||ammja.victoriabeckham.com^
 ||ankpt.theproteinworks.com^
 ||antge.eternallightco.com^
+||apaff.oneplus.com^
 ||aphtn.dsw.ca^
 ||aqczs.footlocker.co.nz^
 ||aqmra.millets.co.uk^
@@ -213525,7 +213527,6 @@ dlsdk.appsflyer.com^
 ||9165619.com^
 ||91adv.com^
 ||91bjav.com^
-||91mobiles.com^
 ||91ysa.com^
 ||91zgm.com^
 ||92-zumospin.com^
@@ -220739,8 +220740,6 @@ dlsdk.appsflyer.com^
 ||onenessconcept.com^
 ||onenessqigong.com^
 ||oneplus.cn^
-||oneplus.com^
-||oneplus.in^
 ||oneplus.net^
 ||onesignal.com^
 ||onesports.nl^
@@ -222586,7 +222585,7 @@ dlsdk.appsflyer.com^
 ||static.g.ppstream.com^
 ||static.hsappstatic.net^
 ||static.ichehome.com^
-||static.intercomassets.com^
+||static.intercomassets.com^$badfilter
 ||static.kinghost.com^
 ||static.off.mk^
 ||static.onefootball.com^
@@ -223187,6 +223186,7 @@ dlsdk.appsflyer.com^
 ||trackonomics.net^
 ||tracxn.com^
 ||trader.olxgroup.com^
+||tradetracker.com^
 ||trading212.com^
 ||trafficguard.ai^
 ||trafficmp.com^
@@ -223478,8 +223478,8 @@ dlsdk.appsflyer.com^
 ||vanadengage.com^
 ||vaninfo.nl^
 ||vantevo.io^
-||variations.brave.com^
-||variations.bravesoftware.com^
+||variations.brave.com^$badfilter
+||variations.bravesoftware.com^$badfilter
 ||varify.io^
 ||varnish.qualifioapp.com^
 ||vas.funshion.com^
