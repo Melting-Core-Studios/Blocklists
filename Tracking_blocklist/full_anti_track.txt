@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.1903
+! Version: 1.1904
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-05-11T06:38:52.032Z
+! Last modified: 2026-05-11T10:38:16.797Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -4389,6 +4389,7 @@
 ||analyticsapi.qogita.com^
 ||anon-stats.eff.org^
 ||api-hotmart-tracking-manager.hotmart.com^
+||apm.qwant.com^
 ||appanalysis.banggood.com^
 ||aptoide-mmp.aptoide.com^
 ||asanalytics.booking.com^
@@ -4508,6 +4509,7 @@
 ||dc.banggood.com^
 ||dd.auspost.com.au^
 ||dd.nytimes.com^
+||dd.qwant.com^
 ||dd.viator.com^
 ||ddome-tag.blablacar.com^
 ||df.infra.shopee.
@@ -63555,7 +63557,6 @@
 ||apm-native.xiaohongshu.com^
 ||apm-rum.sae.systems^
 ||apm.eu-west-1.aws.found.io^
-||apm.qwant.com^
 ||apm.suning.cn^
 ||apm.us-east-1.aws.found.io^
 ||apm.us-west-2.aws.found.io^
@@ -74667,7 +74668,6 @@
 ||dd.gruppomol.it^
 ||dd.hypedc.com^
 ||dd.iask.cn^
-||dd.qwant.com^
 ||dd.reuters.com^
 ||dd.sncf-connect.com^
 ||dd.sriracha.site^
@@ -163175,6 +163175,7 @@
 ||t.dripemail2.com^
 ||trk.klclick2.com^
 ||trk.klclick3.com^
+||clicks.njuskalo.hr^
 ||mix2ads.com^
 ||popunhot1.blogspot.com^
 ||t.co^
