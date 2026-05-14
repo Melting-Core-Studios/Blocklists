@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1551
+! Version: 1.1552
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-05-14T06:22:17.720Z
+! Last modified: 2026-05-14T09:32:52.372Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -2277,7 +2277,6 @@ solasto-career.com##div[class^="css-"] > div[class^="css-"]:has(> div > p > butt
 kino.tricolor.tv##.film-share
 militarywatchmagazine.com##.row > div.d-flex:has(> span.share-network-facebook)
 newtalk.tw###shareButton_pc
-winaero.com##.illa
 heypoorplayer.com##.td-social-box-share
 mediazonaby.com##.js-share-pull
 feebee.com.tw##.share_module
@@ -22189,6 +22188,7 @@ lataco.com##ul[class^="SocialSharing_"]
 dailymail.co.uk,thisismoney.co.uk##ul[class^="linksHolder-"]
 netwerk24.com,news24.com,son.co.za##.article--top-bar-right:has(.social-sharing)
 foxnews.com##.article-meta-lower:has(.article-social)
+pubs.rsc.org##.fixpadb--xl.c--gap-xs.c:has(.btn--social)
 ms.now##.wp-block-group p:has(Share this)
 abc.net.au#?#.Button_root__UZ8td:has-text(Share)
 appleinsider.com#?#.col-xs-12 > div:has-text(Follow AppleInsider)
