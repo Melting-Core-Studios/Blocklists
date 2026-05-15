@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1556
+! Version: 1.1557
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-05-15T11:54:03.245Z
+! Last modified: 2026-05-15T13:56:17.665Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -9278,7 +9278,7 @@ designboom.com,livescience.com,pbtech.co.nz,peoplesworld.org,space.com##.fa-face
 ~facebook.com##a[href^="https://m.facebook.com/sharer.php"]
 ~plus.google.com##a[href^="https://plus.google.com/share"]
 ~google.com##a[href*="//plusone.google.com/_/+1/confirm?"]
-##a[href^="https://share.flipboard.com/bookmarklet/"]
+##a[href*="https://share.flipboard.com/bookmarklet/"]
 ~yandex.ru##a[href^="https://share.yandex.net/go.xml?service="]
 ~minutouno.com,~facebook.com##a[href^="https://www.facebook.com/dialog/feed?"]
 ~facebook.com##a[href^="https://www.facebook.com/sharer.php"]
@@ -20438,6 +20438,7 @@ nascar.ca###article-social-icons
 scoop.co.nz###article-tools
 dailymail.co.uk###articleIconLinksContainer
 fastcompany.com###article_share_button
+fastcompany.com###article_share_google_icon
 theepochtimes.com###article_top_right_share_btn
 attitude.co.uk###att-unique-wrapper-2026
 bleedingcool.com###bc_sharing_is_caring
