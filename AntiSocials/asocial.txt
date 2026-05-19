@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1570
+! Version: 1.1571
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-05-19T08:26:11.994Z
+! Last modified: 2026-05-19T12:00:47.359Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -368,6 +368,8 @@ esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israel
 esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israelnationalnews.com,lifehacker.com,cgmagonline.com,gizmodo.com,gamerevolution.com,metro.co.uk,thurrott.com,stereogum.com,ign.com,newsweek.com,dailymail.co.uk,comingsoon.net,timesofisrael.com,nypost.com,9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,electrek.co#%#//scriptlet('remove-in-shadow-dom', 'div[data-spot-im-class="vote-links"] + span[class$="index__dot"]')
 cogconnected.com,echofm.online,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com##.comment__share > *
 cogconnected.com,echofm.online,antirez.com,comicbook.com,alexp.pl,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com###thread-share-bar
+hme.tw##ul[class^="SocialMediaIconList-"]
+hme.tw##div[class^="CenterSocialMediaIconListContainer-"]
 bhg.com.au##.express-follow-social-links
 barefootcontessa.com##.EntryPostTop__soc-header
 barefootcontessa.com##.EntryPost > .container ul:has(> li.inline-block > a.soc-a)
@@ -20382,6 +20384,7 @@ dailymail.co.uk###articleIconLinksContainer
 fastcompany.com###article_share_button
 fastcompany.com###article_share_google_icon
 theepochtimes.com###article_top_right_share_btn
+news18.com###artshare
 attitude.co.uk###att-unique-wrapper-2026
 bleedingcool.com###bc_sharing_is_caring
 weisradio.com###block-37
@@ -20996,6 +20999,7 @@ sfist.com##.floating-header-share
 publicnewsservice.org##.floating-nav
 nypost.com##.floating-share
 nypost.com##.floating-share-wrap
+news18.com##.flw
 chalkbeat.org##.follow
 sportskeeda.com##.follow-action
 thedirect.com##.follow-bar
@@ -21114,7 +21118,7 @@ phonearena.com##.gnews-wrapper
 phonearena.com##.gnews-wrapper-down
 oneindia.com##.goog-one-news
 militarywatchmagazine.com##.google--text
-bringmethenews.com,thehindu.com##.google-btn
+bringmethenews.com,news18.com,thehindu.com##.google-btn
 responsiblestatecraft.org##.google-cta
 responsiblestatecraft.org##.google-cta-infy
 dailyartmagazine.com##.google-feed-row
@@ -21292,6 +21296,7 @@ thejournal.ie##.metadata-csp-comments-share-container
 cryptoreporter.info##.mh-share-buttons
 businessinsider.com##.mi-logo-social-container
 sportsnet.ca##.micro_social-icons__E_pIu
+news18.com##.midgprfd
 washingtonian.com##.min-height-800
 travelandleisure.com##.mntl-footer__social
 thehackernews.com##.mobile-share
@@ -21767,7 +21772,7 @@ dailysabah.com,gmanetwork.com,pnn.ps##.social_media
 web3cafe.in##.social_media_link
 greenbot.com##.social_panel
 unn.ua##.social_root__H2cRW
-abplive.com,almayadeen.net,businesstoday.in,catracalivre.com.br,gamesindustry.biz,ilmeteo.it##.social_share
+abplive.com,almayadeen.net,businesstoday.in,catracalivre.com.br,gamesindustry.biz,ilmeteo.it,news18.com##.social_share
 venturebanc.com##.social_share_buttons
 outlookindia.com##.social_sharing_article
 foodsforbetterhealth.com##.social_top_bar
