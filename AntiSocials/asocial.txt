@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1577
+! Version: 1.1578
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-05-20T05:03:22.910Z
+! Last modified: 2026-05-20T08:33:02.656Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -368,6 +368,7 @@ esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israel
 esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israelnationalnews.com,lifehacker.com,cgmagonline.com,gizmodo.com,gamerevolution.com,metro.co.uk,thurrott.com,stereogum.com,ign.com,newsweek.com,dailymail.co.uk,comingsoon.net,timesofisrael.com,nypost.com,9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,electrek.co#%#//scriptlet('remove-in-shadow-dom', 'div[data-spot-im-class="vote-links"] + span[class$="index__dot"]')
 cogconnected.com,echofm.online,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com##.comment__share > *
 cogconnected.com,echofm.online,antirez.com,comicbook.com,alexp.pl,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com###thread-share-bar
+foerde.news###socialTeaser
 alternathistory.ru##.share-link-image.fb
 alternathistory.ru##.share-link-image.tw
 alternathistory.ru##.share-link-image.pn
@@ -20415,6 +20416,7 @@ butterwithasideofbread.com###aboutsocial
 torrentsafe.com###addthisimage
 9to5google.com,9to5mac.com,dronedj.com,electrek.co###after_disclaimer_placement
 hot-dinners.com###ampz_inline_top
+autonocion.com###an-gfollow-wrap
 physics.aps.org###aps-share-widget
 cepr.net###art-social-wrap
 houstonpublicmedia.org,iclnoticias.com.br###article-share
@@ -20763,6 +20765,8 @@ thespectator.com##.article_set_wrap
 news9live.com##.article_socialShare
 news18.com##.article_socials
 news18.com##.artshare
+insider-gaming.com##.aspect-1660-250
+insider-gaming.com##.aspect-400-600
 telegraphindia.com##.astkysharebox
 batman-news.com##.astra-widget-social-profiles
 attitude.co.uk##.at-article__social
