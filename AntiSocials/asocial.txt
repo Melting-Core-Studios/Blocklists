@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1579
+! Version: 1.1580
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-05-20T11:48:37.519Z
+! Last modified: 2026-05-20T14:51:36.078Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -21722,6 +21722,7 @@ tmz.com##.social-item
 videocardz.com##.social-item-mail
 videocardz.com##.social-item-media
 knewz.com,revolvermag.com##.social-items
+psychologytoday.com##.social-links-bottom
 afro.com,berlin-live.de,elsol.com.ar,hongkongfp.com,investigatemidwest.org,lafocusnews.com,ourweekly.com,theatlantavoice.com,washingtoncitypaper.com,washingtonmonthly.com##.social-links-menu
 complex.com##.social-links-top
 bidfood.nl,businesspost.ie##.social-links-wrapper
