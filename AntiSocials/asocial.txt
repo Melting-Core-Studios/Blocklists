@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1582
+! Version: 1.1583
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-05-21T05:08:59.394Z
+! Last modified: 2026-05-21T12:45:01.308Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -368,6 +368,7 @@ esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israel
 esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israelnationalnews.com,lifehacker.com,cgmagonline.com,gizmodo.com,gamerevolution.com,metro.co.uk,thurrott.com,stereogum.com,ign.com,newsweek.com,dailymail.co.uk,comingsoon.net,timesofisrael.com,nypost.com,9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,electrek.co#%#//scriptlet('remove-in-shadow-dom', 'div[data-spot-im-class="vote-links"] + span[class$="index__dot"]')
 cogconnected.com,echofm.online,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com##.comment__share > *
 cogconnected.com,echofm.online,antirez.com,comicbook.com,alexp.pl,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com###thread-share-bar
+rclone.org##.col-sidebar > div.card:has(> div.card-body > div.menu > a[href^="https://facebook.com/sharer/sharer.php?"])
 substack.com#?#button:has(> .label:contains(Share))
 foerde.news###socialTeaser
 alternathistory.ru##.share-link-image.fb
@@ -3194,7 +3195,7 @@ eg.ru##div[onclick^="sh1("]
 popcake.tv##.telegram_banner
 monavista.ru##.fyadzen
 e.infogram.com##.ig-share-button
-sportmail.ru,mail.ru,enthub.it,travel.yandex.ru,teletype.in##button[title="Поделиться"]
+zvuch.com,sportmail.ru,mail.ru,enthub.it,travel.yandex.ru,teletype.in##button[title="Поделиться"]
 kleinanzeigen.de##.j-share-ad
 letsjerk.tv,veporn.com##.share_rate
 fashionmodeldirectory.com##.SocialMediaStrip
@@ -6461,7 +6462,7 @@ ot.gr,techspot.com,ivg.it##.social-column
 filing.pl##div[class="like hidemobile"]
 polityka.pl##.cg_article_toolbox_share
 dicionariocriativo.com.br,pciconcursos.com.br,oantagonista.uol.com.br,otempo.com.br##.compartilhar
-muzofond.fm##.shared_buttons
+zvuch.com,muzofond.fm##.shared_buttons
 canarymedia.com,kioskla.co##button[data-sharer]
 nbcnews.com,thestar.com,steemit.com##.shareMenu
 kinomania.ru##.pagelist-social
@@ -7290,6 +7291,7 @@ incrussia.ru##.banner-links
 yeniasir.com.tr##.detail-social > ul > li > a[data-type="facebook"]
 yeniasir.com.tr##.detail-social > ul > li > a[data-type="twitter"]
 dailysabah.com##.navSocial
+gingyshop.it,coursecouponclub.com,geekhacker.ru,bestcouponhunter.com,ufficiospettacoli.it##.share-link-image
 rossaprimavera.ru##.share_tool
 m.cyber.sports.ru,m.sports.ru##.b-social-buttons
 coub.com##.story__sharing-dropdown
