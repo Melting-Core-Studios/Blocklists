@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.1956
+! Version: 1.1957
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-05-24T02:49:09.771Z
+! Last modified: 2026-05-24T06:38:11.455Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -3260,6 +3260,7 @@
 ||event-listener.air.tv^
 ||event-logger.tagboard.com^
 ||event-service.letslinc.com^
+||event-tracker.inditex.com^
 ||event.syndigo.cloud^
 ||eventapi.libring.com^
 ||eventcollector.mcf-prod.a.intuit.com^
@@ -79780,7 +79781,6 @@
 ||event-storage.netmonet.co^
 ||event-track.airbridge.io^
 ||event-tracker-api.kredivo.com^
-||event-tracker.inditex.com^
 ||event-tracking-services.global.commerce-connector.com^
 ||event-tracking.deliverr.com^
 ||event-tracking.samsung.com^
