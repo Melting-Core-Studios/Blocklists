@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1594
+! Version: 1.1595
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-05-25T14:47:11.614Z
+! Last modified: 2026-05-25T19:24:39.032Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -367,6 +367,7 @@ esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israel
 esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israelnationalnews.com,lifehacker.com,cgmagonline.com,gizmodo.com,gamerevolution.com,metro.co.uk,thurrott.com,stereogum.com,ign.com,newsweek.com,dailymail.co.uk,comingsoon.net,timesofisrael.com,nypost.com,9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,electrek.co#%#//scriptlet('remove-in-shadow-dom', 'div[data-spot-im-class="vote-links"] + span[class$="index__dot"]')
 cogconnected.com,echofm.online,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com##.comment__share > *
 cogconnected.com,echofm.online,antirez.com,comicbook.com,alexp.pl,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com###thread-share-bar
+unian.ua##.social-btn-bottom
 tntsports.co.uk##div[data-testid="article-social-section"]
 barstoolsports.com##.storyMeta__right > div > button
 turkiyegazetesi.com.tr##.article-sp-share
@@ -1978,7 +1979,7 @@ onlytech.com,nejm.org##ul > li:has(> a[aria-label="Share"])
 articles.sk,zh.singlelogin.re##z-social-sharing
 travelrussia.ru##.articles-footer > div.articles-footer__item:has(> div.articles-footer__socials)
 dailycaller.com##.flex:has(> li > button[aria-label="share on Facebook"])
-overlord-anime.com##.navi-share
+rbc.ua,overlord-anime.com##.navi-share
 championsleague.basketball##div[data-contentful-field-id="body"] > div[class]:has(> button > span > svg > path[d^="M13 14H11C7.54202 14 4.53953 15.9502"])
 interestingengineering.com##li[class^="socialShare_"][class*="share_item"]
 mynet.com##.interaction-icons.interaction-icons-share
@@ -5057,7 +5058,7 @@ gol.ru##.material-content-header-sharing
 dive-anime.com,kamisama-day.jp##.nav_share
 manga.line.me##.mdMNG01Share
 tascam.com,esoteric.jp,tascam.jp,teac.co.jp,teac.jp,neg.by,karnaval.com##.share_container
-tsn.ua,delo.ua##.c-post__share
+lviv.media,tsn.ua,delo.ua##.c-post__share
 driveplaza.com##.c-shareList
 mbn.co.kr##.sns_right > ul > li > img[onclick^="snsShare"]
 mbn.co.kr##.sns_right > ul > li > a[href] > img[id="share_katalk"]
