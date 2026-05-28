@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1602
+! Version: 1.1603
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-05-28T06:54:10.240Z
+! Last modified: 2026-05-28T10:54:13.817Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -369,6 +369,8 @@ esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israel
 esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israelnationalnews.com,lifehacker.com,cgmagonline.com,gizmodo.com,gamerevolution.com,metro.co.uk,thurrott.com,stereogum.com,ign.com,newsweek.com,dailymail.co.uk,comingsoon.net,timesofisrael.com,nypost.com,9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,electrek.co#%#//scriptlet('remove-in-shadow-dom', 'div[data-spot-im-class="vote-links"] + span[class$="index__dot"]')
 cogconnected.com,echofm.online,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com##.comment__share > *
 cogconnected.com,echofm.online,antirez.com,comicbook.com,alexp.pl,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com###thread-share-bar
+wargamer.com##span[data-title="Join the Wargamer community"]
+wargamer.com##.sidebar-social-widget
 defence-ua.com#?#.sidebar > .section-title:contains(Ми у соцмережах)
 dailylviv.com##div.description > p:has(> font > a[href="https://t.me/dailylviv"])
 day.kyiv.ua##.a2a_button_facebook
@@ -1140,7 +1142,7 @@ operanewsapp.com##.horizontal-share-box
 diyanethaber.com.tr,aydinkulis.com##body .mobile-share-button-container
 gmx.net,web.de##.content__share
 colegialacasero.com##.lst-shr
-zonatmo.com##div.text-center:has(> a.social-share)
+zonatmo.to##div.mt-3.text-center:has(a.social-share-btn)
 haberler.com###share-whatsapp
 finalroundai.com##.blog-post5-content_share
 motortrend.com##div[aria-label="Share"]

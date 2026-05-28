@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.1968
+! Version: 1.1969
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-05-28T02:44:02.180Z
+! Last modified: 2026-05-28T10:56:00.339Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -157562,7 +157562,6 @@
 ||ads.h2porn.com^
 ||adv.h2porn.com^
 ||adv.freepornvs.com^
-||webiq005.webiqonline.com^
 ||www.netpoll.nl^
 ||ntkrnlpa.info^
 ||s01-delivery.addynamo.net^
@@ -166018,10 +166017,12 @@
 ||t.dripemail2.com^
 ||trk.klclick2.com^
 ||trk.klclick3.com^
+||adktrack.124.xyz^
 ||c.apple.com^
 ||popunhot1.blogspot.com^
 ||remox.com^
 ||t.co^
+||webiqonline.com^
 ||marcuscash.one^
 ||mod.leftnewsex.com^
 ||kujsc5.ru^
