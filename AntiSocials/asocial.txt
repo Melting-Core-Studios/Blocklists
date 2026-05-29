@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1608
+! Version: 1.1609
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-05-29T10:44:10.012Z
+! Last modified: 2026-05-29T13:57:56.637Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -368,6 +368,7 @@ esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israel
 esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israelnationalnews.com,lifehacker.com,cgmagonline.com,gizmodo.com,gamerevolution.com,metro.co.uk,thurrott.com,stereogum.com,ign.com,newsweek.com,dailymail.co.uk,comingsoon.net,timesofisrael.com,nypost.com,9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,electrek.co#%#//scriptlet('remove-in-shadow-dom', 'div[data-spot-im-class="vote-links"] + span[class$="index__dot"]')
 cogconnected.com,echofm.online,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com##.comment__share > *
 cogconnected.com,echofm.online,antirez.com,comicbook.com,alexp.pl,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com###thread-share-bar
+promokodus.com##.coupon-share-but
 mequrimequru.jp##.c-shareParts
 mequrimequru.jp##.c-followShareBox
 serbestiyet.com##.single-post-share-btn
@@ -1541,7 +1542,7 @@ microsoft.com##div[data-bi-an="social-share"]
 meetup.com##.flex:has(> ul > li > button > div#share-facebook-in-GroupHome)
 discogs.com##.side__gnpk > .wrapper_Ixres
 akomnews.com##.quick_menu > li:not(:has(> div > i.font_icon))
-androidpolice.com,makeuseof.com,collider.com,cbr.com,howtogeek.com,thegamer.com,hardcoregamer.com,gamerant.com,screenrant.com###sharingButtonPopup
+pocket-lint.com,androidpolice.com,makeuseof.com,collider.com,cbr.com,howtogeek.com,thegamer.com,hardcoregamer.com,gamerant.com,screenrant.com###sharingButtonPopup
 dota2.ru##a[href^="//t.me/share/"]
 championat.com,comments.rambler.ru##button[data-comments$="share_popup"]
 la-razon.com##.lr-share-block
