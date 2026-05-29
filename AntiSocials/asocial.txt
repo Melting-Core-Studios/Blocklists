@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1609
+! Version: 1.1610
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-05-29T13:57:56.637Z
+! Last modified: 2026-05-29T17:33:39.840Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -4797,7 +4797,7 @@ masrawy.com##.articleSocialMedia
 zahav.ru###center > script ~ div > button:empty
 suspilne.media##.c-article-info-share
 digiday.jp##.single-post-sharing
-sm.news,kun.uz,defence-ua.com,war.ukraine.ua##.share-news
+firtka.if.ua,sm.news,kun.uz,defence-ua.com,war.ukraine.ua##.share-news
 air-nifty.com,cocolog-nifty.com,moe-nifty.com,tea-nifty.com,txt-nifty.com,way-nifty.com##.socialPlug
 okdiario.com###native-addthis
 f5haber.com##.col-md-5 .social-icons
@@ -5983,7 +5983,7 @@ freeones.com##.share-modal-title
 grupormultimedio.com,slantmagazine.com,tarnow.ikc.pl##.single-component-share
 nba.com##.stats-share-button
 timgate.it##.cdi-social-container
-tygodniksiedlecki.com,dziennikelblaski.pl,gazetaolsztynska.pl,bokumachi-anime.com,kaiju-no8.net,mdzol.com,adrenaline.com.br##.news__share
+redactie24.be,tygodniksiedlecki.com,dziennikelblaski.pl,gazetaolsztynska.pl,bokumachi-anime.com,kaiju-no8.net,mdzol.com,adrenaline.com.br##.news__share
 mid-day.com##.social-sharing-post-txt ul.social-icons-inline
 ||player.daznservices.com/player/releases/v*/unfilled/share.chunk.js$domain=goal.com
 lsm.lv##.share-caption
