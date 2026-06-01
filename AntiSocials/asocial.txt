@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1616
+! Version: 1.1617
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-06-01T17:29:47.671Z
+! Last modified: 2026-06-01T21:28:20.691Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -368,6 +368,9 @@ esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israel
 esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israelnationalnews.com,lifehacker.com,cgmagonline.com,gizmodo.com,gamerevolution.com,metro.co.uk,thurrott.com,stereogum.com,ign.com,newsweek.com,dailymail.co.uk,comingsoon.net,timesofisrael.com,nypost.com,9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,electrek.co#%#//scriptlet('remove-in-shadow-dom', 'div[data-spot-im-class="vote-links"] + span[class$="index__dot"]')
 cogconnected.com,echofm.online,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com##.comment__share > *
 cogconnected.com,echofm.online,antirez.com,comicbook.com,alexp.pl,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com###thread-share-bar
+lectortmoo.com#$#.ztgi-modal { display: none !important; }
+lectortmoo.com#$#html { overflow: auto !important; }
+frontstretch.com##.widget_block:has(> .wp-block-social-links)
 racingnews365.com##.js-share-page
 konhaber.com##div.flex:has(> a#share-twitter)
 the-scientist.com##div[id^="content-"] .flex-col-reverse > .flex-col > span:has(+ .share-buttons)
@@ -5984,7 +5987,7 @@ pixiv.net##div[style^="bottom: "] > div.rounded-24
 dic.pixiv.net,en-dic.pixiv.net###dynamic-biron
 dic.pixiv.net###share_article_touch
 ||numero.wiki/s/share-desktop.png
-highload.today,mc.today##.social-share-yellow
+highload.tech,mc.today##.social-share-yellow
 polsat.pl##.content-full > a.comments-facebook
 softreview.ucoz.ru##div[align="center"] > a[onclick*="encodeURIComponent"]
 freeones.com##.share-modal-title
@@ -7543,7 +7546,7 @@ schnelle-online.info,gooool.org##.socialb
 itremont.info,autogrodno.by,planet-today.ru##div[id^="jlvkgroup"]
 m.gsmarena.com##.share-buttons > a[class*="-share-button"]
 shop.spreadshirt.com##div[id^="socialShare-"]
-hololivepro.com,m.etnews.com,rose.marv.jp,khan.co.kr##.share_wrap
+apk.dog,hololivepro.com,m.etnews.com,rose.marv.jp,khan.co.kr##.share_wrap
 abplive.com,wccftech.com,history.com,refinery29.com,politico.com##.story-share
 robtex.com##.soctop
 realnoevremya.ru##.colorShareBtn
