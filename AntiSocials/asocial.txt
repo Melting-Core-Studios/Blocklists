@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1618
+! Version: 1.1619
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-06-02T07:29:32.803Z
+! Last modified: 2026-06-02T12:03:51.055Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -368,6 +368,9 @@ esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israel
 esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israelnationalnews.com,lifehacker.com,cgmagonline.com,gizmodo.com,gamerevolution.com,metro.co.uk,thurrott.com,stereogum.com,ign.com,newsweek.com,dailymail.co.uk,comingsoon.net,timesofisrael.com,nypost.com,9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,electrek.co#%#//scriptlet('remove-in-shadow-dom', 'div[data-spot-im-class="vote-links"] + span[class$="index__dot"]')
 cogconnected.com,echofm.online,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com##.comment__share > *
 cogconnected.com,echofm.online,antirez.com,comicbook.com,alexp.pl,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com###thread-share-bar
+robota.ua##alliance-social-block
+rugbypass.com##.mobile-share
+efsyn.gr##.nav-list--icons:has(> li.nav-item > a[href^="https://www.facebook.com/sharer/sharer.php?"])
 lectortmoo.com#$#.ztgi-modal { display: none !important; }
 lectortmoo.com#$#html { overflow: auto !important; }
 frontstretch.com##.widget_block:has(> .wp-block-social-links)
@@ -6377,6 +6380,7 @@ mfa.gov.ua##.customShare
 7dach.ru##.profile-share
 7dach.ru##.floating-hat__share
 pasport.org.ua,i-ua.tv,wz.lviv.ua###jursssocial
+sqmagazine.co.uk,outkick.com,publico.es,pet7.ru,womanel.com###custom_html-5
 tecmundo.com.br##.tec--article__share-grid
 tecmundo.com.br##.tec--share
 artstation.com##.share-grid > .s-grid
@@ -8775,7 +8779,7 @@ href^="https://facebook.com/sharer?u=
 ###facebook_Badge
 ###facebook_soc_button
 ###fb-friends-recent-activity
-~viralomania.com,~akyatirim.com.tr,~isitdownrightnow.com,~frekvence1.cz,~kpt.kyiv.ua,~roblox.com,~facebook.com,~junodownload.com,~king.com,~myshared.ru,~petsplace.nl,~thefurnish.ru###fb-root:not(body):not(html)
+~viralomania.com,~akyatirim.com.tr,~isitdownrightnow.com,~frekvence1.cz,~kpt.kyiv.ua,~roblox.com,~facebook.com,~king.com,~myshared.ru,~petsplace.nl,~thefurnish.ru###fb-root:not(body):not(html)
 ~facebook.com###fb_groups
 ###fb_iframe_widget
 ###fb_loader
@@ -21710,7 +21714,7 @@ churchpop.com,dersonntag.at,toofab.com##.social-nav
 eltecolote.org,melmagazine.com,orlandoweekly.com,prismreports.org,sacurrent.com,thefrisc.com,worldcrunch.com##.social-navigation
 steveharveyfm.com##.social-network-icons
 adrenaline.com.br,bonsfluidos.com.br,bossip.com,brasil.perfil.com,glamurama.com.br,insidehpc.com,maisnovela.com.br,manequim.com.br,marciapiovesan.com.br,mundoconectado.com.br,sportsbusinessjournal.com,vivasaudedigital.com.br##.social-networks
-cityandstateny.com,defenseone.com,govexec.com##.social-options
+cityandstateny.com,defenseone.com,govexec.com,nextgov.com##.social-options
 facethefactsusa.org##.social-profiles
 draxe.com##.social-proof-wrapper
 bessiebakes.com,sugarandsoul.co##.social-rocket-floating-buttons
