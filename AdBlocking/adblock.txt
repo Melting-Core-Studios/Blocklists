@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Block those ads
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.6319
+! Version: 1.6320
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-06-07T23:02:17.349Z
+! Last modified: 2026-06-08T00:15:21.499Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -166556,6 +166556,7 @@ Banner468x60
 ||ads.bitcoin.com^
 ||analytics.bitcoin.fr^
 ||analytics.bitcoinwisdom.io^
+||inside.bitcomet.com^
 ||track.biteship.com^
 ||ads.bitesms.com^
 ||popups.bitespeed.co^
@@ -187127,6 +187128,7 @@ Banner468x60
 ||aiq-in.ext.hp.com^
 ||geoip-integrations.us.oc.hp.com^
 ||rssx.hp.com^
+||s5.hpc.name^
 ||ingest.sentry.svc.hpcnt.com^
 ||data-fh.ext.hpe.com^
 ||gtm.hplplattenshop.de^
@@ -200059,6 +200061,7 @@ Banner468x60
 ||a.poker1000.com^
 ||i.pokernews.com^
 ||sentry.pokernews.tech^
+||monitor.pokerogue.ai^
 ||collector.pokerstars.de^
 ||collector.pokerstars.gr^
 ||collector.pokerstars.net^
@@ -209250,7 +209253,6 @@ Banner468x60
 ||s.thepornfree.me^
 ||ads.thepovgod.com^
 ||events.theproteinworks.com^
-||fitgirl-repacks.theproxy.vip^
 ||analytics.thepublive.com^
 ||sentry.thepure.team^
 ||analytics.theradioapp.com^
@@ -221725,7 +221727,6 @@ Banner468x60
 ||1716feafe96a3f2b.com^
 ||17172.xyz^
 ||17173sa.com^
-||17175.xyz^
 ||17179.xyz^
 ||1717e.com^
 ||17180d187e.com^
@@ -226167,6 +226168,7 @@ Banner468x60
 ||45secondtools.com^
 ||45tu1c0.com^
 ||45ujx.top^
+||45wfwt.rest^
 ||45xjj.top^
 ||45xju.top^
 ||45xjx.top^
@@ -241979,6 +241981,7 @@ Banner468x60
 ||biggeorge.com^
 ||biggerbras.com^
 ||biggestdealsonline.com^
+||biggin.shop^
 ||biggingshampoo.com^
 ||bighappy.co^
 ||bighasslebacked.com^
@@ -242393,7 +242396,6 @@ Banner468x60
 ||bitcoinup.io^
 ||bitcoinup-pro.com^
 ||bitcoinupapp.com^
-||bitcomet.com^
 ||bitconnect.co^
 ||bitcore-momentum-app.com^
 ||bitdefender.top^
@@ -242429,7 +242431,6 @@ Banner468x60
 ||bitledger.app^
 ||bitlib.net^
 ||bitlord.com^
-||bitlorddl.com^
 ||bitmessage.ch^
 ||bitnation.co^
 ||bitnest.fi^
@@ -242960,10 +242961,7 @@ Banner468x60
 ||blueledgerconsulting.com^
 ||blueledgerpartners.xyz^
 ||bluematrixs.com^
-||bluemediafile.online^
-||bluemediafile.site^
 ||bluemediafiles.com^
-||bluemediafiles.xyz^
 ||bluemoonplain.com^
 ||bluemotion.it^
 ||bluemtnscollective.com^
@@ -250837,6 +250835,7 @@ Banner468x60
 ||cosmosads.com^
 ||cosmosdefence.com^
 ||cosmosgives.com^
+||cosmosoffer.shop^
 ||cosmostars.shop^
 ||cospa3300.top^
 ||cospot.com^
@@ -252675,6 +252674,7 @@ Banner468x60
 ||dailymediapress.com^
 ||dailymegawin.com^
 ||dailymiamiledger.com^
+||dailynestliving-eu.com^
 ||dailyoutletstore.shop^
 ||dailypapernlretail.shop^
 ||dailypaul.com^
@@ -253775,7 +253775,6 @@ Banner468x60
 ||dekeiwfagh.com^
 ||dekhigher.com^
 ||dekingcossack.top^
-||dekisoft.com^
 ||dekovizyon.com^
 ||dekronkel.info^
 ||del.de^
@@ -254986,6 +254985,7 @@ Banner468x60
 ||direc5723546.pro^
 ||direc5723565.pro^
 ||direc5724523.pro^
+||direc5724546.pro^
 ||direc5724565.pro^
 ||direc691077.pro^
 ||direc691100.pro^
@@ -255750,6 +255750,7 @@ Banner468x60
 ||doeanderson.com^
 ||doebn.com^
 ||doem.jp^
+||doeoolza.shop^
 ||doersadv.com^
 ||doesbitesizeadvantages.com^
 ||doethemydea.com^
@@ -256151,7 +256152,6 @@ Banner468x60
 ||downloadisready.site^
 ||downloadlocked.com^
 ||downloadly.net^
-||downloadlyir.com^
 ||downloadlynet.ir^
 ||downloadmobile.info^
 ||downloadmobilee.info^
@@ -256664,7 +256664,11 @@ Banner468x60
 ||dsg23.top^
 ||dsg41.top^
 ||dsg50.top^
+||dsg55.top^
+||dsg65.top^
+||dsg70.top^
 ||dsg74.top^
+||dsg97.top^
 ||dsgc99.com^
 ||dsgcashsolutions.com^
 ||dshaf.com^
@@ -260493,6 +260497,7 @@ Banner468x60
 ||f4jx.top^
 ||f515a334308b675a.com^
 ||f5187b180bda7be7.com^
+||f51ck.top^
 ||f51e26759a028173.top^
 ||f522b60e9e.com^
 ||f5258.top^
@@ -261345,6 +261350,7 @@ Banner468x60
 ||fc49g.top^
 ||fc49v.top^
 ||fc4dc5d265cd878ec159a64f4babeee70ba69df46b099e705edc21464888121.link^
+||fc50z.top^
 ||fc51sp.cc^
 ||fc54e4f154eb.com^
 ||fc54e4f154eb.xyz^
@@ -262490,14 +262496,12 @@ Banner468x60
 ||fitgirl-repacks.pk^
 ||fitgirl-repacks.to^
 ||fitgirl-repacks.website^
-||fitgirlpack.site^
 ||fitgirlrepack.games^
 ||fitgirlrepacks.co^
 ||fitgirlrepacks.in^
 ||fitgirlrepacks.org^
 ||fitgirlrepacks.pro^
 ||fitgirlsguide.com^
-||fitgirltorrent.com^
 ||fitheaters.com^
 ||fitibility.com^
 ||fitiwelt.com^
@@ -263340,6 +263344,7 @@ Banner468x60
 ||form5724506.pro^
 ||form5724529.pro^
 ||form5724552.pro^
+||form5724572.pro^
 ||form578144.pro^
 ||form691083.pro^
 ||form691106.pro^
@@ -263871,7 +263876,6 @@ Banner468x60
 ||freeskreen.com^
 ||freeslotreg.ru^
 ||freesoft.sbs^
-||freesoft.space^
 ||freesoftwarecreative.com^
 ||freesoftwarelive.com^
 ||freespeechledger.com^
@@ -264060,7 +264064,6 @@ Banner468x60
 ||frost-wind.de^
 ||frostedecho.com^
 ||frostgoddess.com^
-||frostwire.com^
 ||frostymorningfox.com^
 ||frottedstereum.help^
 ||frovico.shop^
@@ -264729,7 +264732,6 @@ Banner468x60
 ||gambol.link^
 ||gambusenergy.com^
 ||game-global.site^
-||game-repack.site^
 ||game02-com.ru^
 ||game144.com^
 ||game184.com^
@@ -265605,13 +265607,10 @@ Banner468x60
 ||getgymledger.com^
 ||getherelf.com^
 ||gethyped.io^
-||getinmac.com^
 ||getinsights.io^
 ||getinstagramfollowersverified.com^
 ||getintent.ru^
-||getintomac.net^
 ||getintopc.cc^
-||getintopc.com^
 ||getironledger.com^
 ||getit01.com^
 ||getitintopc.com^
@@ -267597,7 +267596,6 @@ Banner468x60
 ||gsclothes.ru^
 ||gsdclck.com^
 ||gsh.io^
-||gshade.org^
 ||gshtgmb.com^
 ||gsi-one.org^
 ||gsi3t.com^
@@ -268155,6 +268153,7 @@ Banner468x60
 ||h61jz.top^
 ||h61tj.top^
 ||h61zj.top^
+||h62jc.top^
 ||h62jj.top^
 ||h63cj.top^
 ||h63jt.top^
@@ -270318,6 +270317,7 @@ Banner468x60
 ||hq22j.top^
 ||hq26j.top^
 ||hq38j.top^
+||hq50j.top^
 ||hq52j.top^
 ||hq60j.top^
 ||hq72j.top^
@@ -270344,10 +270344,17 @@ Banner468x60
 ||hr18j.top^
 ||hr22j.top^
 ||hr24j.top^
+||hr27j.top^
 ||hr30j.top^
 ||hr33j.top^
 ||hr35j.top^
+||hr41j.top^
+||hr49j.top^
 ||hr54j.top^
+||hr57j.top^
+||hr61j.top^
+||hr64j.top^
+||hr76j.top^
 ||hr81j.top^
 ||hr87j.top^
 ||hra.am^
@@ -270718,6 +270725,7 @@ Banner468x60
 ||hw-stats.de^
 ||hw14j.top^
 ||hw30j.top^
+||hw52j.top^
 ||hw53j.top^
 ||hw59j.top^
 ||hw60j.top^
@@ -270734,6 +270742,7 @@ Banner468x60
 ||hw92j.top^
 ||hw93j.top^
 ||hw97j.top^
+||hw99j.top^
 ||hwaoshxrov.com^
 ||hwclouds-dns.com^
 ||hwcnmtu.top^
@@ -271160,6 +271169,7 @@ Banner468x60
 ||identixweb.com^
 ||identory.com^
 ||idevdirect.com^
+||idevicehacked.com^
 ||idevnews.com^
 ||idfive.com^
 ||idfnv.net^
@@ -275424,6 +275434,7 @@ Banner468x60
 ||journ847282.pro^
 ||journ848006.pro^
 ||journ848029.pro^
+||journ848052.pro^
 ||journ848259.pro^
 ||journ848282.pro^
 ||journ848305.pro^
@@ -276470,6 +276481,7 @@ Banner468x60
 ||jyskeu-furniture.sbs^
 ||jyskeu2026.pro^
 ||jyskfurnitureoutlet.shop^
+||jyskfurnituresalesh0p002.shop^
 ||jyskfurnituretop.shop^
 ||jyskfurnituretop.vip^
 ||jyskjune.click^
@@ -277183,8 +277195,6 @@ Banner468x60
 ||kibou-no-hane.com^
 ||kibristime.com^
 ||kick1pore.com^
-||kickass-official.blue^
-||kickasstorrents.to^
 ||kickasstorrents.website^
 ||kickathlete.com^
 ||kickback.no^
@@ -277566,7 +277576,6 @@ Banner468x60
 ||kmsautoplus.su^
 ||kmsavto-net.ru^
 ||kmsccedn.com^
-||kmsmatrix.com^
 ||kmspi.co^
 ||kmspico.blog^
 ||kmspico.co^
@@ -281201,6 +281210,7 @@ Banner468x60
 ||lpartner.jp^
 ||lpcontent.net^
 ||lpe99.com^
+||lpghph.top^
 ||lpgnaxon.com^
 ||lphbs.com^
 ||lpiovzzuwc.com^
@@ -283642,6 +283652,7 @@ Banner468x60
 ||mgcicjfqyfik.com^
 ||mgcpakistan.com^
 ||mgepuynxttyi.com^
+||mgftgwuv.shop^
 ||mgirl.jp^
 ||mgl.xyz^
 ||mgm50.com^
@@ -284274,6 +284285,7 @@ Banner468x60
 ||mk80h.top^
 ||mk80j.top^
 ||mk80v.top^
+||mk80w.top^
 ||mk81c.top^
 ||mk81f.top^
 ||mk82v.top^
@@ -284458,6 +284470,7 @@ Banner468x60
 ||mobials.com^
 ||mobidia.com^
 ||mobie.in^
+||mobifone.solutions^
 ||mobiilitiedot.com^
 ||mobiilitiedot.org^
 ||mobiklivestmox.pl^
@@ -285190,7 +285203,6 @@ Banner468x60
 ||mrelay-p.com^
 ||mrelay-pickup.com^
 ||mrelays-redirection.com^
-||mrepo.org^
 ||mresou.com^
 ||mretao.com^
 ||mrface.com^
@@ -288340,6 +288352,7 @@ Banner468x60
 ||nudeswebsite.com^
 ||nudgespot.com^
 ||nudism.vip^
+||nudist-images.net^
 ||nudistcrop.com^
 ||nudistvoyour.eu^
 ||nudpqt.com^
@@ -288777,7 +288790,6 @@ Banner468x60
 ||oceanmama.ca^
 ||oceanofapks.com^
 ||oceanofgames.com^
-||oceanofgamesu.com^
 ||oceanpeacefully.com^
 ||oceans-news.com^
 ||oceansky-technology.com^
@@ -288961,7 +288973,6 @@ Banner468x60
 ||officialdubaichocolate.shop^
 ||officialfifajus0.shop^
 ||officialiqtests.com^
-||officialkmspico.info^
 ||officialkmspico.net^
 ||officiallostmary.org^
 ||officialpatientego.com^
@@ -296617,6 +296628,7 @@ Banner468x60
 ||r3vnet.cloud^
 ||r41jh.top^
 ||r41n80w5.xyz^
+||r42tv.top^
 ||r438823coinbase.com^
 ||r44jh.top^
 ||r4jx.top^
@@ -298026,6 +298038,7 @@ Banner468x60
 ||reservedofficial.com^
 ||reservedofficial-pl.com^
 ||reservedofficial-pl.pro^
+||reservedsales-pl.shop^
 ||reservedtorches.com^
 ||reservereportscanada.ca^
 ||reservetion-id47781.world^
@@ -298178,7 +298191,6 @@ Banner468x60
 ||reuterstoday.com^
 ||rev-card.com^
 ||revanced.art^
-||revanced.dev^
 ||revanced.io^
 ||revanced.net^
 ||revanced.org^
@@ -298186,7 +298198,6 @@ Banner468x60
 ||revanced.to^
 ||revanced-extended.com^
 ||revancedapk.org^
-||revancedapp.download^
 ||revancedapp.io^
 ||revancedapp.net^
 ||revancedapp.org^
@@ -299448,6 +299459,7 @@ Banner468x60
 ||rt-pixel.com^
 ||rt14v.com^
 ||rt3.io^
+||rt42p.top^
 ||rtacardpay.best^
 ||rtachicago.com^
 ||rtactivate.com^
@@ -299824,10 +299836,10 @@ Banner468x60
 ||s-space.jp^
 ||s-www.ru^
 ||s0cool.net^
-||s0ft4pc.com^
 ||s0v.xyz^
 ||s1-proton-vpn.com^
 ||s11.cn^
+||s12581904-payment.cfd^
 ||s14a.biz^
 ||s184.com^
 ||s1block.com^
@@ -299926,7 +299938,6 @@ Banner468x60
 ||sadbaguette.com^
 ||sadbh-kye.com^
 ||saddle.pl^
-||sadeemapk.com^
 ||sadeempc.com^
 ||sadfasmweoerwikrdas.site^
 ||sadgrl.online^
@@ -305256,7 +305267,6 @@ Banner468x60
 ||stericsgyokuro.top^
 ||sterivo.shop^
 ||sterlingcashflowlimited.com^
-||sterlingnational.org^
 ||sterlingwoods.com^
 ||sternlythese.com^
 ||sternmore.com^
@@ -307813,6 +307823,7 @@ Banner468x60
 ||texejvnxla.help^
 ||texejvnxla.shop^
 ||texejvnxla.xyz^
+||texejzxlrs.icu^
 ||texekplxra.club^
 ||texekxplrq.shop^
 ||texeliyxxs.top^
@@ -307823,6 +307834,8 @@ Banner468x60
 ||texelplnrc.shop^
 ||texelqxmra.help^
 ||texelqxmra.shop^
+||texelvnxrr.club^
+||texelvnxrr.shop^
 ||texemxqvrp.click^
 ||texemxqvrp.help^
 ||texeodexxs.shop^
@@ -308252,7 +308265,6 @@ Banner468x60
 ||theheelhub.shop^
 ||theheraldnewstoday.com^
 ||thehickorygolfer.com^
-||thehiddenbay.com^
 ||thehideawayledger.com^
 ||thehighercontent.com^
 ||thehive.asia^
@@ -308451,7 +308463,6 @@ Banner468x60
 ||thepiratebay10.xyz^
 ||thepiratebay3.co^
 ||thepiratebay7.com^
-||thepiratebays.info^
 ||thepiratebays.live^
 ||thepiratetrader.com^
 ||thepixelpioneer.com^
@@ -309764,7 +309775,6 @@ Banner468x60
 ||tp5673.com^
 ||tp8856.com^
 ||tpatten.com^
-||tpb.party^
 ||tpc.hu^
 ||tpctrust.com^
 ||tpdr.online^
@@ -309790,6 +309800,7 @@ Banner468x60
 ||tqa10.top^
 ||tqa24.top^
 ||tqa35.top^
+||tqa44.top^
 ||tqa52.top^
 ||tqa53.top^
 ||tqa56.top^
@@ -309797,12 +309808,19 @@ Banner468x60
 ||tqa62.top^
 ||tqa63.top^
 ||tqa69.top^
+||tqa77.top^
 ||tqeobp89axcn.com^
+||tqg38.top^
+||tqg49.top^
+||tqg77.top^
+||tqg97.top^
 ||tqjor.com^
 ||tqksqz.com^
 ||tqlpkggpn2.xyz^
 ||tqn.com^
+||tqp11.top^
 ||tqp49.top^
+||tqp77.top^
 ||tqp84.top^
 ||tqr58.top^
 ||tqr92.top^
@@ -309814,9 +309832,18 @@ Banner468x60
 ||tqs40.top^
 ||tqs41.top^
 ||tqs43.top^
+||tqs44.top^
 ||tqs48.top^
+||tqs55.top^
 ||tqs58.top^
 ||tqs63.top^
+||tqs69.top^
+||tqt23.top^
+||tqt24.top^
+||tqt31.top^
+||tqt76.top^
+||tqt80.top^
+||tqt97.top^
 ||tqwytk4c0.pro^
 ||tqzdbz.icu^
 ||tr.ai^
@@ -311043,7 +311070,6 @@ Banner468x60
 ||tuttodigitale.net^
 ||tuttovienna.info^
 ||tutuapp.vip^
-||tutubox.io^
 ||tututoday.com^
 ||tutvse.info^
 ||tuvovppihha.com^
@@ -312375,6 +312401,7 @@ Banner468x60
 ||urge5714527.pro^
 ||urge5716550.pro^
 ||urge5716599.pro^
+||urge5716648.pro^
 ||urge5716792.pro^
 ||urge5716815.pro^
 ||urge5716838.pro^
@@ -315840,6 +315867,7 @@ Banner468x60
 ||whatsappv.com^
 ||whatsappz.com^
 ||whatshelp.io^
+||whatsitsnameaui.pro^
 ||whatsjt.com^
 ||whatsmb.com^
 ||whatsmycountry.com^
@@ -316071,7 +316099,6 @@ Banner468x60
 ||wifi33.com^
 ||wifi4all.nl^
 ||wifi4games.com^
-||wifi4games.net^
 ||wifiprotector.com^
 ||wifizone.org^
 ||wigamb.com^
@@ -316233,7 +316260,6 @@ Banner468x60
 ||windowp.org^
 ||windowreplacementwalnutcreek.com^
 ||windows.day^
-||windows-7.net^
 ||windows-activators.com^
 ||windows-display-service.com^
 ||windows-line.com^
@@ -318330,6 +318356,7 @@ Banner468x60
 ||xjx97.top^
 ||xjybb.com^
 ||xk.ai^
+||xk29f.top^
 ||xkajujtax.com^
 ||xkakkewixszu.com^
 ||xkmwxwy.cn^
