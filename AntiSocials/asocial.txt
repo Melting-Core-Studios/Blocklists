@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1645
+! Version: 1.1646
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-06-09T11:59:37.455Z
+! Last modified: 2026-06-09T17:25:25.638Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -369,6 +369,9 @@ esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israel
 esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israelnationalnews.com,lifehacker.com,cgmagonline.com,gizmodo.com,gamerevolution.com,metro.co.uk,thurrott.com,stereogum.com,ign.com,newsweek.com,dailymail.co.uk,comingsoon.net,timesofisrael.com,nypost.com,9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,electrek.co#%#//scriptlet('remove-in-shadow-dom', 'div[data-spot-im-class="vote-links"] + span[class$="index__dot"]')
 cogconnected.com,echofm.online,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com##.comment__share > *
 cogconnected.com,echofm.online,antirez.com,comicbook.com,alexp.pl,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com###thread-share-bar
+racer.com##.MuiStack-root > div.MuiBox-root:has(> div.MuiBox-root > div[class^="mui-"] > div[id^="sharethis-"])
+vbr.ru##.social-btns-colorful
+ketv.com,gulfcoastnewsnow.com##.share-widget-content
 indiatimes.com##.socialShareArticalShowWrapper
 gentosha.co.jp##.p-book-share__sns
 slovoidilo.ua##.compare-banner:has(> a[href^="http://t.me/"])
@@ -802,7 +805,6 @@ hominis.media##.share-modal-open
 hominis.media##li:has(> a.share-modal-open)
 qms.ru##.result-link
 kyivindependent.com##div[class^="ShareButton_wrapButton"]
-techradar.com,gamesradar.com,livescience.com,windowscentral.com,pcgamer.com,tomshardware.com###utilitybar__button--share
 thepounddropper.com,seededatthetable.com,kitchendivas.com##.social-rocket-inline-buttons
 inkatrinaskitchen.com##div[class^="social-rocket-"][class*="-button"]
 dinnerthendessert.com##.share-recipe
@@ -8684,6 +8686,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_apps
 ##a[href^="http://www.twitter.com/intent/tweet?"]
 ##a[href^="http://twitter.com/intent/tweet/?"]
 ##body[class*="adthrive-device-"] > .site-container .block-social-share
+###utilitybar__button--share
 ~note.com##a[href^="https://note.com/intent/post?url="]
 ##iframe[src^="https://plugins.mixi.jp/favorite.pl?"]
 ###snsShareBottom
@@ -22305,6 +22308,7 @@ straitstimes.com##button.desktop\:block
 thinkglobalhealth.org##button.hover\:bg-accent-social-button
 player.amperwavepodcasting.com,stockx.com##button[aria-label="Share"]
 lonelyplanet.com##button[data-taggyid]
+nine.com.au##button[data-ui-testid="header-share-button"]
 theguardian.com##div > gu-island[name="ShareButton"]
 photorumors.com##div[align="RIGHT"]
 fifa.com##div[class*="article-section_shareButton_"]
