@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1652
+! Version: 1.1653
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-06-11T12:42:44.897Z
+! Last modified: 2026-06-11T16:52:41.389Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -367,6 +367,9 @@ esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israel
 esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israelnationalnews.com,lifehacker.com,cgmagonline.com,gizmodo.com,gamerevolution.com,metro.co.uk,thurrott.com,stereogum.com,ign.com,newsweek.com,dailymail.co.uk,comingsoon.net,timesofisrael.com,nypost.com,9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,electrek.co#%#//scriptlet('remove-in-shadow-dom', 'div[data-spot-im-class="vote-links"] + span[class$="index__dot"]')
 cogconnected.com,echofm.online,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com##.comment__share > *
 cogconnected.com,echofm.online,antirez.com,comicbook.com,alexp.pl,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com###thread-share-bar
+ukranews.com##.b-aside-socials
+||ukranews.com/dist/js/adsense-
+ukrlib.com.ua##.social-box-item1
 tvoemisto.tv##.flex > button:has(> svg > path[d^="M11.334"])
 tvoemisto.tv##.flex > div.flex-col:has(> div.items-center > div.flex > a[href="https://youtube.com/user/tvoyemistoTV"])
 forklog.com.ua##.share_blk
@@ -6468,7 +6471,7 @@ porn-monkey.com,sexvideos-hd.com,pornohirsch.net###fb_video_link
 sexvideos-hd.com,pornohirsch.net###sh_video_link
 abczdrowie.pl,money.pl,o2.pl,wp.pl,dobreprogramy.pl##.wp-player .social
 wetanz.com,allnations.com.br##.product-social-buttons
-trapz.io##.youtuber
+ukrlib.com.ua,trapz.io##.youtuber
 trapz.io###gameover > div.main-trapz__form-wrapper + div.main-trapz__download[style="margin-top: 43px;"]
 4shared.com##.jsFBsharingLink
 prostomob.com##footer + div[class]
