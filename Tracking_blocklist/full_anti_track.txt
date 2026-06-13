@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.2037
+! Version: 1.2038
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-06-12T22:26:13.288Z
+! Last modified: 2026-06-13T00:21:32.612Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -221643,6 +221643,7 @@ dlsdk.appsflyer.com^
 ||chat-api.swapcard.com^
 ||chat-insights.getstream.io^
 ||chat-us.libanswers.com^
+||chat-widget.d3x.ai^
 ||chat.covid19.go.id^
 ||chat.ind.nl^
 ||chat.kindlycdn.com^
@@ -223110,6 +223111,7 @@ dlsdk.appsflyer.com^
 ||easy-redirects.s3-eu-west-1.amazonaws.com^
 ||easyautotagging.com^
 ||easybrain.com^
+||easylockdownapp.com^
 ||easyplatform.com^
 ||easypromo.nz^
 ||easypromosapp.com^
@@ -224182,6 +224184,8 @@ dlsdk.appsflyer.com^
 ||gtminet.net^
 ||gtmniddocks.herokuapp.com^
 ||gtmucs.cn^
+||gtranslate.io^
+||gtranslate.net^
 ||guenther.de^
 ||guidashu.com^
 ||guide-piscine.fr^
@@ -225375,6 +225379,7 @@ dlsdk.appsflyer.com^
 ||ku63.com^
 ||ku9377.com^
 ||kubient.com^
+||kudobuzz.com^
 ||kudosresearch.com^
 ||kuguopush.com^
 ||kukuru.nl^
@@ -228181,6 +228186,7 @@ dlsdk.appsflyer.com^
 ||shopapps.in^
 ||shopboard.ltd^
 ||shopdirect.com^
+||shopicial.com^
 ||shopkick.com^
 ||shopkick.de^
 ||shopperapproved.com^
@@ -228725,6 +228731,7 @@ dlsdk.appsflyer.com^
 ||subscriptions.smartrecruiters.com^
 ||subswin.com^
 ||sucodb.com^
+||suggestions.bol.com^
 ||suggestqueries.google.com^
 ||suhasforvirginia.com^
 ||sukigyik.xyz^
@@ -229193,6 +229200,7 @@ dlsdk.appsflyer.com^
 ||tracking.lindner-group.com^
 ||tracking.ov-chipkaart.nl^
 ||tracking.printabout.nl^
+||tracking.smartwatchbanden.nl^
 ||tracking.swap.fm^
 ||tracking.vviinn.com^
 ||trackingdesk.com^
@@ -229818,6 +229826,7 @@ dlsdk.appsflyer.com^
 ||widgets.pinterest.com^
 ||widgets.shopifyapps.com^
 ||widgets.wp.com^
+||widgetsmith.app^
 ||widilo.co.uk^
 ||wijkopenautos.nl^
 ||wijwedden.net^
@@ -230173,15 +230182,6 @@ dlsdk.appsflyer.com^
 ||zzbaowen.com^
 ||zzkko.com^
 ||zzpcentrale.nl^
-||gtranslate.net^
-||easylockdownapp.com^
-||kudobuzz.com^
-||gtranslate.io^
-||shopicial.com^
-||tracking.smartwatchbanden.nl^
-||chat-widget.d3x.ai^
-||widgetsmith.app^
-||suggestions.bol.com^
 ||badv.wp.pl^
 ||emisjawidgeet.onet.pl^
 ||ads.edipresse.pl^
