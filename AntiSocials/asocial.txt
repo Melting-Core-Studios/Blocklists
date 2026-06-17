@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1672
+! Version: 1.1673
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-06-17T15:03:29.669Z
+! Last modified: 2026-06-17T17:54:08.364Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -368,6 +368,11 @@ esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israel
 esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israelnationalnews.com,lifehacker.com,cgmagonline.com,gizmodo.com,gamerevolution.com,metro.co.uk,thurrott.com,stereogum.com,ign.com,newsweek.com,dailymail.co.uk,comingsoon.net,timesofisrael.com,nypost.com,9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,electrek.co#%#//scriptlet('remove-in-shadow-dom', 'div[data-spot-im-class="vote-links"] + span[class$="index__dot"]')
 cogconnected.com,echofm.online,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com##.comment__share > *
 cogconnected.com,echofm.online,antirez.com,comicbook.com,alexp.pl,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com###thread-share-bar
+womo.ua##.li-email
+womo.ua##.li-whatsapp
+zakarpattya.net.ua##.afterPost > a[onclick*="socialLinksAfter"]
+youcontrol.com.ua##.share-btn-yc
+work.ua###react-company ~ div.card.hidden-print
 compo.de##div[class^="DistanceElement-"]:has(> div[class^="Container_"] > div[class^="Row-"] > div[class^="Col__Column-"] > div[class*="SocialSharing__Wrapper-"])
 timesofmalta.com##.fo-Footer_Container_Social
 suguchan.smbc-card.com##.p-sns-share
