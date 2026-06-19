@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Block those ads
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.6400
+! Version: 1.6401
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-06-19T14:55:07.923Z
+! Last modified: 2026-06-19T17:16:21.040Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -152914,23 +152914,45 @@ analytics-*.aasaam.com
 @@||track.rutarget.ru^|
 @@||5471782.fls.doubleclick.net^|
 @@||omniture.walmart.com^|
+||tmadsrv.com^
 ||static2.manualslib.com^
 ||consent.cookiefirst.com^
 ||cheezwhiz.z9.web.core.windows.net^
 ||concertads-configs.vox-cdn.com^
 ||https-filtering-check.adtidy.org^
+||3000fromenterprises.net^
 ||admitad.com^
+||aeacusexpoundcolones.cyou^
 ||alitems.com^
 ||atdmt.com^
+||ballistashlers.qpon^
 ||buyeasy.by^
+||capersumiac.qpon^
+||coelinpinbush.shop^
+||debtokesfilippo.qpon^
+||dikdiksbracker.shop^
 ||fwmrm.net^
 ||googletagservices.com^
+||hlqhszlaieohl.online^
+||hqenqnjegflxk.website^
+||igvnfhtdjqkqx.website^
 ||imasdk.googleapis.com^
+||influxneurism.cyou^
+||insatibivhwin.space^
+||jpuiwkpaybojr.space^
+||kapukahaganah.cyou^
+||krnflekesqqcw.website^
+||lkgkbmkorzwiz.space^
+||loxantrums.cyou^
+||meatsmatt.cfd^
 ||monetag.com^
 ||ntv.io^
 ||ojrq.net^
 ||redirectingat.com^
+||rlcehwohoi.com^
+||rodgerorology.qpon^
 ||rubiconproject.com^
+||vfmabriuyjvuld.com^
 ||videoplaza.tv^
 ||wpnrtnmrewunrtok.xyz^
 ||html-load.cc^
@@ -222170,7 +222192,6 @@ Banner468x60
 ||3-a.net^
 ||30-years-later.com^
 ||300.cn^
-||3000fromenterprises.net^
 ||3000toys.com^
 ||3000zhaocili.xyz^
 ||3002fe48a399357b.com^
@@ -242662,7 +242683,6 @@ Banner468x60
 ||balletsbeep.com^
 ||ballettrespassinfantry.com^
 ||ballinghelonin.com^
-||ballistashlers.qpon^
 ||ballisticforgotten.com^
 ||balloencoccyx.com^
 ||balloonbit.com^
@@ -249612,7 +249632,6 @@ Banner468x60
 ||capdebt.info^
 ||capeannmortgagesccm.com^
 ||capecoralsolarcleaning.com^
-||capersumiac.qpon^
 ||capeturk.com^
 ||capgiraffewaste.com^
 ||capisp.com^
@@ -253370,7 +253389,6 @@ Banner468x60
 ||coecalpulping.com^
 ||coefficienttolerategravel.com^
 ||coeffir.com^
-||coelinpinbush.shop^
 ||coenr.com^
 ||coepitta.com^
 ||coeptumgroup.com^
@@ -259274,7 +259292,6 @@ Banner468x60
 ||debruijntweewielers.store^
 ||debsfunpages.com^
 ||debt-consolidation-america.org^
-||debtokesfilippo.qpon^
 ||debtorboards.com^
 ||debtsabjure.com^
 ||debtscene.com^
@@ -260900,7 +260917,6 @@ Banner468x60
 ||dijitalweb-kampanyalarimiz.com^
 ||dik.si^
 ||dikcls.shop^
-||dikdiksbracker.shop^
 ||dikematou.com^
 ||diketime.com^
 ||dikseeptozo.net^
@@ -279907,7 +279923,6 @@ Banner468x60
 ||hllnuldtugbikg.com^
 ||hlmpjd.com^
 ||hlp4969465.com^
-||hlqhszlaieohl.online^
 ||hlsrjzlljx.com^
 ||hlvp.top^
 ||hlwxx.com^
@@ -283306,7 +283321,6 @@ Banner468x60
 ||influenzacandiedbarracks.com^
 ||influenzanet.info^
 ||influxgodless.com^
-||influxneurism.cyou^
 ||inflx.io^
 ||info.cm^
 ||info.nu^
@@ -289606,7 +289620,6 @@ Banner468x60
 ||kapnosdc.com^
 ||kapsmuh.com^
 ||kaptenkryss.se^
-||kapukahaganah.cyou^
 ||kara-optimisation-energie.com^
 ||kara-rodo.info^
 ||karacahaziran.com^
@@ -296065,7 +296078,6 @@ Banner468x60
 ||lowtideaudio.online^
 ||lowtirtougaa.com^
 ||lowvolumes.com^
-||loxantrums.cyou^
 ||loxo2.top^
 ||loyalbodieshans.com^
 ||loyalledgerconsultant.com^
@@ -298281,7 +298293,6 @@ Banner468x60
 ||measureschool.com^
 ||measuresevery.com^
 ||meatloaftradingsneaking.com^
-||meatsmatt.cfd^
 ||meaty-sympathy.com^
 ||meaty-vast.pro^
 ||meaty-way.pro^
@@ -319582,7 +319593,6 @@ Banner468x60
 ||rocqzqbc.com^
 ||rod-wheels.de^
 ||rodeledger.com^
-||rodgerorology.qpon^
 ||rodlikemortal.com^
 ||rodmenperries.com^
 ||rodmksuttevhgc.com^
