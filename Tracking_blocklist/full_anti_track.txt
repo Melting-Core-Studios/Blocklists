@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.2062
+! Version: 1.2063
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-06-19T06:16:41.785Z
+! Last modified: 2026-06-19T11:22:09.103Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -2749,6 +2749,7 @@
 ||analytic-client.adult-chess.com^
 ||analytic-client.blitzmightyparty.com^
 ||analytic-client.panowars.com^
+||analytic.divee.ai^
 ||analytic.rollout.io^
 ||analyticcdn.globalmailer.com^
 ||analyticcdn.wlmediahub.com^
@@ -37802,6 +37803,7 @@
 ||ta.sanook.com^
 ||a.n11.com^
 ||analytics.cosmopolitanmag.com.tr^
+||analytics.mgm.gov.tr^
 ||athena-event-provider.n11.com^
 ||c.gazetevatan.com^
 ||d.haberler.com^
@@ -61032,7 +61034,6 @@
 ||analytic.biletinial.com^
 ||analytic.brainfi.sh^
 ||analytic.detik.com^
-||analytic.divee.ai^
 ||analytic.efilli.com^
 ||analytic.glostyrma.com^
 ||analytic.kemsos.net^
