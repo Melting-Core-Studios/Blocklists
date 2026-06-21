@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Block those ads
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.6420
+! Version: 1.6421
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-06-21T21:12:26.654Z
+! Last modified: 2026-06-21T23:09:34.120Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -2215,7 +2215,6 @@
 ||cdn.s3608.com^
 ||i.imgkcdn.com^
 ||js.jnkstff.com^
-||na.wpush.net^
 ||media.accdn.dev^
 ||t97.nudevista.com^
 ||t98.nudevista.com^
@@ -3597,7 +3596,6 @@
 ||tq-eu.basedformed-c.online^
 ||tq-eu.bodsxplc.online^
 ||tq-eu.cjhdc.online^
-||tq-eu.cnsiap.online^
 ||tq-eu.dorsedformed-c.online^
 ||tq-eu.dorsedformed-e.online^
 ||tq-eu.gtmxso-c.online^
@@ -3619,7 +3617,6 @@
 ||tq.bocdos-3.online^
 ||tq.bomdukop-3.online^
 ||tq.chusdc.online^
-||tq.cnsiap.online^
 ||tq.dmnlks-c.online^
 ||tq.dmnlks-d.online^
 ||tq.grantdk-2.online^
@@ -3662,7 +3659,6 @@
 ||xml-eu-v4.boldthrives.com^
 ||xml-eu-v4.chusdc.online^
 ||xml-eu-v4.cjhdc.online^
-||xml-eu-v4.cnsiap.online^
 ||xml-eu-v4.cortexbid.com^
 ||xml-eu-v4.creziamedia.com^
 ||xml-eu-v4.dataverixa.com^
@@ -3711,7 +3707,6 @@
 ||xml-eu.bodsxplc.online^
 ||xml-eu.chusdc.online^
 ||xml-eu.cjhdc.online^
-||xml-eu.cnsiap.online^
 ||xml-eu.creziamedia.com^
 ||xml-eu.dorsedformed-e.online^
 ||xml-eu.flowldsc.online^
@@ -3765,7 +3760,6 @@
 ||xml-v4.bomdukop-4.online^
 ||xml-v4.chusdc.online^
 ||xml-v4.cjhdc.online^
-||xml-v4.cnsiap.online^
 ||xml-v4.cortexbid.com^
 ||xml-v4.creziamedia.com^
 ||xml-v4.dataverixa.com^
@@ -3843,7 +3837,6 @@
 ||xml.chusdc.online^
 ||xml.cjhdc.online^
 ||xml.clintlex-b.online^
-||xml.cnsiap.online^
 ||xml.comeawaywith.com^
 ||xml.cortexbid.com^
 ||xml.creziamedia.com^
@@ -4765,6 +4758,7 @@ vkcdnservice.appspot.com^
 ||2m3gdt0gc.de^
 ||2m4r7ity5128z5kw.cfd^
 ||2m55gqleg.de^
+||2m6q8xmk6zykqehuli.cfd^
 ||2mf9kkbhab31.com^
 ||2mg2ibr6b.de^
 ||2mke5l187.de^
@@ -8213,6 +8207,7 @@ vkcdnservice.appspot.com^
 ||attraptoyless.com^
 ||attributedconcernedamendable.com^
 ||attributedrelease.com^
+||attristerebus.cfd^
 ||attrqqbnbjxkg.website^
 ||attunedunsanefisk.qpon^
 ||attuneslew.cyou^
@@ -10731,6 +10726,7 @@ vkcdnservice.appspot.com^
 ||bxeaubadjolwnu.com^
 ||bxekozqvwcqeg.space^
 ||bxerfbkaoasof.space^
+||bxfvaugytecwq.online^
 ||bxgvranswkjn.com^
 ||bxhgikwab.com^
 ||bxhnfmijbikzg.space^
@@ -11448,6 +11444,7 @@ vkcdnservice.appspot.com^
 ||cerilloinverts.com^
 ||ceriumhobits.qpon^
 ||certainwolveshonestly.com^
+||ceruleropy.qpon^
 ||ceryldelaine.com^
 ||ces2007.org^
 ||cesosfultrbriol.com^
@@ -11739,6 +11736,7 @@ vkcdnservice.appspot.com^
 ||chrismsuling.cfd^
 ||christrigos.qpon^
 ||chronicairliner.com^
+||chrysidtrigamy.cyou^
 ||chrysostrck.com^
 ||chryvast.com^
 ||chsdisbindcream.cfd^
@@ -11829,6 +11827,7 @@ vkcdnservice.appspot.com^
 ||citatorundeafheft.cfd^
 ||citatumpity.com^
 ||citdvaah.com^
+||cithersdogman.cyou^
 ||cithudxab.in^
 ||citizenagreementacting.com^
 ||citizenhid.com^
@@ -11931,6 +11930,7 @@ vkcdnservice.appspot.com^
 ||claudefeuter.shop^
 ||claudiamesion.cfd^
 ||claverssupari.cfd^
+||claviermudbank.cyou^
 ||clavioltinnily.shop^
 ||clavuviupsit.cyou^
 ||clayeytogated.cyou^
@@ -12457,6 +12457,7 @@ vkcdnservice.appspot.com^
 ||concentratetogethersubmarine.com^
 ||concentrationmayberenice.com^
 ||concentrationminefield.com^
+||conceptgebbie.shop^
 ||concerned-plate.pro^
 ||concernedcollection.com^
 ||concernedvoice.pro^
@@ -15361,6 +15362,7 @@ vkcdnservice.appspot.com^
 ||dssbui.com^
 ||dssqpn.com^
 ||dssrbe.com^
+||dsswdz.com^
 ||dstdff.com^
 ||dstfrx.com^
 ||dstha9.com^
@@ -16347,6 +16349,7 @@ vkcdnservice.appspot.com^
 ||ellickmoileydankly.cfd^
 ||elliptical-schedule.com^
 ||ellipticaltrack.com^
+||elmakoktbnpt.com^
 ||elmmmgfvzerqt.space^
 ||elmolkyqhjfwn.online^
 ||elmyhorrent.cyou^
@@ -16745,6 +16748,7 @@ vkcdnservice.appspot.com^
 ||epidermkerns.cfd^
 ||epidzasjhnzoi.site^
 ||epigoniranatra.com^
+||epigynylirate.cyou^
 ||epilaterepew.cyou^
 ||epilfleshedbeelbow.qpon^
 ||epilogortyx.com^
@@ -17827,6 +17831,7 @@ vkcdnservice.appspot.com^
 ||felllilyforegoing.com^
 ||fellowshiplyricsceasless.com^
 ||felor.xyz^
+||feltyrewoken.cfd^
 ||felwnnkhshnqt.com^
 ||femalehunt.pro^
 ||femaleseikonesmassifs.cyou^
@@ -19828,6 +19833,7 @@ vkcdnservice.appspot.com^
 ||gimpsgenips.com^
 ||ginchoirblessed.com^
 ||ginetemormonspreknew.qpon^
+||gingalldarks.cyou^
 ||gingrasspluntalgae.cfd^
 ||ginkgochawed.qpon^
 ||ginkidojk.in^
@@ -19836,6 +19842,7 @@ vkcdnservice.appspot.com^
 ||ginningsteri.com^
 ||giocyrvdmxgqz.website^
 ||giowsljxfbzfu.online^
+||gippedtutelo.cyou^
 ||gipsiesthyrsi.com^
 ||gipsydeceivedepoch.com^
 ||gipsyharryparasite.com^
@@ -21911,6 +21918,7 @@ vkcdnservice.appspot.com^
 ||honeycombastrayabound.com^
 ||honeymoondecidedlymanual.com^
 ||honeymoongaudyhereditary.com^
+||honeysstambasawali.cyou^
 ||honeywhyvowel.com^
 ||honkeryonkers.cyou^
 ||honorable-responsibility.pro^
@@ -22463,6 +22471,7 @@ vkcdnservice.appspot.com^
 ||hzkjazbyqzq.com^
 ||hzlcmoheihapn.click^
 ||hzlhxlivfnxur.site^
+||hzljc11gwimlfolr1.rest^
 ||hzlswdkrcutie.website^
 ||hzmiplukle.com^
 ||hzmklmstsfitm.site^
@@ -23205,6 +23214,7 @@ vkcdnservice.appspot.com^
 ||industriesinbag.net^
 ||industriesincurvature.com^
 ||industriestoblend.com^
+||industriestoredundancy.net^
 ||indyadvertising.com^
 ||inedstylmxhwk.com^
 ||inefficientinherent.com^
@@ -25289,6 +25299,7 @@ vkcdnservice.appspot.com^
 ||kdrknfqdnvrm.com^
 ||kdrwbvnzyvnwi.site^
 ||kdrxsyazaisva.site^
+||kdscdswkfbtpw.space^
 ||kdsciibujmug.com^
 ||kdsvscnffrtau.online^
 ||kdttwhybgyc.com^
@@ -25949,6 +25960,7 @@ vkcdnservice.appspot.com^
 ||ksnwudphq.com^
 ||kspyqwogczssl.website^
 ||ksqcegymakx.com^
+||ksuwsvhxfigruwi.com^
 ||ksvnwdhtvndeq.site^
 ||ksxteldtlbtss.website^
 ||kszrmrhuwgrsy.website^
@@ -27900,6 +27912,7 @@ vkcdnservice.appspot.com^
 ||maidr.pro^
 ||mailboxboynutrition.com^
 ||mailcoupletime.net^
+||mailedbardism.shop^
 ||mainadcenter.com^
 ||mainadv.com^
 ||mainexclkdir.com^
@@ -27959,6 +27972,7 @@ vkcdnservice.appspot.com^
 ||maltsknoweth.shop^
 ||malurussmoochs.qpon^
 ||mamaethicinvent.com^
+||mammatidisegno.cyou^
 ||mammocksambos.com^
 ||mammoth-a.pro^
 ||mammothshot.com^
@@ -28386,6 +28400,7 @@ vkcdnservice.appspot.com^
 ||memia.xyz^
 ||memoryidryl.com^
 ||menacehabit.com^
+||menacesspencie.cfd^
 ||menacing-frame.pro^
 ||menacing-profit.pro^
 ||menacing-rain.com^
@@ -29667,6 +29682,7 @@ vkcdnservice.appspot.com^
 ||mxgjuoycnxfgn.website^
 ||mxhplnujqwmoj.website^
 ||mxhybnnilsini.site^
+||mxizjfeqmnmzc.site^
 ||mxjitbllqcxli.store^
 ||mxjvsovvqnwew.online^
 ||mxjxinpidvsih.site^
@@ -31079,6 +31095,7 @@ vkcdnservice.appspot.com^
 ||nwwrtbbit.com^
 ||nwxrt9vpp3qjnxcu.cfd^
 ||nwyynvwwsxgif.online^
+||nwzbkivuzlkpz.website^
 ||nwzbxcfmseiyv.space^
 ||nwzjbkoxktjuk.site^
 ||nwzutgomlrtdv.website^
@@ -33397,6 +33414,7 @@ vkcdnservice.appspot.com^
 ||pezwjfoozrpiv.online^
 ||pf34zdjoeycr.com^
 ||pf66u634qfvhrj95.cfd^
+||pfautxkmfmrbu.space^
 ||pfbiforocldba.site^
 ||pfbkrujvhneou.website^
 ||pfbtmkzejf.com^
@@ -33406,6 +33424,7 @@ vkcdnservice.appspot.com^
 ||pffgvpihauhav.website^
 ||pffueglkyydya.online^
 ||pfivvdqcuvmig.space^
+||pfivwhdsliscy.online^
 ||pfl8ebkuoj88wz.cfd^
 ||pfljayklaxvrwao.com^
 ||pfmiliexijdfl.website^
@@ -35822,6 +35841,7 @@ vkcdnservice.appspot.com^
 ||qsicrqoimhnzn.online^
 ||qskrbykjjatuk.store^
 ||qsmwycdrdh.com^
+||qsocxhfdopwj.com^
 ||qsodssvqzzpoi.site^
 ||qsplbgznb.com^
 ||qsrdqwujtvxcf.vip^
@@ -35960,6 +35980,7 @@ vkcdnservice.appspot.com^
 ||quilaassort.shop^
 ||quillonalgums.com^
 ||quillshut.com^
+||quillykeened.cyou^
 ||quiniachiel.cfd^
 ||quinincider.qpon^
 ||quintessentialdust.pro^
@@ -36878,6 +36899,7 @@ vkcdnservice.appspot.com^
 ||repulsiveformerlydevaluation.com^
 ||requcmnno.com^
 ||requestinclude.com^
+||requiemarras.shop^
 ||required-crack.pro^
 ||requiredbuddy.com^
 ||requiredswanchastise.com^
@@ -37383,6 +37405,7 @@ vkcdnservice.appspot.com^
 ||rlrsfxkewwgww.site^
 ||rlscazlimyrsf.space^
 ||rlsnntgffqnli.online^
+||rltovwwkqqxbd.space^
 ||rludahcaewkfd.online^
 ||rluhlgvsxabon.online^
 ||rlusaglqgblxw.website^
@@ -44306,6 +44329,7 @@ vkcdnservice.appspot.com^
 ||unwitchlamiafrowl.cfd^
 ||unwitting-milk.com^
 ||unwittykeresan.shop^
+||unwivedenampernor.qpon^
 ||unwritmirific.com^
 ||unwritten-cash.com^
 ||unwrittenfront.com^
@@ -45416,6 +45440,7 @@ vkcdnservice.appspot.com^
 ||vipdine.space^
 ||viperishly.com^
 ||vipersuccessfullygoblet.com^
+||viperydanite.cfd^
 ||vipgcafayms.com^
 ||viphotdream.com^
 ||vipjdigpgkgzi.site^
@@ -46774,6 +46799,7 @@ vkcdnservice.appspot.com^
 ||whoadhoxtojg.com^
 ||whobiglauni.net^
 ||whocheeseskg.cyou^
+||whoeverpensivepaternity.com^
 ||whogloagru.net^
 ||whoisezh.com^
 ||wholecentare.com^
@@ -140504,7 +140530,6 @@ dlsdk.appsflyer.com^
 ||ashleyrnadison.com^
 ||atardrushim.com^
 ||aurelia-il.com^
-||aurorabrand.co.il^
 ||avoda-mehabait.co.il^
 ||azadv.co.il^
 ||banners.news1.co.il^
@@ -146803,6 +146828,9 @@ dlsdk.appsflyer.com^
 ||51tongji.trafficmanager.net^
 ||67.21.92.*.gif
 ||cnzz.trafficmanager.net^
+||903jbw7lr6.com^
+||d7rn5gu7i2.com^
+||exponent69.com^
 ||roywc0iql.com^
 ||s002o2hkg.com^
 ||fraction05.com^
@@ -155815,8 +155843,6 @@ Banner468x60
 ||sentry.21vek.by^
 ||analytics.22places.de^
 ||matomo.22places.de^
-||a.23bece13537659fe414f68e45cedb2fcc42846e0dcd4f83c2ea9d2d6.com^
-||c.23bece13537659fe414f68e45cedb2fcc42846e0dcd4f83c2ea9d2d6.com^
 ||analytics.23m.com^
 ||sentry.23m.com^
 ||stat.24.hu^
@@ -166084,13 +166110,13 @@ Banner468x60
 ||d11tldh9zr4z08.cloudfront.net^
 ||d11w14257901lw.cloudfront.net^
 ||d11ywwiwbp5w99.cloudfront.net^
+||d11zd6hrtvyf1p.cloudfront.net^
 ||d1225795gabrip.cloudfront.net^
 ||d12lysxt2c11pc.cloudfront.net^
 ||d12ue6f2329cfl.cloudfront.net^
 ||d13dhn7ldhrcf6.cloudfront.net^
 ||d13s98z2lzti92.cloudfront.net^
 ||d14bvk55lekxdw.cloudfront.net^
-||d14hh3kwt0vf8s.cloudfront.net^
 ||d14nx4uiqzwnqt.cloudfront.net^
 ||d14p8nzdvd75ly.cloudfront.net^
 ||d14qd3he45186l.cloudfront.net^
@@ -166133,6 +166159,7 @@ Banner468x60
 ||d1clfvuu2240eh.cloudfront.net^
 ||d1d3jupgwm7m5r.cloudfront.net^
 ||d1daeonbqcq0oh.cloudfront.net^
+||d1dg7ete2wkysb.cloudfront.net^
 ||d1dh1ip0i1pv81.cloudfront.net^
 ||d1dnmhdhg9vg1d.cloudfront.net^
 ||d1dpj83k3qhw55.cloudfront.net^
@@ -166143,10 +166170,12 @@ Banner468x60
 ||d1f1lqyq09pe4q.cloudfront.net^
 ||d1f5e6p0r74ryd.cloudfront.net^
 ||d1f94w321xtzmt.cloudfront.net^
+||d1fgtfo8rk3zia.cloudfront.net^
 ||d1fh3f0kkan5vq.cloudfront.net^
 ||d1fpdhao7f8ux5.cloudfront.net^
 ||d1g145x70srn7h.cloudfront.net^
 ||d1gofkrkum4ehe.cloudfront.net^
+||d1gy8jdhm45lij.cloudfront.net^
 ||d1hc14f07g70ck.cloudfront.net^
 ||d1hcrjcdtouu7e.cloudfront.net^
 ||d1hjxa70kzqyh6.cloudfront.net^
@@ -166157,7 +166186,6 @@ Banner468x60
 ||d1i90rzzzswqeg.cloudfront.net^
 ||d1icb03h9nte03.cloudfront.net^
 ||d1igp3oop3iho5.cloudfront.net^
-||d1ikyt7zls3fiy.cloudfront.net^
 ||d1izuvv2qy7hel.cloudfront.net^
 ||d1j6ynnkkyzn6b.cloudfront.net^
 ||d1jgl0ynvyddya.cloudfront.net^
@@ -166169,16 +166197,16 @@ Banner468x60
 ||d1jwpcr0q4pcq0.cloudfront.net^
 ||d1k1f5irw0ad96.cloudfront.net^
 ||d1k5qlz5hbz8am.cloudfront.net^
+||d1knznvzoubzay.cloudfront.net^
 ||d1l30mphtokdbg.cloudfront.net^
 ||d1l7z5ofrj6ab8.cloudfront.net^
 ||d1lax2pddqj38d.cloudfront.net^
 ||d1liekpayvooaz.cloudfront.net^
-||d1lth414eiky0s.cloudfront.net^
 ||d1lxz4vuik53pc.cloudfront.net^
 ||d1lzoljld5a2bc.cloudfront.net^
 ||d1m383qkjwdfx0.cloudfront.net^
+||d1m4ettuq4ezj0.cloudfront.net^
 ||d1mgcpums0qvsa.cloudfront.net^
-||d1mgemv4ufawu7.cloudfront.net^
 ||d1mgu8uq9tc68.cloudfront.net^
 ||d1miuq6afqay8u.cloudfront.net^
 ||d1mob6w0cdx3a7.cloudfront.net^
@@ -166201,15 +166229,12 @@ Banner468x60
 ||d1pg391qb4gheb.cloudfront.net^
 ||d1pplo45p828lj.cloudfront.net^
 ||d1pr3sk5xr0dce.cloudfront.net^
-||d1py5zango4p59.cloudfront.net^
 ||d1pywvbolq0b04.cloudfront.net^
 ||d1q7pknmpq2wkm.cloudfront.net^
 ||d1q9csnjkgnx2a.cloudfront.net^
-||d1qkex3obhrzml.cloudfront.net^
 ||d1qqddufal4d58.cloudfront.net^
 ||d1qrypy5hib3wm.cloudfront.net^
 ||d1r08wok4169a5.cloudfront.net^
-||d1railx6y20syj.cloudfront.net^
 ||d1rind1mbgys5l.cloudfront.net^
 ||d1rlov10twpokb.cloudfront.net^
 ||d1rr5z16sjcy10.cloudfront.net^
@@ -166240,8 +166265,8 @@ Banner468x60
 ||d1wjj8n9m51z7v.cloudfront.net^
 ||d1yh10k4hi0fgx.cloudfront.net^
 ||d1yhzddoi8ev99.cloudfront.net^
+||d1yms2aqdrmoyy.cloudfront.net^
 ||d1yu67rmchodpo.cloudfront.net^
-||d1z0mfyqx7ypd2.cloudfront.net^
 ||d1zatounuylvwg.cloudfront.net^
 ||d1zchjxt6i84hj.cloudfront.net^
 ||d1zcmvsklxjbur.cloudfront.net^
@@ -166249,7 +166274,6 @@ Banner468x60
 ||d1zoiveqr7pf5b.cloudfront.net^
 ||d1zokzhal29fpg.cloudfront.net^
 ||d20519brkbo4nz.cloudfront.net^
-||d20d4iyudztcsn.cloudfront.net^
 ||d20duyjzb7cuoc.cloudfront.net^
 ||d20gugglvqh7ya.cloudfront.net^
 ||d20i5e3rqc90ne.cloudfront.net^
@@ -166257,7 +166281,6 @@ Banner468x60
 ||d20pfv8rjbr1n6.cloudfront.net^
 ||d20tk7ygz8ugsj.cloudfront.net^
 ||d210mxruddtl0f.cloudfront.net^
-||d213fwlipr0c0z.cloudfront.net^
 ||d219vqw0x87vje.cloudfront.net^
 ||d21aw2xov4zz0i.cloudfront.net^
 ||d21gpk1vhmjuf5.cloudfront.net^
@@ -166265,11 +166288,11 @@ Banner468x60
 ||d21j0tl4id6lf2.cloudfront.net^
 ||d21m0ezw6fosyw.cloudfront.net^
 ||d21uwl37pca4oi.cloudfront.net^
+||d21v8ybrrp86xk.cloudfront.net^
 ||d21xzkx9a6yixg.cloudfront.net^
 ||d221oziut8gs4d.cloudfront.net^
 ||d2222t5nvb13ei.cloudfront.net^
 ||d22lwxpnhu2n4a.cloudfront.net^
-||d232xh9rapx5ux.cloudfront.net^
 ||d23jrpblg62jtb.cloudfront.net^
 ||d2405b0jymm2dk.cloudfront.net^
 ||d241ujsiy3yht0.cloudfront.net^
@@ -166287,17 +166310,19 @@ Banner468x60
 ||d26exkfgvy72ja.cloudfront.net^
 ||d26ky332zktp97.cloudfront.net^
 ||d26opx5dl8t69i.cloudfront.net^
+||d26r15y2ken1t9.cloudfront.net^
 ||d26r44l4vrn00m.cloudfront.net^
 ||d26tbbq8zqdi4v.cloudfront.net^
 ||d26us1doo6mh7f.cloudfront.net^
 ||d26x5ounzdjojj.cloudfront.net^
 ||d26xw8rp6mlgfg.cloudfront.net^
-||d274eq41c39r2n.cloudfront.net^
 ||d275fvz7g8rvo.cloudfront.net^
 ||d2763msf1wgvw2.cloudfront.net^
 ||d276dyxkw9wo01.cloudfront.net^
+||d277ep2wgd151p.cloudfront.net^
 ||d27jk9dqha8met.cloudfront.net^
 ||d27uz827y1nafd.cloudfront.net^
+||d27x8q4e6kt3d1.cloudfront.net^
 ||d27zo25ndi7m0e.cloudfront.net^
 ||d283fm003ll1xs.cloudfront.net^
 ||d28g9g3vb08y70.cloudfront.net^
@@ -166370,7 +166395,6 @@ Banner468x60
 ||d2mjzob2nc713b.cloudfront.net^
 ||d2mlls8dsnofna.cloudfront.net^
 ||d2moz0h55szev9.cloudfront.net^
-||d2mq51fvs4qv44.cloudfront.net^
 ||d2mvl3dkxvehny.cloudfront.net^
 ||d2n2mjq7zqikgh.cloudfront.net^
 ||d2n2xdxvkri1jk.cloudfront.net^
@@ -166380,6 +166404,7 @@ Banner468x60
 ||d2nq0f8d9ofdwv.cloudfront.net^
 ||d2nuj85jf6t0f3.cloudfront.net^
 ||d2nx6ydw3e5y5d.cloudfront.net^
+||d2nz6secq3489l.cloudfront.net^
 ||d2o307dm5mqftz.cloudfront.net^
 ||d2oarllo6tn86.cloudfront.net^
 ||d2od2b2huvmzuj.cloudfront.net^
@@ -166397,7 +166422,6 @@ Banner468x60
 ||d2rjkjoraddx2p.cloudfront.net^
 ||d2rp1k1dldbai6.cloudfront.net^
 ||d2s6z1m6xnp5uj.cloudfront.net^
-||d2s8op9diglqrw.cloudfront.net^
 ||d2sbntmqjpc1gx.cloudfront.net^
 ||d2skqnrxz11esv.cloudfront.net^
 ||d2t15uaqqm1mjb.cloudfront.net^
@@ -166416,17 +166440,16 @@ Banner468x60
 ||d2ul07mfd59d8q.cloudfront.net^
 ||d2um2qdswy1tb0.cloudfront.net^
 ||d2uzayf7r4rh08.cloudfront.net^
-||d2vcmitbj8sjr6.cloudfront.net^
 ||d2vd3rtal66yy0.cloudfront.net^
 ||d2vig74li2resi.cloudfront.net^
 ||d2vl0gdro49u3c.cloudfront.net^
-||d2vxfh5j20pkyr.cloudfront.net^
 ||d2w7avhumdk0s6.cloudfront.net^
 ||d2w88er3oa79h8.cloudfront.net^
 ||d2wbr3tthrn9lu.cloudfront.net^
 ||d2wekgv66wx77n.cloudfront.net^
 ||d2wzl9lnvjz3bh.cloudfront.net^
 ||d2x2losda9vsjs.cloudfront.net^
+||d2x9vapu6590s0.cloudfront.net^
 ||d2xerlamkztbb1.cloudfront.net^
 ||d2xgf76oeu9pbh.cloudfront.net^
 ||d2xoknzblbbhrj.cloudfront.net^
@@ -166445,25 +166468,24 @@ Banner468x60
 ||d2yyd1h5u9mauk.cloudfront.net^
 ||d2yzlvmgs67bxt.cloudfront.net^
 ||d2zah9y47r7bi2.cloudfront.net^
+||d2zblloliromfu.cloudfront.net^
 ||d2zjd612oq0w0l.cloudfront.net^
 ||d2zqfs55y95cft.cloudfront.net^
 ||d2zur9cc2gf1tx.cloudfront.net^
 ||d2zv5rkii46miq.cloudfront.net^
-||d2zyvlskj53q65.cloudfront.net^
 ||d30a2o6zg7ra9b.cloudfront.net^
 ||d30pl5hav4s8uw.cloudfront.net^
 ||d30s0lx1onfwyh.cloudfront.net^
-||d31233e2b4var3.cloudfront.net^
 ||d3125zvx5yi5sj.cloudfront.net^
 ||d317dmr0whummx.cloudfront.net^
 ||d31j93rd8oukbv.cloudfront.net^
 ||d31otfhas71ais.cloudfront.net^
 ||d31qbv1cthcecs.cloudfront.net^
-||d31tef3bsujkft.cloudfront.net^
 ||d31tu1fsc224h4.cloudfront.net^
 ||d31xqmzex8ubh8.cloudfront.net^
 ||d328y0m0mtvzqc.cloudfront.net^
 ||d32ajg1ye8vnl9.cloudfront.net^
+||d32b5cdxgzwash.cloudfront.net^
 ||d32gix1g9cqv9i.cloudfront.net^
 ||d32my1g7y42nkk.cloudfront.net^
 ||d32suzlk3an1bu.cloudfront.net^
@@ -166476,6 +166498,7 @@ Banner468x60
 ||d33pn8gtn0nu9p.cloudfront.net^
 ||d33wwcok8lortz.cloudfront.net^
 ||d3410ost8gg4o3.cloudfront.net^
+||d34vt2j6vi8sy7.cloudfront.net^
 ||d34z52lz2jji1t.cloudfront.net^
 ||d3591q3cwzbtxd.cloudfront.net^
 ||d35eux0j7ldw19.cloudfront.net^
@@ -166502,24 +166525,27 @@ Banner468x60
 ||d37oebn0w9ir6a.cloudfront.net^
 ||d37unsldgykj8z.cloudfront.net^
 ||d37xvfvxl95pq8.cloudfront.net^
+||d385c1n0o64nql.cloudfront.net^
 ||d38fey2d93vryi.cloudfront.net^
 ||d38hmgjgf0kofx.cloudfront.net^
 ||d38nbbai6u794i.cloudfront.net^
 ||d38xvr37kwwhcm.cloudfront.net^
 ||d3932137p5ikt7.cloudfront.net^
-||d39900kle1tsnc.cloudfront.net^
 ||d39cp68dh0b83l.cloudfront.net^
 ||d39iocnrk5rxnb.cloudfront.net^
 ||d39va5bdt61idd.cloudfront.net^
 ||d39vf9bwtb4sua.cloudfront.net^
 ||d39w0kom5uu14t.cloudfront.net^
+||d39xg4navfyuug.cloudfront.net^
 ||d3a54pr3t3ubfr.cloudfront.net^
+||d3a95mnixoebky.cloudfront.net^
 ||d3aa0ztdn3oibi.cloudfront.net^
 ||d3aiy6aqoa3ykz.cloudfront.net^
 ||d3al52d8cojds7.cloudfront.net^
 ||d3alqb8vzo7fun.cloudfront.net^
 ||d3aq9hkf9yd0ww.cloudfront.net^
 ||d3b02estmut877.cloudfront.net^
+||d3b9jm8i0eyllh.cloudfront.net^
 ||d3bj8nkfly20uo.cloudfront.net^
 ||d3bsbtr7gp443k.cloudfront.net^
 ||d3c0hjeoqmryl5.cloudfront.net^
@@ -166544,21 +166570,19 @@ Banner468x60
 ||d3eyd961wi10bl.cloudfront.net^
 ||d3ezl4ajpp2zy8.cloudfront.net^
 ||d3f4u3khr0ycep.cloudfront.net^
+||d3f56r6myup19q.cloudfront.net^
 ||d3f5pyioow99x0.cloudfront.net^
 ||d3fdp2ho8z9fyl.cloudfront.net^
 ||d3fkv551xkjrmm.cloudfront.net^
 ||d3g4v8jib8rwig.cloudfront.net^
 ||d3g9jzjodi4z8o.cloudfront.net^
-||d3gbxmocpup7di.cloudfront.net^
 ||d3h5bk8iotgjvw.cloudfront.net^
 ||d3hmp0045zy3cs.cloudfront.net^
 ||d3hwh14livah35.cloudfront.net^
 ||d3ik27cqx8s5ub.cloudfront.net^
-||d3iox1tjepb92.cloudfront.net^
 ||d3ix9yg89ky1c5.cloudfront.net^
 ||d3jcjsor8fnmka.cloudfront.net^
 ||d3jgr4uve1d188.cloudfront.net^
-||d3jo79y1m6np83.cloudfront.net^
 ||d3k1w8lx8mqizo.cloudfront.net^
 ||d3k68ig7ckr3r6.cloudfront.net^
 ||d3k6gt80y743t4.cloudfront.net^
@@ -166572,7 +166596,6 @@ Banner468x60
 ||d3luypns9uh4a4.cloudfront.net^
 ||d3lvir7538n0oi.cloudfront.net^
 ||d3m6daqa7jwjsk.cloudfront.net^
-||d3m6lc4k7daurv.cloudfront.net^
 ||d3mcf0n3hvvfk4.cloudfront.net^
 ||d3mjsomixevyw7.cloudfront.net^
 ||d3mlfyygrfdi2i.cloudfront.net^
@@ -166630,7 +166653,6 @@ Banner468x60
 ||d3ujids68p6xmq.cloudfront.net^
 ||d3v1lb83psg9di.cloudfront.net^
 ||d3v27wwd40f0xu.cloudfront.net^
-||d3vd0xee57b8hr.cloudfront.net^
 ||d3vk40ihlliju7.cloudfront.net^
 ||d3vt0rqt08ph1x.cloudfront.net^
 ||d3w0arvvki19jt.cloudfront.net^
@@ -166647,7 +166669,6 @@ Banner468x60
 ||d5z42oph1suk.cloudfront.net^
 ||d62mrph0xm5hi.cloudfront.net^
 ||d68pny6y1rwfr.cloudfront.net^
-||d6b5l57v7lxns.cloudfront.net^
 ||d6jkenny8w8yo.cloudfront.net^
 ||d6z72aalekwc3.cloudfront.net^
 ||d70shl7vidtft.cloudfront.net^
@@ -166655,7 +166676,6 @@ Banner468x60
 ||d7b4oen68ez9x.cloudfront.net^
 ||d7l4f34xx1kj4.cloudfront.net^
 ||d7t3qhxxipimh.cloudfront.net^
-||d7uhjn1vhjlln.cloudfront.net^
 ||d7x5nblzs94me.cloudfront.net^
 ||d867x8xq12ag.cloudfront.net^
 ||d88f3ym7dkyv7.cloudfront.net^
@@ -166669,7 +166689,6 @@ Banner468x60
 ||d99xz3flubf0x.cloudfront.net^
 ||d9esmwyn3ffr1.cloudfront.net^
 ||d9etzk30b05yg.cloudfront.net^
-||d9msk9dy9tbnk.cloudfront.net^
 ||da1bbbz2bvais.cloudfront.net^
 ||dacvuskohga7w.cloudfront.net^
 ||dah0wv79ikn14.cloudfront.net^
@@ -166686,6 +166705,7 @@ Banner468x60
 ||dcqtn1np2a3xz.cloudfront.net^
 ||dct4jph3as9lp.cloudfront.net^
 ||ddacn6pr5v0tl.cloudfront.net^
+||dde7q711skl5j.cloudfront.net^
 ||ddfnmo6ev4fd.cloudfront.net^
 ||ddla593ymz72o.cloudfront.net^
 ||ddzuuyx7zj81k.cloudfront.net^
@@ -166717,6 +166737,7 @@ Banner468x60
 ||dh7lqnms5dfd.cloudfront.net^
 ||dhpikd1t89arn.cloudfront.net^
 ||dhqbrvplips7x.cloudfront.net^
+||dhxhn1njedrgt.cloudfront.net^
 ||dhzws7l31cq8p.cloudfront.net^
 ||diodxcszlbmwk.cloudfront.net^
 ||disutgh7q0ncc.cloudfront.net^
@@ -166733,17 +166754,17 @@ Banner468x60
 ||dkbogvpt0vowq.cloudfront.net^
 ||dkpklk99llpj0.cloudfront.net^
 ||dkus30wj6f84p.cloudfront.net^
-||dky33w7s1xrgi.cloudfront.net^
 ||dl7g9llrghqi1.cloudfront.net^
 ||dlpvhn0f8mnlz.cloudfront.net^
-||dlrabaly59cp3.cloudfront.net^
 ||dm0toycgkhhzb.cloudfront.net^
 ||dmdigbrzjbmso.cloudfront.net^
+||dmi7ekb0npm0y.cloudfront.net^
 ||dmsu69w33edha.cloudfront.net^
 ||dn0qt3r0xannq.cloudfront.net^
 ||dn1i8v75r669j.cloudfront.net^
 ||dn3y71tq7jf07.cloudfront.net^
 ||dn4d1v1ofq2j1.cloudfront.net^
+||dn5u223ucq9xm.cloudfront.net^
 ||dnhgz729v27ca.cloudfront.net^
 ||dnht95ajef6hr.cloudfront.net^
 ||dnk2wr2ch6zxa.cloudfront.net^
@@ -166757,13 +166778,12 @@ Banner468x60
 ||dpb3g4kqr8xz.cloudfront.net^
 ||dpbfm6h358sh7.cloudfront.net^
 ||dpndczlul8yjf.cloudfront.net^
-||dpok0ocnk22ym.cloudfront.net^
 ||dpp750yjcl65g.cloudfront.net^
-||dqfkmwvib0lbb.cloudfront.net^
 ||dqhi3ea93ztgv.cloudfront.net^
 ||dqvpww3nzoeeq.cloudfront.net^
 ||dr3fr5q4g2ul9.cloudfront.net^
 ||dr4qe3ddw9y32.cloudfront.net^
+||drc6ebhco4cva.cloudfront.net^
 ||drgb74ojbgxg7.cloudfront.net^
 ||drlimmode9ddd.cloudfront.net^
 ||drrcckbju3nd0.cloudfront.net^
@@ -166791,7 +166811,6 @@ Banner468x60
 ||dvbee3zterhof.cloudfront.net^
 ||dvqcs4w0eo35b.cloudfront.net^
 ||dvqigh9b7wa32.cloudfront.net^
-||dwgbg8vy0czhx.cloudfront.net^
 ||dwxjayoxbnyrr.cloudfront.net^
 ||dx6ctphzljkf1.cloudfront.net^
 ||dx6uy6q3udhkj.cloudfront.net^
@@ -168220,7 +168239,6 @@ Banner468x60
 ||robustlink.co.in^
 ||ronnietucker.co.uk^
 ||rpgcashflow.co.uk^
-||ruddy.co.uk^
 ||rustdesk.co.nz^
 ||saf.co.il^
 ||salesdesign.co.in^
@@ -219040,6 +219058,7 @@ Banner468x60
 ||12912.cfd^
 ||129156.com^
 ||12934.cfd^
+||12937.shop^
 ||12949280466.xyz^
 ||1294bello.com^
 ||12951.com^
@@ -221498,7 +221517,6 @@ Banner468x60
 ||21xjb.top^
 ||21xjy.top^
 ||21ybm.top^
-||22-icloud.com^
 ||22-plaisir.com^
 ||22000jnrevldcsz.com^
 ||22000verdcsarvecsd.com^
@@ -221741,6 +221759,7 @@ Banner468x60
 ||2397f727830638c3.com^
 ||23a0638ee7cf.net^
 ||23aoalmfwinbsstec.com^
+||23bece13537659fe414f68e45cedb2fcc42846e0dcd4f83c2ea9d2d6.com^
 ||23canistakisiparisler.cloud^
 ||23d051b49da1.xyz^
 ||23d859dd6588.top^
@@ -229240,6 +229259,7 @@ Banner468x60
 ||71c60833cb3acead.com^
 ||71d1a55f5c0db8c8.com^
 ||71da4088b98d8a76.com^
+||71deq.top^
 ||71f8b7372607c400.com^
 ||71fa0f124cb5e382.com^
 ||71fjx.top^
@@ -234172,6 +234192,7 @@ Banner468x60
 ||acceptablejitterdisgrace.com^
 ||acceptabletopic.pro^
 ||acceptbettingchaste.com^
+||acceptedbots.xyz^
 ||acceptww.com^
 ||acces-infos.com^
 ||acces-personnel.com^
@@ -236844,6 +236865,7 @@ Banner468x60
 ||agdrumschool.com^
 ||agdsklep.shop^
 ||agdstrefa.shop^
+||agdzakupy.shop^
 ||age.com^
 ||aged-grass.com^
 ||aged-reveal.com^
@@ -237480,6 +237502,7 @@ Banner468x60
 ||ajh6.top^
 ||ajh61.top^
 ||ajh73.top^
+||ajh76.top^
 ||ajh87.top^
 ||ajh91.top^
 ||ajh92.top^
@@ -237526,6 +237549,7 @@ Banner468x60
 ||ajx59.top^
 ||ajx74.top^
 ||ajx77.top^
+||ajx80.top^
 ||ajx85.top^
 ||ajx90.top^
 ||ajx99.top^
@@ -239318,7 +239342,6 @@ Banner468x60
 ||aperubobbled.com^
 ||apesbaby.com^
 ||apester.com^
-||apex-anticheat.com^
 ||apex-cms.com^
 ||apex-dianzi-online.com^
 ||apex-trade.capital^
@@ -242501,6 +242524,7 @@ Banner468x60
 ||bagbfhyqldvfpn.com^
 ||bagbuddha.cyou^
 ||bagcash.app^
+||bagciksizmargela.sbs^
 ||bagelransomresentment.com^
 ||bagfashionhub.com^
 ||bagfulchiefmeant.com^
@@ -242676,6 +242700,7 @@ Banner468x60
 ||bamboohugs.com^
 ||bambospolv.cyou^
 ||bamboss.ru^
+||bambuicin.sbs^
 ||bambun.ru^
 ||bameb.com^
 ||bamekiy.com^
@@ -242765,6 +242790,7 @@ Banner468x60
 ||banktoday.de^
 ||banktoledger.com^
 ||banmax.com^
+||banmforce.best^
 ||bannedretro.com^
 ||banner.ua^
 ||banner-ad-nex.com^
@@ -246851,7 +246877,6 @@ Banner468x60
 ||brightledgerlabs.cloud^
 ||brightledgermedia.com^
 ||brightledgerway.org^
-||brightlydaringhyena.shop^
 ||brightmapleledgeradvisory.com^
 ||brightmeadowpath.com^
 ||brightmetrics.com^
@@ -248642,12 +248667,14 @@ Banner468x60
 ||cae40.top^
 ||cae47.top^
 ||cae49.top^
+||cae50.top^
 ||cae53.top^
 ||cae61.top^
 ||cae658a524b1.top^
 ||cae68.top^
 ||cae71.top^
 ||cae73.top^
+||cae76.top^
 ||cae81.top^
 ||cae93.top^
 ||cae97.top^
@@ -250379,6 +250406,7 @@ Banner468x60
 ||cfa2f8871d35c82b.cc^
 ||cfabf1ef11.com^
 ||cfadab470e76.top^
+||cfake.com^
 ||cfalbxcmdsih.com^
 ||cfamurfreesboro.com^
 ||cfb-belgique.com^
@@ -251351,7 +251379,6 @@ Banner468x60
 ||cisco-to.cfd^
 ||cistranfinance.com^
 ||ciszezwroclawia.info^
-||cit-online.com^
 ||citadelbank.com^
 ||citadelresiliency.com^
 ||citadeltrf.com^
@@ -252358,6 +252385,7 @@ Banner468x60
 ||cnrdn.com^
 ||cnrfms.pro^
 ||cnshcncjs3.vip^
+||cnsiap.online^
 ||cnswz.com^
 ||cnsystem.cc^
 ||cnt.re^
@@ -256727,6 +256755,7 @@ Banner468x60
 ||d74qp.top^
 ||d7533b6c6a28.top^
 ||d75eab71ed366bddb467d041c8cd58efef86239d07074f79265c2ab64e63be8.link^
+||d75qe.top^
 ||d75qx.top^
 ||d76aa1946f1c.online^
 ||d76gghk.cc^
@@ -258509,7 +258538,6 @@ Banner468x60
 ||deposittick.com^
 ||deposittokenledger.com^
 ||depraveadvance.com^
-||deprecatedumbrellaprotocol.xyz^
 ||deprecateouterrust.com^
 ||depreciatemarketaccordance.com^
 ||depressingadapted.com^
@@ -260184,6 +260212,7 @@ Banner468x60
 ||djh41.top^
 ||djh58.top^
 ||djh72.top^
+||djh75.top^
 ||djh76.top^
 ||djh81.top^
 ||djh96.top^
@@ -261086,6 +261115,7 @@ Banner468x60
 ||dpd-uk00.icu^
 ||dpdd-79.help^
 ||dpdd-79.top^
+||dpddeliveries.zip^
 ||dpdlocai-co.cfd^
 ||dpdlocai-co.cyou^
 ||dpdlocai-co.icu^
@@ -261209,6 +261239,8 @@ Banner468x60
 ||dq71z.top^
 ||dq73k.top^
 ||dq74n.top^
+||dq75n.top^
+||dq75v.top^
 ||dq76h.top^
 ||dq76m.top^
 ||dq8i9djm.com^
@@ -262108,8 +262140,10 @@ Banner468x60
 ||dwk17.top^
 ||dwk19.top^
 ||dwk21.top^
+||dwk25.top^
 ||dwk27.top^
 ||dwk33.top^
+||dwk47.top^
 ||dwk50.top^
 ||dwk6.top^
 ||dwk67.top^
@@ -265176,6 +265210,7 @@ Banner468x60
 ||ethomithi.net^
 ||ethos-marketing.com^
 ||ethosdistro.com^
+||ethrecovered.xyz^
 ||ethreemail.com^
 ||ethreledger.xyz^
 ||ethylinledger.click^
@@ -265938,7 +265973,6 @@ Banner468x60
 ||externalamy.com^
 ||externalcheats.com^
 ||externalfavlink.com^
-||externallyinwalrus.shop^
 ||externalsuffice.com^
 ||extlinka.ru^
 ||extnding.vip^
@@ -266363,6 +266397,7 @@ Banner468x60
 ||f5ecdbfb0ac67cce.com^
 ||f5ef20a566e54485.com^
 ||f5hj.top^
+||f5jx.top^
 ||f5rh.top^
 ||f606f19b58bec722.com^
 ||f607fcd41438.top^
@@ -271049,6 +271084,7 @@ Banner468x60
 ||fve27.top^
 ||fve3.top^
 ||fve4.top^
+||fve84.top^
 ||fvftus.com^
 ||fvghntryunretner.click^
 ||fvmaily.com^
@@ -277227,6 +277263,7 @@ Banner468x60
 ||hizligecislimuzin.lat^
 ||hizligecisyuklemc.lat^
 ||hizlikayitt.com^
+||hizlikmburda.xyz^
 ||hizlikmvemuz.xyz^
 ||hizlimenu-yazi.click^
 ||hizlimobilbasvurular.sbs^
@@ -278826,6 +278863,7 @@ Banner468x60
 ||humongoussuspect.pro^
 ||humorkowo.net^
 ||humorouschargesfainted.com^
+||humpluspublishing.com^
 ||humpyregime.top^
 ||humulo.beer^
 ||hun2sadcjkdaskx123x1dasz123.shop^
@@ -282643,6 +282681,7 @@ Banner468x60
 ||j73ph.top^
 ||j73th.top^
 ||j74bh.top^
+||j74dh.top^
 ||j74dx.top^
 ||j74xc.top^
 ||j74xf.top^
@@ -283610,6 +283649,7 @@ Banner468x60
 ||jgx25.top^
 ||jgx29.top^
 ||jgx36.top^
+||jgx40.top^
 ||jgx45.top^
 ||jgx48.top^
 ||jgx66.top^
@@ -284313,6 +284353,7 @@ Banner468x60
 ||jkx62.top^
 ||jkx66.top^
 ||jkx75.top^
+||jkx87.top^
 ||jkx9.top^
 ||jkx98.top^
 ||jkxp6.shop^
@@ -284395,6 +284436,7 @@ Banner468x60
 ||jm45h.top^
 ||jm47h.top^
 ||jm49h.top^
+||jm72h.top^
 ||jm99h.top^
 ||jmautopecas.com^
 ||jmawcrld.com^
@@ -285050,6 +285092,7 @@ Banner468x60
 ||js54h.top^
 ||js596.com^
 ||js61x.top^
+||js63x.top^
 ||js671.com^
 ||js683.com^
 ||js753.com^
@@ -285792,6 +285835,7 @@ Banner468x60
 ||jw20h.top^
 ||jw26h.top^
 ||jw50h.top^
+||jw53h.top^
 ||jw66h.top^
 ||jw69h.top^
 ||jw72h.top^
@@ -285836,6 +285880,7 @@ Banner468x60
 ||jx17y.top^
 ||jx18c.top^
 ||jx18g.top^
+||jx20g.top^
 ||jx20m.top^
 ||jx20r.top^
 ||jx21d.top^
@@ -286037,6 +286082,7 @@ Banner468x60
 ||jxd39.top^
 ||jxd6.top^
 ||jxd68.top^
+||jxd73.top^
 ||jxd78.top^
 ||jxd97.top^
 ||jxdown.com^
@@ -287518,7 +287564,6 @@ Banner468x60
 ||kjxty.com^
 ||kk-resources.com^
 ||kkadverts.com^
-||kkdjd.shop^
 ||kkfacebook.com^
 ||kkgrttfmi.com^
 ||kkhardwood.com^
@@ -288017,7 +288062,6 @@ Banner468x60
 ||koupitedpilulky.com^
 ||kouseh.site^
 ||kousenkan.com^
-||kousyel.shop^
 ||kov.studio^
 ||kovani.shop^
 ||kovenex.com^
@@ -298170,7 +298214,6 @@ Banner468x60
 ||mypop3.org^
 ||mypoppycloset.com^
 ||mypopups.com^
-||mypornx.net^
 ||myppl-support.com^
 ||mypremierfutbol.com^
 ||myprepaidcentre.net^
@@ -299829,6 +299872,7 @@ Banner468x60
 ||nightcord.ru^
 ||nightfalltrail.com^
 ||nighthawkless.info^
+||nightingalenurseadvocacy.com^
 ||nightledger.biz^
 ||nightlifemumbai.club^
 ||nightlyledgers.com^
@@ -303236,6 +303280,7 @@ Banner468x60
 ||orangewater00.com^
 ||oranopportunitytos.xyz^
 ||orapad.com^
+||oratorabstract.com^
 ||oratordeceiveviolate.com^
 ||oratoriax.vu^
 ||oraubsoux.net^
@@ -305314,7 +305359,6 @@ Banner468x60
 ||peer2profit.com^
 ||peer2profit.in^
 ||peer2profit.site^
-||peer365.vip^
 ||peerclick.com^
 ||peercon.org^
 ||peeredplanned.com^
@@ -306570,6 +306614,7 @@ Banner468x60
 ||pjx5.top^
 ||pjx66.top^
 ||pjx82.top^
+||pjx87.top^
 ||pjx97.top^
 ||pjzshwrsq.com^
 ||pk.gp^
@@ -306615,6 +306660,7 @@ Banner468x60
 ||pl-482002-oferta.shop^
 ||pl-4893902753.xyz^
 ||pl-4932493.cfd^
+||pl-5890124812.sbs^
 ||pl-58912547891.sbs^
 ||pl-6532932.cfd^
 ||pl-67.sbs^
@@ -308675,6 +308721,7 @@ Banner468x60
 ||privateadx.com^
 ||privateaparts.com^
 ||privatediet.pro^
+||privatefile.host^
 ||privatefling0725.click^
 ||privategame.xyz^
 ||privatelands.biz^
@@ -312799,6 +312846,7 @@ Banner468x60
 ||refeed.net^
 ||refeigngalas.com^
 ||referalov.net^
+||referelogs.com^
 ||referenceirresponsible.com^
 ||referlumen.sbs^
 ||referquickbooks.com^
@@ -317302,6 +317350,7 @@ Banner468x60
 ||sendit.cloud^
 ||sendletsledger.com^
 ||sendmini.com^
+||sendnet.cyou^
 ||sendnvaazgecmyzreis.sbs^
 ||sendpul.se^
 ||sendpulse.email^
@@ -319933,6 +319982,7 @@ Banner468x60
 ||smoggy-release.com^
 ||smoggystrain.pro^
 ||smokeandledger.com^
+||smokechalky.cyou^
 ||smokedhecticextraction.com^
 ||smokefieryforensic.com^
 ||smokeledger.com^
@@ -320069,6 +320119,7 @@ Banner468x60
 ||snarlseashoreprogress.com^
 ||snasteglochis.com^
 ||snatchclothing.com^
+||snc13.top^
 ||snccdn-framework.beer^
 ||sndabnbfbttg.com^
 ||sndebukmpyalardanfaydlan.com^
@@ -320251,6 +320302,7 @@ Banner468x60
 ||snx75.top^
 ||snx8.top^
 ||snx83.top^
+||snx84.top^
 ||snx91.top^
 ||snxyf.com^
 ||sny2.top^
@@ -321920,6 +321972,7 @@ Banner468x60
 ||standard-king.pro^
 ||standard-ring.pro^
 ||standard-visual.com^
+||standardcrown.lol^
 ||standardequivalent.com^
 ||standardgaudy.com^
 ||standardledger.in^
@@ -322622,6 +322675,7 @@ Banner468x60
 ||stream-flix.xyz^
 ||stream-forteo-hub.com^
 ||stream-me.com^
+||streamadj.cyou^
 ||streamall-search.com^
 ||streambeam.io^
 ||streamboo.com^
@@ -323889,6 +323943,7 @@ Banner468x60
 ||synthwave.site^
 ||syokmelaram.com^
 ||syokv.com^
+||syottan.cyou^
 ||sypaze.com^
 ||sypexgeo.net^
 ||syphilidledger.digital^
@@ -325789,6 +325844,7 @@ Banner468x60
 ||texefmzqxl.help^
 ||texefmzqxl.icu^
 ||texefmzqxl.love^
+||texefmzqxl.shop^
 ||texefmzqxl.xyz^
 ||texefplnrh.club^
 ||texefplnrh.help^
@@ -326473,6 +326529,7 @@ Banner468x60
 ||thece.co^
 ||thecelebrays.com^
 ||thecementlasted.shop^
+||thechiverylook.shop^
 ||thecityledger.xyz^
 ||thecitywithnolimits.com^
 ||theclassiccarry.shop^
@@ -327800,6 +327857,9 @@ Banner468x60
 ||tmcs.net^
 ||tmdjuzyvwvxh.com^
 ||tmdrz.com^
+||tme31.top^
+||tme38.top^
+||tme67.top^
 ||tmeamd.com^
 ||tmearn.net^
 ||tmebhjkjrtbb.com^
@@ -327843,6 +327903,9 @@ Banner468x60
 ||tnaytndmxgd.com^
 ||tnb-pharma.eu^
 ||tnb34.top^
+||tnb37.top^
+||tnb43.top^
+||tnb68.top^
 ||tnb7.top^
 ||tnb72.top^
 ||tnb73.top^
@@ -330279,6 +330342,7 @@ Banner468x60
 ||turkleak2.net^
 ||turkomania.org^
 ||turkoriginal.lat^
+||turkraki.sbs^
 ||turksistem.space^
 ||turkvip.lat^
 ||turnaroundledger.com^
@@ -332868,6 +332932,7 @@ Banner468x60
 ||valenciainfl.casa^
 ||valenciamebel.com^
 ||valenovo.shop^
+||valens.network^
 ||valentinalondon.com^
 ||valenxsledger.cyou^
 ||valenzagpt.com^
@@ -332967,7 +333032,6 @@ Banner468x60
 ||vanta.st^
 ||vantageanalytics.com^
 ||vantagesixtrust.com^
-||vantella.shop^
 ||vantoxsledger.cyou^
 ||vantro.sbs^
 ||vanulu.com^
@@ -334330,6 +334394,7 @@ Banner468x60
 ||vj59x.top^
 ||vj62h.top^
 ||vj76h.top^
+||vj77h.top^
 ||vj84h.top^
 ||vj87h.top^
 ||vj97h.top^
@@ -335109,6 +335174,7 @@ Banner468x60
 ||w2ev32h7.cfd^
 ||w30cr.top^
 ||w33cq.top^
+||w3cy.top^
 ||w3i.com^
 ||w3schools.tech^
 ||w3stats.de^
@@ -335123,6 +335189,7 @@ Banner468x60
 ||w4statistics.info^
 ||w52xj.top^
 ||w56xj.top^
+||w5cy.top^
 ||w5sndz.sbs^
 ||w5xj.top^
 ||w62608.top^
@@ -335153,6 +335220,7 @@ Banner468x60
 ||w88.ltd^
 ||w88tp.top^
 ||w89tj.top^
+||w93cr.top^
 ||w996.com^
 ||w9u38v16.com^
 ||wa.pe^
@@ -337664,6 +337732,7 @@ Banner468x60
 ||wptraffic.xyz^
 ||wpunkcie.pl^
 ||wpush.biz^
+||wpush.net^
 ||wpwpquse.cn^
 ||wpxyg.com^
 ||wpxyn.sbs^
@@ -339230,6 +339299,7 @@ Banner468x60
 ||xf74g.top^
 ||xf74t.top^
 ||xf74x.top^
+||xf75j.top^
 ||xfa46.top^
 ||xfa51.top^
 ||xfa52.top^
@@ -339393,6 +339463,7 @@ Banner468x60
 ||xhafmanpcaya.com^
 ||xhamser.com^
 ||xhamsterpremium.com^
+||xhand.cfd^
 ||xhanz.com^
 ||xhbqczl.com^
 ||xhcdaygcefbcz.com^
@@ -340571,6 +340642,7 @@ Banner468x60
 ||yb52d.top^
 ||yb52e.top^
 ||yb52g.top^
+||yb53r.top^
 ||yb54q.top^
 ||yb54s.top^
 ||yb55q.top^
@@ -340588,10 +340660,12 @@ Banner468x60
 ||yb76q.top^
 ||yb77g.top^
 ||yb78d.top^
+||yb78f.top^
 ||yb79d.top^
 ||yb7s001zn057sr9.sbs^
 ||yb80g.top^
 ||yb81d.top^
+||yb83f.top^
 ||yb83q.top^
 ||yb86p.top^
 ||yb885.com^
@@ -340861,6 +340935,7 @@ Banner468x60
 ||yieldmanager.com^
 ||yieldmrm.com^
 ||yieldnexus.com^
+||yieldorders.xyz^
 ||yieldpass.com^
 ||yieldr.com^
 ||yieldradius.io^
@@ -341969,6 +342044,7 @@ Banner468x60
 ||zaksmeqp.com^
 ||zakulisami24.xyz^
 ||zakulisowepol.top^
+||zakupiara.shop^
 ||zakupio.shop^
 ||zakuponik.shop^
 ||zakxafohb.in^
@@ -342781,6 +342857,7 @@ Banner468x60
 ||zjh33.top^
 ||zjh34.top^
 ||zjh36.top^
+||zjh48.top^
 ||zjhcdz.net^
 ||zjihnfuxlyiof.com^
 ||zjjbtl.com^
