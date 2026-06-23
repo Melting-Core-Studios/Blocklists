@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.2077
+! Version: 1.2078
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-06-23T02:47:38.075Z
+! Last modified: 2026-06-23T06:49:45.125Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -4384,14 +4384,17 @@
 ||collection.mola.tv^
 ||collector-direct.xhamster.com^
 ||collector-px0py5pczn.octopart.com^
+||collector.feedzop.com^
 ||collector.fiverr.com^
 ||collector.github.com^
 ||collector.megaxh.com^
 ||collector.pi.spectrum.net^
 ||collector.quillbot.com^
+||collector.quizzop.com^
 ||collector.spankbang.party^
 ||collector.taoxh.life^
 ||collector.theconversation.com^
+||collector.umogames.com^
 ||collector.xhaccess.com^
 ||collector.xhamster.com^
 ||collector.xhamster.desi^
@@ -212374,9 +212377,6 @@
 ||tk.boutique.femmeactuelle.fr^
 ||tk.boutique.harpersbazaar.fr^
 ||tk.boutique.programme-tv.net^
-||collector.umogames.com^
-||collector.quizzop.com^
-||collector.feedzop.com^
 ||blink.willowmovies.com^
 ||tracker-proxy.getmimo.com^
 ||cchome-stage.adobe.io^
