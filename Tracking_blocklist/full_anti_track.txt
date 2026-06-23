@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.2078
+! Version: 1.2079
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-06-23T06:49:45.125Z
+! Last modified: 2026-06-23T10:37:24.373Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -4421,6 +4421,7 @@
 ||d401.dollartree.com^
 ||d712.theinformation.com^
 ||dabu.askmediagroup.com^
+||dap.hindustantimes.com^
 ||data.allstate.com^
 ||data.barry-callebaut.com^
 ||data.debugbear.com^
@@ -73138,7 +73139,6 @@
 ||daoyoudao.com^
 ||dap.amsterdam.nl^
 ||dap.digitalgov.gov^
-||dap.hindustantimes.com^
 ||dap.livemint.com^
 ||dap.vmall.com^
 ||dap.worldota.net^
@@ -212377,6 +212377,7 @@
 ||tk.boutique.femmeactuelle.fr^
 ||tk.boutique.harpersbazaar.fr^
 ||tk.boutique.programme-tv.net^
+||obs.forseasky.com^
 ||blink.willowmovies.com^
 ||tracker-proxy.getmimo.com^
 ||cchome-stage.adobe.io^
