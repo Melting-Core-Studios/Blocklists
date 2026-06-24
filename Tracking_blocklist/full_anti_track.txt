@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.2083
+! Version: 1.2084
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-06-24T13:19:38.940Z
+! Last modified: 2026-06-24T16:18:48.799Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -212770,6 +212770,7 @@
 ||tk.boutique.femmeactuelle.fr^
 ||tk.boutique.harpersbazaar.fr^
 ||tk.boutique.programme-tv.net^
+||appview.fafafa.ai^
 ||blink.willowmovies.com^
 ||tracker-proxy.getmimo.com^
 ||cchome-stage.adobe.io^
@@ -217418,7 +217419,6 @@ prd.api.bleacherreport.com^
 ||customerevents.us-east-*.internal.dradis.netflix.com^
 ||sgtm.wimdu.
 ||event.*.shoplive.cloud^
-||beacon-*.helpscout.net^
 ||client.rum.*.amazonaws.com^
 ||staging-*.ispot.tv^
 ||stlog*-local.kakao.com^
