@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.2085
+! Version: 1.2086
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-06-25T05:05:13.652Z
+! Last modified: 2026-06-25T08:31:28.291Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -268,6 +268,7 @@
 ||healthroundprince.com^
 ||heap-api.com^
 ||herbgreencolumn.com^
+||herbstarsbuilding.com^
 ||hightouch-events.com^
 ||hirsung.de^
 ||histais.com^
@@ -3417,6 +3418,7 @@
 ||t.jobsyn.org^
 ||t.ltiquery.com^
 ||t.menepe.com^
+||t.mmganalytics.com^
 ||t.mydialoginsight.com^
 ||t.nc0.co^
 ||t.pointandplace.com^
@@ -4589,6 +4591,7 @@
 ||log.klook.com^
 ||log.quora.com^
 ||log.snapdeal.com^
+||log.strawpoll.com^
 ||log.webnovel.com^
 ||logger.nerdwallet.com^
 ||logging.api.intuit.com^
@@ -92850,7 +92853,6 @@
 ||log.spotify.com^
 ||log.sprocket.bz^
 ||log.sptag2.com^
-||log.strawpoll.com^
 ||log.strm.yandex.ru^
 ||log.strm.yango.com^
 ||log.suchen.de^
