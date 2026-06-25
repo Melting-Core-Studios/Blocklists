@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Combined-Anti-Phishing
 ! Description: Blocklist compiled of all MCS tested and compiled lists.
-! Version: 1.1775
+! Version: 1.1776
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-06-25T11:39:33.493Z
+! Last modified: 2026-06-25T14:17:10.999Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -121735,7 +121735,6 @@
 ||flexytalk.net^
 ||gmboxx.com^
 ||mr.media-bucket.com^
-||pl.allsports4u.club^
 ||discount.s3blog.org^
 ||tplinkextender.net^
 ||embols.com^
@@ -121750,7 +121749,6 @@
 ||mysecurify.com^
 ||developsincelock.com^
 ||gabriellalovecats.com^
-||jackielovedogs.com^
 ||tomorrowwillbehotmaybe.com^
 ||beqbox.com^
 ||procdnvids.net^
@@ -121781,4 +121779,3 @@
 /^https?:\/\/[a-z]{7}\.[a-z]{8,11}\.com\/products\/(?:[0-9a-z]+-)*(?:%[%0-9A-F]{8,}-)+(?:[0-9a-z]+-)*(?:[%0-9A-F]{8,}-)*[-%0-9A-Fa-z]+\/?$/$doc,match-case,ipaddress=/^23\.2\d{2}\.\d{2}\.\d{2}$/
 ||grabtrust.icu^
 ||testio.ecartdev.com^
-||599cdn.com^
