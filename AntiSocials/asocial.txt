@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1701
+! Version: 1.1702
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-06-26T06:54:16.595Z
+! Last modified: 2026-06-26T16:14:22.563Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -7957,7 +7957,7 @@ showtv.com.tr##.header-social-area
 tvmovie.de##.sharingbox
 nays.tr,olhardigital.com.br,moya-planeta.ru,thinkster.io##.share-header
 etcher.io##iframe[src^="https://ghbtns.com/github-btn.html"]
-shueisha.online,walkerplus.com,gauchazh.clicrbs.com.br,netzwelt.de,cnn.com##.m-share
+matchtv.ru,shueisha.online,walkerplus.com,gauchazh.clicrbs.com.br,netzwelt.de,cnn.com##.m-share
 irk.ru##.j-share-buttons
 mactechnews.de##.SynFacebookLike
 mactechnews.de##.SynTwitterShare
