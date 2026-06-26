@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.2091
+! Version: 1.2092
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-06-26T02:53:18.110Z
+! Last modified: 2026-06-26T06:56:03.376Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -3436,7 +3436,6 @@
 ||tag.imagino.com^
 ||tag.myplay.com^
 ||tag.statshop.fr^
-||tagger.opecloud.com^
 ||tagging.shiftdigitalapps.io^
 ||tags.dxmdp.com^
 ||tags.master-perf-tools.com^
@@ -165355,6 +165354,7 @@
 ||t.co^
 ||webiqonline.com^
 ||wirypaste.com^
+||opecloud.com^
 ||metrics-web.help^
 ||nehalist.io^
 ||identity.treeumapp.net^
@@ -219981,7 +219981,6 @@ dlsdk.appsflyer.com^
 ||cdn.live^
 ||cdn.livefyre.com^
 ||cdn.msdp1.com^
-||cdn.opecloud.com^
 ||cdn.paritydeals.com^
 ||cdn.pdst.fm^
 ||cdn.polyfill.io^$badfilter
