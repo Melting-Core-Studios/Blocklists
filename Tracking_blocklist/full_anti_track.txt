@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.2098
+! Version: 1.2099
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-06-27T10:04:59.425Z
+! Last modified: 2026-06-27T11:44:49.718Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -2788,6 +2788,7 @@
 ||analytics.disney.go.com^
 ||analytics.disneyinternational.com^
 ||analytics.distributednews.com^
+||analytics.divulg.org^
 ||analytics.dv.socure.io^
 ||analytics.dvidshub.net^
 ||analytics.edgekey.net^
