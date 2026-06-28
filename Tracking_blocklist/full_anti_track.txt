@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.2104
+! Version: 1.2105
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-06-28T14:50:22.512Z
+! Last modified: 2026-06-28T22:03:48.581Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -165928,10 +165928,18 @@
 ||trk.klclick2.com^
 ||trk.klclick3.com^
 ||adcenter.net^
+||adtrk1.com^
+||advertracker.com^
 ||c.apple.com^
+||go2cloud.org^
 ||popunhot1.blogspot.com^
 ||remox.com^
 ||t.co^
+||track.wewilltrcku.com^
+||tracker.optin-lead.com^
+||tracking.adstrategysites.com^
+||tracking.casheddy.com^
+||tracking.p-l-m.com^
 ||webiqonline.com^
 ||wirypaste.com^
 ||opecloud.com^
@@ -223106,7 +223114,6 @@ dlsdk.appsflyer.com^
 ||go.techtarget.com^
 ||go.tokenex.com^
 ||go.turning.com^
-||go2cloud.org^
 ||goaffpro.com^
 ||goal.com^
 ||gobrowsi.com^
