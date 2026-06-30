@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1710
+! Version: 1.1711
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-06-30T16:25:22.009Z
+! Last modified: 2026-06-30T18:56:46.730Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -59,9 +59,6 @@ dizipal.org,diziyoutv.com#@#body .twitter-share-button
 fxhome.com#@#a[href^="https://twitter.com/intent/tweet?"]
 fxhome.com#@#a[href^="https://www.facebook.com/sharer/sharer.php"]
 hurriyet.com.tr#@#.social-line
-myweekend.ru##.iconbox__item--share
-myweekend.ru##.lenta_network_share
-vaughn.live##div[id*="_nav_share"]
 ||share-count.donreach.com^$third-party
 ||button-follow.zalo.me^$third-party
 ||xn--r1a.website^$third-party
@@ -371,6 +368,9 @@ esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israel
 esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israelnationalnews.com,lifehacker.com,cgmagonline.com,gizmodo.com,gamerevolution.com,metro.co.uk,thurrott.com,stereogum.com,ign.com,newsweek.com,dailymail.co.uk,comingsoon.net,timesofisrael.com,nypost.com,9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,electrek.co#%#//scriptlet('remove-in-shadow-dom', 'div[data-spot-im-class="vote-links"] + span[class$="index__dot"]')
 cogconnected.com,echofm.online,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com##.comment__share > *
 cogconnected.com,echofm.online,antirez.com,comicbook.com,alexp.pl,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com###thread-share-bar
+myweekend.ru##.iconbox__item--share
+myweekend.ru##.lenta_network_share
+vaughn.live##div[id*="_nav_share"]
 football24.ua##app-news-share
 vidplay.to##button[aria-label="Share on Facebook"]
 vidplay.to##button[aria-label="Share on Telegram"]
