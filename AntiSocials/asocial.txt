@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1726
+! Version: 1.1727
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-07-06T05:09:43.261Z
+! Last modified: 2026-07-06T10:09:30.362Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -13,41 +13,6 @@ unian.net#?#div[style] > div.article-shares:upward(1)
 123telugu.com#$#.post-page-content { padding-bottom: 0 !important; }
 debate.com.mx#$#header { height: auto !important; }
 debate.com.mx#$#body { padding-top: 70px !important; }
-atn.ua##.penci-social-media
-teknoblog.com##.entry-content > div:has(> a[href^="https://news.google.com/publications/"])
-waterfordwhispersnews.com##.bk-share-box
-steipete.me##.sm\:items-end.sm\:gap-4 > .gap-2.sm\:gap-1
-zonamovilidad.es##.icon-share::before
-kitbash3d.artstation.com##.s-icons
-diarioconvos.com##.entry-sharer
-bushikaku.net##.cms-social-button
-sueddeutsche.de##button[data-track*="\"teilen"]
-thepewterplank.com,rhymejunkie.com##.sticky_1ds30c3
-shop-list.com##.snsBtnArea
-shufu.co.jp##.sns-list-wrap
-adme.media##div[data-test-id="left-vertical-sharing"]
-tarzanweb.jp##.article_post_sns
-xn--b1aew.xn--p1ai##.twitter-container
-edens-zero.net##.modShareArea > .inner
-kp.ru##div[class*="styled__ShareBarWrapper-"]
-kraj.by##img[src="https://admin.kraj.by/images/uploads/fb.png"]
-seoquick.com.ua##.post__cs__social
-altyn-orda.kz##.entity_social
-paulig.ru##div[id$="_social-sharethis-block"]
-sueddeutsche.de###sz-video-sidebar-action-mail
-onet.pl##.fbShare
-annaclemens.com,nonfungerbils.com##.squarespace-social-buttons
-cvetyportal.ru##div[class^="repost"]
-cloud.mail.ru##div[class^="inline fields SocialButtons__buttons"]
-elrellano.com##.widget_heateor_sss_follow
-fnp.de##.id-Actionbox-items > li:not(.id-Actionbox-items-el--comments)
-cameralabs.org##.data-social
-mdpr.jp##.snsbutton
-kinoafisha.ua##.socio
-deviantart.com###gmi-ResourceViewShare
-softonic.cn,softonic.com,softonic.pl,softonic.nl###box-social-buttons
-strana.in.ua##.popup
-sueddeutsche.de##li[data-linktrack^="onclick.sharingbar"]
 rambler.ru##div[data-blocks="content_info"] + div[class^="container-"]
 rambler.ru#%#//scriptlet('remove-in-shadow-dom', 'div[data-blocks="content_info"] + div[class^="container-"]')
 vikna.tv##.section-share
@@ -75,9 +40,6 @@ j-cast.com#?##entry-content > div.align-justify:has(> div.align-inner-box > div.
 gurugurulog.com#?#.content > nav.section-box > ul.article-button > li.article-twitter:upward(2)
 finance.rambler.ru#?#div[class^="container-"] > div[class^="container-"]:has(> amp-social-share)
 adguard.info,adguard.com,adguard.app#$#.hello_from_adguard_advanced_protection_ios { display: none !important; }
-||animedia.online/arcticmodal/jquery.arcticmodal.min.js
-sportfm.ru##.fancybox-overlay
-yaizakon.com.ua,memepedia.ru,informator.news,responsibility.org,fitnessera.ru,soft4fun.net,comments.ua,ilife99.com,mur.tv,online-buhuchet.ru,richlife7.com##.spu-bg
 indianexpress.com##.social-icon
 unn.com.ua##body > div.fancybox-opened
 unn.com.ua##body > div.fancybox-opened + div.fancybox-overlay
@@ -406,6 +368,7 @@ esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israel
 esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israelnationalnews.com,lifehacker.com,cgmagonline.com,gizmodo.com,gamerevolution.com,metro.co.uk,thurrott.com,stereogum.com,ign.com,newsweek.com,dailymail.co.uk,comingsoon.net,timesofisrael.com,nypost.com,9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,electrek.co#%#//scriptlet('remove-in-shadow-dom', 'div[data-spot-im-class="vote-links"] + span[class$="index__dot"]')
 cogconnected.com,echofm.online,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com##.comment__share > *
 cogconnected.com,echofm.online,antirez.com,comicbook.com,alexp.pl,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com###thread-share-bar
+sexplex.com##div[data-tooltip="Share"]
 anime-loads.org##.social-btn-group
 sportiva.shueisha.co.jp##.share-button-b
 gdebenz.ru##.rss-share
