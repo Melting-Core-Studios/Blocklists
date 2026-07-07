@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1733
+! Version: 1.1734
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-07-07T10:24:59.771Z
+! Last modified: 2026-07-07T16:29:16.835Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -13,7 +13,6 @@ unian.net#?#div[style] > div.article-shares:upward(1)
 123telugu.com#$#.post-page-content { padding-bottom: 0 !important; }
 debate.com.mx#$#header { height: auto !important; }
 debate.com.mx#$#body { padding-top: 70px !important; }
-everythingrf.com,informador.mx##.social-share-box
 rambler.ru##div[data-blocks="content_info"] + div[class^="container-"]
 rambler.ru#%#//scriptlet('remove-in-shadow-dom', 'div[data-blocks="content_info"] + div[class^="container-"]')
 vikna.tv##.section-share
@@ -369,12 +368,16 @@ esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israel
 esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israelnationalnews.com,lifehacker.com,cgmagonline.com,gizmodo.com,gamerevolution.com,metro.co.uk,thurrott.com,stereogum.com,ign.com,newsweek.com,dailymail.co.uk,comingsoon.net,timesofisrael.com,nypost.com,9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,electrek.co#%#//scriptlet('remove-in-shadow-dom', 'div[data-spot-im-class="vote-links"] + span[class$="index__dot"]')
 cogconnected.com,echofm.online,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com##.comment__share > *
 cogconnected.com,echofm.online,antirez.com,comicbook.com,alexp.pl,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com###thread-share-bar
+bartamanpatrika.com##.web-share-btn
+wiki3.jp#?#.uk-container > p:contains(シェアしよう！)
+football.london##div[class^="Article_inner-wrapper"] > section[class^="SocialFollowBar_wrapper"]
 goonernews.com##.c-feat-post__social
 pornoxo.com##li:has(> a[title="Share"])
 fanpage.it##.bnr
 flixeo.tv##.fixed.right-4
 sexplex.com##div[data-tooltip="Share"]
 anime-loads.org##.social-btn-group
+kisskh.*##.mat-divider + div:has(> div.mt-3 > div.text-center > button.sb-facebook)
 sportiva.shueisha.co.jp##.share-button-b
 gdebenz.ru##.rss-share
 aleagues.com.au##.keepup-sharing
