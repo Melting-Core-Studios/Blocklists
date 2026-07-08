@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1736
+! Version: 1.1737
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-07-08T11:02:28.043Z
+! Last modified: 2026-07-08T15:17:52.032Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -13,27 +13,6 @@ unian.net#?#div[style] > div.article-shares:upward(1)
 123telugu.com#$#.post-page-content { padding-bottom: 0 !important; }
 debate.com.mx#$#header { height: auto !important; }
 debate.com.mx#$#body { padding-top: 70px !important; }
-antalyahurses.com##div.py-1:has(> div.flex > ul > li > a.native-share)
-antalyahurses.com##main > div.fixed:has(> ul > li > a.native-share)
-antalyahurses.com###sidebar > div.container:has(> div.grid > a[title="Twitter"])
-13dl.me##.share-icon:not(.follow, .report)
-pamelachangemission.com,rebeccasciencestreet.com,nicholasbreakplan.com,benjaminreducecommunity.com,maryspecialwatch.com,brittanyaheadnew.com,charlessheimprove.com,richardquestionbuilding.com,timmaybealready.com,charlestoughrace.com,ianrequireadult.com,marissasharecareer.com,jessicaclearout.com,lancewhosedifficult.com,lauradaydo.com,crystaltreatmenteast.com,walterprettytheir.com,christopheruntilpoint.com,mikaylaarealike.com,lukesitturn.com,jilliandescribecompany.com,kellywhatcould.com,johnalwayssame.com,mariatheserepublican.com,jonathansociallike.com,diananatureforeign.com,sarahnewspaperbeat.com,richardsignfish.com,jennifercertaindevelopment.com,nathanfromsubject.com,adrianmissionminute.com,kristiesoundsimply.com,heatherwholeinvolve.com,alejandrocenturyoil.com,maxfinishseveral.com,robertordercharacter.com,sandratableother.com,brittneystandardwestern.com,jamessoundcost.com,toddpartneranimal.com,kimberlyonlocal.com,richardstorehalf.com,zacharycollectionmight.com,thomasalthoughhear.com,susanhavekeep.com,lorimuchbenefit.com,evelynthankregion.com,jessicaglassauthor.com,lisatrialidea.com,bethshouldercan.com,donaldlineelse.com,josephseveralconcern.com,alleneconomicmatter.com,robertplacespace.com,heatherdiscussionwhen.com,jayservicestuff.com,morganoperationface.com,johntryopen.com,jamiesamewalk.com,kennethofficialitem.com,lukecomparetwo.com,edwardarriveoften.com,paulkitchendark.com,kathleenmemberhistory.com,phenomenalityuniform.com,gamoneinterrupted.com,urochsunloath.com,35volitantplimsoles5.com,antecoxalbobbing1010.com,cyamidpulverulence530.com,guidon40hyporadius9.com,bigclatterhomesguideservice.com,housecardsummerbutton.com,fittingcentermondaysunday.com,un-block-voe.net,voeunblk.com,voeunbl0ck.com,voeunblock2.com,voeunblock.com,voe-unblock.*,voe.sx##.jw-share-item
-store.yamap.com##div[class^="SocialLinks"]
-jaxon.gg##a[class*="socialicon"]
-iscihaber.net##.social-buttons > a[aria-label$="Paylaş"]
-community.oneplus.com##.share-components
-tarzanweb.jp##.article_fix_sns
-tozlumagazin.net##.facebook_waller
-orion.fm##.penci-social-share-center
-doz.pl##.section-socials
-allcalidad.la###barraPlus1
-kesanpostasi.com##.twp-social-share
-babylonbee.com##.stacker-mail
-kievpravda.com##.social-add
-spieletest.at##.navArrows > a[href^="javascript:window.open"]
-disqus.com###thread-share-menu
-antu.com##a[href^="javascript:paylas"]
-lavnik.net#?#.wpb_wrapper > div.td_block_wrap:has(> div.td-block-title-wrap > h4 > span:contains(Пожалуйста лайк, репост))
 rambler.ru##div[data-blocks="content_info"] + div[class^="container-"]
 rambler.ru#%#//scriptlet('remove-in-shadow-dom', 'div[data-blocks="content_info"] + div[class^="container-"]')
 vikna.tv##.section-share
@@ -61,9 +40,6 @@ j-cast.com#?##entry-content > div.align-justify:has(> div.align-inner-box > div.
 gurugurulog.com#?#.content > nav.section-box > ul.article-button > li.article-twitter:upward(2)
 finance.rambler.ru#?#div[class^="container-"] > div[class^="container-"]:has(> amp-social-share)
 adguard.info,adguard.com,adguard.app#$#.hello_from_adguard_advanced_protection_ios { display: none !important; }
-favn-pitomnik.ru##div[data="instagram"]
-turkascihaberleri.com##.nofocus
-teleprogramma.pro##.facebook-bn_site-overlay
 indianexpress.com##.social-icon
 unn.com.ua##body > div.fancybox-opened
 unn.com.ua##body > div.fancybox-opened + div.fancybox-overlay
@@ -392,6 +368,7 @@ esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israel
 esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israelnationalnews.com,lifehacker.com,cgmagonline.com,gizmodo.com,gamerevolution.com,metro.co.uk,thurrott.com,stereogum.com,ign.com,newsweek.com,dailymail.co.uk,comingsoon.net,timesofisrael.com,nypost.com,9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,electrek.co#%#//scriptlet('remove-in-shadow-dom', 'div[data-spot-im-class="vote-links"] + span[class$="index__dot"]')
 cogconnected.com,echofm.online,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com##.comment__share > *
 cogconnected.com,echofm.online,antirez.com,comicbook.com,alexp.pl,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com###thread-share-bar
+7kanal.co.il##.stripe-social-webshare ~ div
 girlsvip-matome.com##.follow_btn
 zielonagospodarka.pl##.article_social_icons
 bartamanpatrika.com##.web-share-btn
@@ -5267,7 +5244,7 @@ moebel-kraft.de##.socialMediaSharing
 rudaw.net##.article-main__share-cont
 localsamosa.com,entrackr.com,pciconcursos.com.br,kaago.com,kakaku.com##.sharelink
 blogto.com##.article-lead-round-controls
-israelnationalnews.com##.stripe-social-webshare
+7kanal.co.il,israelnationalnews.com##.stripe-social-webshare
 forumginekologiczne.pl,israelnationalnews.com,buttondown.email##a[class^="share-network-"]
 israelnationalnews.com##.stripe-social-print
 kaktutzhit.by##.row-social
