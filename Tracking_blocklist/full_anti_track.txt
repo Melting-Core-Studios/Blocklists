@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.2144
+! Version: 1.2145
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-07-09T14:49:21.423Z
+! Last modified: 2026-07-09T17:22:33.141Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -1307,6 +1307,7 @@
 ||forevergears.com^
 ||forgetfulflowers.com^
 ||forgetfulsnail.com^
+||fortbeach.com^
 ||fortunatemark.com^
 ||forwardslashetc.com^
 ||fossilzero.com^
@@ -216365,6 +216366,7 @@
 ||target.tiaa.org^
 ||target.yourchi.org^
 ||https-filtering-check.adtidy.org^
+||logws*.ati-host.net^
 ||clickhouse-collector.*.prod.plat.agency^
 ||bapi-*.moengage.com^
 ||cdn-*.gravityfield.ai^
