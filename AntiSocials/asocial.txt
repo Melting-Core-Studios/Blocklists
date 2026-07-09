@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1738
+! Version: 1.1739
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-07-09T08:40:26.434Z
+! Last modified: 2026-07-09T11:55:58.384Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -59,32 +59,6 @@ dizipal.org,diziyoutv.com#@#body .twitter-share-button
 fxhome.com#@#a[href^="https://twitter.com/intent/tweet?"]
 fxhome.com#@#a[href^="https://www.facebook.com/sharer/sharer.php"]
 hurriyet.com.tr#@#.social-line
-yoso.sp.netkeiba.com##.Sns_Icon_List_Wrap
-otvet.mail.ru#?#div[class^="_ActionSheet__contentWrapper"] > div[class*="_ActionSheetItem"]:has(> div[class^="_ActionSheetItem__container"] div[class^="_Sharing"] span:not(:contains(Скопировать ссылку)))
-romir.ru#?#.news-single-item > div:has(> b:contains(Поделиться в соцсетях:))
-nomadparadise.com##div[id^="dpsp-content-"]:has(> ul.dpsp-networks-btns-share)
-istories.media##div[class^="Material-module--ShareContainer"]
-sportsw.kr,idsn.co.kr##.viewSns > ul:not(.font)
-videosarena.com##.jeg_meta_share
-desktopsolution.org##.pum
-twizz.ru##.subscribe
-fitness.wp.pl##.share-links > a:not(.link-comments)
-m-timesofindia-com.cdn.ampproject.org##div.as_heading > .pdTop_2 > div[id^="ss-"]
-player.bilibili.com##div[class$="sendjumpbar"][style="opacity: 1;"]
-wysokieobcasy.pl,wyborcza.pl,wyborcza.biz##.socialBar > ul > .twitter
-britannica.com##.toolbar-share[data-popover=".share-popover"]
-sobitie.com.ua##.facebook_my
-aif.ru##.goriz_panel_soc_box
-translate.weblio.jp##a[href*="plus.google.com/share"]
-etcher.io##iframe[src^="https://ghbtns.com/github-btn.html"]
-3dnews.ru,eminem.pro,igromania.ru##div[id^="vk_groups"]
-wisden.com#?#article > footer > h2:contains(Like & Share)
-tempo.com,tiempo.com##.botonera > span.boton:has(> span.shared)
-isitdownrightnow.com,blublu365.com###likeBox
-superiorwallpapers.com#$#html.uk-modal-page { overflow: visible!important; }
-dnepr24.com.ua,nikolaev24.com.ua,odessa.net.ua,bestofthelist.com###colorbox
-tomchun.tw##div[class^="ArevicoModal"]
-worldsoffood.de##div[id^="fblike"]
 ||share-count.donreach.com^$third-party
 ||button-follow.zalo.me^$third-party
 ||xn--r1a.website^$third-party
