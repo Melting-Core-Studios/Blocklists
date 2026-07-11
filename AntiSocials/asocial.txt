@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1743
+! Version: 1.1744
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-07-11T05:38:39.448Z
+! Last modified: 2026-07-11T07:50:03.768Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -13,45 +13,6 @@ unian.net#?#div[style] > div.article-shares:upward(1)
 123telugu.com#$#.post-page-content { padding-bottom: 0 !important; }
 debate.com.mx#$#header { height: auto !important; }
 debate.com.mx#$#body { padding-top: 70px !important; }
-gercekfethiye.com##div.border:has(> div.flex > a[href="https://www.facebook.com/kanalfrttv/"])
-news.web.nhk##.p-snsbtn__wrapper
-library.parliament.gr##.edn_socialLinksRatingViewsWrapper > div.edn_clearFix
-imirante.com##.artigo__redes
-machinelearning.apple.com##button.social-icon:not([aria-label="Copy link to clipboard"])
-mediazonaby.com##.mz-layout-theme__content > section.mz-layout-theme__meta:has(> div.mz-layout-theme__socials)
-popnroll.tv#?#article > section > div[class^="sc-"]:has(> ul > li > button > span:contains(ツイート))
-house.goo.ne.jp##.cmnSns
-deavita.net##.touchable.social-icon-navi
-pixabay.com##button[class^="shareButton"]
-asm.asahi.com,kindaipicks.com##.float-sns
-wired.co.uk##.social-icons--share
-smule.com#?#.sc-bxSTMQ:last-child > div[coords]:has(> div[class] > div:contains(/^Share[\s\u00A0]on$/))
-ciudad.com.ar##:not(.wrapper) > div.social-icons
-heraldonline.com,charlotteobserver.com##.vjs-share-wrapper
-lohaco.yahoo.co.jp##.d-inline-flex > button[style^="height:38px;min-width:60px;"]:not([aria-label])
-vorkers.com##ul > li[class$="-shareReview"]
-turkcetarih.com,post-punk.com##.powerkit_facebook_fanpage_widget
-eluniversal.com.mx##.smiconos > *:not(.addFavoritesSsoeu)
-vkusvill.ru##.Share2
-tz.de##.id-Actionbox-items-el--pocket
-minhaoperadora.com.br##[class*="sidebar"] > #custom_html-42
-u-f.ru##body div.g-news
-hek.de##.js_social_facebook
-hek.de##.js_social_xing
-sueddeutsche.de##aside[data-testid^="sharing-bar-"]
-sqmagazine.co.uk,outkick.com,publico.es,pet7.ru,womanel.com###custom_html-5
-newsway.co.kr##a[href^="javascript:void(Common.snsShare"]
-e-budownictwo.pl,strefaobrony.pl,shownews.pl,e-ogrodek.pl,gra.pl,stronakuchni.pl,stronapodrozy.pl,strefaedukacji.pl,dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gp24.pl,gs24.pl,kurierlubelski.pl,nowiny24.pl,nowosci.com.pl,nto.pl,pomorska.pl,poranny.pl,to.com.pl,wspolczesna.pl,polskatimes.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,gol24.pl,gra.pl,naszemiasto.pl,miastakobiet.pl,stronazdrowia.pl###glowna-kolumna > section > .galeria + #narzedzia > .facebook
-itnator.net##div[class="ssf fpss"]
-telefonino.net##.contenuto > div[style="display: block;height: 80px;position: relative;"]
-literaturus.ru##.PlusFollowers
-forbes.com##article-body-container.article-body > tweet-quotes
-chinatimes.com###related_news
-neuhandeln.de##.mh-social-bottom
-javtrailers.com,wired.com###share-card
-finam.ru##div[id*="socnet-btns"]
-||cdn.comss.net/action/vk_comss.png
-story.tutu.ru#?#.gdlr-core-text-box-item-content > h5:contains(Поделиться):upward(1)
 rambler.ru##div[data-blocks="content_info"] + div[class^="container-"]
 rambler.ru#%#//scriptlet('remove-in-shadow-dom', 'div[data-blocks="content_info"] + div[class^="container-"]')
 vikna.tv##.section-share
