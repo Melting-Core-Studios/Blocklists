@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1748
+! Version: 1.1749
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-07-12T05:55:23.022Z
+! Last modified: 2026-07-12T08:11:09.504Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -13,45 +13,6 @@ unian.net#?#div[style] > div.article-shares:upward(1)
 123telugu.com#$#.post-page-content { padding-bottom: 0 !important; }
 debate.com.mx#$#header { height: auto !important; }
 debate.com.mx#$#body { padding-top: 70px !important; }
-forklog.com.ua##.share_blk
-havahaber.com##div[data-toggle^="kanews-popup-share"]
-radiko.jp##button[class^="css-"]:has(> svg[width="32"][height="32"] > path[d^="M12.938 13.875h"])
-vision360.bo##.floatShareWhatsapp
-muchohentai.com###custom_html-33
-finalroundai.com##.blog-post5-content_share
-historyfacts.com##.ft-social-frame
-blog.platformatic.dev##.post-floating-bar button[aria-label="Share this article"]
-transformernews.ai,ciw.news##a[aria-label*="share"]
-tudogostoso.com.br##.social-icons > div.recipe-options + ul
-leninogorsk-rt.ru,zpravda.ru##.page-main__sides__right
-molistar.com##.box-post-share
-euronews.com##.c-social--share
-saiyasune.com###s_bs18
-gpado.jp###sns-footer
-timeturk.com##.share-space
-mufgamericas.com##.block--socialsharelinks
-food.yomiuri.co.jp##.side__ttl-share
-prestashopturkiye.com##.whatsapp-bottomWidth
-analogictips.com###text-15
-terra.cl,proceso.com.mx,elesquiu.com##.inner-share-bar
-kidscreen.com###socialTabbox
-cakes.mu##.article-box-social--custom-button
-ravefix.com##.effectiveAppsSocialMediaIconsBar
-e-kitap.site,ekitap.site##.shareb
-lachainemeteo.com##.socialNetworksBar
-andraware.com,kiiky.com,prywatnie.eu,stoodnt.com,freecoursesites.net,gamesgds.com##.ct-share-box
-laroche-posay.pl##.obj_share
-abcnews.go.com###lightbox-social
-vgorode.ua##.social_plugins
-koko.by,polscygracze.pl##.bb-post-share-box
-schweizer-illustrierte.ch##.floating_social
-hackstime.com,myantispyware.com##.widget_easy_facebook_page_plugin
-kitguru.net##.widget_FacebookLikeBox
-bursadabugun.com###socialfollowbox
-haberself.com##.share-box-new
-plus-soft.ru##noindex > center
-windowspro.ru#?##sidebar > div#popular:has(> div.dcont > center > div#vk_groups)
-nastroyvse.ru#?#.row div.home_content_right > div.widget_text:has(> div.textwidget > div.content_rb)
 rambler.ru##div[data-blocks="content_info"] + div[class^="container-"]
 rambler.ru#%#//scriptlet('remove-in-shadow-dom', 'div[data-blocks="content_info"] + div[class^="container-"]')
 vikna.tv##.section-share
@@ -79,8 +40,6 @@ j-cast.com#?##entry-content > div.align-justify:has(> div.align-inner-box > div.
 gurugurulog.com#?#.content > nav.section-box > ul.article-button > li.article-twitter:upward(2)
 finance.rambler.ru#?#div[class^="container-"] > div[class^="container-"]:has(> amp-social-share)
 adguard.info,adguard.com,adguard.app#$#.hello_from_adguard_advanced_protection_ios { display: none !important; }
-virtualnights.com#$##nativendo-article { opacity: 1!important; }
-wallpapershome.ru###welcome
 indianexpress.com##.social-icon
 unn.com.ua##body > div.fancybox-opened
 unn.com.ua##body > div.fancybox-opened + div.fancybox-overlay
