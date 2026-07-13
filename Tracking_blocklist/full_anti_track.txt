@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.2163
+! Version: 1.2164
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-07-13T06:15:47.084Z
+! Last modified: 2026-07-13T10:24:35.049Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -261,6 +261,7 @@
 ||googletagmanager.com^
 ||gotoda.co^
 ||greencolumnhealth.com^
+||gresrv.com^
 ||growth-channel.net^
 ||gsitrix.com^
 ||gw-dv.vip^
@@ -2952,6 +2953,7 @@
 ||cc.swiftype.com^
 ||ccexperimentsstatic.oracleoutsourcing.com^
 ||cdn-a.raptor.digital^
+||cdn.prod.euid.eu^
 ||cf-pixelfront-analytics.widencdn.net^
 ||cf.overblog.com^
 ||cgicounter.oneandone.co.uk^
@@ -82449,7 +82451,6 @@
 ||gregariousstretch.com^
 ||grepeiros.com^
 ||grescotuit.cfd^
-||gresrv.com^
 ||gretalimbas.com^
 ||grettodayll.cfd^
 ||grewiabromus.com^
@@ -216000,6 +216001,7 @@
 ||target.tiaa.org^
 ||target.yourchi.org^
 ||https-filtering-check.adtidy.org^
+||1414.hexa.su^
 ||logws*.ati-host.net^
 ||clickhouse-collector.*.prod.plat.agency^
 ||bapi-*.moengage.com^
