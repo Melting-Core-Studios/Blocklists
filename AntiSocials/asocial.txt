@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1756
+! Version: 1.1757
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-07-14T04:50:57.735Z
+! Last modified: 2026-07-14T07:11:15.227Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -13,32 +13,6 @@ unian.net#?#div[style] > div.article-shares:upward(1)
 123telugu.com#$#.post-page-content { padding-bottom: 0 !important; }
 debate.com.mx#$#header { height: auto !important; }
 debate.com.mx#$#body { padding-top: 70px !important; }
-pornoflix.com##.dfx > li:has(> button > i.fa-share-alt)
-marr.jp##.c-tools-share
-store.hpplus.jp##.rn14_share
-seventeen.com##main .text-under-lede ~ div[class*=" "] > div:has(div[aria-label="Share article"])
-kyobun.co.jp##.sns-share-container
-sport-express.ru##.se-shareblock__buttons > .react-share__ShareButton
-0101.co.jp#?#.s_sectionAppHide > div.base > div.cmp-div-section:contains(コラムをSNS)
-mangagakushu.kadokawa.co.jp##.c-suggest-sns__title
-medium.com##header.pw-post-byline-header > div[class] + div[class] > div[class] > div > [aria-describedby]
-viu.com##.sh-fb
-bandainamcoent.co.jp##.article__block--social.bottom
-logmi.jp##.navbar__group > li.navbar__item.u-md-none > button.navbar__item-target
-interfax.az##.vktechzone
-||viet-jo.com/home/images/icon-evernote.jpg
-poradnikbiznesu.info##.vicky-social-left-container
-thehindu.com##.share-artcl
-money.pl##div[class^="sc-"] > div[data-st-area="obrazek_FB"]
-sportonline.ua###txtselect_marker
-fussballtransfers.com##.wa
-svalbardposten.no##.nf-c-artikkel-share
-giyimvemoda.com##.lx-single-post-share
-everyeye.it##.social_top > #tw_countz
-apnews.com##.tweet.socialIcons
-cnbc.com###social_bar_top_gig_containerParent
-si.com##.btn-tw
-vestifinance.ru#?#div:has(> div[id^="vk_groups"])
 rambler.ru##div[data-blocks="content_info"] + div[class^="container-"]
 rambler.ru#%#//scriptlet('remove-in-shadow-dom', 'div[data-blocks="content_info"] + div[class^="container-"]')
 vikna.tv##.section-share
@@ -66,7 +40,6 @@ j-cast.com#?##entry-content > div.align-justify:has(> div.align-inner-box > div.
 gurugurulog.com#?#.content > nav.section-box > ul.article-button > li.article-twitter:upward(2)
 finance.rambler.ru#?#div[class^="container-"] > div[class^="container-"]:has(> amp-social-share)
 adguard.info,adguard.com,adguard.app#$#.hello_from_adguard_advanced_protection_ios { display: none !important; }
-ensonxeber.com,radyopop.com,31tv.ru,doramy.moy.su###fancybox-overlay
 indianexpress.com##.social-icon
 unn.com.ua##body > div.fancybox-opened
 unn.com.ua##body > div.fancybox-opened + div.fancybox-overlay
@@ -86,7 +59,6 @@ dizipal.org,diziyoutv.com#@#body .twitter-share-button
 fxhome.com#@#a[href^="https://twitter.com/intent/tweet?"]
 fxhome.com#@#a[href^="https://www.facebook.com/sharer/sharer.php"]
 hurriyet.com.tr#@#.social-line
-@@/engine/classes/min/?charset=*/social-likes.min.js$~third-party
 ||share-count.donreach.com^$third-party
 ||button-follow.zalo.me^$third-party
 ||xn--r1a.website^$third-party
@@ -398,6 +370,7 @@ esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israel
 esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israelnationalnews.com,lifehacker.com,cgmagonline.com,gizmodo.com,gamerevolution.com,metro.co.uk,thurrott.com,stereogum.com,ign.com,newsweek.com,dailymail.co.uk,comingsoon.net,timesofisrael.com,nypost.com,9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,electrek.co#%#//scriptlet('remove-in-shadow-dom', 'div[data-spot-im-class="vote-links"] + span[class$="index__dot"]')
 cogconnected.com,echofm.online,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com##.comment__share > *
 cogconnected.com,echofm.online,antirez.com,comicbook.com,alexp.pl,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com###thread-share-bar
+watchott.ru#%#//scriptlet('set-local-storage-item', 'watchott-share-dismissed', 'true')
 movieboxonline.net###detail-page > .justify-start.inline-flex div.flex.justify-start.items-center:has(> div[title="share to Facebook"])
 accuradio.com##a[class^="PlayerChannelSection__ShareSongWrapper-"]
 cricinfo.com##button.ds-cursor-pointer:has(> i.icon-share-outlined)

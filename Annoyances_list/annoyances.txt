@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Begone Annoyances
 ! Description: A blocklist that will remove all annoyances from online browsing.
-! Version: 1.395
+! Version: 1.396
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-07-14T04:50:47.671Z
+! Last modified: 2026-07-14T07:11:05.380Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -109,6 +109,7 @@
 ||nadajotum.com^
 ||vokayatus.com^
 ||us-pub.dengage.com^
+||push.ilan365.net^
 ||goodvibesmatterforus.com^
 ||my1elitclub.com^
 ||pushdealer.com^
@@ -184,7 +185,6 @@
 ||hawk.laptopmag.com^
 ||script.marquiz.ru^
 ||widgets.jobbio.com^
-||push.ilan365.net^
 ||widgets.*.webengage.com^
 -cdn.consentmanager.net^
 -cookie-banner-
