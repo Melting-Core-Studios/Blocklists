@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1759
+! Version: 1.1760
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-07-14T13:24:13.420Z
+! Last modified: 2026-07-14T15:23:38.824Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -387,6 +387,7 @@ dailymail.com##div[class^="container-"] > button:has(> span[class^="whatsapp-"])
 0115765.com##article > div.has-text-centered:has(> button[onclick="share()"])
 wpastra.com##div[class^="astra-advanced-hook-"] > div.wp-block-uagb-container:has(> div.uagb-container-inner-blocks-wrap > div.wp-block-uagb-social-share)
 doniaweb.com##button[id^="elShareItem_"]
+templatemonster.com##.product-share-buttons
 7kanal.co.il##.stripe-social-webshare ~ div
 girlsvip-matome.com##.follow_btn
 zielonagospodarka.pl##.article_social_icons
