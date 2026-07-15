@@ -1,34 +1,18 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1761
+! Version: 1.1762
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-07-15T04:50:29.008Z
+! Last modified: 2026-07-15T07:14:40.545Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
 unian.net#?#div[style] > div.article-shares:upward(1)
-_social-buttons-
 123telugu.com#$#.cat-tags { display: none !important; }
 123telugu.com#$#.post-page-content { padding-bottom: 0 !important; }
 debate.com.mx#$#header { height: auto !important; }
 debate.com.mx#$#body { padding-top: 70px !important; }
-sitereport.netcraft.com##.site_report_share
-distritocomedia.com##.h-\[2\.5rem\] >  .flex-row-reverse.gap-4.absolute
-fleetnews.co.uk##a[aria-label="Share"]
-thepage.ua##.sidebar__item:has(> div.project-banner)
-fortune.com##.shareEnabled
-medium.com##div[data-popper-placement] span[tabindex] + div:not([class]) > div[class] div[class] > span + button[class]
-zona.media##section.mz-publish-share
-rolexrankings.com##.widget_graph_compare > div[class^="_"] > h2 + div[class^="_"]
-hk01.com##.lcs-share-button
-techinsider.ru,mhealth.ru##.test-result-share
-mezohir.hu##.mh-share-buttons > .mh-pinterest
-m.akparti.org.tr##.share > li:not(.pdf):not(.email)
-tsk-net.com,avex.jp,softonic.cn,softonic.com,softonic.pl,softonic.nl##.list-share
-podrobnosti.ua###social_popup
-comic.k-manga.jp#?##contents > section:has(> div.share-button)
 rambler.ru##div[data-blocks="content_info"] + div[class^="container-"]
 rambler.ru#%#//scriptlet('remove-in-shadow-dom', 'div[data-blocks="content_info"] + div[class^="container-"]')
 vikna.tv##.section-share
