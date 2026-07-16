@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1768
+! Version: 1.1769
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-07-16T05:37:47.396Z
+! Last modified: 2026-07-16T08:06:06.690Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -13,47 +13,7 @@ unian.net#?#div[style] > div.article-shares:upward(1)
 123telugu.com#$#.post-page-content { padding-bottom: 0 !important; }
 debate.com.mx#$#header { height: auto !important; }
 debate.com.mx#$#body { padding-top: 70px !important; }
-oskol.city##.b_banner
-zoff.co.jp##.zm__article__header__sns
-app.transifex.com##div[class^="u-padding-"]:has(> div.js-social-share)
-tcaeco.ac.jp##.area_share_linkbox
-techdergi.net##.geo_mobile_share
-saffronwaldenreporter.co.uk##.social-bar__icons
-aptoide.com##div[class^="main-header-mobile__ShareContainer-"]
-rugby.com.au##figcaption > div:has(> div > ul > li > a[title^="Share on"])
-isekaitube.com##.entry-meta-right
-gdh.digital##div[class*="sticky"][style*="opacity"] > .absolute > .items-center[style]:has(> button[data-state="closed"])
-tunagazete.com##.block-pano
-cabedelo.pb.gov.br##.containerNewspaper-social
-game.intel.com##.article-header div.social-share-icons
-fujingaho.ringbell.co.jp###spec_sns > ul > li:not(.review_)
-googirl.jp##.box-modal-open.smp-f-right
-chickenramen.jp###footShare
-pc.co.il###navbarSharing
-reseed.resemom.jp##.toolbar
-ctnews.ru##.social__block-background
-blog.hubspot.com##.post-content__social-share-container
-drugoigorod.ru##div[rel="Share"]
-theoryandpractice.ru##.tp-social
-kaikore.blogspot.com###sns-shares
-buzzfeednews.com##.action-bar--article-bottom
-ipb-board.ru##li[data-blocktitle="Рассказать о форуме"]
-downmienphi.com##footer > div#fanback
-reuters.com##.BylineBar_share-container
-nordbayerischer-kurier.de,schwarzwaelder-bote.de,idowa.de,kurier.de##.social-ext
-karsolay.com###medya_takip
-postnauka.ru##a[ng-click*="share"]
-medyatikhaber.net##.desktop-social > div.SocialTools > ul > li:not([class="print"])
-forbes.com##.article-container > sharing
-kinoprostor.com##.player-section #seti
-lefigaro.fr##.fig-micronav__list > li:not(.fig-micronav__item--subscription):not(.fig-micronav__item--comments):not(.fig-micronav__item--scrolltop)
-app-time.ru##.wrap-social
-e-klase.lv##.reactions-item.dr
-wday.ru,kievpravda.com##.social-blocks
-huffingtonpost.jp##.share-bar__list > .share-bar__item:not(.comments)
-my.kaspersky.com##.share-or
-mic.com##.article-page-share-buttons
-driving.ca,businessinsider.com,sabah.com.tr##.googleplus
+animeid2.com,animeav1.one,monoschinos.net,vvw.animeyt.one,animeflv.one,animefenix.vip,animeblix.org###cht-shr
 rambler.ru##div[data-blocks="content_info"] + div[class^="container-"]
 rambler.ru#%#//scriptlet('remove-in-shadow-dom', 'div[data-blocks="content_info"] + div[class^="container-"]')
 vikna.tv##.section-share
@@ -81,12 +41,9 @@ j-cast.com#?##entry-content > div.align-justify:has(> div.align-inner-box > div.
 gurugurulog.com#?#.content > nav.section-box > ul.article-button > li.article-twitter:upward(2)
 finance.rambler.ru#?#div[class^="container-"] > div[class^="container-"]:has(> amp-social-share)
 adguard.info,adguard.com,adguard.app#$#.hello_from_adguard_advanced_protection_ios { display: none !important; }
-votzaraza.ru###popupwindow
-kepeztv.az##body > #frame
 indianexpress.com##.social-icon
 unn.com.ua##body > div.fancybox-opened
 unn.com.ua##body > div.fancybox-opened + div.fancybox-overlay
-gagadget.com#$#.js-social-fader { display: none!important; }
 @@||yastatic.net/share2/share.js$domain=retail.ru
 @@||apis.google.com/js/plusone.js$domain=lexlege.pl
 @@||yastatic.net/share2/share.js$domain=rkf.online
@@ -2392,7 +2349,7 @@ bbs.wps.cn##.topic-actions > div.action:has(> i.icon-share-all)
 guiadasemana.com.br###page-share
 sportlemons.tv###socnet
 polskieradio24.pl##article[class^="ShareOptions_shareOptionsWrapper"]
-animeid2.com,animeav1.one,monoschinos.net,vvw.animeyt.one,animeflv.one,animefenix.vip,animeblix.org###cht-shr
+animeytx.org,animeid2.com,animeav1.one,monoschinos.net,vvw.animeyt.one,animeflv.one,animefenix.vip,animeblix.org###cht-shr
 zutool.jp##.weathermap-sns_wrap
 berlitz.com##div[data-key="socialShare"]
 motor1.com##.parent-shareBox
