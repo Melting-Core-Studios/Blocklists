@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1776
+! Version: 1.1777
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-07-17T05:40:03.988Z
+! Last modified: 2026-07-17T08:03:40.576Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -13,49 +13,6 @@ unian.net#?#div[style] > div.article-shares:upward(1)
 123telugu.com#$#.post-page-content { padding-bottom: 0 !important; }
 debate.com.mx#$#header { height: auto !important; }
 debate.com.mx#$#body { padding-top: 70px !important; }
-hotchamas.com##.watch-share-button
-dev.ozon.ru##div[class^="_shareList_"] > ul[class^="_list_"]
-||afyonturkeligazetesi.com/images/money/zrjb40wU9FB9.png
-pillarcatholic.com##button[aria-label="View more"]
-thestreet.com,athlonsports.com##.m-social
-h2ch.com#?#.data-role-page > h2.toplabel:contains(このページを共有する) + div[align="center"]
-blog.corkmac.app,nicolasbustamante.com,read.engineerscodex.com##.pencraft + div:has(> button > div.label)
-konami.com##.big_movie_sns_area
-kibrisgazetesi.com##div[data-toggle^="kanews-popup-share-"]
-ptengine.jp##div[class*="TemplateDetail__ShareContent"]
-donate.acf.international##.items-center > button:has(> svg > path[d^="M16.96 16.143c"])
-yomuno.jp,live.kufu.co.jp##.sns_share_buttons
-ogznet.com##.widget-socials.pt-3:not(.mb-3)
-wemar.jp##.post__sns__share
-haber61.net##.share-area div.dropdown
-baseu.jp##.s-single-information__sns
-comic-days.com##div[class^="Blog_area_twitter"]
-bangla.bdnews24.com##.social-share-template-wrapper
-newstomato.com##.vi_remot img[src$="-share.png"]
-hypebeast.com##.post-body-share
-educacionyfp.gob.es##.cctw
-kyeongin.com,moidom.citylink.pro##.share_ico
-toysrus.co.jp###shareProduct
-khaosod.co.th##.khaosod_line_add_friend
-euroradio.fm##.view-icon-share
-r25.jp##.SideSnsShareButtons
-m.timesofindia.com##div[class][data-ga^="ATF_share|"] + div
-analyticsindiamag.com##div[data-id="46c0c321"]
-kingcorso.com##.woodmart-instagram
-codexworld.com##.socialicons
-grammarly.com##main > div[class*="-post"] > div[class*="-panel"] > div[class*="-options"]
-obj.ca##div[class$="name-sharethis"]
-dp.ru##.b-articleM__social-icon
-medaboutme.ru##.items-center > a[class*="share-network-"]
-media.auto.ru##.Review__shareTitle
-allthings.how,thirdspacelearning.com,balarm.it,dailymail.co.uk,ilovepdf.com,rambler.ru,vladtv.com,pulse.mail.ru##.sharing-buttons
-itechfever.com##.sidebar > #apsc_widget-2
-mynet.com##.share-global
-m.emlakjet.com##.share-bar-wrapper
-thesoccermomblog.com,dailydishrecipes.com,travelfoodatlas.com,instalki.pl##.dpsp-share-text
-niopik.ru,klinikarassvet.ru,unian.info,unian.ua,unian.net##.shares-block
-obemdito.com.br,fdpbt.de,unian.info,unian.ua,unian.net##.share-mobile
-dasauge.de##.bmk_xing
 rambler.ru##div[data-blocks="content_info"] + div[class^="container-"]
 rambler.ru#%#//scriptlet('remove-in-shadow-dom', 'div[data-blocks="content_info"] + div[class^="container-"]')
 vikna.tv##.section-share
@@ -83,15 +40,6 @@ j-cast.com#?##entry-content > div.align-justify:has(> div.align-inner-box > div.
 gurugurulog.com#?#.content > nav.section-box > ul.article-button > li.article-twitter:upward(2)
 finance.rambler.ru#?#div[class^="container-"] > div[class^="container-"]:has(> amp-social-share)
 adguard.info,adguard.com,adguard.app#$#.hello_from_adguard_advanced_protection_ios { display: none !important; }
-###sharemenu-wrap
-tmovie.tv##button[aria-label="Share"]
-bootcamp.analyticsvidhya.com,blackbelt.analyticsvidhya.com##.whatsapp-floating
-godealla.pl##.facebook.playfair
-godealla.pl##.overlay
-sportfm.ru##.fancybox-wrap
-memohaber.com##.sagaltpop
-tecadmin.net###spu-bg
-sport.ua##.subscribe-popup
 indianexpress.com##.social-icon
 unn.com.ua##body > div.fancybox-opened
 unn.com.ua##body > div.fancybox-opened + div.fancybox-overlay
