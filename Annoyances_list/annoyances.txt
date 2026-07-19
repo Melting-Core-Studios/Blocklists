@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Begone Annoyances
 ! Description: A blocklist that will remove all annoyances from online browsing.
-! Version: 1.399
+! Version: 1.400
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-07-19T02:10:50.151Z
+! Last modified: 2026-07-19T05:49:54.642Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -32,6 +32,7 @@
 ||cookies.giant.cz^
 ||hrabos-gdpr.aira.cz^
 ||consent.nitrocnct.com^
+||consent.dadoslegais.com.br^
 ||ccdn.mobildev.in^
 ||cmp.datasign.co^
 ||soglkuki.prolexgroup.ru^
@@ -48,7 +49,6 @@
 ||dse-cookiebanner.ford.com^
 ||cmp.dynamic.deka.de^
 ||consent-manager.thenextweb.com^
-||cmpv2.computerwoche.de^
 ||consent.bbcgoodfood.com^
 ||cmpv2.itworld.co.kr^
 ||cp.gutefrage.net^
@@ -141,6 +141,7 @@
 ||webpush.ria.com^
 ||wp.24smi.org^
 ||xyznews2.today^
+||push.idowa.de^
 ||push.autosaratov.ru^
 ||bws0wvqt3k.ru^
 ||push.delivery.ethinking.de^
@@ -2776,7 +2777,6 @@ follow-it-form-subscribe
 ||alerts.thedailystar.net^
 ||push.cnnindonesia.com^
 ||push.ictsd.org^
-||push.idowa.de^
 ||push.neko-san.fr^
 ||pushme.magellanotech.it^
 ||widget.push.forja.ma^
