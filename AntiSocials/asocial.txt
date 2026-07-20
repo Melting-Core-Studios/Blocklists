@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1788
+! Version: 1.1789
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-07-20T06:16:35.777Z
+! Last modified: 2026-07-20T12:16:34.311Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -3667,7 +3667,7 @@ baystars.co.jp##.social-button-box
 xn--pckua2a7gp15o89zb.com##.c-articleShare
 ysklog.net##article .yarpp-related-website
 instamod.net##.gmr-share
-[$domain=/yavasgir\d+\.com/]##button[data-tab-id="video-share"]
+[$domain=/yavasgir\d+\.(com|live)/]##button[data-tab-id="video-share"]
 fullxcinema1.com##button[data-tab-id="video-share"]
 st-andrews.ac.uk##.article-header__meta-share
 kentonline.co.uk##.FollowPlaceholder
@@ -9118,7 +9118,7 @@ href^="https://facebook.com/sharer?u=
 ##.st_twitter_custom
 ##.st_facebook_custom
 ##.st_pinterest_custom
-~xmind.app,~redgifs.com,~gfycat.com,~tvtime.com,~dropbox.com,~ge.tt,~recite.com,~act.hoyolab.com##.share-page
+~kimi.com,~xmind.app,~redgifs.com,~gfycat.com,~tvtime.com,~dropbox.com,~ge.tt,~recite.com,~act.hoyolab.com##.share-page
 ##.addthis_button_google_plusone_share
 ##.addthis_button_pinterest_share
 ##.social-links-block
