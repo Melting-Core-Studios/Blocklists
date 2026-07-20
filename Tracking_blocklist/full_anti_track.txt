@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.2209
+! Version: 1.2210
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-07-20T17:38:44.907Z
+! Last modified: 2026-07-20T22:59:53.196Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -860,6 +860,7 @@
 ||canvasandsocks.com^
 ||canyonpizza.net^
 ||capitalopera.com^
+||caplights.com^
 ||capriciouscorn.com^
 ||captainstick.com^
 ||captivatingcanyon.com^
@@ -931,6 +932,7 @@
 ||clearclips.com^
 ||climbingright.com^
 ||cloisteredcurve.com^
+||clothsense.com^
 ||cloudchickens.com^
 ||cloudhustles.com^
 ||cloudjumbo.com^
@@ -3681,6 +3683,7 @@
 ||d1l6p2sc9645hc.cloudfront.net^
 ||d1m6l9dfulcyw7.cloudfront.net^
 ||d1n00d49gkbray.cloudfront.net^
+||d1qmrxg9gbf226.cloudfront.net^
 ||d1qnmu4nrib73p.cloudfront.net^
 ||d1r27qvpjiaqj3.cloudfront.net^
 ||d1r2sy6oc0ariq.cloudfront.net^
@@ -3705,9 +3708,11 @@
 ||d24cze5sab2jwg.cloudfront.net^
 ||d24luoisenoi7j.cloudfront.net^
 ||d24rtvkqjwgutp.cloudfront.net^
+||d27623md02evp.cloudfront.net^
 ||d2cpw6kwpff7n5.cloudfront.net^
 ||d2ezz24t9nm0vu.cloudfront.net^
 ||d2fj3s7h83rb61.cloudfront.net
+||d2fw3s7rfepszt.cloudfront.net^
 ||d2gbtcuv3w9qyv.cloudfront.net^
 ||d2i34c80a0ftze.cloudfront.net^
 ||d2ibu2ug0mt5qp.cloudfront.net^
@@ -3735,6 +3740,7 @@
 ||d34ko97cxuv4p7.cloudfront.net^
 ||d34r8q7sht0t9k.cloudfront.net^
 ||d35u1vg1q28b3w.cloudfront.net^
+||d37l98t2r94go6.cloudfront.net^
 ||d39ion77s0ucuz.cloudfront.net^
 ||d39yds8oe4n4jq.cloudfront.net^
 ||d3banl4fzuxsjl.cloudfront.net^
@@ -3788,6 +3794,7 @@
 ||dr6vcclmzwk74.cloudfront.net^
 ||dsbahmgppc0j4.cloudfront.net^
 ||dtxtngytz5im1.cloudfront.net^
+||dty0ycn35t4d2.cloudfront.net^
 ||du4rq1xqh3i1k.cloudfront.net^
 ||duu8lzqdm8tsz.cloudfront.net^
 ||dy2xcjk8s1dbz.cloudfront.net^
@@ -4607,6 +4614,7 @@
 ||h5log.joybuy.com^
 ||health-metrics-api.setapp.com^
 ||heap.drop.com^
+||helios.g2a.com^
 ||hlogger.heraldcorp.com^
 ||htrace.wetvinfo.com^
 ||i.pokernews.com^
@@ -68059,7 +68067,6 @@
 ||d2foi16y3n0s3e.cloudfront.net^
 ||d2fsfacjuqds81.cloudfront.net^
 ||d2fuc4clr7gvcn.cloudfront.net^
-||d2fw3s7rfepszt.cloudfront.net^
 ||d2fxbo429dllho.cloudfront.net^
 ||d2g6dhcga4weul.cloudfront.net^
 ||d2g8ksx1za632p.cloudfront.net^
@@ -71810,7 +71817,6 @@
 ||dtv5ske218f44.cloudfront.net^
 ||dtvmlxoippfhm.site^
 ||dtxngr.com^
-||dty0ycn35t4d2.cloudfront.net^
 ||dtym7iokkjlif.cloudfront.net^
 ||dtyry4ejybx0.cloudfront.net^
 ||dtyscezlefppc.website^
@@ -81483,7 +81489,6 @@
 ||helezeiros.com^
 ||heliacgaybine.com^
 ||helicient.com^
-||helios.g2a.com^
 ||heliumads.com^
 ||hellay.net^
 ||hellednoosed.cfd^
