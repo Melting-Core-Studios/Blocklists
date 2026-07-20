@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1789
+! Version: 1.1790
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-07-20T12:16:34.311Z
+! Last modified: 2026-07-20T15:10:15.377Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -368,6 +368,7 @@ esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israel
 esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israelnationalnews.com,lifehacker.com,cgmagonline.com,gizmodo.com,gamerevolution.com,metro.co.uk,thurrott.com,stereogum.com,ign.com,newsweek.com,dailymail.co.uk,comingsoon.net,timesofisrael.com,nypost.com,9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,electrek.co#%#//scriptlet('remove-in-shadow-dom', 'div[data-spot-im-class="vote-links"] + span[class$="index__dot"]')
 cogconnected.com,echofm.online,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com##.comment__share > *
 cogconnected.com,echofm.online,antirez.com,comicbook.com,alexp.pl,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com###thread-share-bar
+socialxup.com##button[aria-label="Xでシェア"]
 schwaebische.de##.article-share-x
 schwaebische.de##.article-share-mail
 schwaebische.de##.article-share-facebook
@@ -3994,6 +3995,7 @@ rakumachi.jp,conan-movie.jp##.snsBox
 ibric.org##img[onclick^='window.open'][onclick*='/print.php?']
 ibric.org##a[href^="javascript:Cyurl"]
 metanit.com##.socBlock
+from-ua.com##article .header-social
 tradingview.com##div[class^="shareButton"]
 cnbnews.com##.viewsubject > ul
 ||dailian.co.kr/newCommon/icon/share
@@ -9336,7 +9338,7 @@ designboom.com,livescience.com,pbtech.co.nz,peoplesworld.org,space.com##.fa-face
 ##.google_plus1_badge
 ##.googleplus-one
 ##.gplus-like-button
-~from-ua.com,~dzfoot.com,~joinfo.ua,~gardenista.com,~sinemia.com,~9to5google.com,~9to5mac.com,~9to5toys.com,~electrek.co##.header-social
+~dzfoot.com,~joinfo.ua,~gardenista.com,~sinemia.com,~9to5google.com,~9to5mac.com,~9to5toys.com,~electrek.co##.header-social
 ~codepen.io##.heart-button
 ##.heart-it-button
 ##.help-social-buttons
