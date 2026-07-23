@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1802
+! Version: 1.1803
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-07-23T13:47:03.482Z
+! Last modified: 2026-07-23T15:54:43.712Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -13,6 +13,7 @@ unian.net#?#div[style] > div.article-shares:upward(1)
 123telugu.com#$#.post-page-content { padding-bottom: 0 !important; }
 debate.com.mx#$#header { height: auto !important; }
 debate.com.mx#$#body { padding-top: 70px !important; }
+techtobo.com,medonet.pl,forums.tomshardware.com##.shareButtons
 rambler.ru##div[data-blocks="content_info"] + div[class^="container-"]
 rambler.ru#%#//scriptlet('remove-in-shadow-dom', 'div[data-blocks="content_info"] + div[class^="container-"]')
 vikna.tv##.section-share
@@ -367,6 +368,9 @@ esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israel
 esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israelnationalnews.com,lifehacker.com,cgmagonline.com,gizmodo.com,gamerevolution.com,metro.co.uk,thurrott.com,stereogum.com,ign.com,newsweek.com,dailymail.co.uk,comingsoon.net,timesofisrael.com,nypost.com,9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,electrek.co#%#//scriptlet('remove-in-shadow-dom', 'div[data-spot-im-class="vote-links"] + span[class$="index__dot"]')
 cogconnected.com,echofm.online,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com##.comment__share > *
 cogconnected.com,echofm.online,antirez.com,comicbook.com,alexp.pl,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com###thread-share-bar
+apostrophe.ua##.publication__social
+bastion.tv##.subscribe-social
+profitline.hu#%#//scriptlet('prevent-setTimeout', '#fb_like_modal')
 jetbrains.com##.whatsnew-feature-block__button
 nalogia.ru##.share-block--left
 dreamerscast.com###player_control_icon_share
@@ -6056,7 +6060,7 @@ ok-magazine.ru##.ok_share
 ok-magazine.ru##.socNetworks-footer-article
 video.repubblica.it###gs-social-sharebuttons
 eckovation.com##.widget_mo_optin_widgets
-oregonlive.com,skateboarding.com,mdcalc.com,datawrapper.dwcdn.net,washingtonpost.com,lehighvalleylive.com,thingiverse.com,reuters.com,cleveland.com,shaiyallin.com,airly.org,infosecwriteups.com,blog.getadblock.com,medium.datadriveninvestor.com,mlblogs.com,music.apple.com##button[aria-label^="Share"]
+dengarden.com,oregonlive.com,skateboarding.com,mdcalc.com,datawrapper.dwcdn.net,washingtonpost.com,lehighvalleylive.com,thingiverse.com,reuters.com,cleveland.com,shaiyallin.com,airly.org,infosecwriteups.com,blog.getadblock.com,medium.datadriveninvestor.com,mlblogs.com,music.apple.com##button[aria-label^="Share"]
 goal-life.com##.authors + div.text-center
 filmtipo.com,rutrailer.com,handmadekultur.de,bestsimilar.com,film-like.com##.ssk-sticky
 netzwelt.de###article > .brdc-gr.reset-to-content
@@ -7267,7 +7271,7 @@ ilsole24ore.com##.tools > li > .fbr
 ilsole24ore.com##.tools > li > .twr
 ilsole24ore.com##.tools > li > .inr
 startandroid.ru###Mod91
-techtobo.com,medonet.pl,forums.tomshardware.com##.shareButtons
+kurs.com.ua,techtobo.com,medonet.pl,forums.tomshardware.com##.shareButtons
 sputnikglobe.com,inosmi.ru,ria.ru##.elem-info__share
 thedailybeast.com##div[class$="__share-buttons"]
 newschannel9.com##.sd-news-main-footer
