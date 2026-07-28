@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Block those ads
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.6741
+! Version: 1.6742
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-07-28T11:15:56.940Z
+! Last modified: 2026-07-28T13:54:21.572Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -860,7 +860,6 @@
 ||amazon-adsystem.com^
 ||vipads.live^
 /^88\.208\.22\.[1234]:/
-/^88\.208\.22\.[1234]$/
 ||netpub.media^
 ||kms-full.com^
 ||kms-tool.com^
@@ -6135,6 +6134,7 @@ vkcdnservice.appspot.com^
 ||7ca78m3csgbrid7ge.com^
 ||7ce48c6052.com^
 ||7cy8t1t8gifggqqe17bt3fhwzk4k8.cfd^
+||7czpcwxjt17izgc89ofb4oi.rest^
 ||7d13c2cc1b.com^
 ||7d6958cb00.com^
 ||7d6e366acd.com^
@@ -6934,6 +6934,7 @@ vkcdnservice.appspot.com^
 ||acyruuezhtdkk.space^
 ||acystiasodaic.shop^
 ||acyxssqjdvfaj.space^
+||aczomhakkz.in^
 ||aczqghbgetaef.store^
 ||ad-api.gl-inet.com^
 ||ad-back.net^
@@ -7463,6 +7464,7 @@ vkcdnservice.appspot.com^
 ||aevfoobzfsfjx.space^
 ||aevlgbckiceis.website^
 ||aevumamaze.cfd^
+||aewhvwzitmfxv.website^
 ||aewqedfkkplhtdh.com^
 ||aexouiunvonkl.site^
 ||af305e6c77.com^
@@ -9410,6 +9412,7 @@ vkcdnservice.appspot.com^
 ||azgftoymwpszx.online^
 ||azgvupab.in^
 ||azhobfzcwtxvj.website^
+||aziiaosoyqwkp.website^
 ||azimidetubbist.qpon^
 ||azjmp.com^
 ||azknucfjdcecq.online^
@@ -12357,6 +12360,7 @@ vkcdnservice.appspot.com^
 ||cbdedibles.site^
 ||cbe3ab8bc7.com^
 ||cbgaowmzuhcue.site^
+||cbgvwjveaptbn.website^
 ||cbhadfiwcdgsl.space^
 ||cbhtmlaufcogf.space^
 ||cbihvjploytkp.store^
@@ -14755,6 +14759,7 @@ vkcdnservice.appspot.com^
 ||czoquowdqbtjr.online^
 ||czqchyyuwbpbo.site^
 ||czqvtn3elk64hq.rest^
+||czrhkmapbrtya.website^
 ||czrqtkjxzzwtu.website^
 ||czsttsmgndlni.website^
 ||czsusasfoyqln.website^
@@ -16869,6 +16874,7 @@ vkcdnservice.appspot.com^
 ||duhxgrfaziemg.site^
 ||duidoaghteqgs.website^
 ||duiunmaigiqiy.space^
+||dujucrgeabijh.website^
 ||dukerationpecial.com^
 ||dukerytestao.cfd^
 ||dukumawheeshteclated.qpon^
@@ -20182,6 +20188,7 @@ vkcdnservice.appspot.com^
 ||fortunescoltslum.com^
 ||fortuneswhichacceleration.com^
 ||foruftuiov.com^
+||forumsameboidendura.cyou^
 ||forumstriae.cfd^
 ||forunfezanttor.com^
 ||forwalkprove.cfd^
@@ -20479,6 +20486,7 @@ vkcdnservice.appspot.com^
 ||frugginplatine.qpon^
 ||frugsneeborfarset.cyou^
 ||frugstrain.qpon^
+||fruijxviproby.online^
 ||fruitedmataiops.cfd^
 ||fruitful-request.com^
 ||fruitiesmatchina.org^
@@ -42433,6 +42441,7 @@ vkcdnservice.appspot.com^
 ||sociomantic.com^
 ||socketawayobject.com^
 ||socketbuild.com^
+||soclefumantconed.cfd^
 ||sodallay.com^
 ||sodapaltrysystems.com^
 ||sodiumendlesslyhandsome.com^
@@ -43537,6 +43546,7 @@ vkcdnservice.appspot.com^
 ||substantialmutinousfrecklessfreckless.com^
 ||substantialprecarious.com^
 ||substituteyonder.com^
+||subteenshastri.shop^
 ||subtlemath.pro^
 ||subtlemillenniumgallop.com^
 ||subtleretortspat.com^
@@ -48223,6 +48233,7 @@ vkcdnservice.appspot.com^
 ||vivacecored.cyou^
 ||vivaceheed.cyou^
 ||vivaciousinterposed.com^
+||vivaxweal.cyou^
 ||viviancraxbulk.cfd^
 ||vivianramealspl.cfd^
 ||vividersemples.cfd^
@@ -48408,6 +48419,7 @@ vkcdnservice.appspot.com^
 ||voiknrayaanxl.space^
 ||voirpfhavircs.online^
 ||vojxriaqujzlg.site^
+||vok1jp7qxx9hwoyt2g.cfd^
 ||vokegwzgjivii.online^
 ||volatichyoides.qpon^
 ||voldarinis.com^
@@ -156327,7 +156339,6 @@ analytics-*.aasaam.com
 ||fwmrm.net^
 ||googletagservices.com^
 ||imasdk.googleapis.com^
-||mangabolt.com^
 ||monetag.com^
 ||ntv.io^
 ||ojrq.net^
@@ -156382,6 +156393,7 @@ analytics-*.aasaam.com
 /^139\.45\.197\.2(4[0-9]|5[0-4])/
 ||ads.livetv*.me^
 ||counter*.stat.ovh^
+/^88\.208\.22\.[1234]$/
 ||tn.porngo.xxx^$badfilter
 /^94\.242\.247\.(2[0-9]|3[0-2])/
 /^23\.109\.170\.(18[7-9]|19[0-2])$/
@@ -203477,7 +203489,6 @@ Banner468x60
 ||orcaslicers.netify.app^
 ||analytics.netim.net^
 ||sentry2.netimob.com^
-||m.netinfo.bg^
 ||stat.netiq.biz^
 ||matomo.dev.netk.pl^
 ||sgtm.netkredit24.de^
@@ -209973,8 +209984,7 @@ Banner468x60
 ||metrics.redskins-footwear.com^
 ||cookiezilla.redsolution.ru^
 ||errors.redspell.ru^
-||image-ap1.analytics.redtagfashion.com^
-||sdk-03.analytics.redtagfashion.com^
+||analytics.redtagfashion.com^
 ||matomo.redthread.studio^
 ||tracking.redtigercam.com^
 ||sentry.redturtle.it^
@@ -215694,6 +215704,7 @@ Banner468x60
 ||ads.ssmas.com^
 ||sentry.ssnc.cloud^
 ||logs.sso235.com^
+||goatcounter.ssp.sh^
 ||tracking2.ssp-ol.cz^
 ||addl.sspadp.com^
 ||sgtm.ssportplus.com^
@@ -220071,7 +220082,6 @@ Banner468x60
 ||amplitude.trycaddie.com^
 ||logger.trycatch.pl^
 ||sentry.trychatgpt.ru^
-||interpreted-monitor-containing-swap.trycloudflare.com^
 ||pr.tryeting.jp^
 ||analytics.tryfi.com^
 ||i.tryinteract.com^
@@ -233710,6 +233720,7 @@ Banner468x60
 ||75123.vip^
 ||7536549.lat^
 ||753fceba29.com^
+||756858757.click^
 ||7583242g4.shop^
 ||759-com1.com^
 ||75f20db3bab2.top^
@@ -234127,7 +234138,6 @@ Banner468x60
 ||8b543b5074.com^
 ||8b98494bbffb4e80.com^
 ||8bb.com^
-||8bongda.com^
 ||8c0afb75cd.com^
 ||8c5c63f8b7.com^
 ||8c8.de^
@@ -240049,6 +240059,7 @@ Banner468x60
 ||annussleys.com^
 ||anobaka.jp^
 ||anoboy.baby^
+||anodpo.ru^
 ||anointedtabernacle.com^
 ||anokyqqqmmgkq.top^
 ||anonfile.com^
@@ -243646,6 +243657,7 @@ Banner468x60
 ||balajiparking.com^
 ||balance-leben.at^
 ||balanceathlete.com^
+||balancebox.com^
 ||balancebreath.com^
 ||balancecentrum.eu^
 ||balancedecke.de^
@@ -244158,7 +244170,6 @@ Banner468x60
 ||baxwuuaaxg.xyz^
 ||baya-bikini.de^
 ||bayarea.net^
-||bayarpilihan.shop^
 ||bayassetholm.net^
 ||baybaysshop.com^
 ||bayengage.com^
@@ -252958,7 +252969,6 @@ Banner468x60
 ||click-ecom.com^
 ||click-mapper.com^
 ||click-now.net^
-||click-now-extra-special.online^
 ||click-to-see.com^
 ||click-zigaretten.com^
 ||click2apply.net^
@@ -258660,6 +258670,7 @@ Banner468x60
 ||devtodev.com^
 ||devttrmq.com^
 ||devuurgenoten.com^
+||devv-id1102.cyou^
 ||devv-id1102.shop^
 ||devvleco.icu^
 ||dewaasia.net^
@@ -260953,7 +260964,6 @@ Banner468x60
 ||drownshangar.com^
 ||drowsysuspicious.com^
 ||droxen.shop^
-||droxtrix.site^
 ||droyd.top^
 ||drp.su^
 ||drpoetry.com^
@@ -263646,7 +263656,6 @@ Banner468x60
 ||enrichor.com^
 ||enrickerpo.life^
 ||enrilov.info^
-||enrjsifofskdsofopsf.site^
 ||enrolcopals.com^
 ||enroll-raac.com^
 ||enroll-ts.info^
@@ -265094,7 +265103,6 @@ Banner468x60
 ||exner-kollegen.de^
 ||exner-kollegen.net^
 ||exness.asia^
-||exnesspromo.com^
 ||exnesstrack.com^
 ||exnesstrack.net^
 ||exo-marketing.com^
@@ -267252,7 +267260,6 @@ Banner468x60
 ||finance96-odit53.sbs^
 ||finance96-omnis1.sbs^
 ||finance96-quos2.sbs^
-||finance96-tenetur17.space^
 ||finance96-veritatis80.sbs^
 ||finance97-dignissimos18.space^
 ||finance97-distinctio81.sbs^
@@ -270481,6 +270488,7 @@ Banner468x60
 ||galaxyfox.io^
 ||galaxygroup.io^
 ||galaxylicht.shop^
+||galaxys25userguide.com^
 ||galaxyunriped.com^
 ||galaxyvestibule.top^
 ||galaxyvipaff01.cc^
@@ -279880,7 +279888,6 @@ Banner468x60
 ||imspixel.com^
 ||imspublishergroup.com^
 ||imtisaltradersltd.com^
-||imtkeno.pro^
 ||imtmp.net^
 ||imtolenplex.com^
 ||imtrend.at^
@@ -281736,7 +281743,6 @@ Banner468x60
 ||itriyokj.com^
 ||itrolexshop.com^
 ||itrucehunting.com^
-||itruzz.com^
 ||its-that-easy.com^
 ||itsafetyteam.com^
 ||itsaol.com^
@@ -285637,6 +285643,7 @@ Banner468x60
 ||kms-auto.site^
 ||kms-pc.com^
 ||kms-pico.ws^
+||kms-tools.com^
 ||kms-world.com^
 ||kmsauto.info^
 ||kmsauto.org^
@@ -286503,6 +286510,7 @@ Banner468x60
 ||kunzhang.name^
 ||kuosqjyasoh.com^
 ||kuoxgfkgnw.com^
+||kup-teraz9042971.click^
 ||kupello.shop^
 ||kuperozu.net^
 ||kupikup.com^
@@ -291321,6 +291329,7 @@ Banner468x60
 ||manegespoutier.com^
 ||manfammkohf.in^
 ||manga18h.xyz^
+||mangabolt.com^
 ||mangabuddy.blog^
 ||mangacoin.net^
 ||mangaempress.com^
@@ -293646,6 +293655,7 @@ Banner468x60
 ||mindopu.com^
 ||mindpackstudios.com^
 ||mindrhover.site^
+||mindsetterz.com^
 ||mindseyewitness.com^
 ||mindshare-technology.com^
 ||mindslaver.com^
@@ -298653,6 +298663,7 @@ Banner468x60
 ||nonicoughtalt.com^
 ||nonindisid.cyou^
 ||noniuo.com^
+||nonlifelunts.cyou^
 ||nonlitenzo.cyou^
 ||nono.qpon^
 ||nonopscarm.cyou^
@@ -300311,6 +300322,7 @@ Banner468x60
 ||oferta39231.cfd^
 ||oferta4019.shop^
 ||oferta41231.sbs^
+||oferta632273848492.sbs^
 ||oferta632273848492.xyz^
 ||oferta764102.sbs^
 ||oferta813502.click^
@@ -300338,7 +300350,6 @@ Banner468x60
 ||ofeta812372398455.click^
 ||ofeta84219.cfd^
 ||ofeta84271.cfd^
-||ofeta94210.cfd^
 ||ofetalokalana547838972523.lol^
 ||ofetalokalana94837914312.lol^
 ||ofeyiwydua.com^
@@ -305659,8 +305670,10 @@ Banner468x60
 ||pl-oferta03116876.shop^
 ||pl-oferta084828412.click^
 ||pl-oferta1203910910.shop^
+||pl-oferta1239391293.shop^
 ||pl-oferta19251829432.shop^
 ||pl-oferta22986.pl^
+||pl-oferta3281.sbs^
 ||pl-oferta3582556.space^
 ||pl-oferta5291202.shop^
 ||pl-oferta649378.sbs^
@@ -305679,6 +305692,7 @@ Banner468x60
 ||pl-oferta912712672332.icu^
 ||pl-ofertan1ni5kd.shop^
 ||pl-ofertan4ni3jh.shop^
+||pl-ofertan8nhi3ad.shop^
 ||pl-ofeta-aukcja58347901.cyou^
 ||pl-ogloszenia-firmowe-83443.click^
 ||pl-ogloszenia-firmowe83842.click^
@@ -308660,7 +308674,6 @@ Banner468x60
 ||ptiwugristy.com^
 ||ptjosupqmhv.net^
 ||ptju.cn^
-||ptkalsatriapsara.com^
 ||ptkdfjnflmpalkfpkehjgopmjldhjhgb.click^
 ||ptmabek.cn^
 ||ptnbwptw.com^
@@ -310354,6 +310367,7 @@ Banner468x60
 ||quirky-international.com^
 ||quirky-seat.com^
 ||quirkyplayer.pro^
+||quitavanda.cyou^
 ||quitefullofeedshe.com^
 ||quitelliot.com^
 ||quiteloner.com^
@@ -317534,7 +317548,6 @@ Banner468x60
 ||sholraidsoalro.net^
 ||shon.xyz^
 ||shonival.com^
-||shoobaloo.ie^
 ||shoobulughu.com^
 ||shoodretheen.net^
 ||shoofgoal.com^
@@ -321873,7 +321886,6 @@ Banner468x60
 ||stocknir.site^
 ||stockpair.com^
 ||stockprovv.cyou^
-||stocksblogs.com^
 ||stockskate.com^
 ||stocksy.net^
 ||stocktonusd.net^
@@ -324418,6 +324430,7 @@ Banner468x60
 ||tdsrgrteru.xyz^
 ||tdsrmbl.net^
 ||tdstorage.site^
+||tdsworkout.com^
 ||tdwandco.com^
 ||tdxegdjfabfgkg.com^
 ||tdxsyuetu.com^
@@ -325055,7 +325068,6 @@ Banner468x60
 ||testesistema.com^
 ||testfcm.com^
 ||testin.cn^
-||testlab360.com^
 ||testname.me^
 ||testony.com^
 ||testorino.de^
@@ -332264,6 +332276,7 @@ Banner468x60
 ||vector2llqn.info^
 ||vectoragents.ai^
 ||vectordynamicro.net^
+||vectormeadowk.site^
 ||vectranet.pl^
 ||vectroproxy.com^
 ||veda-consult.ru^
@@ -334530,7 +334543,6 @@ Banner468x60
 ||vvvcrcrs01.com^
 ||vvvex.com^
 ||vvvvww-roblox.com^
-||vvwlntermatico.online^
 ||vvwskuuryf.com^
 ||vw66i.top^
 ||vwahacrubri.com^
@@ -334779,7 +334791,6 @@ Banner468x60
 ||wall-node.com^
 ||wallarticles.com^
 ||wallet-prlzn.space^
-||walletconnectsupport.xyz^
 ||walletmoney.net^
 ||walletrt.com^
 ||wallingmimir.com^
@@ -337275,7 +337286,6 @@ Banner468x60
 ||workshophafen.de^
 ||workspace-drive-login.com^
 ||workspacehatch.com^
-||workspaces-drives.com^
 ||workstations.pl^
 ||workstudyplay.com^
 ||workwithsquare.com^
