@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.2262
+! Version: 1.2263
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-07-28T22:03:58.384Z
+! Last modified: 2026-07-29T00:03:35.680Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -3036,7 +3036,6 @@
 ||collect.rewardstyle.com^
 ||collect.verify.lnearn.com^
 ||collectfront.nector.io^
-||collection.e-satisfaction.com^
 ||collector-*.luigisbox.com^
 ||collector-api.99designs.com^
 ||collector.automote.co.nz^
@@ -4044,6 +4043,7 @@
 ||tags.op-palvelut.fi^
 ||analytics.palitra.ge^
 ||links.boom.ge^
+||analytics.skroutz.gr^
 ||metrics.find.gr^
 ||stats-real-clients.zentech.gr^
 ||tag.weezmo.com^
@@ -53879,7 +53879,6 @@
 ||analytics.siteground.com^
 ||analytics.sketchup.com^
 ||analytics.skillsmp.com^
-||analytics.skroutz.gr^
 ||analytics.skuola.net^
 ||analytics.skyflag.jp^
 ||analytics.slido.com^
@@ -63727,6 +63726,7 @@
 ||collect.wpsmail.net^
 ||collectaction.com^
 ||collection-endpoint-prod.herokuapp.com^
+||collection.e-satisfaction.com^
 ||collection.location.live.net^
 ||collection.rong-edge.com^
 ||collectiveaudience.co^
