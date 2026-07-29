@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1824
+! Version: 1.1825
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-07-29T11:23:01.091Z
+! Last modified: 2026-07-29T13:59:41.027Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -6521,7 +6521,7 @@ nintendolife.com,pushsquare.com##.ui-share-page
 globalnews.kz,eteknix.com,texnogid.biz.ua,infocul.pt,nnews.com.ua,vyatka-grad.ru,playua.net,hypeandstuff.com,cryptohamster.org,ultratoon4you.com##.s_stk
 focus.ua##.socials-share-toolbar
 internalpointers.com##.ip-post__social-tools
-moviebox.ph,movieboxapp.in,themoviebox.org,moviebox.pk,movieboxapp.in,123movienow.cc,nvidianews.nvidia.com,koreaboo.com,vue.gov.ua,esports.net,voguegirl.jp,blog.logitech.com,kurashiru.com,getpocket.com##div[class$="-share"]
+moviebox.ac,moviebox.ph,movieboxapp.in,themoviebox.org,moviebox.pk,movieboxapp.in,123movienow.cc,nvidianews.nvidia.com,koreaboo.com,vue.gov.ua,esports.net,voguegirl.jp,blog.logitech.com,kurashiru.com,getpocket.com##div[class$="-share"]
 peoplesworld.org##.sub-header .social_icon
 portalimprensa.com.br##.clsTabsModTwitterFacebook
 novosti-n.org##.social_images
@@ -9146,7 +9146,7 @@ href^="https://facebook.com/sharer?u=
 ~facebook.com##a[href^="http://www.facebook.com/dialog/feed?"]
 ~yandex.ru##a[href^="https://share.yandex.ru/go.xml?service="]
 ~pressdigital.es,~immersive-fox.com,~indiegogo.com##.share-icon
-~accounts.stella-it.com,~nikkansports.com,~la7.it,~bluedart.com,~thehackernews.com##.social-box
+~wargaming.net,~accounts.stella-it.com,~nikkansports.com,~la7.it,~bluedart.com,~thehackernews.com##.social-box
 ~pinterest.com##a[href^=" https://pinterest.com/pin/create/link/?"]
 ~ok.ru##a[href^="http://connect.ok.ru/offer?url="]
 ~ok.ru##a[href^="https://connect.ok.ru/offer?url="]
@@ -22914,9 +22914,11 @@ universfreebox.com###banniere-6584-particle
 meteofrance.com###block-publicmenusocial
 top-for-phone.fr###custom_html-6
 palais-de-la-voiture.com###socialmenu
+laprovence.com##.ContentFooter_social-footer___2tiv
 mo.be##.NavBar_SocialWrapper__J0Xoh
 lopinion.fr##.Page-actions
 l-eaualabouche.com##.Post-shares
+laprovence.com##.ShareBar_btn__ZO5cC
 radiofrance.fr##.ShareManager
 francebleu.fr##.ShareNetwork
 mo.be##.Share_Share__8JkUX
