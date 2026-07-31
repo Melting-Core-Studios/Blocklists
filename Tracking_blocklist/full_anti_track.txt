@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.2278
+! Version: 1.2279
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-07-31T12:58:20.621Z
+! Last modified: 2026-07-31T17:30:46.187Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -224322,6 +224322,7 @@ dlsdk.appsflyer.com^
 ||011x.casino^
 ||0121.casino^
 ||0123.casino^
+||0123tt.ru^
 ||0128.casino^
 ||0131.casino^
 ||0132.casino^
@@ -226927,6 +226928,7 @@ dlsdk.appsflyer.com^
 ||7198.casino^
 ||7199.casino^
 ||71a.casino^
+||71edge.com^
 ||71i.de^
 ||71k.casino^
 ||71ninecasino84.com^
@@ -228023,6 +228025,7 @@ dlsdk.appsflyer.com^
 ||ad-analytics.xyz^
 ||ad-appier.com^
 ||ad-center.com^
+||ad-contents.jp^
 ||ad-creatives-public.commondatastorage.googleapis.com^
 ||ad-img.ebaykorea.com^
 ||ad-pixel.ru^
@@ -228775,6 +228778,7 @@ dlsdk.appsflyer.com^
 ||ancestry.com^
 ||ancestry.de^
 ||ancestry.fr^
+||andapp.jp^
 ||andbeyond.media^
 ||andmejs.com^
 ||andreagahuvrauvin.com^
@@ -229824,6 +229828,7 @@ dlsdk.appsflyer.com^
 ||betify-casino-france.com^
 ||betify-casino-france.net^
 ||betify-casino-online-fr.com^
+||betika.com^
 ||betinia.dk^
 ||betiran.vip^
 ||betistacasino.online^
@@ -230014,6 +230019,7 @@ dlsdk.appsflyer.com^
 ||bingobet.pro^
 ||bingocafecasino.com^
 ||bingogamescasino.com^
+||bingoplus.com^
 ||bingoracasino.co.uk^
 ||bingoxl.nl^
 ||binkies3d.com^
@@ -233273,6 +233279,7 @@ dlsdk.appsflyer.com^
 ||cliniclicks.com^
 ||clipf.com^
 ||cliphot.cc^
+||clipper.guru^
 ||clipr.co^
 ||cliproxy.com^
 ||clipxn.com^
@@ -233606,7 +233613,8 @@ dlsdk.appsflyer.com^
 ||contentmarketinginstitute.com^
 ||contentpass.net^
 ||contentrecommend-out.mobile.sina.cn^
-||contents*.00110.citi.com^
+||contents1.00110.citi.com^
+||contents2.00110.citi.com^
 ||contentsquare.com^
 ||contentstack.io^
 ||contestdomination.com^
@@ -235161,6 +235169,7 @@ dlsdk.appsflyer.com^
 ||egiodev.com^
 ||egrow.io^
 ||egtwendy.nl^
+||ehcx.cn^
 ||ehxyz.com^
 ||eigenrichting.eu^
 ||eighrimeau.com^
@@ -236442,6 +236451,7 @@ dlsdk.appsflyer.com^
 ||geo.captcha-delivery.com^
 ||geo.cardinalcommerce.com^
 ||geo.cliphunter.com^
+||geo.io^
 ||geo2.adobe.com^
 ||geoapi.acronis.com^
 ||geoapi.indiatimes.com^
@@ -236915,6 +236925,7 @@ dlsdk.appsflyer.com^
 ||grupaonet.pl^
 ||grupoelede.com^
 ||grytics.com^
+||gshifen.com^
 ||gsi-one.org^
 ||gsk.com^
 ||gstatic.com^$badfilter
@@ -237711,6 +237722,7 @@ dlsdk.appsflyer.com^
 ||igobet-casinonl.nl^
 ||igobetcasinowin.com^
 ||igp.cloud^
+||iguana2.com^
 ||igvmafo.com^
 ||ihars.com^
 ||ihhlttps-roblox.com^
@@ -237970,6 +237982,7 @@ dlsdk.appsflyer.com^
 ||intensecasino.net^
 ||intentsoftware.com^
 ||interactive.guim.co.uk^
+||interactivebrokers.com^
 ||interads.co.uk^
 ||intercasino-2.net^
 ||intercasino.com^
@@ -240113,6 +240126,7 @@ dlsdk.appsflyer.com^
 ||meiqia.com^
 ||meiti1.net^
 ||meitu.com^
+||meitudata.com^
 ||melbahis.com^
 ||melbet-casino.com^
 ||melbetir.app^
@@ -240607,6 +240621,7 @@ dlsdk.appsflyer.com^
 ||mti.35kds.com^
 ||mtmo.nl^
 ||mtouch.facebook.com^
+||mts.ru^
 ||mtxsk.com^
 ||mub.me^
 ||muchbettercasinos.co.uk^
@@ -242345,6 +242360,7 @@ dlsdk.appsflyer.com^
 ||pixelunion.net^
 ||pixiv.net^
 ||pixlee.com^
+||pixocialdata.com^
 ||pizzaandads.com^
 ||pjewelry.com^
 ||pjtymy.cn^
@@ -242478,6 +242494,7 @@ dlsdk.appsflyer.com^
 ||pm.dk^
 ||pm5.casino^
 ||pmcasino.com^
+||pmeta.io^
 ||pmm777.casino^
 ||pndsn.com^
 ||pnhfc.com^
@@ -242821,6 +242838,7 @@ dlsdk.appsflyer.com^
 ||psychicvisionsbygina.com^
 ||psycho-tests.com^
 ||ptdrw.com^
+||ptgaming.ph^
 ||ptools.com^
 ||ptt.casino^
 ||ptw.la^
@@ -242935,6 +242953,7 @@ dlsdk.appsflyer.com^
 ||px-cloud.net^
 ||pxcounter.ru^
 ||pxene.com^
+||pxlecdn.com^
 ||pxlme.me^
 ||pxlwidgets.com^
 ||pxtracker.org^
@@ -244797,6 +244816,7 @@ dlsdk.appsflyer.com^
 ||sportslottery.com.tw^
 ||sportsycasino.co^
 ||sportwetten.de^
+||sportybet.com^
 ||spot.im^
 ||spotexchange.com^
 ||spotler.co.uk^
@@ -244910,6 +244930,7 @@ dlsdk.appsflyer.com^
 ||star-mini.c10r.facebook.com^
 ||star-randsrv.bsg.brave.com^
 ||star8.net^
+||staradvertiser.com^
 ||starapps.studio^
 ||starbet-casino.net^
 ||starburst-casino.nl^
@@ -245746,6 +245767,7 @@ dlsdk.appsflyer.com^
 ||tilbudmaskin.no^
 ||tile-service.weather.microsoft.com^
 ||tilottomacollection.com^
+||timdovs.com^
 ||time.akamai.com^
 ||time2play.com^
 ||timeappmarketing.com^
@@ -245860,6 +245882,7 @@ dlsdk.appsflyer.com^
 ||top-casino5.online^
 ||top-casinos-fr.com^
 ||top.ge^
+||top.lv^
 ||top10-casinosites.net^
 ||top100.casino^
 ||top10casino.nl^
@@ -247594,6 +247617,7 @@ dlsdk.appsflyer.com^
 ||yourbrand.com^
 ||yourdailyhealthpack.com^
 ||yourlinkdr.com^
+||yournetflixaccount.com^
 ||yoursurveynow.com^
 ||yourwoo.com^
 ||yousee.com^
@@ -247680,6 +247704,7 @@ dlsdk.appsflyer.com^
 ||zeexpress-24h.sbs^
 ||zeexpress-delivery.click^
 ||zeexpress-distribuidora.shop^
+||zefrdata.com^
 ||zembla-bnnvara.cdn.prepr.io^$badfilter
 ||zen.spamhaus.org^$badfilter
 ||zencasino.com^
@@ -247870,29 +247895,6 @@ dlsdk.appsflyer.com^
 ||zzbaowen.com^
 ||zzkko.com^
 ||zzpcentrale.nl^
-||iguana2.com^
-||pxlecdn.com^
-||mts.ru^
-||sportybet.com^
-||timdovs.com^
-||andapp.jp^
-||bingoplus.com^
-||top.lv^
-||betika.com^
-||ptgaming.ph^
-||ad-contents.jp^
-||71edge.com^
-||0123tt.ru^
-||gshifen.com^
-||ehcx.cn^
-||staradvertiser.com^
-||zefrdata.com^
-||meitudata.com^
-||interactivebrokers.com^
-||ipmeta.ioipmeta.io^
-||pixocialdata.com^
-||yournetflixaccount.com^
-||geo.io^
 ||badv.wp.pl^
 ||emisjawidgeet.onet.pl^
 ||ads.edipresse.pl^
