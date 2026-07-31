@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1835
+! Version: 1.1836
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-07-31T07:51:02.689Z
+! Last modified: 2026-07-31T10:36:42.694Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -7983,7 +7983,7 @@ fikircok.net###mobile-share-boxbottom
 mixesdb.com###pageIconGoogle
 mixesdb.com###pageIconTwitter
 3mv.ru###popupDarkness
-nepu.to,youcine.plus,apkmirror.com###shareDropdown
+nepu.*,youcine.plus,apkmirror.com###shareDropdown
 pcmag.com,extremetech.com###share_container
 katfile.cloud,katfile.com,down.mdiaload.com,down.fast-down.com,userupload.net,file-upload.com###sharebuttons
 appsliced.co###sharing_bar
@@ -8387,7 +8387,7 @@ canberratimes.com.au#?#div.flex > a[class^="gtm-hook-share"]:upward(1)
 bosnainfo.ba#?#footer > div.container:has(> div.container > div.fb__page)
 hakimiyet.com,elazigonline.com,sha.com.tr#?#.items-center > span[class="hidden lg:block"]:contains(/^PAYLAŞ$/)
 zawazawa.jp#?#.aside-group > .twitter-widget-wrapper:upward(1)
-nepu.to,svetacdn.in###oframeplayer > pjsdiv:has(> pjsdiv > pjsdiv[style*="transform"] > svg > g > path[d^="M5.5662845,8.26248366"])
+nepu.*,svetacdn.in###oframeplayer > pjsdiv:has(> pjsdiv > pjsdiv[style*="transform"] > svg > g > path[d^="M5.5662845,8.26248366"])
 delivembed.cc#?#div[class^="top-right_"] > button[class^="button_"]:has(> span > span:contains(Поделиться ссылкой))
 streamlit.io#?#article > section:has(> h2:contains(/^Share this post$/))
 okmagazine.com#?##ok-article-meta > div > div:has(> a[href^="https://www.facebook.com/sharer/sharer.php"])
