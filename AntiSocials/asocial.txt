@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1834
+! Version: 1.1835
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-07-31T04:22:17.274Z
+! Last modified: 2026-07-31T07:51:02.689Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -13,36 +13,6 @@ unian.net#?#div[style] > div.article-shares:upward(1)
 123telugu.com#$#.post-page-content { padding-bottom: 0 !important; }
 debate.com.mx#$#header { height: auto !important; }
 debate.com.mx#$#body { padding-top: 70px !important; }
-usine-digitale.fr##.b-share-bar__container
-vbr.ru##.social-btns-colorful
-netnaija.film##.flex-1 > div.fixed:has(> div.grid > button > svg > path[d^="M24 12.07"])
-wartezeiten.app##.card:has(> .card-content > .share-buttons)
-konhaber.com##div.flex:has(> button#share-facebook)
-eisbaeren.de#$#.rsSocialTabs > div.rsTabs > div.rsNavItem:first-child { display: none !important; }
-bballnews2for1.jp###footer_sticky_menu
-gdh.digital##.publish-bar-sticky > .gap-1 > div:is(.items-center, .relative):has(> button[data-state="closed"])
-wiki.newdn.ru##.page-col-sd > div.page-shortcuts-card > header[style="height: 48px;"]
-trendle.jp##share-popup
-buywholefoodsonline.co.uk##div[class^="share-"]
-latent.space,pragmaticengineer.com,gamefile.news#?#.pencraft > div.pencraft:has(> a.post-ufi-button > div.label:contains(Share))
-welcome.mosreg.ru##.w_socials__box
-news.samsung.com##div[class^="snr-article"][class*="share"]
-nbcnewyork.com##.site-header__mobile-share-toggle
-rus.delfi.lv##.telegram-info-block
-vogue.com.cn###share1
-techdim.com,coolztricks.com,janefriedman.com##.wplogout-social-wrapper
-abplive.com##.mt-4 > a[href^="https://www.youtube.com/"]
-elle.pl##.share-result
-domashniy.ru##.article-community__share
-agibiteca.com.br##a[href^="javascript:abrirjanela('https://www.facebook.com/sharer/sharer.php"]
-culture.pl##.header-social-links-wrapper
-band.uol.com.br##video-highlight > .m-share
-napi.hu##.share > .shareitem[onclick]
-9xbuddy.com##div[dir="ltr"] > div > section.night-black.container.bg-grey-lighter.sm\:block
-thequestion.ru##.question__answers-info-share-text
-cumhuriyet.com.tr##.share-this.tu
-boerse-online.de###sticky-footer
-~www.wp.pl,~poczta.wp.pl,wp.pl#?#.content > div[class] > div[class] > div[class] > div[data-reactid] > div[class]:has(> div[class] > div[class] > .fb-like)
 rambler.ru##div[data-blocks="content_info"] + div[class^="container-"]
 rambler.ru#%#//scriptlet('remove-in-shadow-dom', 'div[data-blocks="content_info"] + div[class^="container-"]')
 vikna.tv##.section-share
@@ -70,7 +40,6 @@ j-cast.com#?##entry-content > div.align-justify:has(> div.align-inner-box > div.
 gurugurulog.com#?#.content > nav.section-box > ul.article-button > li.article-twitter:upward(2)
 finance.rambler.ru#?#div[class^="container-"] > div[class^="container-"]:has(> amp-social-share)
 adguard.info,adguard.com,adguard.app#$#.hello_from_adguard_advanced_protection_ios { display: none !important; }
-doramy.moy.su##.fancybox-desktop
 indianexpress.com##.social-icon
 unn.com.ua##body > div.fancybox-opened
 unn.com.ua##body > div.fancybox-opened + div.fancybox-overlay
