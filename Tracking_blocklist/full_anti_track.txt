@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.2292
+! Version: 1.2293
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-08-03T13:41:54.088Z
+! Last modified: 2026-08-03T16:23:59.337Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -173045,6 +173045,7 @@
 ||metrics-web.help^
 ||nehalist.io^
 ||identity.treeumapp.net^
+||umommy.cyou^
 ||marcuscash.one^
 ||mod.leftnewsex.com^
 ||kujsc5.ru^
@@ -220108,7 +220109,6 @@
 ||stat.aporntv.com^
 ||data-lake-api.internet.apps.samsung.com^
 ||pixel-cdp.sberhealth.ru^
-||umami.syg.ma^
 ||logs.tourister.ru^
 ||dsas-t.danawa.com^
 ||atsssl.gmarket.co.kr^
@@ -220342,7 +220342,6 @@
 ||chocolatine.apexlegendsstatus.com^
 ||services.haaretz.com^
 ||plausible.pronouns.cc^
-||umami.subdavis.com^
 ||analytics.valotool.com^
 ||suchanalytik.hideandsec.sh^
 ||ocular.mydealz.de^
@@ -224631,7 +224630,6 @@
 ||target.tiaa-cref.org^
 ||target.tiaa.org^
 ||target.yourchi.org^
-||umami.vidfast.
 ||https-filtering-check.adtidy.org^
 ||logws*.ati-host.net^
 ||clickhouse-collector.*.prod.plat.agency^

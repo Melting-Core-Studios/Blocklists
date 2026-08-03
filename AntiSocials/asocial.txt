@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1843
+! Version: 1.1844
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-08-03T06:19:14.165Z
+! Last modified: 2026-08-03T16:21:56.980Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -384,6 +384,8 @@ group.ntt##.c-sns-2
 leparisien.fr##.tooltip-share-article-container
 haberturk.com##li[onclick="HTJS.newsShare(this)"]
 itmedia.co.jp##.p-sns-box
+merrittherald.com##.et_social_pin_images_outer
+merrittherald.com#$#.post-footer { border-top: none !important; padding: 0 !important; }
 ovvah.com##.widget_social
 sexvid.xxx##div[href="#Share-moadl"]
 respawn.outlookindia.com##.items-center > button:has(> img[alt="share icon"])
@@ -4500,7 +4502,7 @@ liginc.co.jp###js-sticky-scroll
 markezine.jp##.c-article_popup_btn
 playvids.com##.btn-group > li.dropdown
 playvids.com###mediaPlayerShareBtn
-useapotion.com,androidphone.fr,eftm.com##.ed-social-share-icons
+merrittherald.com,useapotion.com,androidphone.fr,eftm.com##.ed-social-share-icons
 spooncast.net##button[title="シェア"]
 gofundme.com##a[data-element-id$="_share"]
 redbubble.com##div[class*=" ArtistHeader__shareButton--"]
