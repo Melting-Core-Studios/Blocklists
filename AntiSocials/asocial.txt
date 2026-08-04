@@ -1,34 +1,14 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1846
+! Version: 1.1847
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-08-04T04:11:48.363Z
+! Last modified: 2026-08-04T07:37:14.517Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
-koha.net##li:has(> div.social_media)
-twentyonepilots.film##button[aria-label="Open popout to view options for sharing the site"]
-ghostcap.com##main article ~ div.border.border-gray-800.bg-gray-900:has(a[href^="https://reddit.com/submit?url=&title="])
-hyperallergic.com##.widget:has(> ul.wp-block-jetpack-sharing-buttons)
-beincrypto.com##div[class^="StickyContainer-"] > div[class^="Container-"]:has(div[class^="Socials-"])
-sakh.online##div[class^="Share_share"]
-timescale.com##.post-page__meta__share__wrapper
-tkj.jp###book-info-sns
-character.ai##div[id^="share-button-"]
-croatiaweek.com##.clearfix > div.borderBottom + div.left
-kocaelidenge.com###_s_fan-sticky-wrapper
-wallpaperaccess.com##a[href*="//assets.pinterest.com/"]
-bigmir.net##.material-icons-share
-dn.se##.js-social-toolbar > .button-group > .button--social
-blickamabend.ch##.shareicons_wrapper
-trt.net.tr###fbLikeSendtwitter_menu
-allrecipes.com##h2.share
 unian.net#?#div[style] > div.article-shares:upward(1)
-forum.miuiturkiye.net##div[style="position: fixed;left: 0;top: 0;background-color: rgba(0,0,0, 0.8);overflow-x: hidden;height: 100%;width: 100%;z-index: 9999;"]:not([class]):not([id])
-com-magazin.de##w-div[role$="dialog"]
-@@||platform.twitter.com/oct.js$domain=nuheara.com
 123telugu.com#$#.cat-tags { display: none !important; }
 123telugu.com#$#.post-page-content { padding-bottom: 0 !important; }
 debate.com.mx#$#header { height: auto !important; }
