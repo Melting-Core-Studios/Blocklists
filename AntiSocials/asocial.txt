@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1851
+! Version: 1.1852
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-08-05T05:45:45.100Z
+! Last modified: 2026-08-05T08:30:22.835Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -13,19 +13,6 @@ unian.net#?#div[style] > div.article-shares:upward(1)
 123telugu.com#$#.post-page-content { padding-bottom: 0 !important; }
 debate.com.mx#$#header { height: auto !important; }
 debate.com.mx#$#body { padding-top: 70px !important; }
-shopify.com##.sm\:grid-cols-8.md\:grid-cols-12 .md\:flex.flex-col.justify-start
-autopark.ua##.car-box--share
-altchar.com##.js-share-article
-fuwanovel.moe##.single-post-share
-dizm.mbs.jp##.sns-for-page
-sweettemptations.com,elliptic.co,cappmoda.com,summerghost.jp##div[class*="share"]
-forbes.ru##.LvhTk
-cadblocksfree.com##.view-social-icons
-newsday.com##.simpleShare
-tvweb.com##.current-article-button-facebook
-android.jlelse.eu,codeburst.io##a[href*="/share/facebook?source="]
-chrdk.ru##.detail-nav__item_share
-speedtest.net#?#.posts > .row > .col-xs-4 > .widget-inline > h2.widget-title:contains(/^Share$/)
 rambler.ru##div[data-blocks="content_info"] + div[class^="container-"]
 rambler.ru#%#//scriptlet('remove-in-shadow-dom', 'div[data-blocks="content_info"] + div[class^="container-"]')
 vikna.tv##.section-share
@@ -53,9 +40,6 @@ j-cast.com#?##entry-content > div.align-justify:has(> div.align-inner-box > div.
 gurugurulog.com#?#.content > nav.section-box > ul.article-button > li.article-twitter:upward(2)
 finance.rambler.ru#?#div[class^="container-"] > div[class^="container-"]:has(> amp-social-share)
 adguard.info,adguard.com,adguard.app#$#.hello_from_adguard_advanced_protection_ios { display: none !important; }
-protect-link.biz#$#div[aria-labelledby="myModalLabel"] { display: none !important; }
-fishki.pl###facebookLikePopUp
-coco01.net###fbCover
 indianexpress.com##.social-icon
 unn.com.ua##body > div.fancybox-opened
 unn.com.ua##body > div.fancybox-opened + div.fancybox-overlay
