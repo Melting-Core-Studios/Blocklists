@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.2319
+! Version: 1.2320
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-08-07T16:53:04.825Z
+! Last modified: 2026-08-07T19:54:03.058Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -598,6 +598,7 @@
 ||82o9v830.com^
 ||abilityscale.com^
 ||abilitytoucan.com^
+||abilityworkout.com^
 ||abjectattempt.com^
 ||aboardamusement.com^
 ||aboardlevel.com^
@@ -5171,6 +5172,7 @@
 ||tm-eps.neutrino.nu^
 ||tmetrix.my.chick-fil-a.com^
 ||tmx.bestbuy.com^
+||tmx.td.com^
 ||u46.pnc.com^
 ||w-profiling.simplii.com^
 ||wup-185a61e7.bendigobank.com.au^
@@ -11081,6 +11083,7 @@
 ||metrics.tbs.com^
 ||metrics.tcm.com^
 ||metrics.tcs.com^
+||metrics.td.com^
 ||metrics.tdworld.com^
 ||metrics.te.com^
 ||metrics.teachforamerica.org^
@@ -17131,6 +17134,7 @@
 ||targetab.metrobyt-mobile.com^
 ||targetlr.adobe.com^
 ||targetsecure.kohler.com^
+||tdor-smetrics.td.com^
 ||tel.telegraaf.nl^
 ||telemetry.boxt.co.uk^
 ||telemetry.chrobinson.com^
@@ -93445,6 +93449,7 @@
 ||nextoptim.com^
 ||nexttads.com^
 ||nextyourcontent.com^
+||nexus.td.com^
 ||nexus.toyota.com^
 ||nexusedgeio.com^
 ||nexusmiss.com^
@@ -109646,6 +109651,7 @@
 ||smetrics.sc.com^
 ||smetrics.sharekhan.com^
 ||smetrics.soma.com^
+||smetrics.td.com^
 ||smetrics.td.com.edgekey.net^
 ||smetrics.techcombank.com^
 ||smetrics.theweathernetwork.com^
@@ -111750,6 +111756,7 @@
 ||stat.smallsteptech.com^
 ||stat.sophia.org^
 ||stat.stariidata.com^
+||stat.td.com^
 ||stat.techtimes.com^
 ||stat.teleport.media^
 ||stat.thestartmagazine.com^
@@ -244358,7 +244365,6 @@ dlsdk.appsflyer.com^
 ||tcmclassics.org^
 ||tcmworld.org^
 ||tcommunity.linkedin.com^
-||td.com^
 ||tdndns.com^
 ||tdscd.com^
 ||teads-xo.com^
@@ -247879,6 +247885,10 @@ dlsdk.appsflyer.com^
 ||zbtwifi.com^
 ||zeexpress-bebidas48h.shop^
 ||zeexpress-drinks48h.shop^
+||cmgfinancialconsultant.com^
+||mailepicvin.com^
+||ynu.ac.kr^
+||arzhost.com^
 ||badv.wp.pl^
 ||emisjawidgeet.onet.pl^
 ||ads.edipresse.pl^
