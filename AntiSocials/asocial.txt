@@ -1,51 +1,14 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1867
+! Version: 1.1868
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-08-10T03:51:33.372Z
+! Last modified: 2026-08-10T05:24:18.029Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
-privacyguides.org##.md-content__inner > aside[style]:has(> p > a[href^="https://share.joinmastodon.org/"])
-vesty.co.il##.articleShareButtons
-hwccoffee-shop.com##div[class^="CenterSocialMediaIconListContainer-"]
-akb48.co.jp##.shareBlk
-syg.ma##.postActions div[title="Share"]
-vectorworks.net##div[class^="_iconList_"]:has(> .shareArticle)
-protagon.gr##.stopHere
-afyonturkeligazetesi.com##div[x-data]:has(> ul > li > a[href^="https://www.facebook.com/sharer.php?"])
-afyonturkeligazetesi.com#?#article > .dark\:bg-customdarkgray-900 > .dark\:bg-customdarkgray-800.items-center:has(> .hidden.space-x-3:matches-css(display: none))
-fikriyat.com##.social-media > ul > .twitter
-fikriyat.com##.social-media > ul > .whatsapp
-vda.de##div[class^="Stage_Share__"]
-apollographql.com##div[class^="sitemap_share"]
-joybet114.cam,betmoneytv80.live,bahisnowtv297.com##.nk-post-share > div[style^="margin-left:"]
-gqmiddleeast.com##.share-button-mobile
-giftee.com##.wish-list-contents__share-contents
-smbc-card.com##.detail_snsArea_bottom_pdca
-marche.onward.co.jp##.block-goods-detail-sns
-stadt-bremerhaven.de###shr-btns
-desktopsolution.org##.pum
-oceans-nadia.com##.c-sns-btn
-fixygen.ua##.sied-banner
-yenikonya.com.tr,konhaber.com,belge.com.tr##.sosyalMedya
-ftc.gov##.block-sharetext
-gizbot.com##.gibot-prod-specs-share
-turizmtatilseyahat.com##.jeg_share_count
-miasskiy.ru,turizmtatilseyahat.com,djhjmedia.com,bursamiz.com,haberdurumu.com##.jeg_sharelist
-diariodecadiz.es##.md-lite-share
-infobank.by##.sharfriend
-komkur.info##.usocial_block
-thebigdata.co.kr##.snsbar
-dobreprogramy.pl##.js-facebook-like
-firstpost.com,stories.bsh-group.com,design-homes.ru,tgcom24.mediaset.it,kamuajans.com,internethaber.com##.shr
-smexo.tv##.snet
-koravidstream.com,marianne.net#$?#.rmp-sharing { remove: true; }
 unian.net#?#div[style] > div.article-shares:upward(1)
-flame.az,qreat.az##.facebook-window
-wildo.ru###vk_wiget_popup
 123telugu.com#$#.cat-tags { display: none !important; }
 123telugu.com#$#.post-page-content { padding-bottom: 0 !important; }
 debate.com.mx#$#header { height: auto !important; }
