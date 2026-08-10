@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.2334
+! Version: 1.2335
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-08-09T19:33:22.358Z
+! Last modified: 2026-08-10T03:53:33.826Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -289,6 +289,7 @@
 ||iconnode.com^
 ||id-ward.com^
 ||identitypxl.app^
+||idsequoia.ai^
 ||idx.lat^
 ||ilius.net^
 ||impactcdn.com^
@@ -4680,6 +4681,7 @@
 ||goatcounter.ssp.sh^
 ||graylog.prod.cams.run^
 ||grgnsht.nzxt.com^
+||grow.urbandictionary.network^
 ||gtm.lercio.it^
 ||gtm.wise.com^
 ||gtm.xtb.com^
@@ -37889,9 +37891,12 @@
 ||a.lifehacker.ru^
 ||a.pikabu.ru^
 ||a.ria.ru^
+||a.wb.ru^
+||acollector.wb.ru^
 ||affilate.hh.ru^
 ||alloy-web.zvuk.com^
 ||analytics.carambatv.ru^
+||antibot.wildberries.ru^
 ||api-metric.gosweb.gosuslugi.ru^
 ||booster.osnova.io^
 ||c.sibnet.ru^
@@ -43415,7 +43420,6 @@
 ||a.votpusk.ru^
 ||a.vtvdigital.vn^
 ||a.walla.co.il^
-||a.wb.ru^
 ||a.wishabi.com^
 ||a.worldcuplives.online^
 ||a.wp-e.net^
@@ -44052,7 +44056,6 @@
 ||acobot.ai^
 ||acobt.tech^
 ||acodez.ca^
-||acollector.wb.ru^
 ||acologytraneen.qpon^
 ||acookie.alibaba.com^
 ||acoreaaxweed.qpon^
