@@ -1,13 +1,14 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1869
+! Version: 1.1870
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-08-10T12:57:40.791Z
+! Last modified: 2026-08-10T15:58:50.132Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
+fullhdfilmizletv.*,filmizletv1.*,filmizletv.*##.mov_social
 unian.net#?#div[style] > div.article-shares:upward(1)
 123telugu.com#$#.cat-tags { display: none !important; }
 123telugu.com#$#.post-page-content { padding-bottom: 0 !important; }
@@ -368,6 +369,7 @@ esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israel
 esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israelnationalnews.com,lifehacker.com,cgmagonline.com,gizmodo.com,gamerevolution.com,metro.co.uk,thurrott.com,stereogum.com,ign.com,newsweek.com,dailymail.co.uk,comingsoon.net,timesofisrael.com,nypost.com,9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,electrek.co#%#//scriptlet('remove-in-shadow-dom', 'div[data-spot-im-class="vote-links"] + span[class$="index__dot"]')
 cogconnected.com,echofm.online,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com##.comment__share > *
 cogconnected.com,echofm.online,antirez.com,comicbook.com,alexp.pl,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com###thread-share-bar
+latribune.ca##div[class^="social-media-headerstyled"] > div[class^="sharing-optionsstyled"]
 metrocptm.com.br###floating-share-btn
 esut.de##.whatsapp-promo
 njav.com###toggleShareBtn
@@ -4519,7 +4521,7 @@ krzbb.de##div[data-b-title*="Sharing Button"]
 suncalc.org###shareD
 elmas67.com,zhaber.com.tr##.social-buttons > a:not([style])
 phileweb.com###sidebar > div#rmenu_sns + div.rmenu
-fullhdfilmizletv.*,filmizletv1.*,filmizletv.*##.mov_social
+sinemaizle.org,fullhdfilmizletv.*,filmizletv1.*,filmizletv.*##.mov_social
 corp.rakuten.co.jp##.rf-sns-group
 comingsoon.it##.tasti-social-top
 setusoku.com###snsbox03
@@ -8003,7 +8005,7 @@ argumenti.ru,cambridge.org,beebom.com,pressandjournal.co.uk,gl.ali213.net,watchm
 blogspot.com,blogspot.de##.share-controls
 dailymail.co.uk##.share-count
 last.fm##.share-desktop
-jetfilmizle.*,nspk.ru,japantimes.co.jp,salon24.pl,gamespot.com##.share-dropdown
+thedailystar.net,jetfilmizle.*,nspk.ru,japantimes.co.jp,salon24.pl,gamespot.com##.share-dropdown
 jijitsu.net,magicbase.xyz,kaldata.com##.share-flat
 furfur.me,wonderzine.com##.share-images
 economist.com##.share-inline-footer-reddit
