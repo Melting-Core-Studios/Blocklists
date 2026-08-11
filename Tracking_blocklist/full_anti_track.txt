@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.2350
+! Version: 1.2351
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-08-11T22:41:41.706Z
+! Last modified: 2026-08-11T23:39:15.356Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -3654,6 +3654,7 @@
 ||tracking.b-cdn.net^
 ||tracking.bababam.com^
 ||tracking.brandmentions.com^
+||tracking.carbonatixaudio.com^
 ||tracking.cerdmann.com^
 ||tracking.diginetica.net^
 ||tracking.drum.io^
@@ -114894,7 +114895,6 @@
 ||tracking.bloomberg.com.shared.bloomberga.com^
 ||tracking.bol.com^
 ||tracking.buyhatke.com^
-||tracking.carbonatixaudio.com^
 ||tracking.carfax.com^
 ||tracking.casheddy.com^
 ||tracking.cds.dmm.com^
