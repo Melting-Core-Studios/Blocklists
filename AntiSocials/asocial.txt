@@ -1,45 +1,14 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1879
+! Version: 1.1880
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-08-12T04:04:31.256Z
+! Last modified: 2026-08-12T05:46:22.641Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
-elpinguino.com##.encuesta-compartir
-elpinguino.com##.site3-compartir-diario
-ftm.nl##.sharewrapper
-byu.id##div[class^="styles_p-blog-detail__share"]
-manabitips.kyo-kai.co.jp##.sns_txt
-livehindustan.com##div[class^="StoryPage_shrView_"]
-maousama.jp##div[class*="_shareWrap"]
-reytingtv.com##.tspan
-psycho-pass.com###footerShareDl
-addons.mozilla.org##.blogpost-meta-share-social
-community.mozilla.org##.campaign__share-container
-rg.ru##div[class^="PageArticleContentShare_root"]
-cybersecuritynews.com,emprendedorimbatible.com,vcgamers.com,tecnobreak.com,prostomob.com,scitechdaily.com,osnmedia.ru##footer + div.s_stk
-news-vision.jp##.sns-follow-btn
-spasemstranu.com##.ess-social-network-lists
-pronews.jp##.footer-social > div.footer-social-box:first-child
-milliyet.com.tr##.bs-social-list
-slow-start.com##.hd_share
-myresume.ru##.p-article-info
-fingerprint.com##div[class^="ActionBar-module--root--"] > span[class^="ActionBar-module--publishDate--"] + div
-japanese.engadget.com##span[data-wf-state-text="[state.shareCount.total]"]
-watch.impress.co.jp###amp-floating-area
-biz.liga.net##.social-likes > *
-gecid.com##.arts a[href="./rssall.php"]
-history.com##.social-float
-zomart.ru##.page-product__socials
-ain.ua,ua.today##.social_like
-getandroidstuff.com##.td-tags-and-social-wrapper-box
 unian.net#?#div[style] > div.article-shares:upward(1)
-sportarena.com##div[aria-describedby="socialModal"]
-utro.ru##.facebook__box
-@@||yastatic.net/share2/share.js$domain=krasnoyarskmedia.ru
 123telugu.com#$#.cat-tags { display: none !important; }
 123telugu.com#$#.post-page-content { padding-bottom: 0 !important; }
 debate.com.mx#$#header { height: auto !important; }
