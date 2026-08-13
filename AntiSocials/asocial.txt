@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1887
+! Version: 1.1888
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-08-13T04:09:21.214Z
+! Last modified: 2026-08-13T06:15:50.254Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -13,43 +13,6 @@ unian.net#?#div[style] > div.article-shares:upward(1)
 123telugu.com#$#.post-page-content { padding-bottom: 0 !important; }
 debate.com.mx#$#header { height: auto !important; }
 debate.com.mx#$#body { padding-top: 70px !important; }
-redmas.com.co###button-google-profile
-futbolperuano.com##.articulo-redes > ul:has(> li > a.articulo-ico-art[href^="https://wa.me/"])
-cizgivedizi.com##.insta-link
-gdh.digital##div[class*="sticky"][style*="opacity"] > .absolute > .text-extrasmall
-diyetkolik.com###kkPaylasSutunu
-gqmagazine.fr##div[class^="ContentHeaderNativeShareButton-"]
-warnerbrosgames.com##.utility > .wrap > .shareables
-itbusiness.com.ua##div[class^="td-post-sharing"]
-zowa.app##.p-playerAction__item--share
-mashingup.jp##.p-Post_Share
-social-trend.jp##.single-article-header-share
-techopedia.com##.jan-article > div.my-5
-miraimedia.asahi.com##.p-single-share
-robokumac.com##.sns_buttons_meta
-psdly.com##.wp-block-wptelegram-widget-join-channel
-edh.tw##.linefriend_article
-reviews.org##.author-byline-start__social
-indiatimes.com##.art-social > a
-m-timesofindia-com.cdn.ampproject.org##.adspacing
-wallpaperplay.com###at-image-sharing-tool
-thebell.io##.share-overlay
-rnd.de##.social__share-button
-ofeminin.pl##.socialShares
-futboo.com,habermarmara.com.tr,murekkephaber.com,edirnegazetesi.com.tr,abdpost.com,akdenizbulten.com,mansetizmir.com,denizliekspres.com.tr,mahalligundem.com,saatbasihaber.com,izmirhabermerkezi.com##div[class^="socialButtonv"]
-eggegg.jp##.l-section--post-share
-forum.redfox.bz,excel.web.tr##div[data-widget-key="forum_overview_share_page"]
-tvn24.pl##.shareContainerTop
-patreon.com##.kwFSoq
-teknolog.com##[class^="xtss-"][class$="-post show-for-small"] > .xtss-wrap
-m.brigitte.de,mobil.stern.de##.social-sharing-view-wrapper
-chinatimes.com###related_news
-sabah.com.tr,fikriyat.com,aspor.com.tr##.pageTools > ul > .pin
-tz.de,chiemgau24.de,mannheim24.de,rosenheim24.de,hna.de,kreiszeitung.de##.id-Actionbox-items-el--whatsapp
-||grfx.cstv.com/scripts/csui/twitterfeed/
-||ia.media-imdb.com/images/*/imdb/html/facebook-
-webfail.com#?#.mcss-w100 > div[style^="display:"]:has(> a[title="share"])
-spid.center#?#main > section > div > div:has(> a[href^="//www.facebook.com/sharer/sharer.php?"])
 rambler.ru##div[data-blocks="content_info"] + div[class^="container-"]
 rambler.ru#%#//scriptlet('remove-in-shadow-dom', 'div[data-blocks="content_info"] + div[class^="container-"]')
 vikna.tv##.section-share
@@ -77,11 +40,6 @@ j-cast.com#?##entry-content > div.align-justify:has(> div.align-inner-box > div.
 gurugurulog.com#?#.content > nav.section-box > ul.article-button > li.article-twitter:upward(2)
 finance.rambler.ru#?#div[class^="container-"] > div[class^="container-"]:has(> amp-social-share)
 adguard.info,adguard.com,adguard.app#$#.hello_from_adguard_advanced_protection_ios { display: none !important; }
-||techashi.com/wp-content/plugins/wp-popups-lite/src/assets/*/wppopups
-jagongoding.com#$##modal-fb { display: none !important; }
-handballerd.hu##.facebookwidget
-gamme.com.tw##.line_Promotion
-video.az###js-dialog-social-overlay
 indianexpress.com##.social-icon
 unn.com.ua##body > div.fancybox-opened
 unn.com.ua##body > div.fancybox-opened + div.fancybox-overlay
