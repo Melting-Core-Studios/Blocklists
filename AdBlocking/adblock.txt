@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Block those ads
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.6937
+! Version: 1.6938
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-08-14T16:53:08.468Z
+! Last modified: 2026-08-14T17:51:27.600Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -155533,7 +155533,6 @@ Banner468x60
 ||matomo.akafoe.de^
 ||tracking.bulten.akakce.com^
 ||a19.g.akamai.net^
-||target.akamai.com^
 ||whatismyip.akamai.com^
 ||whoami.akamai.com^
 ||e5019.e2.akamaiedge.net^
@@ -161129,6 +161128,7 @@ Banner468x60
 ||seal-wynco.bbb.org^
 ||ad-assets.bbbgame.net^
 ||activity.api.bbc.com^
+||news.bbc.co^
 ||matomo.bbcag.ch^
 ||consent.bbcgoodfood.com^
 ||realtime.bbcl.cl^
@@ -163574,7 +163574,6 @@ Banner468x60
 ||wsa1.byside.com^
 ||wwe2.byside.com^
 ||img.byspotify.com^
-||sentry.bystadium.com^
 ||track.bystriny.sk^
 ||ads.byte7.de^
 ||yogsototh.bytecamp.net^
@@ -163697,7 +163696,6 @@ Banner468x60
 ||lander-events-api.c4s-rd.services^
 ||log.c5t.org^
 ||stats.c64.org^
-||tag-manager.c66.me^
 ||client.c6gj-static.net^
 ||ad.c7p8rx.com^
 ||metrics.c7rs.com^
@@ -164913,7 +164911,6 @@ Banner468x60
 ||wslog.chinanetcenter.com^
 ||x.chinapornoxxx.com^
 ||analytics.chinarxiv.org^
-||ads.chinaums.com^
 ||ip.chinaz.com^
 ||monitor.chinaz.com^
 ||pwk.chineseconverter.com^
@@ -167631,6 +167628,7 @@ Banner468x60
 ||3dpop.co.kr^
 ||597d2be657ca.co.uk^
 ||5wh.co.zw^
+||a-imagine.co.ke^
 ||aboutproperty.co.uk^
 ||accidentadvicehelpline.co.uk^
 ||acemyassignment.co.uk^
@@ -168267,7 +168265,6 @@ Banner468x60
 ||sgtm.coggles.com^
 ||matomo.cogitime.fr^
 ||app.bond-analytics.cognitivecredit.net^
-||global.cognizant.com^
 ||server-side-gtm.cogny.com^
 ||matomo.cogsciapps.com^
 ||matomo.cohaga.ch^
@@ -168543,7 +168540,6 @@ Banner468x60
 ||reklam-yurt-emlak.blogspot.com.tr^
 ||analytics.blueticket.com.br^
 ||track.bmw.com.au^
-||piwik.bmw-motorrad.com.cn^
 ||beacon.despensa.bodegaaurrera.com.mx^
 ||analytics.mobile.bodegaaurrera.com.mx^
 ||beacon.www.bodegaaurrera.com.mx^
@@ -169766,6 +169762,7 @@ Banner468x60
 ||baminw.com.cn^
 ||banco-ripley.com.pe^
 ||bancotopazio.com.br^
+||banpro.com.pe^
 ||bdanalytics.com.br^
 ||belemesporteecultura.com.br^
 ||belfaro.com.br^
@@ -170295,6 +170292,7 @@ Banner468x60
 ||safepal.com.co^
 ||safepol.com.co^
 ||safew-go.com.cn^
+||saltmeatscheese.com.au^
 ||samoon.com.tw^
 ||samsung-ukraine.com.ua^
 ||samsungpositioning.com.cn^
@@ -172597,7 +172595,6 @@ Banner468x60
 ||atoms.democratandchronicle.com^
 ||cm.democratandchronicle.com^
 ||ad.demojpd.com^
-||stats.demon.network^
 ||open-tracker.demonoid.ch^
 ||crash-bandicoot-pc-auth3.prod.demonware.net^
 ||crash-bandicoot-pc-lobby.prod.demonware.net^
@@ -175041,6 +175038,7 @@ Banner468x60
 ||adinstantpage16-normal-useastred.tiktokv.eu.edgesuite.net^
 ||frontier16-normal-no1a.tiktokv.eu.edgesuite.net^
 ||frontier16-normal-useastred.tiktokv.eu.edgesuite.net^
+||log-dr16-normal-no1a.tiktokv.eu.edgesuite.net^
 ||log-dr16-normal-useastred.tiktokv.eu.edgesuite.net^
 ||log16-normal-no1a.tiktokv.eu.edgesuite.net^
 ||log16-normal-useastred.tiktokv.eu.edgesuite.net^
@@ -184876,7 +184874,6 @@ Banner468x60
 ||gb.gnomonsgashly.com^
 ||api.analytics.gnosis.io^
 ||stats.thp.gnosis.box^
-||beacon.gnosisscan.io^
 ||track.gnpr.de^
 ||analytics.gntech.me^
 ||logs.guix.gnu.org^
@@ -184947,6 +184944,7 @@ Banner468x60
 ||sgtm.guayaquil.gob.ec^
 ||tracking.ib28426.onp.gob.pe^
 ||analytics.sre.gob.mx^
+||patzcuaro.gob.mx^
 ||segob.gob.mx^
 ||stats.goblin.tools^
 ||matomo.ingaia.com.br.cdn.gocache.net^
@@ -185061,7 +185059,6 @@ Banner468x60
 ||log1.golfrival.net^
 ||log2.golfrival.net^
 ||analytics.golfvader.nu^
-||adsrv2.golfweather.com^
 ||matomo.gollan-media.de^
 ||wazmdm.golldendates.com^
 ||analytics.gologin.com^
@@ -188908,12 +188905,10 @@ Banner468x60
 ||stats.hotsplots.de^
 ||ads.hotstar.com^
 ||adsmanager.hotstar.com^
-||beacon.hotstar.com^
 ||events-analytics.hotstar.com^
 ||fp-analytics.hotstar.com^
 ||hb-analytics.hotstar.com^
 ||logs.hotstar.com^
-||metrics.hotstar.com^
 ||segment.hotstar.com^
 ||service.hotstar.com^
 ||settings-analytics.hotstar.com^
@@ -197146,7 +197141,6 @@ Banner468x60
 ||analytics.meinki.ai^
 ||analytics.meinlibra.de^
 ||matomo.meinort.de^
-||load.sst.meinprojekt.com^
 ||data-7db347bc87.meinprospekt.de^
 ||data-bc52ee58ca.meinprospekt.de^
 ||gtm.meinrecht.de^
@@ -199152,7 +199146,6 @@ Banner468x60
 ||sentry.mycardplace.com^
 ||sgtm.mycare.de^
 ||sentry.mycarly.com^
-||trk.send.mycarpe.com^
 ||fe-telemetry.mycarrier.tech^
 ||ad.mychannels.video^
 ||v1.mychips.io^
@@ -205010,7 +205003,6 @@ Banner468x60
 ||gtm.ppdi.com^
 ||cdn.ppdownload.com^
 ||trk.ppdu.ru^
-||vitamina.ppg.br^
 ||matomo.pph.sh^
 ||0022a601.pphost.net^
 ||mx0a-00191d01.pphosted.com^
@@ -210896,7 +210888,6 @@ Banner468x60
 ||dnsscan.shadowserver.org^
 ||tracker.shafa.ua^
 ||stats.shafaguanjia.com^
-||shd-ads-vod.shahid.ne^
 ||shd-ads-vod.shahid.net^
 ||sentry.shahrzadcity.ir^
 ||tracking.shaktimat.de^
@@ -212623,6 +212614,7 @@ Banner468x60
 ||stats.spacebar.org^
 ||view.spaceberg.cc^
 ||p.spaceboyz.net^
+||track.spaceceramics.com^
 ||sentry.spacecode.eu^
 ||stats.spacecraft.gg^
 ||sgtm.spaceforce.com^
@@ -214535,6 +214527,7 @@ Banner468x60
 ||analytics.tamariapp.com^
 ||tracking.tamdis.com^
 ||ad.tamhsc.edu^
+||bg678.tamilkamaveri.pro^
 ||detaillog-global-dual.rtc.tammi.vn^
 ||weblogger-wss.rtc.tammi.vn^
 ||matomo.tampere.fi^
@@ -225107,7 +225100,6 @@ Banner468x60
 ||ad.zoviz.com^
 ||ads.zoviz.com^
 ||adwords.zoviz.com^
-||log.zoviz.co^
 ||logv33.zoviz.com^
 ||mkt456-analytic-investors-llc.zoviz.com^
 ||online-advertising.zoviz.com^
@@ -229067,7 +229059,6 @@ Banner468x60
 ||1fuel.io^
 ||1funbola88.xyz^
 ||1fxs.com^
-||1fxt.com^
 ||1fzba.com^
 ||1g8sr4.com^
 ||1gb.me^
@@ -229079,7 +229070,6 @@ Banner468x60
 ||1gol.club^
 ||1goldenstar-casino.com^
 ||1h2gt2.skin^
-||1h2y2h.skin^
 ||1happydiabetic.com^
 ||1hgirl.com^
 ||1hitorigurashi.com^
@@ -229795,7 +229785,6 @@ Banner468x60
 ||2celsius.net^
 ||2cent.net^
 ||2clicktrk.com^
-||2clik.info^
 ||2cm.us^
 ||2create.sk^
 ||2ctt.cc^
@@ -229852,7 +229841,6 @@ Banner468x60
 ||2guystalkingmetsbaseball.com^
 ||2h.ae^
 ||2h1.jp^
-||2h3y3g.skin^
 ||2hiu.com^
 ||2i.nu^
 ||2i6b0bxgolqm.top^
@@ -231198,7 +231186,6 @@ Banner468x60
 ||5qx7mzn.casa^
 ||5qzone.net^
 ||5rocks.io^
-||5rt6r5yr7.skin^
 ||5sec.info^
 ||5sj63.com^
 ||5staraffiliateprograms.com^
@@ -231441,7 +231428,6 @@ Banner468x60
 ||6lghtrr13tslzo7bpm.com^
 ||6llion.com^
 ||6mh8.com^
-||6nt7wkp.hair^
 ||6pc.cc^
 ||6pen.art^
 ||6pmhoodies.de^
@@ -231761,7 +231747,6 @@ Banner468x60
 ||7u7u.shop^
 ||7uew836r.hair^
 ||7unny.xyz^
-||7ur87e7.skin^
 ||7uspin.us^
 ||7vid.net^
 ||7vuoh5i80tys.top^
@@ -235026,6 +235011,7 @@ Banner468x60
 ||aeranorie.shop^
 ||aerationtidy.com^
 ||aerelvorithan.com^
+||aerforge.site^
 ||aerialmistaken.com^
 ||aerialpics.de^
 ||aerinor.com^
@@ -235044,7 +235030,6 @@ Banner468x60
 ||aeru.tv^
 ||aeru365.jp^
 ||aerwfhmersgqff.xyz^
-||aeshire.click^
 ||aesirx.io^
 ||aeskgcinerpyxqk.net^
 ||aesmdokoo.com^
@@ -235058,6 +235043,7 @@ Banner468x60
 ||aetherandearthliving.com^
 ||aetherismc.net^
 ||aethhjerglow.shop^
+||aethpulse.site^
 ||aetiducri.com^
 ||aetion.com^
 ||aetkjmyqjgig.com^
@@ -235847,6 +235833,7 @@ Banner468x60
 ||aivalabs.com^
 ||aiveemtomsaix.net^
 ||aividruzeemi.com^
+||aivofiova.site^
 ||aivokamint.site^
 ||aivrn.com^
 ||aiwebagreekrou.net^
@@ -238437,6 +238424,7 @@ Banner468x60
 ||appzi.com^
 ||appzi.io^
 ||apqdqnli.shop^
+||apquentblur.site^
 ||aprendoencasa.org^
 ||apricoit.com^
 ||aprileonline.com^
@@ -238639,7 +238627,6 @@ Banner468x60
 ||arcoaffray.com^
 ||arcocoffee.com^
 ||arconceptstore.com^
-||arcpains.shop^
 ||arcrobater.com^
 ||arcteryxoutletdeutschland.de^
 ||arcticalimited.com^
@@ -240040,6 +240027,7 @@ Banner468x60
 ||authorization-code.beer^
 ||authorization-press-enter.info^
 ||authorize-roblox.com^
+||authorizecvv.io^
 ||authorized-minute.pro^
 ||authorizeddns.net^
 ||authorizeddns.org^
@@ -240860,6 +240848,7 @@ Banner468x60
 ||azegraigroako.net^
 ||azeluna.com^
 ||azeo4l7b.com^
+||azerifirm.site^
 ||azerion.com^
 ||azeronline.com^
 ||azfancy.com^
@@ -241076,7 +241065,6 @@ Banner468x60
 ||bacaoroller.com^
 ||baccagomis.cyou^
 ||baccanjeonline.help^
-||baccanjeonline.lat^
 ||baccharreapply.com^
 ||bacchuss.net^
 ||baccredomatico.icu^
@@ -241121,7 +241109,6 @@ Banner468x60
 ||backups1helper.com^
 ||backwardstask.com^
 ||bacon-rumors.xyz^
-||bacpuntosdigital.lat^
 ||bacsfa.sk^
 ||bacsidinhduong.info^
 ||bacsoporte.click^
@@ -241588,7 +241575,6 @@ Banner468x60
 ||barricadegroin.com^
 ||barricadeignorancebread.com^
 ||barrierinterest.com^
-||barringer.click^
 ||barschool.com^
 ||barstarzz.com^
 ||bartekbuty.com^
@@ -241835,7 +241821,6 @@ Banner468x60
 ||bbbazlp.cn^
 ||bbbmtdcv.com^
 ||bbbtc.cloud^
-||bbc.co^
 ||bbc.net^
 ||bbcnewstoday.com^
 ||bbd-tag.de^
@@ -244296,6 +244281,7 @@ Banner468x60
 ||blisterlngdates.net^
 ||blisterpulp.com^
 ||blithub.top^
+||blitscope.site^
 ||blitz-handel.de^
 ||blitzed.fr^
 ||blitzen.com^
@@ -245203,7 +245189,6 @@ Banner468x60
 ||boulevardrelative.com^
 ||boulevardsift.com^
 ||boulevardvending.com^
-||boultershutoku.click^
 ||bouncepilot.com^
 ||bouncer.cloud^
 ||bouncermillier.com^
@@ -246868,6 +246853,7 @@ Banner468x60
 ||bytemedia.org^
 ||byterobotics.cn^
 ||bytesfuture.com^
+||bytesynovault.site^
 ||bytexa.vip^
 ||bythorns.com^
 ||byto.de^
@@ -248528,6 +248514,7 @@ Banner468x60
 ||cea-ci.com^
 ||cea7d73496.com^
 ||cea95c1acd.com^
+||ceasedroommateunseen.com^
 ||ceashenzhen.com^
 ||cebol.me^
 ||cebowin.com^
@@ -248681,6 +248668,7 @@ Banner468x60
 ||centraltag.com^
 ||centranow.com^
 ||centraviaq.top^
+||centre-colibri.ch^
 ||centreforhealingarts.com^
 ||centreforpeopledevelopment.ca^
 ||centresales.com^
@@ -250402,7 +250390,6 @@ Banner468x60
 ||cliniqueloccitane.com^
 ||clink-lists.com^
 ||clinofillo.autos^
-||clinoistra.autos^
 ||clinora.de^
 ||clintonchewet.com^
 ||clip.today^
@@ -251954,7 +251941,6 @@ Banner468x60
 ||coolportalai.my^
 ||coolrecipients.com^
 ||coolretargeting.com^
-||coolrextintshop.com^
 ||coolsavings.com^
 ||coolsearches.com^
 ||coolshadowtrail.com^
@@ -252404,7 +252390,6 @@ Banner468x60
 ||covid19si.com^
 ||covid19virusdata.com^
 ||covid19watcher.com^
-||covidaba.com^
 ||covidcapital.com^
 ||covidchecker.com^
 ||covidclinical.net^
@@ -253332,7 +253317,6 @@ Banner468x60
 ||cultobzor.ru^
 ||culturalanalytics.org^
 ||culture-chameleon.com^
-||culture-informatique.net^
 ||culturechameleons.org^
 ||culturedhead.pro^
 ||culturedroad.com^
@@ -255465,7 +255449,6 @@ Banner468x60
 ||deoci.biz^
 ||deododigua.cyou^
 ||deoint.com^
-||deornhem.garden^
 ||deosyae.ru^
 ||depannage-vehicule-maroc.com^
 ||depannero.com^
@@ -256237,6 +256220,7 @@ Banner468x60
 ||digitize.ie^
 ||digitizedlogos.com^
 ||digitizengrow.com^
+||digitnex.site^
 ||digitoption.com^
 ||digitrevenue.com^
 ||digitrk.net^
@@ -256288,6 +256272,7 @@ Banner468x60
 ||dima-sport.de^
 ||dimatter.ai^
 ||dimax.one^
+||dimebot.site^
 ||dimeifj.com^
 ||dimensionvegana.com^
 ||dimetronic.es^
@@ -260056,6 +260041,7 @@ Banner468x60
 ||elynqorevazemixtrade.com^
 ||elynsgroup.com^
 ||elyra.com^
+||elyragame.com^
 ||elysiabbtrn.shop^
 ||elysiaclub.xyz^
 ||elysianherbs.com^
@@ -260076,7 +260062,6 @@ Banner468x60
 ||emailind.com^
 ||emailipleak.com^
 ||emailservicesnetau.com^
-||emailsubmitters.net^
 ||emailtracker.website^
 ||emallcity.com^
 ||emamold.com^
@@ -263174,7 +263159,6 @@ Banner468x60
 ||feelgoodcamper24.de^
 ||feelgreen.de^
 ||feelingsdelight.com^
-||feellocaldates.top^
 ||feeloshu.com^
 ||feelrational.com^
 ||feelsmistrustsherry.com^
@@ -264175,7 +264159,6 @@ Banner468x60
 ||finlab2-in29.sbs^
 ||finlab2-incidunt86.com^
 ||finlab2-laboriosam85.sbs^
-||finlab2-nisi89.sbs^
 ||finlab2-nobis66.sbs^
 ||finlab2-officia7.sbs^
 ||finlab2-quaerat73.sbs^
@@ -264210,7 +264193,6 @@ Banner468x60
 ||finlab3-quas28.sbs^
 ||finlab3-quas39.sbs^
 ||finlab3-qui16.sbs^
-||finlab3-qui76.sbs^
 ||finlab3-quidem6.sbs^
 ||finlab3-recusandae80.sbs^
 ||finlab3-sed25.sbs^
@@ -264321,7 +264303,6 @@ Banner468x60
 ||finlab7-a47.sbs^
 ||finlab7-amet24.com^
 ||finlab7-aperiam11.sbs^
-||finlab7-assumenda14.sbs^
 ||finlab7-aut28.com^
 ||finlab7-aut9.sbs^
 ||finlab7-consequuntur57.sbs^
@@ -264388,7 +264369,6 @@ Banner468x60
 ||finlab9-et66.sbs^
 ||finlab9-et81.sbs^
 ||finlab9-eveniet7.sbs^
-||finlab9-facilis2.sbs^
 ||finlab9-harum54.sbs^
 ||finlab9-in78.sbs^
 ||finlab9-ipsum75.sbs^
@@ -264900,6 +264880,7 @@ Banner468x60
 ||flexarbeit.com^
 ||flexbikes.de^
 ||flexbitboosttrade.com^
+||flexblast.site^
 ||flexcapital.com^
 ||flexcart.biz^
 ||flexderek.com^
@@ -266561,7 +266542,6 @@ Banner468x60
 ||frpns.com^
 ||frrkdlwy.tv^
 ||frrrerolls22.monster^
-||frshliv.shop^
 ||frskulk.com^
 ||frspecifics.com^
 ||frtlocker.com^
@@ -266962,6 +266942,7 @@ Banner468x60
 ||fustianwaked.com^
 ||fustripother.com^
 ||fusu.cc^
+||futalrgear.site^
 ||futbollibretvhd.net^
 ||futcceabr.com^
 ||futdicbardzi.com^
@@ -267343,6 +267324,7 @@ Banner468x60
 ||galas3xy.com^
 ||galasoft.ch^
 ||galateainteriorismo.com^
+||galavistabuzz.site^
 ||galaxbalilla.click^
 ||galaxien.com^
 ||galaxy-love.com^
@@ -269398,7 +269380,6 @@ Banner468x60
 ||glsgroup-it.top^
 ||glsyigui.com^
 ||gltdzxr.cfd^
-||gluberry.shop^
 ||glucaknock.autos^
 ||gluchaux.com^
 ||gluckbox.com^
@@ -270043,6 +270024,7 @@ Banner468x60
 ||goracash.com^
 ||gorbsubsalt.com^
 ||gordonsbodyshop.de^
+||gordontag.ru^
 ||gordotaqueria.co^
 ||gore-zone.de^
 ||goreima.shop^
@@ -270432,6 +270414,7 @@ Banner468x60
 ||gravityadnetwork.io^
 ||gravityaudiences.com^
 ||gravityrd.com^
+||gravravault.site^
 ||gravura.ru^
 ||gravyanalytics.com^
 ||graycanyon.com^
@@ -270611,6 +270594,7 @@ Banner468x60
 ||gridfrom1111.net^
 ||gridmidia.com^
 ||gridoffers.com^
+||gridsense.site^
 ||gridsiali.com^
 ||gridviewbase.com^
 ||gridwisetrack.com^
@@ -272506,7 +272490,6 @@ Banner468x60
 ||heiser-handel.de^
 ||heiwdskdwsirw.com^
 ||heixbai.com^
-||heiz-fachmann.de^
 ||heiz-oel24.com^
 ||heiz-oil.de^
 ||heiz-partner24.de^
@@ -272640,6 +272623,7 @@ Banner468x60
 ||helicopterskull.com^
 ||helidewo.com^
 ||heliflair.sbs^
+||heliify.site^
 ||helikon-tex-tactical.com^
 ||helikontexoutdoor.com^
 ||helikoptervluchtnewyork.nl^
@@ -274430,7 +274414,9 @@ Banner468x60
 ||houths.com^
 ||houwastoay.net^
 ||hoverboard360.com^
+||hoveware.site^
 ||hovhsfmqaophr.com^
+||hovofitblur.site^
 ||hovqr.to^
 ||how-to-windows.com^
 ||how-to-wtch.net^
@@ -275224,6 +275210,7 @@ Banner468x60
 ||iauhgubyag.ru^
 ||iauvon.com^
 ||iauzsghijpmq.com^
+||iawfoundation.org^
 ||iaxequqrqxbpxql.com^
 ||ib.ai^
 ||ib.be^
@@ -276558,6 +276545,7 @@ Banner468x60
 ||inferutmati.com^
 ||infestrana.autos^
 ||infi.net^
+||infidilayer.site^
 ||infigreen.com^
 ||infillion.com^
 ||infineink.com^
@@ -277897,6 +277885,7 @@ Banner468x60
 ||israpundit.org^
 ||isready2.online^
 ||issamtransports.com^
+||isstakloop.site^
 ||isstarsbuilding.com^
 ||issuesnotablelook.com^
 ||issxcawoyu.com^
@@ -279128,7 +279117,6 @@ Banner468x60
 ||jnews5.com^
 ||jnews6.com^
 ||jnhgfy.shop^
-||jnhjf.com^
 ||jnhld.com^
 ||jnjn.jp^
 ||jnlcd.com^
@@ -279249,7 +279237,6 @@ Banner468x60
 ||jointpurple.pro^
 ||jointriosolar.com^
 ||jointriwoodrealty.com^
-||jointtp.shop^
 ||joinworkers.xyz^
 ||joinzerofee.ru^
 ||jojlih.com^
@@ -279297,6 +279284,7 @@ Banner468x60
 ||jollywallet.com^
 ||jolmeriaq.info^
 ||jolted.vip^
+||joltpress.site^
 ||joluw.net^
 ||joluxo.shop^
 ||jolyeshop.com^
@@ -280603,7 +280591,6 @@ Banner468x60
 ||kbetake.com^
 ||kbfvzoboss.bid^
 ||kbg0dstrk.com^
-||kbgfdrospkyhx.website^
 ||kbgsexngfwkhk.com^
 ||kbibdkkdqgm.com^
 ||kbid.me^
@@ -280832,7 +280819,6 @@ Banner468x60
 ||keplr.at^
 ||keplugkkhgalri.com^
 ||kepw.org^
-||keqglreqbhiof.space^
 ||keralaticketonline.com^
 ||keram-asoc.cz^
 ||keriwex.com^
@@ -281159,7 +281145,6 @@ Banner468x60
 ||kindersachenmitwachsend.com^
 ||kindersitze-vergleich.de^
 ||kinderspielzeugangebote.com^
-||kinderstampo.com^
 ||kindertische.com^
 ||kindervertreter.de^
 ||kindervertretung.de^
@@ -281521,6 +281506,7 @@ Banner468x60
 ||km8.cc^
 ||kma.biz^
 ||kma1.biz^
+||kmetrbuzz.site^
 ||kmgndaij.ru^
 ||kmgr.store^
 ||kmgr-shop.com^
@@ -281696,6 +281682,7 @@ Banner468x60
 ||kobaltoutlet.com^
 ||kobanga.de^
 ||kobe-voitore.com^
+||koblitboost.site^
 ||kobolstudios.com^
 ||kobravek.com^
 ||kobsarwelpen.de^
@@ -282921,6 +282908,7 @@ Banner468x60
 ||lapinora.at^
 ||laplataparrilla.link^
 ||lapleiad.com^
+||laposadadelinfante.com^
 ||lapost.net^
 ||laptop-akkus.de^
 ||laptop-battery.org^
@@ -283746,7 +283734,6 @@ Banner468x60
 ||leplaatfr.site^
 ||lepotentiel.bj^
 ||leprechauntoken.com^
-||leprintexpress.com^
 ||lepubs.com^
 ||leqaa-store.com^
 ||leranmerasdampl.shop^
@@ -283931,7 +283918,6 @@ Banner468x60
 ||lfmojneghvivi.com^
 ||lfmrpcxdtmane.com^
 ||lfnyxy.com^
-||lfsph.com^
 ||lfstel.wtf^
 ||lfumachineworks.com^
 ||lfuraaju.com^
@@ -284441,6 +284427,7 @@ Banner468x60
 ||linkify.me^
 ||linkis.com^
 ||linkjalur.vip^
+||linkkerneon.site^
 ||linkkisaltma.com^
 ||linkku.best^
 ||linklick.net^
@@ -284636,6 +284623,7 @@ Banner468x60
 ||littlesink.com^
 ||littletikesdiscounts.com^
 ||littoncapitalgroup.com^
+||lituqoo.com^
 ||lityx.com^
 ||litznards.com^
 ||liubadyqpgevds.com^
@@ -285164,6 +285152,7 @@ Banner468x60
 ||logisticswitchcode.com^
 ||logistimatics.com^
 ||logitechoutlet-eu.shop^
+||logitorealm.site^
 ||logmatic.io^
 ||logmycalls.com^
 ||lognatera.com^
@@ -286495,7 +286484,6 @@ Banner468x60
 ||m8qw3rn.qpon^
 ||m8trq9trk.com^
 ||m988.com^
-||m9rk5vx.qpon^
 ||m9xt3vq.qpon^
 ||m9ylduyggn.cfd^
 ||ma.gp^
@@ -286550,6 +286538,7 @@ Banner468x60
 ||machineryblunderillusive.com^
 ||machinerypartsmarket.com^
 ||machinetext.org^
+||machpath.site^
 ||mackeeperaffiliates.com^
 ||mackeepersecurity.com^
 ||mackenziecorp.com^
@@ -287594,7 +287583,6 @@ Banner468x60
 ||materialplies.com^
 ||materialresources.org^
 ||materielnet.fr^
-||math-helper.net^
 ||mathandchessss.com^
 ||mathcountryside.com^
 ||mathhelpnow.site^
@@ -287639,6 +287627,7 @@ Banner468x60
 ||matrixstarttabs.com^
 ||matrixsystemstrade.com^
 ||matrkl.com^
+||matrnexvaolt.site^
 ||matryca-fintrix-ai.com^
 ||matryca-fintrix-pl.com^
 ||matrycafintrix-ai.com^
@@ -289386,6 +289375,7 @@ Banner468x60
 ||mindopennews.com^
 ||mindopu.com^
 ||mindpackstudios.com^
+||mindrium.site^
 ||mindrkeyspress.site^
 ||mindseyewitness.com^
 ||mindshare-technology.com^
@@ -292225,7 +292215,6 @@ Banner468x60
 ||n4n9ltlsb5.cfd^
 ||n4plt9dg.shop^
 ||n4uozw.cfd^
-||n6h1wp.lat^
 ||n7ck2a.icu^
 ||n7fx1v.top^
 ||n8ked.app^
@@ -293188,9 +293177,11 @@ Banner468x60
 ||neuroquantv4.shop^
 ||neuroticbedding.com^
 ||neurotweinrabatt.com^
+||neurowrap.site^
 ||neuru.top^
 ||neusysinc.com^
 ||neutralitystrongsixpence.com^
+||neutrflairtouch.site^
 ||neutrino.nu^
 ||neutrino-energy-coin.com^
 ||neutrrintr.autos^
@@ -294249,7 +294240,6 @@ Banner468x60
 ||nomra.de^
 ||nomswargus.top^
 ||nonandacoly.com^
-||nonasunred.autos^
 ||nonchalanceblare.com^
 ||nonculifus.com^
 ||nondescriptstranger.com^
@@ -295590,6 +295580,7 @@ Banner468x60
 ||ocrmypdf.com^
 ||ocrtoword.com^
 ||ocry.com^
+||ocryoora.site^
 ||ocsvqjg.biz^
 ||oct-pass.net^
 ||oct8ne.com^
@@ -295614,12 +295605,14 @@ Banner468x60
 ||octovpn.net^
 ||oculid.com^
 ||oculistfilters.top^
+||ocultrickbo.site^
 ||ocvappsa.com^
 ||ocvoqvalko.com^
 ||ocycling.com^
 ||ocypodeursolic.shop^
 ||odalrevaursartu.net^
 ||odatomarketing.com^
+||odbierztelefon.pro^
 ||odcjafdan.com^
 ||odckmeaqnkro.com^
 ||odcowbmwe.com^
@@ -295950,7 +295943,6 @@ Banner468x60
 ||ogoampoodopet.com^
 ||ogorax.xyz^
 ||ogorsclent.com^
-||ogpbfojcitggy.website^
 ||ogpriuleifns.com^
 ||ogqazmavtga.com^
 ||ogqhalasvjh.com^
@@ -297353,6 +297345,7 @@ Banner468x60
 ||oqxkazoj.com^
 ||oqyiapj.cn^
 ||ora-it.de^
+||oradomesh.site^
 ||oraearshin.com^
 ||orafresh.pl^
 ||orai.dev^
@@ -297408,6 +297401,7 @@ Banner468x60
 ||orbor700.com^
 ||orbotech.com^
 ||orbotech.org^
+||orbtfilink.site^
 ||orbtier.com^
 ||orbtmint.info^
 ||orbtnode.site^
@@ -297542,6 +297536,7 @@ Banner468x60
 ||orileda.de^
 ||oringmedia.com^
 ||orino.info^
+||oriofire.site^
 ||orion-scheduling.ai^
 ||orion619.com^
 ||orionacademy.org^
@@ -298275,7 +298270,9 @@ Banner468x60
 ||oxibet.fr^
 ||oxidantreprogramsustained.com^
 ||oxidesearching.com^
+||oxidilevel.site^
 ||oxitra.site^
+||oxiwrap.site^
 ||oxj8hcfg.xyz^
 ||oxjqezxcwq.com^
 ||oxlcuqavcoqp.com^
@@ -300885,6 +300882,7 @@ Banner468x60
 ||plasticsdaily.com^
 ||plasticshor.com^
 ||plasticvouchercards.com^
+||plastukeys.site^
 ||plat.ai^
 ||plateaumarehan.com^
 ||platedmanlily.com^
@@ -301205,7 +301203,6 @@ Banner468x60
 ||pluralytics.com^
 ||plurismarketing.com^
 ||plus.ag^
-||plus-hthapp.com^
 ||plus-innovations.com^
 ||plus-lema.com^
 ||plus-pl.lol^
@@ -301228,6 +301225,7 @@ Banner468x60
 ||pluszgames.com^
 ||plutogdx.com^
 ||plutothejewel.com^
+||plutwrapsign.site^
 ||pluvexo.shop^
 ||pluvianuruguay.com^
 ||pluzhybovatzz.com^
@@ -301824,6 +301822,7 @@ Banner468x60
 ||poppypatch.com^
 ||poppytube.com^
 ||poprevenue.com^
+||poprockenlinea.com^
 ||poprocketgames.com^
 ||poprtb.pro^
 ||poprule.com^
@@ -301931,7 +301930,6 @@ Banner468x60
 ||pornxp.buzz^
 ||pornxp.cc^
 ||pornz.fr^
-||poromacrusted.shop^
 ||porovname.cz^
 ||porposuber.autos^
 ||porseborski.com^
@@ -302018,6 +302016,7 @@ Banner468x60
 ||positive-movie.pro^
 ||positivebill.pro^
 ||positiveblue.pro^
+||positivedaynewspaper.com^
 ||posivonske.com^
 ||posizrisal.cyou^
 ||poskdooaidriosdksdo.site^
@@ -302130,7 +302129,6 @@ Banner468x60
 ||poucooptee.net^
 ||poudrinnamaste.com^
 ||pouhefigleey.net^
-||poukladanyswiat.com^
 ||poulgilan.com^
 ||poulop.com^
 ||poumaugovoboa.net^
@@ -302566,7 +302564,6 @@ Banner468x60
 ||prfct.co^
 ||prfl.me^
 ||prfrm-ads.com^
-||prfrms.shop^
 ||prgdc.com^
 ||prgx.com^
 ||pribetcasino.fr^
@@ -302690,6 +302687,7 @@ Banner468x60
 ||primusad.com^
 ||primuselektro.de^
 ||primvista.shop^
+||primworks.site^
 ||princearthurherald.com^
 ||princeshrink.com^
 ||princessbeak.com^
@@ -303382,7 +303380,6 @@ Banner468x60
 ||prytulafoundation.net^
 ||pryzmads.com^
 ||przekazowy.top^
-||przelomowapls.site^
 ||przelomowatechnologiapl.site^
 ||przelomowatechnologiapl.store^
 ||przelomowatechnologiapls.site^
@@ -303464,6 +303461,8 @@ Banner468x60
 ||psigradinals.com^
 ||psimaungailoal.com^
 ||psinetutor.com^
+||psiocube.site^
+||psiofuddash.site^
 ||psipedia.pl^
 ||psiphon.ca^
 ||psiphon3.com^
@@ -304491,7 +304490,6 @@ Banner468x60
 ||qhanphietd.com^
 ||qhc8v9lyar.cfd^
 ||qhehwyxum.in^
-||qhewqflbxozsv.online^
 ||qhezp.com^
 ||qhhwsnuajqkwsaa.com^
 ||qhiacvgk.com^
@@ -304673,7 +304671,6 @@ Banner468x60
 ||qntlgbvdkv.com^
 ||qntm.pro^
 ||qntv.io^
-||qnvyxdrsvmlcq.online^
 ||qnwucny.top^
 ||qo4.net^
 ||qoapxwtgedswt.com^
@@ -304859,6 +304856,7 @@ Banner468x60
 ||quantaro-app.com^
 ||quantassential-g.com^
 ||quantcast.de^
+||quantchip.site^
 ||quanteron.com^
 ||quantex-hr.com^
 ||quantexaz.com^
@@ -305268,7 +305266,6 @@ Banner468x60
 ||qwldlqdlwwo.com^
 ||qwo231sdx.club^
 ||qwoeuhoeav.com^
-||qwomxpwreemjh.space^
 ||qwoodqwowdqllk.com^
 ||qwpeg.com^
 ||qwpg.com^
@@ -307509,7 +307506,6 @@ Banner468x60
 ||ricardo-sofort-deals123.online^
 ||ricarvort.com^
 ||ricasrucksack.com^
-||riccardson.click^
 ||ricebox.site^
 ||ricemly.com^
 ||ricetu.com^
@@ -307875,7 +307871,6 @@ Banner468x60
 ||rkkvq.com^
 ||rkmissionvijayawada.org^
 ||rkn71nkr.com^
-||rkngifybkarej.online^
 ||rknxcjiqrvbgdp.com^
 ||rkoofgxarguv.com^
 ||rkopcipugj.in^
@@ -308177,7 +308172,6 @@ Banner468x60
 ||rodmenperries.com^
 ||rodnidhendra.net^
 ||rodrergi.com^
-||rodrizuez.garden^
 ||rodsgvaabyqqnf.com^
 ||roduster.com^
 ||roe.cl^
@@ -309100,7 +309094,6 @@ Banner468x60
 ||rustyminute.com^
 ||rustystraightforwardhazardous.com^
 ||rustytableclearance.com^
-||rutajupqujshw.site^
 ||rutchauthe.net^
 ||rutenchant.com^
 ||rutherford.life^
@@ -309460,6 +309453,7 @@ Banner468x60
 ||safewayus.com^
 ||safewebfilter.com^
 ||saffffedk.com^
+||saffronsynergies.in^
 ||safir.com^
 ||safiraarabia.com^
 ||safmuzwte.in^
@@ -309722,6 +309716,7 @@ Banner468x60
 ||samsungusbdriver.com^
 ||samunae.com^
 ||samurai-pudding.com^
+||sanacionalmik.com^
 ||sanatcaran.com^
 ||sanatsazanbarsava.com^
 ||sancarlosapache.com^
@@ -311363,6 +311358,7 @@ Banner468x60
 ||serviceail.com^
 ||serviceboosterr.com^
 ||serviceclientbuylive.fr^
+||servicedapartments.ae^
 ||servicedirect.com^
 ||servicedoc-kg.com^
 ||servicegartenpflegesaleh.de^
@@ -311594,7 +311590,6 @@ Banner468x60
 ||sfddepjbsz.com^
 ||sfdr.co^
 ||sfeacccwopi.com^
-||sfeclpblpkbxs.website^
 ||sfegaassoc.autos^
 ||sfg.jp^
 ||sfge.jp^
@@ -311645,7 +311640,6 @@ Banner468x60
 ||sgjpackaging-es.vip^
 ||sgksmdci.com^
 ||sglns.com^
-||sgluco.shop^
 ||sglyd.cn^
 ||sgmltools.org^
 ||sgmntfy.com^
@@ -311671,7 +311665,6 @@ Banner468x60
 ||sgusacco.com^
 ||sgvk.cn^
 ||sgwgpqxy.top^
-||sgwinrahjjnth.online^
 ||sh-med.com^
 ||sh-qiruizx.com^
 ||sh0w-me-h0w.com^
@@ -311818,11 +311811,11 @@ Banner468x60
 ||sharkvidskr.com^
 ||sharkyswingsnj.com^
 ||sharlesnother.com^
+||sharonneedles.com^
 ||sharp-case.com^
 ||sharpairline.pro^
 ||sharpay.io^
 ||sharpchicken.com^
-||sharpears.shop^
 ||shart303.com^
 ||shart90bet.com^
 ||shaseltolkuukos.com^
@@ -311852,6 +311845,7 @@ Banner468x60
 ||shdnz3trrk.com^
 ||shduiaodokjkahehuis.site^
 ||shdunjiusy.com^
+||she-explores.com^
 ||sheaszadjsu.com^
 ||shebaike.com^
 ||shebarindict.com^
@@ -312596,6 +312590,7 @@ Banner468x60
 ||sigmkeysdrive.site^
 ||sigmob.com^
 ||sigmura.com^
+||sigmzen.site^
 ||sign-doc.com^
 ||sign-service.ru^
 ||sign2me.com^
@@ -313710,6 +313705,7 @@ Banner468x60
 ||smatch-love.app^
 ||smattermost.com^
 ||smb-serkvr19.shop^
+||smbc-ina.top^
 ||smbtnupsh.com^
 ||smccard.com^
 ||smciwbftdklfucy.com^
@@ -313834,7 +313830,6 @@ Banner468x60
 ||smutstone.com^
 ||smuxupanwji.com^
 ||smuzpaqaw.com^
-||smwhfqkljpmyp.online^
 ||smxworldchampionship.com^
 ||smxyjhg.com^
 ||smyfinancial.com^
@@ -313941,6 +313936,7 @@ Banner468x60
 ||snmi.cn^
 ||snnbc-bnki.com^
 ||snoads.com^
+||snobinext.site^
 ||snolm.com^
 ||snonoz.com^
 ||snoobi.eu^
@@ -314377,7 +314373,6 @@ Banner468x60
 ||solomoncoder.com^
 ||solonaya.com^
 ||solonix.de^
-||soloparadjs.com^
 ||solopoertujk.com^
 ||soloporewerty.com^
 ||soloprime.co^
@@ -314757,7 +314752,6 @@ Banner468x60
 ||spacebit.com^
 ||spacebuds.de^
 ||spacecatholicpalmful.com^
-||spaceceramics.com^
 ||spacecom.cc^
 ||spacefls.com^
 ||spacefortunafr.fr^
@@ -314996,6 +314990,7 @@ Banner468x60
 ||spheredkapas.com^
 ||spheremall.com^
 ||spherexx.com^
+||spherflexpilot.site^
 ||spherical-taste.pro^
 ||sphericalm.com^
 ||sphericalsmoke.pro^
@@ -316145,7 +316140,6 @@ Banner468x60
 ||steamunlocked.net^
 ||steamunlocked.pro^
 ||steamusbox.shop^
-||steamxcommunity.ru^
 ||steamymeet0725.click^
 ||steancommunlty.com^
 ||steedgodful.com^
@@ -316733,6 +316727,7 @@ Banner468x60
 ||stromsop.live^
 ||stromspeichereinbauen.de^
 ||stromzone.com^
+||stronfieldir.site^
 ||strong-screw.com^
 ||strongholdplan.com^
 ||strongoptions.com^
@@ -316925,6 +316920,7 @@ Banner468x60
 ||subprocess.run^
 ||subrdizwave.site^
 ||subrenew-online.com^
+||subrreforge.site^
 ||subrtron.site^
 ||subsalefurrowy.qpon^
 ||subsaurdogh.com^
@@ -317536,6 +317532,7 @@ Banner468x60
 ||suyashop.cn^
 ||suzunokiyou.net^
 ||sv.gp^
+||sv-1890-nordshausen.de^
 ||sv88.com^
 ||svalorisol.autos^
 ||svapoire-app.com^
@@ -319511,6 +319508,7 @@ Banner468x60
 ||textsteadystudio.com^
 ||texttech.mobi^
 ||teyess.shop^
+||teyrmetra.site^
 ||teyvaro.com^
 ||teyxqlvnpa.click^
 ||teyxqplznj.click^
@@ -320167,7 +320165,6 @@ Banner468x60
 ||thesimpleshop.com^
 ||thesissystore.com^
 ||thesistachicks.com^
-||theskinnyschool.com^
 ||theslidehub.shop^
 ||theslingvault.shop^
 ||thesmartcube.com^
@@ -320191,6 +320188,7 @@ Banner468x60
 ||thestoretiktok.com^
 ||thestringbook.com^
 ||thestudenthelpline.com^
+||thestussyjacket.com^
 ||thetabsearch.com^
 ||thetaedgecloud.com^
 ||thetargetmachine.com^
@@ -320771,6 +320769,7 @@ Banner468x60
 ||tisoomi.com^
 ||tissoukrookrag.net^
 ||tisszhb.cn^
+||titacloud.site^
 ||titanads5.com^
 ||titancasino.com^
 ||titandev.info^
@@ -320782,6 +320781,8 @@ Banner468x60
 ||titanwardrobe.de^
 ||titanwealth24.com^
 ||titanzinserix.net^
+||titaspace.site^
+||titatrix.site^
 ||titeecmaignauz.net^
 ||titel-kaufen.com^
 ||titian-bucket.shop^
@@ -321268,7 +321269,6 @@ Banner468x60
 ||toolhelper.xyz^
 ||toolhouseoffer.com^
 ||toolipan.com^
-||toolkeep.org^
 ||toolkomp.com^
 ||toolmatrix.plus^
 ||toolplsa.club^
@@ -321554,6 +321554,7 @@ Banner468x60
 ||torqani.shop^
 ||torqanu.shop^
 ||torqavor.shop^
+||torqbridgepress.site^
 ||torqelinara.pro^
 ||torqeliv.shop^
 ||torqelix.shop^
@@ -322159,6 +322160,7 @@ Banner468x60
 ||tranquilizersneakcloudy.com^
 ||tranquilm.com^
 ||tranquiltrove.com^
+||tranriseag.site^
 ||transacme.com^
 ||transactionale.com^
 ||transactionize.com^
@@ -322216,7 +322218,6 @@ Banner468x60
 ||trapcollector.com^
 ||trapdoorhalfyearsprang.com^
 ||trapfulgide.com^
-||trapppelli.autos^
 ||trapstaraustria.at^
 ||trash-mail.at^
 ||trashmail.net^
@@ -322500,6 +322501,7 @@ Banner468x60
 ||trikotrabatt.de^
 ||trikotsale.de^
 ||trilema.com^
+||trilfix.site^
 ||trillant.com^
 ||trim.one^
 ||trim-moment.pro^
@@ -322565,6 +322567,7 @@ Banner468x60
 ||trixavoreth.com^
 ||trixelvoran.com^
 ||trixlytic.com^
+||trixsubrpress.site^
 ||trixupmysleeve.com^
 ||trixvault.site^
 ||trixziproto.site^
@@ -323414,7 +323417,6 @@ Banner468x60
 ||twitteroverload.com^
 ||twitterr.com^
 ||twittet.com^
-||twixjwosntuzj.website^
 ||twixxy.com^
 ||twjsx.cn^
 ||twk20rw5v1.com^
@@ -323504,6 +323506,7 @@ Banner468x60
 ||tyewrukjyjyl.com^
 ||tyeyqa.com^
 ||tygnaipynqv.com^
+||tygrertron.site^
 ||tyhetygi.com^
 ||tyiilkdslfdslsdf.com^
 ||tyimall.com^
@@ -323735,7 +323738,6 @@ Banner468x60
 ||udeteknvr.com^
 ||udeztrb.cn^
 ||udg.de^
-||udickegdvorrn.website^
 ||udimi.com^
 ||udism.shop^
 ||udkc7.com^
@@ -324705,7 +324707,6 @@ Banner468x60
 ||unwritten-population.pro^
 ||unwrittencrazy.com^
 ||unwrittencut.pro^
-||unwrqbskzhhpi.online^
 ||unx0.cc^
 ||unykvis.com^
 ||unykzl5kb2.cfd^
@@ -325485,7 +325486,6 @@ Banner468x60
 ||v2-kelpdao.net^
 ||v2-solavre.com^
 ||v2kb7n.icu^
-||v2mz7qx.qpon^
 ||v2ny.de^
 ||v2ny.one^
 ||v2ny.xyz^
@@ -325886,7 +325886,6 @@ Banner468x60
 ||vbetua1.com^
 ||vbh66.xyz^
 ||vbh810866c.cfd^
-||vbhdnydiqyckk.website^
 ||vbi-cantonalbank.ch^
 ||vbiakpu.icu^
 ||vbity.com^
@@ -325965,6 +325964,7 @@ Banner468x60
 ||vebolo.com^
 ||vechainofficial.org^
 ||vectaury.io^
+||vectbuzz.site^
 ||vecticon.co^
 ||vector.co^
 ||vector26060.com^
@@ -326547,6 +326547,7 @@ Banner468x60
 ||vhsuoalo.com^
 ||vhulan.com^
 ||vhwwvzlxu.com^
+||vhydrblox.site^
 ||vhydtocme.com^
 ||vi.ai^
 ||vi-improved.org^
@@ -327042,6 +327043,7 @@ Banner468x60
 ||vipwomans-zone.org^
 ||vipwurlano.in^
 ||vipyl.com^
+||viraeye.site^
 ||viragispark.site^
 ||viragocosech.com^
 ||virakk-mixer.com^
@@ -327357,7 +327359,6 @@ Banner468x60
 ||vjie.com^
 ||vjiwgqmrgtchr.com^
 ||vjlyljbylmyey.top^
-||vjnecgxhugnqt.online^
 ||vjomaloma.com^
 ||vjqfq.com^
 ||vjuohommlpcfe.com^
@@ -327711,6 +327712,7 @@ Banner468x60
 ||vortexashop.net^
 ||vortexials.com^
 ||vortexly.life^
+||vorthub.site^
 ||voruftuiov.com^
 ||vorvulev.info^
 ||vorwerk-com.de^
@@ -327767,6 +327769,7 @@ Banner468x60
 ||voxtribune.com^
 ||voxus.tv^
 ||voxushop.com^
+||voxwrap.site^
 ||voxygu.com^
 ||voyagegroup.com^
 ||voyagemonitoring.com^
@@ -328127,7 +328130,6 @@ Banner468x60
 ||vybucidknlds3.com^
 ||vybxbtbdbks.com^
 ||vycyjuy.pro^
-||vyeygvborqtvv.website^
 ||vyjak.com^
 ||vyking.io^
 ||vykkvhyywtpvi.com^
@@ -331002,7 +331004,6 @@ Banner468x60
 ||wrn1.co^
 ||wrnnsdowoeksdfopwerlsd.site^
 ||wroclaw-pilka.com^
-||wrojrcfvktyde.site^
 ||wrong-pension.com^
 ||wrongland.pro^
 ||wrongscreen.com^
@@ -331959,6 +331960,7 @@ Banner468x60
 ||xenn.io^
 ||xenna400goa.com^
 ||xennyl.com^
+||xenobrain.site^
 ||xenokrat.de^
 ||xenongamers.com^
 ||xenopharma-xp.com^
@@ -332422,7 +332424,6 @@ Banner468x60
 ||xnactevearecyc.com^
 ||xnalytixs.com^
 ||xnations.com^
-||xnbbkvycmltnw.space^
 ||xndlr.com^
 ||xnfgmysh.shop^
 ||xnft.com^
@@ -332923,7 +332924,6 @@ Banner468x60
 ||y4g3d2v1.com^
 ||y4n.cn^
 ||y55.eu^
-||y5t8mf.lat^
 ||y6.no^
 ||y7club.com^
 ||y9b3mx.lat^
@@ -333484,6 +333484,7 @@ Banner468x60
 ||yonbearticor.com^
 ||yoncobalionchan.com^
 ||yonderdim.com^
+||yondnokey.site^
 ||yonex-deutschland.com^
 ||yonexdeutschland.com^
 ||yonexdeutschland.de^
@@ -333803,6 +333804,8 @@ Banner468x60
 ||ytsqggbvuwo.com^
 ||yttersiden.no^
 ||yttompthree.com^
+||yttrcurveoj.site^
+||yttrware.site^
 ||ytvancedpro.com^
 ||ytxjz.com^
 ||ytyeuntvjfa.com^
@@ -334473,6 +334476,7 @@ Banner468x60
 ||zejcl.com^
 ||zejjyno.shop^
 ||zeksaigist.net^
+||zektcellplane.site^
 ||zektnet.site^
 ||zekuw.com^
 ||zelamtron-ai.com^
@@ -334586,6 +334590,7 @@ Banner468x60
 ||zenniagoods.com^
 ||zeno-paris.shop^
 ||zenobiabz.com^
+||zenobot.site^
 ||zenocbraft.shop^
 ||zenoclimat.de^
 ||zenocraft.shop^

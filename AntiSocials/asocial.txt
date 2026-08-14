@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1897
+! Version: 1.1898
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-08-14T14:16:36.892Z
+! Last modified: 2026-08-14T17:51:41.803Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -20852,6 +20852,7 @@ snowbrains.com###sb-footer-menu
 lelong.com.my###scan
 inlandvalleynews.com###sfsi_floater
 bracketfights.com,ecuadoradio.ec,tiermaker.com###share-container
+empflix.com,tnaflix.com###share-dropdown
 aiseesoft.com###share-list
 journals.aps.org,theintercept.com###share-menu-button
 theintercept.com###share-menu-top-button
@@ -22105,7 +22106,7 @@ civil.ge,informe360.com##.social-icons-item
 tmz.com##.social-item
 videocardz.com##.social-item-mail
 videocardz.com##.social-item-media
-knewz.com,revolvermag.com##.social-items
+knewz.com,politico.eu,revolvermag.com##.social-items
 psychologytoday.com##.social-links-bottom
 afro.com,berlin-live.de,elsol.com.ar,hongkongfp.com,investigatemidwest.org,lafocusnews.com,ourweekly.com,theatlantavoice.com,washingtoncitypaper.com,washingtonmonthly.com##.social-links-menu
 complex.com##.social-links-top
@@ -22593,6 +22594,7 @@ archaeologymag.com#?#.widget_custom_html:has-text(Follow us)
 bitcoinsensus.com#?#.elementor-heading-title:has-text(SHARE)
 carexpert.co.nz,carexpert.com.au#?#._1ivmml5u3:has-text(Add Preferred Source)
 carnewschina.com#?#.article_detail__top_stories:has-text(Follow us for ev updates)
+cbsnews.com#?#.FooterLinks-group:has-text(Follow Us On)
 club386.com#?#.td-block-title:has-text(Share)
 clubic.com#?#[style="position: sticky; top: 55px;"]:has-text(Inscrivez-vous à notre newsletter quotidienne !)
 cryptotimes.io#?#.heading-title:has-text(Follow US)
