@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1898
+! Version: 1.1899
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-08-14T17:51:41.803Z
+! Last modified: 2026-08-14T18:48:21.081Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -22180,6 +22180,7 @@ news9live.com##.socialIcon
 gamereactor.asia,gamereactor.cn,gamereactor.cz,gamereactor.de,gamereactor.dk,gamereactor.es,gamereactor.eu,gamereactor.fi,gamereactor.fr,gamereactor.it,gamereactor.jp,gamereactor.kr,gamereactor.nl,gamereactor.no,gamereactor.pl,gamereactor.pt,gamereactor.se,healthshots.com,relationshiphero.com##.socialIcons
 macrumors.com##.socialMedia--3i9tSnAb
 eetimes.com##.socialNav
+forbes.com##.socialShareContainer
 ruwix.com##.socialShareLinks
 carsdirect.com##.socialShareWidget
 wionews.com##.socialShare_shareFixed__xNEGI
@@ -22769,6 +22770,7 @@ deutsche-startups.de##.connectButtons
 kurier.at##.coral-comment-shareButton
 hornoxe.com##.custom-html-widget
 express.de##.dm-articleUserActions
+express.de##.dm-footer__sociallinkslist-item
 evangelisch.de##.field-share
 auf1.tv##.flex.flex-row.w-80.justify-between.border-l-4.px-2.border-primary
 s3nnet.de##.follow
