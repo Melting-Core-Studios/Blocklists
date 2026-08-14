@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Block those ads
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.6932
+! Version: 1.6933
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-08-14T10:57:27.887Z
+! Last modified: 2026-08-14T11:43:31.543Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -151410,7 +151410,6 @@ Banner468x60
 ||ad.bondage.com^
 ||ad.centrum.cz^
 ||ad.cgi.cz^
-||ad.choiceradio.com^
 ||ad.cooks.com^
 ||ad.digitallook.com^
 ||ad.dnoticias.pt^
@@ -151591,7 +151590,6 @@ Banner468x60
 ||ads.emdee.ca^
 ||ads.emirates.net.ae^
 ||ads.epi.sk^
-||ads.epltalk.com^
 ||ads.eu.msn.com^
 ||ads.fairfax.com.au^
 ||ads.fastcomgroup.it^
@@ -151859,7 +151857,6 @@ Banner468x60
 ||adv.webmd.com^
 ||adv.wp.pl^
 ||adv.yo.cz^
-||advariant.com^
 ||adventory.com^
 ||advert.bayarea.com^
 ||advert.dyna.ultraweb.hu^
@@ -151904,7 +151901,6 @@ Banner468x60
 ||alexa-sitestats.s3.amazonaws.com^
 ||algorix.co^
 ||alipromo.com^
-||amcnreil.pro^
 ||americash.com^
 ||analytics.algoepico.net^
 ||analytics.cloudron.io^
@@ -152292,7 +152288,6 @@ Banner468x60
 ||fwcdn2.com^
 ||fxstyle.net^
 ||gadsbee.com^
-||galaxien.com^
 ||game-advertising-online.com^
 ||gamesites100.net^
 ||gamesites200.com^
@@ -152371,6 +152366,7 @@ Banner468x60
 ||img.prohardver.hu^
 ||imp.i312864.net^
 ||imprese.cz^
+||impressionmedia.cz^
 ||inclk.com^
 ||incognitosearches.com^
 ||incoming-telemetry.thunderbird.net^
@@ -164814,6 +164810,7 @@ Banner468x60
 ||members.choicehotels.com^
 ||reservations.choicehotels.com^
 ||cdn.choicely.com^
+||ad.choiceradio.com^
 ||api-logs-ddtt.choingay.vn^
 ||kvpv-tjqy-log.choingay.vn^
 ||ad.choiric.vip^
@@ -175796,6 +175793,7 @@ Banner468x60
 ||s.usea01.idio.episerver.net^
 ||trackers.peerius.episerver.net^
 ||yeticoolerprod.uswe01.productrecs.episerver.net^
+||ads.epltalk.com^
 ||metrics.eplus.dev^
 ||go.epn.bz^
 ||tag.epncloud.net^
@@ -234322,6 +234320,7 @@ Banner468x60
 ||advantisgva.com^
 ||advanttechnology.com^
 ||advanziagroup.com^
+||advariant.com^
 ||advcake.online^
 ||advcake.ru^
 ||advdemo.com^
@@ -236674,6 +236673,7 @@ Banner468x60
 ||ambulancespeedilyregional.com^
 ||ambushthank.com^
 ||amcleacoflg.net^
+||amcnreil.pro^
 ||amcomputersllc.com^
 ||amdlucxrofi.com^
 ||amdpouka.com^
@@ -266878,6 +266878,7 @@ Banner468x60
 ||galasoft.ch^
 ||galateainteriorismo.com^
 ||galaxbalilla.click^
+||galaxien.com^
 ||galaxy-love.com^
 ||galaxy-wallpaper.com^
 ||galaxyestates.in^
@@ -275721,7 +275722,6 @@ Banner468x60
 ||impresee.com^
 ||impressiondesk.com^
 ||impressionjumbo.com^
-||impressionmedia.cz^
 ||impressions.ir^
 ||impressionsme.net^
 ||impressive-measurement.com^
