@@ -1,39 +1,14 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1902
+! Version: 1.1903
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-08-15T03:37:46.718Z
+! Last modified: 2026-08-15T04:27:29.677Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
-apd.cat##.m-social-share
-tupi.fm##.mvp-share-info
-s.tour-list.com##[class^="sharelink"]
-timesnownews.com###native_share_article
-insurance.mts.ru##div[class^="BlogPost_sharing"]
-monogatary.com##.story-section__social
-crazylabs.com##.post-share-title
-blog.simplecast.com,blog.talosintelligence.com##.social-media-wrapper
-felissimo.co.jp##.sns_container_fsp
-biteki.com##.sideblock_twitter
-osvita.diia.gov.ua##.social-sharing__icon-wrapper_fb
-osvita.diia.gov.ua##.social-sharing__icon-wrapper_telegram
-filmweb.pl##.newsSocialSection
-calculateaspectratio.com##.share > *
-datpiff.com###social-bar > div[class]
-tienphong.vn##.article-mobile-pin-social ul > li > a.sendsocial
-tokyohive.com##body.single .post .social-links > li:not(:first-child)
-gingyshop.it,coursecouponclub.com,geekhacker.ru,bestcouponhunter.com,ufficiospettacoli.it##.share-link-image
-aksarayajans.com##a[onclick*="www.facebook.com/sharer/sharer.php"]
-brainyquote.com##.fa-stack
-gamer.ru##.social_vk
 unian.net#?#div[style] > div.article-shares:upward(1)
-versii.if.ua###lightb_fb_page_like_baner
-yasamloji.net###faebegald
-philosophia-perennis.com,catamobile.org.ua##.et_social_flyin
-ensonxeber.com,radyopop.com,31tv.ru###fancybox-wrap
 123telugu.com#$#.cat-tags { display: none !important; }
 123telugu.com#$#.post-page-content { padding-bottom: 0 !important; }
 debate.com.mx#$#header { height: auto !important; }
