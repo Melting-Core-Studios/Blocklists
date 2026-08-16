@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.2387
+! Version: 1.2388
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-08-16T02:24:41.740Z
+! Last modified: 2026-08-16T03:48:13.535Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -5030,6 +5030,7 @@
 ||mktcs.cloudapps.cisco.com^
 ||mon.us.tiktokv.com^
 ||monitor.channel4.com^
+||monitor.ebay.com^
 ||mp.imgur.com^
 ||mp.sintra.ai^
 ||mp.theepochtimes.com^
@@ -90158,7 +90159,6 @@
 ||monitor-pro.digitalcloudshield.com^
 ||monitor-stsdk.vivo.com.cn^
 ||monitor-web.dotfashion.cn^
-||monitor.ebay.com^
 ||monitor.growone.sg^
 ||monitor.ns1-d.viacomtech.net^
 ||monitor.r53.cbsivideo.com^
