@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1905
+! Version: 1.1906
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-08-16T03:46:14.864Z
+! Last modified: 2026-08-16T04:34:08.984Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -13,33 +13,6 @@ unian.net#?#div[style] > div.article-shares:upward(1)
 123telugu.com#$#.post-page-content { padding-bottom: 0 !important; }
 debate.com.mx#$#header { height: auto !important; }
 debate.com.mx#$#body { padding-top: 70px !important; }
-teknoblog.com##div[data-id="373566b"]
-bashinform.ru##div[class*="socials_"]
-qz.com##.flex-nowrap.gap-2.group:has(> a[title^="Share to"])
-news.itsfoss.com##.post-date-share > button.share-toggle
-weshare.is##.file-details-item:has(> .file-details-item-text > .socials)
-citilink.ru##div[class^="app-catalog-"] > button:has(use[href="#share"])
-huanqiu.com##.share > .item:not(.item-comment)
-123moviestv.me#$#.mdalshare { display: none !important; }
-m.apkpure.*##.banner_share
-friday.kodansha.co.jp##ul[class^="detail_snsIcons"]
-tattoodo.com##button[aria-label="Share tattoo"]
-gsmgotech.com,elaoffcial.com,rockmods.net##.feed-share
-vkz.de##.news-social-media
-pronews.jp##.articleShare-item:not(.is-copyURL):not(.is-bookmark)
-timeticket.jp##.item-separate-share
-call-to-beauty.com,niigata-u.ac.jp,magazine.kinto-jp.com##div[class$="_share"]
-interior.ru##.guide-item__share-wrapper
-vpnmentor.com##.main-content-holder > div.article-thanks-wrap
-sobitie.com.ua##.facebook_my
-tecmundo.com.br###nzn-social-plugins > .toolbar-column > .toolbar-item > .button-social
-natemat.pl###fbinvite
-penzcentrum.hu##div[id^="vsoc"]
-horoscopes.rambler.ru##._2kMG[data-reactid="119"]
-cbr.com##.sharing-option > button:not([data-share="comment"])
-tvnow.de,fast-torrent.ru##.addthis
-huffingtonpost.com###float_tracker
-||rusradio.ru/upload/images/js/additional.js
 rambler.ru##div[data-blocks="content_info"] + div[class^="container-"]
 rambler.ru#%#//scriptlet('remove-in-shadow-dom', 'div[data-blocks="content_info"] + div[class^="container-"]')
 vikna.tv##.section-share
@@ -67,11 +40,9 @@ j-cast.com#?##entry-content > div.align-justify:has(> div.align-inner-box > div.
 gurugurulog.com#?#.content > nav.section-box > ul.article-button > li.article-twitter:upward(2)
 finance.rambler.ru#?#div[class^="container-"] > div[class^="container-"]:has(> amp-social-share)
 adguard.info,adguard.com,adguard.app#$#.hello_from_adguard_advanced_protection_ios { display: none !important; }
-##.SocialMedia_out
 indianexpress.com##.social-icon
 unn.com.ua##body > div.fancybox-opened
 unn.com.ua##body > div.fancybox-opened + div.fancybox-overlay
-deccoria.pl#$#html.dc-modal-is-locked > body.dc-layout--modal-active[style="padding-right: 17px;"] > .dc-modal-overlay.dc-modal-is-opened:empty { display: none!important; }
 @@||yastatic.net/share2/share.js$domain=retail.ru
 @@||apis.google.com/js/plusone.js$domain=lexlege.pl
 @@||yastatic.net/share2/share.js$domain=rkf.online
