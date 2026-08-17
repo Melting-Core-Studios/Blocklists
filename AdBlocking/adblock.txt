@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Block those ads
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.6972
+! Version: 1.6973
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-08-17T04:39:01.576Z
+! Last modified: 2026-08-17T05:34:02.798Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -152098,25 +152098,39 @@ analytics-*.aasaam.com
 @@||track.rutarget.ru^|
 @@||5471782.fls.doubleclick.net^|
 @@||omniture.walmart.com^|
+||pubds.bid^
 ||static2.manualslib.com^
 ||consent.cookiefirst.com^
 ||cheezwhiz.z9.web.core.windows.net^
 ||concertads-configs.vox-cdn.com^
 ||https-filtering-check.adtidy.org^
+||addressimpertinenceclockwise.com^
 ||admitad.com^
 ||alitems.com^
+||andthoughmy.org^
 ||atdmt.com^
 ||buyeasy.by^
+||dmjwenkfqrncl.site^
+||ehaveagoldenbed.org^
+||ftavtlzenbucp.site^
 ||fwmrm.net^
 ||googletagservices.com^
+||huk5b1356qqm18p.cfd^
 ||imasdk.googleapis.com^
+||lkyvfloqrkjph.space^
+||minty-statement.pro^
 ||monetag.com^
 ||ntv.io^
 ||ojrq.net^
 ||redirectingat.com^
 ||rubiconproject.com^
+||srxapahdausas.space^
+||tolvsoxmzazfb.online^
+||unhappypetunevesicle.qpon^
 ||videoplaza.tv^
+||washingmigraine.com^
 ||wpnrtnmrewunrtok.xyz^
+||yugo9nkh7jcchh.rest^
 ||html-load.cc^
 ||srv.tunefindforfans.com^
 .fwmrm.net^
@@ -152158,12 +152172,6 @@ analytics-*.aasaam.com
 ||promotion.polarisoffice.com^
 ||newad.ifeng.com^
 ||sensors.larkplayerapp.com^
-||pubds.bid^
-||dmjwenkfqrncl.site^
-||huk5b1356qqm18p.cfd^
-||minty-statement.pro^
-||srxapahdausas.space^
-||tolvsoxmzazfb.online^
 ||direct-specific.com
 ||ad-host-backup-*.aliyuncs.com^
 ||reachableads-av.*.amazonaws.com^
@@ -234788,7 +234796,6 @@ Banner468x60
 ||addresscake.com^
 ||addresseepaper.com^
 ||addresseerosebud.com^
-||addressimpertinenceclockwise.com^
 ||addsearch.com^
 ||addshoppers.com^
 ||addthiscdn.com^
@@ -331343,7 +331350,6 @@ Banner468x60
 ||waschzone.com^
 ||washclothexcludingincluding.com^
 ||washenroupie.com^
-||washingmigraine.com^
 ||washingoccasionally.com^
 ||washingtonislandvacationrental.com^
 ||washingtonpost-news.com^
