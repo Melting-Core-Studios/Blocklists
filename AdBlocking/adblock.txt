@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Block those ads
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.6982
+! Version: 1.6983
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-08-17T18:34:01.745Z
+! Last modified: 2026-08-17T19:27:41.221Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -172140,62 +172140,7 @@ analytics-*.aasaam.com
 @@||track.rutarget.ru^|
 @@||5471782.fls.doubleclick.net^|
 @@||omniture.walmart.com^|
-||he.zymorico.ru^
-||go1.nolvadex.top^
-||0vtx1gfc.xyz^
-||4k6.4kporn.xxx^
-||73771m3q.xyz^
-||a.gupload.xyz^
-||aasssaa.com^
-||cdn.2024jphatomenesys35.top^
-||changeable1x.xyz^
-||cheese08062025.shop^
-||democratic072925.shop^
-||discourage072925.shop^
-||earnvids05032026.shop^
-||ensure08062025.shop^
-||excuse08062025.shop^
-||goofy1x.xyz^
-||harbor08062025.shop^
-||i3.mayoblast.com^
-||i4.mayoblast.com^
-||i5.mayoblast.com^
-||k2o2ls46.xyz^
-||layout08062025.shop^
-||negligence072925.shop^
-||nesta.dimawusinners.xyz^
-||p.aprilads.online^
-||prince08062025.shop^
-||prn.gaysme.com^
-||redshieldcar.com^
-||s.commissie.online^
-||streamhg05032026.shop^
-||too6jhvw.xyz^
-||u1zga.letsporn.com^
-||w.4kporn.xxx^
-||wicory.com^
-||x.xxxbule.tv^
-||x.xxxbule2.com^
-||x9ner.anygay.com^
-||y6zqw.boyspornpics.com^
-||adserver.fa-mag.com^
-||static2.manualslib.com^
-||taco.sexreels.net^
-||s.dsapgq.com^
-||s.dsedgu.com^
-||s.dsgqie.com^
-||s.dsordy.com^
-||s.dsp7c5.com^
-||s.dsqqez.com^
-||s.dst82e.com^
-||s.dsungx.com^
-||s.dsuntq.com^
-||s.dsw3rw.com^
-||s.dsydxg.com^
-||cdn.gocolow.com^
 ||consent.cookiefirst.com^
-||kivr8.wd6vy.com^
-||cpm.rxnetwork.net^
 ||cheezwhiz.z9.web.core.windows.net^
 ||concertads-configs.vox-cdn.com^
 ||https-filtering-check.adtidy.org^
@@ -174739,9 +174684,11 @@ Banner468x60
 ||analytics.4itfuture.com^
 ||a.4k.video^
 ||stats.4ka.sk^
+||4k6.4kporn.xxx^
 ||i.4kporn.xxx^
 ||os.4kporn.xxx^
 ||t.4kporn.xxx^
+||w.4kporn.xxx^
 ||cast.4kporno.xxx^
 ||omp-matomo.4lima.de^
 ||azmatomo.service.4matnetworks.com^
@@ -179757,6 +179704,7 @@ Banner468x60
 ||apr-devops-sre-sentry-prod.aprd.io^
 ||apr-log-service-api.aprd.io^
 ||umami.apree-tech.com^
+||p.aprilads.online^
 ||gtm.apriwell.de^
 ||analytics.aproxy.com^
 ||liveops-prod-us-east-1-cdn.coem.aps-awemprod2.com^
@@ -194323,6 +194271,7 @@ Banner468x60
 ||stats.alp.dillingen.de^
 ||matomo.dillingen-saar.de^
 ||trk.dim.com^
+||nesta.dimawusinners.xyz^
 ||piwik.dimdi.de^
 ||matomo.dimedis.de^
 ||stats.dimedtec.net^
@@ -195208,12 +195157,14 @@ Banner468x60
 ||gtm.ibe.ds-srv.net^
 ||stats.ds33.fr^
 ||s.dsajir.com^
+||s.dsapgq.com^
 ||sentry.dsboxlab.com^
 ||matomo.dsc1898.de^
 ||cookie-cutter.dsch.ie^
 ||gtm.dsdamat.com^
 ||sentry-new.dsers.com^
 ||matomo.dseven.io^
+||s.dsgqie.com^
 ||metrics.dshs-koeln.de^
 ||gymnastics-air-track17261.dsiblogger.com^
 ||gymnastics-air-track85691.dsiblogger.com^
@@ -195225,12 +195176,17 @@ Banner468x60
 ||cdn.dsncdn.com^
 ||s.dso3bb.com^
 ||log-sg.dsoft.mobi^
+||s.dsordy.com^
+||s.dsp7c5.com^
 ||banner.dspcdn.com^
 ||track.dspconsult.com^
 ||preg.dspearhead.com^
 ||p.dsplus360.com^
+||s.dsqqez.com^
 ||matomo.dssax.de^
+||s.dst82e.com^
 ||tag.dstv.com^
+||s.dsungx.com^
 ||analytics.dsv.org^
 ||analytics.dsv-saaten.de^
 ||dt-apigateway-log.dt-pn1.com^
@@ -197867,6 +197823,7 @@ Banner468x60
 ||tags.f5.com^
 ||ad.f6r7dq.com^
 ||dns.f97.xyz^
+||adserver.fa-mag.com^
 ||np-api.fa6155a11bce5eb246352747007ea5fc.com^
 ||safe.faah.be^
 ||electricvehiclefans.faberk.com^
@@ -204989,6 +204946,7 @@ Banner468x60
 ||static.gayporn.com^
 ||ucdn.gayporn.com^
 ||mrkrdz.gayrfederatlon.com^
+||prn.gaysme.com^
 ||a.ib.gazeta.pl^
 ||adv.gazeta.pl^
 ||analytics.gazeta.pl^
@@ -222023,6 +221981,7 @@ Banner468x60
 ||analytics.nolimitcity.com^
 ||plausible.nolog.cz^
 ||plausible.nolt.io^
+||go1.nolvadex.top^
 ||analytics-toolkit.nomad-coe.eu^
 ||metrics.nomade-aventure.com^
 ||trk.nomadgoods.com^
@@ -247761,6 +247720,7 @@ Banner468x60
 ||0va0.top^
 ||0vc.com^
 ||0vkzne1.com^
+||0vtx1gfc.xyz^
 ||0web.org^
 ||0wia.com^
 ||0wo6yhe3.skin^
@@ -252569,6 +252529,7 @@ Banner468x60
 ||736865726c6f636b.com^
 ||7373.net^
 ||7373a.com^
+||73771m3q.xyz^
 ||73780fbd309561e201a4aee9914d882d.org^
 ||737d62f0c1.com^
 ||7382paczka9320twoja.shop^
@@ -270929,6 +270890,7 @@ Banner468x60
 ||cheersuper.com^
 ||cheerswam.com^
 ||cheery-grocery.pro^
+||cheese08062025.shop^
 ||cheeseoverlordsaline.com^
 ||cheesestorecedarhurst.com^
 ||cheetah.com^
@@ -277320,6 +277282,7 @@ Banner468x60
 ||demobags.com^
 ||democats.org^
 ||democracianacional.org^
+||democratic072925.shop^
 ||democraticpeoplemeet.com^
 ||democratplayful.com^
 ||demodeglali.qpon^
@@ -278522,6 +278485,7 @@ Banner468x60
 ||discounttraumde.de^
 ||discountvault.club^
 ||discountzone-pl.shop^
+||discourage072925.shop^
 ||discover-tech.io^
 ||discoverculture.com^
 ||discoverdog.top^
@@ -280916,6 +280880,7 @@ Banner468x60
 ||earnmbrk-bxtyai.xyz^
 ||earnmydegree.com^
 ||earnshare.net^
+||earnvids05032026.shop^
 ||earplugmolka.com^
 ||eartabunseely.com^
 ||earth-daily-news.com^
@@ -282723,6 +282688,7 @@ Banner468x60
 ||enstatehelibus.com^
 ||ensueaged.com^
 ||ensuprecio.com^
+||ensure08062025.shop^
 ||ensurequiverlong.com^
 ||ensuresmall.icu^
 ||entail-insights.com^
@@ -284113,6 +284079,7 @@ Banner468x60
 ||excruciationparental.com^
 ||excsyrv.cn^
 ||excursiionline.ro^
+||excuse08062025.shop^
 ||exdirectopl.com^
 ||exdiroplect.com^
 ||exebasusion.org^
@@ -294673,6 +294640,7 @@ Banner468x60
 ||harassupwardscathedral.com^
 ||haravan.com^
 ||harbindsw.com^
+||harbor08062025.shop^
 ||harborcha.com^
 ||harborpro.com^
 ||harbouredge.digital^
@@ -306541,6 +306509,7 @@ Banner468x60
 ||laykni.com^
 ||laymancoder.com^
 ||laymanesprit.com^
+||layout08062025.shop^
 ||layoutmadeiradisc.com^
 ||lazacasino.com^
 ||lazalogistics.ph^
@@ -316566,6 +316535,7 @@ Banner468x60
 ||neglected-entry.com^
 ||neglected-recognition.pro^
 ||neglectedebb.com^
+||negligence072925.shop^
 ||negligible-device.pro^
 ||negligible-feedback.com^
 ||negoceantsier.com^
@@ -326899,6 +326869,7 @@ Banner468x60
 ||primuselektro.de^
 ||primvista.shop^
 ||primworks.site^
+||prince08062025.shop^
 ||princearthurherald.com^
 ||princeshrink.com^
 ||princewilliamreporter.com^
@@ -340910,6 +340881,7 @@ Banner468x60
 ||streamezzo.com^
 ||streamfavourpage.com^
 ||streamfyi.com^
+||streamhg05032026.shop^
 ||streaming-community.delivery^
 ||streamingace.com^
 ||streaminglauncher.com^
