@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Block those ads
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.6971
+! Version: 1.6972
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-08-17T03:47:59.519Z
+! Last modified: 2026-08-17T04:39:01.576Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -152158,6 +152158,12 @@ analytics-*.aasaam.com
 ||promotion.polarisoffice.com^
 ||newad.ifeng.com^
 ||sensors.larkplayerapp.com^
+||pubds.bid^
+||dmjwenkfqrncl.site^
+||huk5b1356qqm18p.cfd^
+||minty-statement.pro^
+||srxapahdausas.space^
+||tolvsoxmzazfb.online^
 ||direct-specific.com
 ||ad-host-backup-*.aliyuncs.com^
 ||reachableads-av.*.amazonaws.com^

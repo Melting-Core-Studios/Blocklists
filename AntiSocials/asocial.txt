@@ -1,45 +1,14 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1910
+! Version: 1.1911
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-08-17T03:48:03.452Z
+! Last modified: 2026-08-17T04:39:25.389Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
-elpinguino.com##div.site3-widget:has(> div.site3-widget-content > div.fb-page)
-ternopoliany.te.ua##.socialblock
-pornmedium.com##.d-flex > div.ml-auto:has(> a > i.fa-thumbs-up)
-gamefile.news#?#.pencraft > div.pencraft:has(> button > div:contains(Share))
-jayco.com##.row > div.col-12:has(> div.addthis_inline_share_toolbox)
-deti.mail.ru##div[data-logger="socialWidgets"]
-litres.ru##div[aria-modal][aria-label="Поделиться"] div[data-testid="referral__socnet--links"]
-cabedelo.pb.gov.br##.containerNewspaper-social
-cbsaustin.com###js-Social-Share-0
-coindoo.com##.share-this-post
-m.jd.co.th##.x-share
-okuyami-info.com###flexsocialbuttons
-t-online.de##section[data-testid="ArticleSharingBar.List"]
-spectator.co.uk##.b_ai
-store.ponparemall.com##.btnSns
-euroradio.fm##.view-icon-share
-atlasvpn.com##div[class^="share-section"]
-khersondaily.com##a[onclick^="shareEvent("]
-schwaebische.de###js-toggle-mobile-sharing
-blog.bitsrc.io##button > svg[class][width="29"][height="29"]
-money.pl##div[class^="sc-"] > div[data-st-area="obrazek_FB"]
-chillizet.pl,mtv.de###share-content
-hollywoodreporter.com##.social-container > .js-pgm-social-share
-cna.com.tw##.right_social_inpage
-pornxs.com##.social-tail
-fikircok.net###mobile-share-boxbottom
-bbc.com##.twite__share-button
-onet.pl#?#div[class] > span[class^="_"]:first-child:contains(/^Podziel się tym artykułem:$/)
 unian.net#?#div[style] > div.article-shares:upward(1)
-tripadvisor.de,tripadvisor.be,tripadvisor.ca,tripadvisor.co,tripadvisor.co.id,tripadvisor.co.uk,tripadvisor.com,tripadvisor.com.au,tripadvisor.com.br,tripadvisor.com.gr,tripadvisor.com.mx,tripadvisor.com.my,tripadvisor.com.sg,tripadvisor.com.tr,tripadvisor.com.tw,tripadvisor.es,tripadvisor.fr,tripadvisor.ie,tripadvisor.in,tripadvisor.it,tripadvisor.jp,tripadvisor.nl,tripadvisor.se##div[class^="memx-facebook-onetap-Facebook"]
-evvelcevap.com##body .snp-bld-showme
-lubernet.ru###popup-block
 123telugu.com#$#.cat-tags { display: none !important; }
 123telugu.com#$#.post-page-content { padding-bottom: 0 !important; }
 debate.com.mx#$#header { height: auto !important; }
