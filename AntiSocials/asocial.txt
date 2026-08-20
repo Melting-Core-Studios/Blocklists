@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1936
+! Version: 1.1937
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-08-20T14:33:54.128Z
+! Last modified: 2026-08-20T15:31:25.928Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -19757,6 +19757,7 @@ _social_footer_
 ##.tgla7-share
 ##.th-sharecounts
 ##.tha__socialItem
+##.thb-share-product
 ##.thb-social-links-container
 ##.thb-social-top
 ##.the-social-links
@@ -21482,6 +21483,7 @@ min.io##.footer-social-wrapper
 popsci.com##.footer-socials-wrapper
 investmentexecutive.com##.footer-top
 harborsweets.com##.footer-top-bar
+jpost.com##.footer-top-container-social-icons-wrapper
 goingawesomeplaces.com##.footer-widgets
 argonauts.ca,cfl.ca##.footer1
 newsclick.in##.footerContainer
@@ -21883,6 +21885,7 @@ dailymail.co.uk##.prevNextWrapper-1Vg7e
 opiumpulses.com##.product-nav-tabs-social
 inspiredtaste.net##.profile-icons
 thetruthaboutcars.com##.project-actions-header
+realestate.jpost.com##.prop_social
 sports.ndtv.com##.pst_scl
 androidheadlines.com##.push-notification
 cbn.com##.py-4.flex-wrap.flex
@@ -23110,8 +23113,15 @@ capital.gr##.controls
 tilestwra.com##.post-google-news-link
 rik.cy##.single-article__share-options
 glz.co.il###shareIcon
+bizportal.co.il##.a_footer_social
+maariv.co.il##.article-google-button-container
+maariv.co.il##.article-media-links-container
+bhol.co.il##.article_soci_bar
 mekomit.co.il##.foo_t_n_r_icon
+bhol.co.il##.google_preferences
 mekomit.co.il##.single_bottom_discovers_p1_share
+bhol.co.il##.soci_ul
+bhol.co.il##.whatsapp_con
 life.hu,origo.hu##.facebook-layer-box
 telex.hu##.fb-box
 szeretlekmagyarorszag.hu##.fbpage-like-szmo
