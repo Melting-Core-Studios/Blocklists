@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.2447
+! Version: 1.2448
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-08-21T17:30:30.524Z
+! Last modified: 2026-08-21T19:30:10.451Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -1192,6 +1192,7 @@
 ||dodgebugs.com^
 ||dogcollarfavourbluff.com^
 ||dollardelta.com^
+||dollarpuzzle.com^
 ||dollarthrill.com^
 ||dolphinsrule.com^
 ||domaincolumn.com^
@@ -6785,7 +6786,6 @@
 ||a8cv.www.iropuri.com^
 ||a8cv.www.mogecheck.jp^
 ||a8cv.www.monologue.watch^
-||a8cv.www.pascaljp.com^
 ||a8cv.www.sofastyle.jp^
 ||a8cv.www2.sundai.ac.jp^
 ||a8cv.xn--1lqs71d2law9k8zbv08f.tokyo^
@@ -238802,8 +238802,6 @@ dlsdk.appsflyer.com^
 ^webbehaviortracking.min.js^
 ^webtrekk.js^
 ||*-gdprlock^
-||adobetm.com^
-||fritz.box^
 ||000037.cc^
 ||00007.casino^
 ||0001.casino^
@@ -242605,6 +242603,7 @@ dlsdk.appsflyer.com^
 ||adobeforbusiness.com^
 ||adobeioruntime.net^
 ||adobetarget.com^
+||adobetm.com^
 ||adocean-global.com^
 ||adoducvew.com^
 ||adomv.com^
@@ -250701,6 +250700,7 @@ dlsdk.appsflyer.com^
 ||friendsofjacks.eu^
 ||fring.work^
 ||frisbeeburgerllc.com^
+||fritz.box^
 ||frizzhairforecast.com^
 ||frm.acuant.net^
 ||frog.tw^
@@ -253093,6 +253093,7 @@ dlsdk.appsflyer.com^
 ||kadam.network^
 ||kafekarachi.com^
 ||kairosfire.com^
+||kaishareresearch.com^
 ||kajot-casino.com^
 ||kakadu-casinos.org^
 ||kaktuzcasino.net^
@@ -256458,6 +256459,7 @@ dlsdk.appsflyer.com^
 ||pasastesintags.surf^
 ||pasastesintags.top^
 ||pasastesintaplmw.click^
+||pascaljp.com^
 ||passionchic.fr^
 ||passiondebordante.fr^
 ||passkeyadd.com^
