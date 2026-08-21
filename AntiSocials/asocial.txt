@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1945
+! Version: 1.1946
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-08-21T11:22:46.854Z
+! Last modified: 2026-08-21T12:39:38.758Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -13,6 +13,7 @@ unian.net#?#div[style] > div.article-shares:upward(1)
 123telugu.com#$#.post-page-content { padding-bottom: 0 !important; }
 debate.com.mx#$#header { height: auto !important; }
 debate.com.mx#$#body { padding-top: 70px !important; }
+soccerbox.me,soccerbox.*##.cat-soc-share
 rambler.ru##div[data-blocks="content_info"] + div[class^="container-"]
 rambler.ru#%#//scriptlet('remove-in-shadow-dom', 'div[data-blocks="content_info"] + div[class^="container-"]')
 vikna.tv##.section-share
@@ -374,7 +375,7 @@ bz-berlin.de##section[data-block-id="B.Z. folgen"]
 marketingturkiye.com.tr###thb_social_links_widget-4
 marketingturkiye.com.tr##.ci-ad
 drom.ru##div[data-app-root="review-single-body"] > div > div:has(> div > a[href^="https://vk.com/share.php"])
-soccerbox.me,soccerbox.*##.cat-soc-share
+nbabox.*,nbabox.co,soccerbox.me,soccerbox.*##.cat-soc-share
 thehealthy.com###pch-social-share-container
 fp1-siken.com,fp2-siken.com,fp3-siken.com,ap-siken.com,db-siken.com,fe-siken.com,itpassportsiken.com,nw-siken.com,pm-siken.com,sc-siken.com,sg-siken.com##.social-btn-list_mini
 webook.com##[id^="webook_social_"]
@@ -21399,6 +21400,7 @@ testbook.com##.fl-social
 thejc.com##.flex.gap-16.lg\:gap-8.items-center
 health.clevelandclinic.org##.flex.gap-rem24px
 freedomnews.tv##.flex.items-center.space-x-3
+tomshardware.com##.flexisites-social
 dailymail.co.uk##.flipboard
 techradar.com##.flipboard-icon
 thehackernews.com##.float-share
@@ -22590,6 +22592,7 @@ greatist.com,healthline.com,medicalnewstoday.com,psychcentral.com##hl-share-over
 icann.org##iti-share-icons
 newscenter.lbl.gov##lbl-icon-list
 discord.me##li.menu-link.d-xl-inline-block
+githubstatus.com##nav[aria-label="GitHub's Social Media Links"]
 gamesradar.com,guitarworld.com,pcgamer.com,techradar.com,tomsguide.com,tomshardware.com,windowscentral.com##p:has(> a[href^="https://news.google.com/publications/"])
 cyprus-mail.com##social-share-links
 galaxystore.samsung.com##span[class^="SnsPlugin_items_"]

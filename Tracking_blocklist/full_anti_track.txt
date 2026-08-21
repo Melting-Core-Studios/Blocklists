@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.2443
+! Version: 1.2444
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-08-21T08:42:28.745Z
+! Last modified: 2026-08-21T12:43:25.012Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -166885,6 +166885,7 @@
 ||trk.klclick2.com^
 ||trk.klclick3.com^
 ||popunhot1.blogspot.com^
+||remox.com^
 ||t.co^
 ||cdn.seline.com^
 ||analytics.xxcontent.lol^
@@ -238810,9 +238811,8 @@ dlsdk.appsflyer.com^
 ^webbehaviortracking.min.js^
 ^webtrekk.js^
 ||*-gdprlock^
-||*.2o7.net^
-||*.adobetm.com^
-||*.demdex.net^
+||adobetm.com^
+||fritz.box^
 ||000037.cc^
 ||00007.casino^
 ||0001.casino^
@@ -242614,7 +242614,6 @@ dlsdk.appsflyer.com^
 ||adobeforbusiness.com^
 ||adobeioruntime.net^
 ||adobetarget.com^
-||adobetm.com^
 ||adocean-global.com^
 ||adoducvew.com^
 ||adomv.com^

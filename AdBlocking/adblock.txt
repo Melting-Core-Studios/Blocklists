@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Block those ads
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.7036
+! Version: 1.7037
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-08-21T10:28:03.113Z
+! Last modified: 2026-08-21T12:39:26.860Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -173243,6 +173243,13 @@ analytics-*.aasaam.com
 ||promotion.polarisoffice.com^
 ||newad.ifeng.com^
 ||sensors.larkplayerapp.com^
+||dpojndcq.com^
+||guzbriirddblp.space^
+||iswgoktjsknme.space^
+||jugatemiscue.shop^
+||ojtifbykwnepb.website^
+||subcoolteenful.cyou^
+||zjbpxmmaudgkr.website^
 ||direct-specific.com
 ||ad-host-backup-*.aliyuncs.com^
 ||reachableads-av.*.amazonaws.com^
@@ -173642,6 +173649,7 @@ Banner468x60
 ||ads.emdee.ca^
 ||ads.emirates.net.ae^
 ||ads.epi.sk^
+||ads.epltalk.com^
 ||ads.eu.msn.com^
 ||ads.fairfax.com.au^
 ||ads.fastcomgroup.it^
@@ -173798,7 +173806,6 @@ Banner468x60
 ||ads1.msn.com^
 ||ads1.virtual-nights.com^
 ||ads10.speedbit.com^
-||ads180.com^
 ||ads2.femmefab.nl^
 ||ads2.gamecity.net^
 ||ads2.virtual-nights.com^
@@ -173909,6 +173916,7 @@ Banner468x60
 ||adv.webmd.com^
 ||adv.wp.pl^
 ||adv.yo.cz^
+||advariant.com^
 ||adventory.com^
 ||advert.bayarea.com^
 ||advert.dyna.ultraweb.hu^
@@ -174335,6 +174343,7 @@ Banner468x60
 ||fwcdn2.com^
 ||fxstyle.net^
 ||gadsbee.com^
+||galaxien.com^
 ||game-advertising-online.com^
 ||gamesites100.net^
 ||gamesites200.com^
@@ -174759,6 +174768,7 @@ Banner468x60
 ||reklama.mironet.cz^
 ||reklamcsere.hu^
 ||reklamdsp.com^
+||remox.com^
 ||report.ap.yandex-net.ru^
 ||republika.onet.pl^
 ||researchlog.dbresearch.com^
@@ -198308,7 +198318,6 @@ Banner468x60
 ||s.usea01.idio.episerver.net^
 ||trackers.peerius.episerver.net^
 ||yeticoolerprod.uswe01.productrecs.episerver.net^
-||ads.epltalk.com^
 ||metrics.eplus.dev^
 ||go.epn.bz^
 ||tag.epncloud.net^
@@ -257264,6 +257273,7 @@ Banner468x60
 ||ads-transfer.com^
 ||ads-vungle.com^
 ||ads01.com^
+||ads180.com^
 ||ads2.bid^
 ||ads2.xyz^
 ||ads2-adnow.com^
@@ -257765,7 +257775,6 @@ Banner468x60
 ||advantisgva.com^
 ||advanttechnology.com^
 ||advanziagroup.com^
-||advariant.com^
 ||advcake.online^
 ||advcake.ru^
 ||advdemo.com^
@@ -292357,7 +292366,6 @@ Banner468x60
 ||galatron.site^
 ||galavistabuzz.site^
 ||galaxbalilla.click^
-||galaxien.com^
 ||galaxy-love.com^
 ||galaxy-wallpaper.com^
 ||galaxyestates.in^
@@ -334097,7 +334105,6 @@ Banner468x60
 ||removalinsinuate.com^
 ||remove-binance.com^
 ||removepctrojan.com^
-||remox.com^
 ||remoyetum.com^
 ||rempartcapitange-ai.com^
 ||remsiejisfjwopaodloda.site^
