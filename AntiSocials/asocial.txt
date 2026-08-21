@@ -1,13 +1,15 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1941
+! Version: 1.1942
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-08-21T03:49:10.167Z
+! Last modified: 2026-08-21T06:40:20.332Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
+webtoons.com##ul.spi_area > li:nth-child(3)
+webtoons.com##.spi_area > li:not([class])
 unian.net#?#div[style] > div.article-shares:upward(1)
 123telugu.com#$#.cat-tags { display: none !important; }
 123telugu.com#$#.post-page-content { padding-bottom: 0 !important; }
@@ -5541,7 +5543,6 @@ zi.media##.line_at_button
 unian.ua,1plus1.video##.o-share-control
 tsn.ua##button[on="tap:share"]
 pornicom.com##.addthis-holder
-webtoons.com##ul.spi_area > li:nth-child(3)
 overclockers.ru##.soci-link
 m.webtoons.com###_shareArea
 vivat.de##.menu-social-media
@@ -7257,7 +7258,8 @@ fischundfleisch.com##.mobile-share-buttons
 newsru.com##img[onclick="shareinverter()"]
 boston25news.com,wftv.com,wsoctv.com,wpxi.com##.ui-social
 bgr.in,bollywoodlife.com,akcenty.com.ua,znaj.ua##a[href^="https://m.me/"]
-webtoons.com##.spi_area > li:not([class])
+webtoons.com##ul.spi_area > li:has(> a.ico_facebook)
+webtoons.com##ul.spi_area > li:has(> a.ico_twitter)
 yam.com##.lineShare
 em.com.br##.pull-xs-right > a[data-share="popup"][onclick^="eventoGAsocial("]
 filmfare.com,womanadvice.ru,femina.in###socialsticky
