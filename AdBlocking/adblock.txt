@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Block those ads
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.7055
+! Version: 1.7056
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-08-22T12:31:47.730Z
+! Last modified: 2026-08-22T13:31:01.578Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.1
 !
@@ -173211,13 +173211,18 @@ analytics-*.aasaam.com
 ||buyeasy.by^
 ||fwmrm.net^
 ||googletagservices.com^
+||holilymerida.com^
+||hvsfbiflxxx.com^
 ||imasdk.googleapis.com^
+||jokingflashlights.com^
+||limpywildorcins.cyou^
 ||monetag.com^
 ||ntv.io^
 ||ojrq.net^
 ||redirectingat.com^
 ||rubiconproject.com^
 ||videoplaza.tv^
+||weirderunwise.qpon^
 ||wpnrtnmrewunrtok.xyz^
 ||html-load.cc^
 ||srv.tunefindforfans.com^
@@ -173238,6 +173243,10 @@ analytics-*.aasaam.com
 @@||pics.porn300.com^
 @@||cdn*.porn300.com^
 @@||banner.dna.fi^
+||pysvfggnwzzf.com^
+||seasansheenie.cyou^
+||syrhftrrhcll.com^
+||weardogtiepirned.cfd^
 ||tivan.naver.com^
 ||veta.naver.com^
 ||imrworldwide.com^
@@ -173260,11 +173269,6 @@ analytics-*.aasaam.com
 ||promotion.polarisoffice.com^
 ||newad.ifeng.com^
 ||sensors.larkplayerapp.com^
-||holilymerida.com^
-||hvsfbiflxxx.com^
-||jokingflashlights.com^
-||limpywildorcins.cyou^
-||weirderunwise.qpon^
 ||direct-specific.com
 ||ad-host-backup-*.aliyuncs.com^
 ||reachableads-av.*.amazonaws.com^
