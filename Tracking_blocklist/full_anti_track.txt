@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.2470
+! Version: 1.2471
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-08-24T08:48:14.258Z
+! Last modified: 2026-08-24T10:39:40.619Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.1
 !
@@ -3130,6 +3130,7 @@
 ||analytics.firespring.com^
 ||analytics.formstack.com^
 ||analytics.genial.ly^
+||analytics.getlimy.ai^
 ||analytics.getsnworks.com^
 ||analytics.gokwik.co^
 ||analytics.gooogol.com^
@@ -3181,6 +3182,7 @@
 ||analytics.tout.com^
 ||analytics.unibuddy.co^
 ||analytics.unilogcorp.com^
+||analytics.upress.io^
 ||analytics.vanillaforums.com^
 ||analytics.veygo.co^
 ||analytics.vitalsignstracker.com^
@@ -49217,7 +49219,6 @@
 ||analytics.get-rebates.com^
 ||analytics.geteasysell.com^
 ||analytics.getflywheel.com^
-||analytics.getlimy.ai^
 ||analytics.getninjas.com.br^
 ||analytics.getpostman.com^
 ||analytics.getpostman.com.cdn.cloudflare.net^
