@@ -1,42 +1,14 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1955
+! Version: 1.1956
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-08-24T03:53:04.494Z
+! Last modified: 2026-08-24T04:43:18.074Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.1
 !
-businessnovinite.bg##.articleDetail_main > p:has(> strong > a[href^="https://"]:not([class]))
-auto.ru##div[role="button"]:has(svg.IconSvg_name_SvgShareOutline)
-hispanidad.com##.article-social
-theoatmeal.com##.floor2:has(> a[onclick^="copyToClipboard"])
-sadeczanin.info##.ant-typography.mt-1 > article.ant-typography > button
-kayserianadoluhaber.com.tr##.bg-slate-100 > .lg\:justify-between.lg\:gap-2
-bes.media##.socNetwork__grid
-change.org##ul[data-qa="share-actions"]
-darksidebooks.com.br##div[class*="productShareWrapper"]
-blog.ui.com##button + div:not([class],[id]):has(> div[class*="hoverable"] svg > path)
-livedoor.com##snsandcopy
-bombardir.ru,sports.ru##.result__shares-wrapper
-news.yahoo.co.jp##button[class^="CommentShareButton"]
-spectator.co.uk##span[class^="ContentPage"][class$="share-label"]
-hankyu-travel.com##.footerSnsList
-hoken-all.co.jp##.sidebar_content > div.single_widget
-premierleague.com##.socialShareSticky
-mathrubhumi.com###leftShareLinks > .social_icons_more
-blog.twitter.com##div[class*="share--icons"]
-seskocaeli.com##.info > .social
-asiatoday.co.kr##.sns_box_top > li:not([class]) + li:not([class])
-kino-hd720.club##.polno-share
-zalukaj.com##a[href="javascript:void(0)"][onclick^="return fb_share"]
-patreon.com##.fTSoXD > .iu8a4l-0 > .b0e4o3-0 > .vvigvw-0
-shariki-games.ru##a#link_test
-android-robot.com#?#.entry-info > div.entry-categories:has(> div.ya-share2)
 unian.net#?#div[style] > div.article-shares:upward(1)
-kriptom.com##.splash
-thegreatdaily.com#$#body { overflow: visible!important; }
 123telugu.com#$#.cat-tags { display: none !important; }
 123telugu.com#$#.post-page-content { padding-bottom: 0 !important; }
 debate.com.mx#$#header { height: auto !important; }
