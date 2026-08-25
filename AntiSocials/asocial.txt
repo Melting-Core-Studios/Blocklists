@@ -1,37 +1,14 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1962
+! Version: 1.1963
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-08-25T04:37:33.830Z
+! Last modified: 2026-08-25T05:30:20.483Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.1
 !
-oskol.city##.b_banner
-sflix.film##section > div.flex:has(> div[title^="share to"])
-cyberinsider.com##.ns-buttons-wrapper
-sakh.online#?#div[class^="SakhHome_header"]:contains(Социальные сети)
-voltupload.com###sharebuttons
-osharetecho.com##.snsArea02
-romir.ru#?#.news-single-item > div:has(> b:contains(Поделиться в соцсетях:))
-carriersedge.bamboohr.com##.fab-CardContent > div[class*="-root"]:is(:has([data-shrink]), :has([data-bhr-grim]))
-ddos-guard.net##.detail-post__socials
-popnroll.tv#?#li > button > span:contains(ツイート):upward(1)
-vorkers.com##ul > li[class$="-shareReview"]
-geass.jp##div[class^="sns"]
-invezz.com##.inv-news-sidebar-sharers > button
-focus.ua##.yo-social-panel
-downmienphi.com##footer > div#fanback
-alligator.io##.tweet-it
-buzzfeednews.com##ul[data-bfa="@l:Article-Top-Share;"]
-otvet.mail.ru##.action--share
-m.tagesspiegel.de##.ts-article-socials
-rambler.ru##.subscribe-widget
-sarkisozlerihd.com#?#.lyric-bottom > div.pull-right:has(> span.lyric-share)
-altyazi.net#?#.sidebar > div.widget_custom_html:has(> div.textwidget > div#sb_instagram)
 unian.net#?#div[style] > div.article-shares:upward(1)
-animesrbija.com##.ppsPopupShell
 123telugu.com#$#.cat-tags { display: none !important; }
 123telugu.com#$#.post-page-content { padding-bottom: 0 !important; }
 debate.com.mx#$#header { height: auto !important; }
