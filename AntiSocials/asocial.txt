@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1967
+! Version: 1.1968
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-08-26T03:53:39.781Z
+! Last modified: 2026-08-26T04:39:02.281Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.1
 !
@@ -13,40 +13,6 @@ unian.net#?#div[style] > div.article-shares:upward(1)
 123telugu.com#$#.post-page-content { padding-bottom: 0 !important; }
 debate.com.mx#$#header { height: auto !important; }
 debate.com.mx#$#body { padding-top: 70px !important; }
-change.org##div[data-qa="share-section-sunrise"]
-vistazo.com##.autor-social-footer > div.footer-right > div.social-icons
-n-tv.de##.single-post-meta-data__social-sharing
-muchohentai.com###custom_html-33
-shh-town-board.com##.vcex-social-share
-south-park-tv.fr##.king-share-dropdown
-workenter.gr##.sharer-icons
-popsci.com##.recurrent-share
-generacionxbox.com##.piopialobred
-onepiece-tube.com###sidebar > div.s-block:has(> div#fb-root)
-eltiempo.pe##ul[class^="DetalleNoticia_redes__"]
-googlecloudpresscorner.com##.wd_toolbar
-lachainemeteo.com##div[id^="btnShare"]
-seijiyama.jp##.sns-bar-bottom
-similarweb.com##.data-we-share
-dilbert.com##.js-social-btn
-elperiodico.com##.sharelinkfloat
-maggi.ru##.news-item__social
-m.fntimes.com##a[class^="share_"]
-kancolle-itsuumi.com##.header__socialList
-bolshoibelarus.by##div[class^="s2s_"]
-uztag.info,irtag.info,silkroadnews.org,kaztag.kz##.t-share
-mensxp.com##.art-social > .d-flex > a[role="button"]
-stumagz.com##a[onclick^="shareDialog("]
-mademyday.com##.ribbons
-hpe.com##.nxt-share-widget
-allcalidad.la###barraPlus1
-ebaumsworld.com##.miniMenu.slideDown > ul > li.twitter
-akormatik.com##.container > .social
-tsn.ua##ul[data-switch="share-post-bottom"]
-cnn.co.jp##li[id^="snsbtn_"]
-codenet.ru##.np-social-icons
-forum.eset.com,forums.laptopvideo2go.com##ul[data-controller="core.front.core.sharelink"]
-coronavirus-control.ru#?#.entry-content > div:has(> b:contains(Поделиться))
 rambler.ru##div[data-blocks="content_info"] + div[class^="container-"]
 rambler.ru#%#//scriptlet('remove-in-shadow-dom', 'div[data-blocks="content_info"] + div[class^="container-"]')
 vikna.tv##.section-share
@@ -74,9 +40,6 @@ j-cast.com#?##entry-content > div.align-justify:has(> div.align-inner-box > div.
 gurugurulog.com#?#.content > nav.section-box > ul.article-button > li.article-twitter:upward(2)
 finance.rambler.ru#?#div[class^="container-"] > div[class^="container-"]:has(> amp-social-share)
 adguard.info,adguard.com,adguard.app#$#.hello_from_adguard_advanced_protection_ios { display: none !important; }
-skillsyouneed.com##.syn-share-bar
-jalantikus.com##.floating-facebook
-promipool.de###pp_fb_popup_wrapper
 indianexpress.com##.social-icon
 unn.com.ua##body > div.fancybox-opened
 unn.com.ua##body > div.fancybox-opened + div.fancybox-overlay
