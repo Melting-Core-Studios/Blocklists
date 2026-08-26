@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Block those ads
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.7118
+! Version: 1.7119
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-08-26T09:39:35.138Z
+! Last modified: 2026-08-26T10:34:13.374Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.1
 !
@@ -173399,7 +173399,6 @@ analytics-*.aasaam.com
 ||fwmrm.net^
 ||googletagservices.com^
 ||imasdk.googleapis.com^
-||mangabolt.com^
 ||monetag.com^
 ||ntv.io^
 ||ojrq.net^
@@ -311531,6 +311530,7 @@ Banner468x60
 ||manduintug.store^
 ||manfam.co^
 ||manga18h.xyz^
+||mangabolt.com^
 ||mangacoin.net^
 ||mangaempress.com^
 ||mangal-rb.ru^
