@@ -1,37 +1,14 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1980
+! Version: 1.1981
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-08-29T03:06:25.015Z
+! Last modified: 2026-08-29T10:02:24.710Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.1
 !
-openwork.jp##.pagenation + aside.borderGray.mt-30.d-f.flex-ai-c
-library.parliament.gr##.edn_socialLinksRatingViewsWrapper > div.edn_clearFix
-gazetebirlik.com##.socialmedias-and-share-container
-auth0.com##button[href="#"][aria-label^="Share on"]
-emergency-live.com##.widget_bs-social-share
-stars.glavred.info##.navigation__share-btn
-nnn.ng##.sgsssb-social
-mensxp.com###share-result
-theyucatantimes.com##.main-left > div.social-icons
-trilltrill.jp##.personalityQuiz-ShareButtonList
-express.co.uk##.facebook-container
-ze.tt##.ph-sharing-wrapper
-kino.1tv.ru##.eump-share-social-items
-rurales.elpais.com.uy###socialicons
-gsk.com##.module-social
-gameost.net##.apsc-floating-sidebar
-app-how-to-use-it.com,rahim-soft.com##.social_icon > span[data-service]
-cwbaltimore.com,fox38corpuschristi.com,fox47.com,foxkansas.com,foxrichmond.com,kbsi23.com,kdsm17.com,raleighcw.com,star64.tv,wcti12.com,wpgh53.com,wutv29.com##.sd-main-hero-social
-n-tv.de##.social-services
-gameguru.ru##.jointCard-spotlight-social-buttons
 unian.net#?#div[style] > div.article-shares:upward(1)
-##.woo_share_buttons
-muz-tv.ru###social_popup_window
-@@||platform.twitter.com/widgets/follow_button.$domain=ura-inform.com
 123telugu.com#$#.cat-tags { display: none !important; }
 123telugu.com#$#.post-page-content { padding-bottom: 0 !important; }
 debate.com.mx#$#header { height: auto !important; }
