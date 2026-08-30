@@ -1,54 +1,14 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1983
+! Version: 1.1984
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-08-30T03:09:00.877Z
+! Last modified: 2026-08-30T09:45:20.427Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.1
 !
-fxstreet.*###fxs_socialmedia_bar_header
-vietnam.vn##.md\:justify-end .ant-btn:has(>.ant-btn-icon .anticon-share-alt)
-subrayado.com.uy##.article-body__share-buttons
-nestle.co.jp###block-da-vinci-code-social-bottom
-pointmedia.io#?#footer > div:contains(Поделиться)
-nc.ox-tv.co.jp##.container_sns
-veggie-einhorn.de##.dpsp-networks-btns-share
-entrepreneur.com###nativeshare
-kodansha.co.jp##div[class^="detail_share_"]
-1voice.gr##.footer-social-icons
-kincir.com##.share__float
-xn--r8jwklh769h2mc880dk1o431a.com##div[id^="snsbox"]
-prog-8.com##.blog-contents__share
-elinformador.com.co##.addtoany_container
-bcs-express.ru##div[data-id="share-socials"]
-moex.com##.new-moex-socials
-720pizle4.com##.film-icerik-paylas
-topwar.ru###shareline
-mufgamericas.com##.block--socialsharelinks
-mobareco.jp###text-37
-shikanoou-movie.jp##div[id^="sharaTxt"]
-m.timesofindia.com##div[class][data-ga^="ATF_share|"] + div
-amazon.*###swf-share-icon-container-mweb
-spy-family.net##.fvNav__share
-reseed.resemom.jp##.toolbar
-puppet.com##.pm-social--share
-oneindia.com##div[class*="light-share-"]
-hankodeasobu.com##div[style="float:left;"] > span[id$="Count"]
-theverge.com##.c-social-buttons__more
-tver.jp##.m-tw
-grafikerler.org##.maxmag_facebook_widget
-catalannews.com,scandinaviansoul.com##.element-socialbookmarks
-asiancorrespondent.com##.share-image
-instyle.hu###articleAuthorSide > #stickInArticle
-shz.de###whatsapp ~ #actions-fwid3
-utf.u-tokyo.ac.jp,osama-ranking-treasurechest.com,ksltv.com,choiz.me,tubxporn.com,zpppstop.ru##.share_link
-m.focus.de##.social_sticky
-||knopka.fishurl.ru
-epochtimes.jp#?#.sidebar >section[class="hidden-xs"]:has(> header > h3:contains(LINE NEWS))
 unian.net#?#div[style] > div.article-shares:upward(1)
-bestofthelist.com###cboxOverlay
 123telugu.com#$#.cat-tags { display: none !important; }
 123telugu.com#$#.post-page-content { padding-bottom: 0 !important; }
 debate.com.mx#$#header { height: auto !important; }
@@ -201,6 +161,7 @@ hurriyet.com.tr#@#.social-line
 ||developers.band.us/js/share/band-button.js^$third-party
 ||media.line.me/js/line-button.js^$third-party
 ||cp.news.search.daum.net/api/publish.json^
+||static.line-scdn.net/line_add_friends/edge/btn/
 ||biz.line.naver.jp/line_business/img/btn/addfriends_
 ||wp.com/biz.line.naver.jp/line_business/img/btn/addfriends_
 /wp-content/plugins/wp-tweet-button/*
