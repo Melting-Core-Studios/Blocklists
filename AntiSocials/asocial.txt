@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.1997
+! Version: 1.1998
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-09-03T16:56:32.720Z
+! Last modified: 2026-09-03T19:40:09.779Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.1
 !
@@ -13,6 +13,7 @@ unian.net#?#div[style] > div.article-shares:upward(1)
 123telugu.com#$#.post-page-content { padding-bottom: 0 !important; }
 debate.com.mx#$#header { height: auto !important; }
 debate.com.mx#$#body { padding-top: 70px !important; }
+paravi.jp,news.ntv.co.jp##.share-contents
 rambler.ru##div[data-blocks="content_info"] + div[class^="container-"]
 rambler.ru#%#//scriptlet('remove-in-shadow-dom', 'div[data-blocks="content_info"] + div[class^="container-"]')
 vikna.tv##.section-share
@@ -367,6 +368,7 @@ esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israel
 esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israelnationalnews.com,lifehacker.com,cgmagonline.com,gizmodo.com,gamerevolution.com,metro.co.uk,thurrott.com,stereogum.com,ign.com,newsweek.com,dailymail.co.uk,comingsoon.net,timesofisrael.com,nypost.com,9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,electrek.co#%#//scriptlet('remove-in-shadow-dom', 'div[data-spot-im-class="vote-links"] + span[class$="index__dot"]')
 cogconnected.com,echofm.online,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com##.comment__share > *
 cogconnected.com,echofm.online,antirez.com,comicbook.com,alexp.pl,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com###thread-share-bar
+primeirapagina.com.br##.wp-block-lazyblock-fale-com-o-pp--ms
 band.com.br##div.flex:has(> a[href^="https://www.facebook.com/sharer/"])
 kassir.ru##.ui-content > div:has(> ul > li > button[aria-label^="Поделиться"])
 sanspo.com##.SocialShare > button[class*="SocialShare"]:not([label="文字のサイズを変える"])
@@ -4961,7 +4963,7 @@ jimin.jp##a[data-sns]
 rawmanga.cc##.social_btn_share
 dmm.co.jp##.p-box-productInfo__detail__sns
 stylehaus.jp##.article__actions--social
-paravi.jp,news.ntv.co.jp##.share-contents
+paravi.jp##.share-contents
 arine.jp##li[class^="SnsBtn-"]:not(.SnsBtn-Like-square)
 mag.sendenkaigi.com##.sns_box_lt
 order-order.com##.mdi-share-variant
@@ -22612,6 +22614,7 @@ adticket.de##.c-ticket-fan__social-icons
 nebelspalter.ch##.ccm-element-social-share
 soeren-hentzschel.at##.circle-icons
 deutsche-startups.de##.connectButtons
+web.de##.content__share
 kurier.at##.coral-comment-shareButton
 hornoxe.com##.custom-html-widget
 express.de##.dm-articleUserActions

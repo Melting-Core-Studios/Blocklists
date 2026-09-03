@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.2518
+! Version: 1.2519
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-09-03T16:59:57.692Z
+! Last modified: 2026-09-03T19:43:17.963Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.1
 !
@@ -37195,7 +37195,6 @@
 ||cltr.willhaben.at^
 ||cmp2.channelpartner.de^
 ||cnt.wetteronline.de^
-||collector.orf.at^
 ||cpx.golem.de^
 ||cpxl.golem.de^
 ||d.rp-online.de^
@@ -58928,6 +58927,7 @@
 ||collector.kstptv5.com^
 ||collector.lunalabs.io^
 ||collector.omio.com^
+||collector.orf.at^
 ||collector.pabs.comcast.com^
 ||collector.plarium.com^
 ||collector.polarr.co^
