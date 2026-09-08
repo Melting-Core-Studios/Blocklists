@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Social
 ! Description: A blocklist that automatically updates every hour to include the latest developments
-! Version: 1.2015
+! Version: 1.2016
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-09-08T17:06:08.289Z
+! Last modified: 2026-09-08T19:53:17.743Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.1
 !
@@ -568,7 +568,6 @@ flixeo.tv##.fixed.right-4
 sexplex.com##div[data-tooltip="Share"]
 anime-loads.org##.social-btn-group
 sportiva.shueisha.co.jp##.share-button-b
-gdebenz.ru##.rss-share
 aleagues.com.au##.keepup-sharing
 breitbart.com##.bnn-social-follow
 sikkom.nl##div[data-testid="article-social-shares"]
@@ -6664,7 +6663,7 @@ dailysabah.com##.articles_social_media
 partnerkin.com,zutool.jp,jjan.kr,persol-tech-s.co.jp,ukranews.com##.article_social
 pensador.com,dicio.com.br,significados.com.br,dicionariodenomesproprios.com.br##.sg-social
 usnews.com##div[class*="SocialSharing"]
-gdebenz.ru,itoolab.com,investing.com###share-btn
+gdebenz.ru,gdebenz.org,itoolab.com,investing.com###share-btn
 redditery.com##h4 > .social[onclick]:not([onclick*="arguments"])
 prozoro.net.ua##.comments-items-button--repost
 vestinn.ru##.content__social
@@ -9421,7 +9420,7 @@ ernax.pro##body > #root ~ div.fixed.inset-0
 mahsunsports80.xyz##.floating-x
 mahsunsports80.xyz##.floating-telegram
 chillflix.lol#%#//scriptlet('trusted-click-element', 'button', 'containsText:Not now')
-gdebenz.ru###share-ask
+gdebenz.ru,gdebenz.org###share-ask
 farmaciasdesimilares.com##div[class*="wrapper_whatsapp"]
 10haber.net##.sospaylas
 genbank.ru##div[data-popup="socials"]
