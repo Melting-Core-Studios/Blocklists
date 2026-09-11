@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.2556
+! Version: 1.2557
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-09-11T18:15:05.713Z
+! Last modified: 2026-09-11T21:38:17.993Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.1
 !
@@ -51573,7 +51573,6 @@
 ||ban.alukah.net^
 ||ban.etherscan.com^
 ||ban.hiwit.com^
-||ban.tipsport.sk^
 ||ban.zab.ru^
 ||banagosealers.qpon^
 ||banan.cz^
@@ -251777,6 +251776,7 @@ dlsdk.appsflyer.com^
 ||stake.us^
 ||stakecasino-br.com^
 ||stakecasinoonline.fr^
+||stakegame.org^
 ||stamceldonatie.nl^
 ||stamped.io^
 ||stampix.com^
@@ -252723,6 +252723,7 @@ dlsdk.appsflyer.com^
 ||tips-geldverdienen.nl^
 ||tipsedu.in^
 ||tipsport.cz^
+||tipsport.sk^
 ||tiptopcoinop.com^
 ||tiptorro.de^
 ||tipwin.com^
