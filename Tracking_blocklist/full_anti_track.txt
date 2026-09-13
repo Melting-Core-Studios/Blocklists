@@ -1,10 +1,10 @@
 !
 ! Title: [ MCS ] Anti-Tracking
 ! Description: Blocklist that combines the workings of 
-! Version: 1.2562
+! Version: 1.2563
 ! Homepage: https://github.com/Melting-Core-Studios/Blocklists
 ! License: CC BY-SA 4.0
-! Last modified: 2026-09-12T22:54:12.843Z
+! Last modified: 2026-09-13T00:41:16.451Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.1
 !
@@ -3179,6 +3179,7 @@
 ||analytics.apnewsregistry.com^
 ||analytics.avanser.com.au^
 ||analytics.bestreviews.com^
+||analytics.bhaskarsaikia.in^
 ||analytics.bomiv.com^
 ||analytics.carbaselive.com^
 ||analytics.cincopa.com^
@@ -37833,6 +37834,7 @@
 ||applog.yiche.com^
 ||banana.le.com^
 ||bc.qunar.com^
+||cactus.jd.com^
 ||channel-analysis-js.gmw.cn^
 ||cherry.le.com^
 ||click.gamersky.com^
@@ -37853,10 +37855,12 @@
 ||gia.jd.com^
 ||gk.sina.cn^
 ||h5log.zongheng.com^
+||hermes.jd.com^
 ||huaxiang.eastmoney.com^
 ||idm.api.autohome.com.cn^
 ||improving.wuzhuiso.com^
 ||jcmonitor.xcar.com.cn^
+||log-h5.imdada.cn^
 ||log-upload-os.hoyolab.com^
 ||log-upload-os.hoyoverse.com^
 ||log.bitauto.com^
@@ -37869,6 +37873,8 @@
 ||log2.sina.cn^
 ||logs.51cto.com^
 ||logtake.weidian.com^
+||mercury.jd.com^
+||mllog.jd.com^
 ||msg.qy.net^
 ||netstat.yunnan.cn^
 ||p.data.cctv.com^
@@ -37907,7 +37913,9 @@
 ||track.tom.com^
 ||trackcommon.hujiang.com^
 ||uestat.video.qiyi.com^
+||uranus.jd.com^
 ||utrack.hexun.com^
+||wl.jd.com^
 ||zhihu-web-analytics.zhihu.com^
 ||zio.xcar.com.cn^
 ||zz.bdstatic.com^
@@ -74477,7 +74485,6 @@
 ||herdutmostslush.com^
 ||herjmttufhptm.online^
 ||hermes.hupu.com^
-||hermes.jd.com^
 ||hermichermicgenerationhers.com^
 ||hermitageinntn.com^
 ||hermoclarifytrips.qpon^
@@ -86139,7 +86146,6 @@
 ||mercury.akamaized.net^
 ||mercury.books.com.tw^
 ||mercury.coupang.com^
-||mercury.jd.com^
 ||mercury.jio.com^
 ||mercuryilluminatedprunes.com^
 ||mercurywork.shop^
@@ -87934,7 +87940,6 @@
 ||mljuevgeljymosb.com^
 ||mlkfloltdjhfh.site^
 ||mlllllllmmm.ovh^
-||mllog.jd.com^
 ||mlnbsdowzejzz.website^
 ||mlnxslqeaiano.online^
 ||mloearytfxebml.com^
@@ -115894,7 +115899,6 @@
 ||urablqistynjk.online^
 ||uralicchatot.com^
 ||uraminoverger.qpon^
-||uranus.jd.com^
 ||uraresceyx.shop^
 ||urasma.com^
 ||urazinekecklesflabel.qpon^
